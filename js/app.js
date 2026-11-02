@@ -20,26 +20,31 @@ function viewProgress(entry, v) {
 
 function renderMenu() {
   const wrap = $('#mapGroups'); wrap.innerHTML = '';
+  const groups = {};   // map.json 의 menuGroup 이 같은 지도는 한 묶음으로 (예: 노르웨이 총선 연도별)
   MAP_LIST.forEach(entry => {
     const meta = entry.meta, base = entry.folder ? `maps/${entry.folder}/` : '';
     if (entry.custom && !entry.thumb) entry.thumb = URL.createObjectURL(new Blob([entry.svgText], { type: 'image/svg+xml' }));
     const thumbSrc = entry.custom ? entry.thumb : base + (meta.svg || 'map.svg');
-    const sec = document.createElement('div'); sec.className = 'mgroup';
-    sec.innerHTML = `<div class="msec"><h2>${esc(meta.name)}</h2><span class="label">${esc(meta.subtitle || '')}</span></div><div class="cards"></div>`;
+    const gkey = meta.menuGroup || meta.id;
+    let sec = groups[gkey];
+    if (!sec) {
+      sec = groups[gkey] = document.createElement('div'); sec.className = 'mgroup';
+      sec.innerHTML = `<div class="msec"><h2>${esc(meta.menuGroup || meta.name)}</h2><span class="label">${esc(meta.menuGroup ? '연도를 고르세요' : (meta.subtitle || ''))}</span></div><div class="cards"></div>`;
+      wrap.appendChild(sec);
+    }
     const box = sec.querySelector('.cards');
     meta.views.forEach(v => {
       const { n, tot, asg } = viewProgress(entry, v);
       const [bx, by, bw, bh] = v.box, p = Math.max(bw, bh) * .06;
       const c = document.createElement('button'); c.className = 'card win' + (v.big ? ' big' : '');
-      c.innerHTML = `<div class="tb"><span class="t">${esc(v.name)}</span><span class="ctl"><i>—</i><i>❐</i><i>✕</i></span></div>` +
+      c.innerHTML = `<div class="tb"><span class="t">${esc(meta.cardName && meta.views.length === 1 ? meta.cardName : v.name)}</span><span class="ctl"><i>—</i><i>❐</i><i>✕</i></span></div>` +
         `<svg class="thumb" viewBox="${bx - p} ${by - p} ${bw + 2 * p} ${bh + 2 * p}" preserveAspectRatio="xMidYMid meet"><image href="${thumbSrc}" width="${meta.width}" height="${meta.height}"/></svg>` +
         (asg ? `<span class="tag">진행 중</span>` : '') +
-        `<div class="cb"><div class="meta">${esc(v.sub || '')} · ${meta.layout === 'presidential' ? `주 ${n} · 선거인단 ${tot}` : `선거구 ${n} · ${tot}석`}</div><div class="prog"><i style="width:${tot ? asg / tot * 100 : 0}%"></i></div></div>`;
+        `<div class="cb"><div class="meta">${[v.sub ? esc(v.sub) : '', meta.layout === 'presidential' ? `주 ${n} · 선거인단 ${tot}` : `선거구 ${n} · ${tot}석`].filter(Boolean).join(' · ')}</div><div class="prog"><i style="width:${tot ? asg / tot * 100 : 0}%"></i></div></div>`;
       c.onclick = e => { if (e.target.closest('.cdel')) { deleteCustom(meta.id); return; } location.hash = meta.id + '--' + v.key; };
       if (entry.custom) c.querySelector('.ctl').innerHTML = '<i class="cdel" title="지우기">✕</i>';
       box.appendChild(c);
     });
-    wrap.appendChild(sec);
   });
   // 내 지도 올리기 (YAPms의 Custom)
   const up = document.createElement('div'); up.className = 'mgroup';

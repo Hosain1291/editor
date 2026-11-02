@@ -235,6 +235,7 @@ function openView(v) {
   $('#menu').style.display = 'none'; $('#editor').classList.add('open');
   $('#mapTitle').textContent = v.key === 'all' ? `${MAP.name} — ${MAP.subtitle || ''}` : `${MAP.name} · ${v.name}`;
   $('#mapWinTitle').textContent = 'MAP · ' + v.name;
+  $('#presetBtn').hidden = !(MAP.presets && MAP.presets.length);
   $('#mapTag').textContent = 'THE NEW ORDER · ' + (MAP.tag || MAP.name);
   $('#pres').hidden = $('#presFoot').hidden = !isPres(); $('#chartSec').hidden = isPres();
   $('#spSeatLbl').textContent = isPres() ? '이 주의 선거인단 수' : '이 선거구 의석수';
@@ -256,6 +257,22 @@ function initEditor() {
     confirmBox('남은 곳 채우기', `아직 칠하지 않은 선거구를 모두 '${p.name}' 확정으로 칠해요.`, () => {
       snap(); mapIds.forEach(id => { const x = D(id); if (x.off || x.lock || used(x) || !allowedIn(p, id)) return; x.a = { [p.id]: seatsOf(id) }; x.m = selM != null ? selM : 0; delete x.pm; });
       paintAll(); refresh();
+    });
+  };
+  // 실제 결과 불러오기 (map.json 의 presets: 선거구별 {정당 이름: 의석})
+  $('#presetBtn').onclick = () => {
+    const ps = MAP.presets[0];
+    confirmBox(ps.name + ' 불러오기', `이 지도를 ${ps.name}로 채워요. 지금 칠한 내용은 바뀌지만 되돌리기로 돌아갈 수 있어요.`, () => {
+      snap(); const byName = Object.fromEntries(store.parties.map(p => [p.name, p.id])); const miss = new Set();
+      M.d = {};
+      for (const id in ps.d) {
+        if (!inMap[id]) continue;
+        const a = {}; for (const n in ps.d[id]) { const pid = byName[n]; if (pid) a[pid] = (a[pid] || 0) + ps.d[id][n]; else miss.add(n); }
+        const tot = Object.values(ps.d[id]).reduce((s, v) => s + v, 0); if (tot) store.seats[id] = tot;
+        M.d[id] = { a, m: 0 };
+      }
+      paintAll(); refresh();
+      toast(miss.size ? `목록에 없는 정당은 빼고 불러왔어요: ${[...miss].join(', ')}` : `${ps.name}를 불러왔어요.`);
     });
   };
   $('#clearMap').onclick = () => confirmBox('지도 초기화', '이 지도의 칠한 내용, 비활성, 잠금을 모두 지워요. 되돌리기로 복구할 수 있어요.', () => { snap(); M.d = {}; paintAll(); refresh(); });

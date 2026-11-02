@@ -1,0 +1,304 @@
+{
+ "id": "norway-2001",
+ "name": "노르웨이 총선",
+ "subtitle": "2001년 · 165석 · 과반 83",
+ "tag": "STORTINGSVALG 2001",
+ "menuGroup": "노르웨이 총선 (스토르팅)",
+ "cardName": "2001",
+ "svg": "../norway/map-19.svg",
+ "width": 1000,
+ "height": 1250.4,
+ "regions": {
+  "Norway": "노르웨이"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2001년",
+   "sub": "평준화 의석 8석 포함",
+   "regions": [
+    "Norway"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1250.4
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "노동당",
+   "color": "#f2462e",
+   "note": "Ap"
+  },
+  {
+   "name": "사회주의좌파당",
+   "color": "#d636d6",
+   "note": "SV"
+  },
+  {
+   "name": "중앙당",
+   "color": "#008a44",
+   "note": "Sp"
+  },
+  {
+   "name": "기독민주당",
+   "color": "#f2b33a",
+   "note": "KrF"
+  },
+  {
+   "name": "자유당",
+   "color": "#2bbfa6",
+   "note": "V"
+  },
+  {
+   "name": "보수당",
+   "color": "#4183db",
+   "note": "H"
+  },
+  {
+   "name": "진보당",
+   "color": "#0a3a84",
+   "note": "FrP"
+  },
+  {
+   "name": "해안당",
+   "color": "#5fa8c8",
+   "note": "Kyst"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "Finnmark": 4,
+  "Troms": 6,
+  "Nordland": 12,
+  "Nord-Trondelag": 6,
+  "Sor-Trondelag": 10,
+  "More-og-Romsdal": 10,
+  "Sogn-og-Fjordane": 5,
+  "Hordaland": 17,
+  "Rogaland": 11,
+  "Vest-Agder": 5,
+  "Aust-Agder": 4,
+  "Telemark": 6,
+  "Vestfold": 8,
+  "Buskerud": 7,
+  "Oppland": 7,
+  "Hedmark": 8,
+  "Akershus": 15,
+  "Oslo": 16,
+  "Ostfold": 8
+ },
+ "names": {
+  "Finnmark": "핀마르크",
+  "Troms": "트롬스",
+  "Nordland": "노를란",
+  "Nord-Trondelag": "노르트뢰넬라그",
+  "Sor-Trondelag": "쇠르트뢰넬라그",
+  "More-og-Romsdal": "뫼레오그롬스달",
+  "Sogn-og-Fjordane": "송노피오라네",
+  "Hordaland": "호르달란",
+  "Rogaland": "로갈란",
+  "Vest-Agder": "베스트아그데르",
+  "Aust-Agder": "아우스트아그데르",
+  "Telemark": "텔레마르크",
+  "Vestfold": "베스트폴",
+  "Buskerud": "부스케루",
+  "Oppland": "오플란",
+  "Hedmark": "헤드마르크",
+  "Akershus": "아케르스후스",
+  "Oslo": "오슬로",
+  "Ostfold": "외스트폴"
+ },
+ "labels": {
+  "Finnmark": "Finnmark",
+  "Troms": "Troms",
+  "Nordland": "Nordland",
+  "Nord-Trondelag": "Nord-Trøndelag",
+  "Sor-Trondelag": "Sør-Trøndelag",
+  "More-og-Romsdal": "Møre og Romsdal",
+  "Sogn-og-Fjordane": "Sogn og Fjordane",
+  "Hordaland": "Hordaland",
+  "Rogaland": "Rogaland",
+  "Vest-Agder": "Vest-Agder",
+  "Aust-Agder": "Aust-Agder",
+  "Telemark": "Telemark",
+  "Vestfold": "Vestfold",
+  "Buskerud": "Buskerud",
+  "Oppland": "Oppland",
+  "Hedmark": "Hedmark",
+  "Akershus": "Akershus",
+  "Oslo": "Oslo",
+  "Ostfold": "Østfold"
+ },
+ "regionOf": {
+  "Finnmark": "Norway",
+  "Troms": "Norway",
+  "Nordland": "Norway",
+  "Nord-Trondelag": "Norway",
+  "Sor-Trondelag": "Norway",
+  "More-og-Romsdal": "Norway",
+  "Sogn-og-Fjordane": "Norway",
+  "Hordaland": "Norway",
+  "Rogaland": "Norway",
+  "Vest-Agder": "Norway",
+  "Aust-Agder": "Norway",
+  "Telemark": "Norway",
+  "Vestfold": "Norway",
+  "Buskerud": "Norway",
+  "Oppland": "Norway",
+  "Hedmark": "Norway",
+  "Akershus": "Norway",
+  "Oslo": "Norway",
+  "Ostfold": "Norway"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "Finnmark": {
+     "노동당": 2,
+     "사회주의좌파당": 1,
+     "보수당": 1
+    },
+    "Troms": {
+     "노동당": 2,
+     "사회주의좌파당": 1,
+     "기독민주당": 1,
+     "보수당": 1,
+     "진보당": 1
+    },
+    "Nordland": {
+     "노동당": 3,
+     "사회주의좌파당": 2,
+     "중앙당": 1,
+     "기독민주당": 1,
+     "보수당": 2,
+     "진보당": 2,
+     "해안당": 1
+    },
+    "Nord-Trondelag": {
+     "노동당": 2,
+     "사회주의좌파당": 1,
+     "중앙당": 1,
+     "기독민주당": 1,
+     "진보당": 1
+    },
+    "Sor-Trondelag": {
+     "노동당": 3,
+     "사회주의좌파당": 2,
+     "중앙당": 1,
+     "기독민주당": 1,
+     "보수당": 2,
+     "진보당": 1
+    },
+    "More-og-Romsdal": {
+     "노동당": 2,
+     "사회주의좌파당": 1,
+     "중앙당": 1,
+     "기독민주당": 2,
+     "보수당": 2,
+     "진보당": 2
+    },
+    "Sogn-og-Fjordane": {
+     "노동당": 1,
+     "사회주의좌파당": 1,
+     "중앙당": 1,
+     "기독민주당": 1,
+     "보수당": 1
+    },
+    "Hordaland": {
+     "노동당": 3,
+     "사회주의좌파당": 2,
+     "중앙당": 1,
+     "기독민주당": 3,
+     "자유당": 1,
+     "보수당": 4,
+     "진보당": 3
+    },
+    "Rogaland": {
+     "노동당": 2,
+     "사회주의좌파당": 1,
+     "중앙당": 1,
+     "기독민주당": 2,
+     "보수당": 3,
+     "진보당": 2
+    },
+    "Vest-Agder": {
+     "노동당": 1,
+     "기독민주당": 2,
+     "보수당": 2
+    },
+    "Aust-Agder": {
+     "노동당": 1,
+     "기독민주당": 1,
+     "보수당": 1,
+     "진보당": 1
+    },
+    "Telemark": {
+     "노동당": 2,
+     "사회주의좌파당": 1,
+     "기독민주당": 1,
+     "보수당": 1,
+     "진보당": 1
+    },
+    "Vestfold": {
+     "노동당": 2,
+     "사회주의좌파당": 1,
+     "기독민주당": 1,
+     "보수당": 2,
+     "진보당": 2
+    },
+    "Buskerud": {
+     "노동당": 2,
+     "사회주의좌파당": 1,
+     "기독민주당": 1,
+     "보수당": 2,
+     "진보당": 1
+    },
+    "Oppland": {
+     "노동당": 3,
+     "사회주의좌파당": 1,
+     "중앙당": 1,
+     "보수당": 1,
+     "진보당": 1
+    },
+    "Hedmark": {
+     "노동당": 3,
+     "사회주의좌파당": 1,
+     "중앙당": 1,
+     "기독민주당": 1,
+     "보수당": 1,
+     "진보당": 1
+    },
+    "Akershus": {
+     "노동당": 3,
+     "사회주의좌파당": 2,
+     "중앙당": 1,
+     "기독민주당": 1,
+     "보수당": 5,
+     "진보당": 3
+    },
+    "Oslo": {
+     "노동당": 4,
+     "사회주의좌파당": 3,
+     "기독민주당": 1,
+     "자유당": 1,
+     "보수당": 5,
+     "진보당": 2
+    },
+    "Ostfold": {
+     "노동당": 2,
+     "사회주의좌파당": 1,
+     "기독민주당": 1,
+     "보수당": 2,
+     "진보당": 2
+    }
+   }
+  }
+ ]
+}
