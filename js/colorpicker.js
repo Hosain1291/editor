@@ -15,7 +15,18 @@ const cpHsvToHex = (h, s, v) => {
   return toHex([f(5), f(3), f(1)].map(x => x * 255));
 };
 const cpHex = () => cpHsvToHex(cp.h, cp.s, cp.v);
-const cpValid = s => /^#?[0-9a-f]{6}$/i.test(s.trim()) ? '#' + s.trim().replace('#', '').toLowerCase() : (/^#?[0-9a-f]{3}$/i.test(s.trim()) ? '#' + s.trim().replace('#', '').split('').map(c => c + c).join('').toLowerCase() : null);
+/* 어떤 색 표기든 #rrggbb 로 (크롬 스포이드가 rgb(...) 등으로 줄 때도 있어요) */
+const cpCanvasCtx = document.createElement('canvas').getContext('2d');
+const cpValid = s => {
+  if (s == null) return null; s = String(s).trim();
+  if (/^#?[0-9a-f]{6}$/i.test(s)) return '#' + s.replace('#', '').toLowerCase();
+  if (/^#?[0-9a-f]{3}$/i.test(s)) return '#' + s.replace('#', '').split('').map(c => c + c).join('').toLowerCase();
+  if (/^#?[0-9a-f]{8}$/i.test(s)) return '#' + s.replace('#', '').slice(0, 6).toLowerCase();
+  const m = s.match(/^rgba?\(\s*([\d.]+)[\s,]+([\d.]+)[\s,]+([\d.]+)/i);
+  if (m) return toHex([+m[1], +m[2], +m[3]]);
+  try { cpCanvasCtx.fillStyle = '#000001'; cpCanvasCtx.fillStyle = s; const f = cpCanvasCtx.fillStyle; if (f !== '#000001' || s === '#000001') return cpValid(f); } catch (e) { }
+  return null;
+};
 
 function cpRecent() { try { return JSON.parse(localStorage.getItem('tnomap:recentColors')) || []; } catch (e) { return []; } }
 function cpPushRecent(c) { try { const r = [c, ...cpRecent().filter(x => x !== c)].slice(0, 12); localStorage.setItem('tnomap:recentColors', JSON.stringify(r)); } catch (e) { } }
@@ -44,7 +55,7 @@ function cpSet(hex) { const c = cpValid(hex); if (!c) return; Object.assign(cp, 
 
 function cpSwatches() {
   const mk = list => list.map(c => `<button class="cpsw" style="background:${c}" data-c="${c}" title="${c}"></button>`).join('');
-  const mapCols = MAP && MAP.parties ? [...new Set(MAP.parties.flatMap(([, c]) => Array.isArray(c) ? c.slice(0, 3) : [c]))] : [];
+  const mapCols = MAP && MAP.parties ? [...new Set(MAP.parties.flatMap(e => partyEntry(e).colors.slice(0, 3)))] : [];
   $('#cpPresets').innerHTML = (mapCols.length ? `<div class="cp-sub">이 지도의 기본 정당 색</div>` + mk(mapCols) + `<div class="cp-sub">기타</div>` : '') + mk(CP_PRESETS);
   const r = cpRecent(); $('#cpRecent').innerHTML = r.length ? mk(r) : '<span class="hint" style="margin:0">아직 없어요</span>';
 }
@@ -85,12 +96,19 @@ function initColorPicker() {
 
   // ① 화면 스포이드
   $('#cpDrop').onclick = async () => {
-    // 크롬·엣지: 브라우저 기본 스포이드
+    // 크롬·엣지: 브라우저 기본 스포이드 (화면 어디서나)
     if (window.EyeDropper) {
-      try { const r = await new EyeDropper().open(); cpSet(r.sRGBHex); return; }
-      catch (e) { if (e && e.name === 'AbortError') return; }  // 막혀 있으면 아래 화면 캡처 방식으로
+      try {
+        const r = await new EyeDropper().open();
+        const c = cpValid(r && (r.sRGBHex || r.hex || r.color));
+        if (c) { cpSet(c); toast('색을 가져왔어요: ' + c); return; }
+        toast('가져온 색을 읽지 못했어요. 사이트 안 스포이드로 다시 골라 주세요.');
+      } catch (e) {
+        if (e && e.name === 'AbortError') return;   // Esc로 취소
+        toast('여기서는 브라우저 스포이드가 막혀 있어서 사이트 안 스포이드로 고를게요.');
+      }
     }
-    // 파이어폭스·사파리·휴대폰: 화면 공유 없이 이 페이지 안에서 바로 고르기
+    // 파이어폭스·사파리·휴대폰, 또는 막힌 경우: 이 페이지 안에서 바로 고르기 (화면 공유 없음)
     pageDropper();
   };
 
@@ -120,14 +138,7 @@ function initColorPicker() {
   $('#cpImgClose').onclick = () => { $('#cpImgWrap').hidden = true; };
 
   // ③ 지도에서 고르기
-  $('#cpMapBtn').onclick = () => {
-    const open = $$('.modal.open'); open.forEach(m => m.classList.remove('open'));
-    toast('지도에서 색을 가져올 선거구를 누르세요.');
-    mapPickCb = id => {
-      mapPickCb = null; open.forEach(m => m.classList.add('open'));
-      const c = fillColorOf(id); if (c) cpSet(c); else toast('이 선거구에서는 색을 읽지 못했어요.');
-    };
-  };
+  $('#cpMapBtn').onclick = () => pageDropper();   // 지도·정당 색 칸 등 사이트 안 어디든
 }
 
 /* 색 칸(버튼)을 색 고르기 창과 연결: <button class="cbtn" data-...> */
