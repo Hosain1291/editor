@@ -75,13 +75,15 @@ function showPNG() {
   const v = curView, { str, W, H: Hm } = mapSVG(), top = 230, W2 = Math.max(W, 900);
   const img = new Image();
   img.onload = () => {
-    const c = document.createElement('canvas'); c.width = W2; c.height = Hm + top; const x = c.getContext('2d');
-    x.fillStyle = '#081619'; x.fillRect(0, 0, c.width, c.height);
+    const K = 2;   // 고화질: 2배 크기로 저장
+    const c = document.createElement('canvas'); c.width = W2 * K; c.height = (Hm + top) * K; const x = c.getContext('2d'); x.scale(K, K);
+    x.imageSmoothingQuality = 'high';
+    x.fillStyle = '#081619'; x.fillRect(0, 0, W2, Hm + top);
     x.strokeStyle = '#0f262b'; x.lineWidth = 1;
-    for (let gx = 0; gx < W2; gx += 22) { x.beginPath(); x.moveTo(gx + .5, 0); x.lineTo(gx + .5, c.height); x.stroke(); }
-    for (let gy = 0; gy < c.height; gy += 22) { x.beginPath(); x.moveTo(0, gy + .5); x.lineTo(W2, gy + .5); x.stroke(); }
+    for (let gx = 0; gx < W2; gx += 22) { x.beginPath(); x.moveTo(gx + .5, 0); x.lineTo(gx + .5, Hm + top); x.stroke(); }
+    for (let gy = 0; gy < Hm + top; gy += 22) { x.beginPath(); x.moveTo(0, gy + .5); x.lineTo(W2, gy + .5); x.stroke(); }
     x.fillStyle = '#0a191d'; x.fillRect(0, 0, W2, top); x.fillStyle = '#8fe3e8'; x.fillRect(0, top - 3, W2, 3);
-    x.drawImage(img, (W2 - W) / 2, top);
+    x.drawImage(img, (W2 - W) / 2, top, W, Hm);
     const T = totals();
     x.fillStyle = '#8fe3e8'; x.font = '700 16px Rajdhani, sans-serif'; x.fillText('TNO MAP · THE NEW ORDER', 28, 40);
     x.fillStyle = '#eaffff'; x.font = '40px Orbit, sans-serif'; x.fillText(v.key === 'all' ? MAP.name : MAP.name + ' — ' + v.name, 28, 88);
@@ -101,7 +103,10 @@ function showPNG() {
     $('#imgOut').src = url; $('#mExport').classList.remove('open'); $('#mImg').classList.add('open');
     $('#pngDl').onclick = () => { const a = document.createElement('a'); a.href = url; a.download = fileBase() + '.png'; document.body.appendChild(a); a.click(); a.remove(); };
   };
-  img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(str);
+  // SVG를 2배 크기로 그려서 선과 글자가 또렷하게 나오게 해요
+  const end = str.indexOf('>'), head = str.slice(0, end).replace(/\swidth="[^"]*"/, ` width="${W * 2}"`).replace(/\sheight="[^"]*"/, ` height="${Hm * 2}"`);
+  const big = head + str.slice(end);
+  img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(big);
 }
 
 function importJSON(file) {
