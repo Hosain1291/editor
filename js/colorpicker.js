@@ -31,13 +31,20 @@ const cpValid = s => {
 function cpRecent() { try { return JSON.parse(localStorage.getItem('tnomap:recentColors')) || []; } catch (e) { return []; } }
 function cpPushRecent(c) { try { const r = [c, ...cpRecent().filter(x => x !== c)].slice(0, 12); localStorage.setItem('tnomap:recentColors', JSON.stringify(r)); } catch (e) { } }
 
+/* 색 고르기: 브라우저 기본 색 선택 창을 써요 (원래 방식) */
+let nativeColor = null;
 function openColorPicker(initial, cb) {
-  const c = cpValid(initial || '') || '#888888';
-  cp = { ...cpHexToHsv(c), old: c, cb };
-  $('#cpOld').style.background = c;
-  $('#cpImgWrap').hidden = true;
-  cpRender(false); cpSwatches();
-  $('#mColor').classList.add('open');
+  const c = (cpValid(initial || '') || '#888888').toLowerCase();
+  if (!nativeColor) {
+    nativeColor = document.createElement('input'); nativeColor.type = 'color';
+    nativeColor.style.cssText = 'position:fixed;width:1px;height:1px;opacity:0;border:0;padding:0;pointer-events:none';
+    document.body.appendChild(nativeColor);
+  }
+  const el = nativeColor, a = document.activeElement;
+  if (a && a.getBoundingClientRect) { const r = a.getBoundingClientRect(); el.style.left = r.left + 'px'; el.style.top = r.bottom + 'px'; }
+  el.value = c;
+  el.oninput = el.onchange = () => { const v = el.value; if (v) cb(v); };
+  try { el.showPicker(); } catch (e) { el.click(); }
 }
 
 function cpRender(fire = true) {
