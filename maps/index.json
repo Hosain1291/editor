@@ -63,6 +63,38 @@
   {
    "id": "norway-2001",
    "folder": "norway-2001"
+  },
+  {
+   "id": "norway-2005",
+   "folder": "norway-2005"
+  },
+  {
+   "id": "norway-2009",
+   "folder": "norway-2009"
+  },
+  {
+   "id": "norway-2013",
+   "folder": "norway-2013"
+  },
+  {
+   "id": "norway-2017",
+   "folder": "norway-2017"
+  },
+  {
+   "id": "norway-2021",
+   "folder": "norway-2021"
+  },
+  {
+   "id": "norway-2025",
+   "folder": "norway-2025"
+  },
+  {
+   "id": "norway-fylker",
+   "folder": "norway-fylker"
+  },
+  {
+   "id": "norway-kommuner",
+   "folder": "norway-kommuner"
   }
  ]
 }

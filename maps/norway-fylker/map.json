@@ -1,0 +1,144 @@
+{
+ "id": "norway-fylker",
+ "name": "노르웨이 15개 주",
+ "subtitle": "2024년 행정구역 · 주(fylke)별 1위 정당",
+ "tag": "FYLKER 2024",
+ "menuGroup": "노르웨이 현재 행정구역 (2024~)",
+ "cardName": "15개 주 (fylke)",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 1250.4,
+ "regions": {
+  "Norway": "노르웨이"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "15개 주",
+   "sub": "각 주의 1위 정당을 칠하세요",
+   "regions": [
+    "Norway"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1250.4
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "적색당",
+   "color": "#9c0b2a",
+   "note": "R"
+  },
+  {
+   "name": "사회주의좌파당",
+   "color": "#d636d6",
+   "note": "SV"
+  },
+  {
+   "name": "노동당",
+   "color": "#f2462e",
+   "note": "Ap"
+  },
+  {
+   "name": "중앙당",
+   "color": "#008a44",
+   "note": "Sp"
+  },
+  {
+   "name": "녹색당",
+   "color": "#5e9a32",
+   "note": "MDG"
+  },
+  {
+   "name": "기독민주당",
+   "color": "#f2b33a",
+   "note": "KrF"
+  },
+  {
+   "name": "자유당",
+   "color": "#2bbfa6",
+   "note": "V"
+  },
+  {
+   "name": "보수당",
+   "color": "#4183db",
+   "note": "H"
+  },
+  {
+   "name": "진보당",
+   "color": "#0a3a84",
+   "note": "FrP"
+  },
+  {
+   "name": "환자중심당",
+   "color": "#4f7fa8",
+   "note": "PF"
+  },
+  {
+   "name": "지역 명단",
+   "color": "#8c8c8c",
+   "note": "Lokale lister"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {},
+ "names": {
+  "f03": "오슬로",
+  "f11": "로갈란",
+  "f15": "뫼레오그롬스달",
+  "f18": "노를란",
+  "f31": "외스트폴",
+  "f32": "아케르스후스",
+  "f33": "부스케루",
+  "f34": "인란데",
+  "f39": "베스트폴",
+  "f40": "텔레마르크",
+  "f42": "아그데르",
+  "f46": "베스틀란",
+  "f50": "트뢰넬라그",
+  "f55": "트롬스",
+  "f56": "핀마르크"
+ },
+ "labels": {
+  "f03": "Oslo",
+  "f11": "Rogaland",
+  "f15": "Møre og Romsdal",
+  "f18": "Nordland",
+  "f31": "Østfold",
+  "f32": "Akershus",
+  "f33": "Buskerud",
+  "f34": "Innlandet",
+  "f39": "Vestfold",
+  "f40": "Telemark",
+  "f42": "Agder",
+  "f46": "Vestland",
+  "f50": "Trøndelag",
+  "f55": "Troms",
+  "f56": "Finnmark"
+ },
+ "regionOf": {
+  "f03": "Norway",
+  "f11": "Norway",
+  "f15": "Norway",
+  "f18": "Norway",
+  "f31": "Norway",
+  "f32": "Norway",
+  "f33": "Norway",
+  "f34": "Norway",
+  "f39": "Norway",
+  "f40": "Norway",
+  "f42": "Norway",
+  "f46": "Norway",
+  "f50": "Norway",
+  "f55": "Norway",
+  "f56": "Norway"
+ },
+ "menuLabel": "지도를 고르세요",
+ "labelName": true
+}

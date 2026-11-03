@@ -62,7 +62,7 @@ function labelOne(id) {
   if (code) {
     const a = document.createElementNS(NS, 'tspan'); a.textContent = id; a.setAttribute('x', t.getAttribute('x')); a.setAttribute('dy', '-0.15em'); t.appendChild(a);
     const b = document.createElementNS(NS, 'tspan'); b.textContent = S; b.setAttribute('x', t.getAttribute('x')); b.setAttribute('dy', '1.05em'); t.appendChild(b);
-  } else t.textContent = S;
+  } else t.textContent = MAP.labelName ? ((MAP.labels && MAP.labels[id]) || nameOf(id)) : S;
   t.setAttribute('fill', labelTextColor(id));
 }
 
@@ -77,7 +77,8 @@ function updateLabels() {
   if (labelsDirty) lg.querySelectorAll('text').forEach(t => delete t.dataset.ok);
   lg.querySelectorAll('text').forEach(t => {
     const id = t.dataset.id, c = labelInfo[id];
-    const show = inMap[id] && c && c.w / k > px * (MAP.labelCode ? 1.9 : 1.3) && c.h / k > px * lines * 1.05;
+    const wNeed = MAP.labelName ? 0.62 * ((MAP.labels && MAP.labels[id]) || id).length + 0.4 : (MAP.labelCode ? 1.9 : 1.3);
+    const show = inMap[id] && c && c.w / k > px * wNeed && c.h / k > px * lines * 1.05;
     t.style.display = show ? '' : 'none';
     if (show && !t.dataset.ok) { labelOne(id); t.dataset.ok = 1; }
   });
