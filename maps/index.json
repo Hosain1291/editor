@@ -255,6 +255,54 @@
   {
    "id": "myanmar",
    "folder": "myanmar"
+  },
+  {
+   "id": "de-1949",
+   "folder": "de-1949"
+  },
+  {
+   "id": "de-1953",
+   "folder": "de-1953"
+  },
+  {
+   "id": "de-1957",
+   "folder": "de-1957"
+  },
+  {
+   "id": "de-1961",
+   "folder": "de-1961"
+  },
+  {
+   "id": "de-1965",
+   "folder": "de-1965"
+  },
+  {
+   "id": "de-1969",
+   "folder": "de-1969"
+  },
+  {
+   "id": "de-1972",
+   "folder": "de-1972"
+  },
+  {
+   "id": "de-1976",
+   "folder": "de-1976"
+  },
+  {
+   "id": "de-1980",
+   "folder": "de-1980"
+  },
+  {
+   "id": "de-1983",
+   "folder": "de-1983"
+  },
+  {
+   "id": "de-1987",
+   "folder": "de-1987"
+  },
+  {
+   "id": "de-1990",
+   "folder": "de-1990"
   }
  ]
 }
