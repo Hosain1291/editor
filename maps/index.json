@@ -153,6 +153,14 @@
    "folder": "korea-sido-1978"
   },
   {
+   "id": "korea-sido-1981",
+   "folder": "korea-sido-1981"
+  },
+  {
+   "id": "korea-sido-1985",
+   "folder": "korea-sido-1985"
+  },
+  {
    "id": "korea-sgg-1958",
    "folder": "korea-sgg-1958"
   },
@@ -175,6 +183,14 @@
   {
    "id": "korea-sgg-1978",
    "folder": "korea-sgg-1978"
+  },
+  {
+   "id": "korea-sgg-1981",
+   "folder": "korea-sgg-1981"
+  },
+  {
+   "id": "korea-sgg-1985",
+   "folder": "korea-sgg-1985"
   }
  ]
 }
