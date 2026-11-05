@@ -50,9 +50,9 @@ function labelTextColor(id) {
   if (OPT.labelColor === 'white') return '#ffffff';
   if (OPT.labelColor === 'black') return '#000000';
   const x = M && M.d[id]; let c = TOSS;
-  if (x && x.off) c = '#0a1a1d';
+  if (x && x.off) c = THEME.off;
   else if (x) { const es = Object.entries(x.a).filter(([k, v]) => v > 0 && party(k)).sort((a, b) => b[1] - a[1]); if (es.length) c = party(es[0][0]).colors[mOf(x, es[0][0])]; }
-  return lum(c) > 150 ? '#071215' : '#ffffff';
+  return lum(c) > 150 ? THEME.dark : '#ffffff';
 }
 
 function labelOne(id) {

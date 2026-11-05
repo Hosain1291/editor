@@ -63,3 +63,8 @@ Settings → Pages → Branch `main`, 폴더 `/ (root)` → Save
 ### 의석 없는 지도 (지자체·주 1위 정당)
 - `"labelName": true` → 지도 위에 의석수 대신 지역 이름을 써요 (`labels` 값 사용).
 - `"menuLabel"` → 메뉴 묶음 제목 옆 안내 문구 (기본: "연도를 고르세요").
+
+### 테마 (TNO / TFR)
+- 메뉴 위쪽 또는 옵션 창에서 고를 수 있어요. 고른 테마는 브라우저에 저장돼요.
+- `css/theme-tfr.css` 는 `css/style.css` 에서 색만 바꿔 자동으로 만든 파일이에요. style.css 를 고친 뒤 `python3 tools/make-tfr.py` 로 다시 만들어요.
+- 지도·내보내기에 쓰는 색은 `js/theme.js` 의 `THEMES` 에 있어요.

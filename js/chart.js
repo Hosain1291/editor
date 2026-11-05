@@ -44,14 +44,14 @@ function renderChart(T) {
       a0 = a1;
     });
     const mA = -Math.PI / 2 + T.maj / T.all * Math.PI * 2;
-    out += `<line x1="${Math.cos(mA) * (r0 - .05)}" y1="${Math.sin(mA) * (r0 - .05)}" x2="${Math.cos(mA) * (R + .05)}" y2="${Math.sin(mA) * (R + .05)}" stroke="#eaffff" stroke-width=".025"/>`;
-    out += `<text y=".08" text-anchor="middle" font-family="Rajdhani,sans-serif" font-weight="700" font-size=".32" fill="#eaffff">${T.all}</text><text y=".26" text-anchor="middle" font-size=".1" fill="#6f9ea2">과반 ${T.maj}</text>`;
+    out += `<line x1="${Math.cos(mA) * (r0 - .05)}" y1="${Math.sin(mA) * (r0 - .05)}" x2="${Math.cos(mA) * (R + .05)}" y2="${Math.sin(mA) * (R + .05)}" stroke="${THEME.text}" stroke-width=".025"/>`;
+    out += `<text y=".08" text-anchor="middle" font-family="Rajdhani,sans-serif" font-weight="700" font-size=".32" fill="${THEME.text}">${T.all}</text><text y=".26" text-anchor="middle" font-size=".1" fill="${THEME.mute}">과반 ${T.maj}</text>`;
     pie.innerHTML = out;
   }
   if (chart === 'hemi') {
     const S = hemiSeats(T.all), cols = seatColors(T);
     hs.innerHTML = S.map((s, i) => `<circle cx="${s.x.toFixed(4)}" cy="${s.y.toFixed(4)}" r="${s.rad.toFixed(4)}" fill="${cols[i] || TOSS}"/>`).join('') +
-      `<text x="0" y="-.08" text-anchor="middle" font-family="Rajdhani,sans-serif" font-weight="700" font-size=".28" fill="#eaffff">${T.all}</text><text x="0" y=".02" text-anchor="middle" font-size=".085" fill="#6f9ea2">과반 ${T.maj}</text>`;
+      `<text x="0" y="-.08" text-anchor="middle" font-family="Rajdhani,sans-serif" font-weight="700" font-size=".28" fill="${THEME.text}">${T.all}</text><text x="0" y=".02" text-anchor="middle" font-size=".085" fill="${THEME.mute}">과반 ${T.maj}</text>`;
   } else {
     bar.innerHTML = '';
     store.parties.forEach(p => T.mg[p.id].forEach((v, i) => {

@@ -1,0 +1,9 @@
+"""TFR 테마 CSS 만들기: python3 tools/make-tfr.py  (css/style.css → css/theme-tfr.css)"""
+import re
+CM={'#0a171a': '#140e0b', '#eaffff': '#fff1e4', '#8fe3e8': '#f07a32', '#0a191d': '#1a1210', '#06100f': '#0c0807', '#6fd6dc': '#e8692a', '#123238': '#2e1a12', '#0f262b': '#1d1310', '#071215': '#0f0b0a', '#2c6e74': '#7a3e24', '#081619': '#120d0b', '#ff7a88': '#ffc24a', '#e06070': '#e0482c', '#1d5a60': '#6a2c14', '#e6ffff': '#fff1e4', '#d86a78': '#c98a6a', '#d3f1f2': '#f2e3d3', '#6f9ea2': '#a68b78', '#2c4f55': '#5a3a2c', '#1f4a50': '#4a2c20', '#1d3a40': '#3b2b25', '#1a3a40': '#3a2a24', '#12313a': '#2a1a14', '#10292e': '#22160f', '#0f2429': '#1f1714', '#0e2125': '#1c1411', '#0d2328': '#1e1511', '#0d2227': '#1d1410', '#0b1f23': '#180f0c', '#0b1b1f': '#17110f', '#0a1a1d': '#16100d'}
+EXTRA='\n/* TFR 덧칠: 불길 그라데이션 띠와 거친 질감 */\nhtml,body{background-image:radial-gradient(ellipse at 50% 120%,#5a1e0a55,transparent 60%),linear-gradient(#1d1310 1px,transparent 1px),linear-gradient(90deg,#1d1310 1px,transparent 1px);background-size:100% 100%,28px 28px,28px 28px;background-attachment:fixed}\n.tb{background:linear-gradient(#3a1a0c,#1a0f0a);text-transform:none}\n.mhead h1{letter-spacing:.02em;text-transform:uppercase;background:linear-gradient(#ffd27a,#f07a32 55%,#c0301a);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none;filter:drop-shadow(0 0 12px #f07a3266)}\nhtml .card .thumb image{filter:sepia(1) saturate(1.6) hue-rotate(-18deg) brightness(.95)}\n.mhead{border-image:linear-gradient(90deg,#c0301a,#f07a32,#ffc24a) 1}\n'
+s=open('css/style.css').read()
+t=re.sub(r'#[0-9a-fA-F]{6}',lambda m:CM.get(m.group(0).lower(),m.group(0)),s)
+t=t.replace("--title:'Orbit','Rajdhani','IBM Plex Sans KR',sans-serif","--title:'Rajdhani','IBM Plex Sans KR',sans-serif")
+hdr="/* TFR (The Fire Rises) 테마 — style.css 를 바탕으로 색만 불씨·그을음 색으로 바꾼 파일.\n   style.css 를 고치면 tools/make-tfr.py 로 다시 만들어요. */\n"
+open('css/theme-tfr.css','w').write(hdr+t+EXTRA)

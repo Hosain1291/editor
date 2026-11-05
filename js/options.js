@@ -6,7 +6,7 @@ const OPT_DEFAULT = {
   tooltip: true, leans: true, lockMap: false, leave: 'ask'
 };
 const LABEL_PX = [9, 11, 13, 16, 20];
-const STROKE_COLORS = { pink: '#d86a78', bg: '#081619', white: '#e6fbfb', black: '#000000', cyan: '#8fe3e8' };
+const STROKE_COLORS = { pink: THEME.stroke, bg: THEME.sea, white: '#e6fbfb', black: '#000000', cyan: THEME.frame };
 let OPT = { ...OPT_DEFAULT };
 try { Object.assign(OPT, JSON.parse(localStorage.getItem('tnomap:options')) || {}); } catch (e) { }
 const saveOpt = () => { try { localStorage.setItem('tnomap:options', JSON.stringify(OPT)); } catch (e) { } };
@@ -28,13 +28,16 @@ function renderOptions() {
   const seg = (key, items) => `<div class="seg" data-k="${key}">${items.map(([v, t]) => `<button data-v="${v}" class="${String(OPT[key]) === String(v) ? 'on' : ''}">${t}</button>`).join('')}</div>`;
   const tog = (key, t, sub) => `<label class="tog"><span><b>${t}</b>${sub ? `<small>${sub}</small>` : ''}</span><input type="checkbox" data-k="${key}" ${OPT[key] ? 'checked' : ''}><i></i></label>`;
   $('#optBody').innerHTML = `
+   <div class="ogrp"><div class="olab">테마</div>
+    <div class="orow"><span>화면 테마</span><div class="seg themeSeg"><button data-theme="tno" class="${THEME_ID === 'tno' ? 'on' : ''}">TNO</button><button data-theme="tfr" class="${THEME_ID === 'tfr' ? 'on' : ''}">TFR</button></div></div>
+    <div class="hint" style="margin:-2px 0 4px">TNO는 하늘색 홀로그램, TFR(The Fire Rises)은 불씨·그을음 색이에요.</div></div>
    <div class="ogrp"><div class="olab">지도 글자</div>
     <div class="orow"><span>지도 숫자</span>${seg('labels', [[true, 'YES'], [false, 'NO']])}</div>
     <div class="hint" style="margin:-2px 0 4px">선거구 위에 의석수(미국은 주 약자도)를 보여줘요. 위쪽 '숫자' 버튼으로도 바꿀 수 있어요.</div>
     <div class="orow"><span>글자 크기</span>${seg('labelSize', [[0, '아주 작게'], [1, '작게'], [2, '보통'], [3, '크게'], [4, '아주 크게']])}</div>
     <div class="orow"><span>글자 색</span>${seg('labelColor', [['auto', '자동'], ['white', '흰색'], ['black', '검은색']])}</div></div>
    <div class="ogrp"><div class="olab">경계선</div>
-    <div class="orow"><span>경계선 색</span>${seg('stroke', [['pink', '분홍'], ['cyan', '하늘'], ['white', '흰색'], ['black', '검은색'], ['bg', '배경색']])}</div>
+    <div class="orow"><span>경계선 색</span>${seg('stroke', [['pink', '기본'], ['cyan', '테마색'], ['white', '흰색'], ['black', '검은색'], ['bg', '배경색']])}</div>
     <div class="orow"><span>경계선 굵기</span><input type="range" min="0" max="3" step="0.25" value="${OPT.strokeW}" data-k="strokeW"><b class="num" id="swv">${Math.round(OPT.strokeW * 100)}%</b></div>
     ${tog('coast', '해안선 표시', '바깥 경계를 흰 선으로 강조해요')}</div>
    <div class="ogrp"><div class="olab">보기</div>

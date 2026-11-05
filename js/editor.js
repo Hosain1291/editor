@@ -236,7 +236,7 @@ function openView(v) {
   $('#mapTitle').textContent = v.key === 'all' ? `${MAP.name} — ${MAP.subtitle || ''}` : `${MAP.name} · ${v.name}`;
   $('#mapWinTitle').textContent = 'MAP · ' + v.name;
   $('#presetBtn').hidden = !(MAP.presets && MAP.presets.length);
-  $('#mapTag').textContent = 'THE NEW ORDER · ' + (MAP.tag || MAP.name);
+  $('#mapTag').textContent = THEME.full + ' · ' + (MAP.tag || MAP.name);
   $('#pres').hidden = $('#presFoot').hidden = !isPres(); $('#chartSec').hidden = isPres();
   $('#spSeatLbl').textContent = isPres() ? '이 주의 선거인단 수' : '이 선거구 의석수';
   paintAll(); refresh(); updTag();

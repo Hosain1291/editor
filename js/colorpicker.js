@@ -192,14 +192,14 @@ function rasterMap() {
     }
     // 화면과 같은 선 색·굵기
     clone.querySelectorAll('#g path').forEach(p => {
-      p.setAttribute('stroke', p.classList.contains('lock') ? '#8fe3e8' : p.classList.contains('ctx') ? '#2c4f55' : strokeColor());
+      p.setAttribute('stroke', p.classList.contains('lock') ? THEME.frame : p.classList.contains('ctx') ? THEME.ctxStroke : strokeColor());
       p.setAttribute('stroke-width', (0.6 * vb.w / r.width).toFixed(3)); p.setAttribute('fill-rule', 'evenodd');
       if (p.classList.contains('ctx')) p.setAttribute('fill', CTX_FILL);
     });
     const img = new Image();
     img.onload = () => {
       const c = document.createElement('canvas'); c.width = Math.round(r.width * dpr); c.height = Math.round(r.height * dpr);
-      const x = c.getContext('2d'); x.fillStyle = '#081619'; x.fillRect(0, 0, c.width, c.height);
+      const x = c.getContext('2d'); x.fillStyle = THEME.sea; x.fillRect(0, 0, c.width, c.height);
       x.drawImage(img, 0, 0, c.width, c.height); res({ c, r, dpr });
     };
     img.onerror = () => res(null);

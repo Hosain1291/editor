@@ -5,7 +5,7 @@ const isPres = () => MAP && MAP.layout === 'presidential';
 
 function portraitSVG(color) {
   // 실제 인물 사진 대신 쓰는 실루엣
-  return `<svg viewBox="0 0 58 64"><rect width="58" height="64" fill="${mixC(color, '#071215', .55)}"/>
+  return `<svg viewBox="0 0 58 64"><rect width="58" height="64" fill="${mixC(color, THEME.dark, .55)}"/>
     <circle cx="29" cy="24" r="11" fill="${mixC(color, '#e6fbfb', .25)}"/>
     <path d="M8 64 C10 44 20 39 29 39 C38 39 48 44 50 64 Z" fill="${mixC(color, '#e6fbfb', .25)}"/></svg>`;
 }
@@ -49,7 +49,7 @@ function renderPres(T) {
 
   // 정당별 합계
   $('#pSplit').innerHTML = `<h5>PARTY SPLIT</h5>` + store.parties.map(p => `<div style="color:${p.colors[1]}"><span>${esc(p.name)}</span><span>${T.t[p.id]}</span></div>`).join('') +
-    `<div style="color:var(--mute)"><span>경합</span><span>${T.toss}</span></div><div style="color:#eaffff;border-top:1px solid var(--line2);margin-top:2px"><span>합계</span><span>${T.all}</span></div>`;
+    `<div style="color:var(--mute)"><span>경합</span><span>${T.toss}</span></div><div style="color:var(--text);border-top:1px solid var(--line2);margin-top:2px"><span>합계</span><span>${T.all}</span></div>`;
 }
 
 function initPres() {
