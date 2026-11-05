@@ -62,7 +62,8 @@ function labelOne(id) {
   if (code) {
     const a = document.createElementNS(NS, 'tspan'); a.textContent = id; a.setAttribute('x', t.getAttribute('x')); a.setAttribute('dy', '-0.15em'); t.appendChild(a);
     const b = document.createElementNS(NS, 'tspan'); b.textContent = S; b.setAttribute('x', t.getAttribute('x')); b.setAttribute('dy', '1.05em'); t.appendChild(b);
-  } else t.textContent = MAP.labelName ? ((MAP.labels && MAP.labels[id]) || nameOf(id)) : S;
+  } else if (MAP.hideSeatOne && S <= 1) t.textContent = '';
+  else t.textContent = MAP.labelName ? ((MAP.labels && MAP.labels[id]) || nameOf(id)) : S;
   t.setAttribute('fill', labelTextColor(id));
 }
 
