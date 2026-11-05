@@ -1,8 +1,8 @@
-/* 테마: TNO (The New Order, 하늘색 홀로그램) / TFR (The Fire Rises, 불씨·그을음)
+/* 테마: TNO (The New Order, 하늘색 홀로그램) / TFR (The Fire Rises, 네온 마젠타 신스웨이브)
    head 에서 먼저 읽혀서 화면이 깜빡이지 않게 테마 CSS 를 바로 켜요. */
 const THEMES = {
   tno: { name: 'TNO', full: 'THE NEW ORDER', desc: 'TNO의 선거지도를 만들어보세요', toss: '#1d3a40', ctx: '#0e2125', sea: '#081619', grid: '#0f262b', head: '#0a191d', frame: '#8fe3e8', text: '#eaffff', mute: '#6f9ea2', stroke: '#d86a78', ctxStroke: '#2c4f55', off: '#0a1a1d', dark: '#071215' },
-  tfr: { name: 'TFR', full: 'THE FIRE RISES', desc: 'TFR의 선거지도를 만들어보세요', toss: '#3b2b25', ctx: '#1c1411', sea: '#120d0b', grid: '#1d1310', head: '#1a1210', frame: '#f07a32', text: '#fff1e4', mute: '#a68b78', stroke: '#c98a6a', ctxStroke: '#5a3a2c', off: '#16100d', dark: '#0f0b0a' }
+  tfr: { name: 'TFR', full: 'THE FIRE RISES', desc: 'TFR의 선거지도를 만들어보세요', toss: '#2a1238', ctx: '#120620', sea: '#07010d', grid: '#2a0838', head: '#0d0416', frame: '#ff3ce6', text: '#ffffff', mute: '#b48ccc', stroke: '#d65cf0', ctxStroke: '#4a1e60', off: '#0e0518', dark: '#05000a' }
 };
 let THEME_ID = 'tno';
 try { THEME_ID = localStorage.getItem('tnomap:theme') || 'tno'; } catch (e) { }
