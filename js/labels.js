@@ -77,7 +77,7 @@ function updateLabels() {
   if (labelsDirty) lg.querySelectorAll('text').forEach(t => delete t.dataset.ok);
   lg.querySelectorAll('text').forEach(t => {
     const id = t.dataset.id, c = labelInfo[id];
-    const wNeed = MAP.labelName ? 0.62 * ((MAP.labels && MAP.labels[id]) || id).length + 0.4 : (MAP.labelCode ? 1.9 : 1.3);
+    const wNeed = MAP.labelName ? [...((MAP.labels && MAP.labels[id]) || id)].reduce((s, ch) => s + (ch.charCodeAt(0) > 0x2e80 ? 1 : 0.62), 0.4) : (MAP.labelCode ? 1.9 : 1.3);
     const show = inMap[id] && c && c.w / k > px * wNeed && c.h / k > px * lines * 1.05;
     t.style.display = show ? '' : 'none';
     if (show && !t.dataset.ok) { labelOne(id); t.dataset.ok = 1; }

@@ -1,4 +1,4 @@
-# TNO map
+# editor
 
 YAPms처럼 선거구를 칠해 보는 한국어 선거 지도 시뮬레이터 (TNO 테마).
 

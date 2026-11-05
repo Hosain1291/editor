@@ -85,7 +85,7 @@ function showPNG() {
     x.fillStyle = '#0a191d'; x.fillRect(0, 0, W2, top); x.fillStyle = '#8fe3e8'; x.fillRect(0, top - 3, W2, 3);
     x.drawImage(img, (W2 - W) / 2, top, W, Hm);
     const T = totals();
-    x.fillStyle = '#8fe3e8'; x.font = '700 16px Rajdhani, sans-serif'; x.fillText('TNO MAP · THE NEW ORDER', 28, 40);
+    x.fillStyle = '#8fe3e8'; x.font = '700 16px Rajdhani, sans-serif'; x.fillText('EDITOR · THE NEW ORDER', 28, 40);
     x.fillStyle = '#eaffff'; x.font = '40px Orbit, sans-serif'; x.fillText(v.key === 'all' ? MAP.name : MAP.name + ' — ' + v.name, 28, 88);
     x.fillStyle = '#6f9ea2'; x.font = '18px "IBM Plex Sans KR", sans-serif';
     x.fillText(isPres() ? `선거인단 ${T.all} · 당선선 ${T.maj} · 경합 ${T.toss}` : `총 ${T.all}석 · 과반 ${T.maj}석 · 경합 ${T.toss}석`, 28, 120);
@@ -123,7 +123,7 @@ function importJSON(file) {
       const v = (j.view && viewOf(j.view)) || curView;
       if (v !== curView) location.hash = MAP.id + '--' + v.key; else openView(v);
       toast('JSON을 불러왔어요.');
-    } catch (e) { $('#exMsg').textContent = 'TNO map에서 저장한 JSON 파일이 아니에요.'; }
+    } catch (e) { $('#exMsg').textContent = 'editor에서 저장한 JSON 파일이 아니에요.'; }
   };
   rd.readAsText(file);
 }
