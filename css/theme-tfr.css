@@ -346,6 +346,20 @@ body.present #chartSec{display:block!important}
 .ylink.wip::after{content:'●';font-size:8px;vertical-align:super;margin-left:2px;color:var(--red2)}
 .ymeta b{color:var(--text);font-weight:600}
 .wipt{color:var(--red2)}
+/* 지도 위 의석 막대 (YAPms처럼) */
+#seatBar{padding:8px 12px 6px;border-bottom:2px solid var(--frame);background:var(--panel)}
+.sbTrack{position:relative;display:flex;height:22px;background:var(--toss);border:1px solid var(--line2)}
+.sbTrack i{display:block;height:100%}
+.sbMaj{position:absolute;top:-5px;bottom:-5px;width:2px;margin-left:-1px;background:var(--text);box-shadow:0 0 6px var(--text)}
+.sbMaj span{position:absolute;top:-1px;left:5px;font-size:10px;font-weight:600;color:var(--text);white-space:nowrap;text-shadow:0 0 3px #000,0 0 3px #000}
+.sbLeg{display:flex;align-items:flex-start;gap:12px;margin-top:6px;font-size:12px;color:var(--text)}
+.sbL,.sbR{flex:none;font-size:14px;font-weight:600;display:inline-flex;align-items:center;gap:6px}
+.sbL b,.sbR b{font-size:17px}
+.sbM{flex:1;display:flex;flex-wrap:wrap;justify-content:center;gap:2px 12px;color:var(--mute)}
+.sbLeg span{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.sbLeg i{width:10px;height:10px;display:inline-block}
+.sbLeg b{font-weight:700}
+.sbLeg .sbToss{color:var(--mute)}
 
 /* ===== TFR 덧칠: 신스웨이브 네온 ===== */
 :root{--title:'VT323','IBM Plex Sans KR',monospace;--lat:'Share Tech Mono','VT323','IBM Plex Sans KR',monospace}

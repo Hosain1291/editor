@@ -29,6 +29,7 @@ function seatColors(T) {
 }
 
 function renderChart(T) {
+  renderSeatBar(T);
   const hs = $('#hemi'), bar = $('#bar'), pie = $('#pie');
   hs.style.display = chart === 'hemi' ? 'block' : 'none'; bar.style.display = chart === 'bar' ? 'flex' : 'none'; pie.style.display = chart === 'pie' ? 'block' : 'none';
   if (chart === 'pie') {
@@ -53,17 +54,43 @@ function renderChart(T) {
     hs.innerHTML = S.map((s, i) => `<circle cx="${s.x.toFixed(4)}" cy="${s.y.toFixed(4)}" r="${s.rad.toFixed(4)}" fill="${cols[i] || TOSS}"/>`).join('') +
       `<text x="0" y="-.08" text-anchor="middle" font-family="Rajdhani,sans-serif" font-weight="700" font-size=".28" fill="${THEME.text}">${T.all}</text><text x="0" y=".02" text-anchor="middle" font-size=".085" fill="${THEME.mute}">과반 ${T.maj}</text>`;
   } else {
-    bar.innerHTML = '';
-    store.parties.forEach(p => T.mg[p.id].forEach((v, i) => {
-      if (!v) return; const d = document.createElement('div');
-      d.style.width = (v / T.all * 100) + '%'; d.style.background = p.colors[OPT.leans ? i : 0]; d.title = p.name + ' ' + MARGINS[i] + ' ' + v; bar.appendChild(d);
-    }));
+    bar.innerHTML = bgHTML(T).replace(/<i /g, '<div ').replace(/<\/i>/g, '</div>');
     const m = document.createElement('div'); m.className = 'maj'; m.style.left = (T.maj / T.all * 100) + '%'; bar.appendChild(m);
   }
   const lead = [...store.parties].sort((a, b) => T.t[b.id] - T.t[a.id])[0];
   $('#chartMsg').innerHTML = lead && T.t[lead.id] >= T.maj
     ? `<b style="color:${lead.colors[1]}">${esc(lead.name)}</b> 과반 달성 · 경합 ${T.toss}`
     : `과반 <b>${T.maj}</b>석 · 경합 <b>${T.toss}</b>석`;
+}
+
+/* 배틀그라운드 막대: 1위 정당은 왼쪽 끝부터, 2위 정당은 오른쪽 끝부터 채우고
+   나머지 정당·경합은 가운데에 둬요. 강도는 바깥(확정) → 안쪽(경합우세) 순서. */
+function bgSegments(T) {
+  const ps = [...store.parties].filter(p => T.t[p.id]).sort((a, b) => T.t[b.id] - T.t[a.id]);
+  const segs = [], lean = (p, rev) => { const o = [0, 1, 2, 3].map(i => [T.mg[p.id][i], p.colors[OPT.leans ? i : 0], p.name + ' ' + MARGINS[i]]).filter(x => x[0]); return rev ? o.reverse() : o; };
+  if (ps[0]) segs.push(...lean(ps[0]));
+  ps.slice(2).forEach(p => segs.push(...lean(p)));
+  if (T.toss) segs.push([T.toss, TOSS, '경합·미정']);
+  if (ps[1]) segs.push(...lean(ps[1], true));
+  return { ps, segs };
+}
+function bgHTML(T) {
+  const { segs } = bgSegments(T);
+  return segs.map(([v, c, t]) => `<i style="width:${v / T.all * 100}%;background:${c}" title="${esc(t)} ${v}"></i>`).join('');
+}
+/* 지도 위 의석 막대 (YAPms처럼) */
+function renderSeatBar(T) {
+  const box = $('#seatBar'); if (!box) return;
+  const on = OPT.seatBar !== false && !(typeof isPres === 'function' && isPres());
+  box.hidden = !on; if (!on) return;
+  const { ps } = bgSegments(T);
+  const nm = p => esc(isPres() && p.cand ? p.cand : p.name);
+  $('#sbTrack').innerHTML = bgHTML(T) + `<b class="sbMaj" style="left:${T.maj / T.all * 100}%"><span>과반 ${T.maj}</span></b>`;
+  const L = ps[0], R = ps[1], mid = ps.slice(2);
+  $('#sbLeg').innerHTML =
+    `<span class="sbL">${L ? `<i style="background:${L.colors[0]}"></i>${nm(L)} <b class="num">${T.t[L.id]}</b>` : ''}</span>` +
+    `<span class="sbM">${mid.map(p => `<span><i style="background:${p.colors[0]}"></i>${nm(p)} <b class="num">${T.t[p.id]}</b></span>`).join('')}<span class="sbToss"><i style="background:${TOSS}"></i>경합 <b class="num">${T.toss}</b></span></span>` +
+    `<span class="sbR">${R ? `<b class="num">${T.t[R.id]}</b> ${nm(R)}<i style="background:${R.colors[0]}"></i>` : ''}</span>`;
 }
 
 function initChart() {

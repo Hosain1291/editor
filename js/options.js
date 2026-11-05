@@ -3,7 +3,7 @@
 const OPT_DEFAULT = {
   labels: true, labelSize: 2, labelColor: 'auto',
   stroke: 'pink', strokeW: 1, coast: true,
-  tooltip: true, leans: true, lockMap: false, leave: 'ask'
+  tooltip: true, seatBar: true, leans: true, lockMap: false, leave: 'ask'
 };
 const LABEL_PX = [9, 11, 13, 16, 20];
 const STROKE_COLORS = { pink: THEME.stroke, bg: THEME.sea, white: '#e6fbfb', black: '#000000', cyan: THEME.frame };
@@ -20,7 +20,7 @@ function applyOptions() {
   document.body.classList.toggle('notip', !OPT.tooltip);
   document.body.classList.toggle('maplocked', !!OPT.lockMap);
   if (typeof updateLabels === 'function' && M) { labelsDirty = true; updateLabels(); }
-  if (M) renderParties();
+  if (M) { renderParties(); if (typeof renderSeatBar === 'function') renderSeatBar(totals()); }
   const lb = $('#lblBtn'); if (lb) { lb.innerHTML = `숫자 <b>${OPT.labels ? 'YES' : 'NO'}</b>`; lb.classList.toggle('on', !!OPT.labels); }
 }
 
@@ -41,6 +41,7 @@ function renderOptions() {
     <div class="orow"><span>경계선 굵기</span><input type="range" min="0" max="3" step="0.25" value="${OPT.strokeW}" data-k="strokeW"><b class="num" id="swv">${Math.round(OPT.strokeW * 100)}%</b></div>
     ${tog('coast', '해안선 표시', '바깥 경계를 흰 선으로 강조해요')}</div>
    <div class="ogrp"><div class="olab">보기</div>
+    ${tog('seatBar', '지도 위 의석 막대', '정당별 의석과 과반선을 지도 위에 한 줄로 보여줘요')}
     ${tog('tooltip', '말풍선 표시', '마우스를 올리면 선거구 정보를 보여줘요')}
     ${tog('leans', '차트에 강도 나눠 보기', '확정·유력·우세·경합우세를 색 농도로 구분해요')}
     ${tog('lockMap', '지도 잠금', '실수로 칠해지지 않게 편집을 막아요')}</div>
