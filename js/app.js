@@ -71,7 +71,7 @@ function renderMenu() {
   });
   // 내 지도 올리기 (YAPms의 Custom)
   const up = document.createElement('div'); up.className = 'mgroup';
-  up.innerHTML = `<div class="msec"><h2>내 지도</h2><span class="label">Custom map · SVG</span></div><div class="cards"><button class="card win upcard"><div class="tb"><span class="t">SVG 지도 올리기</span></div><div class="upin"><b>＋</b><span>선거구가 도형(path·polygon)으로 된 SVG 파일을 올리면 바로 칠할 수 있어요.<br>이 브라우저에 저장돼요.</span></div></button></div>`;
+  up.innerHTML = `<div class="msec"><h2>내 지도</h2><span class="label">Custom map · SVG · GeoJSON · SHP</span></div><div class="cards"><button class="card win upcard"><div class="tb"><span class="t">지도 파일 올리기</span></div><div class="upin"><b>＋</b><span>SVG · GeoJSON · Shapefile을 올리면 바로 칠할 수 있어요.<br>Shapefile은 .zip 하나, 또는 .shp와 .dbf를 함께 고르세요.<br>이 브라우저에 저장돼요.</span></div></button></div>`;
   up.querySelector('.upcard').onclick = () => $('#cuFile').click();
   wrap.appendChild(up);
 }

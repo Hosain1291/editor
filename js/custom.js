@@ -70,19 +70,17 @@ const escAttr = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').re
 
 let pendingCustom = null;
 function initCustom() {
-  $('#cuFile').onchange = e => {
-    const f = e.target.files[0]; e.target.value = ''; if (!f) return;
-    const rd = new FileReader();
-    rd.onload = () => {
-      try {
-        pendingCustom = convertSVG(rd.result);
-        $('#cuName').value = f.name.replace(/\.svg$/i, '');
-        $('#cuInfo').textContent = `선거구(도형) ${pendingCustom.list.length}개를 찾았어요.`;
-        $('#cuSeats').value = 1; $('#cuLayout').value = 'parliament';
-        $('#mCustom').classList.add('open');
-      } catch (er) { toast(er.message || 'SVG를 읽지 못했어요.'); }
-    };
-    rd.readAsText(f);
+  $('#cuFile').onchange = async e => {
+    const fl = [...e.target.files]; e.target.value = ''; if (!fl.length) return;
+    try {
+      toast('지도 파일을 읽는 중이에요…');
+      const r = await readMapFiles(fl);
+      pendingCustom = r.conv;
+      $('#cuName').value = r.name;
+      $('#cuInfo').textContent = `${r.kind}에서 선거구(도형) ${pendingCustom.list.length}개를 찾았어요.` + (r.conv.nameKey ? ` 이름은 '${r.conv.nameKey}' 칸을 썼어요.` : '') + (r.noDbf ? ' (.dbf가 없어서 이름 없이 번호로 붙였어요)' : '');
+      $('#cuSeats').value = 1; $('#cuLayout').value = 'parliament';
+      $('#mCustom').classList.add('open');
+    } catch (er) { toast(er.message || '파일을 읽지 못했어요.'); }
   };
   $('#cuSave').onclick = async () => {
     const c = pendingCustom; if (!c) return;

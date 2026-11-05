@@ -6,10 +6,10 @@
 <title>editor</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbit&family=IBM+Plex+Sans+KR:wght@400;500;700&family=Rajdhani:wght@500;600;700&family=VT323&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=202611052116">
-<link rel="stylesheet" id="tfrCss" href="css/theme-tfr.css?v=202611052116" media="not all">
-<link rel="stylesheet" id="pcCss" href="css/theme-pc.css?v=202611052116" media="not all">
-<script src="js/theme.js?v=202611052116"></script>
+<link rel="stylesheet" href="css/style.css?v=202611052201">
+<link rel="stylesheet" id="tfrCss" href="css/theme-tfr.css?v=202611052201" media="not all">
+<link rel="stylesheet" id="pcCss" href="css/theme-pc.css?v=202611052201" media="not all">
+<script src="js/theme.js?v=202611052201"></script>
 </head>
 <body>
 
@@ -94,7 +94,7 @@
 <div id="tip"></div>
 <div class="toast" id="toast"></div>
 <button id="presentExit">발표 끝내기 (Esc)</button>
-<input type="file" id="cuFile" accept=".svg,image/svg+xml" hidden>
+<input type="file" id="cuFile" accept=".svg,image/svg+xml,.geojson,.json,.shp,.dbf,.shx,.prj,.cpg,.zip" multiple hidden>
 <div id="loading">LOADING MAP…</div>
 
 <div class="modal" id="mSplit"><div class="box win"><div class="tb"><span class="t" id="mSplitT"></span><span class="ctl"><i class="close" style="cursor:pointer">✕</i></span></div><div class="bd">
@@ -201,20 +201,21 @@
  <div class="foot"><button class="close">취소</button><button id="cfOk" class="on">확인</button></div>
 </div></div></div>
 
-<script src="js/util.js?v=202611052116"></script>
-<script src="js/maps.js?v=202611052116"></script>
-<script src="js/store.js?v=202611052116"></script>
-<script src="js/chart.js?v=202611052116"></script>
-<script src="js/editor.js?v=202611052116"></script>
-<script src="js/president.js?v=202611052116"></script>
-<script src="js/mobile.js?v=202611052116"></script>
-<script src="js/parties.js?v=202611052116"></script>
-<script src="js/options.js?v=202611052116"></script>
-<script src="js/labels.js?v=202611052116"></script>
-<script src="js/tools.js?v=202611052116"></script>
-<script src="js/custom.js?v=202611052116"></script>
-<script src="js/colorpicker.js?v=202611052116"></script>
-<script src="js/export.js?v=202611052116"></script>
-<script src="js/app.js?v=202611052116"></script>
+<script src="js/util.js?v=202611052201"></script>
+<script src="js/maps.js?v=202611052201"></script>
+<script src="js/store.js?v=202611052201"></script>
+<script src="js/chart.js?v=202611052201"></script>
+<script src="js/editor.js?v=202611052201"></script>
+<script src="js/president.js?v=202611052201"></script>
+<script src="js/mobile.js?v=202611052201"></script>
+<script src="js/parties.js?v=202611052201"></script>
+<script src="js/options.js?v=202611052201"></script>
+<script src="js/labels.js?v=202611052201"></script>
+<script src="js/tools.js?v=202611052201"></script>
+<script src="js/geoimport.js?v=202611052201"></script>
+<script src="js/custom.js?v=202611052201"></script>
+<script src="js/colorpicker.js?v=202611052201"></script>
+<script src="js/export.js?v=202611052201"></script>
+<script src="js/app.js?v=202611052201"></script>
 </body>
 </html>
