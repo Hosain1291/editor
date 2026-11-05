@@ -3,7 +3,10 @@
 const THEMES = {
   tno: { name: 'TNO', full: 'THE NEW ORDER', desc: 'TNO의 선거지도를 만들어보세요', toss: '#1d3a40', ctx: '#0e2125', sea: '#081619', grid: '#0f262b', head: '#0a191d', frame: '#8fe3e8', text: '#eaffff', mute: '#6f9ea2', stroke: '#d86a78', ctxStroke: '#2c4f55', off: '#0a1a1d', dark: '#071215' },
   pc: { name: 'PC통신', full: 'PC통신', desc: 'PC통신 시절처럼 선거지도를 만들어보세요', toss: '#2a2ac8', ctx: '#000090', sea: '#000080', grid: '#0000a8', head: '#0000a8', frame: '#ffffff', text: '#ffffff', mute: '#c0c0c0', stroke: '#c0c0c0', ctxStroke: '#5555aa', off: '#000098', dark: '#000080', css: 'pcCss' },
-  tfr: { name: 'TFR', full: 'THE FIRE RISES', desc: 'TFR의 선거지도를 만들어보세요', toss: '#2a1238', ctx: '#120620', sea: '#07010d', grid: '#2a0838', head: '#0d0416', frame: '#ff3ce6', text: '#ffffff', mute: '#b48ccc', stroke: '#d65cf0', ctxStroke: '#4a1e60', off: '#0e0518', dark: '#05000a', css: 'tfrCss' }
+  tfr: { name: 'TFR', full: 'THE FIRE RISES', desc: 'TFR의 선거지도를 만들어보세요', toss: '#2a1238', ctx: '#120620', sea: '#07010d', grid: '#2a0838', head: '#0d0416', frame: '#ff3ce6', text: '#ffffff', mute: '#b48ccc', stroke: '#d65cf0', ctxStroke: '#4a1e60', off: '#0e0518', dark: '#05000a', css: 'tfrCss' },
+  win31: {"name": "윈도우 3.1", "full": "WINDOWS 3.1", "desc": "Windows 3.1 시절처럼 선거지도를 만들어보세요", "toss": "#d8d8d8", "ctx": "#eeeeee", "sea": "#ffffff", "grid": "#e8e8e8", "head": "#ffffff", "frame": "#000080", "text": "#000000", "mute": "#555555", "stroke": "#808080", "ctxStroke": "#c0c0c0", "off": "#f0f0f0", "dark": "#000000", "css": "win31Css", "btn": "Win 3.1"},
+  win95: {"name": "윈도우 95", "full": "WINDOWS 95", "desc": "Windows 95 시절처럼 선거지도를 만들어보세요", "toss": "#d4d0c8", "ctx": "#e8e8e8", "sea": "#ffffff", "grid": "#ececec", "head": "#c0c0c0", "frame": "#000080", "text": "#000000", "mute": "#404040", "stroke": "#808080", "ctxStroke": "#c0c0c0", "off": "#ececec", "dark": "#000000", "css": "win95Css", "btn": "Win 95"},
+  winxp: {"name": "윈도우 XP", "full": "WINDOWS XP", "desc": "Windows XP 시절처럼 선거지도를 만들어보세요", "toss": "#d6dbe9", "ctx": "#eef0f6", "sea": "#ffffff", "grid": "#eef2fb", "head": "#ece9d8", "frame": "#0058e6", "text": "#000000", "mute": "#555555", "stroke": "#7f9db9", "ctxStroke": "#c5cee0", "off": "#eef0f6", "dark": "#000000", "css": "winxpCss", "btn": "Win XP"},
 };
 let THEME_ID = 'tno';
 try { THEME_ID = localStorage.getItem('tnomap:theme') || 'tno'; } catch (e) { }
@@ -19,8 +22,10 @@ setThemeCss();
 function themeTexts() {
   const d = document.getElementById('menuDesc'); if (d) d.textContent = THEME.desc;
   const l = document.getElementById('menuLabel'); if (l) l.textContent = THEME.full + ' · 선거 지도 시뮬레이터';
+  document.querySelectorAll('.themeSeg').forEach(seg => { if (!seg.dataset.built) { seg.innerHTML = themeButtons(); seg.dataset.built = 1; } });
   document.querySelectorAll('.themeSeg button').forEach(b => b.classList.toggle('on', b.dataset.theme === THEME_ID));
 }
+function themeButtons() { return Object.entries(THEMES).map(([k, t]) => `<button data-theme="${k}" class="${k === THEME_ID ? 'on' : ''}">${t.btn || t.name}</button>`).join(''); }
 function applyTheme(id) {
   if (!THEMES[id]) return;
   THEME_ID = id; THEME = THEMES[id];
