@@ -66,5 +66,5 @@ Settings → Pages → Branch `main`, 폴더 `/ (root)` → Save
 
 ### 테마 (TNO / TFR)
 - 메뉴 위쪽 또는 옵션 창에서 고를 수 있어요. 고른 테마는 브라우저에 저장돼요.
-- `css/theme-tfr.css` 는 `css/style.css` 에서 색만 바꿔 자동으로 만든 파일이에요. style.css 를 고친 뒤 `python3 tools/make-tfr.py` 로 다시 만들어요.
+- `css/theme-tfr.css`·`css/theme-pc.css` 는 `css/style.css` 에서 색만 바꿔 자동으로 만든 파일이에요. style.css 를 고친 뒤 `python3 tools/make-tfr.py`, `python3 tools/make-pc.py` 로 다시 만들어요. PC통신 글꼴은 갈무리(Galmuri, OFL)예요.
 - 지도·내보내기에 쓰는 색은 `js/theme.js` 의 `THEMES` 에 있어요.

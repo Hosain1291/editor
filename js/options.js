@@ -29,8 +29,8 @@ function renderOptions() {
   const tog = (key, t, sub) => `<label class="tog"><span><b>${t}</b>${sub ? `<small>${sub}</small>` : ''}</span><input type="checkbox" data-k="${key}" ${OPT[key] ? 'checked' : ''}><i></i></label>`;
   $('#optBody').innerHTML = `
    <div class="ogrp"><div class="olab">테마</div>
-    <div class="orow"><span>화면 테마</span><div class="seg themeSeg"><button data-theme="tno" class="${THEME_ID === 'tno' ? 'on' : ''}">TNO</button><button data-theme="tfr" class="${THEME_ID === 'tfr' ? 'on' : ''}">TFR</button></div></div>
-    <div class="hint" style="margin:-2px 0 4px">TNO는 하늘색 홀로그램, TFR(The Fire Rises)은 검은 바탕에 네온 마젠타 격자예요.</div></div>
+    <div class="orow"><span>화면 테마</span><div class="seg themeSeg"><button data-theme="tno" class="${THEME_ID === 'tno' ? 'on' : ''}">TNO</button><button data-theme="tfr" class="${THEME_ID === 'tfr' ? 'on' : ''}">TFR</button><button data-theme="pc" class="${THEME_ID === 'pc' ? 'on' : ''}">PC통신</button></div></div>
+    <div class="hint" style="margin:-2px 0 4px">TNO는 하늘색 홀로그램, TFR(The Fire Rises)은 검은 바탕에 네온 마젠타 격자, PC통신은 하이텔·천리안 같은 파란 화면이에요.</div></div>
    <div class="ogrp"><div class="olab">지도 글자</div>
     <div class="orow"><span>지도 숫자</span>${seg('labels', [[true, 'YES'], [false, 'NO']])}</div>
     <div class="hint" style="margin:-2px 0 4px">선거구 위에 의석수(미국은 주 약자도)를 보여줘요. 위쪽 '숫자' 버튼으로도 바꿀 수 있어요.</div>
