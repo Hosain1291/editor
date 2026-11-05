@@ -13,7 +13,7 @@ function renderTable() {
       return `<tr data-id="${esc(id)}" class="${x.off ? 'off' : ''}">
         <td><span class="sw" style="background:${col}"></span></td>
         <td><b>${esc(nameOf(id))}</b><small>${esc(id)} · ${esc(regionName(region[id]))}</small></td>
-        <td><input type="number" min="1" max="99" value="${seatsOf(id)}" data-f="seats"></td>
+        <td><input type="number" min="1" max="999" value="${seatsOf(id)}" data-f="seats"></td>
         <td>${split ? `<button data-f="split" class="sm">분할됨 ✎</button>` : `<select data-f="win">${opts(sel, id)}</select>`}</td>
         <td><select data-f="m">${MARGINS.map((m, i) => `<option value="${i}"${(top ? mOf(x, top) : (x.m || 0)) === i ? ' selected' : ''}>${m}</option>`).join('')}</select></td>
         <td><input type="checkbox" data-f="off" ${x.off ? 'checked' : ''} title="비활성"></td>
@@ -32,7 +32,7 @@ function initTools() {
     if (x.lock && f !== 'off') { toast('잠긴 선거구예요.'); renderTable(); return; }
     snap();
     if (f === 'seats') {
-      const n = Math.max(1, Math.min(99, parseInt(e.target.value) || 1)), old = seatsOf(id); store.seats[id] = n;
+      const n = Math.max(1, Math.min(999, parseInt(e.target.value) || 1)), old = seatsOf(id); store.seats[id] = n;
       const ks = Object.keys(x.a).filter(k => x.a[k] > 0);
       if (ks.length === 1 && x.a[ks[0]] >= old) x.a[ks[0]] = n; else if (used(x) > n) x.a = {};
       labelsDirty = true; scheduleLabels();

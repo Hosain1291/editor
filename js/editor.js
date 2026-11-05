@@ -158,7 +158,7 @@ function renderSplit() {
   const x = D(spId), S = seatsOf(spId), u = used(x);
   $('#mSplitT').textContent = '의석 분할 · ' + nameOf(spId);
   $('#spJ').textContent = spId + ' · ' + regionName(region[spId]);
-  $('#spSeats').textContent = S; $('#spMargin').value = x.m || 0;
+  { const si = $('#spSeats'); if (!si.querySelector('input')) si.innerHTML = '<input type="number" min="1" max="999" class="spSeatIn">'; const inp = si.querySelector('input'); if (document.activeElement !== inp) inp.value = S; } $('#spMargin').value = x.m || 0;
   const msel = pid => `<select class="pmsel" data-pid="${pid}" title="이 정당의 강도">${MARGINS.map((m, i) => `<option value="${i}"${mOf(x, pid) === i ? ' selected' : ''}>${m}</option>`).join('')}</select>`;
   const L = $('#spList'); L.innerHTML = '';
   store.parties.filter(p => allowedIn(p, spId) || x.a[p.id]).forEach(p => {
@@ -277,7 +277,7 @@ function initEditor() {
   };
   $('#clearMap').onclick = () => confirmBox('지도 초기화', '이 지도의 칠한 내용, 비활성, 잠금을 모두 지워요. 되돌리기로 복구할 수 있어요.', () => { snap(); M.d = {}; paintAll(); refresh(); });
   $('#bulkApply').onclick = () => {
-    const n = Math.max(1, Math.min(30, parseInt($('#bulkSeats').value) || 3));
+    const n = Math.max(1, Math.min(999, parseInt($('#bulkSeats').value) || 3));
     confirmBox('의석수 일괄 적용', `모든 선거구를 ${n}석으로 바꿔요. 한 정당이 다 가진 선거구는 그대로 그 정당 몫이 되고, 나눠진 선거구는 비워져요.`, () => {
       snap(); const src = {}; ids.forEach(id => src[id] = n); applySeats(store, src); paintAll(); refresh();
     });
@@ -294,8 +294,8 @@ function initEditor() {
     const s = e.target.closest('.pmsel'); if (!s) return;
     const x = D(spId); x.pm = x.pm || {}; x.pm[s.dataset.pid] = +s.value; spUpd();
   });
-  $$('#mSplit [data-seat]').forEach(b => b.onclick = () => {
-    const old = seatsOf(spId), n = Math.max(1, Math.min(30, old + +b.dataset.seat)); if (n === old) return;
+  const setSpSeats = want => {
+    const old = seatsOf(spId), n = Math.max(1, Math.min(999, want | 0)); if (n === old) { spUpd(); return; }
     store.seats[spId] = n;
     Object.values(store.maps).forEach(mp => {
       const x = mp.d[spId]; if (!x) return; const ks = Object.keys(x.a).filter(k => x.a[k] > 0);
@@ -304,7 +304,9 @@ function initEditor() {
       while (u > n) { const k = ord.find(k => x.a[k] > 0); x.a[k]--; if (!x.a[k]) delete x.a[k]; u--; }
     });
     spUpd();
-  });
+  };
+  $$('#mSplit [data-seat]').forEach(b => b.onclick = () => setSpSeats(seatsOf(spId) + +b.dataset.seat));
+  $('#spSeats').addEventListener('change', e => { if (e.target.tagName === 'INPUT') setSpSeats(parseInt(e.target.value) || 1); });
   $('#spClear').onclick = () => { D(spId).a = {}; spUpd(); };
 
   // 정당 편집 창
