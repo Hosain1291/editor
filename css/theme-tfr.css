@@ -334,6 +334,18 @@ body.present #chartSec{display:block!important}
 .themeBox{display:flex;align-items:center;gap:10px;margin-left:auto;margin-bottom:4px}
 .themeSeg{display:flex;gap:4px;flex:none}
 .themeSeg button{min-width:56px;font-family:var(--lat);font-weight:700;letter-spacing:.08em}
+/* 연도 고르기 카드 (YAPms처럼 모양틀 하나 + 연도 링크) */
+.ycard{cursor:default}
+.ycard:hover{transform:none}
+.ycard .ythumb{cursor:pointer}
+.ycard .ythumb .thumb{height:300px}
+.ylinks{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:10px}
+.ylink{color:var(--frame);text-decoration:underline;text-underline-offset:3px;font-family:var(--lat);font-size:14px;cursor:pointer;white-space:nowrap}
+.ylink:hover,.ylink.cur{color:var(--text);text-decoration-thickness:2px}
+.ylink.cur{font-weight:700}
+.ylink.wip::after{content:'●';font-size:8px;vertical-align:super;margin-left:2px;color:var(--red2)}
+.ymeta b{color:var(--text);font-weight:600}
+.wipt{color:var(--red2)}
 
 /* ===== TFR 덧칠: 신스웨이브 네온 ===== */
 :root{--title:'VT323','IBM Plex Sans KR',monospace;--lat:'Share Tech Mono','VT323','IBM Plex Sans KR',monospace}

@@ -5,7 +5,7 @@
  "tag": "KOREA 1967 · 시·군·구",
  "menuGroup": "대한민국 행정구역 · 시·군·구",
  "menuLabel": "연도를 고르세요",
- "cardName": "1967년 · 188개",
+ "cardName": "1967년",
  "svg": "map.svg",
  "width": 1000,
  "height": 931.5,
@@ -636,5 +636,6 @@
   "제주도-북제주군": "제주도",
   "제주도-제주시": "제주도"
  },
- "labelName": true
+ "labelName": true,
+ "menuCountry": "대한민국"
 }

@@ -140,5 +140,6 @@
   "f56": "Norway"
  },
  "menuLabel": "지도를 고르세요",
- "labelName": true
+ "labelName": true,
+ "menuCountry": "노르웨이"
 }

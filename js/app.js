@@ -20,31 +20,54 @@ function viewProgress(entry, v) {
 
 function renderMenu() {
   const wrap = $('#mapGroups'); wrap.innerHTML = '';
-  const groups = {};   // map.json 의 menuGroup 이 같은 지도는 한 묶음으로 (예: 노르웨이 총선 연도별)
-  MAP_LIST.forEach(entry => {
-    const meta = entry.meta, base = entry.folder ? `maps/${entry.folder}/` : '';
+  // menuCountry(나라) → menuGroup(연도별 묶음) 순서로 모아요
+  const groups = {}, order = [], countries = {}, corder = [];
+  MAP_LIST.forEach(entry => { const g = entry.meta.menuGroup || entry.meta.id, k = entry.meta.menuCountry || g;
+    if (!groups[g]) { groups[g] = []; if (!countries[k]) { countries[k] = []; corder.push(k); } countries[k].push(g); } groups[g].push(entry); });
+  const thumbOf = entry => {
     if (entry.custom && !entry.thumb) entry.thumb = URL.createObjectURL(new Blob([entry.svgText], { type: 'image/svg+xml' }));
-    const thumbSrc = entry.custom ? entry.thumb : base + (meta.svg || 'map.svg');
-    const gkey = meta.menuGroup || meta.id;
-    let sec = groups[gkey];
-    if (!sec) {
-      sec = groups[gkey] = document.createElement('div'); sec.className = 'mgroup';
-      sec.innerHTML = `<div class="msec"><h2>${esc(meta.menuGroup || meta.name)}</h2><span class="label">${esc(meta.menuLabel || (meta.menuGroup ? '연도를 고르세요' : (meta.subtitle || '')))}</span></div><div class="cards"></div>`;
-      wrap.appendChild(sec);
-    }
+    return entry.custom ? entry.thumb : (entry.folder ? `maps/${entry.folder}/` : '') + (entry.meta.svg || 'map.svg');
+  };
+  const thumbSVG = (entry, v) => { const [bx, by, bw, bh] = v.box, p = Math.max(bw, bh) * .06;
+    return `<svg class="thumb" viewBox="${bx - p} ${by - p} ${bw + 2 * p} ${bh + 2 * p}" preserveAspectRatio="xMidYMid meet"><image href="${thumbOf(entry)}" width="${entry.meta.width}" height="${entry.meta.height}"/></svg>`; };
+  const metaLine = (meta, v, n, tot) => [v.sub ? esc(v.sub) : '', meta.labelName ? '' : (meta.layout === 'presidential' ? `주 ${n} · 선거인단 ${tot}` : `선거구 ${n} · ${tot}석`)].filter(Boolean).join(' · ');
+  corder.forEach(ckey => { const gl = countries[ckey], m0 = groups[gl[0]][0].meta, isC = !!m0.menuCountry;
+    const sec = document.createElement('div'); sec.className = 'mgroup';
+    sec.innerHTML = `<div class="msec"><h2>${esc(isC ? ckey : (m0.menuGroup || m0.name))}</h2><span class="label">${esc(isC ? '지도와 연도를 고르세요' : (m0.menuLabel || (m0.menuGroup ? '연도를 고르세요' : (m0.subtitle || ''))))}</span></div><div class="cards"></div>`;
+    wrap.appendChild(sec);
     const box = sec.querySelector('.cards');
-    meta.views.forEach(v => {
-      const { n, tot, asg } = viewProgress(entry, v);
-      const [bx, by, bw, bh] = v.box, p = Math.max(bw, bh) * .06;
-      const c = document.createElement('button'); c.className = 'card win' + (v.big ? ' big' : '');
-      c.innerHTML = `<div class="tb"><span class="t">${esc(meta.cardName && meta.views.length === 1 ? meta.cardName : v.name)}</span><span class="ctl"><i>—</i><i>❐</i><i>✕</i></span></div>` +
-        `<svg class="thumb" viewBox="${bx - p} ${by - p} ${bw + 2 * p} ${bh + 2 * p}" preserveAspectRatio="xMidYMid meet"><image href="${thumbSrc}" width="${meta.width}" height="${meta.height}"/></svg>` +
-        (asg ? `<span class="tag">진행 중</span>` : '') +
-        `<div class="cb"><div class="meta">${[v.sub ? esc(v.sub) : '', meta.labelName ? "" : (meta.layout === 'presidential' ? `주 ${n} · 선거인단 ${tot}` : `선거구 ${n} · ${tot}석`)].filter(Boolean).join(' · ')}</div><div class="prog"><i style="width:${tot ? asg / tot * 100 : 0}%"></i></div></div>`;
-      c.onclick = e => { if (e.target.closest('.cdel')) { deleteCustom(meta.id); return; } location.hash = meta.id + '--' + v.key; };
-      if (entry.custom) c.querySelector('.ctl').innerHTML = '<i class="cdel" title="지우기">✕</i>';
-      box.appendChild(c);
+  gl.forEach(gkey => {
+    const list = groups[gkey], meta0 = list[0].meta;
+    // YAPms처럼: 모양틀 하나 + 텍스트 링크로 고르기 (연도별 지도 묶음, 또는 주·지역 보기가 여러 개인 지도)
+    const linkCard = (title, items, cur) => {
+      const c = document.createElement('div'); c.className = 'card win ycard big';
+      const yl = items.map((it, i) => `<a href="#${it.e.meta.id}--${it.v.key}" data-i="${i}" class="ylink${viewProgress(it.e, it.v).asg ? ' wip' : ''}" title="${esc(it.e.meta.name)}">${esc(it.label)}</a>`).join('');
+      c.innerHTML = `<div class="tb"><span class="t">${esc(title)}</span><span class="ctl"><i>—</i><i>❐</i><i>✕</i></span></div><div class="ythumb"></div><div class="cb"><div class="meta ymeta"></div><div class="ylinks">${yl}</div></div>`;
+      const show = i => { const { e, v, label } = items[i], pr = viewProgress(e, v), ml = metaLine(e.meta, v, pr.n, pr.tot); cur = i;
+        c.querySelector('.ythumb').innerHTML = thumbSVG(e, v);
+        c.querySelector('.ymeta').innerHTML = `<b>${esc(e.meta.name)}</b> · ${esc(label)}${ml ? ' · ' + ml : ''}${pr.asg ? ' · <span class="wipt">진행 중</span>' : ''}`;
+        c.querySelectorAll('.ylink').forEach(a => a.classList.toggle('cur', +a.dataset.i === i)); };
+      c.querySelectorAll('.ylink').forEach(a => { a.onmouseenter = a.onfocus = () => show(+a.dataset.i); });
+      c.querySelector('.ythumb').onclick = () => { const it = items[cur]; location.hash = it.e.meta.id + '--' + it.v.key; };
+      show(cur); box.appendChild(c);
+    };
+    if (meta0.menuGroup && list.length > 1 && list.every(e => e.meta.views.length === 1)) {
+      linkCard(meta0.menuGroup, list.map(e => ({ e, v: e.meta.views[0], label: e.meta.cardName || e.meta.views[0].name })), list.length - 1); return;
+    }
+    list.forEach(entry => { const meta = entry.meta;
+      if (meta.linkViews && meta.views.length > 1) { linkCard(meta.name, meta.views.map(v => ({ e: entry, v, label: v.name })), 0); return; }
+      meta.views.forEach(v => {
+        const { n, tot, asg } = viewProgress(entry, v);
+        const c = document.createElement('button'); c.className = 'card win' + (v.big ? ' big' : '');
+        c.innerHTML = `<div class="tb"><span class="t">${esc(meta.cardName && meta.views.length === 1 ? meta.cardName : v.name)}</span><span class="ctl"><i>—</i><i>❐</i><i>✕</i></span></div>` +
+          thumbSVG(entry, v) + (asg ? `<span class="tag">진행 중</span>` : '') +
+          `<div class="cb"><div class="meta">${metaLine(meta, v, n, tot)}</div><div class="prog"><i style="width:${tot ? asg / tot * 100 : 0}%"></i></div></div>`;
+        c.onclick = e => { if (e.target.closest('.cdel')) { deleteCustom(meta.id); return; } location.hash = meta.id + '--' + v.key; };
+        if (entry.custom) c.querySelector('.ctl').innerHTML = '<i class="cdel" title="지우기">✕</i>';
+        box.appendChild(c);
+      });
     });
+  });
   });
   // 내 지도 올리기 (YAPms의 Custom)
   const up = document.createElement('div'); up.className = 'mgroup';

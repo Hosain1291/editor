@@ -5,7 +5,7 @@
  "tag": "KOREA 1960 · 시·도",
  "menuGroup": "대한민국 행정구역 · 시·도",
  "menuLabel": "연도를 고르세요",
- "cardName": "1960년 · 10개",
+ "cardName": "1960년",
  "svg": "map.svg",
  "width": 1000,
  "height": 931.5,
@@ -86,5 +86,6 @@
   "전국-경상남도": "전국",
   "전국-제주도": "전국"
  },
- "labelName": true
+ "labelName": true,
+ "menuCountry": "대한민국"
 }

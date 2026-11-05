@@ -773,5 +773,6 @@
   "경북-봉화군": "경북",
   "경북-울릉군": "경북"
  },
- "labelName": true
+ "labelName": true,
+ "menuCountry": "대한민국"
 }

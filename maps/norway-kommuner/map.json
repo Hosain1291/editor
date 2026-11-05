@@ -1404,5 +1404,7 @@
   "k1871": "18"
  },
  "menuLabel": "지도를 고르세요",
- "labelName": true
+ "labelName": true,
+ "menuCountry": "노르웨이",
+ "linkViews": true
 }
