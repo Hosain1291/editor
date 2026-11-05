@@ -6,10 +6,10 @@
 <title>editor</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbit&family=IBM+Plex+Sans+KR:wght@400;500;700&family=Rajdhani:wght@500;600;700&family=VT323&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=202611052201">
-<link rel="stylesheet" id="tfrCss" href="css/theme-tfr.css?v=202611052201" media="not all">
-<link rel="stylesheet" id="pcCss" href="css/theme-pc.css?v=202611052201" media="not all">
-<script src="js/theme.js?v=202611052201"></script>
+<link rel="stylesheet" href="css/style.css?v=202611052203">
+<link rel="stylesheet" id="tfrCss" href="css/theme-tfr.css?v=202611052203" media="not all">
+<link rel="stylesheet" id="pcCss" href="css/theme-pc.css?v=202611052203" media="not all">
+<script src="js/theme.js?v=202611052203"></script>
 </head>
 <body>
 
@@ -175,6 +175,8 @@
 
 <div class="modal" id="mCustom"><div class="box win"><div class="tb"><span class="t">내 지도 만들기</span><span class="ctl"><i class="close" style="cursor:pointer">✕</i></span></div><div class="bd">
  <div class="j" id="cuInfo"></div>
+ <div class="field" id="cuEncRow" hidden><label>글자 인코딩</label><select id="cuEnc"><option value="auto">자동 (UTF-8 → EUC-KR 순서로)</option><option value="utf-8">UTF-8</option><option value="euc-kr">EUC-KR / CP949 (한글 윈도우 ANSI)</option><option value="windows-1252">ANSI (서유럽 Windows-1252)</option><option value="iso-8859-1">Latin-1 (ISO-8859-1)</option><option value="windows-1250">ANSI (중동부유럽 Windows-1250)</option><option value="windows-1251">ANSI (키릴 Windows-1251)</option><option value="shift_jis">Shift_JIS (일본어)</option><option value="gbk">GBK (중국어 간체)</option><option value="big5">Big5 (중국어 번체)</option><option value="utf-16le">UTF-16</option></select></div>
+ <div class="hint" id="cuNames" hidden></div>
  <div class="field"><label>지도 이름</label><input type="text" id="cuName"></div>
  <div class="field"><label>기본 의석수</label><input type="number" id="cuSeats" min="1" max="99" value="1"></div>
  <div class="field"><label>화면</label><select id="cuLayout"><option value="parliament">의회 선거 (반원 의석도)</option><option value="presidential">대통령 선거 (후보 두 명 · 당선선)</option></select></div>
@@ -201,21 +203,21 @@
  <div class="foot"><button class="close">취소</button><button id="cfOk" class="on">확인</button></div>
 </div></div></div>
 
-<script src="js/util.js?v=202611052201"></script>
-<script src="js/maps.js?v=202611052201"></script>
-<script src="js/store.js?v=202611052201"></script>
-<script src="js/chart.js?v=202611052201"></script>
-<script src="js/editor.js?v=202611052201"></script>
-<script src="js/president.js?v=202611052201"></script>
-<script src="js/mobile.js?v=202611052201"></script>
-<script src="js/parties.js?v=202611052201"></script>
-<script src="js/options.js?v=202611052201"></script>
-<script src="js/labels.js?v=202611052201"></script>
-<script src="js/tools.js?v=202611052201"></script>
-<script src="js/geoimport.js?v=202611052201"></script>
-<script src="js/custom.js?v=202611052201"></script>
-<script src="js/colorpicker.js?v=202611052201"></script>
-<script src="js/export.js?v=202611052201"></script>
-<script src="js/app.js?v=202611052201"></script>
+<script src="js/util.js?v=202611052203"></script>
+<script src="js/maps.js?v=202611052203"></script>
+<script src="js/store.js?v=202611052203"></script>
+<script src="js/chart.js?v=202611052203"></script>
+<script src="js/editor.js?v=202611052203"></script>
+<script src="js/president.js?v=202611052203"></script>
+<script src="js/mobile.js?v=202611052203"></script>
+<script src="js/parties.js?v=202611052203"></script>
+<script src="js/options.js?v=202611052203"></script>
+<script src="js/labels.js?v=202611052203"></script>
+<script src="js/tools.js?v=202611052203"></script>
+<script src="js/geoimport.js?v=202611052203"></script>
+<script src="js/custom.js?v=202611052203"></script>
+<script src="js/colorpicker.js?v=202611052203"></script>
+<script src="js/export.js?v=202611052203"></script>
+<script src="js/app.js?v=202611052203"></script>
 </body>
 </html>

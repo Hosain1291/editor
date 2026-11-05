@@ -99,8 +99,9 @@ function parseDBF(buf, enc) {
     let nm = ''; for (let i = 0; i < 11; i++) { const c = v.getUint8(o + i); if (!c) break; nm += String.fromCharCode(c); }
     fields.push({ nm, t: String.fromCharCode(v.getUint8(o + 11)), len: v.getUint8(o + 16) }); o += 32;
   }
-  let dec; try { dec = new TextDecoder(enc || 'utf-8', { fatal: !enc }); } catch (e) { dec = new TextDecoder('utf-8'); }
-  const fb = new TextDecoder('euc-kr');
+  const auto = !enc || enc === 'auto';
+  let dec; try { dec = new TextDecoder(auto ? 'utf-8' : enc, { fatal: auto }); } catch (e) { dec = new TextDecoder('utf-8'); }
+  const fb = new TextDecoder(auto ? 'euc-kr' : 'utf-8');
   const rows = [];
   for (let r = 0; r < n; r++) {
     let p = hl + r * rl + 1; const row = {};
@@ -132,7 +133,29 @@ async function unzip(buf) {
 }
 
 /* 파일들 → 지도. 여러 파일(.shp+.dbf+.cpg)을 함께 골라도 되고 .zip 하나여도 돼요 */
-async function readMapFiles(fileList) {
+/* .cpg 내용 → 인코딩 이름 */
+function cpgToEnc(t) {
+  t = (t || '').trim().toLowerCase().replace(/\s+/g, ' ');
+  if (/utf-?8|65001/.test(t)) return 'utf-8';
+  if (/949|euc-?kr|ks_?c|korean/.test(t)) return 'euc-kr';
+  if (/1252|ansi 1252|^ansi$|latin.?1|8859-?1\b/.test(t)) return 'windows-1252';
+  if (/1250/.test(t)) return 'windows-1250';
+  if (/1251|cyril/.test(t)) return 'windows-1251';
+  if (/932|shift|sjis/.test(t)) return 'shift_jis';
+  if (/936|gbk|gb2312/.test(t)) return 'gbk';
+  if (/950|big5/.test(t)) return 'big5';
+  return null;
+}
+/* 바이트 → 글자: 자동이면 UTF-8(BOM 포함)로 읽어 보고 깨지면 EUC-KR */
+function decodeText(buf, enc) {
+  const u8 = new Uint8Array(buf);
+  if (!enc || enc === 'auto') {
+    if (u8[0] === 0xff && u8[1] === 0xfe) return new TextDecoder('utf-16le').decode(u8);
+    try { return new TextDecoder('utf-8', { fatal: true }).decode(u8); } catch (e) { return new TextDecoder('euc-kr').decode(u8); }
+  }
+  try { return new TextDecoder(enc).decode(u8); } catch (e) { return new TextDecoder('utf-8').decode(u8); }
+}
+async function readMapFiles(fileList, encOverride) {
   const files = [...fileList], by = {};
   for (const f of files) {
     const ext = f.name.toLowerCase().split('.').pop();
@@ -142,17 +165,18 @@ async function readMapFiles(fileList) {
     } else by[ext] = { name: f.name, file: f };
   }
   const buf = async k => by[k].buf || await by[k].file.arrayBuffer();
-  const txt = async k => by[k].file ? await by[k].file.text() : new TextDecoder().decode(by[k].buf);
+  const txt = async (k, enc) => decodeText(await buf(k), enc);
   const base = n => n.replace(/\.[^.]+$/, '');
-  if (by.svg) return { kind: 'SVG', name: base(by.svg.name), conv: convertSVG(await txt('svg')) };
+  if (by.svg) return { kind: 'SVG', name: base(by.svg.name), conv: convertSVG(await txt('svg', encOverride)), enc: encOverride || 'auto' };
   const gj = by.geojson || by.json;
-  if (gj) return { kind: 'GeoJSON', name: base(gj.name), conv: geoToSVG(parseGeoJSON(await txt(by.geojson ? 'geojson' : 'json'))) };
+  if (gj) return { kind: 'GeoJSON', name: base(gj.name), conv: geoToSVG(parseGeoJSON(await txt(by.geojson ? 'geojson' : 'json', encOverride))), enc: encOverride || 'auto' };
   if (by.shp) {
     const shapes = parseSHP(await buf('shp'));
-    let enc = null; if (by.cpg) { enc = (await txt('cpg')).trim().toLowerCase(); if (/^(utf-?8|65001)$/.test(enc)) enc = 'utf-8'; else if (/949|euc|ks/.test(enc)) enc = 'euc-kr'; }
+    let enc = encOverride && encOverride !== 'auto' ? encOverride : null, cpg = null;
+    if (!enc && by.cpg) { cpg = (await txt('cpg', 'utf-8')).trim(); enc = cpgToEnc(cpg); }
     const rows = by.dbf ? parseDBF(await buf('dbf'), enc) : [];
     const feats = shapes.map((r, i) => r && { rings: r, props: rows[i] || {} }).filter(Boolean);
-    return { kind: 'Shapefile', name: base(by.shp.name), conv: geoToSVG(feats), noDbf: !by.dbf };
+    return { kind: 'Shapefile', name: base(by.shp.name), conv: geoToSVG(feats), noDbf: !by.dbf, enc: enc || 'auto', cpg };
   }
   throw new Error('SVG · GeoJSON · Shapefile(.shp/.zip) 파일을 골라 주세요.');
 }

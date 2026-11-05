@@ -70,18 +70,27 @@ const escAttr = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').re
 
 let pendingCustom = null;
 function initCustom() {
-  $('#cuFile').onchange = async e => {
-    const fl = [...e.target.files]; e.target.value = ''; if (!fl.length) return;
+  let lastFiles = null;
+  const ENC_NAME = { auto: '자동', 'utf-8': 'UTF-8', 'euc-kr': 'EUC-KR', 'windows-1252': 'ANSI(1252)', 'iso-8859-1': 'Latin-1', 'windows-1250': 'ANSI(1250)', 'windows-1251': 'ANSI(1251)', shift_jis: 'Shift_JIS', gbk: 'GBK', big5: 'Big5', 'utf-16le': 'UTF-16' };
+  const load = async (fl, enc) => {
     try {
-      toast('지도 파일을 읽는 중이에요…');
-      const r = await readMapFiles(fl);
-      pendingCustom = r.conv;
-      $('#cuName').value = r.name;
-      $('#cuInfo').textContent = `${r.kind}에서 선거구(도형) ${pendingCustom.list.length}개를 찾았어요.` + (r.conv.nameKey ? ` 이름은 '${r.conv.nameKey}' 칸을 썼어요.` : '') + (r.noDbf ? ' (.dbf가 없어서 이름 없이 번호로 붙였어요)' : '');
-      $('#cuSeats').value = 1; $('#cuLayout').value = 'parliament';
+      const r = await readMapFiles(fl, enc);
+      pendingCustom = r.conv; lastFiles = fl;
+      if (!enc) $('#cuName').value = r.name;
+      $('#cuInfo').textContent = `${r.kind}에서 선거구(도형) ${pendingCustom.list.length}개를 찾았어요.` + (r.conv.nameKey ? ` 이름은 '${r.conv.nameKey}' 칸을 썼어요.` : '') + (r.noDbf ? ' (.dbf가 없어서 이름 없이 번호로 붙였어요)' : '') + (r.cpg && !enc ? ` (.cpg: ${r.cpg})` : '');
+      $('#cuEncRow').hidden = r.kind === 'SVG' && !enc;
+      if (!enc) $('#cuEnc').value = ENC_NAME[r.enc] ? r.enc : 'auto';
+      const ex = pendingCustom.list.slice(0, 6).map(o => o.name).join(' · ');
+      $('#cuNames').hidden = !ex; $('#cuNames').textContent = '이름 미리보기: ' + ex + (pendingCustom.list.length > 6 ? ' …' : '') + '  — 글자가 깨지면 위 인코딩을 바꿔 보세요.';
+      if (!enc) { $('#cuSeats').value = 1; $('#cuLayout').value = 'parliament'; }
       $('#mCustom').classList.add('open');
     } catch (er) { toast(er.message || '파일을 읽지 못했어요.'); }
   };
+  $('#cuFile').onchange = async e => {
+    const fl = [...e.target.files]; e.target.value = ''; if (!fl.length) return;
+    toast('지도 파일을 읽는 중이에요…'); await load(fl, null);
+  };
+  $('#cuEnc').onchange = () => { if (lastFiles) load(lastFiles, $('#cuEnc').value); };
   $('#cuSave').onclick = async () => {
     const c = pendingCustom; if (!c) return;
     const name = $('#cuName').value.trim() || '내 지도', seats = Math.max(1, parseInt($('#cuSeats').value) || 1), pres = $('#cuLayout').value === 'presidential';
