@@ -365,6 +365,23 @@ body.present #chartSec{display:block!important}
 .sbLeg .sbToss{color:var(--mute)}
 .spSeatIn{width:64px;text-align:center;font-weight:700;font-size:16px;background:transparent;border:1px solid var(--line2);color:var(--text);padding:2px}
 
+/* 연립정부 */
+.corow0{display:flex;align-items:center;gap:8px;margin:8px 0}.corow0 input{flex:1}
+.cobar{position:relative;display:flex;height:22px;border:1px solid var(--line,#2c5a60);margin:8px 0 4px;overflow:visible}
+.cobar i{display:block;height:100%}.cobar i.gap{background:transparent}
+.cobar .maj{position:absolute;top:-5px;bottom:-5px;width:2px;background:#fff;transform:translateX(-1px)}
+.cosum{display:flex;flex-direction:column;gap:3px;font-size:13px;margin-bottom:8px}.cosum>div{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline}.cobar i.gap{display:flex;opacity:.35}.cobar i.nt{height:100%}.cosum b{font-size:16px}
+.cosum .ok{color:#7fe08a;font-weight:700}.cosum .no{color:#ff8a80;font-weight:700}.cosum .o{opacity:.75}
+.corow{display:flex;align-items:center;gap:8px;padding:5px 6px;margin:2px 0;border:1px solid transparent;cursor:pointer}
+.corow.r-g{border-color:var(--line,#2c5a60);background:#ffffff12}.corow.r-o{border-color:var(--line,#2c5a60);border-style:dashed}
+.coseg{display:flex}.coseg button{padding:2px 6px;font-size:12px}.coseg button.on{font-weight:700;outline:1px solid currentColor}
+.corow .n{flex:1}.corow .n em{font-style:normal;font-size:11px;padding:0 4px;margin-left:4px;border:1px solid currentColor;opacity:.8}
+.corow .v{min-width:48px;text-align:right;font-weight:700}.corow .pc{min-width:50px;text-align:right;opacity:.7;font-size:12px}
+.corow .ld,.corow .ld-sp{width:44px}.corow .ld{padding:2px 0;font-size:12px}
+#coWin{display:flex;flex-direction:column;gap:4px;max-height:220px;overflow:auto}
+.cowin{text-align:left;padding:5px 8px;display:flex;flex-wrap:wrap;align-items:center;gap:4px}.cowin b{margin-left:auto}
+.cowin .sw,.corow .sw{display:inline-block;width:12px;height:12px;flex:none}
+
 /* ===== Windows XP (Luna) ===== */
 :root{--title:'Trebuchet MS','Tahoma','IBM Plex Sans KR',sans-serif;--lat:'Tahoma','IBM Plex Sans KR',sans-serif}
 html,body{color:#000;font-family:'Tahoma','IBM Plex Sans KR',sans-serif;background:linear-gradient(#2f6ad4 0%,#6ea4f0 45%,#a9cef7 62%,#79b84a 63%,#4c9a2a 100%) fixed;background-image:linear-gradient(#2f6ad4 0%,#6ea4f0 45%,#a9cef7 62%,#79b84a 63%,#4c9a2a 100%)}
