@@ -41,7 +41,7 @@
    <button data-mode="lock" title="잠금 (L)">잠금</button>
   </div>
   <div class="grp"><button id="dragBtn" title="누른 채로 끌면 연속으로 칠해요 (Shift를 누른 채 끌어도 돼요)">드래그 칠하기</button></div>
-  <div class="grp"><button id="lblBtn">숫자 <b>YES</b></button><button id="optBtn">옵션</button><button id="toolsBtn">표 편집</button><button id="presentBtn">발표</button><button id="coalBtn" title="연립정부 · 야당 연합 만들기">연정</button></div>
+  <div class="grp"><button id="lblBtn">숫자 <b>YES</b></button><button id="optBtn">옵션</button><button id="toolsBtn">표 편집</button><button id="presentBtn">발표</button><button id="coalBtn" title="연립정부 · 야당 만들기">연정</button></div>
   <div class="grp"><button id="undo" title="되돌리기 (Ctrl+Z)">↶</button><button id="redo" title="다시 실행 (Ctrl+Y)">↷</button></div>
   <span class="sp"></span>
   <div class="grp">
@@ -193,15 +193,15 @@
  <div class="foot"><button id="pmReset" class="l">기본 정당으로</button><button id="pmAdd">+ 정당 추가</button><button class="close on">완료</button></div>
 </div></div></div>
 
-<div class="modal" id="mCoal"><div class="box win" style="width:min(620px,100%)"><div class="tb"><span class="t">연립정부 · 야당 연합 만들기</span><span class="ctl"><i class="close" style="cursor:pointer">✕</i></span></div><div class="bd">
- <div class="j">지금 지도에 칠해진 의석으로 여당 연립과 야당 연합을 짜 봐요. 정당마다 <b>여당 · 야당연합 · 기타</b>를 고르세요.</div>
+<div class="modal" id="mCoal"><div class="box win" style="width:min(620px,100%)"><div class="tb"><span class="t">연립정부 · 야당 만들기</span><span class="ctl"><i class="close" style="cursor:pointer">✕</i></span></div><div class="bd">
+ <div class="j">지금 지도에 칠해진 의석으로 여당 연립과 야당을 짜 봐요. 정당마다 <b>여당 · 야당 · 기타</b>를 고르세요.</div>
  <div class="corow0"><span>여당 연립 이름</span><input id="coName" placeholder="예: 대연정, 신호등 연정"></div>
- <div class="corow0"><span>야당 연합 이름</span><input id="coOppName" placeholder="예: 범야권 연대"></div>
+ <div class="corow0"><span>야당 이름</span><input id="coOppName" placeholder="예: 범야권 연대"></div>
  <div id="coBar"></div><div id="coSum" class="cosum"></div>
  <div id="coList"></div>
  <div class="j" style="margin-top:10px">최소 승리 연합 (한 정당만 빠져도 과반이 깨지는 조합) — 누르면 바로 적용</div>
  <div id="coWin"></div>
- <div class="foot"><button id="coClear" class="l">모두 해제</button><button id="coRest" class="l">나머지 → 야당연합</button><button class="close on">완료</button></div>
+ <div class="foot"><button id="coClear" class="l">모두 해제</button><button id="coRest" class="l">나머지 → 야당</button><button class="close on">완료</button></div>
 </div></div></div>
 
 <div class="modal" id="mLeave"><div class="box win"><div class="tb"><span class="t">지도에서 나가기</span><span class="ctl"><i class="close" style="cursor:pointer">✕</i></span></div><div class="bd">

@@ -1,6 +1,6 @@
-/* ---------- 연립정부 · 야당 연합 만들기 ---------- */
+/* ---------- 연립정부 · 야당 만들기 ---------- */
 (function () {
-  let role = {};            // pid -> 'g'(여당 연립) | 'o'(야당 연합) | 없음(기타)
+  let role = {};            // pid -> 'g'(여당 연립) | 'o'(야당) | 없음(기타)
   let lead = { g: null, o: null };
   const KEY = () => 'coal:' + (MAP && MAP.id || '');
   const popc = m => { let c = 0; while (m) { c += m & 1; m >>= 1; } return c; };
@@ -22,10 +22,10 @@
     const seg = (p) => `<i style="width:${T.t[p.id] / all * 100}%;background:${p.colors[0]}" title="${esc(p.name)} ${T.t[p.id]}"></i>`;
     $('#coBar').innerHTML = `<div class="cobar">${G.map(seg).join('')}<i class="gap" style="width:${(all - gs - os) / all * 100}%">${N.map(p => `<i class="nt" style="width:${T.t[p.id] / Math.max(1, all - gs - os) * 100}%;background:${p.colors[0]}"></i>`).join('')}</i>${O.slice().reverse().map(seg).join('')}<b class="maj" style="left:${maj / all * 100}%"></b></div>`;
     const st = (v, nm) => v >= maj ? `<span class="ok">${nm} 과반 달성 · +${v - maj}</span>` : `<span class="no">${nm} 과반까지 ${maj - v}석</span>`;
-    const gN = $('#coName').value || '여당 연립', oN = $('#coOppName').value || '야당 연합';
+    const gN = $('#coName').value || '여당 연립', oN = $('#coOppName').value || '야당';
     $('#coSum').innerHTML =
       `<div><span class="g">${esc(gN)} <b>${gs}</b>석 (${pc(gs)})</span>${st(gs, '')}</div>` +
-      `<div><span class="g">${esc(oN)} <b>${os}</b>석 (${pc(os)})</span>${st(os, '')}${os > gs && gs ? '<span class="no">야당 연합이 더 큼</span>' : ''}</div>` +
+      `<div><span class="g">${esc(oN)} <b>${os}</b>석 (${pc(os)})</span>${st(os, '')}${os > gs && gs ? '<span class="no">야당이 더 큼</span>' : ''}</div>` +
       `<div class="o">기타·무소속 ${ns}석${T.toss ? ` · 경합 ${T.toss}석` : ''} · 과반 ${maj} / ${T.all}</div>`;
     const L = $('#coList'); L.innerHTML = '';
     ps.forEach(p => {
@@ -33,7 +33,7 @@
       r.className = 'corow r-' + k;
       const isLead = k !== 'n' && lead[k] === p.id;
       r.innerHTML = `<span class="sw" style="background:${p.colors[0]}"></span><span class="n">${esc(p.name)}${isLead ? ' <em>주도</em>' : ''}</span><span class="v">${v}석</span><span class="pc">${pc(v)}</span>` +
-        `<span class="coseg"><button data-r="g"${k === 'g' ? ' class="on"' : ''}>여당</button><button data-r="o"${k === 'o' ? ' class="on"' : ''}>야당연합</button><button data-r="n"${k === 'n' ? ' class="on"' : ''}>기타</button></span>` +
+        `<span class="coseg"><button data-r="g"${k === 'g' ? ' class="on"' : ''}>여당</button><button data-r="o"${k === 'o' ? ' class="on"' : ''}>야당</button><button data-r="n"${k === 'n' ? ' class="on"' : ''}>기타</button></span>` +
         (k !== 'n' && !isLead ? '<button class="ld" title="이 진영의 주도 정당으로">주도</button>' : '<span class="ld-sp"></span>');
       r.querySelectorAll('[data-r]').forEach(b => b.onclick = () => { const x = b.dataset.r; if (x === 'n') delete role[p.id]; else role[p.id] = x; save(); render(); });
       const lb = r.querySelector('.ld'); if (lb) lb.onclick = () => { lead[k] = p.id; save(); render(); };
