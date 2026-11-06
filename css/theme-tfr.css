@@ -105,9 +105,12 @@ main{position:relative;overflow:hidden;display:flex;flex-direction:column}
 .box>.bd{padding:14px 16px 16px}
 .box h3{display:none}
 .box .j{color:var(--mute);font-size:12px;margin-bottom:12px}
-.alloc{display:flex;align-items:center;gap:8px;margin:6px 0}
+.alloc{margin:8px 0}
+.alloc .ar1{display:flex;align-items:center;gap:8px}
 .alloc .n{flex:1}
-.alloc .v{width:30px;text-align:center;font-family:var(--lat);font-size:18px;font-weight:700}
+.alloc .v{min-width:44px;text-align:right;font-family:var(--lat);font-size:16px;font-weight:700}
+.alloc .pc{min-width:48px;text-align:right;font-family:var(--lat);font-size:13px;opacity:.75}
+.alloc .asl{display:block;width:calc(100% - 22px);margin:4px 0 0 22px;accent-color:var(--asl,#ff3ce6)}
 .alloc button{width:30px;padding:3px 0}
 .field{display:flex;align-items:center;gap:8px;margin:8px 0}
 .field label{width:70px;color:var(--mute);font-size:12px}
@@ -193,7 +196,8 @@ textarea{width:100%;height:110px;font-family:monospace;font-size:11px}
  .modal{align-items:flex-end;padding:0}
  .box{width:100%!important;max-height:80vh;border-radius:8px 8px 0 0}
  .alloc button{width:44px;height:38px;font-size:18px}
- .alloc .v{font-size:20px}
+ .alloc .v{font-size:18px}
+ .alloc .asl{height:26px}
  .foot button{padding:10px 16px;font-size:15px}
  .party{padding:9px 10px}
  #pres .prow{padding:4px 6px 0;gap:6px}
