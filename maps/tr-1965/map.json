@@ -1,7 +1,7 @@
 {
  "id": "tr-1965",
  "name": "튀르키예 대국민의회 총선거",
- "subtitle": "1965년 · 선거구 67개 · 451석 · 과반 226",
+ "subtitle": "1965년 · 선거구 67개 · 450석 · 과반 226",
  "tag": "TÜRKİYE 1965 · TBMM",
  "menuCountry": "튀르키예",
  "menuGroup": "튀르키예 대국민의회 총선거",
@@ -71,7 +71,7 @@
   "TR-Aydın": 8,
   "TR-Malatya": 6,
   "TR-Tunceli": 2,
-  "TR-Ankara": 21,
+  "TR-Ankara": 20,
   "TR-Denizli": 7,
   "TR-Muğla": 5,
   "TR-Kütahya": 6,
@@ -127,9 +127,9 @@
   "TR-Kayseri": 8,
   "TR-Mardin": 6,
   "TR-Edirne": 4,
-  "TR-İstanbul": 31,
+  "TR-İstanbul": 30,
   "TR-Kocaeli": 5,
-  "TR-Hakkari": 1
+  "TR-Hakkari": 2
  },
  "names": {
   "TR-Gaziantep": "Gaziantep (7석)",
@@ -140,7 +140,7 @@
   "TR-Aydın": "Aydın (8석)",
   "TR-Malatya": "Malatya (6석)",
   "TR-Tunceli": "Tunceli (2석)",
-  "TR-Ankara": "Ankara (21석)",
+  "TR-Ankara": "Ankara (20석)",
   "TR-Denizli": "Denizli (7석)",
   "TR-Muğla": "Muğla (5석)",
   "TR-Kütahya": "Kütahya (6석)",
@@ -196,9 +196,9 @@
   "TR-Kayseri": "Kayseri (8석)",
   "TR-Mardin": "Mardin (6석)",
   "TR-Edirne": "Edirne (4석)",
-  "TR-İstanbul": "İstanbul (31석)",
+  "TR-İstanbul": "İstanbul (30석)",
   "TR-Kocaeli": "Kocaeli (5석)",
-  "TR-Hakkari": "Hakkari (1석)"
+  "TR-Hakkari": "Hakkari (2석)"
  },
  "labels": {
   "TR-Gaziantep": "Gaziantep",

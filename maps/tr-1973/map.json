@@ -1,7 +1,7 @@
 {
  "id": "tr-1973",
  "name": "튀르키예 대국민의회 총선거",
- "subtitle": "1973년 · 선거구 67개 · 451석 · 과반 226",
+ "subtitle": "1973년 · 선거구 67개 · 450석 · 과반 226",
  "tag": "TÜRKİYE 1973 · TBMM",
  "menuCountry": "튀르키예",
  "menuGroup": "튀르키예 대국민의회 총선거",
@@ -75,7 +75,7 @@
   "TR-Aydın": 7,
   "TR-Malatya": 6,
   "TR-Tunceli": 2,
-  "TR-Ankara": 26,
+  "TR-Ankara": 25,
   "TR-Denizli": 6,
   "TR-Muğla": 5,
   "TR-Kütahya": 5,
@@ -131,9 +131,9 @@
   "TR-Kayseri": 8,
   "TR-Mardin": 6,
   "TR-Edirne": 4,
-  "TR-İstanbul": 38,
+  "TR-İstanbul": 37,
   "TR-Kocaeli": 5,
-  "TR-Hakkari": 1
+  "TR-Hakkari": 2
  },
  "names": {
   "TR-Gaziantep": "Gaziantep (8석)",
@@ -144,7 +144,7 @@
   "TR-Aydın": "Aydın (7석)",
   "TR-Malatya": "Malatya (6석)",
   "TR-Tunceli": "Tunceli (2석)",
-  "TR-Ankara": "Ankara (26석)",
+  "TR-Ankara": "Ankara (25석)",
   "TR-Denizli": "Denizli (6석)",
   "TR-Muğla": "Muğla (5석)",
   "TR-Kütahya": "Kütahya (5석)",
@@ -200,9 +200,9 @@
   "TR-Kayseri": "Kayseri (8석)",
   "TR-Mardin": "Mardin (6석)",
   "TR-Edirne": "Edirne (4석)",
-  "TR-İstanbul": "İstanbul (38석)",
+  "TR-İstanbul": "İstanbul (37석)",
   "TR-Kocaeli": "Kocaeli (5석)",
-  "TR-Hakkari": "Hakkari (1석)"
+  "TR-Hakkari": "Hakkari (2석)"
  },
  "labels": {
   "TR-Gaziantep": "Gaziantep",

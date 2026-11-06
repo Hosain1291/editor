@@ -1,7 +1,7 @@
 {
  "id": "tr-1954",
  "name": "튀르키예 대국민의회 총선거",
- "subtitle": "1954년 · 선거구 64개 · 538석 · 과반 270",
+ "subtitle": "1954년 · 선거구 64개 · 541석 · 과반 271",
  "tag": "TÜRKİYE 1954 · TBMM",
  "menuCountry": "튀르키예",
  "menuGroup": "튀르키예 대국민의회 총선거",
@@ -59,7 +59,7 @@
   "TR-Aydın": 8,
   "TR-Malatya": 12,
   "TR-Tunceli": 3,
-  "TR-Ankara": 21,
+  "TR-Ankara": 22,
   "TR-Denizli": 9,
   "TR-Muğla": 6,
   "TR-Kütahya": 8,
@@ -102,7 +102,7 @@
   "TR-Kars": 10,
   "TR-Samsun": 12,
   "TR-Kırklareli": 5,
-  "TR-İzmir": 20,
+  "TR-İzmir": 21,
   "TR-Gümüşhane": 6,
   "TR-Kahramanmaraş": 7,
   "TR-Erzincan": 5,
@@ -113,7 +113,7 @@
   "TR-Kayseri": 9,
   "TR-Mardin": 7,
   "TR-Edirne": 6,
-  "TR-İstanbul": 29,
+  "TR-İstanbul": 30,
   "TR-Hakkari": 1
  },
  "names": {
@@ -125,7 +125,7 @@
   "TR-Aydın": "Aydın (8석)",
   "TR-Malatya": "Malatya (12석)",
   "TR-Tunceli": "Tunceli (3석)",
-  "TR-Ankara": "Ankara (21석)",
+  "TR-Ankara": "Ankara (22석)",
   "TR-Denizli": "Denizli (9석)",
   "TR-Muğla": "Muğla (6석)",
   "TR-Kütahya": "Kütahya (8석)",
@@ -168,7 +168,7 @@
   "TR-Kars": "Kars (10석)",
   "TR-Samsun": "Samsun (12석)",
   "TR-Kırklareli": "Kırklareli (5석)",
-  "TR-İzmir": "İzmir (20석)",
+  "TR-İzmir": "İzmir (21석)",
   "TR-Gümüşhane": "Gümüşhane (6석)",
   "TR-Kahramanmaraş": "Maraş (7석)",
   "TR-Erzincan": "Erzincan (5석)",
@@ -179,7 +179,7 @@
   "TR-Kayseri": "Kayseri (9석)",
   "TR-Mardin": "Mardin (7석)",
   "TR-Edirne": "Edirne (6석)",
-  "TR-İstanbul": "İstanbul (29석)",
+  "TR-İstanbul": "İstanbul (30석)",
   "TR-Hakkari": "Hakkari (1석)"
  },
  "labels": {
