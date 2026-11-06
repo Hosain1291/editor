@@ -381,6 +381,8 @@ body.present #chartSec{display:block!important}
 #coWin{display:flex;flex-direction:column;gap:4px;max-height:220px;overflow:auto}
 .cowin{text-align:left;padding:5px 8px;display:flex;flex-wrap:wrap;align-items:center;gap:4px}.cowin b{margin-left:auto}
 .cowin .sw,.corow .sw{display:inline-block;width:12px;height:12px;flex:none}
+.corow0 .bn{width:20px;text-align:center;opacity:.7}.corow0 .del{padding:2px 8px;font-size:12px}
+.cosel{min-width:110px}.cobar .cob{display:flex;height:100%}.cobar .cob+.cob{border-left:2px solid #000}
 
 /* ===== Windows 95 ===== */
 :root{--title:'Tahoma','MS Sans Serif','IBM Plex Sans KR',sans-serif;--lat:'Tahoma','IBM Plex Sans KR',sans-serif}

@@ -6,13 +6,13 @@
 <title>editor</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbit&family=IBM+Plex+Sans+KR:wght@400;500;700&family=Rajdhani:wght@500;600;700&family=VT323&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=1793929897">
-<link rel="stylesheet" id="tfrCss" href="css/theme-tfr.css?v=1793929897" media="not all">
-<link rel="stylesheet" id="pcCss" href="css/theme-pc.css?v=1793929897" media="not all">
-<link rel="stylesheet" id="win31Css" href="css/theme-win31.css?v=1793929897" media="not all">
-<link rel="stylesheet" id="win95Css" href="css/theme-win95.css?v=1793929897" media="not all">
-<link rel="stylesheet" id="winxpCss" href="css/theme-winxp.css?v=1793929897" media="not all">
-<script src="js/theme.js?v=1793929897"></script>
+<link rel="stylesheet" href="css/style.css?v=1793930210">
+<link rel="stylesheet" id="tfrCss" href="css/theme-tfr.css?v=1793930210" media="not all">
+<link rel="stylesheet" id="pcCss" href="css/theme-pc.css?v=1793930210" media="not all">
+<link rel="stylesheet" id="win31Css" href="css/theme-win31.css?v=1793930210" media="not all">
+<link rel="stylesheet" id="win95Css" href="css/theme-win95.css?v=1793930210" media="not all">
+<link rel="stylesheet" id="winxpCss" href="css/theme-winxp.css?v=1793930210" media="not all">
+<script src="js/theme.js?v=1793930210"></script>
 </head>
 <body>
 
@@ -193,15 +193,15 @@
  <div class="foot"><button id="pmReset" class="l">기본 정당으로</button><button id="pmAdd">+ 정당 추가</button><button class="close on">완료</button></div>
 </div></div></div>
 
-<div class="modal" id="mCoal"><div class="box win" style="width:min(620px,100%)"><div class="tb"><span class="t">연립정부 · 야당 만들기</span><span class="ctl"><i class="close" style="cursor:pointer">✕</i></span></div><div class="bd">
- <div class="j">지금 지도에 칠해진 의석으로 여당 연립과 야당을 짜 봐요. 정당마다 <b>여당 · 야당 · 기타</b>를 고르세요.</div>
- <div class="corow0"><span>여당 연립 이름</span><input id="coName" placeholder="예: 대연정, 신호등 연정"></div>
- <div class="corow0"><span>야당 이름</span><input id="coOppName" placeholder="예: 범야권 연대"></div>
+<div class="modal" id="mCoal"><div class="box win" style="width:min(640px,100%)"><div class="tb"><span class="t">연립정부 · 연합 만들기</span><span class="ctl"><i class="close" style="cursor:pointer">✕</i></span></div><div class="bd">
+ <div class="j">지금 지도에 칠해진 의석으로 연합을 짜 봐요. 기본은 <b>여당 연립</b>과 <b>야당</b>이고, 야당 안의 또 다른 연합이나 제3지대도 <b>+ 연합 추가</b>로 만들 수 있어요.</div>
+ <div id="coBlocs"></div>
+ <div class="corow0"><button id="coAdd">+ 연합 추가</button></div>
  <div id="coBar"></div><div id="coSum" class="cosum"></div>
  <div id="coList"></div>
- <div class="j" style="margin-top:10px">최소 승리 연합 (한 정당만 빠져도 과반이 깨지는 조합) — 누르면 바로 적용</div>
+ <div class="j" style="margin-top:10px">최소 승리 연합 (한 정당만 빠져도 과반이 깨지는 조합) — 누르면 1번 연합으로, 나머지는 2번 연합으로</div>
  <div id="coWin"></div>
- <div class="foot"><button id="coClear" class="l">모두 해제</button><button id="coRest" class="l">나머지 → 야당</button><button class="close on">완료</button></div>
+ <div class="foot"><button id="coClear" class="l">처음으로</button><button id="coRest" class="l">나머지 → 마지막 연합</button><button class="close on">완료</button></div>
 </div></div></div>
 
 <div class="modal" id="mLeave"><div class="box win"><div class="tb"><span class="t">지도에서 나가기</span><span class="ctl"><i class="close" style="cursor:pointer">✕</i></span></div><div class="bd">
@@ -217,22 +217,22 @@
  <div class="foot"><button class="close">취소</button><button id="cfOk" class="on">확인</button></div>
 </div></div></div>
 
-<script src="js/util.js?v=1793929897"></script>
-<script src="js/maps.js?v=1793929897"></script>
-<script src="js/store.js?v=1793929897"></script>
-<script src="js/chart.js?v=1793929897"></script>
-<script src="js/editor.js?v=1793929897"></script>
-<script src="js/president.js?v=1793929897"></script>
-<script src="js/mobile.js?v=1793929897"></script>
-<script src="js/parties.js?v=1793929897"></script>
-<script src="js/options.js?v=1793929897"></script>
-<script src="js/labels.js?v=1793929897"></script>
-<script src="js/tools.js?v=1793929897"></script>
-<script src="js/geoimport.js?v=1793929897"></script>
-<script src="js/custom.js?v=1793929897"></script>
-<script src="js/colorpicker.js?v=1793929897"></script>
-<script src="js/export.js?v=1793929897"></script>
-<script src="js/coalition.js?v=1793929897"></script>
-<script src="js/app.js?v=1793929897"></script>
+<script src="js/util.js?v=1793930210"></script>
+<script src="js/maps.js?v=1793930210"></script>
+<script src="js/store.js?v=1793930210"></script>
+<script src="js/chart.js?v=1793930210"></script>
+<script src="js/editor.js?v=1793930210"></script>
+<script src="js/president.js?v=1793930210"></script>
+<script src="js/mobile.js?v=1793930210"></script>
+<script src="js/parties.js?v=1793930210"></script>
+<script src="js/options.js?v=1793930210"></script>
+<script src="js/labels.js?v=1793930210"></script>
+<script src="js/tools.js?v=1793930210"></script>
+<script src="js/geoimport.js?v=1793930210"></script>
+<script src="js/custom.js?v=1793930210"></script>
+<script src="js/colorpicker.js?v=1793930210"></script>
+<script src="js/export.js?v=1793930210"></script>
+<script src="js/coalition.js?v=1793930210"></script>
+<script src="js/app.js?v=1793930210"></script>
 </body>
 </html>

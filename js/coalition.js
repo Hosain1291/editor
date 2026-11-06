@@ -1,41 +1,63 @@
-/* ---------- 연립정부 · 야당 만들기 ---------- */
+/* ---------- 연립정부 · 야당 · 여러 연합 만들기 ---------- */
 (function () {
-  let role = {};            // pid -> 'g'(여당 연립) | 'o'(야당) | 없음(기타)
-  let lead = { g: null, o: null };
+  const DEF = () => [{ id: 'g', name: '여당 연립' }, { id: 'o', name: '야당' }];
+  let blocs = DEF(), role = {}, lead = {};
   const KEY = () => 'coal:' + (MAP && MAP.id || '');
   const popc = m => { let c = 0; while (m) { c += m & 1; m >>= 1; } return c; };
   const shortN = s => { const m = s.match(/\(([^)]+)\)\s*$/); return m ? m[1] : s; };
   function load() {
-    role = {}; lead = { g: null, o: null }; $('#coName').value = ''; $('#coOppName').value = '';
-    try { const s = JSON.parse(localStorage.getItem(KEY()) || 'null'); if (s) { role = s.role || {}; lead = s.lead || lead; $('#coName').value = s.name || ''; $('#coOppName').value = s.oname || ''; } } catch (e) {}
+    blocs = DEF(); role = {}; lead = {};
+    try {
+      const s = JSON.parse(localStorage.getItem(KEY()) || 'null');
+      if (s) {
+        if (s.blocs) blocs = s.blocs; else { if (s.name) blocs[0].name = s.name; if (s.oname) blocs[1].name = s.oname; }
+        role = s.role || {}; lead = s.lead || {};
+      }
+    } catch (e) {}
   }
-  function save() { try { localStorage.setItem(KEY(), JSON.stringify({ role, lead, name: $('#coName').value, oname: $('#coOppName').value })); } catch (e) {} }
+  function save() { try { localStorage.setItem(KEY(), JSON.stringify({ blocs, role, lead })); } catch (e) {} }
   function render() {
     const T = totals(), all = T.all || 1, maj = T.maj;
     const ps = store.parties.filter(p => T.t[p.id] > 0).sort((a, b) => T.t[b.id] - T.t[a.id]);
-    Object.keys(role).forEach(id => { if (!ps.find(p => p.id === id)) delete role[id]; });
-    const grp = k => ps.filter(p => role[p.id] === k), sum = a => a.reduce((s, p) => s + T.t[p.id], 0);
-    ['g', 'o'].forEach(k => { const g = grp(k); if (!g.find(p => p.id === lead[k])) lead[k] = g.length ? g[0].id : null; });
-    const G = grp('g'), O = grp('o'), N = ps.filter(p => !role[p.id]);
-    const gs = sum(G), os = sum(O), ns = sum(N);
+    const bid = new Set(blocs.map(b => b.id));
+    Object.keys(role).forEach(id => { if (!ps.find(p => p.id === id) || !bid.has(role[id])) delete role[id]; });
+    const mem = b => ps.filter(p => role[p.id] === b.id), sum = a => a.reduce((s, p) => s + T.t[p.id], 0);
+    blocs.forEach(b => { const m = mem(b); if (!m.find(p => p.id === lead[b.id])) lead[b.id] = m.length ? m[0].id : null; });
+    const N = ps.filter(p => !role[p.id]), ns = sum(N);
     const pc = v => (v / all * 100).toFixed(1) + '%';
-    const seg = (p) => `<i style="width:${T.t[p.id] / all * 100}%;background:${p.colors[0]}" title="${esc(p.name)} ${T.t[p.id]}"></i>`;
-    $('#coBar').innerHTML = `<div class="cobar">${G.map(seg).join('')}<i class="gap" style="width:${(all - gs - os) / all * 100}%">${N.map(p => `<i class="nt" style="width:${T.t[p.id] / Math.max(1, all - gs - os) * 100}%;background:${p.colors[0]}"></i>`).join('')}</i>${O.slice().reverse().map(seg).join('')}<b class="maj" style="left:${maj / all * 100}%"></b></div>`;
-    const st = (v, nm) => v >= maj ? `<span class="ok">${nm} 과반 달성 · +${v - maj}</span>` : `<span class="no">${nm} 과반까지 ${maj - v}석</span>`;
-    const gN = $('#coName').value || '여당 연립', oN = $('#coOppName').value || '야당';
-    $('#coSum').innerHTML =
-      `<div><span class="g">${esc(gN)} <b>${gs}</b>석 (${pc(gs)})</span>${st(gs, '')}</div>` +
-      `<div><span class="g">${esc(oN)} <b>${os}</b>석 (${pc(os)})</span>${st(os, '')}${os > gs && gs ? '<span class="no">야당이 더 큼</span>' : ''}</div>` +
-      `<div class="o">기타·무소속 ${ns}석${T.toss ? ` · 경합 ${T.toss}석` : ''} · 과반 ${maj} / ${T.all}</div>`;
+    const seg = p => `<i style="width:${T.t[p.id] / all * 100}%;background:${p.colors[0]}" title="${esc(p.name)} ${T.t[p.id]}"></i>`;
+    // 막대: 첫 연합 왼쪽, 나머지 연합 오른쪽부터, 기타는 가운데
+    const left = blocs[0] ? mem(blocs[0]) : [], rest = blocs.slice(1);
+    const ls = sum(left), rs = rest.reduce((s, b) => s + sum(mem(b)), 0);
+    $('#coBar').innerHTML = `<div class="cobar">${left.map(seg).join('')}<i class="gap" style="width:${(all - ls - rs) / all * 100}%">${N.map(p => `<i class="nt" style="width:${T.t[p.id] / Math.max(1, all - ls - rs) * 100}%;background:${p.colors[0]}"></i>`).join('')}</i>${rest.map(b => { const bs = sum(mem(b)); return bs ? `<span class="cob" style="width:${bs / all * 100}%">${mem(b).map(p => `<i style="width:${T.t[p.id] / bs * 100}%;background:${p.colors[0]}" title="${esc(p.name)} ${T.t[p.id]}"></i>`).join('')}</span>` : ''; }).reverse().join('')}<b class="maj" style="left:${maj / all * 100}%"></b></div>`;
+    // 합계
+    const sums = blocs.map(b => ({ b, s: sum(mem(b)) })), top = Math.max(0, ...sums.map(x => x.s));
+    $('#coSum').innerHTML = sums.map(({ b, s }, i) => {
+      const m = mem(b);
+      return `<div><span class="g">${esc(b.name || '연합 ' + (i + 1))} <b>${s}</b>석 (${pc(s)})</span>` +
+        (m.length ? (s >= maj ? `<span class="ok">과반 달성 · +${s - maj}</span>` : `<span class="no">과반까지 ${maj - s}석</span>`) : '<span class="o">정당 없음</span>') +
+        (s && s === top && sums.filter(x => x.s === top).length === 1 ? '<span class="o">최대 연합</span>' : '') +
+        `<span class="o">${m.map(p => esc(shortN(p.name))).join(' · ')}</span></div>`;
+    }).join('') + `<div class="o">기타·무소속 ${ns}석${T.toss ? ` · 경합 ${T.toss}석` : ''} · 과반 ${maj} / ${T.all}</div>`;
+    // 연합 목록
+    const B = $('#coBlocs'); B.innerHTML = '';
+    blocs.forEach((b, i) => {
+      const r = document.createElement('div'); r.className = 'corow0';
+      r.innerHTML = `<span class="bn">${i + 1}</span><input value="${esc(b.name)}" placeholder="연합 이름">` + (blocs.length > 1 ? '<button class="del" title="이 연합 지우기">삭제</button>' : '');
+      r.querySelector('input').oninput = e => { b.name = e.target.value; save(); renderSumOnly(); };
+      const d = r.querySelector('.del'); if (d) d.onclick = () => { blocs.splice(i, 1); save(); render(); };
+      B.appendChild(r);
+    });
+    // 정당 목록
     const L = $('#coList'); L.innerHTML = '';
     ps.forEach(p => {
-      const v = T.t[p.id], r = document.createElement('div'), k = role[p.id] || 'n';
-      r.className = 'corow r-' + k;
-      const isLead = k !== 'n' && lead[k] === p.id;
+      const v = T.t[p.id], k = role[p.id] || '', r = document.createElement('div');
+      const bi = blocs.findIndex(b => b.id === k), isLead = k && lead[k] === p.id;
+      r.className = 'corow' + (bi === 0 ? ' r-g' : bi > 0 ? ' r-o' : '');
       r.innerHTML = `<span class="sw" style="background:${p.colors[0]}"></span><span class="n">${esc(p.name)}${isLead ? ' <em>주도</em>' : ''}</span><span class="v">${v}석</span><span class="pc">${pc(v)}</span>` +
-        `<span class="coseg"><button data-r="g"${k === 'g' ? ' class="on"' : ''}>여당</button><button data-r="o"${k === 'o' ? ' class="on"' : ''}>야당</button><button data-r="n"${k === 'n' ? ' class="on"' : ''}>기타</button></span>` +
-        (k !== 'n' && !isLead ? '<button class="ld" title="이 진영의 주도 정당으로">주도</button>' : '<span class="ld-sp"></span>');
-      r.querySelectorAll('[data-r]').forEach(b => b.onclick = () => { const x = b.dataset.r; if (x === 'n') delete role[p.id]; else role[p.id] = x; save(); render(); });
+        `<select class="cosel">${blocs.map((b, i) => `<option value="${b.id}"${b.id === k ? ' selected' : ''}>${esc(b.name || '연합 ' + (i + 1))}</option>`).join('')}<option value=""${!k ? ' selected' : ''}>기타</option></select>` +
+        (k && !isLead ? '<button class="ld" title="이 연합의 주도 정당으로">주도</button>' : '<span class="ld-sp"></span>');
+      r.querySelector('select').onchange = e => { const x = e.target.value; if (x) role[p.id] = x; else delete role[p.id]; save(); render(); };
       const lb = r.querySelector('.ld'); if (lb) lb.onclick = () => { lead[k] = p.id; save(); render(); };
       L.appendChild(r);
     });
@@ -51,17 +73,22 @@
     }
     res.sort((a, b) => a.k - b.k || a.s - b.s);
     res.slice(0, 10).forEach(c => {
-      const mem = cand.filter((p, i) => c.m >> i & 1), b = document.createElement('button'); b.className = 'cowin';
-      b.innerHTML = mem.map(p => `<span class="sw" style="background:${p.colors[0]}"></span>${esc(shortN(p.name))}`).join(' + ') + ` <b>${c.s}석</b>`;
-      b.onclick = () => { role = {}; ps.forEach(p => role[p.id] = 'o'); mem.forEach(p => role[p.id] = 'g'); lead = { g: mem[0].id, o: null }; save(); render(); };
+      const mm = cand.filter((p, i) => c.m >> i & 1), b = document.createElement('button'); b.className = 'cowin';
+      b.innerHTML = mm.map(p => `<span class="sw" style="background:${p.colors[0]}"></span>${esc(shortN(p.name))}`).join(' + ') + ` <b>${c.s}석</b>`;
+      b.onclick = () => {
+        if (blocs.length < 2) blocs.push({ id: 'b' + Date.now(), name: '야당' });
+        role = {}; ps.forEach(p => role[p.id] = blocs[1].id); mm.forEach(p => role[p.id] = blocs[0].id);
+        lead = { [blocs[0].id]: mm[0].id }; save(); render();
+      };
       W.appendChild(b);
     });
     if (!res.length && ps.length) W.innerHTML = '<div class="j">칠해진 의석으로는 과반 연합을 만들 수 없어요.</div>';
   }
+  let rt = null; function renderSumOnly() { clearTimeout(rt); rt = setTimeout(() => { const f = document.activeElement, i = [...$$('#coBlocs input')].indexOf(f), pos = f && f.selectionStart; render(); const n = $$('#coBlocs input')[i]; if (n) { n.focus(); try { n.setSelectionRange(pos, pos); } catch (e) {} } }, 250); }
   function open() { load(); render(); $('#mCoal').classList.add('open'); }
   $('#coalBtn').onclick = open;
-  $('#coName').oninput = $('#coOppName').oninput = () => { save(); render(); };
-  $('#coClear').onclick = () => { role = {}; lead = { g: null, o: null }; save(); render(); };
-  $('#coRest').onclick = () => { totals(); store.parties.forEach(p => { if (!role[p.id]) role[p.id] = 'o'; }); save(); render(); };
+  $('#coAdd').onclick = () => { blocs.push({ id: 'b' + Date.now(), name: '연합 ' + (blocs.length + 1) }); save(); render(); };
+  $('#coClear').onclick = () => { blocs = DEF(); role = {}; lead = {}; save(); render(); };
+  $('#coRest').onclick = () => { const last = blocs[blocs.length - 1]; if (!last) return; store.parties.forEach(p => { if (!role[p.id]) role[p.id] = last.id; }); save(); render(); };
   window.openCoalition = open;
 })();
