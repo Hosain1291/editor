@@ -29,21 +29,6 @@
     1657.9
    ],
    "big": false
-  },
-  {
-   "key": "mnl",
-   "name": "메트로 마닐라",
-   "sub": "확대",
-   "regions": [
-    "PH"
-   ],
-   "box": [
-    418,
-    612,
-    46,
-    54
-   ],
-   "big": true
   }
  ],
  "parties": [
