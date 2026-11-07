@@ -1,0 +1,179 @@
+{
+ "id": "wr-1919",
+ "name": "바이마르 공화국 국회의원 선거",
+ "subtitle": "1919년 1월 (국민의회) · 실제 의석 423석 · 1920년 이후 선거구 모양 사용",
+ "tag": "DEUTSCHES REICH 1919 · REICHSTAG",
+ "menuCountry": "독일",
+ "menuGroup": "바이마르 공화국 국회의원 선거",
+ "menuLabel": "선거를 고르세요",
+ "cardName": "1919",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 744.0,
+ "regions": {
+  "DR": "독일국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1919년 1월 (국민의회)",
+   "sub": "선거구 (Wahlkreis) 35개",
+   "regions": [
+    "DR"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    744.0
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "독일 사회민주당 (SPD)",
+   "color": "#E3000F"
+  },
+  {
+   "name": "중앙당·바이에른인민당 (Z/BVP)",
+   "color": "#4A4A4A"
+  },
+  {
+   "name": "독일 민주당 (DDP)",
+   "color": "#E2C93B"
+  },
+  {
+   "name": "독립사회민주당 (USPD)",
+   "color": "#8B1A1A"
+  },
+  {
+   "name": "독일 국가인민당 (DNVP)",
+   "color": "#3F7BC1"
+  },
+  {
+   "name": "독일 인민당 (DVP)",
+   "color": "#C9A227"
+  },
+  {
+   "name": "기타",
+   "color": "#999999"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {},
+ "names": {
+  "DR-1": "동프로이센 (Ostpreußen)",
+  "DR-2": "베를린 (Berlin)",
+  "DR-3": "포츠담 I (Potsdam I)",
+  "DR-4": "포츠담 II (Potsdam II)",
+  "DR-5": "프랑크푸르트(오더) (Frankfurt/Oder)",
+  "DR-6": "포메른 (Pommern)",
+  "DR-7": "브레슬라우 (Breslau)",
+  "DR-8": "리그니츠 (Liegnitz)",
+  "DR-9": "오펠른 (Oppeln)",
+  "DR-10": "마그데부르크 (Magdeburg)",
+  "DR-11": "메르제부르크 (Merseburg)",
+  "DR-12": "튀링겐 (Thüringen)",
+  "DR-13": "슐레스비히홀슈타인 (Schleswig-Holstein)",
+  "DR-14": "베저엠스 (Weser-Ems)",
+  "DR-15": "동하노버 (Ost-Hannover)",
+  "DR-16": "남하노버-브라운슈바이크 (Südhannover-Braunschweig)",
+  "DR-17": "북베스트팔렌 (Westfalen Nord)",
+  "DR-18": "남베스트팔렌 (Westfalen Süd)",
+  "DR-19": "헤센나사우 (Hessen-Nassau)",
+  "DR-20": "쾰른-아헨 (Köln-Aachen)",
+  "DR-21": "코블렌츠-트리어 (Koblenz-Trier)",
+  "DR-22": "동뒤셀도르프 (Düsseldorf Ost)",
+  "DR-23": "서뒤셀도르프 (Düsseldorf West)",
+  "DR-24": "오버바이에른-슈바벤 (Oberbayern-Schwaben)",
+  "DR-25": "니더바이에른 (Niederbayern)",
+  "DR-26": "프랑켄 (Franken)",
+  "DR-27": "팔츠 (Pfalz)",
+  "DR-28": "드레스덴-바우첸 (Dresden-Bautzen)",
+  "DR-29": "라이프치히 (Leipzig)",
+  "DR-30": "켐니츠-츠비카우 (Chemnitz-Zwickau)",
+  "DR-31": "뷔르템베르크 (Württemberg)",
+  "DR-32": "바덴 (Baden)",
+  "DR-33": "헤센다름슈타트 (Hessen-Darmstadt)",
+  "DR-34": "함부르크 (Hamburg)",
+  "DR-35": "메클렌부르크 (Mecklenburg)"
+ },
+ "labels": {
+  "DR-1": "동프로이센",
+  "DR-2": "베를린",
+  "DR-3": "포츠담 I",
+  "DR-4": "포츠담 II",
+  "DR-5": "프랑크푸르트(오더)",
+  "DR-6": "포메른",
+  "DR-7": "브레슬라우",
+  "DR-8": "리그니츠",
+  "DR-9": "오펠른",
+  "DR-10": "마그데부르크",
+  "DR-11": "메르제부르크",
+  "DR-12": "튀링겐",
+  "DR-13": "슐레스비히홀슈타인",
+  "DR-14": "베저엠스",
+  "DR-15": "동하노버",
+  "DR-16": "남하노버-브라운슈바이크",
+  "DR-17": "북베스트팔렌",
+  "DR-18": "남베스트팔렌",
+  "DR-19": "헤센나사우",
+  "DR-20": "쾰른-아헨",
+  "DR-21": "코블렌츠-트리어",
+  "DR-22": "동뒤셀도르프",
+  "DR-23": "서뒤셀도르프",
+  "DR-24": "오버바이에른-슈바벤",
+  "DR-25": "니더바이에른",
+  "DR-26": "프랑켄",
+  "DR-27": "팔츠",
+  "DR-28": "드레스덴-바우첸",
+  "DR-29": "라이프치히",
+  "DR-30": "켐니츠-츠비카우",
+  "DR-31": "뷔르템베르크",
+  "DR-32": "바덴",
+  "DR-33": "헤센다름슈타트",
+  "DR-34": "함부르크",
+  "DR-35": "메클렌부르크"
+ },
+ "regionOf": {
+  "DR-1": "DR",
+  "DR-2": "DR",
+  "DR-3": "DR",
+  "DR-4": "DR",
+  "DR-5": "DR",
+  "DR-6": "DR",
+  "DR-7": "DR",
+  "DR-8": "DR",
+  "DR-9": "DR",
+  "DR-10": "DR",
+  "DR-11": "DR",
+  "DR-12": "DR",
+  "DR-13": "DR",
+  "DR-14": "DR",
+  "DR-15": "DR",
+  "DR-16": "DR",
+  "DR-17": "DR",
+  "DR-18": "DR",
+  "DR-19": "DR",
+  "DR-20": "DR",
+  "DR-21": "DR",
+  "DR-22": "DR",
+  "DR-23": "DR",
+  "DR-24": "DR",
+  "DR-25": "DR",
+  "DR-26": "DR",
+  "DR-27": "DR",
+  "DR-28": "DR",
+  "DR-29": "DR",
+  "DR-30": "DR",
+  "DR-31": "DR",
+  "DR-32": "DR",
+  "DR-33": "DR",
+  "DR-34": "DR",
+  "DR-35": "DR"
+ },
+ "hideSeatOne": true,
+ "labelName": true
+}

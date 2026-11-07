@@ -1,0 +1,332 @@
+{
+ "id": "wr-1920",
+ "name": "바이마르 공화국 국회의원 선거",
+ "subtitle": "1920년 6월 · 선거구 35개 · 1위 정당 칠하기 · 실제 의석 459석",
+ "tag": "DEUTSCHES REICH 1920 · REICHSTAG",
+ "menuCountry": "독일",
+ "menuGroup": "바이마르 공화국 국회의원 선거",
+ "menuLabel": "선거를 고르세요",
+ "cardName": "1920",
+ "svg": "../wr-1919/map.svg",
+ "width": 1000,
+ "height": 744.0,
+ "regions": {
+  "DR": "독일국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1920년 6월",
+   "sub": "선거구 (Wahlkreis) 35개",
+   "regions": [
+    "DR"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    744.0
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "독일 사회민주당 (SPD)",
+   "color": "#E3000F"
+  },
+  {
+   "name": "독립사회민주당 (USPD)",
+   "color": "#8B1A1A"
+  },
+  {
+   "name": "독일 국가인민당 (DNVP)",
+   "color": "#3F7BC1"
+  },
+  {
+   "name": "독일 인민당 (DVP)",
+   "color": "#C9A227"
+  },
+  {
+   "name": "중앙당·바이에른인민당 (Z/BVP)",
+   "color": "#4A4A4A"
+  },
+  {
+   "name": "독일 민주당 (DDP)",
+   "color": "#E2C93B"
+  },
+  {
+   "name": "독일 공산당 (KPD)",
+   "color": "#7A0019"
+  },
+  {
+   "name": "기타",
+   "color": "#999999"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {},
+ "names": {
+  "DR-1": "동프로이센 (Ostpreußen)",
+  "DR-2": "베를린 (Berlin)",
+  "DR-3": "포츠담 I (Potsdam I)",
+  "DR-4": "포츠담 II (Potsdam II)",
+  "DR-5": "프랑크푸르트(오더) (Frankfurt/Oder)",
+  "DR-6": "포메른 (Pommern)",
+  "DR-7": "브레슬라우 (Breslau)",
+  "DR-8": "리그니츠 (Liegnitz)",
+  "DR-9": "오펠른 (Oppeln)",
+  "DR-10": "마그데부르크 (Magdeburg)",
+  "DR-11": "메르제부르크 (Merseburg)",
+  "DR-12": "튀링겐 (Thüringen)",
+  "DR-13": "슐레스비히홀슈타인 (Schleswig-Holstein)",
+  "DR-14": "베저엠스 (Weser-Ems)",
+  "DR-15": "동하노버 (Ost-Hannover)",
+  "DR-16": "남하노버-브라운슈바이크 (Südhannover-Braunschweig)",
+  "DR-17": "북베스트팔렌 (Westfalen Nord)",
+  "DR-18": "남베스트팔렌 (Westfalen Süd)",
+  "DR-19": "헤센나사우 (Hessen-Nassau)",
+  "DR-20": "쾰른-아헨 (Köln-Aachen)",
+  "DR-21": "코블렌츠-트리어 (Koblenz-Trier)",
+  "DR-22": "동뒤셀도르프 (Düsseldorf Ost)",
+  "DR-23": "서뒤셀도르프 (Düsseldorf West)",
+  "DR-24": "오버바이에른-슈바벤 (Oberbayern-Schwaben)",
+  "DR-25": "니더바이에른 (Niederbayern)",
+  "DR-26": "프랑켄 (Franken)",
+  "DR-27": "팔츠 (Pfalz)",
+  "DR-28": "드레스덴-바우첸 (Dresden-Bautzen)",
+  "DR-29": "라이프치히 (Leipzig)",
+  "DR-30": "켐니츠-츠비카우 (Chemnitz-Zwickau)",
+  "DR-31": "뷔르템베르크 (Württemberg)",
+  "DR-32": "바덴 (Baden)",
+  "DR-33": "헤센다름슈타트 (Hessen-Darmstadt)",
+  "DR-34": "함부르크 (Hamburg)",
+  "DR-35": "메클렌부르크 (Mecklenburg)"
+ },
+ "labels": {
+  "DR-1": "동프로이센",
+  "DR-2": "베를린",
+  "DR-3": "포츠담 I",
+  "DR-4": "포츠담 II",
+  "DR-5": "프랑크푸르트(오더)",
+  "DR-6": "포메른",
+  "DR-7": "브레슬라우",
+  "DR-8": "리그니츠",
+  "DR-9": "오펠른",
+  "DR-10": "마그데부르크",
+  "DR-11": "메르제부르크",
+  "DR-12": "튀링겐",
+  "DR-13": "슐레스비히홀슈타인",
+  "DR-14": "베저엠스",
+  "DR-15": "동하노버",
+  "DR-16": "남하노버-브라운슈바이크",
+  "DR-17": "북베스트팔렌",
+  "DR-18": "남베스트팔렌",
+  "DR-19": "헤센나사우",
+  "DR-20": "쾰른-아헨",
+  "DR-21": "코블렌츠-트리어",
+  "DR-22": "동뒤셀도르프",
+  "DR-23": "서뒤셀도르프",
+  "DR-24": "오버바이에른-슈바벤",
+  "DR-25": "니더바이에른",
+  "DR-26": "프랑켄",
+  "DR-27": "팔츠",
+  "DR-28": "드레스덴-바우첸",
+  "DR-29": "라이프치히",
+  "DR-30": "켐니츠-츠비카우",
+  "DR-31": "뷔르템베르크",
+  "DR-32": "바덴",
+  "DR-33": "헤센다름슈타트",
+  "DR-34": "함부르크",
+  "DR-35": "메클렌부르크"
+ },
+ "regionOf": {
+  "DR-1": "DR",
+  "DR-2": "DR",
+  "DR-3": "DR",
+  "DR-4": "DR",
+  "DR-5": "DR",
+  "DR-6": "DR",
+  "DR-7": "DR",
+  "DR-8": "DR",
+  "DR-9": "DR",
+  "DR-10": "DR",
+  "DR-11": "DR",
+  "DR-12": "DR",
+  "DR-13": "DR",
+  "DR-14": "DR",
+  "DR-15": "DR",
+  "DR-16": "DR",
+  "DR-17": "DR",
+  "DR-18": "DR",
+  "DR-19": "DR",
+  "DR-20": "DR",
+  "DR-21": "DR",
+  "DR-22": "DR",
+  "DR-23": "DR",
+  "DR-24": "DR",
+  "DR-25": "DR",
+  "DR-26": "DR",
+  "DR-27": "DR",
+  "DR-28": "DR",
+  "DR-29": "DR",
+  "DR-30": "DR",
+  "DR-31": "DR",
+  "DR-32": "DR",
+  "DR-33": "DR",
+  "DR-34": "DR",
+  "DR-35": "DR"
+ },
+ "hideSeatOne": true,
+ "labelName": true,
+ "presets": [
+  {
+   "name": "실제 결과 (1위 정당)",
+   "d": {
+    "DR-1": {
+     "독일 국가인민당 (DNVP)": 1
+    },
+    "DR-2": {
+     "독립사회민주당 (USPD)": 1
+    },
+    "DR-3": {
+     "독립사회민주당 (USPD)": 1
+    },
+    "DR-4": {
+     "독립사회민주당 (USPD)": 1
+    },
+    "DR-5": {
+     "독일 국가인민당 (DNVP)": 1
+    },
+    "DR-6": {
+     "독일 국가인민당 (DNVP)": 1
+    },
+    "DR-7": {
+     "독일 사회민주당 (SPD)": 1
+    },
+    "DR-8": {
+     "독일 사회민주당 (SPD)": 1
+    },
+    "DR-9": {
+     "중앙당·바이에른인민당 (Z/BVP)": 1
+    },
+    "DR-10": {
+     "독일 사회민주당 (SPD)": 1
+    },
+    "DR-11": {
+     "중앙당·바이에른인민당 (Z/BVP)": 1
+    },
+    "DR-12": {
+     "독립사회민주당 (USPD)": 1
+    },
+    "DR-13": {
+     "독일 사회민주당 (SPD)": 1
+    },
+    "DR-14": {
+     "독일 인민당 (DVP)": 1
+    },
+    "DR-15": {
+     "독일 사회민주당 (SPD)": 1
+    },
+    "DR-16": {
+     "독일 사회민주당 (SPD)": 1
+    },
+    "DR-17": {
+     "독립사회민주당 (USPD)": 1
+    },
+    "DR-18": {
+     "중앙당·바이에른인민당 (Z/BVP)": 1
+    },
+    "DR-19": {
+     "독일 사회민주당 (SPD)": 1
+    },
+    "DR-20": {
+     "중앙당·바이에른인민당 (Z/BVP)": 1
+    },
+    "DR-21": {
+     "중앙당·바이에른인민당 (Z/BVP)": 1
+    },
+    "DR-22": {
+     "독립사회민주당 (USPD)": 1
+    },
+    "DR-23": {
+     "중앙당·바이에른인민당 (Z/BVP)": 1
+    },
+    "DR-24": {
+     "중앙당·바이에른인민당 (Z/BVP)": 1
+    },
+    "DR-25": {
+     "중앙당·바이에른인민당 (Z/BVP)": 1
+    },
+    "DR-26": {
+     "중앙당·바이에른인민당 (Z/BVP)": 1
+    },
+    "DR-27": {
+     "독일 인민당 (DVP)": 1
+    },
+    "DR-28": {
+     "독일 사회민주당 (SPD)": 1
+    },
+    "DR-29": {
+     "독립사회민주당 (USPD)": 1
+    },
+    "DR-30": {
+     "독일 사회민주당 (SPD)": 1
+    },
+    "DR-31": {
+     "독일 국가인민당 (DNVP)": 1
+    },
+    "DR-32": {
+     "중앙당·바이에른인민당 (Z/BVP)": 1
+    },
+    "DR-33": {
+     "독일 사회민주당 (SPD)": 1
+    },
+    "DR-34": {
+     "독일 사회민주당 (SPD)": 1
+    },
+    "DR-35": {
+     "독일 사회민주당 (SPD)": 1
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "DR-1": "DNVP 30.9% · SPD 23.9% · DVP 15.1% · Zentrum/BVP 9.5% · KPD 7.2% · DDP 5.6% · USPD 5.5% · Other 2.3%",
+  "DR-2": "USPD 42.7% · SPD 17.5% · DVP 14.1% · DNVP 11.5% · DDP 7.1% · Zentrum/BVP 3.4% · Other 2.4% · KPD 1.3%",
+  "DR-3": "USPD 30.2% · SPD 20.6% · DNVP 19.6% · DVP 17.2% · DDP 7.6% · Zentrum/BVP 1.8% · Other 1.7% · KPD 1.3%",
+  "DR-4": "USPD 29.7% · DVP 21.6% · SPD 17.4% · DNVP 14.3% · DDP 10.5% · Zentrum/BVP 2.8% · Other 2.4% · KPD 1.3%",
+  "DR-5": "DNVP 27.7% · SPD 24.8% · DVP 15.7% · USPD 14.4% · DDP 9.5% · Zentrum/BVP 5.4% · Other 1.5% · KPD 1.0%",
+  "DR-6": "DNVP 35.5% · SPD 20.7% · DVP 19.7% · USPD 16.7% · DDP 4.5% · KPD 1.2% · Other 1.0% · Zentrum/BVP 0.7%",
+  "DR-7": "SPD 36.1% · Zentrum/BVP 20.0% · DNVP 18.4% · DVP 11.1% · USPD 6.6% · DDP 6.4% · Other 1.4%",
+  "DR-8": "SPD 32.2% · DNVP 20.6% · DVP 13.9% · DDP 12.6% · USPD 10.4% · Zentrum/BVP 9.0% · KPD 1.0% · Other 0.3%",
+  "DR-9": "Zentrum/BVP 40.1% · USPD 14.8% · Other 14.6% · DNVP 13.8% · KPD 7.3% · DVP 7.1% · DDP 2.3%",
+  "DR-10": "SPD 33.6% · USPD 19.2% · DNVP 16.4% · DVP 14.3% · DDP 13.7% · Zentrum/BVP 1.5% · KPD 1.1% · Other 0.2%",
+  "DR-11": "Zentrum/BVP 39.6% · SPD 21.9% · DVP 12.5% · DNVP 10.0% · USPD 8.0% · DDP 4.7% · Other 1.8% · KPD 1.5%",
+  "DR-12": "USPD 30.6% · DNVP 25.3% · SPD 15.4% · DVP 13.9% · DDP 8.3% · Zentrum/BVP 4.6% · KPD 1.9%",
+  "DR-13": "SPD 37.3% · DNVP 20.5% · DVP 18.4% · DDP 9.4% · KPD 6.1% · Other 4.5% · USPD 3.0% · Zentrum/BVP 0.8%",
+  "DR-14": "DVP 22.5% · Zentrum/BVP 20.6% · SPD 17.5% · USPD 16.1% · DDP 12.4% · DNVP 5.3% · Other 3.6% · KPD 2.0%",
+  "DR-15": "Other 34.3% · SPD 27.3% · DVP 13.1% · USPD 10.7% · DNVP 6.9% · Zentrum/BVP 1.1% · KPD 0.5%",
+  "DR-16": "SPD 28.0% · DVP 20.6% · USPD 19.2% · Other 13.4% · DNVP 8.0% · DDP 5.3% · Zentrum/BVP 5.0% · KPD 0.5%",
+  "DR-17": "USPD 45.2% · DNVP 19.2% · DVP 14.3% · DDP 10.0% · SPD 8.8% · KPD 1.6% · Zentrum/BVP 0.9%",
+  "DR-18": "Zentrum/BVP 28.0% · SPD 20.8% · USPD 19.7% · DVP 16.3% · DNVP 6.0% · DDP 5.0% · Other 2.7% · KPD 1.5%",
+  "DR-19": "SPD 27.3% · Zentrum/BVP 17.0% · DVP 16.1% · DNVP 15.6% · USPD 12.3% · DDP 10.2% · KPD 1.5%",
+  "DR-20": "Zentrum/BVP 51.9% · SPD 20.0% · DVP 9.0% · USPD 8.3% · DDP 4.1% · DNVP 4.0% · Other 2.7%",
+  "DR-21": "Zentrum/BVP 56.1% · DVP 12.7% · SPD 12.1% · USPD 5.6% · Other 5.6% · DNVP 4.9% · DDP 3.0%",
+  "DR-22": "USPD 32.8% · Zentrum/BVP 24.4% · DVP 13.2% · DNVP 12.4% · SPD 10.0% · DDP 5.1% · KPD 1.2% · Other 0.9%",
+  "DR-23": "Zentrum/BVP 42.0% · USPD 13.8% · SPD 13.5% · DVP 12.1% · DNVP 6.1% · KPD 5.1% · DDP 4.7% · Other 2.7%",
+  "DR-24": "Zentrum/BVP 44.0% · SPD 15.8% · Other 12.9% · USPD 11.9% · DVP 6.6% · DDP 5.6% · KPD 3.2%",
+  "DR-25": "Zentrum/BVP 56.9% · Other 15.4% · SPD 10.2% · USPD 9.3% · DDP 3.6% · DVP 2.5% · KPD 2.1%",
+  "DR-26": "Zentrum/BVP 29.4% · DNVP 20.0% · SPD 17.4% · USPD 16.6% · DDP 12.5% · DVP 2.9% · KPD 1.0% · Other 0.2%",
+  "DR-27": "DVP 29.1% · Zentrum/BVP 26.1% · SPD 24.3% · USPD 10.8% · DDP 8.9% · KPD 0.8%",
+  "DR-28": "SPD 27.4% · USPD 21.4% · DVP 19.6% · DNVP 17.1% · DDP 10.9% · Zentrum/BVP 1.7% · KPD 1.2% · Other 0.7%",
+  "DR-29": "USPD 42.1% · DVP 20.8% · DNVP 16.9% · SPD 9.1% · DDP 8.4% · KPD 2.0% · Zentrum/BVP 0.4% · Other 0.3%",
+  "DR-30": "SPD 31.8% · DNVP 17.5% · USPD 17.2% · DVP 16.1% · KPD 9.2% · DDP 7.8% · Zentrum/BVP 0.3% · Other 0.1%",
+  "DR-31": "DNVP 26.2% · Zentrum/BVP 23.8% · SPD 15.9% · DDP 14.3% · USPD 12.8% · DVP 3.8% · KPD 3.2%",
+  "DR-32": "Zentrum/BVP 36.4% · SPD 20.1% · DDP 12.3% · DNVP 12.0% · USPD 10.9% · DVP 6.8% · KPD 1.5%",
+  "DR-33": "SPD 30.3% · Zentrum/BVP 16.1% · DVP 16.0% · DNVP 14.1% · USPD 12.2% · DDP 10.8% · KPD 0.5%",
+  "DR-34": "SPD 38.4% · DDP 17.4% · USPD 15.1% · DVP 15.0% · DNVP 12.4% · Zentrum/BVP 1.0% · KPD 0.5% · Other 0.2%",
+  "DR-35": "SPD 37.0% · DNVP 20.6% · DVP 15.8% · USPD 9.7% · DDP 9.5% · Other 6.1% · KPD 1.0% · Zentrum/BVP 0.3%"
+ }
+}
