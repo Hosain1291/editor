@@ -335,9 +335,10 @@ body.present #chartSec{display:block!important}
 .pmsel{background:#000060;border:1px solid var(--line2);color:var(--text);padding:3px 2px;border-radius:2px;font-size:12px;width:78px}
 .pmsel-sp{width:78px;display:inline-block}
 /* 테마 고르기 */
-.themeBox{display:flex;align-items:center;gap:10px;margin-left:auto;margin-bottom:4px}
-.themeSeg{display:flex;gap:4px;flex:none;flex-wrap:wrap}
-.themeSeg button{min-width:56px;font-family:var(--lat);font-weight:700;letter-spacing:.08em}
+.themeBox{display:flex;align-items:center;gap:10px;margin-bottom:4px;width:100%;max-width:100%;box-sizing:border-box;min-width:0}
+.themeBox .label{white-space:nowrap;flex:none}
+.themeSeg{display:grid;grid-template-columns:repeat(auto-fit,minmax(64px,1fr));gap:4px;flex:1 1 auto;min-width:0}
+.themeSeg button{min-width:0;overflow:hidden;text-overflow:ellipsis;font-family:var(--lat);font-weight:700;letter-spacing:.08em}
 /* 연도 고르기 카드 (YAPms처럼 모양틀 하나 + 연도 링크) */
 .ycard{cursor:default}
 .ycard:hover{transform:none}
