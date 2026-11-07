@@ -491,6 +491,30 @@
   {
    "id": "gr-1996",
    "folder": "gr-1996"
+  },
+  {
+   "id": "ph-1965",
+   "folder": "ph-1965"
+  },
+  {
+   "id": "ph-1969",
+   "folder": "ph-1969"
+  },
+  {
+   "id": "ph-2022",
+   "folder": "ph-2022"
+  },
+  {
+   "id": "ph-2025",
+   "folder": "ph-2025"
+  },
+  {
+   "id": "ph-reg",
+   "folder": "ph-reg"
+  },
+  {
+   "id": "ph-prov",
+   "folder": "ph-prov"
   }
  ]
 }

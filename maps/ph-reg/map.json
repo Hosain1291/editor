@@ -1,0 +1,116 @@
+{
+ "id": "ph-reg",
+ "name": "필리핀 지역 (Region)",
+ "subtitle": "행정 지역 18개",
+ "tag": "PILIPINAS · REHIYON",
+ "menuCountry": "필리핀",
+ "menuGroup": "필리핀 행정구역",
+ "menuLabel": "고르세요",
+ "cardName": "지역",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 1334.5,
+ "regions": {
+  "PH": "필리핀"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "전국",
+   "sub": "지역 18개",
+   "regions": [
+    "PH"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1334.5
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "락사스-CMD",
+   "color": "#4FB3C9"
+  },
+  {
+   "name": "필리핀연방당 (PFP)",
+   "color": "#1E7A3A"
+  },
+  {
+   "name": "국민통합당 (NUP)",
+   "color": "#0B4D1F"
+  },
+  {
+   "name": "민족주의인민연합 (NPC)",
+   "color": "#4CA02E"
+  },
+  {
+   "name": "나시오날리스타당 (NP)",
+   "color": "#8EE08A"
+  },
+  {
+   "name": "자유당 (LP)",
+   "color": "#E8DC7A"
+  },
+  {
+   "name": "PDP",
+   "color": "#F2C500"
+  },
+  {
+   "name": "지역 정당",
+   "color": "#7E1E80"
+  },
+  {
+   "name": "무소속",
+   "color": "#999999"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {},
+ "names": {
+  "PH-001": "지역 1",
+  "PH-002": "지역 2",
+  "PH-003": "지역 3",
+  "PH-004": "지역 4",
+  "PH-005": "지역 5",
+  "PH-006": "지역 6",
+  "PH-007": "지역 7",
+  "PH-008": "지역 8",
+  "PH-009": "지역 9",
+  "PH-010": "지역 10",
+  "PH-011": "지역 11",
+  "PH-012": "지역 12",
+  "PH-013": "지역 13",
+  "PH-014": "지역 14",
+  "PH-015": "지역 15",
+  "PH-016": "지역 16",
+  "PH-017": "지역 17",
+  "PH-018": "지역 18"
+ },
+ "labels": {},
+ "regionOf": {
+  "PH-001": "PH",
+  "PH-002": "PH",
+  "PH-003": "PH",
+  "PH-004": "PH",
+  "PH-005": "PH",
+  "PH-006": "PH",
+  "PH-007": "PH",
+  "PH-008": "PH",
+  "PH-009": "PH",
+  "PH-010": "PH",
+  "PH-011": "PH",
+  "PH-012": "PH",
+  "PH-013": "PH",
+  "PH-014": "PH",
+  "PH-015": "PH",
+  "PH-016": "PH",
+  "PH-017": "PH",
+  "PH-018": "PH"
+ },
+ "hideSeatOne": true
+}
