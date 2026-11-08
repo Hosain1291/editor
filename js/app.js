@@ -5,6 +5,12 @@ function viewProgress(entry, v) {
   const meta = entry.meta;
   let s = null; try { s = JSON.parse(localStorage.getItem(storeKey(meta.id))); } catch (e) { }
   if (!s && meta.id === 'tno-japan') { try { s = JSON.parse(localStorage.getItem('tno-japan-map-v2')); } catch (e) { } }
+  if (entry.full === false) {   // 가벼운 목록: 미리 계산한 선거구 수·의석수 사용
+    const [n, tot] = (meta.vstat && meta.vstat[v.key]) || [0, 0];
+    const d = (s && s.maps && s.maps[v.key] && s.maps[v.key].d) || {}; let asg = 0;
+    for (const id in d) { const x = d[id]; if (!x || x.off) continue; const S = (s.seats && s.seats[id]) || 1; asg += Math.min(S, Object.values(x.a || {}).reduce((a, b) => a + b, 0)); }
+    return { n, tot, asg: Math.min(asg, tot) };
+  }
   const seats = id => (s && s.seats && s.seats[id]) || meta.seats[id] || meta.defaultSeats || 1;
   const d = (s && s.maps && s.maps[v.key] && s.maps[v.key].d) || {};
   let tot = 0, asg = 0, n = 0;
@@ -26,7 +32,7 @@ function renderMenu() {
     if (!groups[g]) { groups[g] = []; if (!countries[k]) { countries[k] = []; corder.push(k); } countries[k].push(g); } groups[g].push(entry); });
   const thumbOf = entry => {
     if (entry.custom && !entry.thumb) entry.thumb = URL.createObjectURL(new Blob([entry.svgText], { type: 'image/svg+xml' }));
-    return entry.custom ? entry.thumb : (entry.folder ? `maps/${entry.folder}/` : '') + (entry.meta.svg || 'map.svg');
+    return entry.custom ? entry.thumb : (entry.folder ? `maps/${entry.folder}/` : '') + (entry.meta.thumb || entry.meta.svg || 'map.svg') + (entry.v ? '?v=' + entry.v : '');
   };
   const thumbSVG = (entry, v) => { const [bx, by, bw, bh] = v.box, p = Math.max(bw, bh) * .06;
     return `<svg class="thumb" viewBox="${bx - p} ${by - p} ${bw + 2 * p} ${bh + 2 * p}" preserveAspectRatio="xMidYMid meet"><image href="${thumbOf(entry)}" width="${entry.meta.width}" height="${entry.meta.height}"/></svg>`; };

@@ -11,11 +11,19 @@ let FULL = { x: 0, y: 0, w: 1600, h: 1600 };
 const svgCache = {};
 
 async function loadMapList() {
+  // 메뉴용 가벼운 목록(catalog.json)을 한 번에 받아요. 지도 하나의 전체 설정은 열 때 받아요.
+  try {
+    const cat = await (await fetch('maps/catalog.json', { cache: 'no-cache' })).json();
+    cat.maps.forEach(m => MAP_LIST.push({ id: m.id, folder: m.folder, v: m.v, meta: m.meta, full: false }));
+    return;
+  } catch (e) { }
   const idx = await (await fetch('maps/index.json', { cache: 'no-cache' })).json();
-  for (const m of idx.maps) {
-    const meta = await (await fetch(`maps/${m.folder}/map.json`, { cache: 'no-cache' })).json();
-    MAP_LIST.push({ id: meta.id || m.id, folder: m.folder, meta });
-  }
+  const metas = await Promise.all(idx.maps.map(m => fetch(`maps/${m.folder}/map.json`, { cache: 'no-cache' }).then(r => r.json())));
+  idx.maps.forEach((m, i) => MAP_LIST.push({ id: metas[i].id || m.id, folder: m.folder, meta: metas[i], full: true }));
+}
+async function fullMeta(e) {
+  if (e.full !== false) return e.meta;
+  e.meta = await (await fetch(`maps/${e.folder}/map.json?v=${e.v}`)).json(); e.full = true; return e.meta;
 }
 
 const mapEntry = id => MAP_LIST.find(m => m.id === id);
@@ -23,9 +31,10 @@ const mapEntry = id => MAP_LIST.find(m => m.id === id);
 async function useMap(id) {
   const e = mapEntry(id); if (!e) return false;
   if (MAP && MAP.id === id) return true;
+  await fullMeta(e);
   MAP = e.meta; MAP_BASE = e.folder ? `maps/${e.folder}/` : '';
   let txt = svgCache[id] || e.svgText;
-  if (!txt) { txt = await (await fetch(MAP_BASE + (MAP.svg || 'map.svg'), { cache: 'no-cache' })).text(); svgCache[id] = txt; }
+  if (!txt) { txt = await (await fetch(MAP_BASE + (MAP.svg || 'map.svg') + (e.v ? '?v=' + e.v : ''))).text(); svgCache[id] = txt; }
   const doc = new DOMParser().parseFromString(txt, 'image/svg+xml');
   const alias = MAP.regionAlias || {}, hid = new Set(MAP.hideIds || []);
   DATA = [...doc.querySelectorAll('path[id]')].map(p => {
