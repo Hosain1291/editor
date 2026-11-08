@@ -169,5 +169,8 @@
   "GD-23": "GD",
   "GD-24": "GD"
  },
- "presets": []
+ "presets": [],
+ "menuGroup": "광동국",
+ "menuLabel": "지도를 고르세요",
+ "cardName": "입법회"
 }
