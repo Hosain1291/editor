@@ -1,0 +1,142 @@
+{
+ "id": "fi-1966",
+ "name": "핀란드 의회 총선거",
+ "subtitle": "1966년 · 선거구 15개 · 200석 · 과반 101",
+ "tag": "EDUSKUNTAVAALIT 1966",
+ "menuCountry": "핀란드",
+ "menuGroup": "핀란드 의회 총선거",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1966",
+ "svg": "../fi-svg/g7/map.svg",
+ "width": 1000,
+ "height": 1654.0,
+ "regions": {
+  "FI": "핀란드"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1966년",
+   "sub": "선거구",
+   "regions": [
+    "FI"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1654.0
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "사회민주당 (SDP)",
+   "color": "#E11931"
+  },
+  {
+   "name": "중앙당 (Kesk.)",
+   "color": "#3AAA35"
+  },
+  {
+   "name": "국민연합당 (Kok.)",
+   "color": "#006288"
+  },
+  {
+   "name": "좌파동맹·SKDL",
+   "color": "#BF1E24"
+  },
+  {
+   "name": "스웨덴인민당 (RKP)",
+   "color": "#FFD500"
+  },
+  {
+   "name": "핀란드 농촌당 (SMP)",
+   "color": "#1B3F8B"
+  },
+  {
+   "name": "기독교연맹 (SKL)",
+   "color": "#2B67C9"
+  },
+  {
+   "name": "녹색연맹 (Vihr.)",
+   "color": "#61BF1A"
+  },
+  {
+   "name": "자유인민당 (LKP)",
+   "color": "#AEB400"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "FI-UUS": 18,
+  "FI-TS": 16,
+  "FI-TN": 13,
+  "FI-ALA": 1,
+  "FI-HS": 14,
+  "FI-HN": 12,
+  "FI-KYM": 15,
+  "FI-MIK": 10,
+  "FI-KUO": 12,
+  "FI-PK": 9,
+  "FI-VAA": 20,
+  "FI-KS": 11,
+  "FI-OUL": 18,
+  "FI-LAPL": 10,
+  "FI-HEL": 21
+ },
+ "names": {
+  "FI-UUS": "우시마 주 (Uudenmaan läänin vp.)",
+  "FI-TS": "투르쿠-포리 주 남부 (Turun läänin eteläinen vp.)",
+  "FI-TN": "투르쿠-포리 주 북부 (Turun läänin pohjoinen vp.)",
+  "FI-ALA": "올란드 (Ahvenanmaan maakunnan vp.)",
+  "FI-HS": "해메 주 남부 (Hämeen läänin eteläinen vp.)",
+  "FI-HN": "해메 주 북부 (Hämeen läänin pohjoinen vp.)",
+  "FI-KYM": "퀴미 주 (Kymen läänin vp.)",
+  "FI-MIK": "미켈리 주 (Mikkelin läänin vp.)",
+  "FI-KUO": "쿠오피오 주 (Kuopion läänin vp.)",
+  "FI-PK": "북카렐리아 주 (Pohjois-Karjalan läänin vp.)",
+  "FI-VAA": "바사 주 (Vaasan läänin vp.)",
+  "FI-KS": "중부핀란드 주 (Keski-Suomen läänin vp.)",
+  "FI-OUL": "오울루 주 (Oulun läänin vp.)",
+  "FI-LAPL": "라피 주 (Lapin läänin vp.)",
+  "FI-HEL": "헬싱키 시 (Helsingin kaupungin vp.)"
+ },
+ "labels": {
+  "FI-UUS": "18",
+  "FI-TS": "16",
+  "FI-TN": "13",
+  "FI-ALA": "1",
+  "FI-HS": "14",
+  "FI-HN": "12",
+  "FI-KYM": "15",
+  "FI-MIK": "10",
+  "FI-KUO": "12",
+  "FI-PK": "9",
+  "FI-VAA": "20",
+  "FI-KS": "11",
+  "FI-OUL": "18",
+  "FI-LAPL": "10",
+  "FI-HEL": "21"
+ },
+ "regionOf": {
+  "FI-UUS": "FI",
+  "FI-TS": "FI",
+  "FI-TN": "FI",
+  "FI-ALA": "FI",
+  "FI-HS": "FI",
+  "FI-HN": "FI",
+  "FI-KYM": "FI",
+  "FI-MIK": "FI",
+  "FI-KUO": "FI",
+  "FI-PK": "FI",
+  "FI-VAA": "FI",
+  "FI-KS": "FI",
+  "FI-OUL": "FI",
+  "FI-LAPL": "FI",
+  "FI-HEL": "FI"
+ },
+ "presets": []
+}

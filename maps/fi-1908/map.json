@@ -1,0 +1,134 @@
+{
+ "id": "fi-1908",
+ "name": "핀란드 의회 총선거",
+ "subtitle": "1908년 · 선거구 16개 · 200석 · 과반 101",
+ "tag": "EDUSKUNTAVAALIT 1908",
+ "menuCountry": "핀란드",
+ "menuGroup": "핀란드 의회 총선거",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1908",
+ "svg": "../fi-svg/g1/map.svg",
+ "width": 1000,
+ "height": 1450.8,
+ "regions": {
+  "FI": "핀란드"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1908년",
+   "sub": "선거구",
+   "regions": [
+    "FI"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1450.8
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "사회민주당 (SDP)",
+   "color": "#E11931"
+  },
+  {
+   "name": "핀란드당 (Suom.)",
+   "color": "#1F4E9C"
+  },
+  {
+   "name": "청년핀란드당 (Nuors.)",
+   "color": "#6CB4E4"
+  },
+  {
+   "name": "스웨덴인민당 (RKP)",
+   "color": "#FFD500"
+  },
+  {
+   "name": "농민동맹 (ML)",
+   "color": "#3AAA35"
+  },
+  {
+   "name": "기독교노동자연합 (KTL)",
+   "color": "#8C6D3F"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "FI-UUS": 23,
+  "FI-TS": 17,
+  "FI-TN": 17,
+  "FI-HS": 11,
+  "FI-HN": 11,
+  "FI-VW": 13,
+  "FI-VE": 17,
+  "FI-MIK": 14,
+  "FI-KW": 13,
+  "FI-KE": 11,
+  "FI-VS": 12,
+  "FI-VN": 10,
+  "FI-VAE": 11,
+  "FI-OS": 13,
+  "FI-ON": 6,
+  "FI-LAP": 1
+ },
+ "names": {
+  "FI-UUS": "우시마 주 (Uudenmaan läänin vp.)",
+  "FI-TS": "투르쿠-포리 주 남부 (Turun läänin eteläinen vp.)",
+  "FI-TN": "투르쿠-포리 주 북부 (Turun läänin pohjoinen vp.)",
+  "FI-HS": "해메 주 남부 (Hämeen läänin eteläinen vp.)",
+  "FI-HN": "해메 주 북부 (Hämeen läänin pohjoinen vp.)",
+  "FI-VW": "비푸리 주 서부 (Viipurin läänin läntinen vp.)",
+  "FI-VE": "비푸리 주 동부 (Viipurin läänin itäinen vp.)",
+  "FI-MIK": "미켈리 주 (Mikkelin läänin vp.)",
+  "FI-KW": "쿠오피오 주 서부 (Kuopion läänin läntinen vp.)",
+  "FI-KE": "쿠오피오 주 동부 (Kuopion läänin itäinen vp.)",
+  "FI-VS": "바사 주 남부 (Vaasan läänin eteläinen vp.)",
+  "FI-VN": "바사 주 북부 (Vaasan läänin pohjoinen vp.)",
+  "FI-VAE": "바사 주 동부 (Vaasan läänin itäinen vp.)",
+  "FI-OS": "오울루 주 남부 (Oulun läänin eteläinen vp.)",
+  "FI-ON": "오울루 주 북부 (Oulun läänin pohjoinen vp.)",
+  "FI-LAP": "라플란드 (Lapin vp. (Lapinmaa))"
+ },
+ "labels": {
+  "FI-UUS": "23",
+  "FI-TS": "17",
+  "FI-TN": "17",
+  "FI-HS": "11",
+  "FI-HN": "11",
+  "FI-VW": "13",
+  "FI-VE": "17",
+  "FI-MIK": "14",
+  "FI-KW": "13",
+  "FI-KE": "11",
+  "FI-VS": "12",
+  "FI-VN": "10",
+  "FI-VAE": "11",
+  "FI-OS": "13",
+  "FI-ON": "6",
+  "FI-LAP": "1"
+ },
+ "regionOf": {
+  "FI-UUS": "FI",
+  "FI-TS": "FI",
+  "FI-TN": "FI",
+  "FI-HS": "FI",
+  "FI-HN": "FI",
+  "FI-VW": "FI",
+  "FI-VE": "FI",
+  "FI-MIK": "FI",
+  "FI-KW": "FI",
+  "FI-KE": "FI",
+  "FI-VS": "FI",
+  "FI-VN": "FI",
+  "FI-VAE": "FI",
+  "FI-OS": "FI",
+  "FI-ON": "FI",
+  "FI-LAP": "FI"
+ },
+ "presets": []
+}
