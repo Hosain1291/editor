@@ -1,4 +1,4 @@
-/* 테마: TNO (The New Order, 하늘색 홀로그램) / TFR (The Fire Rises, 네온 마젠타 신스웨이브) / PC통신 (파란 화면)
+/* 테마: 라이트·다크(균명조 글꼴) / TNO (The New Order, 하늘색 홀로그램) / TFR (The Fire Rises, 네온 마젠타 신스웨이브) / PC통신 (파란 화면)
    head 에서 먼저 읽혀서 화면이 깜빡이지 않게 테마 CSS 를 바로 켜요. */
 const THEMES = {
   tno: { name: 'TNO', full: 'THE NEW ORDER', desc: 'TNO의 선거지도를 만들어보세요', toss: '#1d3a40', ctx: '#0e2125', sea: '#081619', grid: '#0f262b', head: '#0a191d', frame: '#8fe3e8', text: '#eaffff', mute: '#6f9ea2', stroke: '#d86a78', ctxStroke: '#2c4f55', off: '#0a1a1d', dark: '#071215' },
@@ -7,6 +7,8 @@ const THEMES = {
   win31: {"name": "윈도우 3.1", "full": "WINDOWS 3.1", "desc": "Windows 3.1 시절처럼 선거지도를 만들어보세요", "toss": "#d8d8d8", "ctx": "#eeeeee", "sea": "#ffffff", "grid": "#e8e8e8", "head": "#ffffff", "frame": "#000080", "text": "#000000", "mute": "#555555", "stroke": "#808080", "ctxStroke": "#c0c0c0", "off": "#f0f0f0", "dark": "#000000", "css": "win31Css", "btn": "Win 3.1"},
   win95: {"name": "윈도우 95", "full": "WINDOWS 95", "desc": "Windows 95 시절처럼 선거지도를 만들어보세요", "toss": "#d4d0c8", "ctx": "#e8e8e8", "sea": "#ffffff", "grid": "#ececec", "head": "#c0c0c0", "frame": "#000080", "text": "#000000", "mute": "#404040", "stroke": "#808080", "ctxStroke": "#c0c0c0", "off": "#ececec", "dark": "#000000", "css": "win95Css", "btn": "Win 95"},
   winxp: {"name": "윈도우 XP", "full": "WINDOWS XP", "desc": "Windows XP 시절처럼 선거지도를 만들어보세요", "toss": "#d6dbe9", "ctx": "#eef0f6", "sea": "#ffffff", "grid": "#eef2fb", "head": "#ece9d8", "frame": "#0058e6", "text": "#000000", "mute": "#555555", "stroke": "#7f9db9", "ctxStroke": "#c5cee0", "off": "#eef0f6", "dark": "#000000", "css": "winxpCss", "btn": "Win XP"},
+  light: {"name": "라이트", "full": "LIGHT", "desc": "깔끔한 밝은 화면에서 선거지도를 만들어보세요", "toss": "#e3e1dc", "ctx": "#efede8", "sea": "#ffffff", "grid": "#f3f2ef", "head": "#ffffff", "frame": "#1a1a1a", "text": "#1a1a1a", "mute": "#777777", "stroke": "#9a968e", "ctxStroke": "#d6d3cc", "off": "#f3f2ef", "dark": "#1a1a1a", "css": "lightCss"},
+  dark: {"name": "다크", "full": "DARK", "desc": "차분한 어두운 화면에서 선거지도를 만들어보세요", "toss": "#2a2a2e", "ctx": "#19191c", "sea": "#121214", "grid": "#1c1c1f", "head": "#18181a", "frame": "#ededed", "text": "#ededed", "mute": "#8a8a90", "stroke": "#55555c", "ctxStroke": "#2e2e33", "off": "#1b1b1e", "dark": "#0f0f10", "css": "darkCss"},
 };
 let THEME_ID = 'tno';
 try { THEME_ID = localStorage.getItem('tnomap:theme') || 'tno'; } catch (e) { }
