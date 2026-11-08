@@ -3,8 +3,8 @@
 import re,json
 BASE=['#eaffff','#8fe3e8','#0a191d','#06100f','#6fd6dc','#123238','#0f262b','#071215','#2c6e74','#081619','#ff7a88','#e06070','#1d5a60','#e6ffff','#d86a78','#d3f1f2','#6f9ea2','#2c4f55','#1f4a50','#1d3a40','#1a3a40','#12313a','#10292e','#0f2429','#0e2125','#0d2328','#0d2227','#0b1f23','#0b1b1f','#0a1a1d','#0a171a','#2c5a60']
 FONT="""
-@font-face{font-family:'GyunMyeongjo';src:url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2611080026@gyunmyeongjo-regular/gyunmyeongjo-regular/GyunMyeongjo-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
-@font-face{font-family:'GyunMyeongjo';src:url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2611080026@gyunmyeongjo-regular/gyunmyeongjo-regular/GyunMyeongjo-Bold.woff2') format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:'GyunMyeongjo';src:url('../fonts/GyunMyeongjo-Regular.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2611080026@gyunmyeongjo-regular/gyunmyeongjo-regular/GyunMyeongjo-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'GyunMyeongjo';src:url('../fonts/GyunMyeongjo-Bold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2611080026@gyunmyeongjo-regular/gyunmyeongjo-regular/GyunMyeongjo-Bold.woff2') format('woff2');font-weight:700;font-display:swap}
 :root{--title:'GyunMyeongjo',serif;--lat:'GyunMyeongjo',serif}
 html,body,button,input,select,textarea{font-family:'GyunMyeongjo','Noto Serif KR',serif}
 body::after{display:none}
