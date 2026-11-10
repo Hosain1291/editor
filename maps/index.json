@@ -939,6 +939,70 @@
   {
    "id": "uk-1997",
    "folder": "uk-1997"
+  },
+  {
+   "id": "pl-sejm-2001",
+   "folder": "pl-sejm-2001"
+  },
+  {
+   "id": "pl-sejm-2005",
+   "folder": "pl-sejm-2005"
+  },
+  {
+   "id": "pl-sejm-2007",
+   "folder": "pl-sejm-2007"
+  },
+  {
+   "id": "pl-sejm-2011",
+   "folder": "pl-sejm-2011"
+  },
+  {
+   "id": "pl-sejm-2015",
+   "folder": "pl-sejm-2015"
+  },
+  {
+   "id": "pl-sejm-2019",
+   "folder": "pl-sejm-2019"
+  },
+  {
+   "id": "pl-sejm-1989",
+   "folder": "pl-sejm-1989"
+  },
+  {
+   "id": "pl-sejm-1991",
+   "folder": "pl-sejm-1991"
+  },
+  {
+   "id": "pl-sejm-1993",
+   "folder": "pl-sejm-1993"
+  },
+  {
+   "id": "pl-sejm-1997",
+   "folder": "pl-sejm-1997"
+  },
+  {
+   "id": "pl-senat-1993",
+   "folder": "pl-senat-1993"
+  },
+  {
+   "id": "pl-sejm-1919",
+   "folder": "pl-sejm-1919"
+  },
+  {
+   "id": "pl-sejm-1928",
+   "folder": "pl-sejm-1928"
+  },
+  {
+   "id": "pl-sejm-1930",
+   "folder": "pl-sejm-1930"
+  },
+  {
+   "id": "pl-sejm-1935",
+   "folder": "pl-sejm-1935"
+  },
+  {
+   "id": "pl-sejm-1938",
+   "folder": "pl-sejm-1938"
   }
  ]
 }
