@@ -63,7 +63,8 @@ function applySeats(s, src) {
     Object.values(s.maps).forEach(mp => {
       const x = mp.d[id]; if (!x) return;
       const ks = Object.keys(x.a).filter(k => x.a[k] > 0);
-      if (ks.length === 1 && x.a[ks[0]] >= old) x.a[ks[0]] = n;
+      if (!n) x.a = {};
+      else if (ks.length === 1 && x.a[ks[0]] >= old) x.a[ks[0]] = n;
       else if (Object.values(x.a).reduce((a, b) => a + b, 0) > n) x.a = {};
     });
   });
