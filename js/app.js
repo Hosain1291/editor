@@ -8,7 +8,7 @@ function viewProgress(entry, v) {
   if (entry.full === false) {   // 가벼운 목록: 미리 계산한 선거구 수·의석수 사용
     const [n, tot] = (meta.vstat && meta.vstat[v.key]) || [0, 0];
     const d = (s && s.maps && s.maps[v.key] && s.maps[v.key].d) || {}; let asg = 0;
-    for (const id in d) { const x = d[id]; if (!x || x.off) continue; const S = (s.seats && s.seats[id]) || 1; asg += Math.min(S, Object.values(x.a || {}).reduce((a, b) => a + b, 0)); }
+    for (const id in d) { const x = d[id]; if (!x || x.off) continue; const S = (s.seats && s.seats[id] != null) ? s.seats[id] : 1; asg += Math.min(S, Object.values(x.a || {}).reduce((a, b) => a + b, 0)); }
     return { n, tot, asg: Math.min(asg, tot) };
   }
   const seats = id => (s && s.seats && s.seats[id] != null) ? s.seats[id] : (meta.seats && meta.seats[id] != null) ? meta.seats[id] : (meta.defaultSeats || 1);

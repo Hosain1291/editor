@@ -16,12 +16,19 @@ function resetParties(s) {
   s.parties = fresh; s.nextId = fresh.length + 1; s.sel = fresh[0] ? fresh[0].id : 'toss';
 }
 
+/* 지도의 기본 의석수 서명: 기본 의석수가 바뀌면 저장된 의석수도 새 값으로 맞춰요 */
+function seatSig() {
+  const t = JSON.stringify([MAP.defaultSeats || 1, MAP.seats || {}]); let h = 0;
+  for (let i = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) | 0;
+  return h;
+}
+
 function freshStore(meta) {
   const seats = {};
   ids.forEach(id => seats[id] = defaultSeat(id));
   return {
     v: 3, map: meta.id, parties: defaultParties(meta),
-    seats, maps: {}, nextId: meta.parties.length + 1, sel: 'p1', partyVersion: meta.partyVersion
+    seats, maps: {}, nextId: meta.parties.length + 1, sel: 'p1', partyVersion: meta.partyVersion, seatVer: seatSig()
   };
 }
 
@@ -29,7 +36,9 @@ function normalize(s) {
   const f = freshStore(MAP);
   if (!s || !Array.isArray(s.parties)) return f;
   s.seats = Object.assign(f.seats, s.seats || {});
-  s.maps = s.maps || {}; s.nextId = s.nextId || s.parties.length + 1; s.map = MAP.id;
+  s.maps = s.maps || {};
+  if (s.seatVer !== f.seatVer) { applySeats(s, MAP.seats || {}); s.seatVer = f.seatVer; }
+  s.nextId = s.nextId || s.parties.length + 1; s.map = MAP.id;
   s.parties.forEach(p => { if (!p.colors || p.colors.length < 4) p.colors = shades(p.color || '#888888'); });
   // 예전 기본 정당을 아직 그대로 쓰고, 칠한 곳이 하나도 없으면 새 기본 정당으로 바꿔요
   const old = MAP.oldDefaultParties;
