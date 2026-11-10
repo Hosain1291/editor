@@ -14,15 +14,24 @@ async function loadMapList() {
   // 메뉴용 가벼운 목록(catalog.json)을 한 번에 받아요. 지도 하나의 전체 설정은 열 때 받아요.
   try {
     const cat = await (await fetch('maps/catalog.json', { cache: 'no-cache' })).json();
-    cat.maps.forEach(m => MAP_LIST.push({ id: m.id, folder: m.folder, v: m.v, meta: m.meta, full: false }));
+    cat.maps.forEach(m => MAP_LIST.push({ id: m.id, folder: m.folder, v: m.v, b: m.b, bv: m.bv, meta: m.meta, full: false }));
     return;
   } catch (e) { }
   const idx = await (await fetch('maps/index.json', { cache: 'no-cache' })).json();
   const metas = await Promise.all(idx.maps.map(m => fetch(`maps/${m.folder}/map.json`, { cache: 'no-cache' }).then(r => r.json())));
   idx.maps.forEach((m, i) => MAP_LIST.push({ id: metas[i].id || m.id, folder: m.folder, meta: metas[i], full: true }));
 }
+const bundleCache = {};
 async function fullMeta(e) {
   if (e.full !== false) return e.meta;
+  // 같은 나라 지도들의 전체 설정은 maps/bundles/ 안의 묶음 파일 하나에 들어 있어요.
+  if (e.b) {
+    try {
+      if (!bundleCache[e.b]) bundleCache[e.b] = fetch(`maps/bundles/${e.b}.json?v=${e.bv}`).then(r => { if (!r.ok) throw 0; return r.json(); });
+      const b = await bundleCache[e.b];
+      if (b[e.id]) { e.meta = b[e.id]; e.full = true; return e.meta; }
+    } catch (er) { delete bundleCache[e.b]; }
+  }
   e.meta = await (await fetch(`maps/${e.folder}/map.json?v=${e.v}`)).json(); e.full = true; return e.meta;
 }
 

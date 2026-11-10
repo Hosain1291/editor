@@ -29,7 +29,7 @@ def thumb(svgpath,out,w):
     open(out,'w').write(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{vb}">{gopen}<path d="'+''.join(ds)+'"/></g></svg>')
     return True
 idx=json.load(open(os.path.join(R,'index.json')))
-cat=[];done={}
+cat=[];done={};bund={}
 for e in idx['maps']:
     f=e['folder']; mp=os.path.join(R,f,'map.json'); m=json.load(open(mp))
     svgrel=m.get('svg','map.svg'); svgp=os.path.normpath(os.path.join(R,f,svgrel))
@@ -51,6 +51,14 @@ for e in idx['maps']:
     if tp:
         if tp not in done: done[tp]=thumb(svgp,tp,m.get('width',1000))
         if done[tp]: light['thumb']=os.path.relpath(tp,os.path.join(R,f)).replace(os.sep,'/')
-    cat.append({'id':m.get('id',e['id']),'folder':f,'v':h,'meta':light})
+    bk=re.sub(r'[^0-9A-Za-z]+','-',m.get('menuCountry') and ('c'+hashlib.md5(m['menuCountry'].encode()).hexdigest()[:8]) or m.get('id',e['id']))
+    bund.setdefault(bk,{})[m.get('id',e['id'])]=m
+    cat.append({'id':m.get('id',e['id']),'folder':f,'v':h,'b':bk,'meta':light})
+os.makedirs(os.path.join(R,'bundles'),exist_ok=True)
+for fn in os.listdir(os.path.join(R,'bundles')): os.remove(os.path.join(R,'bundles',fn))
+bh={}
+for bk,d in bund.items():
+    t=json.dumps(d,ensure_ascii=False,separators=(',',':')); open(os.path.join(R,'bundles',bk+'.json'),'w').write(t); bh[bk]=hashlib.md5(t.encode()).hexdigest()[:8]
+for c in cat: c['bv']=bh[c['b']]
 json.dump({'maps':cat},open(os.path.join(R,'catalog.json'),'w'),ensure_ascii=False,separators=(',',':'))
-print(len(cat),'maps', sum(1 for c in cat if 'thumb' in c['meta']),'thumbs', os.path.getsize(os.path.join(R,'catalog.json'))//1024,'KB')
+print(len(cat),'maps',len(bund),'bundles', sum(1 for c in cat if 'thumb' in c['meta']),'thumbs', os.path.getsize(os.path.join(R,'catalog.json'))//1024,'KB')
