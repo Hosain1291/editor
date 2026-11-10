@@ -391,7 +391,6 @@ html,body,button,input,select,textarea{font-family:'BrightSungmoVisionCorrection
 /* CRT 효과(주사선·빛번짐) 끄기 */
 body::after{display:none!important}
 .mhead h1,.mhead h1 span,.upcard .upin b{text-shadow:none!important}
-#map path.hov{filter:none!important}
 
 /* ===== 라이트 ===== */
 html,body{background-color:#faf9f6;background-image:none;color:#1a1a1a}
