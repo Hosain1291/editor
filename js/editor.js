@@ -165,14 +165,14 @@ function renderSplit() {
   const left = () => { const uu = used(x); $('#spLeft').textContent = uu < S ? `남은 의석 ${S - uu}석 (경합)` : '모든 의석이 배정됐어요.'; };
   store.parties.filter(p => allowedIn(p, spId) || x.a[p.id]).forEach(p => {
     const v = x.a[p.id] || 0; const r = document.createElement('div'); r.className = 'alloc';
-    r.innerHTML = `<div class="ar1"><span class="sw" style="background:${p.colors[mOf(x, p.id)]}"></span><span class="n">${esc(p.name)}</span>${v ? msel(p.id) : '<span class="pmsel-sp"></span>'}<span class="v">${v}석</span><span class="pc">${pct(v)}</span><button>−</button><button>+</button></div><input type="range" class="asl" min="0" max="${S}" step="1" value="${v}" style="--asl:${p.colors[0]}">`;
+    r.innerHTML = `<div class="ar1"><span class="sw" style="background:${p.colors[mOf(x, p.id)]}"></span><span class="n">${esc(p.name)}</span>${v ? msel(p.id) : '<span class="pmsel-sp"></span>'}<span class="v">${v}석</span><span class="pc">${pct(v)}</span><button>−</button><button>+</button></div><input type="range" class="asl" min="0" max="${S}" step="1" value="${v}" style="--asl:${p.colors[0]};--p:${S ? v / S * 100 : 0}%">`;
     const [mi, pl] = r.querySelectorAll('button'); const sl = r.querySelector('.asl');
     mi.onclick = () => { if (v > 0) { x.a[p.id] = v - 1; if (!x.a[p.id]) delete x.a[p.id]; spUpd(); } };
     pl.onclick = () => { if (u < S) { x.a[p.id] = v + 1; spUpd(); } };
     sl.oninput = () => {
       const cur = x.a[p.id] || 0, room = S - used(x) + cur; let n = Math.min(+sl.value, room); sl.value = n;
       if (n) x.a[p.id] = n; else delete x.a[p.id];
-      r.querySelector('.v').textContent = n + '석'; r.querySelector('.pc').textContent = pct(n);
+      sl.style.setProperty('--p', (S ? n / S * 100 : 0) + '%'); r.querySelector('.v').textContent = n + '석'; r.querySelector('.pc').textContent = pct(n);
       paintOne(spId); refresh(); left();
     };
     sl.onchange = () => renderSplit();
