@@ -1,0 +1,3217 @@
+{
+ "id": "uk-1955",
+ "name": "영국 총선거",
+ "subtitle": "1955년 5월 · 하원 630석 · 선거구 630개",
+ "tag": "HOUSE OF COMMONS 1955",
+ "menuCountry": "영국",
+ "menuGroup": "영국 총선거",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1955",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 1474.9,
+ "regions": {
+  "UK": "영국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1955년",
+   "sub": "소선거구",
+   "regions": [
+    "UK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1474.9
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "보수당",
+   "color": "#0087dc"
+  },
+  {
+   "name": "노동당",
+   "color": "#dc241f"
+  },
+  {
+   "name": "자유당",
+   "color": "#ffd700"
+  },
+  {
+   "name": "신페인",
+   "color": "#008800"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {},
+ "names": {
+  "UK-c001": "Brigg and Scunthorpe",
+  "UK-c002": "Gainsborough",
+  "UK-c003": "Newark",
+  "UK-c004": "Bassetlaw",
+  "UK-c005": "Mansfield",
+  "UK-c006": "선거구 1",
+  "UK-c007": "Nottingham West",
+  "UK-c008": "Rushcliffe",
+  "UK-c009": "Nottingham South",
+  "UK-c010": "Nottingham Central",
+  "UK-c011": "선거구 2",
+  "UK-c012": "Carlton",
+  "UK-c013": "Lincoln",
+  "UK-c014": "Rother Valley",
+  "UK-c015": "Dearne Valley",
+  "UK-c016": "Bolsover",
+  "UK-c017": "Chesterfield",
+  "UK-c018": "North East Derbyshire",
+  "UK-c019": "Ilkeston",
+  "UK-c020": "South East Derbyshire",
+  "UK-c021": "Derby North",
+  "UK-c022": "Derby South",
+  "UK-c023": "Belper",
+  "UK-c024": "Loughborough",
+  "UK-c025": "Bosworth",
+  "UK-c026": "Rotherham",
+  "UK-c027": "Sheffield Attercliffe",
+  "UK-c028": "Sheffield Heeley",
+  "UK-c029": "Sheffield Park",
+  "UK-c030": "Sheffield Brightside",
+  "UK-c031": "Sheffield Hallam",
+  "UK-c032": "Sheffield Hillsborough",
+  "UK-c033": "Penistone",
+  "UK-c034": "West Derbyshire",
+  "UK-c035": "High Peak",
+  "UK-c036": "Barnsley",
+  "UK-c037": "Stalybridge and Hyde",
+  "UK-c038": "Colne Valley",
+  "UK-c039": "Melton",
+  "UK-c040": "Leicester North West",
+  "UK-c041": "Leicester North East",
+  "UK-c042": "Leicester South West",
+  "UK-c043": "Leicester South East",
+  "UK-c044": "Harborough",
+  "UK-c045": "Louth",
+  "UK-c046": "Great Grimsby",
+  "UK-c047": "Grantham",
+  "UK-c048": "Huddersfield West",
+  "UK-c049": "Huddersfield East",
+  "UK-c050": "Rugby",
+  "UK-c051": "Nuneaton",
+  "UK-c052": "Coventry East",
+  "UK-c053": "Coventry North",
+  "UK-c054": "Coventry South",
+  "UK-c055": "선거구 3",
+  "UK-c056": "Sutton Coldfield",
+  "UK-c057": "Birmingham Stechford",
+  "UK-c058": "Lichfield and Tamworth",
+  "UK-c059": "Burton",
+  "UK-c060": "Leek",
+  "UK-c061": "Stoke-on-Trent North",
+  "UK-c062": "Stoke-on-Trent Central",
+  "UK-c063": "Stoke-on-Trent South",
+  "UK-c064": "Newcastle-under-Lyme",
+  "UK-c065": "Warwick and Leamington",
+  "UK-c066": "Stratford-on-Avon",
+  "UK-c067": "Solihull",
+  "UK-c068": "Birmingham Yardley",
+  "UK-c069": "Birmingham Small Heath",
+  "UK-c070": "Birmingham Sparkbrook",
+  "UK-c071": "Birmingham Hall Green",
+  "UK-c072": "선거구 4",
+  "UK-c073": "Birmingham Perry Barr",
+  "UK-c074": "선거구 5",
+  "UK-c075": "Birmingham Aston",
+  "UK-c076": "Birmingham Handsworth",
+  "UK-c077": "Birmingham Ladywood",
+  "UK-c078": "Birmingham Edgbaston",
+  "UK-c079": "Birmingham Northfield",
+  "UK-c080": "Smethwick",
+  "UK-c081": "Oldbury and Halesowen",
+  "UK-c082": "West Bromwich",
+  "UK-c083": "선거구 6",
+  "UK-c084": "선거구 7",
+  "UK-c085": "Wednesbury",
+  "UK-c086": "Rowley Regis and Tipton",
+  "UK-c087": "Dudley",
+  "UK-c088": "Bilston",
+  "UK-c089": "Wolverhampton South West",
+  "UK-c090": "Wolverhampton North East",
+  "UK-c091": "Stafford and Stone",
+  "UK-c092": "Cannock",
+  "UK-c093": "Brierley HIll",
+  "UK-c094": "Ashton-under-Lyne",
+  "UK-c095": "Oldham East",
+  "UK-c096": "Oldham West",
+  "UK-c097": "Manchester Gorton",
+  "UK-c098": "선거구 8",
+  "UK-c099": "Manchester Withington",
+  "UK-c100": "Manchester Ardwick",
+  "UK-c101": "Manchester Moss Side",
+  "UK-c102": "Manchester Exchange",
+  "UK-c103": "Manchester Cheetham",
+  "UK-c104": "Manchester Blackley",
+  "UK-c105": "Salford East",
+  "UK-c106": "Stretford",
+  "UK-c107": "Salford West",
+  "UK-c108": "Eccles",
+  "UK-c109": "Middleton and Prestwich",
+  "UK-c110": "Stockport North",
+  "UK-c111": "Stockport South",
+  "UK-c112": "Cheadle",
+  "UK-c113": "Manchester Wythenshawe",
+  "UK-c114": "Altrincham and Sale",
+  "UK-c115": "Rochdale",
+  "UK-c116": "Macclesfield",
+  "UK-c117": "South Northamptonshire",
+  "UK-c118": "Northampton",
+  "UK-c119": "Kettering",
+  "UK-c120": "Rutland and Stamford",
+  "UK-c121": "Horncastle",
+  "UK-c122": "Peterborough",
+  "UK-c123": "Wellingborough",
+  "UK-c124": "Bromsgrove",
+  "UK-c125": "Kidderminster",
+  "UK-c126": "Worcester",
+  "UK-c127": "South Worcestershire",
+  "UK-c128": "Knutsford",
+  "UK-c129": "Crewe",
+  "UK-c130": "Runcorn",
+  "UK-c131": "Warrington",
+  "UK-c132": "Wirral",
+  "UK-c133": "Wallasey",
+  "UK-c134": "Birkenhead",
+  "UK-c135": "Bebington",
+  "UK-c136": "Liverpool Exchange",
+  "UK-c137": "Liverpool Toxteth",
+  "UK-c138": "Liverpool Scotland",
+  "UK-c139": "Bootle",
+  "UK-c140": "Liverpool Kirkdale",
+  "UK-c141": "Liverpool Edge Hill",
+  "UK-c142": "Crosby",
+  "UK-c143": "Liverpool Walton",
+  "UK-c144": "Liverpool West Derby",
+  "UK-c145": "Liverpool Wavertree",
+  "UK-c146": "Liverpool Garston",
+  "UK-c147": "Widnes",
+  "UK-c148": "Huyton",
+  "UK-c149": "St Helens",
+  "UK-c150": "Hemsworth",
+  "UK-c151": "Banbury",
+  "UK-c152": "Holland with Boston",
+  "UK-c153": "Isle of Ely",
+  "UK-c154": "Bedford",
+  "UK-c155": "Huntingdonshire",
+  "UK-c156": "Buckingham",
+  "UK-c157": "Cities of London and Westminster",
+  "UK-c158": "Vauxhall",
+  "UK-c159": "Southwark",
+  "UK-c160": "Battersea North",
+  "UK-c161": "Chelsea",
+  "UK-c162": "Clapham",
+  "UK-c163": "Peckham",
+  "UK-c164": "Bermondsey",
+  "UK-c165": "Brixton",
+  "UK-c166": "Holborn and St Pancras South",
+  "UK-c167": "Shoreditch and Finsbury",
+  "UK-c168": "St Marylebone",
+  "UK-c169": "Paddington South",
+  "UK-c170": "St Pancras North",
+  "UK-c171": "Hampstead",
+  "UK-c172": "Paddington North",
+  "UK-c173": "Kensington North",
+  "UK-c174": "Kensington South",
+  "UK-c175": "Fulham",
+  "UK-c176": "Putney",
+  "UK-c177": "Battersea South",
+  "UK-c178": "Wandsworth Central",
+  "UK-c179": "Streatham",
+  "UK-c180": "Deptford",
+  "UK-c181": "Stepney",
+  "UK-c182": "Bethnal Green",
+  "UK-c183": "Hendon South",
+  "UK-c184": "Finchley",
+  "UK-c185": "Hornsey",
+  "UK-c186": "Wimbledon",
+  "UK-c187": "Kingston-upon-Thames",
+  "UK-c188": "선거구 9",
+  "UK-c189": "Merton and Morden",
+  "UK-c190": "Norwood",
+  "UK-c191": "Dulwich",
+  "UK-c192": "Lewisham West",
+  "UK-c193": "Newton",
+  "UK-c194": "Leigh",
+  "UK-c195": "Farnworth",
+  "UK-c196": "Ormskirk",
+  "UK-c197": "Southport",
+  "UK-c198": "Ince",
+  "UK-c199": "Wigan",
+  "UK-c200": "Westhoughton",
+  "UK-c201": "Bolton West",
+  "UK-c202": "Don Valley",
+  "UK-c203": "Goole",
+  "UK-c204": "Doncaster",
+  "UK-c205": "Wakefield",
+  "UK-c206": "Pontefract",
+  "UK-c207": "Bridlington",
+  "UK-c208": "Kingston upon Hull East",
+  "UK-c209": "Kingston upon Hull North",
+  "UK-c210": "Kingston upon Hull, Haltemprice",
+  "UK-c211": "선거구 10",
+  "UK-c212": "선거구 11",
+  "UK-c213": "Dewsbury",
+  "UK-c214": "Normanton",
+  "UK-c215": "Sowerby",
+  "UK-c216": "Brighouse and Spenborough",
+  "UK-c217": "Halifax",
+  "UK-c218": "Bradford South",
+  "UK-c219": "Bradford East",
+  "UK-c220": "Aylesbury",
+  "UK-c221": "Bolton East",
+  "UK-c222": "Bury and Radcliffe",
+  "UK-c223": "Heywood and Royton",
+  "UK-c224": "Keighley",
+  "UK-c225": "Bradford North",
+  "UK-c226": "Shipley",
+  "UK-c227": "Batley and Morley",
+  "UK-c228": "Leeds South",
+  "UK-c229": "Leeds West",
+  "UK-c230": "Bradford West",
+  "UK-c231": "Pudsey",
+  "UK-c232": "Leeds East",
+  "UK-c233": "Leeds South East",
+  "UK-c234": "Leeds North West",
+  "UK-c235": "Leeds North East",
+  "UK-c236": "Oxford",
+  "UK-c237": "City of York",
+  "UK-c238": "Barkston Ash",
+  "UK-c239": "Islington North",
+  "UK-c240": "Islington South West",
+  "UK-c241": "Islington East",
+  "UK-c242": "Hackney North and Stoke Newington",
+  "UK-c243": "Hackney Central",
+  "UK-c244": "Henley",
+  "UK-c245": "Wycombe",
+  "UK-c246": "Mid Bedfordshire",
+  "UK-c247": "South Bedfordshire",
+  "UK-c248": "Luton",
+  "UK-c249": "Chorley",
+  "UK-c250": "Darwen",
+  "UK-c251": "Preston South",
+  "UK-c252": "Blackburn East",
+  "UK-c253": "Rossendale",
+  "UK-c254": "Accrington",
+  "UK-c255": "Preston North",
+  "UK-c256": "Nelson and Colne",
+  "UK-c257": "Burnley",
+  "UK-c258": "Clitheroe",
+  "UK-c259": "Skipton",
+  "UK-c260": "Fylde South",
+  "UK-c261": "Blackpool South",
+  "UK-c262": "Blackpool North",
+  "UK-c263": "Fylde North",
+  "UK-c264": "Poplar",
+  "UK-c265": "Greenwich",
+  "UK-c266": "Lewisham South",
+  "UK-c267": "Lewisham North",
+  "UK-c268": "Woolwich East",
+  "UK-c269": "West Ham South",
+  "UK-c270": "East Ham South",
+  "UK-c271": "Barking",
+  "UK-c272": "Lancaster",
+  "UK-c273": "Morecambe and Lonsdale",
+  "UK-c274": "Isle Wight",
+  "UK-c275": "Dagenham",
+  "UK-c276": "선거구 12",
+  "UK-c277": "Harrogate",
+  "UK-c278": "Hornchurch",
+  "UK-c279": "Thurrock",
+  "UK-c280": "Dartford",
+  "UK-c281": "선거구 13",
+  "UK-c282": "Hammersmith North",
+  "UK-c283": "Willesden East",
+  "UK-c284": "Willesden West",
+  "UK-c285": "Acton",
+  "UK-c286": "Brentford and Chiswick",
+  "UK-c287": "Richmond, Surrey",
+  "UK-c288": "Woolwich West",
+  "UK-c289": "West Ham North",
+  "UK-c290": "Leyton",
+  "UK-c291": "East Ham North",
+  "UK-c292": "Ilford South",
+  "UK-c293": "Walthamstow West",
+  "UK-c294": "Wood Green",
+  "UK-c295": "Tottenham",
+  "UK-c296": "Southgate",
+  "UK-c297": "Enfield West",
+  "UK-c298": "Edmonton",
+  "UK-c299": "Enfield East",
+  "UK-c300": "Walthamstow East",
+  "UK-c301": "Wanstead and Woodford",
+  "UK-c302": "Ilford North",
+  "UK-c303": "Bexley",
+  "UK-c304": "Chislehurst",
+  "UK-c305": "Bromley",
+  "UK-c306": "Beckenham",
+  "UK-c307": "Chester",
+  "UK-c308": "Ripon",
+  "UK-c309": "Thirsk and Malton",
+  "UK-c310": "Richmond Yorks",
+  "UK-c311": "Scarborough and Whitby",
+  "UK-c312": "Cleveland",
+  "UK-c313": "Middlesbrough West",
+  "UK-c314": "Middlesbrough East",
+  "UK-c315": "Darlington",
+  "UK-c316": "선거구 14",
+  "UK-c317": "Northwich",
+  "UK-c318": "Westmorland",
+  "UK-c319": "Barrow-in-Furness",
+  "UK-c320": "Whitehaven",
+  "UK-c321": "Workington",
+  "UK-c322": "Penrith and the Border",
+  "UK-c323": "Stockton-on-Tees",
+  "UK-c324": "Sedgefield",
+  "UK-c325": "The Hartlepools",
+  "UK-c326": "Carlisle",
+  "UK-c327": "Bishop Auckland",
+  "UK-c328": "North West Durham",
+  "UK-c329": "Durham",
+  "UK-c330": "Easington",
+  "UK-c331": "Houghton-le-Spring",
+  "UK-c332": "Sunderland South",
+  "UK-c333": "선거구 15",
+  "UK-c334": "Consett",
+  "UK-c335": "Chester-le-Street",
+  "UK-c336": "South Shields",
+  "UK-c337": "Gateshead East",
+  "UK-c338": "Gateshead West",
+  "UK-c339": "Blaydon",
+  "UK-c340": "Newcastle upon Tyne Central",
+  "UK-c341": "Newcastle upon Tyne North",
+  "UK-c342": "Newcastle upon Tyne East",
+  "UK-c343": "Newcastle upon Tyne West",
+  "UK-c344": "Tynemouth",
+  "UK-c345": "Wallsend",
+  "UK-c346": "Blyth",
+  "UK-c347": "Hexham",
+  "UK-c348": "Morpeth",
+  "UK-c349": "Berwick-Upon-Tweed",
+  "UK-c350": "Orpington",
+  "UK-c351": "Croydon North East",
+  "UK-c352": "Croydon North West",
+  "UK-c353": "Croydon South",
+  "UK-c354": "Mitcham",
+  "UK-c355": "Hendon North",
+  "UK-c356": "Wembley North",
+  "UK-c357": "Harrow East",
+  "UK-c358": "Harrow Central",
+  "UK-c359": "Wembley South",
+  "UK-c360": "Ealing South",
+  "UK-c361": "Twickenham",
+  "UK-c362": "Heston and Isleworth",
+  "UK-c363": "Southall",
+  "UK-c364": "선거구 16",
+  "UK-c365": "Ealing North",
+  "UK-c366": "Harrow West",
+  "UK-c367": "Ruislip Northwood",
+  "UK-c368": "Hayes and Harlington",
+  "UK-c369": "Cambridgeshire",
+  "UK-c370": "Cambridge",
+  "UK-c371": "Hemel Hempstead",
+  "UK-c372": "Uxbridge",
+  "UK-c373": "Barnet",
+  "UK-c374": "South West Hertfordshire",
+  "UK-c375": "Watford",
+  "UK-c376": "St Albans",
+  "UK-c377": "King S Lynn",
+  "UK-c378": "Hitchin",
+  "UK-c379": "선거구 17",
+  "UK-c380": "Oswestry",
+  "UK-c381": "The Wrekin",
+  "UK-c382": "Shrewsbury",
+  "UK-c383": "Ludlow",
+  "UK-c384": "Leominster",
+  "UK-c385": "Flintshire East",
+  "UK-c386": "Hereford",
+  "UK-c387": "Wrexham",
+  "UK-c388": "Flintshire West",
+  "UK-c389": "West Flintshire",
+  "UK-c390": "Romford",
+  "UK-c391": "선거구 18",
+  "UK-c392": "Southend West",
+  "UK-c393": "Southend East",
+  "UK-c394": "Monmouth",
+  "UK-c395": "Brecon and Radnorshire",
+  "UK-c396": "Newport",
+  "UK-c397": "Pontypool",
+  "UK-c398": "Cardiff South East",
+  "UK-c399": "Abertillery",
+  "UK-c400": "West Gloucestershire",
+  "UK-c401": "Montgomeryshire",
+  "UK-c402": "Ebbw Vale",
+  "UK-c403": "Cardiff West",
+  "UK-c404": "Cardiff North",
+  "UK-c405": "Denbigh",
+  "UK-c406": "Merioneth",
+  "UK-c407": "Conwy",
+  "UK-c408": "Caernarvon",
+  "UK-c409": "Anglesey",
+  "UK-c410": "Cardigan",
+  "UK-c411": "Bedwellty",
+  "UK-c412": "Barry",
+  "UK-c413": "Caerphilly",
+  "UK-c414": "Pontypridd",
+  "UK-c415": "Merthyr Tydfil",
+  "UK-c416": "Cynon Valley",
+  "UK-c417": "Rhondda East",
+  "UK-c418": "Ogmore",
+  "UK-c419": "Rhondda West",
+  "UK-c420": "Aberavon",
+  "UK-c421": "Neath",
+  "UK-c422": "Swansea East",
+  "UK-c423": "Swansea West",
+  "UK-c424": "Gower",
+  "UK-c425": "Llanelly",
+  "UK-c426": "Carmarthen",
+  "UK-c427": "Pembrokeshire",
+  "UK-c428": "South West Norfolk",
+  "UK-c429": "North Norfolk",
+  "UK-c430": "Central Norfolk",
+  "UK-c431": "Norwich South",
+  "UK-c432": "Norwich North",
+  "UK-c433": "Yarmouth",
+  "UK-c434": "South Norfolk",
+  "UK-c435": "Bury St Edmunds",
+  "UK-c436": "Lowestoft",
+  "UK-c437": "Eye",
+  "UK-c438": "Ipswich",
+  "UK-c439": "Sudbury and Woodbridge",
+  "UK-c440": "Billericay",
+  "UK-c441": "Hertford",
+  "UK-c442": "Epping",
+  "UK-c443": "Chelmsford",
+  "UK-c444": "Saffron Walden",
+  "UK-c445": "Maldon",
+  "UK-c446": "Colchester",
+  "UK-c447": "Harwich",
+  "UK-c448": "Gravesend",
+  "UK-c449": "Rochester and Chatham",
+  "UK-c450": "Gillingham",
+  "UK-c451": "Faversham",
+  "UK-c452": "Sutton and Cheam",
+  "UK-c453": "Gloucester",
+  "UK-c454": "Stroud",
+  "UK-c455": "Cirencester and Tewkesbury",
+  "UK-c456": "Cheltenham",
+  "UK-c457": "Beaconsfield",
+  "UK-c458": "Eton and Slough",
+  "UK-c459": "Canterbury",
+  "UK-c460": "Isle of Thanet",
+  "UK-c461": "Dover",
+  "UK-c462": "Folkestone and Hythe",
+  "UK-c463": "Ashford",
+  "UK-c464": "Maidstone",
+  "UK-c465": "Tonbridge",
+  "UK-c466": "Sevenoaks",
+  "UK-c467": "Windsor",
+  "UK-c468": "Reading",
+  "UK-c469": "Wokingham",
+  "UK-c470": "Abingdon",
+  "UK-c471": "선거구 19",
+  "UK-c472": "Hastings",
+  "UK-c473": "Gloucestershire South",
+  "UK-c474": "Bristol North West",
+  "UK-c475": "Bristol West",
+  "UK-c476": "Bristol North East",
+  "UK-c477": "Bristol Central",
+  "UK-c478": "Bristol South East",
+  "UK-c479": "Bristol South",
+  "UK-c480": "Eastbourne",
+  "UK-c481": "Newbury",
+  "UK-c482": "Chippenham",
+  "UK-c483": "St Ives",
+  "UK-c484": "Falmouth and Camborne",
+  "UK-c485": "Truro",
+  "UK-c486": "Bodmin",
+  "UK-c487": "North Cornwall",
+  "UK-c488": "Plymouth Devonport",
+  "UK-c489": "Plymouth Sutton",
+  "UK-c490": "Swindon",
+  "UK-c491": "Denvizes",
+  "UK-c492": "East Surrey",
+  "UK-c493": "Reigate",
+  "UK-c494": "Carshalton",
+  "UK-c495": "Epsom",
+  "UK-c496": "Spelthorne",
+  "UK-c497": "Esher",
+  "UK-c498": "Dorking",
+  "UK-c499": "Lewes",
+  "UK-c500": "Brighton Kemptown",
+  "UK-c501": "Brighton Pavilion",
+  "UK-c502": "Hove",
+  "UK-c503": "East Grinstead",
+  "UK-c504": "Chertsey",
+  "UK-c505": "Guildford",
+  "UK-c506": "Tavistock",
+  "UK-c507": "Totnes",
+  "UK-c508": "Torquay",
+  "UK-c509": "Tiverton",
+  "UK-c510": "Exeter",
+  "UK-c511": "Torrington",
+  "UK-c512": "Honiton",
+  "UK-c513": "North Devon",
+  "UK-c514": "Taunton",
+  "UK-c515": "Woking",
+  "UK-c516": "Farnham",
+  "UK-c517": "Aldershot",
+  "UK-c518": "Arundel, Shoreham",
+  "UK-c519": "Horsham",
+  "UK-c520": "Chichester",
+  "UK-c521": "Worthing",
+  "UK-c522": "Dorset West",
+  "UK-c523": "Portsmouth Langstone",
+  "UK-c524": "Portsmouth South",
+  "UK-c525": "Portsmouth West",
+  "UK-c526": "Dorset South",
+  "UK-c527": "Yeovil",
+  "UK-c528": "Bridgwater",
+  "UK-c529": "Poole",
+  "UK-c530": "Bournemouth West",
+  "UK-c531": "Bournemouth East and Christchurch",
+  "UK-c532": "Dorset North",
+  "UK-c533": "Weston-super-Mare",
+  "UK-c534": "North Somerset",
+  "UK-c535": "Bath",
+  "UK-c536": "Wells",
+  "UK-c537": "Westbury",
+  "UK-c538": "New Forest",
+  "UK-c539": "Salisbury",
+  "UK-c540": "Basingstoke",
+  "UK-c541": "Petersfield",
+  "UK-c542": "Winchester",
+  "UK-c543": "Southampton Test",
+  "UK-c544": "Southampton Itchen",
+  "UK-c545": "선거구 20",
+  "UK-c546": "Gosport and Fareham",
+  "UK-c547": "Edinburgh Pentlands",
+  "UK-c548": "Edinburgh Leith",
+  "UK-c549": "Edinburgh Central",
+  "UK-c550": "Edinburgh East",
+  "UK-c551": "Edinburgh West",
+  "UK-c552": "Edinburgh South",
+  "UK-c553": "Edinburgh North",
+  "UK-c554": "Berwick and East Lothian",
+  "UK-c555": "Dumfriesshire",
+  "UK-c556": "Argyllshire",
+  "UK-c557": "Caithness and Sutherland",
+  "UK-c558": "East Aberdeenshire",
+  "UK-c559": "East Fife",
+  "UK-c560": "Bothwell",
+  "UK-c561": "Aberdeen North",
+  "UK-c562": "Central Ayrshire",
+  "UK-c563": "Galloway",
+  "UK-c564": "Roxburgh, Selkirk and Peebles",
+  "UK-c565": "Midlothian",
+  "UK-c566": "West Lothian",
+  "UK-c567": "Kinross and West Perthshire",
+  "UK-c568": "Ross and Cromarty",
+  "UK-c569": "North Angus and Mearns",
+  "UK-c570": "Perth and East Perthshire",
+  "UK-c571": "Kilmarnock",
+  "UK-c572": "Clackmannan and Eastern Stirlingshire",
+  "UK-c573": "South Ayrshire",
+  "UK-c574": "Inverness",
+  "UK-c575": "Glasgow Provan",
+  "UK-c576": "Glasgow Pollok",
+  "UK-c577": "Glasgow Cathcart",
+  "UK-c578": "Renfrewshire East",
+  "UK-c579": "Glasgow Scotstoun",
+  "UK-c580": "Glasgow Hillhead",
+  "UK-c581": "Glasgow Maryhill",
+  "UK-c582": "Glasgow Springburn",
+  "UK-c583": "Glasgow Shettleston",
+  "UK-c584": "Glasgow Kelvingrove",
+  "UK-c585": "Glasgow Gorbals",
+  "UK-c586": "Glasgow Bridgeton",
+  "UK-c587": "Glasgow Central",
+  "UK-c588": "Glasgow Govan",
+  "UK-c589": "Glasgow Woodside",
+  "UK-c590": "Aberdeen South",
+  "UK-c591": "West Aberdeenshire",
+  "UK-c592": "Moray and Nairn",
+  "UK-c593": "Banffshire",
+  "UK-c594": "Ayr",
+  "UK-c595": "Hamilton",
+  "UK-c596": "Greenock",
+  "UK-c597": "West Renfrewshire",
+  "UK-c598": "West Dunbartonshire",
+  "UK-c599": "선거구 21",
+  "UK-c600": "North Lanarkshire",
+  "UK-c601": "Bute and Northern Ayrshire",
+  "UK-c602": "East Renfrewshire",
+  "UK-c603": "Dunfermline Burghs",
+  "UK-c604": "West Stirlingshire",
+  "UK-c605": "Paisley",
+  "UK-c606": "East Dunbartonshire",
+  "UK-c607": "Coatbridge and Airdrie",
+  "UK-c608": "Motherwell",
+  "UK-c609": "Dundee East",
+  "UK-c610": "Dundee West",
+  "UK-c611": "West Fife",
+  "UK-c612": "Kirkcaldy Burghs",
+  "UK-c613": "South Angus",
+  "UK-c614": "Lanark",
+  "UK-c615": "Rutherglen",
+  "UK-c616": "Fermanagh and South Tyrone",
+  "UK-c617": "Armagh",
+  "UK-c618": "Mid Ulster",
+  "UK-c619": "Londonderry",
+  "UK-c620": "South Down",
+  "UK-c621": "North Antrim",
+  "UK-c622": "선거구 22",
+  "UK-c623": "South Antrim",
+  "UK-c624": "Belfast South",
+  "UK-c625": "Belfast West",
+  "UK-c626": "Belfast North",
+  "UK-c627": "Belfast East",
+  "UK-c628": "Orkney and Shetland",
+  "UK-c629": "Western Isles",
+  "UK-c630": "Stirling and Falkirk"
+ },
+ "labels": {},
+ "regionOf": {
+  "UK-c001": "UK",
+  "UK-c002": "UK",
+  "UK-c003": "UK",
+  "UK-c004": "UK",
+  "UK-c005": "UK",
+  "UK-c006": "UK",
+  "UK-c007": "UK",
+  "UK-c008": "UK",
+  "UK-c009": "UK",
+  "UK-c010": "UK",
+  "UK-c011": "UK",
+  "UK-c012": "UK",
+  "UK-c013": "UK",
+  "UK-c014": "UK",
+  "UK-c015": "UK",
+  "UK-c016": "UK",
+  "UK-c017": "UK",
+  "UK-c018": "UK",
+  "UK-c019": "UK",
+  "UK-c020": "UK",
+  "UK-c021": "UK",
+  "UK-c022": "UK",
+  "UK-c023": "UK",
+  "UK-c024": "UK",
+  "UK-c025": "UK",
+  "UK-c026": "UK",
+  "UK-c027": "UK",
+  "UK-c028": "UK",
+  "UK-c029": "UK",
+  "UK-c030": "UK",
+  "UK-c031": "UK",
+  "UK-c032": "UK",
+  "UK-c033": "UK",
+  "UK-c034": "UK",
+  "UK-c035": "UK",
+  "UK-c036": "UK",
+  "UK-c037": "UK",
+  "UK-c038": "UK",
+  "UK-c039": "UK",
+  "UK-c040": "UK",
+  "UK-c041": "UK",
+  "UK-c042": "UK",
+  "UK-c043": "UK",
+  "UK-c044": "UK",
+  "UK-c045": "UK",
+  "UK-c046": "UK",
+  "UK-c047": "UK",
+  "UK-c048": "UK",
+  "UK-c049": "UK",
+  "UK-c050": "UK",
+  "UK-c051": "UK",
+  "UK-c052": "UK",
+  "UK-c053": "UK",
+  "UK-c054": "UK",
+  "UK-c055": "UK",
+  "UK-c056": "UK",
+  "UK-c057": "UK",
+  "UK-c058": "UK",
+  "UK-c059": "UK",
+  "UK-c060": "UK",
+  "UK-c061": "UK",
+  "UK-c062": "UK",
+  "UK-c063": "UK",
+  "UK-c064": "UK",
+  "UK-c065": "UK",
+  "UK-c066": "UK",
+  "UK-c067": "UK",
+  "UK-c068": "UK",
+  "UK-c069": "UK",
+  "UK-c070": "UK",
+  "UK-c071": "UK",
+  "UK-c072": "UK",
+  "UK-c073": "UK",
+  "UK-c074": "UK",
+  "UK-c075": "UK",
+  "UK-c076": "UK",
+  "UK-c077": "UK",
+  "UK-c078": "UK",
+  "UK-c079": "UK",
+  "UK-c080": "UK",
+  "UK-c081": "UK",
+  "UK-c082": "UK",
+  "UK-c083": "UK",
+  "UK-c084": "UK",
+  "UK-c085": "UK",
+  "UK-c086": "UK",
+  "UK-c087": "UK",
+  "UK-c088": "UK",
+  "UK-c089": "UK",
+  "UK-c090": "UK",
+  "UK-c091": "UK",
+  "UK-c092": "UK",
+  "UK-c093": "UK",
+  "UK-c094": "UK",
+  "UK-c095": "UK",
+  "UK-c096": "UK",
+  "UK-c097": "UK",
+  "UK-c098": "UK",
+  "UK-c099": "UK",
+  "UK-c100": "UK",
+  "UK-c101": "UK",
+  "UK-c102": "UK",
+  "UK-c103": "UK",
+  "UK-c104": "UK",
+  "UK-c105": "UK",
+  "UK-c106": "UK",
+  "UK-c107": "UK",
+  "UK-c108": "UK",
+  "UK-c109": "UK",
+  "UK-c110": "UK",
+  "UK-c111": "UK",
+  "UK-c112": "UK",
+  "UK-c113": "UK",
+  "UK-c114": "UK",
+  "UK-c115": "UK",
+  "UK-c116": "UK",
+  "UK-c117": "UK",
+  "UK-c118": "UK",
+  "UK-c119": "UK",
+  "UK-c120": "UK",
+  "UK-c121": "UK",
+  "UK-c122": "UK",
+  "UK-c123": "UK",
+  "UK-c124": "UK",
+  "UK-c125": "UK",
+  "UK-c126": "UK",
+  "UK-c127": "UK",
+  "UK-c128": "UK",
+  "UK-c129": "UK",
+  "UK-c130": "UK",
+  "UK-c131": "UK",
+  "UK-c132": "UK",
+  "UK-c133": "UK",
+  "UK-c134": "UK",
+  "UK-c135": "UK",
+  "UK-c136": "UK",
+  "UK-c137": "UK",
+  "UK-c138": "UK",
+  "UK-c139": "UK",
+  "UK-c140": "UK",
+  "UK-c141": "UK",
+  "UK-c142": "UK",
+  "UK-c143": "UK",
+  "UK-c144": "UK",
+  "UK-c145": "UK",
+  "UK-c146": "UK",
+  "UK-c147": "UK",
+  "UK-c148": "UK",
+  "UK-c149": "UK",
+  "UK-c150": "UK",
+  "UK-c151": "UK",
+  "UK-c152": "UK",
+  "UK-c153": "UK",
+  "UK-c154": "UK",
+  "UK-c155": "UK",
+  "UK-c156": "UK",
+  "UK-c157": "UK",
+  "UK-c158": "UK",
+  "UK-c159": "UK",
+  "UK-c160": "UK",
+  "UK-c161": "UK",
+  "UK-c162": "UK",
+  "UK-c163": "UK",
+  "UK-c164": "UK",
+  "UK-c165": "UK",
+  "UK-c166": "UK",
+  "UK-c167": "UK",
+  "UK-c168": "UK",
+  "UK-c169": "UK",
+  "UK-c170": "UK",
+  "UK-c171": "UK",
+  "UK-c172": "UK",
+  "UK-c173": "UK",
+  "UK-c174": "UK",
+  "UK-c175": "UK",
+  "UK-c176": "UK",
+  "UK-c177": "UK",
+  "UK-c178": "UK",
+  "UK-c179": "UK",
+  "UK-c180": "UK",
+  "UK-c181": "UK",
+  "UK-c182": "UK",
+  "UK-c183": "UK",
+  "UK-c184": "UK",
+  "UK-c185": "UK",
+  "UK-c186": "UK",
+  "UK-c187": "UK",
+  "UK-c188": "UK",
+  "UK-c189": "UK",
+  "UK-c190": "UK",
+  "UK-c191": "UK",
+  "UK-c192": "UK",
+  "UK-c193": "UK",
+  "UK-c194": "UK",
+  "UK-c195": "UK",
+  "UK-c196": "UK",
+  "UK-c197": "UK",
+  "UK-c198": "UK",
+  "UK-c199": "UK",
+  "UK-c200": "UK",
+  "UK-c201": "UK",
+  "UK-c202": "UK",
+  "UK-c203": "UK",
+  "UK-c204": "UK",
+  "UK-c205": "UK",
+  "UK-c206": "UK",
+  "UK-c207": "UK",
+  "UK-c208": "UK",
+  "UK-c209": "UK",
+  "UK-c210": "UK",
+  "UK-c211": "UK",
+  "UK-c212": "UK",
+  "UK-c213": "UK",
+  "UK-c214": "UK",
+  "UK-c215": "UK",
+  "UK-c216": "UK",
+  "UK-c217": "UK",
+  "UK-c218": "UK",
+  "UK-c219": "UK",
+  "UK-c220": "UK",
+  "UK-c221": "UK",
+  "UK-c222": "UK",
+  "UK-c223": "UK",
+  "UK-c224": "UK",
+  "UK-c225": "UK",
+  "UK-c226": "UK",
+  "UK-c227": "UK",
+  "UK-c228": "UK",
+  "UK-c229": "UK",
+  "UK-c230": "UK",
+  "UK-c231": "UK",
+  "UK-c232": "UK",
+  "UK-c233": "UK",
+  "UK-c234": "UK",
+  "UK-c235": "UK",
+  "UK-c236": "UK",
+  "UK-c237": "UK",
+  "UK-c238": "UK",
+  "UK-c239": "UK",
+  "UK-c240": "UK",
+  "UK-c241": "UK",
+  "UK-c242": "UK",
+  "UK-c243": "UK",
+  "UK-c244": "UK",
+  "UK-c245": "UK",
+  "UK-c246": "UK",
+  "UK-c247": "UK",
+  "UK-c248": "UK",
+  "UK-c249": "UK",
+  "UK-c250": "UK",
+  "UK-c251": "UK",
+  "UK-c252": "UK",
+  "UK-c253": "UK",
+  "UK-c254": "UK",
+  "UK-c255": "UK",
+  "UK-c256": "UK",
+  "UK-c257": "UK",
+  "UK-c258": "UK",
+  "UK-c259": "UK",
+  "UK-c260": "UK",
+  "UK-c261": "UK",
+  "UK-c262": "UK",
+  "UK-c263": "UK",
+  "UK-c264": "UK",
+  "UK-c265": "UK",
+  "UK-c266": "UK",
+  "UK-c267": "UK",
+  "UK-c268": "UK",
+  "UK-c269": "UK",
+  "UK-c270": "UK",
+  "UK-c271": "UK",
+  "UK-c272": "UK",
+  "UK-c273": "UK",
+  "UK-c274": "UK",
+  "UK-c275": "UK",
+  "UK-c276": "UK",
+  "UK-c277": "UK",
+  "UK-c278": "UK",
+  "UK-c279": "UK",
+  "UK-c280": "UK",
+  "UK-c281": "UK",
+  "UK-c282": "UK",
+  "UK-c283": "UK",
+  "UK-c284": "UK",
+  "UK-c285": "UK",
+  "UK-c286": "UK",
+  "UK-c287": "UK",
+  "UK-c288": "UK",
+  "UK-c289": "UK",
+  "UK-c290": "UK",
+  "UK-c291": "UK",
+  "UK-c292": "UK",
+  "UK-c293": "UK",
+  "UK-c294": "UK",
+  "UK-c295": "UK",
+  "UK-c296": "UK",
+  "UK-c297": "UK",
+  "UK-c298": "UK",
+  "UK-c299": "UK",
+  "UK-c300": "UK",
+  "UK-c301": "UK",
+  "UK-c302": "UK",
+  "UK-c303": "UK",
+  "UK-c304": "UK",
+  "UK-c305": "UK",
+  "UK-c306": "UK",
+  "UK-c307": "UK",
+  "UK-c308": "UK",
+  "UK-c309": "UK",
+  "UK-c310": "UK",
+  "UK-c311": "UK",
+  "UK-c312": "UK",
+  "UK-c313": "UK",
+  "UK-c314": "UK",
+  "UK-c315": "UK",
+  "UK-c316": "UK",
+  "UK-c317": "UK",
+  "UK-c318": "UK",
+  "UK-c319": "UK",
+  "UK-c320": "UK",
+  "UK-c321": "UK",
+  "UK-c322": "UK",
+  "UK-c323": "UK",
+  "UK-c324": "UK",
+  "UK-c325": "UK",
+  "UK-c326": "UK",
+  "UK-c327": "UK",
+  "UK-c328": "UK",
+  "UK-c329": "UK",
+  "UK-c330": "UK",
+  "UK-c331": "UK",
+  "UK-c332": "UK",
+  "UK-c333": "UK",
+  "UK-c334": "UK",
+  "UK-c335": "UK",
+  "UK-c336": "UK",
+  "UK-c337": "UK",
+  "UK-c338": "UK",
+  "UK-c339": "UK",
+  "UK-c340": "UK",
+  "UK-c341": "UK",
+  "UK-c342": "UK",
+  "UK-c343": "UK",
+  "UK-c344": "UK",
+  "UK-c345": "UK",
+  "UK-c346": "UK",
+  "UK-c347": "UK",
+  "UK-c348": "UK",
+  "UK-c349": "UK",
+  "UK-c350": "UK",
+  "UK-c351": "UK",
+  "UK-c352": "UK",
+  "UK-c353": "UK",
+  "UK-c354": "UK",
+  "UK-c355": "UK",
+  "UK-c356": "UK",
+  "UK-c357": "UK",
+  "UK-c358": "UK",
+  "UK-c359": "UK",
+  "UK-c360": "UK",
+  "UK-c361": "UK",
+  "UK-c362": "UK",
+  "UK-c363": "UK",
+  "UK-c364": "UK",
+  "UK-c365": "UK",
+  "UK-c366": "UK",
+  "UK-c367": "UK",
+  "UK-c368": "UK",
+  "UK-c369": "UK",
+  "UK-c370": "UK",
+  "UK-c371": "UK",
+  "UK-c372": "UK",
+  "UK-c373": "UK",
+  "UK-c374": "UK",
+  "UK-c375": "UK",
+  "UK-c376": "UK",
+  "UK-c377": "UK",
+  "UK-c378": "UK",
+  "UK-c379": "UK",
+  "UK-c380": "UK",
+  "UK-c381": "UK",
+  "UK-c382": "UK",
+  "UK-c383": "UK",
+  "UK-c384": "UK",
+  "UK-c385": "UK",
+  "UK-c386": "UK",
+  "UK-c387": "UK",
+  "UK-c388": "UK",
+  "UK-c389": "UK",
+  "UK-c390": "UK",
+  "UK-c391": "UK",
+  "UK-c392": "UK",
+  "UK-c393": "UK",
+  "UK-c394": "UK",
+  "UK-c395": "UK",
+  "UK-c396": "UK",
+  "UK-c397": "UK",
+  "UK-c398": "UK",
+  "UK-c399": "UK",
+  "UK-c400": "UK",
+  "UK-c401": "UK",
+  "UK-c402": "UK",
+  "UK-c403": "UK",
+  "UK-c404": "UK",
+  "UK-c405": "UK",
+  "UK-c406": "UK",
+  "UK-c407": "UK",
+  "UK-c408": "UK",
+  "UK-c409": "UK",
+  "UK-c410": "UK",
+  "UK-c411": "UK",
+  "UK-c412": "UK",
+  "UK-c413": "UK",
+  "UK-c414": "UK",
+  "UK-c415": "UK",
+  "UK-c416": "UK",
+  "UK-c417": "UK",
+  "UK-c418": "UK",
+  "UK-c419": "UK",
+  "UK-c420": "UK",
+  "UK-c421": "UK",
+  "UK-c422": "UK",
+  "UK-c423": "UK",
+  "UK-c424": "UK",
+  "UK-c425": "UK",
+  "UK-c426": "UK",
+  "UK-c427": "UK",
+  "UK-c428": "UK",
+  "UK-c429": "UK",
+  "UK-c430": "UK",
+  "UK-c431": "UK",
+  "UK-c432": "UK",
+  "UK-c433": "UK",
+  "UK-c434": "UK",
+  "UK-c435": "UK",
+  "UK-c436": "UK",
+  "UK-c437": "UK",
+  "UK-c438": "UK",
+  "UK-c439": "UK",
+  "UK-c440": "UK",
+  "UK-c441": "UK",
+  "UK-c442": "UK",
+  "UK-c443": "UK",
+  "UK-c444": "UK",
+  "UK-c445": "UK",
+  "UK-c446": "UK",
+  "UK-c447": "UK",
+  "UK-c448": "UK",
+  "UK-c449": "UK",
+  "UK-c450": "UK",
+  "UK-c451": "UK",
+  "UK-c452": "UK",
+  "UK-c453": "UK",
+  "UK-c454": "UK",
+  "UK-c455": "UK",
+  "UK-c456": "UK",
+  "UK-c457": "UK",
+  "UK-c458": "UK",
+  "UK-c459": "UK",
+  "UK-c460": "UK",
+  "UK-c461": "UK",
+  "UK-c462": "UK",
+  "UK-c463": "UK",
+  "UK-c464": "UK",
+  "UK-c465": "UK",
+  "UK-c466": "UK",
+  "UK-c467": "UK",
+  "UK-c468": "UK",
+  "UK-c469": "UK",
+  "UK-c470": "UK",
+  "UK-c471": "UK",
+  "UK-c472": "UK",
+  "UK-c473": "UK",
+  "UK-c474": "UK",
+  "UK-c475": "UK",
+  "UK-c476": "UK",
+  "UK-c477": "UK",
+  "UK-c478": "UK",
+  "UK-c479": "UK",
+  "UK-c480": "UK",
+  "UK-c481": "UK",
+  "UK-c482": "UK",
+  "UK-c483": "UK",
+  "UK-c484": "UK",
+  "UK-c485": "UK",
+  "UK-c486": "UK",
+  "UK-c487": "UK",
+  "UK-c488": "UK",
+  "UK-c489": "UK",
+  "UK-c490": "UK",
+  "UK-c491": "UK",
+  "UK-c492": "UK",
+  "UK-c493": "UK",
+  "UK-c494": "UK",
+  "UK-c495": "UK",
+  "UK-c496": "UK",
+  "UK-c497": "UK",
+  "UK-c498": "UK",
+  "UK-c499": "UK",
+  "UK-c500": "UK",
+  "UK-c501": "UK",
+  "UK-c502": "UK",
+  "UK-c503": "UK",
+  "UK-c504": "UK",
+  "UK-c505": "UK",
+  "UK-c506": "UK",
+  "UK-c507": "UK",
+  "UK-c508": "UK",
+  "UK-c509": "UK",
+  "UK-c510": "UK",
+  "UK-c511": "UK",
+  "UK-c512": "UK",
+  "UK-c513": "UK",
+  "UK-c514": "UK",
+  "UK-c515": "UK",
+  "UK-c516": "UK",
+  "UK-c517": "UK",
+  "UK-c518": "UK",
+  "UK-c519": "UK",
+  "UK-c520": "UK",
+  "UK-c521": "UK",
+  "UK-c522": "UK",
+  "UK-c523": "UK",
+  "UK-c524": "UK",
+  "UK-c525": "UK",
+  "UK-c526": "UK",
+  "UK-c527": "UK",
+  "UK-c528": "UK",
+  "UK-c529": "UK",
+  "UK-c530": "UK",
+  "UK-c531": "UK",
+  "UK-c532": "UK",
+  "UK-c533": "UK",
+  "UK-c534": "UK",
+  "UK-c535": "UK",
+  "UK-c536": "UK",
+  "UK-c537": "UK",
+  "UK-c538": "UK",
+  "UK-c539": "UK",
+  "UK-c540": "UK",
+  "UK-c541": "UK",
+  "UK-c542": "UK",
+  "UK-c543": "UK",
+  "UK-c544": "UK",
+  "UK-c545": "UK",
+  "UK-c546": "UK",
+  "UK-c547": "UK",
+  "UK-c548": "UK",
+  "UK-c549": "UK",
+  "UK-c550": "UK",
+  "UK-c551": "UK",
+  "UK-c552": "UK",
+  "UK-c553": "UK",
+  "UK-c554": "UK",
+  "UK-c555": "UK",
+  "UK-c556": "UK",
+  "UK-c557": "UK",
+  "UK-c558": "UK",
+  "UK-c559": "UK",
+  "UK-c560": "UK",
+  "UK-c561": "UK",
+  "UK-c562": "UK",
+  "UK-c563": "UK",
+  "UK-c564": "UK",
+  "UK-c565": "UK",
+  "UK-c566": "UK",
+  "UK-c567": "UK",
+  "UK-c568": "UK",
+  "UK-c569": "UK",
+  "UK-c570": "UK",
+  "UK-c571": "UK",
+  "UK-c572": "UK",
+  "UK-c573": "UK",
+  "UK-c574": "UK",
+  "UK-c575": "UK",
+  "UK-c576": "UK",
+  "UK-c577": "UK",
+  "UK-c578": "UK",
+  "UK-c579": "UK",
+  "UK-c580": "UK",
+  "UK-c581": "UK",
+  "UK-c582": "UK",
+  "UK-c583": "UK",
+  "UK-c584": "UK",
+  "UK-c585": "UK",
+  "UK-c586": "UK",
+  "UK-c587": "UK",
+  "UK-c588": "UK",
+  "UK-c589": "UK",
+  "UK-c590": "UK",
+  "UK-c591": "UK",
+  "UK-c592": "UK",
+  "UK-c593": "UK",
+  "UK-c594": "UK",
+  "UK-c595": "UK",
+  "UK-c596": "UK",
+  "UK-c597": "UK",
+  "UK-c598": "UK",
+  "UK-c599": "UK",
+  "UK-c600": "UK",
+  "UK-c601": "UK",
+  "UK-c602": "UK",
+  "UK-c603": "UK",
+  "UK-c604": "UK",
+  "UK-c605": "UK",
+  "UK-c606": "UK",
+  "UK-c607": "UK",
+  "UK-c608": "UK",
+  "UK-c609": "UK",
+  "UK-c610": "UK",
+  "UK-c611": "UK",
+  "UK-c612": "UK",
+  "UK-c613": "UK",
+  "UK-c614": "UK",
+  "UK-c615": "UK",
+  "UK-c616": "UK",
+  "UK-c617": "UK",
+  "UK-c618": "UK",
+  "UK-c619": "UK",
+  "UK-c620": "UK",
+  "UK-c621": "UK",
+  "UK-c622": "UK",
+  "UK-c623": "UK",
+  "UK-c624": "UK",
+  "UK-c625": "UK",
+  "UK-c626": "UK",
+  "UK-c627": "UK",
+  "UK-c628": "UK",
+  "UK-c629": "UK",
+  "UK-c630": "UK"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "UK-c001": {
+     "노동당": 1
+    },
+    "UK-c002": {
+     "보수당": 1
+    },
+    "UK-c003": {
+     "노동당": 1
+    },
+    "UK-c004": {
+     "노동당": 1
+    },
+    "UK-c005": {
+     "노동당": 1
+    },
+    "UK-c006": {
+     "노동당": 1
+    },
+    "UK-c007": {
+     "노동당": 1
+    },
+    "UK-c008": {
+     "보수당": 1
+    },
+    "UK-c009": {
+     "노동당": 1
+    },
+    "UK-c010": {
+     "보수당": 1
+    },
+    "UK-c011": {
+     "보수당": 1
+    },
+    "UK-c012": {
+     "보수당": 1
+    },
+    "UK-c013": {
+     "노동당": 1
+    },
+    "UK-c014": {
+     "노동당": 1
+    },
+    "UK-c015": {
+     "노동당": 1
+    },
+    "UK-c016": {
+     "노동당": 1
+    },
+    "UK-c017": {
+     "노동당": 1
+    },
+    "UK-c018": {
+     "노동당": 1
+    },
+    "UK-c019": {
+     "노동당": 1
+    },
+    "UK-c020": {
+     "노동당": 1
+    },
+    "UK-c021": {
+     "노동당": 1
+    },
+    "UK-c022": {
+     "노동당": 1
+    },
+    "UK-c023": {
+     "노동당": 1
+    },
+    "UK-c024": {
+     "노동당": 1
+    },
+    "UK-c025": {
+     "노동당": 1
+    },
+    "UK-c026": {
+     "노동당": 1
+    },
+    "UK-c027": {
+     "노동당": 1
+    },
+    "UK-c028": {
+     "보수당": 1
+    },
+    "UK-c029": {
+     "노동당": 1
+    },
+    "UK-c030": {
+     "노동당": 1
+    },
+    "UK-c031": {
+     "보수당": 1
+    },
+    "UK-c032": {
+     "노동당": 1
+    },
+    "UK-c033": {
+     "노동당": 1
+    },
+    "UK-c034": {
+     "보수당": 1
+    },
+    "UK-c035": {
+     "보수당": 1
+    },
+    "UK-c036": {
+     "노동당": 1
+    },
+    "UK-c037": {
+     "노동당": 1
+    },
+    "UK-c038": {
+     "노동당": 1
+    },
+    "UK-c039": {
+     "보수당": 1
+    },
+    "UK-c040": {
+     "노동당": 1
+    },
+    "UK-c041": {
+     "노동당": 1
+    },
+    "UK-c042": {
+     "노동당": 1
+    },
+    "UK-c043": {
+     "보수당": 1
+    },
+    "UK-c044": {
+     "보수당": 1
+    },
+    "UK-c045": {
+     "보수당": 1
+    },
+    "UK-c046": {
+     "노동당": 1
+    },
+    "UK-c047": {
+     "보수당": 1
+    },
+    "UK-c048": {
+     "자유당": 1
+    },
+    "UK-c049": {
+     "노동당": 1
+    },
+    "UK-c050": {
+     "노동당": 1
+    },
+    "UK-c051": {
+     "노동당": 1
+    },
+    "UK-c052": {
+     "노동당": 1
+    },
+    "UK-c053": {
+     "노동당": 1
+    },
+    "UK-c054": {
+     "노동당": 1
+    },
+    "UK-c055": {
+     "노동당": 1
+    },
+    "UK-c056": {
+     "보수당": 1
+    },
+    "UK-c057": {
+     "노동당": 1
+    },
+    "UK-c058": {
+     "노동당": 1
+    },
+    "UK-c059": {
+     "보수당": 1
+    },
+    "UK-c060": {
+     "노동당": 1
+    },
+    "UK-c061": {
+     "노동당": 1
+    },
+    "UK-c062": {
+     "노동당": 1
+    },
+    "UK-c063": {
+     "노동당": 1
+    },
+    "UK-c064": {
+     "노동당": 1
+    },
+    "UK-c065": {
+     "보수당": 1
+    },
+    "UK-c066": {
+     "보수당": 1
+    },
+    "UK-c067": {
+     "보수당": 1
+    },
+    "UK-c068": {
+     "노동당": 1
+    },
+    "UK-c069": {
+     "노동당": 1
+    },
+    "UK-c070": {
+     "노동당": 1
+    },
+    "UK-c071": {
+     "보수당": 1
+    },
+    "UK-c072": {
+     "보수당": 1
+    },
+    "UK-c073": {
+     "노동당": 1
+    },
+    "UK-c074": {
+     "노동당": 1
+    },
+    "UK-c075": {
+     "노동당": 1
+    },
+    "UK-c076": {
+     "보수당": 1
+    },
+    "UK-c077": {
+     "노동당": 1
+    },
+    "UK-c078": {
+     "보수당": 1
+    },
+    "UK-c079": {
+     "노동당": 1
+    },
+    "UK-c080": {
+     "노동당": 1
+    },
+    "UK-c081": {
+     "노동당": 1
+    },
+    "UK-c082": {
+     "노동당": 1
+    },
+    "UK-c083": {
+     "보수당": 1
+    },
+    "UK-c084": {
+     "노동당": 1
+    },
+    "UK-c085": {
+     "노동당": 1
+    },
+    "UK-c086": {
+     "노동당": 1
+    },
+    "UK-c087": {
+     "노동당": 1
+    },
+    "UK-c088": {
+     "노동당": 1
+    },
+    "UK-c089": {
+     "보수당": 1
+    },
+    "UK-c090": {
+     "노동당": 1
+    },
+    "UK-c091": {
+     "보수당": 1
+    },
+    "UK-c092": {
+     "노동당": 1
+    },
+    "UK-c093": {
+     "보수당": 1
+    },
+    "UK-c094": {
+     "노동당": 1
+    },
+    "UK-c095": {
+     "보수당": 1
+    },
+    "UK-c096": {
+     "노동당": 1
+    },
+    "UK-c097": {
+     "노동당": 1
+    },
+    "UK-c098": {
+     "노동당": 1
+    },
+    "UK-c099": {
+     "보수당": 1
+    },
+    "UK-c100": {
+     "노동당": 1
+    },
+    "UK-c101": {
+     "보수당": 1
+    },
+    "UK-c102": {
+     "노동당": 1
+    },
+    "UK-c103": {
+     "노동당": 1
+    },
+    "UK-c104": {
+     "보수당": 1
+    },
+    "UK-c105": {
+     "노동당": 1
+    },
+    "UK-c106": {
+     "보수당": 1
+    },
+    "UK-c107": {
+     "노동당": 1
+    },
+    "UK-c108": {
+     "노동당": 1
+    },
+    "UK-c109": {
+     "보수당": 1
+    },
+    "UK-c110": {
+     "보수당": 1
+    },
+    "UK-c111": {
+     "보수당": 1
+    },
+    "UK-c112": {
+     "보수당": 1
+    },
+    "UK-c113": {
+     "보수당": 1
+    },
+    "UK-c114": {
+     "보수당": 1
+    },
+    "UK-c115": {
+     "보수당": 1
+    },
+    "UK-c116": {
+     "보수당": 1
+    },
+    "UK-c117": {
+     "보수당": 1
+    },
+    "UK-c118": {
+     "노동당": 1
+    },
+    "UK-c119": {
+     "노동당": 1
+    },
+    "UK-c120": {
+     "보수당": 1
+    },
+    "UK-c121": {
+     "보수당": 1
+    },
+    "UK-c122": {
+     "보수당": 1
+    },
+    "UK-c123": {
+     "노동당": 1
+    },
+    "UK-c124": {
+     "보수당": 1
+    },
+    "UK-c125": {
+     "보수당": 1
+    },
+    "UK-c126": {
+     "보수당": 1
+    },
+    "UK-c127": {
+     "보수당": 1
+    },
+    "UK-c128": {
+     "보수당": 1
+    },
+    "UK-c129": {
+     "노동당": 1
+    },
+    "UK-c130": {
+     "보수당": 1
+    },
+    "UK-c131": {
+     "노동당": 1
+    },
+    "UK-c132": {
+     "보수당": 1
+    },
+    "UK-c133": {
+     "보수당": 1
+    },
+    "UK-c134": {
+     "노동당": 1
+    },
+    "UK-c135": {
+     "보수당": 1
+    },
+    "UK-c136": {
+     "노동당": 1
+    },
+    "UK-c137": {
+     "보수당": 1
+    },
+    "UK-c138": {
+     "노동당": 1
+    },
+    "UK-c139": {
+     "노동당": 1
+    },
+    "UK-c140": {
+     "보수당": 1
+    },
+    "UK-c141": {
+     "노동당": 1
+    },
+    "UK-c142": {
+     "보수당": 1
+    },
+    "UK-c143": {
+     "보수당": 1
+    },
+    "UK-c144": {
+     "보수당": 1
+    },
+    "UK-c145": {
+     "보수당": 1
+    },
+    "UK-c146": {
+     "보수당": 1
+    },
+    "UK-c147": {
+     "노동당": 1
+    },
+    "UK-c148": {
+     "노동당": 1
+    },
+    "UK-c149": {
+     "노동당": 1
+    },
+    "UK-c150": {
+     "노동당": 1
+    },
+    "UK-c151": {
+     "보수당": 1
+    },
+    "UK-c152": {
+     "보수당": 1
+    },
+    "UK-c153": {
+     "보수당": 1
+    },
+    "UK-c154": {
+     "보수당": 1
+    },
+    "UK-c155": {
+     "보수당": 1
+    },
+    "UK-c156": {
+     "보수당": 1
+    },
+    "UK-c157": {
+     "보수당": 1
+    },
+    "UK-c158": {
+     "노동당": 1
+    },
+    "UK-c159": {
+     "노동당": 1
+    },
+    "UK-c160": {
+     "노동당": 1
+    },
+    "UK-c161": {
+     "보수당": 1
+    },
+    "UK-c162": {
+     "노동당": 1
+    },
+    "UK-c163": {
+     "노동당": 1
+    },
+    "UK-c164": {
+     "노동당": 1
+    },
+    "UK-c165": {
+     "노동당": 1
+    },
+    "UK-c166": {
+     "노동당": 1
+    },
+    "UK-c167": {
+     "노동당": 1
+    },
+    "UK-c168": {
+     "보수당": 1
+    },
+    "UK-c169": {
+     "보수당": 1
+    },
+    "UK-c170": {
+     "노동당": 1
+    },
+    "UK-c171": {
+     "보수당": 1
+    },
+    "UK-c172": {
+     "노동당": 1
+    },
+    "UK-c173": {
+     "노동당": 1
+    },
+    "UK-c174": {
+     "보수당": 1
+    },
+    "UK-c175": {
+     "노동당": 1
+    },
+    "UK-c176": {
+     "보수당": 1
+    },
+    "UK-c177": {
+     "보수당": 1
+    },
+    "UK-c178": {
+     "보수당": 1
+    },
+    "UK-c179": {
+     "보수당": 1
+    },
+    "UK-c180": {
+     "노동당": 1
+    },
+    "UK-c181": {
+     "노동당": 1
+    },
+    "UK-c182": {
+     "노동당": 1
+    },
+    "UK-c183": {
+     "보수당": 1
+    },
+    "UK-c184": {
+     "보수당": 1
+    },
+    "UK-c185": {
+     "보수당": 1
+    },
+    "UK-c186": {
+     "보수당": 1
+    },
+    "UK-c187": {
+     "보수당": 1
+    },
+    "UK-c188": {
+     "보수당": 1
+    },
+    "UK-c189": {
+     "보수당": 1
+    },
+    "UK-c190": {
+     "보수당": 1
+    },
+    "UK-c191": {
+     "보수당": 1
+    },
+    "UK-c192": {
+     "보수당": 1
+    },
+    "UK-c193": {
+     "노동당": 1
+    },
+    "UK-c194": {
+     "노동당": 1
+    },
+    "UK-c195": {
+     "노동당": 1
+    },
+    "UK-c196": {
+     "보수당": 1
+    },
+    "UK-c197": {
+     "보수당": 1
+    },
+    "UK-c198": {
+     "노동당": 1
+    },
+    "UK-c199": {
+     "노동당": 1
+    },
+    "UK-c200": {
+     "노동당": 1
+    },
+    "UK-c201": {
+     "자유당": 1
+    },
+    "UK-c202": {
+     "노동당": 1
+    },
+    "UK-c203": {
+     "노동당": 1
+    },
+    "UK-c204": {
+     "보수당": 1
+    },
+    "UK-c205": {
+     "노동당": 1
+    },
+    "UK-c206": {
+     "노동당": 1
+    },
+    "UK-c207": {
+     "보수당": 1
+    },
+    "UK-c208": {
+     "노동당": 1
+    },
+    "UK-c209": {
+     "보수당": 1
+    },
+    "UK-c210": {
+     "노동당": 1
+    },
+    "UK-c211": {
+     "보수당": 1
+    },
+    "UK-c212": {
+     "보수당": 1
+    },
+    "UK-c213": {
+     "노동당": 1
+    },
+    "UK-c214": {
+     "노동당": 1
+    },
+    "UK-c215": {
+     "노동당": 1
+    },
+    "UK-c216": {
+     "노동당": 1
+    },
+    "UK-c217": {
+     "보수당": 1
+    },
+    "UK-c218": {
+     "노동당": 1
+    },
+    "UK-c219": {
+     "노동당": 1
+    },
+    "UK-c220": {
+     "보수당": 1
+    },
+    "UK-c221": {
+     "보수당": 1
+    },
+    "UK-c222": {
+     "보수당": 1
+    },
+    "UK-c223": {
+     "보수당": 1
+    },
+    "UK-c224": {
+     "노동당": 1
+    },
+    "UK-c225": {
+     "보수당": 1
+    },
+    "UK-c226": {
+     "보수당": 1
+    },
+    "UK-c227": {
+     "노동당": 1
+    },
+    "UK-c228": {
+     "노동당": 1
+    },
+    "UK-c229": {
+     "노동당": 1
+    },
+    "UK-c230": {
+     "보수당": 1
+    },
+    "UK-c231": {
+     "보수당": 1
+    },
+    "UK-c232": {
+     "노동당": 1
+    },
+    "UK-c233": {
+     "노동당": 1
+    },
+    "UK-c234": {
+     "보수당": 1
+    },
+    "UK-c235": {
+     "보수당": 1
+    },
+    "UK-c236": {
+     "보수당": 1
+    },
+    "UK-c237": {
+     "보수당": 1
+    },
+    "UK-c238": {
+     "보수당": 1
+    },
+    "UK-c239": {
+     "노동당": 1
+    },
+    "UK-c240": {
+     "노동당": 1
+    },
+    "UK-c241": {
+     "노동당": 1
+    },
+    "UK-c242": {
+     "노동당": 1
+    },
+    "UK-c243": {
+     "노동당": 1
+    },
+    "UK-c244": {
+     "보수당": 1
+    },
+    "UK-c245": {
+     "보수당": 1
+    },
+    "UK-c246": {
+     "보수당": 1
+    },
+    "UK-c247": {
+     "보수당": 1
+    },
+    "UK-c248": {
+     "보수당": 1
+    },
+    "UK-c249": {
+     "노동당": 1
+    },
+    "UK-c250": {
+     "보수당": 1
+    },
+    "UK-c251": {
+     "보수당": 1
+    },
+    "UK-c252": {
+     "노동당": 1
+    },
+    "UK-c253": {
+     "노동당": 1
+    },
+    "UK-c254": {
+     "노동당": 1
+    },
+    "UK-c255": {
+     "보수당": 1
+    },
+    "UK-c256": {
+     "노동당": 1
+    },
+    "UK-c257": {
+     "노동당": 1
+    },
+    "UK-c258": {
+     "보수당": 1
+    },
+    "UK-c259": {
+     "보수당": 1
+    },
+    "UK-c260": {
+     "보수당": 1
+    },
+    "UK-c261": {
+     "보수당": 1
+    },
+    "UK-c262": {
+     "보수당": 1
+    },
+    "UK-c263": {
+     "보수당": 1
+    },
+    "UK-c264": {
+     "노동당": 1
+    },
+    "UK-c265": {
+     "노동당": 1
+    },
+    "UK-c266": {
+     "노동당": 1
+    },
+    "UK-c267": {
+     "보수당": 1
+    },
+    "UK-c268": {
+     "노동당": 1
+    },
+    "UK-c269": {
+     "노동당": 1
+    },
+    "UK-c270": {
+     "노동당": 1
+    },
+    "UK-c271": {
+     "노동당": 1
+    },
+    "UK-c272": {
+     "보수당": 1
+    },
+    "UK-c273": {
+     "보수당": 1
+    },
+    "UK-c274": {
+     "보수당": 1
+    },
+    "UK-c275": {
+     "노동당": 1
+    },
+    "UK-c276": {
+     "노동당": 1
+    },
+    "UK-c277": {
+     "보수당": 1
+    },
+    "UK-c278": {
+     "보수당": 1
+    },
+    "UK-c279": {
+     "노동당": 1
+    },
+    "UK-c280": {
+     "노동당": 1
+    },
+    "UK-c281": {
+     "노동당": 1
+    },
+    "UK-c282": {
+     "노동당": 1
+    },
+    "UK-c283": {
+     "노동당": 1
+    },
+    "UK-c284": {
+     "노동당": 1
+    },
+    "UK-c285": {
+     "노동당": 1
+    },
+    "UK-c286": {
+     "보수당": 1
+    },
+    "UK-c287": {
+     "보수당": 1
+    },
+    "UK-c288": {
+     "보수당": 1
+    },
+    "UK-c289": {
+     "노동당": 1
+    },
+    "UK-c290": {
+     "노동당": 1
+    },
+    "UK-c291": {
+     "노동당": 1
+    },
+    "UK-c292": {
+     "보수당": 1
+    },
+    "UK-c293": {
+     "노동당": 1
+    },
+    "UK-c294": {
+     "노동당": 1
+    },
+    "UK-c295": {
+     "노동당": 1
+    },
+    "UK-c296": {
+     "보수당": 1
+    },
+    "UK-c297": {
+     "보수당": 1
+    },
+    "UK-c298": {
+     "노동당": 1
+    },
+    "UK-c299": {
+     "노동당": 1
+    },
+    "UK-c300": {
+     "보수당": 1
+    },
+    "UK-c301": {
+     "보수당": 1
+    },
+    "UK-c302": {
+     "보수당": 1
+    },
+    "UK-c303": {
+     "보수당": 1
+    },
+    "UK-c304": {
+     "보수당": 1
+    },
+    "UK-c305": {
+     "보수당": 1
+    },
+    "UK-c306": {
+     "보수당": 1
+    },
+    "UK-c307": {
+     "보수당": 1
+    },
+    "UK-c308": {
+     "보수당": 1
+    },
+    "UK-c309": {
+     "보수당": 1
+    },
+    "UK-c310": {
+     "보수당": 1
+    },
+    "UK-c311": {
+     "보수당": 1
+    },
+    "UK-c312": {
+     "노동당": 1
+    },
+    "UK-c313": {
+     "보수당": 1
+    },
+    "UK-c314": {
+     "노동당": 1
+    },
+    "UK-c315": {
+     "보수당": 1
+    },
+    "UK-c316": {
+     "보수당": 1
+    },
+    "UK-c317": {
+     "보수당": 1
+    },
+    "UK-c318": {
+     "보수당": 1
+    },
+    "UK-c319": {
+     "노동당": 1
+    },
+    "UK-c320": {
+     "노동당": 1
+    },
+    "UK-c321": {
+     "노동당": 1
+    },
+    "UK-c322": {
+     "보수당": 1
+    },
+    "UK-c323": {
+     "노동당": 1
+    },
+    "UK-c324": {
+     "노동당": 1
+    },
+    "UK-c325": {
+     "노동당": 1
+    },
+    "UK-c326": {
+     "보수당": 1
+    },
+    "UK-c327": {
+     "노동당": 1
+    },
+    "UK-c328": {
+     "노동당": 1
+    },
+    "UK-c329": {
+     "노동당": 1
+    },
+    "UK-c330": {
+     "노동당": 1
+    },
+    "UK-c331": {
+     "노동당": 1
+    },
+    "UK-c332": {
+     "보수당": 1
+    },
+    "UK-c333": {
+     "노동당": 1
+    },
+    "UK-c334": {
+     "노동당": 1
+    },
+    "UK-c335": {
+     "노동당": 1
+    },
+    "UK-c336": {
+     "노동당": 1
+    },
+    "UK-c337": {
+     "노동당": 1
+    },
+    "UK-c338": {
+     "노동당": 1
+    },
+    "UK-c339": {
+     "노동당": 1
+    },
+    "UK-c340": {
+     "노동당": 1
+    },
+    "UK-c341": {
+     "보수당": 1
+    },
+    "UK-c342": {
+     "노동당": 1
+    },
+    "UK-c343": {
+     "노동당": 1
+    },
+    "UK-c344": {
+     "보수당": 1
+    },
+    "UK-c345": {
+     "노동당": 1
+    },
+    "UK-c346": {
+     "노동당": 1
+    },
+    "UK-c347": {
+     "보수당": 1
+    },
+    "UK-c348": {
+     "노동당": 1
+    },
+    "UK-c349": {
+     "보수당": 1
+    },
+    "UK-c350": {
+     "보수당": 1
+    },
+    "UK-c351": {
+     "보수당": 1
+    },
+    "UK-c352": {
+     "보수당": 1
+    },
+    "UK-c353": {
+     "보수당": 1
+    },
+    "UK-c354": {
+     "보수당": 1
+    },
+    "UK-c355": {
+     "보수당": 1
+    },
+    "UK-c356": {
+     "보수당": 1
+    },
+    "UK-c357": {
+     "보수당": 1
+    },
+    "UK-c358": {
+     "보수당": 1
+    },
+    "UK-c359": {
+     "보수당": 1
+    },
+    "UK-c360": {
+     "보수당": 1
+    },
+    "UK-c361": {
+     "보수당": 1
+    },
+    "UK-c362": {
+     "보수당": 1
+    },
+    "UK-c363": {
+     "노동당": 1
+    },
+    "UK-c364": {
+     "노동당": 1
+    },
+    "UK-c365": {
+     "보수당": 1
+    },
+    "UK-c366": {
+     "보수당": 1
+    },
+    "UK-c367": {
+     "보수당": 1
+    },
+    "UK-c368": {
+     "노동당": 1
+    },
+    "UK-c369": {
+     "보수당": 1
+    },
+    "UK-c370": {
+     "보수당": 1
+    },
+    "UK-c371": {
+     "보수당": 1
+    },
+    "UK-c372": {
+     "노동당": 1
+    },
+    "UK-c373": {
+     "보수당": 1
+    },
+    "UK-c374": {
+     "보수당": 1
+    },
+    "UK-c375": {
+     "보수당": 1
+    },
+    "UK-c376": {
+     "보수당": 1
+    },
+    "UK-c377": {
+     "보수당": 1
+    },
+    "UK-c378": {
+     "보수당": 1
+    },
+    "UK-c379": {
+     "보수당": 1
+    },
+    "UK-c380": {
+     "보수당": 1
+    },
+    "UK-c381": {
+     "보수당": 1
+    },
+    "UK-c382": {
+     "보수당": 1
+    },
+    "UK-c383": {
+     "보수당": 1
+    },
+    "UK-c384": {
+     "보수당": 1
+    },
+    "UK-c385": {
+     "노동당": 1
+    },
+    "UK-c386": {
+     "보수당": 1
+    },
+    "UK-c387": {
+     "노동당": 1
+    },
+    "UK-c388": {
+     "노동당": 1
+    },
+    "UK-c389": {
+     "보수당": 1
+    },
+    "UK-c390": {
+     "노동당": 1
+    },
+    "UK-c391": {
+     "보수당": 1
+    },
+    "UK-c392": {
+     "보수당": 1
+    },
+    "UK-c393": {
+     "보수당": 1
+    },
+    "UK-c394": {
+     "보수당": 1
+    },
+    "UK-c395": {
+     "노동당": 1
+    },
+    "UK-c396": {
+     "노동당": 1
+    },
+    "UK-c397": {
+     "노동당": 1
+    },
+    "UK-c398": {
+     "노동당": 1
+    },
+    "UK-c399": {
+     "노동당": 1
+    },
+    "UK-c400": {
+     "노동당": 1
+    },
+    "UK-c401": {
+     "자유당": 1
+    },
+    "UK-c402": {
+     "노동당": 1
+    },
+    "UK-c403": {
+     "노동당": 1
+    },
+    "UK-c404": {
+     "보수당": 1
+    },
+    "UK-c405": {
+     "보수당": 1
+    },
+    "UK-c406": {
+     "노동당": 1
+    },
+    "UK-c407": {
+     "보수당": 1
+    },
+    "UK-c408": {
+     "노동당": 1
+    },
+    "UK-c409": {
+     "노동당": 1
+    },
+    "UK-c410": {
+     "자유당": 1
+    },
+    "UK-c411": {
+     "노동당": 1
+    },
+    "UK-c412": {
+     "보수당": 1
+    },
+    "UK-c413": {
+     "노동당": 1
+    },
+    "UK-c414": {
+     "노동당": 1
+    },
+    "UK-c415": {
+     "노동당": 1
+    },
+    "UK-c416": {
+     "노동당": 1
+    },
+    "UK-c417": {
+     "노동당": 1
+    },
+    "UK-c418": {
+     "노동당": 1
+    },
+    "UK-c419": {
+     "노동당": 1
+    },
+    "UK-c420": {
+     "노동당": 1
+    },
+    "UK-c421": {
+     "노동당": 1
+    },
+    "UK-c422": {
+     "노동당": 1
+    },
+    "UK-c423": {
+     "노동당": 1
+    },
+    "UK-c424": {
+     "노동당": 1
+    },
+    "UK-c425": {
+     "노동당": 1
+    },
+    "UK-c426": {
+     "자유당": 1
+    },
+    "UK-c427": {
+     "노동당": 1
+    },
+    "UK-c428": {
+     "노동당": 1
+    },
+    "UK-c429": {
+     "노동당": 1
+    },
+    "UK-c430": {
+     "보수당": 1
+    },
+    "UK-c431": {
+     "보수당": 1
+    },
+    "UK-c432": {
+     "노동당": 1
+    },
+    "UK-c433": {
+     "보수당": 1
+    },
+    "UK-c434": {
+     "보수당": 1
+    },
+    "UK-c435": {
+     "보수당": 1
+    },
+    "UK-c436": {
+     "노동당": 1
+    },
+    "UK-c437": {
+     "보수당": 1
+    },
+    "UK-c438": {
+     "노동당": 1
+    },
+    "UK-c439": {
+     "보수당": 1
+    },
+    "UK-c440": {
+     "보수당": 1
+    },
+    "UK-c441": {
+     "보수당": 1
+    },
+    "UK-c442": {
+     "보수당": 1
+    },
+    "UK-c443": {
+     "보수당": 1
+    },
+    "UK-c444": {
+     "보수당": 1
+    },
+    "UK-c445": {
+     "보수당": 1
+    },
+    "UK-c446": {
+     "보수당": 1
+    },
+    "UK-c447": {
+     "보수당": 1
+    },
+    "UK-c448": {
+     "보수당": 1
+    },
+    "UK-c449": {
+     "노동당": 1
+    },
+    "UK-c450": {
+     "보수당": 1
+    },
+    "UK-c451": {
+     "노동당": 1
+    },
+    "UK-c452": {
+     "보수당": 1
+    },
+    "UK-c453": {
+     "노동당": 1
+    },
+    "UK-c454": {
+     "보수당": 1
+    },
+    "UK-c455": {
+     "보수당": 1
+    },
+    "UK-c456": {
+     "보수당": 1
+    },
+    "UK-c457": {
+     "보수당": 1
+    },
+    "UK-c458": {
+     "노동당": 1
+    },
+    "UK-c459": {
+     "보수당": 1
+    },
+    "UK-c460": {
+     "보수당": 1
+    },
+    "UK-c461": {
+     "보수당": 1
+    },
+    "UK-c462": {
+     "보수당": 1
+    },
+    "UK-c463": {
+     "보수당": 1
+    },
+    "UK-c464": {
+     "보수당": 1
+    },
+    "UK-c465": {
+     "보수당": 1
+    },
+    "UK-c466": {
+     "보수당": 1
+    },
+    "UK-c467": {
+     "보수당": 1
+    },
+    "UK-c468": {
+     "노동당": 1
+    },
+    "UK-c469": {
+     "보수당": 1
+    },
+    "UK-c470": {
+     "보수당": 1
+    },
+    "UK-c471": {
+     "보수당": 1
+    },
+    "UK-c472": {
+     "보수당": 1
+    },
+    "UK-c473": {
+     "보수당": 1
+    },
+    "UK-c474": {
+     "노동당": 1
+    },
+    "UK-c475": {
+     "보수당": 1
+    },
+    "UK-c476": {
+     "노동당": 1
+    },
+    "UK-c477": {
+     "노동당": 1
+    },
+    "UK-c478": {
+     "노동당": 1
+    },
+    "UK-c479": {
+     "노동당": 1
+    },
+    "UK-c480": {
+     "보수당": 1
+    },
+    "UK-c481": {
+     "보수당": 1
+    },
+    "UK-c482": {
+     "보수당": 1
+    },
+    "UK-c483": {
+     "보수당": 1
+    },
+    "UK-c484": {
+     "노동당": 1
+    },
+    "UK-c485": {
+     "보수당": 1
+    },
+    "UK-c486": {
+     "보수당": 1
+    },
+    "UK-c487": {
+     "보수당": 1
+    },
+    "UK-c488": {
+     "보수당": 1
+    },
+    "UK-c489": {
+     "보수당": 1
+    },
+    "UK-c490": {
+     "노동당": 1
+    },
+    "UK-c491": {
+     "보수당": 1
+    },
+    "UK-c492": {
+     "보수당": 1
+    },
+    "UK-c493": {
+     "보수당": 1
+    },
+    "UK-c494": {
+     "보수당": 1
+    },
+    "UK-c495": {
+     "보수당": 1
+    },
+    "UK-c496": {
+     "보수당": 1
+    },
+    "UK-c497": {
+     "보수당": 1
+    },
+    "UK-c498": {
+     "보수당": 1
+    },
+    "UK-c499": {
+     "보수당": 1
+    },
+    "UK-c500": {
+     "보수당": 1
+    },
+    "UK-c501": {
+     "보수당": 1
+    },
+    "UK-c502": {
+     "보수당": 1
+    },
+    "UK-c503": {
+     "보수당": 1
+    },
+    "UK-c504": {
+     "보수당": 1
+    },
+    "UK-c505": {
+     "보수당": 1
+    },
+    "UK-c506": {
+     "보수당": 1
+    },
+    "UK-c507": {
+     "보수당": 1
+    },
+    "UK-c508": {
+     "보수당": 1
+    },
+    "UK-c509": {
+     "보수당": 1
+    },
+    "UK-c510": {
+     "보수당": 1
+    },
+    "UK-c511": {
+     "보수당": 1
+    },
+    "UK-c512": {
+     "보수당": 1
+    },
+    "UK-c513": {
+     "보수당": 1
+    },
+    "UK-c514": {
+     "보수당": 1
+    },
+    "UK-c515": {
+     "보수당": 1
+    },
+    "UK-c516": {
+     "보수당": 1
+    },
+    "UK-c517": {
+     "보수당": 1
+    },
+    "UK-c518": {
+     "보수당": 1
+    },
+    "UK-c519": {
+     "보수당": 1
+    },
+    "UK-c520": {
+     "보수당": 1
+    },
+    "UK-c521": {
+     "보수당": 1
+    },
+    "UK-c522": {
+     "보수당": 1
+    },
+    "UK-c523": {
+     "보수당": 1
+    },
+    "UK-c524": {
+     "보수당": 1
+    },
+    "UK-c525": {
+     "보수당": 1
+    },
+    "UK-c526": {
+     "보수당": 1
+    },
+    "UK-c527": {
+     "보수당": 1
+    },
+    "UK-c528": {
+     "보수당": 1
+    },
+    "UK-c529": {
+     "보수당": 1
+    },
+    "UK-c530": {
+     "보수당": 1
+    },
+    "UK-c531": {
+     "보수당": 1
+    },
+    "UK-c532": {
+     "보수당": 1
+    },
+    "UK-c533": {
+     "보수당": 1
+    },
+    "UK-c534": {
+     "보수당": 1
+    },
+    "UK-c535": {
+     "보수당": 1
+    },
+    "UK-c536": {
+     "보수당": 1
+    },
+    "UK-c537": {
+     "보수당": 1
+    },
+    "UK-c538": {
+     "보수당": 1
+    },
+    "UK-c539": {
+     "보수당": 1
+    },
+    "UK-c540": {
+     "보수당": 1
+    },
+    "UK-c541": {
+     "보수당": 1
+    },
+    "UK-c542": {
+     "보수당": 1
+    },
+    "UK-c543": {
+     "보수당": 1
+    },
+    "UK-c544": {
+     "노동당": 1
+    },
+    "UK-c545": {
+     "보수당": 1
+    },
+    "UK-c546": {
+     "보수당": 1
+    },
+    "UK-c547": {
+     "보수당": 1
+    },
+    "UK-c548": {
+     "노동당": 1
+    },
+    "UK-c549": {
+     "노동당": 1
+    },
+    "UK-c550": {
+     "노동당": 1
+    },
+    "UK-c551": {
+     "보수당": 1
+    },
+    "UK-c552": {
+     "보수당": 1
+    },
+    "UK-c553": {
+     "보수당": 1
+    },
+    "UK-c554": {
+     "보수당": 1
+    },
+    "UK-c555": {
+     "보수당": 1
+    },
+    "UK-c556": {
+     "보수당": 1
+    },
+    "UK-c557": {
+     "보수당": 1
+    },
+    "UK-c558": {
+     "보수당": 1
+    },
+    "UK-c559": {
+     "보수당": 1
+    },
+    "UK-c560": {
+     "노동당": 1
+    },
+    "UK-c561": {
+     "노동당": 1
+    },
+    "UK-c562": {
+     "보수당": 1
+    },
+    "UK-c563": {
+     "보수당": 1
+    },
+    "UK-c564": {
+     "보수당": 1
+    },
+    "UK-c565": {
+     "노동당": 1
+    },
+    "UK-c566": {
+     "노동당": 1
+    },
+    "UK-c567": {
+     "보수당": 1
+    },
+    "UK-c568": {
+     "보수당": 1
+    },
+    "UK-c569": {
+     "보수당": 1
+    },
+    "UK-c570": {
+     "보수당": 1
+    },
+    "UK-c571": {
+     "노동당": 1
+    },
+    "UK-c572": {
+     "노동당": 1
+    },
+    "UK-c573": {
+     "노동당": 1
+    },
+    "UK-c574": {
+     "보수당": 1
+    },
+    "UK-c575": {
+     "노동당": 1
+    },
+    "UK-c576": {
+     "보수당": 1
+    },
+    "UK-c577": {
+     "보수당": 1
+    },
+    "UK-c578": {
+     "보수당": 1
+    },
+    "UK-c579": {
+     "보수당": 1
+    },
+    "UK-c580": {
+     "보수당": 1
+    },
+    "UK-c581": {
+     "노동당": 1
+    },
+    "UK-c582": {
+     "노동당": 1
+    },
+    "UK-c583": {
+     "노동당": 1
+    },
+    "UK-c584": {
+     "보수당": 1
+    },
+    "UK-c585": {
+     "노동당": 1
+    },
+    "UK-c586": {
+     "노동당": 1
+    },
+    "UK-c587": {
+     "노동당": 1
+    },
+    "UK-c588": {
+     "노동당": 1
+    },
+    "UK-c589": {
+     "보수당": 1
+    },
+    "UK-c590": {
+     "보수당": 1
+    },
+    "UK-c591": {
+     "보수당": 1
+    },
+    "UK-c592": {
+     "보수당": 1
+    },
+    "UK-c593": {
+     "보수당": 1
+    },
+    "UK-c594": {
+     "보수당": 1
+    },
+    "UK-c595": {
+     "노동당": 1
+    },
+    "UK-c596": {
+     "노동당": 1
+    },
+    "UK-c597": {
+     "보수당": 1
+    },
+    "UK-c598": {
+     "노동당": 1
+    },
+    "UK-c599": {
+     "노동당": 1
+    },
+    "UK-c600": {
+     "노동당": 1
+    },
+    "UK-c601": {
+     "보수당": 1
+    },
+    "UK-c602": {
+     "보수당": 1
+    },
+    "UK-c603": {
+     "노동당": 1
+    },
+    "UK-c604": {
+     "노동당": 1
+    },
+    "UK-c605": {
+     "노동당": 1
+    },
+    "UK-c606": {
+     "노동당": 1
+    },
+    "UK-c607": {
+     "노동당": 1
+    },
+    "UK-c608": {
+     "노동당": 1
+    },
+    "UK-c609": {
+     "노동당": 1
+    },
+    "UK-c610": {
+     "노동당": 1
+    },
+    "UK-c611": {
+     "노동당": 1
+    },
+    "UK-c612": {
+     "노동당": 1
+    },
+    "UK-c613": {
+     "보수당": 1
+    },
+    "UK-c614": {
+     "보수당": 1
+    },
+    "UK-c615": {
+     "보수당": 1
+    },
+    "UK-c616": {
+     "신페인": 1
+    },
+    "UK-c617": {
+     "보수당": 1
+    },
+    "UK-c618": {
+     "신페인": 1
+    },
+    "UK-c619": {
+     "보수당": 1
+    },
+    "UK-c620": {
+     "보수당": 1
+    },
+    "UK-c621": {
+     "보수당": 1
+    },
+    "UK-c622": {
+     "보수당": 1
+    },
+    "UK-c623": {
+     "보수당": 1
+    },
+    "UK-c624": {
+     "보수당": 1
+    },
+    "UK-c625": {
+     "보수당": 1
+    },
+    "UK-c626": {
+     "보수당": 1
+    },
+    "UK-c627": {
+     "보수당": 1
+    },
+    "UK-c628": {
+     "자유당": 1
+    },
+    "UK-c629": {
+     "노동당": 1
+    },
+    "UK-c630": {
+     "노동당": 1
+    }
+   }
+  }
+ ]
+}

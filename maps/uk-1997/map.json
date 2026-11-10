@@ -1,0 +1,3390 @@
+{
+ "id": "uk-1997",
+ "name": "영국 총선거",
+ "subtitle": "1997년 5월 · 하원 659석 · 선거구 659개",
+ "tag": "HOUSE OF COMMONS 1997",
+ "menuCountry": "영국",
+ "menuGroup": "영국 총선거",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1997",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 1468.2,
+ "regions": {
+  "UK": "영국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1997년",
+   "sub": "소선거구",
+   "regions": [
+    "UK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1468.2
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "노동당",
+   "color": "#dc241f"
+  },
+  {
+   "name": "보수당",
+   "color": "#0087dc"
+  },
+  {
+   "name": "자유민주당",
+   "color": "#fdbb30"
+  },
+  {
+   "name": "얼스터 유니어니스트당 (UUP)",
+   "color": "#9999ff"
+  },
+  {
+   "name": "스코틀랜드 국민당 (SNP)",
+   "color": "#ffff00"
+  },
+  {
+   "name": "웨일스당 (플라이드 컴리)",
+   "color": "#008142"
+  },
+  {
+   "name": "사회민주노동당 (SDLP)",
+   "color": "#99ff66"
+  },
+  {
+   "name": "무소속·하원의장",
+   "color": "#b3b3b3"
+  },
+  {
+   "name": "신페인",
+   "color": "#008800"
+  },
+  {
+   "name": "민주연합당 (DUP)",
+   "color": "#d46a4c"
+  },
+  {
+   "name": "영국 유니어니스트당 (UKUP)",
+   "color": "#800080"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {},
+ "names": {
+  "UK-seat-653": "Wycombe",
+  "UK-seat-650": "Worthing West",
+  "UK-seat-639": "Wokingham",
+  "UK-seat-638": "Woking",
+  "UK-seat-637": "Witney",
+  "UK-seat-634": "Windsor",
+  "UK-seat-633": "Winchester",
+  "UK-seat-617": "Wealden",
+  "UK-seat-609": "Wantage",
+  "UK-seat-587": "Tunbridge Wells",
+  "UK-seat-580": "Tonbridge and Malling",
+  "UK-seat-560": "Surrey Heath",
+  "UK-seat-532": "Spelthorne",
+  "UK-seat-528": "Southampton Itchen",
+  "UK-seat-527": "Southampton Test",
+  "UK-seat-561": "South West Surrey",
+  "UK-seat-577": "South Thanet",
+  "UK-seat-522": "Slough",
+  "UK-seat-519": "선거구 1",
+  "UK-seat-508": "Sevenoaks",
+  "UK-seat-493": "선거구 2",
+  "UK-seat-485": "Romsey",
+  "UK-seat-475": "Reigate",
+  "UK-seat-471": "Reading West",
+  "UK-seat-470": "Reading East",
+  "UK-seat-464": "Portsmouth South",
+  "UK-seat-463": "Portsmouth North",
+  "UK-seat-450": "Oxford West and Abingdon",
+  "UK-seat-449": "Oxford East",
+  "UK-seat-297": "East Hampshire",
+  "UK-seat-576": "North Thanet",
+  "UK-seat-405": "North East Milton Keynes",
+  "UK-seat-296": "North East Hampshire",
+  "UK-seat-419": "Newbury",
+  "UK-seat-417": "New Forest West",
+  "UK-seat-416": "New Forest East",
+  "UK-seat-408": "Mole Valley",
+  "UK-seat-406": "South West Milton Keynes",
+  "UK-seat-562": "Mid Sussex",
+  "UK-seat-398": "Medway",
+  "UK-seat-390": "Maidstone and The Weald",
+  "UK-seat-389": "Maidenhead",
+  "UK-seat-367": "Lewes",
+  "UK-seat-339": "Isle of Wight",
+  "UK-seat-328": "Hove",
+  "UK-seat-326": "Horsham",
+  "UK-seat-313": "Henley",
+  "UK-seat-307": "Havant",
+  "UK-seat-306": "Hastings and Rye",
+  "UK-seat-285": "Guildford",
+  "UK-seat-280": "Gravesham",
+  "UK-seat-277": "Gosport",
+  "UK-seat-264": "Gillingham",
+  "UK-seat-256": "Folkestone and Hythe",
+  "UK-seat-250": "Faversham and Mid Kent",
+  "UK-seat-249": "Fareham",
+  "UK-seat-243": "Esher and Walton",
+  "UK-seat-240": "Epsom and Ewell",
+  "UK-seat-223": "Eastleigh",
+  "UK-seat-222": "Eastbourne",
+  "UK-seat-649": "East Worthing and Shoreham",
+  "UK-seat-559": "East Surrey",
+  "UK-seat-295": "North West Hampshire",
+  "UK-seat-200": "Dover",
+  "UK-seat-178": "Dartford",
+  "UK-seat-166": "Crawley",
+  "UK-seat-142": "Chichester",
+  "UK-seat-139": "Chesham and Amersham",
+  "UK-seat-135": "선거구 3",
+  "UK-seat-122": "Canterbury",
+  "UK-seat-105": "Buckingham",
+  "UK-seat-96": "Brighton Pavilion",
+  "UK-seat-95": "Brighton Kemptown",
+  "UK-seat-81": "선거구 4",
+  "UK-seat-71": "선거구 5",
+  "UK-seat-49": "Bexhill and Battle",
+  "UK-seat-36": "Beaconsfield",
+  "UK-seat-31": "Basingstoke",
+  "UK-seat-23": "Banbury",
+  "UK-seat-21": "Aylesbury",
+  "UK-seat-19": "Ashford",
+  "UK-seat-17": "Arundel and South Downs",
+  "UK-seat-7": "Aldershot",
+  "UK-seat-607": "Wansbeck",
+  "UK-seat-591": "Tynemouth",
+  "UK-seat-590": "Tyne Bridge",
+  "UK-seat-558": "Sunderland South",
+  "UK-seat-557": "Sunderland North",
+  "UK-seat-541": "Stockton South",
+  "UK-seat-540": "Stockton North",
+  "UK-seat-526": "South Shields",
+  "UK-seat-506": "Sedgefield",
+  "UK-seat-472": "Redcar",
+  "UK-seat-213": "North Durham",
+  "UK-seat-592": "선거구 6",
+  "UK-seat-212": "City of Durham",
+  "UK-seat-423": "Newcastle-under-Lyme",
+  "UK-seat-422": "North Newcastle upon Tyne",
+  "UK-seat-421": "East Newcastle upon Tyne and Wallsend",
+  "UK-seat-403": "선거구 7",
+  "UK-seat-402": "Middlesbrough",
+  "UK-seat-343": "Jarrow",
+  "UK-seat-327": "Houghton and Washington East",
+  "UK-seat-319": "Hexham",
+  "UK-seat-304": "Hartlepool",
+  "UK-seat-262": "Gateshead East and Washington West",
+  "UK-seat-218": "Easington",
+  "UK-seat-177": "Darlington",
+  "UK-seat-214": "North West Durham",
+  "UK-seat-70": "Blyth Valley",
+  "UK-seat-69": "Blaydon",
+  "UK-seat-63": "Bishop Auckland",
+  "UK-seat-46": "Berwick-upon-Tweed",
+  "UK-seat-656": "Yeovil",
+  "UK-seat-643": "Woodspring",
+  "UK-seat-629": "Weston-super-Mare",
+  "UK-seat-626": "North Wiltshire",
+  "UK-seat-199": "West Dorset",
+  "UK-seat-620": "Wells",
+  "UK-seat-608": "Wansdyke",
+  "UK-seat-586": "Truro and St Austell",
+  "UK-seat-584": "선거구 8",
+  "UK-seat-190": "North Devon",
+  "UK-seat-582": "Torbay",
+  "UK-seat-579": "Tiverton and Honiton",
+  "UK-seat-575": "Tewkesbury",
+  "UK-seat-573": "Teignbridge",
+  "UK-seat-571": "Taunton",
+  "UK-seat-552": "Stroud",
+  "UK-seat-501": "선거구 9",
+  "UK-seat-191": "South West Devon",
+  "UK-seat-568": "South Swindon",
+  "UK-seat-161": "South East Cornwall",
+  "UK-seat-198": "South Dorset",
+  "UK-seat-524": "Somerton and Frome",
+  "UK-seat-503": "Salisbury",
+  "UK-seat-461": "Poole",
+  "UK-seat-458": "Plymouth Sutton",
+  "UK-seat-457": "Plymouth Devonport",
+  "UK-seat-435": "Northavon",
+  "UK-seat-631": "선거구 10",
+  "UK-seat-567": "North Swindon",
+  "UK-seat-197": "North Dorset",
+  "UK-seat-189": "East Devon",
+  "UK-seat-160": "North Cornwall",
+  "UK-seat-196": "Mid Dorset and North Poole",
+  "UK-seat-349": "Kingswood",
+  "UK-seat-275": "Gloucester",
+  "UK-seat-257": "선거구 11",
+  "UK-seat-248": "Falmouth and Camborne",
+  "UK-seat-245": "Exeter",
+  "UK-seat-188": "선거구 12",
+  "UK-seat-187": "Devizes",
+  "UK-seat-162": "선거구 13",
+  "UK-seat-146": "Christchurch",
+  "UK-seat-138": "Cheltenham",
+  "UK-seat-100": "Bristol West",
+  "UK-seat-99": "Bristol South",
+  "UK-seat-98": "Bristol North West",
+  "UK-seat-97": "Bristol East",
+  "UK-seat-93": "Bridgwater",
+  "UK-seat-80": "Bournemouth West",
+  "UK-seat-79": "Bournemouth East",
+  "UK-seat-33": "Bath",
+  "UK-seat-483": "Rochford and Southend East",
+  "UK-seat-556": "West Suffolk",
+  "UK-seat-137": "West Chelmsford",
+  "UK-seat-621": "Welwyn Hatfield",
+  "UK-seat-616": "Waveney",
+  "UK-seat-615": "Watford",
+  "UK-seat-578": "Thurrock",
+  "UK-seat-554": "Suffolk Coastal",
+  "UK-seat-537": "Stevenage",
+  "UK-seat-498": "St Helens North",
+  "UK-seat-529": "Southend West",
+  "UK-seat-431": "South West Norfolk",
+  "UK-seat-317": "선거구 14",
+  "UK-seat-41": "선거구 15",
+  "UK-seat-555": "South Suffolk",
+  "UK-seat-430": "South Norfolk",
+  "UK-seat-120": "South East Cambridgeshire",
+  "UK-seat-119": "South Cambridgeshire",
+  "UK-seat-497": "Saffron Walden",
+  "UK-seat-469": "선거구 16",
+  "UK-seat-456": "Peterborough",
+  "UK-seat-437": "Norwich South",
+  "UK-seat-436": "Norwich North",
+  "UK-seat-429": "North West Norfolk",
+  "UK-seat-118": "선거구 17",
+  "UK-seat-428": "North Norfolk",
+  "UK-seat-244": "선거구 18",
+  "UK-seat-316": "South West Hertfordshire",
+  "UK-seat-117": "North East Cambridgeshire",
+  "UK-seat-40": "South West Bedfordshire",
+  "UK-seat-427": "Mid Norfolk",
+  "UK-seat-39": "North East Bedfordshire",
+  "UK-seat-392": "Maldon and East Chelmsford",
+  "UK-seat-387": "Luton South",
+  "UK-seat-386": "Luton North",
+  "UK-seat-338": "Ipswich",
+  "UK-seat-333": "Huntingdon",
+  "UK-seat-322": "Holborn and St Pancras",
+  "UK-seat-318": "Hertsmere",
+  "UK-seat-315": "Hertford and Stortford",
+  "UK-seat-310": "North East Hertfordshire",
+  "UK-seat-305": "Harwich",
+  "UK-seat-300": "Harlow",
+  "UK-seat-282": "Great Yarmouth",
+  "UK-seat-239": "Epping Forest",
+  "UK-seat-154": "Colchester",
+  "UK-seat-553": "Central Suffolk and North Ipswich",
+  "UK-seat-132": "Castle Point",
+  "UK-seat-116": "Cambridge",
+  "UK-seat-110": "Bury St Edmunds",
+  "UK-seat-103": "Broxbourne",
+  "UK-seat-91": "Brentwood and Ongar",
+  "UK-seat-85": "Braintree",
+  "UK-seat-51": "Billericay",
+  "UK-seat-38": "Mid Bedfordshire",
+  "UK-seat-30": "Basildon",
+  "UK-seat-622": "Wentworth",
+  "UK-seat-602": "Wakefield",
+  "UK-seat-600": "선거구 19",
+  "UK-seat-520": "Skipton and Ripon",
+  "UK-seat-516": "Shipley",
+  "UK-seat-514": "Sheffield Attercliffe",
+  "UK-seat-513": "Sheffield Brightside",
+  "UK-seat-512": "Sheffield Hillsborough",
+  "UK-seat-510": "Sheffield Hallam",
+  "UK-seat-509": "Sheffield Central",
+  "UK-seat-511": "Sheffield Heeley",
+  "UK-seat-507": "Selby",
+  "UK-seat-505": "Scunthorpe",
+  "UK-seat-504": "Scarborough and Whitby",
+  "UK-seat-496": "Ryedale",
+  "UK-seat-489": "Rotherham",
+  "UK-seat-488": "Rother Valley",
+  "UK-seat-480": "Richmond Park",
+  "UK-seat-467": "Pudsey",
+  "UK-seat-459": "Pontefract and Castleford",
+  "UK-seat-432": "Normanton",
+  "UK-seat-413": "Morley and Rothwell",
+  "UK-seat-360": "Leeds Central",
+  "UK-seat-359": "Leeds West",
+  "UK-seat-358": "Leeds North West",
+  "UK-seat-357": "Leeds North East",
+  "UK-seat-356": "Leeds East",
+  "UK-seat-332": "West Kingston upon Hull and Hessle",
+  "UK-seat-331": "North Kingston upon Hull",
+  "UK-seat-330": "East Kingston upon Hull",
+  "UK-seat-344": "Keighley",
+  "UK-seat-329": "Huddersfield",
+  "UK-seat-311": "Hemsworth",
+  "UK-seat-301": "Harrogate and Knaresborough",
+  "UK-seat-290": "선거구 20",
+  "UK-seat-289": "Halifax",
+  "UK-seat-281": "Great Grimsby",
+  "UK-seat-235": "Elmet",
+  "UK-seat-659": "선거구 21",
+  "UK-seat-195": "Doncaster North",
+  "UK-seat-194": "Doncaster Central",
+  "UK-seat-193": "Don Valley",
+  "UK-seat-192": "Dewsbury",
+  "UK-seat-155": "Colne Valley",
+  "UK-seat-148": "Cleethorpes",
+  "UK-seat-658": "City of York",
+  "UK-seat-114": "Calder Valley",
+  "UK-seat-94": "Brigg and Goole",
+  "UK-seat-84": "Bradford West",
+  "UK-seat-83": "Bradford South",
+  "UK-seat-82": "Bradford North",
+  "UK-seat-48": "Beverley and Holderness",
+  "UK-seat-34": "Batley and Spen",
+  "UK-seat-28": "Barnsley West and Penistone",
+  "UK-seat-27": "Barnsley East and Mexborough",
+  "UK-seat-26": "Barnsley Central",
+  "UK-seat-632": "Wimbledon",
+  "UK-seat-625": "선거구 22",
+  "UK-seat-606": "Walthamstow",
+  "UK-seat-601": "Vauxhall",
+  "UK-seat-597": "Uxbridge",
+  "UK-seat-595": "Upminster",
+  "UK-seat-589": "Twickenham",
+  "UK-seat-585": "Tottenham",
+  "UK-seat-581": "Tooting",
+  "UK-seat-563": "Sutton and Cheam",
+  "UK-seat-550": "Streatham",
+  "UK-seat-492": "Ruislip-Northwood",
+  "UK-seat-484": "Romford",
+  "UK-seat-481": "Richmond (Yorks)",
+  "UK-seat-474": "Regent's Park and Kensington North",
+  "UK-seat-468": "Putney",
+  "UK-seat-462": "Poplar and Canning Town",
+  "UK-seat-448": "Orpington",
+  "UK-seat-444": "Old Bexley and Sidcup",
+  "UK-seat-531": "North Southwark and Bermondsey",
+  "UK-seat-407": "Mitcham and Morden",
+  "UK-seat-371": "Leyton and Wanstead",
+  "UK-seat-368": "Lewisham East",
+  "UK-seat-370": "Lewisham Deptford",
+  "UK-seat-369": "Lewisham West",
+  "UK-seat-348": "Kingston and Surbiton",
+  "UK-seat-345": "Kensington and Chelsea",
+  "UK-seat-341": "Islington North",
+  "UK-seat-340": "Islington South and Finsbury",
+  "UK-seat-336": "Ilford North",
+  "UK-seat-335": "Ilford South",
+  "UK-seat-325": "Hornsey and Wood Green",
+  "UK-seat-324": "Hornchurch",
+  "UK-seat-323": "St Albans",
+  "UK-seat-312": "Hendon",
+  "UK-seat-308": "Hayes and Harlington",
+  "UK-seat-303": "Harrow East",
+  "UK-seat-302": "Harrow West",
+  "UK-seat-298": "Hampstead and Highgate",
+  "UK-seat-294": "Hammersmith and Fulham",
+  "UK-seat-287": "Hackney North and Stoke Newington",
+  "UK-seat-286": "Hackney South and Shoreditch",
+  "UK-seat-284": "Greenwich and Woolwich",
+  "UK-seat-255": "Finchley and Golders Green",
+  "UK-seat-251": "Feltham and Heston",
+  "UK-seat-242": "Erith and Thamesmead",
+  "UK-seat-238": "Enfield North",
+  "UK-seat-237": "Enfield Southgate",
+  "UK-seat-236": "Eltham",
+  "UK-seat-233": "Edmonton",
+  "UK-seat-219": "선거구 23",
+  "UK-seat-217": "Ealing Southall",
+  "UK-seat-215": "Ealing, Acton and Shepherd's Bush",
+  "UK-seat-216": "Ealing North",
+  "UK-seat-205": "Dulwich and West Norwood",
+  "UK-seat-176": "Dagenham",
+  "UK-seat-171": "Croydon South",
+  "UK-seat-170": "Croydon North",
+  "UK-seat-169": "Croydon Central",
+  "UK-seat-147": "Cities of London and Westminster",
+  "UK-seat-144": "Chipping Barnet",
+  "UK-seat-143": "Chingford and Woodford Green",
+  "UK-seat-131": "Carshalton and Wallington",
+  "UK-seat-115": "Camberwell and Peckham",
+  "UK-seat-101": "Bromley and Chislehurst",
+  "UK-seat-90": "Brentford and Isleworth",
+  "UK-seat-89": "Brent South",
+  "UK-seat-88": "Brent North",
+  "UK-seat-87": "Brent East",
+  "UK-seat-50": "Bexleyheath and Crayford",
+  "UK-seat-47": "Bethnal Green and Bow",
+  "UK-seat-37": "Beckenham",
+  "UK-seat-35": "Battersea",
+  "UK-seat-25": "Barking",
+  "UK-seat-186": "West Derbyshire",
+  "UK-seat-619": "Wellingborough",
+  "UK-seat-525": "South Holland and The Deepings",
+  "UK-seat-185": "South Derbyshire",
+  "UK-seat-521": "선거구 24",
+  "UK-seat-515": "Sherwood",
+  "UK-seat-495": "Rutland and Melton",
+  "UK-seat-494": "Rushcliffe",
+  "UK-seat-440": "Nottingham South",
+  "UK-seat-439": "Nottingham North",
+  "UK-seat-438": "Nottingham East",
+  "UK-seat-434": "Northampton South",
+  "UK-seat-433": "Northampton North",
+  "UK-seat-364": "North West Leicestershire",
+  "UK-seat-184": "North East Derbyshire",
+  "UK-seat-418": "Newark",
+  "UK-seat-397": "Mansfield",
+  "UK-seat-384": "Louth and Horncastle",
+  "UK-seat-383": "Loughborough",
+  "UK-seat-373": "Lincoln",
+  "UK-seat-363": "Leicester East",
+  "UK-seat-362": "Leicester West",
+  "UK-seat-361": "Leicester South",
+  "UK-seat-346": "Kettering",
+  "UK-seat-321": "High Peak",
+  "UK-seat-299": "Harborough",
+  "UK-seat-279": "Grantham and Stamford",
+  "UK-seat-263": "Gedling",
+  "UK-seat-260": "Gainsborough",
+  "UK-seat-241": "Erewash",
+  "UK-seat-183": "Derby South",
+  "UK-seat-182": "Derby North",
+  "UK-seat-179": "Daventry",
+  "UK-seat-159": "Corby",
+  "UK-seat-141": "Chesterfield",
+  "UK-seat-134": "선거구 25",
+  "UK-seat-104": "Broxtowe",
+  "UK-seat-78": "Bosworth",
+  "UK-seat-77": "Boston and Skegness",
+  "UK-seat-72": "Bolsover",
+  "UK-seat-64": "Blaby",
+  "UK-seat-32": "Bassetlaw",
+  "UK-seat-18": "Ashfield",
+  "UK-seat-11": "Amber Valley",
+  "UK-seat-655": "Wythenshawe and Sale East",
+  "UK-seat-648": "Worsley",
+  "UK-seat-647": "Workington",
+  "UK-seat-636": "Wirral West",
+  "UK-seat-635": "Wirral South",
+  "UK-seat-630": "Wigan",
+  "UK-seat-628": "Westmorland and Lonsdale",
+  "UK-seat-354": "West Lancashire",
+  "UK-seat-618": "선거구 26",
+  "UK-seat-612": "Warrington South",
+  "UK-seat-611": "Warrington North",
+  "UK-seat-603": "Wallasey",
+  "UK-seat-570": "Tatton",
+  "UK-seat-551": "Stretford and Urmston",
+  "UK-seat-539": "Stockport",
+  "UK-seat-536": "Stalybridge and Hyde",
+  "UK-seat-500": "St Ives",
+  "UK-seat-499": "St Helens South",
+  "UK-seat-530": "Southport",
+  "UK-seat-478": "South Ribble",
+  "UK-seat-502": "Salford",
+  "UK-seat-487": "Rossendale and Darwen",
+  "UK-seat-482": "Rochdale",
+  "UK-seat-479": "Ribble Valley",
+  "UK-seat-466": "Preston",
+  "UK-seat-454": "Penrith and The Border",
+  "UK-seat-453": "Pendle",
+  "UK-seat-446": "Oldham West and Royton",
+  "UK-seat-445": "Oldham East and Saddleworth",
+  "UK-seat-412": "Morecambe and Lunesdale",
+  "UK-seat-396": "Manchester Withington",
+  "UK-seat-395": "Manchester Gorton",
+  "UK-seat-393": "Manchester Blackley",
+  "UK-seat-394": "Manchester Central",
+  "UK-seat-391": "Makerfield",
+  "UK-seat-388": "Macclesfield",
+  "UK-seat-379": "Liverpool Garston",
+  "UK-seat-378": "Liverpool West Derby",
+  "UK-seat-377": "Liverpool Wavertree",
+  "UK-seat-376": "Liverpool Walton",
+  "UK-seat-375": "Liverpool Riverside",
+  "UK-seat-365": "Leigh",
+  "UK-seat-355": "Lancaster and Wyre",
+  "UK-seat-352": "Knowsley North and Sefton East",
+  "UK-seat-351": "Knowsley South",
+  "UK-seat-334": "Hyndburn",
+  "UK-seat-320": "Heywood and Middleton",
+  "UK-seat-309": "Hazel Grove",
+  "UK-seat-291": "Halton",
+  "UK-seat-259": "Fylde",
+  "UK-seat-234": "Ellesmere Port and Neston",
+  "UK-seat-226": "Eddisbury",
+  "UK-seat-225": "Eccles",
+  "UK-seat-181": "Denton and Reddish",
+  "UK-seat-168": "Crosby",
+  "UK-seat-167": "Crewe and Nantwich",
+  "UK-seat-158": "Copeland",
+  "UK-seat-156": "Congleton",
+  "UK-seat-140": "City of Chester",
+  "UK-seat-145": "Chorley",
+  "UK-seat-136": "Cheadle",
+  "UK-seat-127": "Carlisle",
+  "UK-seat-109": "Bury South",
+  "UK-seat-108": "Bury North",
+  "UK-seat-106": "Burnley",
+  "UK-seat-76": "Bootle",
+  "UK-seat-75": "Bolton West",
+  "UK-seat-74": "Bolton South East",
+  "UK-seat-73": "Bolton North East",
+  "UK-seat-67": "Blackpool South",
+  "UK-seat-66": "Blackpool North and Fleetwood",
+  "UK-seat-65": "Blackburn",
+  "UK-seat-52": "Birkenhead",
+  "UK-seat-29": "Barrow and Furness",
+  "UK-seat-20": "Ashton-under-Lyne",
+  "UK-seat-9": "Altrincham and Sale West",
+  "UK-seat-654": "Wyre Forest",
+  "UK-seat-644": "Worcester",
+  "UK-seat-642": "South West Wolverhampton",
+  "UK-seat-641": "South East Wolverhampton",
+  "UK-seat-640": "North East Wolverhampton",
+  "UK-seat-646": "West Worcestershire",
+  "UK-seat-624": "West Bromwich West",
+  "UK-seat-623": "West Bromwich East",
+  "UK-seat-613": "Warwick and Leamington",
+  "UK-seat-610": "Warley",
+  "UK-seat-605": "Walsall South",
+  "UK-seat-604": "Walsall North",
+  "UK-seat-651": "선거구 27",
+  "UK-seat-574": "The Wrekin",
+  "UK-seat-569": "선거구 28",
+  "UK-seat-564": "Sutton Coldfield",
+  "UK-seat-548": "Stratford-on-Avon",
+  "UK-seat-546": "Stourbridge",
+  "UK-seat-545": "Stafford",
+  "UK-seat-544": "South Stoke-on-Trent",
+  "UK-seat-543": "North Stoke-on-Trent",
+  "UK-seat-542": "Central Stoke-on-Trent",
+  "UK-seat-534": "South Staffordshire",
+  "UK-seat-533": "Staffordshire Moorlands",
+  "UK-seat-535": "선거구 29",
+  "UK-seat-523": "Solihull",
+  "UK-seat-517": "Shrewsbury and Atcham",
+  "UK-seat-491": "Rugby and Kenilworth",
+  "UK-seat-473": "선거구 30",
+  "UK-seat-441": "Nuneaton",
+  "UK-seat-614": "North Warwickshire",
+  "UK-seat-518": "North Shropshire",
+  "UK-seat-420": "Central Newcastle upon Tyne",
+  "UK-seat-645": "Mid Worcestershire",
+  "UK-seat-400": "Meriden",
+  "UK-seat-385": "Ludlow",
+  "UK-seat-372": "선거구 31",
+  "UK-seat-366": "Leominster",
+  "UK-seat-314": "Hereford",
+  "UK-seat-288": "Halesowen and Rowley Regis",
+  "UK-seat-204": "Dudley South",
+  "UK-seat-203": "Dudley North",
+  "UK-seat-165": "Coventry South",
+  "UK-seat-164": "Coventry North West",
+  "UK-seat-163": "Coventry North East",
+  "UK-seat-121": "Cannock Chase",
+  "UK-seat-107": "Burton",
+  "UK-seat-102": "Bromsgrove",
+  "UK-seat-62": "Birmingham Yardley",
+  "UK-seat-61": "Birmingham Sparkbrook and Small Heath",
+  "UK-seat-60": "Birmingham Selly Oak",
+  "UK-seat-59": "Birmingham Perry Barr",
+  "UK-seat-58": "Birmingham Northfield",
+  "UK-seat-57": "Birmingham Ladywood",
+  "UK-seat-56": "Birmingham Hodge Hill",
+  "UK-seat-55": "Birmingham Hall Green",
+  "UK-seat-54": "Birmingham Erdington",
+  "UK-seat-53": "Birmingham Edgbaston",
+  "UK-seat-8": "Aldridge-Brownhills",
+  "UK-seat-657": "Ynys Môn",
+  "UK-seat-652": "Wrexham",
+  "UK-seat-599": "Vale of Glamorgan",
+  "UK-seat-598": "Vale of Clwyd",
+  "UK-seat-583": "Torfaen",
+  "UK-seat-566": "Swansea West",
+  "UK-seat-565": "Swansea East",
+  "UK-seat-477": "Rhondda",
+  "UK-seat-465": "Preseli Pembrokeshire",
+  "UK-seat-460": "Pontypridd",
+  "UK-seat-443": "Ogmore",
+  "UK-seat-425": "Newport West",
+  "UK-seat-424": "Newport East",
+  "UK-seat-415": "Neath",
+  "UK-seat-410": "Montgomeryshire",
+  "UK-seat-409": "Monmouth",
+  "UK-seat-401": "Merthyr Tydfil and Rhymney",
+  "UK-seat-399": "Meirionnydd Nant Conwy",
+  "UK-seat-381": "Llanelli",
+  "UK-seat-342": "Islwyn",
+  "UK-seat-278": "Gower",
+  "UK-seat-180": "Delyn",
+  "UK-seat-175": "Cynon Valley",
+  "UK-seat-157": "선거구 32",
+  "UK-seat-150": "Clwyd West",
+  "UK-seat-149": "Clwyd South",
+  "UK-seat-133": "Ceredigion",
+  "UK-seat-129": "Carmarthen West and South Pembrokeshire",
+  "UK-seat-128": "Carmarthen East and Dinefwr",
+  "UK-seat-126": "Cardiff West",
+  "UK-seat-125": "Cardiff South and Penarth",
+  "UK-seat-124": "Cardiff North",
+  "UK-seat-123": "Cardiff Central",
+  "UK-seat-112": "Caerphilly",
+  "UK-seat-111": "Caernarfon",
+  "UK-seat-92": "Bridgend",
+  "UK-seat-86": "Brecon and Radnorshire",
+  "UK-seat-68": "Blaenau Gwent",
+  "UK-seat-10": "Alyn and Deeside",
+  "UK-seat-1": "Aberavon",
+  "UK-seat-258": "Foyle",
+  "UK-seat-13": "East Antrim",
+  "UK-seat-201": "선거구 33",
+  "UK-seat-43": "Belfast North",
+  "UK-seat-45": "Belfast West",
+  "UK-seat-42": "선거구 34",
+  "UK-seat-44": "선거구 35",
+  "UK-seat-15": "South Antrim",
+  "UK-seat-547": "Strangford",
+  "UK-seat-353": "Lagan Valley",
+  "UK-seat-596": "Upper Bann",
+  "UK-seat-202": "South Down",
+  "UK-seat-426": "Newry and Armagh",
+  "UK-seat-593": "Mid Ulster",
+  "UK-seat-14": "North Antrim",
+  "UK-seat-382": "East Londonderry",
+  "UK-seat-252": "Fermanagh and South Tyrone",
+  "UK-seat-594": "West Tyrone",
+  "UK-seat-721": "선거구 36",
+  "UK-sc01": "Tweeddale, Ettrick and Lauderdale",
+  "UK-sc02": "Roxburgh and Berwickshire",
+  "UK-sc03": "Linlithgow",
+  "UK-sc04": "Livingston",
+  "UK-sc05": "Edinburgh West",
+  "UK-sc06": "Edinburgh Central",
+  "UK-sc07": "Dunfermline East",
+  "UK-sc08": "Edinburgh Pentlands",
+  "UK-sc09": "Edinburgh North and Leith",
+  "UK-sc10": "Edinburgh East and Musselburgh",
+  "UK-sc11": "Edinburgh South",
+  "UK-sc12": "Midlothian",
+  "UK-sc13": "East Lothian",
+  "UK-sc14": "Galloway and Upper Nithsdale",
+  "UK-sc15": "Dumfries",
+  "UK-sc16": "Clydebank and Milngavie",
+  "UK-sc17": "Strathkelvin and Bearsden",
+  "UK-sc18": "선거구 37",
+  "UK-sc19": "Cumbernauld and Kilsyth",
+  "UK-sc20": "선거구 38",
+  "UK-sc21": "Motherwell and Wishaw",
+  "UK-sc22": "Hamilton North and Bellshill",
+  "UK-sc23": "Hamilton South",
+  "UK-sc24": "Clydesdale",
+  "UK-sc25": "East Kilbride",
+  "UK-sc26": "Eastwood",
+  "UK-sc27": "Paisley North",
+  "UK-sc28": "Greenock and Inverclyde",
+  "UK-sc29": "선거구 39",
+  "UK-sc30": "Cunninghame North",
+  "UK-sc31": "Cunninghame South",
+  "UK-sc32": "Kilmarnock and Loudoun",
+  "UK-sc33": "Ayr",
+  "UK-sc34": "Carrick, Cumnock and Doon Valley",
+  "UK-sc35": "Argyll and Bute",
+  "UK-sc36": "Dumbarton",
+  "UK-sc37": "Glasgow Kelvin",
+  "UK-sc38": "Glasgow Anniesland",
+  "UK-sc39": "Glasgow Pollok",
+  "UK-sc40": "Glasgow Baillieston",
+  "UK-sc41": "Glasgow Govan",
+  "UK-sc42": "Glasgow Shettleston",
+  "UK-sc43": "Glasgow Maryhill",
+  "UK-sc44": "Glasgow Cathcart",
+  "UK-sc45": "Glasgow Springburn",
+  "UK-sc46": "Glasgow Rutherglen",
+  "UK-sc47": "선거구 40",
+  "UK-sc48": "Stirling",
+  "UK-sc49": "Falkirk East",
+  "UK-sc50": "Falkirk West",
+  "UK-sc51": "North Tayside",
+  "UK-sc52": "Dundee West",
+  "UK-sc53": "Dundee East",
+  "UK-sc54": "Perth",
+  "UK-sc55": "Moray",
+  "UK-sc56": "Gordon",
+  "UK-sc57": "Banff and Buchan",
+  "UK-sc58": "West Aberdeenshire and Kincardine",
+  "UK-sc59": "Aberdeen Central",
+  "UK-sc60": "Aberdeen South",
+  "UK-sc61": "Aberdeen North",
+  "UK-sc62": "Central Fife",
+  "UK-sc63": "Dunfermline West",
+  "UK-sc64": "Kirkcaldy",
+  "UK-sc65": "North East Fife",
+  "UK-sc66": "선거구 41",
+  "UK-sc67": "Caithness, Sutherland and Easter Ross",
+  "UK-sc68": "Ross, Skye and Inverness West",
+  "UK-sc69": "Western Isles",
+  "UK-sc70": "Paisley South",
+  "UK-sc71": "Angus"
+ },
+ "labels": {},
+ "regionOf": {
+  "UK-seat-653": "UK",
+  "UK-seat-650": "UK",
+  "UK-seat-639": "UK",
+  "UK-seat-638": "UK",
+  "UK-seat-637": "UK",
+  "UK-seat-634": "UK",
+  "UK-seat-633": "UK",
+  "UK-seat-617": "UK",
+  "UK-seat-609": "UK",
+  "UK-seat-587": "UK",
+  "UK-seat-580": "UK",
+  "UK-seat-560": "UK",
+  "UK-seat-532": "UK",
+  "UK-seat-528": "UK",
+  "UK-seat-527": "UK",
+  "UK-seat-561": "UK",
+  "UK-seat-577": "UK",
+  "UK-seat-522": "UK",
+  "UK-seat-519": "UK",
+  "UK-seat-508": "UK",
+  "UK-seat-493": "UK",
+  "UK-seat-485": "UK",
+  "UK-seat-475": "UK",
+  "UK-seat-471": "UK",
+  "UK-seat-470": "UK",
+  "UK-seat-464": "UK",
+  "UK-seat-463": "UK",
+  "UK-seat-450": "UK",
+  "UK-seat-449": "UK",
+  "UK-seat-297": "UK",
+  "UK-seat-576": "UK",
+  "UK-seat-405": "UK",
+  "UK-seat-296": "UK",
+  "UK-seat-419": "UK",
+  "UK-seat-417": "UK",
+  "UK-seat-416": "UK",
+  "UK-seat-408": "UK",
+  "UK-seat-406": "UK",
+  "UK-seat-562": "UK",
+  "UK-seat-398": "UK",
+  "UK-seat-390": "UK",
+  "UK-seat-389": "UK",
+  "UK-seat-367": "UK",
+  "UK-seat-339": "UK",
+  "UK-seat-328": "UK",
+  "UK-seat-326": "UK",
+  "UK-seat-313": "UK",
+  "UK-seat-307": "UK",
+  "UK-seat-306": "UK",
+  "UK-seat-285": "UK",
+  "UK-seat-280": "UK",
+  "UK-seat-277": "UK",
+  "UK-seat-264": "UK",
+  "UK-seat-256": "UK",
+  "UK-seat-250": "UK",
+  "UK-seat-249": "UK",
+  "UK-seat-243": "UK",
+  "UK-seat-240": "UK",
+  "UK-seat-223": "UK",
+  "UK-seat-222": "UK",
+  "UK-seat-649": "UK",
+  "UK-seat-559": "UK",
+  "UK-seat-295": "UK",
+  "UK-seat-200": "UK",
+  "UK-seat-178": "UK",
+  "UK-seat-166": "UK",
+  "UK-seat-142": "UK",
+  "UK-seat-139": "UK",
+  "UK-seat-135": "UK",
+  "UK-seat-122": "UK",
+  "UK-seat-105": "UK",
+  "UK-seat-96": "UK",
+  "UK-seat-95": "UK",
+  "UK-seat-81": "UK",
+  "UK-seat-71": "UK",
+  "UK-seat-49": "UK",
+  "UK-seat-36": "UK",
+  "UK-seat-31": "UK",
+  "UK-seat-23": "UK",
+  "UK-seat-21": "UK",
+  "UK-seat-19": "UK",
+  "UK-seat-17": "UK",
+  "UK-seat-7": "UK",
+  "UK-seat-607": "UK",
+  "UK-seat-591": "UK",
+  "UK-seat-590": "UK",
+  "UK-seat-558": "UK",
+  "UK-seat-557": "UK",
+  "UK-seat-541": "UK",
+  "UK-seat-540": "UK",
+  "UK-seat-526": "UK",
+  "UK-seat-506": "UK",
+  "UK-seat-472": "UK",
+  "UK-seat-213": "UK",
+  "UK-seat-592": "UK",
+  "UK-seat-212": "UK",
+  "UK-seat-423": "UK",
+  "UK-seat-422": "UK",
+  "UK-seat-421": "UK",
+  "UK-seat-403": "UK",
+  "UK-seat-402": "UK",
+  "UK-seat-343": "UK",
+  "UK-seat-327": "UK",
+  "UK-seat-319": "UK",
+  "UK-seat-304": "UK",
+  "UK-seat-262": "UK",
+  "UK-seat-218": "UK",
+  "UK-seat-177": "UK",
+  "UK-seat-214": "UK",
+  "UK-seat-70": "UK",
+  "UK-seat-69": "UK",
+  "UK-seat-63": "UK",
+  "UK-seat-46": "UK",
+  "UK-seat-656": "UK",
+  "UK-seat-643": "UK",
+  "UK-seat-629": "UK",
+  "UK-seat-626": "UK",
+  "UK-seat-199": "UK",
+  "UK-seat-620": "UK",
+  "UK-seat-608": "UK",
+  "UK-seat-586": "UK",
+  "UK-seat-584": "UK",
+  "UK-seat-190": "UK",
+  "UK-seat-582": "UK",
+  "UK-seat-579": "UK",
+  "UK-seat-575": "UK",
+  "UK-seat-573": "UK",
+  "UK-seat-571": "UK",
+  "UK-seat-552": "UK",
+  "UK-seat-501": "UK",
+  "UK-seat-191": "UK",
+  "UK-seat-568": "UK",
+  "UK-seat-161": "UK",
+  "UK-seat-198": "UK",
+  "UK-seat-524": "UK",
+  "UK-seat-503": "UK",
+  "UK-seat-461": "UK",
+  "UK-seat-458": "UK",
+  "UK-seat-457": "UK",
+  "UK-seat-435": "UK",
+  "UK-seat-631": "UK",
+  "UK-seat-567": "UK",
+  "UK-seat-197": "UK",
+  "UK-seat-189": "UK",
+  "UK-seat-160": "UK",
+  "UK-seat-196": "UK",
+  "UK-seat-349": "UK",
+  "UK-seat-275": "UK",
+  "UK-seat-257": "UK",
+  "UK-seat-248": "UK",
+  "UK-seat-245": "UK",
+  "UK-seat-188": "UK",
+  "UK-seat-187": "UK",
+  "UK-seat-162": "UK",
+  "UK-seat-146": "UK",
+  "UK-seat-138": "UK",
+  "UK-seat-100": "UK",
+  "UK-seat-99": "UK",
+  "UK-seat-98": "UK",
+  "UK-seat-97": "UK",
+  "UK-seat-93": "UK",
+  "UK-seat-80": "UK",
+  "UK-seat-79": "UK",
+  "UK-seat-33": "UK",
+  "UK-seat-483": "UK",
+  "UK-seat-556": "UK",
+  "UK-seat-137": "UK",
+  "UK-seat-621": "UK",
+  "UK-seat-616": "UK",
+  "UK-seat-615": "UK",
+  "UK-seat-578": "UK",
+  "UK-seat-554": "UK",
+  "UK-seat-537": "UK",
+  "UK-seat-498": "UK",
+  "UK-seat-529": "UK",
+  "UK-seat-431": "UK",
+  "UK-seat-317": "UK",
+  "UK-seat-41": "UK",
+  "UK-seat-555": "UK",
+  "UK-seat-430": "UK",
+  "UK-seat-120": "UK",
+  "UK-seat-119": "UK",
+  "UK-seat-497": "UK",
+  "UK-seat-469": "UK",
+  "UK-seat-456": "UK",
+  "UK-seat-437": "UK",
+  "UK-seat-436": "UK",
+  "UK-seat-429": "UK",
+  "UK-seat-118": "UK",
+  "UK-seat-428": "UK",
+  "UK-seat-244": "UK",
+  "UK-seat-316": "UK",
+  "UK-seat-117": "UK",
+  "UK-seat-40": "UK",
+  "UK-seat-427": "UK",
+  "UK-seat-39": "UK",
+  "UK-seat-392": "UK",
+  "UK-seat-387": "UK",
+  "UK-seat-386": "UK",
+  "UK-seat-338": "UK",
+  "UK-seat-333": "UK",
+  "UK-seat-322": "UK",
+  "UK-seat-318": "UK",
+  "UK-seat-315": "UK",
+  "UK-seat-310": "UK",
+  "UK-seat-305": "UK",
+  "UK-seat-300": "UK",
+  "UK-seat-282": "UK",
+  "UK-seat-239": "UK",
+  "UK-seat-154": "UK",
+  "UK-seat-553": "UK",
+  "UK-seat-132": "UK",
+  "UK-seat-116": "UK",
+  "UK-seat-110": "UK",
+  "UK-seat-103": "UK",
+  "UK-seat-91": "UK",
+  "UK-seat-85": "UK",
+  "UK-seat-51": "UK",
+  "UK-seat-38": "UK",
+  "UK-seat-30": "UK",
+  "UK-seat-622": "UK",
+  "UK-seat-602": "UK",
+  "UK-seat-600": "UK",
+  "UK-seat-520": "UK",
+  "UK-seat-516": "UK",
+  "UK-seat-514": "UK",
+  "UK-seat-513": "UK",
+  "UK-seat-512": "UK",
+  "UK-seat-510": "UK",
+  "UK-seat-509": "UK",
+  "UK-seat-511": "UK",
+  "UK-seat-507": "UK",
+  "UK-seat-505": "UK",
+  "UK-seat-504": "UK",
+  "UK-seat-496": "UK",
+  "UK-seat-489": "UK",
+  "UK-seat-488": "UK",
+  "UK-seat-480": "UK",
+  "UK-seat-467": "UK",
+  "UK-seat-459": "UK",
+  "UK-seat-432": "UK",
+  "UK-seat-413": "UK",
+  "UK-seat-360": "UK",
+  "UK-seat-359": "UK",
+  "UK-seat-358": "UK",
+  "UK-seat-357": "UK",
+  "UK-seat-356": "UK",
+  "UK-seat-332": "UK",
+  "UK-seat-331": "UK",
+  "UK-seat-330": "UK",
+  "UK-seat-344": "UK",
+  "UK-seat-329": "UK",
+  "UK-seat-311": "UK",
+  "UK-seat-301": "UK",
+  "UK-seat-290": "UK",
+  "UK-seat-289": "UK",
+  "UK-seat-281": "UK",
+  "UK-seat-235": "UK",
+  "UK-seat-659": "UK",
+  "UK-seat-195": "UK",
+  "UK-seat-194": "UK",
+  "UK-seat-193": "UK",
+  "UK-seat-192": "UK",
+  "UK-seat-155": "UK",
+  "UK-seat-148": "UK",
+  "UK-seat-658": "UK",
+  "UK-seat-114": "UK",
+  "UK-seat-94": "UK",
+  "UK-seat-84": "UK",
+  "UK-seat-83": "UK",
+  "UK-seat-82": "UK",
+  "UK-seat-48": "UK",
+  "UK-seat-34": "UK",
+  "UK-seat-28": "UK",
+  "UK-seat-27": "UK",
+  "UK-seat-26": "UK",
+  "UK-seat-632": "UK",
+  "UK-seat-625": "UK",
+  "UK-seat-606": "UK",
+  "UK-seat-601": "UK",
+  "UK-seat-597": "UK",
+  "UK-seat-595": "UK",
+  "UK-seat-589": "UK",
+  "UK-seat-585": "UK",
+  "UK-seat-581": "UK",
+  "UK-seat-563": "UK",
+  "UK-seat-550": "UK",
+  "UK-seat-492": "UK",
+  "UK-seat-484": "UK",
+  "UK-seat-481": "UK",
+  "UK-seat-474": "UK",
+  "UK-seat-468": "UK",
+  "UK-seat-462": "UK",
+  "UK-seat-448": "UK",
+  "UK-seat-444": "UK",
+  "UK-seat-531": "UK",
+  "UK-seat-407": "UK",
+  "UK-seat-371": "UK",
+  "UK-seat-368": "UK",
+  "UK-seat-370": "UK",
+  "UK-seat-369": "UK",
+  "UK-seat-348": "UK",
+  "UK-seat-345": "UK",
+  "UK-seat-341": "UK",
+  "UK-seat-340": "UK",
+  "UK-seat-336": "UK",
+  "UK-seat-335": "UK",
+  "UK-seat-325": "UK",
+  "UK-seat-324": "UK",
+  "UK-seat-323": "UK",
+  "UK-seat-312": "UK",
+  "UK-seat-308": "UK",
+  "UK-seat-303": "UK",
+  "UK-seat-302": "UK",
+  "UK-seat-298": "UK",
+  "UK-seat-294": "UK",
+  "UK-seat-287": "UK",
+  "UK-seat-286": "UK",
+  "UK-seat-284": "UK",
+  "UK-seat-255": "UK",
+  "UK-seat-251": "UK",
+  "UK-seat-242": "UK",
+  "UK-seat-238": "UK",
+  "UK-seat-237": "UK",
+  "UK-seat-236": "UK",
+  "UK-seat-233": "UK",
+  "UK-seat-219": "UK",
+  "UK-seat-217": "UK",
+  "UK-seat-215": "UK",
+  "UK-seat-216": "UK",
+  "UK-seat-205": "UK",
+  "UK-seat-176": "UK",
+  "UK-seat-171": "UK",
+  "UK-seat-170": "UK",
+  "UK-seat-169": "UK",
+  "UK-seat-147": "UK",
+  "UK-seat-144": "UK",
+  "UK-seat-143": "UK",
+  "UK-seat-131": "UK",
+  "UK-seat-115": "UK",
+  "UK-seat-101": "UK",
+  "UK-seat-90": "UK",
+  "UK-seat-89": "UK",
+  "UK-seat-88": "UK",
+  "UK-seat-87": "UK",
+  "UK-seat-50": "UK",
+  "UK-seat-47": "UK",
+  "UK-seat-37": "UK",
+  "UK-seat-35": "UK",
+  "UK-seat-25": "UK",
+  "UK-seat-186": "UK",
+  "UK-seat-619": "UK",
+  "UK-seat-525": "UK",
+  "UK-seat-185": "UK",
+  "UK-seat-521": "UK",
+  "UK-seat-515": "UK",
+  "UK-seat-495": "UK",
+  "UK-seat-494": "UK",
+  "UK-seat-440": "UK",
+  "UK-seat-439": "UK",
+  "UK-seat-438": "UK",
+  "UK-seat-434": "UK",
+  "UK-seat-433": "UK",
+  "UK-seat-364": "UK",
+  "UK-seat-184": "UK",
+  "UK-seat-418": "UK",
+  "UK-seat-397": "UK",
+  "UK-seat-384": "UK",
+  "UK-seat-383": "UK",
+  "UK-seat-373": "UK",
+  "UK-seat-363": "UK",
+  "UK-seat-362": "UK",
+  "UK-seat-361": "UK",
+  "UK-seat-346": "UK",
+  "UK-seat-321": "UK",
+  "UK-seat-299": "UK",
+  "UK-seat-279": "UK",
+  "UK-seat-263": "UK",
+  "UK-seat-260": "UK",
+  "UK-seat-241": "UK",
+  "UK-seat-183": "UK",
+  "UK-seat-182": "UK",
+  "UK-seat-179": "UK",
+  "UK-seat-159": "UK",
+  "UK-seat-141": "UK",
+  "UK-seat-134": "UK",
+  "UK-seat-104": "UK",
+  "UK-seat-78": "UK",
+  "UK-seat-77": "UK",
+  "UK-seat-72": "UK",
+  "UK-seat-64": "UK",
+  "UK-seat-32": "UK",
+  "UK-seat-18": "UK",
+  "UK-seat-11": "UK",
+  "UK-seat-655": "UK",
+  "UK-seat-648": "UK",
+  "UK-seat-647": "UK",
+  "UK-seat-636": "UK",
+  "UK-seat-635": "UK",
+  "UK-seat-630": "UK",
+  "UK-seat-628": "UK",
+  "UK-seat-354": "UK",
+  "UK-seat-618": "UK",
+  "UK-seat-612": "UK",
+  "UK-seat-611": "UK",
+  "UK-seat-603": "UK",
+  "UK-seat-570": "UK",
+  "UK-seat-551": "UK",
+  "UK-seat-539": "UK",
+  "UK-seat-536": "UK",
+  "UK-seat-500": "UK",
+  "UK-seat-499": "UK",
+  "UK-seat-530": "UK",
+  "UK-seat-478": "UK",
+  "UK-seat-502": "UK",
+  "UK-seat-487": "UK",
+  "UK-seat-482": "UK",
+  "UK-seat-479": "UK",
+  "UK-seat-466": "UK",
+  "UK-seat-454": "UK",
+  "UK-seat-453": "UK",
+  "UK-seat-446": "UK",
+  "UK-seat-445": "UK",
+  "UK-seat-412": "UK",
+  "UK-seat-396": "UK",
+  "UK-seat-395": "UK",
+  "UK-seat-393": "UK",
+  "UK-seat-394": "UK",
+  "UK-seat-391": "UK",
+  "UK-seat-388": "UK",
+  "UK-seat-379": "UK",
+  "UK-seat-378": "UK",
+  "UK-seat-377": "UK",
+  "UK-seat-376": "UK",
+  "UK-seat-375": "UK",
+  "UK-seat-365": "UK",
+  "UK-seat-355": "UK",
+  "UK-seat-352": "UK",
+  "UK-seat-351": "UK",
+  "UK-seat-334": "UK",
+  "UK-seat-320": "UK",
+  "UK-seat-309": "UK",
+  "UK-seat-291": "UK",
+  "UK-seat-259": "UK",
+  "UK-seat-234": "UK",
+  "UK-seat-226": "UK",
+  "UK-seat-225": "UK",
+  "UK-seat-181": "UK",
+  "UK-seat-168": "UK",
+  "UK-seat-167": "UK",
+  "UK-seat-158": "UK",
+  "UK-seat-156": "UK",
+  "UK-seat-140": "UK",
+  "UK-seat-145": "UK",
+  "UK-seat-136": "UK",
+  "UK-seat-127": "UK",
+  "UK-seat-109": "UK",
+  "UK-seat-108": "UK",
+  "UK-seat-106": "UK",
+  "UK-seat-76": "UK",
+  "UK-seat-75": "UK",
+  "UK-seat-74": "UK",
+  "UK-seat-73": "UK",
+  "UK-seat-67": "UK",
+  "UK-seat-66": "UK",
+  "UK-seat-65": "UK",
+  "UK-seat-52": "UK",
+  "UK-seat-29": "UK",
+  "UK-seat-20": "UK",
+  "UK-seat-9": "UK",
+  "UK-seat-654": "UK",
+  "UK-seat-644": "UK",
+  "UK-seat-642": "UK",
+  "UK-seat-641": "UK",
+  "UK-seat-640": "UK",
+  "UK-seat-646": "UK",
+  "UK-seat-624": "UK",
+  "UK-seat-623": "UK",
+  "UK-seat-613": "UK",
+  "UK-seat-610": "UK",
+  "UK-seat-605": "UK",
+  "UK-seat-604": "UK",
+  "UK-seat-651": "UK",
+  "UK-seat-574": "UK",
+  "UK-seat-569": "UK",
+  "UK-seat-564": "UK",
+  "UK-seat-548": "UK",
+  "UK-seat-546": "UK",
+  "UK-seat-545": "UK",
+  "UK-seat-544": "UK",
+  "UK-seat-543": "UK",
+  "UK-seat-542": "UK",
+  "UK-seat-534": "UK",
+  "UK-seat-533": "UK",
+  "UK-seat-535": "UK",
+  "UK-seat-523": "UK",
+  "UK-seat-517": "UK",
+  "UK-seat-491": "UK",
+  "UK-seat-473": "UK",
+  "UK-seat-441": "UK",
+  "UK-seat-614": "UK",
+  "UK-seat-518": "UK",
+  "UK-seat-420": "UK",
+  "UK-seat-645": "UK",
+  "UK-seat-400": "UK",
+  "UK-seat-385": "UK",
+  "UK-seat-372": "UK",
+  "UK-seat-366": "UK",
+  "UK-seat-314": "UK",
+  "UK-seat-288": "UK",
+  "UK-seat-204": "UK",
+  "UK-seat-203": "UK",
+  "UK-seat-165": "UK",
+  "UK-seat-164": "UK",
+  "UK-seat-163": "UK",
+  "UK-seat-121": "UK",
+  "UK-seat-107": "UK",
+  "UK-seat-102": "UK",
+  "UK-seat-62": "UK",
+  "UK-seat-61": "UK",
+  "UK-seat-60": "UK",
+  "UK-seat-59": "UK",
+  "UK-seat-58": "UK",
+  "UK-seat-57": "UK",
+  "UK-seat-56": "UK",
+  "UK-seat-55": "UK",
+  "UK-seat-54": "UK",
+  "UK-seat-53": "UK",
+  "UK-seat-8": "UK",
+  "UK-seat-657": "UK",
+  "UK-seat-652": "UK",
+  "UK-seat-599": "UK",
+  "UK-seat-598": "UK",
+  "UK-seat-583": "UK",
+  "UK-seat-566": "UK",
+  "UK-seat-565": "UK",
+  "UK-seat-477": "UK",
+  "UK-seat-465": "UK",
+  "UK-seat-460": "UK",
+  "UK-seat-443": "UK",
+  "UK-seat-425": "UK",
+  "UK-seat-424": "UK",
+  "UK-seat-415": "UK",
+  "UK-seat-410": "UK",
+  "UK-seat-409": "UK",
+  "UK-seat-401": "UK",
+  "UK-seat-399": "UK",
+  "UK-seat-381": "UK",
+  "UK-seat-342": "UK",
+  "UK-seat-278": "UK",
+  "UK-seat-180": "UK",
+  "UK-seat-175": "UK",
+  "UK-seat-157": "UK",
+  "UK-seat-150": "UK",
+  "UK-seat-149": "UK",
+  "UK-seat-133": "UK",
+  "UK-seat-129": "UK",
+  "UK-seat-128": "UK",
+  "UK-seat-126": "UK",
+  "UK-seat-125": "UK",
+  "UK-seat-124": "UK",
+  "UK-seat-123": "UK",
+  "UK-seat-112": "UK",
+  "UK-seat-111": "UK",
+  "UK-seat-92": "UK",
+  "UK-seat-86": "UK",
+  "UK-seat-68": "UK",
+  "UK-seat-10": "UK",
+  "UK-seat-1": "UK",
+  "UK-seat-258": "UK",
+  "UK-seat-13": "UK",
+  "UK-seat-201": "UK",
+  "UK-seat-43": "UK",
+  "UK-seat-45": "UK",
+  "UK-seat-42": "UK",
+  "UK-seat-44": "UK",
+  "UK-seat-15": "UK",
+  "UK-seat-547": "UK",
+  "UK-seat-353": "UK",
+  "UK-seat-596": "UK",
+  "UK-seat-202": "UK",
+  "UK-seat-426": "UK",
+  "UK-seat-593": "UK",
+  "UK-seat-14": "UK",
+  "UK-seat-382": "UK",
+  "UK-seat-252": "UK",
+  "UK-seat-594": "UK",
+  "UK-seat-721": "UK",
+  "UK-sc01": "UK",
+  "UK-sc02": "UK",
+  "UK-sc03": "UK",
+  "UK-sc04": "UK",
+  "UK-sc05": "UK",
+  "UK-sc06": "UK",
+  "UK-sc07": "UK",
+  "UK-sc08": "UK",
+  "UK-sc09": "UK",
+  "UK-sc10": "UK",
+  "UK-sc11": "UK",
+  "UK-sc12": "UK",
+  "UK-sc13": "UK",
+  "UK-sc14": "UK",
+  "UK-sc15": "UK",
+  "UK-sc16": "UK",
+  "UK-sc17": "UK",
+  "UK-sc18": "UK",
+  "UK-sc19": "UK",
+  "UK-sc20": "UK",
+  "UK-sc21": "UK",
+  "UK-sc22": "UK",
+  "UK-sc23": "UK",
+  "UK-sc24": "UK",
+  "UK-sc25": "UK",
+  "UK-sc26": "UK",
+  "UK-sc27": "UK",
+  "UK-sc28": "UK",
+  "UK-sc29": "UK",
+  "UK-sc30": "UK",
+  "UK-sc31": "UK",
+  "UK-sc32": "UK",
+  "UK-sc33": "UK",
+  "UK-sc34": "UK",
+  "UK-sc35": "UK",
+  "UK-sc36": "UK",
+  "UK-sc37": "UK",
+  "UK-sc38": "UK",
+  "UK-sc39": "UK",
+  "UK-sc40": "UK",
+  "UK-sc41": "UK",
+  "UK-sc42": "UK",
+  "UK-sc43": "UK",
+  "UK-sc44": "UK",
+  "UK-sc45": "UK",
+  "UK-sc46": "UK",
+  "UK-sc47": "UK",
+  "UK-sc48": "UK",
+  "UK-sc49": "UK",
+  "UK-sc50": "UK",
+  "UK-sc51": "UK",
+  "UK-sc52": "UK",
+  "UK-sc53": "UK",
+  "UK-sc54": "UK",
+  "UK-sc55": "UK",
+  "UK-sc56": "UK",
+  "UK-sc57": "UK",
+  "UK-sc58": "UK",
+  "UK-sc59": "UK",
+  "UK-sc60": "UK",
+  "UK-sc61": "UK",
+  "UK-sc62": "UK",
+  "UK-sc63": "UK",
+  "UK-sc64": "UK",
+  "UK-sc65": "UK",
+  "UK-sc66": "UK",
+  "UK-sc67": "UK",
+  "UK-sc68": "UK",
+  "UK-sc69": "UK",
+  "UK-sc70": "UK",
+  "UK-sc71": "UK"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "UK-seat-653": {
+     "보수당": 1
+    },
+    "UK-seat-650": {
+     "보수당": 1
+    },
+    "UK-seat-639": {
+     "보수당": 1
+    },
+    "UK-seat-638": {
+     "보수당": 1
+    },
+    "UK-seat-637": {
+     "보수당": 1
+    },
+    "UK-seat-634": {
+     "보수당": 1
+    },
+    "UK-seat-633": {
+     "자유민주당": 1
+    },
+    "UK-seat-617": {
+     "보수당": 1
+    },
+    "UK-seat-609": {
+     "보수당": 1
+    },
+    "UK-seat-587": {
+     "보수당": 1
+    },
+    "UK-seat-580": {
+     "보수당": 1
+    },
+    "UK-seat-560": {
+     "보수당": 1
+    },
+    "UK-seat-532": {
+     "보수당": 1
+    },
+    "UK-seat-528": {
+     "노동당": 1
+    },
+    "UK-seat-527": {
+     "노동당": 1
+    },
+    "UK-seat-561": {
+     "보수당": 1
+    },
+    "UK-seat-577": {
+     "노동당": 1
+    },
+    "UK-seat-522": {
+     "노동당": 1
+    },
+    "UK-seat-519": {
+     "노동당": 1
+    },
+    "UK-seat-508": {
+     "보수당": 1
+    },
+    "UK-seat-493": {
+     "보수당": 1
+    },
+    "UK-seat-485": {
+     "보수당": 1
+    },
+    "UK-seat-475": {
+     "보수당": 1
+    },
+    "UK-seat-471": {
+     "노동당": 1
+    },
+    "UK-seat-470": {
+     "노동당": 1
+    },
+    "UK-seat-464": {
+     "자유민주당": 1
+    },
+    "UK-seat-463": {
+     "노동당": 1
+    },
+    "UK-seat-450": {
+     "자유민주당": 1
+    },
+    "UK-seat-449": {
+     "노동당": 1
+    },
+    "UK-seat-297": {
+     "보수당": 1
+    },
+    "UK-seat-576": {
+     "보수당": 1
+    },
+    "UK-seat-405": {
+     "노동당": 1
+    },
+    "UK-seat-296": {
+     "보수당": 1
+    },
+    "UK-seat-419": {
+     "자유민주당": 1
+    },
+    "UK-seat-417": {
+     "보수당": 1
+    },
+    "UK-seat-416": {
+     "보수당": 1
+    },
+    "UK-seat-408": {
+     "보수당": 1
+    },
+    "UK-seat-406": {
+     "노동당": 1
+    },
+    "UK-seat-562": {
+     "보수당": 1
+    },
+    "UK-seat-398": {
+     "노동당": 1
+    },
+    "UK-seat-390": {
+     "보수당": 1
+    },
+    "UK-seat-389": {
+     "보수당": 1
+    },
+    "UK-seat-367": {
+     "자유민주당": 1
+    },
+    "UK-seat-339": {
+     "자유민주당": 1
+    },
+    "UK-seat-328": {
+     "노동당": 1
+    },
+    "UK-seat-326": {
+     "보수당": 1
+    },
+    "UK-seat-313": {
+     "보수당": 1
+    },
+    "UK-seat-307": {
+     "보수당": 1
+    },
+    "UK-seat-306": {
+     "노동당": 1
+    },
+    "UK-seat-285": {
+     "보수당": 1
+    },
+    "UK-seat-280": {
+     "노동당": 1
+    },
+    "UK-seat-277": {
+     "보수당": 1
+    },
+    "UK-seat-264": {
+     "노동당": 1
+    },
+    "UK-seat-256": {
+     "보수당": 1
+    },
+    "UK-seat-250": {
+     "보수당": 1
+    },
+    "UK-seat-249": {
+     "보수당": 1
+    },
+    "UK-seat-243": {
+     "보수당": 1
+    },
+    "UK-seat-240": {
+     "보수당": 1
+    },
+    "UK-seat-223": {
+     "자유민주당": 1
+    },
+    "UK-seat-222": {
+     "보수당": 1
+    },
+    "UK-seat-649": {
+     "보수당": 1
+    },
+    "UK-seat-559": {
+     "보수당": 1
+    },
+    "UK-seat-295": {
+     "보수당": 1
+    },
+    "UK-seat-200": {
+     "노동당": 1
+    },
+    "UK-seat-178": {
+     "노동당": 1
+    },
+    "UK-seat-166": {
+     "노동당": 1
+    },
+    "UK-seat-142": {
+     "보수당": 1
+    },
+    "UK-seat-139": {
+     "보수당": 1
+    },
+    "UK-seat-135": {
+     "노동당": 1
+    },
+    "UK-seat-122": {
+     "보수당": 1
+    },
+    "UK-seat-105": {
+     "보수당": 1
+    },
+    "UK-seat-96": {
+     "노동당": 1
+    },
+    "UK-seat-95": {
+     "노동당": 1
+    },
+    "UK-seat-81": {
+     "보수당": 1
+    },
+    "UK-seat-71": {
+     "보수당": 1
+    },
+    "UK-seat-49": {
+     "보수당": 1
+    },
+    "UK-seat-36": {
+     "보수당": 1
+    },
+    "UK-seat-31": {
+     "보수당": 1
+    },
+    "UK-seat-23": {
+     "보수당": 1
+    },
+    "UK-seat-21": {
+     "보수당": 1
+    },
+    "UK-seat-19": {
+     "보수당": 1
+    },
+    "UK-seat-17": {
+     "보수당": 1
+    },
+    "UK-seat-7": {
+     "보수당": 1
+    },
+    "UK-seat-607": {
+     "노동당": 1
+    },
+    "UK-seat-591": {
+     "노동당": 1
+    },
+    "UK-seat-590": {
+     "노동당": 1
+    },
+    "UK-seat-558": {
+     "노동당": 1
+    },
+    "UK-seat-557": {
+     "노동당": 1
+    },
+    "UK-seat-541": {
+     "노동당": 1
+    },
+    "UK-seat-540": {
+     "노동당": 1
+    },
+    "UK-seat-526": {
+     "노동당": 1
+    },
+    "UK-seat-506": {
+     "노동당": 1
+    },
+    "UK-seat-472": {
+     "노동당": 1
+    },
+    "UK-seat-213": {
+     "노동당": 1
+    },
+    "UK-seat-592": {
+     "노동당": 1
+    },
+    "UK-seat-212": {
+     "노동당": 1
+    },
+    "UK-seat-423": {
+     "노동당": 1
+    },
+    "UK-seat-422": {
+     "노동당": 1
+    },
+    "UK-seat-421": {
+     "노동당": 1
+    },
+    "UK-seat-403": {
+     "노동당": 1
+    },
+    "UK-seat-402": {
+     "노동당": 1
+    },
+    "UK-seat-343": {
+     "노동당": 1
+    },
+    "UK-seat-327": {
+     "노동당": 1
+    },
+    "UK-seat-319": {
+     "보수당": 1
+    },
+    "UK-seat-304": {
+     "노동당": 1
+    },
+    "UK-seat-262": {
+     "노동당": 1
+    },
+    "UK-seat-218": {
+     "노동당": 1
+    },
+    "UK-seat-177": {
+     "노동당": 1
+    },
+    "UK-seat-214": {
+     "노동당": 1
+    },
+    "UK-seat-70": {
+     "노동당": 1
+    },
+    "UK-seat-69": {
+     "노동당": 1
+    },
+    "UK-seat-63": {
+     "노동당": 1
+    },
+    "UK-seat-46": {
+     "자유민주당": 1
+    },
+    "UK-seat-656": {
+     "자유민주당": 1
+    },
+    "UK-seat-643": {
+     "보수당": 1
+    },
+    "UK-seat-629": {
+     "자유민주당": 1
+    },
+    "UK-seat-626": {
+     "보수당": 1
+    },
+    "UK-seat-199": {
+     "보수당": 1
+    },
+    "UK-seat-620": {
+     "보수당": 1
+    },
+    "UK-seat-608": {
+     "노동당": 1
+    },
+    "UK-seat-586": {
+     "자유민주당": 1
+    },
+    "UK-seat-584": {
+     "보수당": 1
+    },
+    "UK-seat-190": {
+     "자유민주당": 1
+    },
+    "UK-seat-582": {
+     "자유민주당": 1
+    },
+    "UK-seat-579": {
+     "보수당": 1
+    },
+    "UK-seat-575": {
+     "보수당": 1
+    },
+    "UK-seat-573": {
+     "보수당": 1
+    },
+    "UK-seat-571": {
+     "자유민주당": 1
+    },
+    "UK-seat-552": {
+     "노동당": 1
+    },
+    "UK-seat-501": {
+     "자유민주당": 1
+    },
+    "UK-seat-191": {
+     "보수당": 1
+    },
+    "UK-seat-568": {
+     "노동당": 1
+    },
+    "UK-seat-161": {
+     "자유민주당": 1
+    },
+    "UK-seat-198": {
+     "보수당": 1
+    },
+    "UK-seat-524": {
+     "자유민주당": 1
+    },
+    "UK-seat-503": {
+     "보수당": 1
+    },
+    "UK-seat-461": {
+     "보수당": 1
+    },
+    "UK-seat-458": {
+     "노동당": 1
+    },
+    "UK-seat-457": {
+     "노동당": 1
+    },
+    "UK-seat-435": {
+     "자유민주당": 1
+    },
+    "UK-seat-631": {
+     "보수당": 1
+    },
+    "UK-seat-567": {
+     "노동당": 1
+    },
+    "UK-seat-197": {
+     "보수당": 1
+    },
+    "UK-seat-189": {
+     "자유민주당": 1
+    },
+    "UK-seat-160": {
+     "자유민주당": 1
+    },
+    "UK-seat-196": {
+     "보수당": 1
+    },
+    "UK-seat-349": {
+     "노동당": 1
+    },
+    "UK-seat-275": {
+     "노동당": 1
+    },
+    "UK-seat-257": {
+     "노동당": 1
+    },
+    "UK-seat-248": {
+     "노동당": 1
+    },
+    "UK-seat-245": {
+     "노동당": 1
+    },
+    "UK-seat-188": {
+     "보수당": 1
+    },
+    "UK-seat-187": {
+     "보수당": 1
+    },
+    "UK-seat-162": {
+     "보수당": 1
+    },
+    "UK-seat-146": {
+     "보수당": 1
+    },
+    "UK-seat-138": {
+     "자유민주당": 1
+    },
+    "UK-seat-100": {
+     "노동당": 1
+    },
+    "UK-seat-99": {
+     "노동당": 1
+    },
+    "UK-seat-98": {
+     "노동당": 1
+    },
+    "UK-seat-97": {
+     "노동당": 1
+    },
+    "UK-seat-93": {
+     "보수당": 1
+    },
+    "UK-seat-80": {
+     "보수당": 1
+    },
+    "UK-seat-79": {
+     "보수당": 1
+    },
+    "UK-seat-33": {
+     "자유민주당": 1
+    },
+    "UK-seat-483": {
+     "보수당": 1
+    },
+    "UK-seat-556": {
+     "보수당": 1
+    },
+    "UK-seat-137": {
+     "보수당": 1
+    },
+    "UK-seat-621": {
+     "노동당": 1
+    },
+    "UK-seat-616": {
+     "노동당": 1
+    },
+    "UK-seat-615": {
+     "노동당": 1
+    },
+    "UK-seat-578": {
+     "노동당": 1
+    },
+    "UK-seat-554": {
+     "보수당": 1
+    },
+    "UK-seat-537": {
+     "노동당": 1
+    },
+    "UK-seat-498": {
+     "노동당": 1
+    },
+    "UK-seat-529": {
+     "보수당": 1
+    },
+    "UK-seat-431": {
+     "보수당": 1
+    },
+    "UK-seat-317": {
+     "보수당": 1
+    },
+    "UK-seat-41": {
+     "보수당": 1
+    },
+    "UK-seat-555": {
+     "보수당": 1
+    },
+    "UK-seat-430": {
+     "보수당": 1
+    },
+    "UK-seat-120": {
+     "보수당": 1
+    },
+    "UK-seat-119": {
+     "보수당": 1
+    },
+    "UK-seat-497": {
+     "보수당": 1
+    },
+    "UK-seat-469": {
+     "보수당": 1
+    },
+    "UK-seat-456": {
+     "노동당": 1
+    },
+    "UK-seat-437": {
+     "노동당": 1
+    },
+    "UK-seat-436": {
+     "노동당": 1
+    },
+    "UK-seat-429": {
+     "노동당": 1
+    },
+    "UK-seat-118": {
+     "보수당": 1
+    },
+    "UK-seat-428": {
+     "보수당": 1
+    },
+    "UK-seat-244": {
+     "보수당": 1
+    },
+    "UK-seat-316": {
+     "보수당": 1
+    },
+    "UK-seat-117": {
+     "보수당": 1
+    },
+    "UK-seat-40": {
+     "보수당": 1
+    },
+    "UK-seat-427": {
+     "보수당": 1
+    },
+    "UK-seat-39": {
+     "보수당": 1
+    },
+    "UK-seat-392": {
+     "보수당": 1
+    },
+    "UK-seat-387": {
+     "노동당": 1
+    },
+    "UK-seat-386": {
+     "노동당": 1
+    },
+    "UK-seat-338": {
+     "노동당": 1
+    },
+    "UK-seat-333": {
+     "보수당": 1
+    },
+    "UK-seat-322": {
+     "보수당": 1
+    },
+    "UK-seat-318": {
+     "보수당": 1
+    },
+    "UK-seat-315": {
+     "보수당": 1
+    },
+    "UK-seat-310": {
+     "노동당": 1
+    },
+    "UK-seat-305": {
+     "노동당": 1
+    },
+    "UK-seat-300": {
+     "노동당": 1
+    },
+    "UK-seat-282": {
+     "노동당": 1
+    },
+    "UK-seat-239": {
+     "보수당": 1
+    },
+    "UK-seat-154": {
+     "자유민주당": 1
+    },
+    "UK-seat-553": {
+     "보수당": 1
+    },
+    "UK-seat-132": {
+     "노동당": 1
+    },
+    "UK-seat-116": {
+     "노동당": 1
+    },
+    "UK-seat-110": {
+     "보수당": 1
+    },
+    "UK-seat-103": {
+     "보수당": 1
+    },
+    "UK-seat-91": {
+     "보수당": 1
+    },
+    "UK-seat-85": {
+     "노동당": 1
+    },
+    "UK-seat-51": {
+     "보수당": 1
+    },
+    "UK-seat-38": {
+     "노동당": 1
+    },
+    "UK-seat-30": {
+     "노동당": 1
+    },
+    "UK-seat-622": {
+     "노동당": 1
+    },
+    "UK-seat-602": {
+     "노동당": 1
+    },
+    "UK-seat-600": {
+     "보수당": 1
+    },
+    "UK-seat-520": {
+     "보수당": 1
+    },
+    "UK-seat-516": {
+     "노동당": 1
+    },
+    "UK-seat-514": {
+     "노동당": 1
+    },
+    "UK-seat-513": {
+     "노동당": 1
+    },
+    "UK-seat-512": {
+     "자유민주당": 1
+    },
+    "UK-seat-510": {
+     "노동당": 1
+    },
+    "UK-seat-509": {
+     "노동당": 1
+    },
+    "UK-seat-511": {
+     "노동당": 1
+    },
+    "UK-seat-507": {
+     "노동당": 1
+    },
+    "UK-seat-505": {
+     "노동당": 1
+    },
+    "UK-seat-504": {
+     "노동당": 1
+    },
+    "UK-seat-496": {
+     "보수당": 1
+    },
+    "UK-seat-489": {
+     "노동당": 1
+    },
+    "UK-seat-488": {
+     "노동당": 1
+    },
+    "UK-seat-480": {
+     "보수당": 1
+    },
+    "UK-seat-467": {
+     "노동당": 1
+    },
+    "UK-seat-459": {
+     "노동당": 1
+    },
+    "UK-seat-432": {
+     "노동당": 1
+    },
+    "UK-seat-413": {
+     "노동당": 1
+    },
+    "UK-seat-360": {
+     "노동당": 1
+    },
+    "UK-seat-359": {
+     "노동당": 1
+    },
+    "UK-seat-358": {
+     "노동당": 1
+    },
+    "UK-seat-357": {
+     "노동당": 1
+    },
+    "UK-seat-356": {
+     "노동당": 1
+    },
+    "UK-seat-332": {
+     "노동당": 1
+    },
+    "UK-seat-331": {
+     "노동당": 1
+    },
+    "UK-seat-330": {
+     "노동당": 1
+    },
+    "UK-seat-344": {
+     "노동당": 1
+    },
+    "UK-seat-329": {
+     "노동당": 1
+    },
+    "UK-seat-311": {
+     "노동당": 1
+    },
+    "UK-seat-301": {
+     "자유민주당": 1
+    },
+    "UK-seat-290": {
+     "보수당": 1
+    },
+    "UK-seat-289": {
+     "노동당": 1
+    },
+    "UK-seat-281": {
+     "노동당": 1
+    },
+    "UK-seat-235": {
+     "노동당": 1
+    },
+    "UK-seat-659": {
+     "보수당": 1
+    },
+    "UK-seat-195": {
+     "노동당": 1
+    },
+    "UK-seat-194": {
+     "노동당": 1
+    },
+    "UK-seat-193": {
+     "노동당": 1
+    },
+    "UK-seat-192": {
+     "노동당": 1
+    },
+    "UK-seat-155": {
+     "노동당": 1
+    },
+    "UK-seat-148": {
+     "노동당": 1
+    },
+    "UK-seat-658": {
+     "노동당": 1
+    },
+    "UK-seat-114": {
+     "노동당": 1
+    },
+    "UK-seat-94": {
+     "노동당": 1
+    },
+    "UK-seat-84": {
+     "노동당": 1
+    },
+    "UK-seat-83": {
+     "노동당": 1
+    },
+    "UK-seat-82": {
+     "노동당": 1
+    },
+    "UK-seat-48": {
+     "보수당": 1
+    },
+    "UK-seat-34": {
+     "노동당": 1
+    },
+    "UK-seat-28": {
+     "노동당": 1
+    },
+    "UK-seat-27": {
+     "노동당": 1
+    },
+    "UK-seat-26": {
+     "노동당": 1
+    },
+    "UK-seat-632": {
+     "노동당": 1
+    },
+    "UK-seat-625": {
+     "노동당": 1
+    },
+    "UK-seat-606": {
+     "노동당": 1
+    },
+    "UK-seat-601": {
+     "노동당": 1
+    },
+    "UK-seat-597": {
+     "보수당": 1
+    },
+    "UK-seat-595": {
+     "노동당": 1
+    },
+    "UK-seat-589": {
+     "자유민주당": 1
+    },
+    "UK-seat-585": {
+     "노동당": 1
+    },
+    "UK-seat-581": {
+     "노동당": 1
+    },
+    "UK-seat-563": {
+     "자유민주당": 1
+    },
+    "UK-seat-550": {
+     "노동당": 1
+    },
+    "UK-seat-492": {
+     "보수당": 1
+    },
+    "UK-seat-484": {
+     "노동당": 1
+    },
+    "UK-seat-481": {
+     "자유민주당": 1
+    },
+    "UK-seat-474": {
+     "노동당": 1
+    },
+    "UK-seat-468": {
+     "노동당": 1
+    },
+    "UK-seat-462": {
+     "노동당": 1
+    },
+    "UK-seat-448": {
+     "보수당": 1
+    },
+    "UK-seat-444": {
+     "보수당": 1
+    },
+    "UK-seat-531": {
+     "자유민주당": 1
+    },
+    "UK-seat-407": {
+     "노동당": 1
+    },
+    "UK-seat-371": {
+     "노동당": 1
+    },
+    "UK-seat-368": {
+     "노동당": 1
+    },
+    "UK-seat-370": {
+     "노동당": 1
+    },
+    "UK-seat-369": {
+     "노동당": 1
+    },
+    "UK-seat-348": {
+     "자유민주당": 1
+    },
+    "UK-seat-345": {
+     "보수당": 1
+    },
+    "UK-seat-341": {
+     "노동당": 1
+    },
+    "UK-seat-340": {
+     "노동당": 1
+    },
+    "UK-seat-336": {
+     "노동당": 1
+    },
+    "UK-seat-335": {
+     "노동당": 1
+    },
+    "UK-seat-325": {
+     "노동당": 1
+    },
+    "UK-seat-324": {
+     "노동당": 1
+    },
+    "UK-seat-323": {
+     "노동당": 1
+    },
+    "UK-seat-312": {
+     "노동당": 1
+    },
+    "UK-seat-308": {
+     "노동당": 1
+    },
+    "UK-seat-303": {
+     "노동당": 1
+    },
+    "UK-seat-302": {
+     "노동당": 1
+    },
+    "UK-seat-298": {
+     "노동당": 1
+    },
+    "UK-seat-294": {
+     "노동당": 1
+    },
+    "UK-seat-287": {
+     "노동당": 1
+    },
+    "UK-seat-286": {
+     "노동당": 1
+    },
+    "UK-seat-284": {
+     "노동당": 1
+    },
+    "UK-seat-255": {
+     "노동당": 1
+    },
+    "UK-seat-251": {
+     "노동당": 1
+    },
+    "UK-seat-242": {
+     "노동당": 1
+    },
+    "UK-seat-238": {
+     "노동당": 1
+    },
+    "UK-seat-237": {
+     "노동당": 1
+    },
+    "UK-seat-236": {
+     "노동당": 1
+    },
+    "UK-seat-233": {
+     "노동당": 1
+    },
+    "UK-seat-219": {
+     "노동당": 1
+    },
+    "UK-seat-217": {
+     "노동당": 1
+    },
+    "UK-seat-215": {
+     "노동당": 1
+    },
+    "UK-seat-216": {
+     "노동당": 1
+    },
+    "UK-seat-205": {
+     "노동당": 1
+    },
+    "UK-seat-176": {
+     "노동당": 1
+    },
+    "UK-seat-171": {
+     "보수당": 1
+    },
+    "UK-seat-170": {
+     "노동당": 1
+    },
+    "UK-seat-169": {
+     "노동당": 1
+    },
+    "UK-seat-147": {
+     "보수당": 1
+    },
+    "UK-seat-144": {
+     "보수당": 1
+    },
+    "UK-seat-143": {
+     "보수당": 1
+    },
+    "UK-seat-131": {
+     "자유민주당": 1
+    },
+    "UK-seat-115": {
+     "노동당": 1
+    },
+    "UK-seat-101": {
+     "보수당": 1
+    },
+    "UK-seat-90": {
+     "노동당": 1
+    },
+    "UK-seat-89": {
+     "노동당": 1
+    },
+    "UK-seat-88": {
+     "노동당": 1
+    },
+    "UK-seat-87": {
+     "노동당": 1
+    },
+    "UK-seat-50": {
+     "노동당": 1
+    },
+    "UK-seat-47": {
+     "노동당": 1
+    },
+    "UK-seat-37": {
+     "보수당": 1
+    },
+    "UK-seat-35": {
+     "노동당": 1
+    },
+    "UK-seat-25": {
+     "노동당": 1
+    },
+    "UK-seat-186": {
+     "보수당": 1
+    },
+    "UK-seat-619": {
+     "노동당": 1
+    },
+    "UK-seat-525": {
+     "보수당": 1
+    },
+    "UK-seat-185": {
+     "노동당": 1
+    },
+    "UK-seat-521": {
+     "보수당": 1
+    },
+    "UK-seat-515": {
+     "노동당": 1
+    },
+    "UK-seat-495": {
+     "보수당": 1
+    },
+    "UK-seat-494": {
+     "보수당": 1
+    },
+    "UK-seat-440": {
+     "노동당": 1
+    },
+    "UK-seat-439": {
+     "노동당": 1
+    },
+    "UK-seat-438": {
+     "노동당": 1
+    },
+    "UK-seat-434": {
+     "노동당": 1
+    },
+    "UK-seat-433": {
+     "노동당": 1
+    },
+    "UK-seat-364": {
+     "노동당": 1
+    },
+    "UK-seat-184": {
+     "노동당": 1
+    },
+    "UK-seat-418": {
+     "노동당": 1
+    },
+    "UK-seat-397": {
+     "노동당": 1
+    },
+    "UK-seat-384": {
+     "보수당": 1
+    },
+    "UK-seat-383": {
+     "노동당": 1
+    },
+    "UK-seat-373": {
+     "노동당": 1
+    },
+    "UK-seat-363": {
+     "노동당": 1
+    },
+    "UK-seat-362": {
+     "노동당": 1
+    },
+    "UK-seat-361": {
+     "노동당": 1
+    },
+    "UK-seat-346": {
+     "노동당": 1
+    },
+    "UK-seat-321": {
+     "노동당": 1
+    },
+    "UK-seat-299": {
+     "보수당": 1
+    },
+    "UK-seat-279": {
+     "보수당": 1
+    },
+    "UK-seat-263": {
+     "노동당": 1
+    },
+    "UK-seat-260": {
+     "보수당": 1
+    },
+    "UK-seat-241": {
+     "노동당": 1
+    },
+    "UK-seat-183": {
+     "노동당": 1
+    },
+    "UK-seat-182": {
+     "노동당": 1
+    },
+    "UK-seat-179": {
+     "보수당": 1
+    },
+    "UK-seat-159": {
+     "노동당": 1
+    },
+    "UK-seat-141": {
+     "노동당": 1
+    },
+    "UK-seat-134": {
+     "보수당": 1
+    },
+    "UK-seat-104": {
+     "노동당": 1
+    },
+    "UK-seat-78": {
+     "보수당": 1
+    },
+    "UK-seat-77": {
+     "보수당": 1
+    },
+    "UK-seat-72": {
+     "노동당": 1
+    },
+    "UK-seat-64": {
+     "보수당": 1
+    },
+    "UK-seat-32": {
+     "노동당": 1
+    },
+    "UK-seat-18": {
+     "노동당": 1
+    },
+    "UK-seat-11": {
+     "노동당": 1
+    },
+    "UK-seat-655": {
+     "노동당": 1
+    },
+    "UK-seat-648": {
+     "노동당": 1
+    },
+    "UK-seat-647": {
+     "노동당": 1
+    },
+    "UK-seat-636": {
+     "노동당": 1
+    },
+    "UK-seat-635": {
+     "노동당": 1
+    },
+    "UK-seat-630": {
+     "노동당": 1
+    },
+    "UK-seat-628": {
+     "보수당": 1
+    },
+    "UK-seat-354": {
+     "노동당": 1
+    },
+    "UK-seat-618": {
+     "노동당": 1
+    },
+    "UK-seat-612": {
+     "노동당": 1
+    },
+    "UK-seat-611": {
+     "노동당": 1
+    },
+    "UK-seat-603": {
+     "노동당": 1
+    },
+    "UK-seat-570": {
+     "무소속·하원의장": 1
+    },
+    "UK-seat-551": {
+     "노동당": 1
+    },
+    "UK-seat-539": {
+     "노동당": 1
+    },
+    "UK-seat-536": {
+     "노동당": 1
+    },
+    "UK-seat-500": {
+     "노동당": 1
+    },
+    "UK-seat-499": {
+     "노동당": 1
+    },
+    "UK-seat-530": {
+     "자유민주당": 1
+    },
+    "UK-seat-478": {
+     "노동당": 1
+    },
+    "UK-seat-502": {
+     "노동당": 1
+    },
+    "UK-seat-487": {
+     "노동당": 1
+    },
+    "UK-seat-482": {
+     "노동당": 1
+    },
+    "UK-seat-479": {
+     "보수당": 1
+    },
+    "UK-seat-466": {
+     "노동당": 1
+    },
+    "UK-seat-454": {
+     "보수당": 1
+    },
+    "UK-seat-453": {
+     "노동당": 1
+    },
+    "UK-seat-446": {
+     "노동당": 1
+    },
+    "UK-seat-445": {
+     "노동당": 1
+    },
+    "UK-seat-412": {
+     "노동당": 1
+    },
+    "UK-seat-396": {
+     "노동당": 1
+    },
+    "UK-seat-395": {
+     "노동당": 1
+    },
+    "UK-seat-393": {
+     "노동당": 1
+    },
+    "UK-seat-394": {
+     "노동당": 1
+    },
+    "UK-seat-391": {
+     "노동당": 1
+    },
+    "UK-seat-388": {
+     "보수당": 1
+    },
+    "UK-seat-379": {
+     "노동당": 1
+    },
+    "UK-seat-378": {
+     "노동당": 1
+    },
+    "UK-seat-377": {
+     "노동당": 1
+    },
+    "UK-seat-376": {
+     "노동당": 1
+    },
+    "UK-seat-375": {
+     "노동당": 1
+    },
+    "UK-seat-365": {
+     "노동당": 1
+    },
+    "UK-seat-355": {
+     "노동당": 1
+    },
+    "UK-seat-352": {
+     "노동당": 1
+    },
+    "UK-seat-351": {
+     "노동당": 1
+    },
+    "UK-seat-334": {
+     "노동당": 1
+    },
+    "UK-seat-320": {
+     "노동당": 1
+    },
+    "UK-seat-309": {
+     "자유민주당": 1
+    },
+    "UK-seat-291": {
+     "노동당": 1
+    },
+    "UK-seat-259": {
+     "보수당": 1
+    },
+    "UK-seat-234": {
+     "노동당": 1
+    },
+    "UK-seat-226": {
+     "보수당": 1
+    },
+    "UK-seat-225": {
+     "노동당": 1
+    },
+    "UK-seat-181": {
+     "노동당": 1
+    },
+    "UK-seat-168": {
+     "노동당": 1
+    },
+    "UK-seat-167": {
+     "노동당": 1
+    },
+    "UK-seat-158": {
+     "노동당": 1
+    },
+    "UK-seat-156": {
+     "보수당": 1
+    },
+    "UK-seat-140": {
+     "노동당": 1
+    },
+    "UK-seat-145": {
+     "노동당": 1
+    },
+    "UK-seat-136": {
+     "보수당": 1
+    },
+    "UK-seat-127": {
+     "노동당": 1
+    },
+    "UK-seat-109": {
+     "노동당": 1
+    },
+    "UK-seat-108": {
+     "노동당": 1
+    },
+    "UK-seat-106": {
+     "노동당": 1
+    },
+    "UK-seat-76": {
+     "노동당": 1
+    },
+    "UK-seat-75": {
+     "노동당": 1
+    },
+    "UK-seat-74": {
+     "노동당": 1
+    },
+    "UK-seat-73": {
+     "노동당": 1
+    },
+    "UK-seat-67": {
+     "노동당": 1
+    },
+    "UK-seat-66": {
+     "노동당": 1
+    },
+    "UK-seat-65": {
+     "노동당": 1
+    },
+    "UK-seat-52": {
+     "노동당": 1
+    },
+    "UK-seat-29": {
+     "노동당": 1
+    },
+    "UK-seat-20": {
+     "노동당": 1
+    },
+    "UK-seat-9": {
+     "보수당": 1
+    },
+    "UK-seat-654": {
+     "노동당": 1
+    },
+    "UK-seat-644": {
+     "노동당": 1
+    },
+    "UK-seat-642": {
+     "노동당": 1
+    },
+    "UK-seat-641": {
+     "노동당": 1
+    },
+    "UK-seat-640": {
+     "노동당": 1
+    },
+    "UK-seat-646": {
+     "보수당": 1
+    },
+    "UK-seat-624": {
+     "무소속·하원의장": 1
+    },
+    "UK-seat-623": {
+     "노동당": 1
+    },
+    "UK-seat-613": {
+     "노동당": 1
+    },
+    "UK-seat-610": {
+     "노동당": 1
+    },
+    "UK-seat-605": {
+     "노동당": 1
+    },
+    "UK-seat-604": {
+     "노동당": 1
+    },
+    "UK-seat-651": {
+     "노동당": 1
+    },
+    "UK-seat-574": {
+     "노동당": 1
+    },
+    "UK-seat-569": {
+     "노동당": 1
+    },
+    "UK-seat-564": {
+     "보수당": 1
+    },
+    "UK-seat-548": {
+     "보수당": 1
+    },
+    "UK-seat-546": {
+     "노동당": 1
+    },
+    "UK-seat-545": {
+     "보수당": 1
+    },
+    "UK-seat-544": {
+     "노동당": 1
+    },
+    "UK-seat-543": {
+     "노동당": 1
+    },
+    "UK-seat-542": {
+     "노동당": 1
+    },
+    "UK-seat-534": {
+     "노동당": 1
+    },
+    "UK-seat-533": {
+     "노동당": 1
+    },
+    "UK-seat-535": {
+     "보수당": 1
+    },
+    "UK-seat-523": {
+     "보수당": 1
+    },
+    "UK-seat-517": {
+     "노동당": 1
+    },
+    "UK-seat-491": {
+     "노동당": 1
+    },
+    "UK-seat-473": {
+     "노동당": 1
+    },
+    "UK-seat-441": {
+     "노동당": 1
+    },
+    "UK-seat-614": {
+     "노동당": 1
+    },
+    "UK-seat-518": {
+     "보수당": 1
+    },
+    "UK-seat-420": {
+     "노동당": 1
+    },
+    "UK-seat-645": {
+     "보수당": 1
+    },
+    "UK-seat-400": {
+     "보수당": 1
+    },
+    "UK-seat-385": {
+     "보수당": 1
+    },
+    "UK-seat-372": {
+     "보수당": 1
+    },
+    "UK-seat-366": {
+     "보수당": 1
+    },
+    "UK-seat-314": {
+     "자유민주당": 1
+    },
+    "UK-seat-288": {
+     "노동당": 1
+    },
+    "UK-seat-204": {
+     "노동당": 1
+    },
+    "UK-seat-203": {
+     "노동당": 1
+    },
+    "UK-seat-165": {
+     "노동당": 1
+    },
+    "UK-seat-164": {
+     "노동당": 1
+    },
+    "UK-seat-163": {
+     "노동당": 1
+    },
+    "UK-seat-121": {
+     "노동당": 1
+    },
+    "UK-seat-107": {
+     "노동당": 1
+    },
+    "UK-seat-102": {
+     "보수당": 1
+    },
+    "UK-seat-62": {
+     "노동당": 1
+    },
+    "UK-seat-61": {
+     "노동당": 1
+    },
+    "UK-seat-60": {
+     "노동당": 1
+    },
+    "UK-seat-59": {
+     "노동당": 1
+    },
+    "UK-seat-58": {
+     "노동당": 1
+    },
+    "UK-seat-57": {
+     "노동당": 1
+    },
+    "UK-seat-56": {
+     "노동당": 1
+    },
+    "UK-seat-55": {
+     "노동당": 1
+    },
+    "UK-seat-54": {
+     "노동당": 1
+    },
+    "UK-seat-53": {
+     "노동당": 1
+    },
+    "UK-seat-8": {
+     "보수당": 1
+    },
+    "UK-seat-657": {
+     "웨일스당 (플라이드 컴리)": 1
+    },
+    "UK-seat-652": {
+     "노동당": 1
+    },
+    "UK-seat-599": {
+     "노동당": 1
+    },
+    "UK-seat-598": {
+     "노동당": 1
+    },
+    "UK-seat-583": {
+     "노동당": 1
+    },
+    "UK-seat-566": {
+     "노동당": 1
+    },
+    "UK-seat-565": {
+     "노동당": 1
+    },
+    "UK-seat-477": {
+     "노동당": 1
+    },
+    "UK-seat-465": {
+     "노동당": 1
+    },
+    "UK-seat-460": {
+     "노동당": 1
+    },
+    "UK-seat-443": {
+     "노동당": 1
+    },
+    "UK-seat-425": {
+     "노동당": 1
+    },
+    "UK-seat-424": {
+     "노동당": 1
+    },
+    "UK-seat-415": {
+     "노동당": 1
+    },
+    "UK-seat-410": {
+     "자유민주당": 1
+    },
+    "UK-seat-409": {
+     "노동당": 1
+    },
+    "UK-seat-401": {
+     "노동당": 1
+    },
+    "UK-seat-399": {
+     "웨일스당 (플라이드 컴리)": 1
+    },
+    "UK-seat-381": {
+     "노동당": 1
+    },
+    "UK-seat-342": {
+     "노동당": 1
+    },
+    "UK-seat-278": {
+     "노동당": 1
+    },
+    "UK-seat-180": {
+     "노동당": 1
+    },
+    "UK-seat-175": {
+     "노동당": 1
+    },
+    "UK-seat-157": {
+     "노동당": 1
+    },
+    "UK-seat-150": {
+     "노동당": 1
+    },
+    "UK-seat-149": {
+     "노동당": 1
+    },
+    "UK-seat-133": {
+     "웨일스당 (플라이드 컴리)": 1
+    },
+    "UK-seat-129": {
+     "노동당": 1
+    },
+    "UK-seat-128": {
+     "노동당": 1
+    },
+    "UK-seat-126": {
+     "노동당": 1
+    },
+    "UK-seat-125": {
+     "노동당": 1
+    },
+    "UK-seat-124": {
+     "노동당": 1
+    },
+    "UK-seat-123": {
+     "노동당": 1
+    },
+    "UK-seat-112": {
+     "노동당": 1
+    },
+    "UK-seat-111": {
+     "웨일스당 (플라이드 컴리)": 1
+    },
+    "UK-seat-92": {
+     "노동당": 1
+    },
+    "UK-seat-86": {
+     "자유민주당": 1
+    },
+    "UK-seat-68": {
+     "노동당": 1
+    },
+    "UK-seat-10": {
+     "노동당": 1
+    },
+    "UK-seat-1": {
+     "노동당": 1
+    },
+    "UK-seat-258": {
+     "사회민주노동당 (SDLP)": 1
+    },
+    "UK-seat-13": {
+     "얼스터 유니어니스트당 (UUP)": 1
+    },
+    "UK-seat-201": {
+     "영국 유니어니스트당 (UKUP)": 1
+    },
+    "UK-seat-43": {
+     "얼스터 유니어니스트당 (UUP)": 1
+    },
+    "UK-seat-45": {
+     "신페인": 1
+    },
+    "UK-seat-42": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-seat-44": {
+     "얼스터 유니어니스트당 (UUP)": 1
+    },
+    "UK-seat-15": {
+     "얼스터 유니어니스트당 (UUP)": 1
+    },
+    "UK-seat-547": {
+     "얼스터 유니어니스트당 (UUP)": 1
+    },
+    "UK-seat-353": {
+     "얼스터 유니어니스트당 (UUP)": 1
+    },
+    "UK-seat-596": {
+     "얼스터 유니어니스트당 (UUP)": 1
+    },
+    "UK-seat-202": {
+     "사회민주노동당 (SDLP)": 1
+    },
+    "UK-seat-426": {
+     "사회민주노동당 (SDLP)": 1
+    },
+    "UK-seat-593": {
+     "얼스터 유니어니스트당 (UUP)": 1
+    },
+    "UK-seat-14": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-seat-382": {
+     "얼스터 유니어니스트당 (UUP)": 1
+    },
+    "UK-seat-252": {
+     "얼스터 유니어니스트당 (UUP)": 1
+    },
+    "UK-seat-594": {
+     "신페인": 1
+    },
+    "UK-seat-721": {
+     "자유민주당": 1
+    },
+    "UK-sc01": {
+     "자유민주당": 1
+    },
+    "UK-sc02": {
+     "자유민주당": 1
+    },
+    "UK-sc03": {
+     "노동당": 1
+    },
+    "UK-sc04": {
+     "노동당": 1
+    },
+    "UK-sc05": {
+     "노동당": 1
+    },
+    "UK-sc06": {
+     "자유민주당": 1
+    },
+    "UK-sc07": {
+     "노동당": 1
+    },
+    "UK-sc08": {
+     "노동당": 1
+    },
+    "UK-sc09": {
+     "노동당": 1
+    },
+    "UK-sc10": {
+     "노동당": 1
+    },
+    "UK-sc11": {
+     "노동당": 1
+    },
+    "UK-sc12": {
+     "노동당": 1
+    },
+    "UK-sc13": {
+     "노동당": 1
+    },
+    "UK-sc14": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-sc15": {
+     "노동당": 1
+    },
+    "UK-sc16": {
+     "노동당": 1
+    },
+    "UK-sc17": {
+     "노동당": 1
+    },
+    "UK-sc18": {
+     "노동당": 1
+    },
+    "UK-sc19": {
+     "노동당": 1
+    },
+    "UK-sc20": {
+     "노동당": 1
+    },
+    "UK-sc21": {
+     "노동당": 1
+    },
+    "UK-sc22": {
+     "노동당": 1
+    },
+    "UK-sc23": {
+     "노동당": 1
+    },
+    "UK-sc24": {
+     "노동당": 1
+    },
+    "UK-sc25": {
+     "노동당": 1
+    },
+    "UK-sc26": {
+     "노동당": 1
+    },
+    "UK-sc27": {
+     "노동당": 1
+    },
+    "UK-sc28": {
+     "노동당": 1
+    },
+    "UK-sc29": {
+     "노동당": 1
+    },
+    "UK-sc30": {
+     "노동당": 1
+    },
+    "UK-sc31": {
+     "노동당": 1
+    },
+    "UK-sc32": {
+     "노동당": 1
+    },
+    "UK-sc33": {
+     "노동당": 1
+    },
+    "UK-sc34": {
+     "노동당": 1
+    },
+    "UK-sc35": {
+     "자유민주당": 1
+    },
+    "UK-sc36": {
+     "노동당": 1
+    },
+    "UK-sc37": {
+     "노동당": 1
+    },
+    "UK-sc38": {
+     "노동당": 1
+    },
+    "UK-sc39": {
+     "노동당": 1
+    },
+    "UK-sc40": {
+     "노동당": 1
+    },
+    "UK-sc41": {
+     "노동당": 1
+    },
+    "UK-sc42": {
+     "노동당": 1
+    },
+    "UK-sc43": {
+     "노동당": 1
+    },
+    "UK-sc44": {
+     "노동당": 1
+    },
+    "UK-sc45": {
+     "노동당": 1
+    },
+    "UK-sc46": {
+     "노동당": 1
+    },
+    "UK-sc47": {
+     "노동당": 1
+    },
+    "UK-sc48": {
+     "노동당": 1
+    },
+    "UK-sc49": {
+     "노동당": 1
+    },
+    "UK-sc50": {
+     "노동당": 1
+    },
+    "UK-sc51": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-sc52": {
+     "노동당": 1
+    },
+    "UK-sc53": {
+     "노동당": 1
+    },
+    "UK-sc54": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-sc55": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-sc56": {
+     "자유민주당": 1
+    },
+    "UK-sc57": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-sc58": {
+     "자유민주당": 1
+    },
+    "UK-sc59": {
+     "노동당": 1
+    },
+    "UK-sc60": {
+     "노동당": 1
+    },
+    "UK-sc61": {
+     "노동당": 1
+    },
+    "UK-sc62": {
+     "노동당": 1
+    },
+    "UK-sc63": {
+     "노동당": 1
+    },
+    "UK-sc64": {
+     "노동당": 1
+    },
+    "UK-sc65": {
+     "자유민주당": 1
+    },
+    "UK-sc66": {
+     "자유민주당": 1
+    },
+    "UK-sc67": {
+     "자유민주당": 1
+    },
+    "UK-sc68": {
+     "노동당": 1
+    },
+    "UK-sc69": {
+     "노동당": 1
+    },
+    "UK-sc70": {
+     "노동당": 1
+    },
+    "UK-sc71": {
+     "스코틀랜드 국민당 (SNP)": 1
+    }
+   }
+  }
+ ]
+}
