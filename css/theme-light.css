@@ -385,15 +385,9 @@ body.present #chartSec{display:block!important}
 .corow0 .bn{width:20px;text-align:center;opacity:.7}.corow0 .del{padding:2px 8px;font-size:12px}
 .cosel{min-width:110px}.cobar .cob{display:flex;height:100%}.cobar .cob+.cob{border-left:2px solid #000}
 
-@font-face{font-family:'GyunMyeongjo';src:url('../fonts/GyunMyeongjo-Regular.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2611080026@gyunmyeongjo-regular/gyunmyeongjo-regular/GyunMyeongjo-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
-@font-face{font-family:'GyunMyeongjo';src:url('../fonts/GyunMyeongjo-Bold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2611080026@gyunmyeongjo-regular/gyunmyeongjo-regular/GyunMyeongjo-Bold.woff2') format('woff2');font-weight:700;font-display:swap}
-:root{--title:'GyunMyeongjo',serif;--lat:'GyunMyeongjo',serif}
-html,body,button,input,select,textarea{font-family:'GyunMyeongjo','Noto Serif KR',serif}
-body::after{display:none}
-*{text-shadow:none!important}
-.label{letter-spacing:.06em;text-transform:none}
-.mhead h1{font-weight:700;letter-spacing:-.01em}
-.card:hover{transform:translateY(-2px)}
+@font-face{font-family:'BrightSungmoVisionCorrection';src:url('../fonts/BSMVisionCorrection-Regular.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2611101345@bsmvisioncorrection-regular/bsmvisioncorrection-regular/BSMVisionCorrection-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+:root{--title:'BrightSungmoVisionCorrection',sans-serif;--lat:'BrightSungmoVisionCorrection',sans-serif}
+html,body,button,input,select,textarea{font-family:'BrightSungmoVisionCorrection',sans-serif}
 
 /* ===== 라이트 ===== */
 html,body{background-color:#faf9f6;background-image:none;color:#1a1a1a}

@@ -1,17 +1,11 @@
 """라이트 / 다크 테마 CSS 만들기: python3 tools/make-mono.py  (css/style.css → css/theme-light.css, theme-dark.css)
-이 두 테마에서만 균명조(GyunMyeongjo) 글꼴을 써요."""
+이 두 테마에서만 밝은성모 시력교정체(BrightSungmoVisionCorrection) 글꼴을 써요."""
 import re,json
 BASE=['#eaffff','#8fe3e8','#0a191d','#06100f','#6fd6dc','#123238','#0f262b','#071215','#2c6e74','#081619','#ff7a88','#e06070','#1d5a60','#e6ffff','#d86a78','#d3f1f2','#6f9ea2','#2c4f55','#1f4a50','#1d3a40','#1a3a40','#12313a','#10292e','#0f2429','#0e2125','#0d2328','#0d2227','#0b1f23','#0b1b1f','#0a1a1d','#0a171a','#2c5a60']
 FONT="""
-@font-face{font-family:'GyunMyeongjo';src:url('../fonts/GyunMyeongjo-Regular.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2611080026@gyunmyeongjo-regular/gyunmyeongjo-regular/GyunMyeongjo-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
-@font-face{font-family:'GyunMyeongjo';src:url('../fonts/GyunMyeongjo-Bold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2611080026@gyunmyeongjo-regular/gyunmyeongjo-regular/GyunMyeongjo-Bold.woff2') format('woff2');font-weight:700;font-display:swap}
-:root{--title:'GyunMyeongjo',serif;--lat:'GyunMyeongjo',serif}
-html,body,button,input,select,textarea{font-family:'GyunMyeongjo','Noto Serif KR',serif}
-body::after{display:none}
-*{text-shadow:none!important}
-.label{letter-spacing:.06em;text-transform:none}
-.mhead h1{font-weight:700;letter-spacing:-.01em}
-.card:hover{transform:translateY(-2px)}
+@font-face{font-family:'BrightSungmoVisionCorrection';src:url('../fonts/BSMVisionCorrection-Regular.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2611101345@bsmvisioncorrection-regular/bsmvisioncorrection-regular/BSMVisionCorrection-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+:root{--title:'BrightSungmoVisionCorrection',sans-serif;--lat:'BrightSungmoVisionCorrection',sans-serif}
+html,body,button,input,select,textarea{font-family:'BrightSungmoVisionCorrection',sans-serif}
 """
 T={
  'light':dict(cm=dict(zip(BASE,['#1a1a1a','#1a1a1a','#ffffff','#f3f2ef','#555555','#f3f2ef','#eceae5','#faf9f6','#c9c6bf','#ffffff','#b3261e','#b3261e','#e8e6e1','#1a1a1a','#9a9a9a','#1a1a1a','#777777','#d6d3cc','#d6d3cc','#e3e1dc','#d9d6cf','#eceae5','#f3f2ef','#f7f6f3','#efede8','#f3f2ef','#f7f6f3','#f3f2ef','#ffffff','#ffffff','#f7f6f3','#c9c6bf'])),extra="""
