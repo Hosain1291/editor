@@ -6,6 +6,10 @@ FONT="""
 @font-face{font-family:'BrightSungmoVisionCorrection';src:url('../fonts/BSMVisionCorrection-Regular.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2611101345@bsmvisioncorrection-regular/bsmvisioncorrection-regular/BSMVisionCorrection-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
 :root{--title:'BrightSungmoVisionCorrection',sans-serif;--lat:'BrightSungmoVisionCorrection',sans-serif}
 html,body,button,input,select,textarea{font-family:'BrightSungmoVisionCorrection',sans-serif}
+/* CRT 효과(주사선·빛번짐) 끄기 */
+body::after{display:none!important}
+.mhead h1,.mhead h1 span,.upcard .upin b{text-shadow:none!important}
+#map path.hov{filter:none!important}
 """
 T={
  'light':dict(cm=dict(zip(BASE,['#1a1a1a','#1a1a1a','#ffffff','#f3f2ef','#555555','#f3f2ef','#eceae5','#faf9f6','#c9c6bf','#ffffff','#b3261e','#b3261e','#e8e6e1','#1a1a1a','#9a9a9a','#1a1a1a','#777777','#d6d3cc','#d6d3cc','#e3e1dc','#d9d6cf','#eceae5','#f3f2ef','#f7f6f3','#efede8','#f3f2ef','#f7f6f3','#f3f2ef','#ffffff','#ffffff','#f7f6f3','#c9c6bf'])),extra="""
