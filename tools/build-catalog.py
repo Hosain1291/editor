@@ -44,7 +44,7 @@ for e in idx['maps']:
             if i in hid: continue
             r=(m.get('regionOf') or {}).get(i)
             if r and r not in v['regions']: continue
-            n+=1; t+=seats.get(i) or ds or 1
+            n+=1; t+=(seats[i] if i in seats else (ds or 1))
         vs[v['key']]=[n,t]
     light['vstat']=vs
     tp=svgp[:-len('map.svg')]+'thumb.svg' if svgp.endswith('map.svg') else None

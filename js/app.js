@@ -11,7 +11,7 @@ function viewProgress(entry, v) {
     for (const id in d) { const x = d[id]; if (!x || x.off) continue; const S = (s.seats && s.seats[id]) || 1; asg += Math.min(S, Object.values(x.a || {}).reduce((a, b) => a + b, 0)); }
     return { n, tot, asg: Math.min(asg, tot) };
   }
-  const seats = id => (s && s.seats && s.seats[id]) || meta.seats[id] || meta.defaultSeats || 1;
+  const seats = id => (s && s.seats && s.seats[id] != null) ? s.seats[id] : (meta.seats && meta.seats[id] != null) ? meta.seats[id] : (meta.defaultSeats || 1);
   const d = (s && s.maps && s.maps[v.key] && s.maps[v.key].d) || {};
   let tot = 0, asg = 0, n = 0;
   for (const id in meta.names) {

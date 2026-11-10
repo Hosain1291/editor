@@ -58,7 +58,7 @@ async function useMap(id) {
 
 const nameOf = id => (MAP.names && MAP.names[id]) || id;
 const regionName = r => (MAP.regions && MAP.regions[r]) || r;
-const defaultSeat = id => (MAP.seats && MAP.seats[id]) || MAP.defaultSeats || 1;
+const defaultSeat = id => (MAP.seats && MAP.seats[id] != null) ? MAP.seats[id] : (MAP.defaultSeats || 1);
 const viewOf = key => MAP.views.find(v => v.key === key);
 const boxOf = v => ({ x: v.box[0], y: v.box[1], w: v.box[2], h: v.box[3] });
 const idsOfView = v => ids.filter(id => v.regions.includes(region[id]));
