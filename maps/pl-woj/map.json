@@ -1,0 +1,113 @@
+{
+ "id": "pl-woj",
+ "name": "폴란드 16개 주",
+ "subtitle": "1999년~ 행정구역 · 주(województwo)별 1위 정당",
+ "tag": "WOJEWÓDZTWA",
+ "menuCountry": "폴란드",
+ "menuGroup": "폴란드 현재 행정구역 (1999~)",
+ "cardName": "16개 주 (województwo)",
+ "menuLabel": "지도를 고르세요",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 945.4,
+ "regions": {
+  "Poland": "폴란드"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "16개 주",
+   "sub": "각 주의 1위 정당을 칠하세요",
+   "regions": [
+    "Poland"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    945.4
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "법과 정의 (PiS)",
+   "color": "#263778"
+  },
+  {
+   "name": "시민 연합 (KO)",
+   "color": "#E09C26"
+  },
+  {
+   "name": "제3의 길 (TD)",
+   "color": "#F7D21E"
+  },
+  {
+   "name": "좌파 (Lewica)",
+   "color": "#A10E35"
+  },
+  {
+   "name": "동맹 (Konfederacja)",
+   "color": "#8A6A45"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {},
+ "names": {
+  "w002": "돌니실롱스크주",
+  "w004": "쿠야비포모제주",
+  "w006": "루블린주",
+  "w008": "루부시주",
+  "w010": "우치주",
+  "w012": "마워폴스카주",
+  "w014": "마조프셰주",
+  "w016": "오폴레주",
+  "w018": "포트카르파치에주",
+  "w020": "포들라시에주",
+  "w022": "포모제주",
+  "w024": "실롱스크주",
+  "w026": "시비엥토크시스키에주",
+  "w028": "바르미아마주리주",
+  "w030": "비엘코폴스카주",
+  "w032": "서포모제주"
+ },
+ "labels": {
+  "w002": "Dolnośląskie",
+  "w004": "Kujawsko-Pomorskie",
+  "w006": "Lubelskie",
+  "w008": "Lubuskie",
+  "w010": "Łódzkie",
+  "w012": "Małopolskie",
+  "w014": "Mazowieckie",
+  "w016": "Opolskie",
+  "w018": "Podkarpackie",
+  "w020": "Podlaskie",
+  "w022": "Pomorskie",
+  "w024": "Śląskie",
+  "w026": "Świętokrzyskie",
+  "w028": "Warmińsko-Mazurskie",
+  "w030": "Wielkopolskie",
+  "w032": "Zachodniopomorskie"
+ },
+ "regionOf": {
+  "w002": "Poland",
+  "w004": "Poland",
+  "w006": "Poland",
+  "w008": "Poland",
+  "w010": "Poland",
+  "w012": "Poland",
+  "w014": "Poland",
+  "w016": "Poland",
+  "w018": "Poland",
+  "w020": "Poland",
+  "w022": "Poland",
+  "w024": "Poland",
+  "w026": "Poland",
+  "w028": "Poland",
+  "w030": "Poland",
+  "w032": "Poland"
+ },
+ "labelName": true
+}

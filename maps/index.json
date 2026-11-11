@@ -1007,6 +1007,30 @@
   {
    "id": "pl-sejm-1922",
    "folder": "pl-sejm-1922"
+  },
+  {
+   "id": "pl-woj",
+   "folder": "pl-woj"
+  },
+  {
+   "id": "pl-pow",
+   "folder": "pl-pow"
+  },
+  {
+   "id": "pl-woj-1930",
+   "folder": "pl-woj-1930"
+  },
+  {
+   "id": "pl-pow-1930",
+   "folder": "pl-pow-1930"
+  },
+  {
+   "id": "pl-woj-1939",
+   "folder": "pl-woj-1939"
+  },
+  {
+   "id": "pl-pow-1939",
+   "folder": "pl-pow-1939"
   }
  ]
 }
