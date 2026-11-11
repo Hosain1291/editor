@@ -4,9 +4,9 @@
  "subtitle": "1999년~ 행정구역 · 군(powiat)별 1위 정당",
  "tag": "POWIATY",
  "menuCountry": "폴란드",
- "menuGroup": "폴란드 현재 행정구역 (1999~)",
- "cardName": "380개 군 (powiat)",
- "menuLabel": "지도를 고르세요",
+ "menuGroup": "폴란드 군 (powiat)",
+ "cardName": "1999~",
+ "menuLabel": "연도를 고르세요",
  "svg": "map.svg",
  "width": 1000,
  "height": 945.4,
@@ -1456,5 +1456,6 @@
   "p032063": "w032"
  },
  "labelName": true,
- "linkViews": true
+ "linkViews": true,
+ "yearLink": true
 }

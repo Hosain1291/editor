@@ -4,9 +4,9 @@
  "subtitle": "1999년~ 행정구역 · 주(województwo)별 1위 정당",
  "tag": "WOJEWÓDZTWA",
  "menuCountry": "폴란드",
- "menuGroup": "폴란드 현재 행정구역 (1999~)",
- "cardName": "16개 주 (województwo)",
- "menuLabel": "지도를 고르세요",
+ "menuGroup": "폴란드 주 (województwo)",
+ "cardName": "1999~",
+ "menuLabel": "연도를 고르세요",
  "svg": "map.svg",
  "width": 1000,
  "height": 945.4,
@@ -109,5 +109,6 @@
   "w030": "Poland",
   "w032": "Poland"
  },
- "labelName": true
+ "labelName": true,
+ "yearLink": true
 }

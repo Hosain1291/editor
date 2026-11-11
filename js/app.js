@@ -57,7 +57,7 @@ function renderMenu() {
       c.querySelector('.ythumb').onclick = () => { const it = items[cur]; location.hash = it.e.meta.id + '--' + it.v.key; };
       show(cur); box.appendChild(c);
     };
-    if (meta0.menuGroup && list.length > 1 && list.every(e => e.meta.views.length === 1)) {
+    if (meta0.menuGroup && list.length > 1 && list.every(e => e.meta.views.length === 1 || e.meta.yearLink)) {
       linkCard(meta0.menuGroup, list.map(e => ({ e, v: e.meta.views[0], label: e.meta.cardName || e.meta.views[0].name })), list.length - 1); return;
     }
     list.forEach(entry => { const meta = entry.meta;

@@ -4,9 +4,9 @@
  "subtitle": "1930년 행정구역 (1938년 개편 전) · 주(województwo)별 1위 정당",
  "tag": "WOJEWÓDZTWA 1930",
  "menuCountry": "폴란드",
- "menuGroup": "폴란드 제2공화국 행정구역 (1919~1939)",
- "cardName": "1930년 · 17개 주",
- "menuLabel": "지도를 고르세요",
+ "menuGroup": "폴란드 주 (województwo)",
+ "cardName": "1930",
+ "menuLabel": "연도를 고르세요",
  "svg": "map.svg",
  "width": 1000,
  "height": 1106.5,
@@ -140,5 +140,6 @@
   "w16": "Poland",
   "w17": "Poland"
  },
- "labelName": true
+ "labelName": true,
+ "yearLink": true
 }

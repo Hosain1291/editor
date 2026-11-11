@@ -537,12 +537,12 @@
    "folder": "wr-1933"
   },
   {
-   "id": "pl-sejm-2023",
-   "folder": "pl-sejm-2023"
+   "id": "pl-sejm-1919",
+   "folder": "pl-sejm-1919"
   },
   {
-   "id": "pl-senat-2023",
-   "folder": "pl-senat-2023"
+   "id": "pl-senat-1993",
+   "folder": "pl-senat-1993"
   },
   {
    "id": "in-1977",
@@ -941,8 +941,48 @@
    "folder": "uk-1997"
   },
   {
+   "id": "pl-sejm-1922",
+   "folder": "pl-sejm-1922"
+  },
+  {
+   "id": "pl-sejm-1928",
+   "folder": "pl-sejm-1928"
+  },
+  {
+   "id": "pl-sejm-1930",
+   "folder": "pl-sejm-1930"
+  },
+  {
+   "id": "pl-sejm-1935",
+   "folder": "pl-sejm-1935"
+  },
+  {
+   "id": "pl-sejm-1938",
+   "folder": "pl-sejm-1938"
+  },
+  {
+   "id": "pl-sejm-1989",
+   "folder": "pl-sejm-1989"
+  },
+  {
+   "id": "pl-sejm-1991",
+   "folder": "pl-sejm-1991"
+  },
+  {
+   "id": "pl-sejm-1993",
+   "folder": "pl-sejm-1993"
+  },
+  {
+   "id": "pl-sejm-1997",
+   "folder": "pl-sejm-1997"
+  },
+  {
    "id": "pl-sejm-2001",
    "folder": "pl-sejm-2001"
+  },
+  {
+   "id": "pl-senat-2023",
+   "folder": "pl-senat-2023"
   },
   {
    "id": "pl-sejm-2005",
@@ -965,56 +1005,8 @@
    "folder": "pl-sejm-2019"
   },
   {
-   "id": "pl-sejm-1989",
-   "folder": "pl-sejm-1989"
-  },
-  {
-   "id": "pl-sejm-1991",
-   "folder": "pl-sejm-1991"
-  },
-  {
-   "id": "pl-sejm-1993",
-   "folder": "pl-sejm-1993"
-  },
-  {
-   "id": "pl-sejm-1997",
-   "folder": "pl-sejm-1997"
-  },
-  {
-   "id": "pl-senat-1993",
-   "folder": "pl-senat-1993"
-  },
-  {
-   "id": "pl-sejm-1919",
-   "folder": "pl-sejm-1919"
-  },
-  {
-   "id": "pl-sejm-1928",
-   "folder": "pl-sejm-1928"
-  },
-  {
-   "id": "pl-sejm-1930",
-   "folder": "pl-sejm-1930"
-  },
-  {
-   "id": "pl-sejm-1935",
-   "folder": "pl-sejm-1935"
-  },
-  {
-   "id": "pl-sejm-1938",
-   "folder": "pl-sejm-1938"
-  },
-  {
-   "id": "pl-sejm-1922",
-   "folder": "pl-sejm-1922"
-  },
-  {
-   "id": "pl-woj",
-   "folder": "pl-woj"
-  },
-  {
-   "id": "pl-pow",
-   "folder": "pl-pow"
+   "id": "pl-sejm-2023",
+   "folder": "pl-sejm-2023"
   },
   {
    "id": "pl-woj-1930",
@@ -1031,6 +1023,14 @@
   {
    "id": "pl-pow-1939",
    "folder": "pl-pow-1939"
+  },
+  {
+   "id": "pl-woj",
+   "folder": "pl-woj"
+  },
+  {
+   "id": "pl-pow",
+   "folder": "pl-pow"
   }
  ]
 }
