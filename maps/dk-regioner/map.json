@@ -1,0 +1,108 @@
+{
+ "id": "dk-regioner",
+ "name": "덴마크 5개 지역",
+ "subtitle": "2007년~ 행정구역 · 지역(region)별 1위 정당",
+ "tag": "REGIONER",
+ "menuCountry": "덴마크",
+ "menuGroup": "덴마크 현재 행정구역 (2007~)",
+ "cardName": "5개 지역 (region)",
+ "menuLabel": "지도를 고르세요",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 780.7,
+ "regions": {
+  "DK": "덴마크"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "5개 지역",
+   "sub": "각 지역의 1위 정당을 칠하세요",
+   "regions": [
+    "DK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    780.7
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "사회민주당 (A)",
+   "color": "#F04D46"
+  },
+  {
+   "name": "자유당 벤스트레 (V)",
+   "color": "#002883"
+  },
+  {
+   "name": "온건당 (M)",
+   "color": "#842990"
+  },
+  {
+   "name": "사회주의인민당 (F)",
+   "color": "#E07EA8"
+  },
+  {
+   "name": "덴마크 민주당 (Æ)",
+   "color": "#7FB2E0"
+  },
+  {
+   "name": "자유연합 (I)",
+   "color": "#12A4B5"
+  },
+  {
+   "name": "보수인민당 (C)",
+   "color": "#004931"
+  },
+  {
+   "name": "적록동맹 (Ø)",
+   "color": "#E6801A"
+  },
+  {
+   "name": "사회자유당 (B)",
+   "color": "#733280"
+  },
+  {
+   "name": "덴마크 인민당 (O)",
+   "color": "#FCD03B"
+  },
+  {
+   "name": "대안당 (Å)",
+   "color": "#2B8738"
+  },
+  {
+   "name": "신우파 (D)",
+   "color": "#127B7F"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {},
+ "names": {
+  "rH": "수도 지역",
+  "rS": "셸란 지역",
+  "rD": "남덴마크 지역",
+  "rM": "중앙윌란 지역",
+  "rN": "북윌란 지역"
+ },
+ "labels": {
+  "rH": "Region Hovedstaden",
+  "rS": "Region Sjælland",
+  "rD": "Region Syddanmark",
+  "rM": "Region Midtjylland",
+  "rN": "Region Nordjylland"
+ },
+ "regionOf": {
+  "rH": "DK",
+  "rS": "DK",
+  "rD": "DK",
+  "rM": "DK",
+  "rN": "DK"
+ },
+ "labelName": true
+}

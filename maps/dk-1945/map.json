@@ -1,0 +1,308 @@
+{
+ "id": "dk-1945",
+ "name": "덴마크 폴케팅 총선거",
+ "subtitle": "1945년 · 149석 · 과반 75",
+ "tag": "FOLKETINGSVALG 1945",
+ "menuCountry": "덴마크",
+ "menuGroup": "덴마크 폴케팅 총선거",
+ "cardName": "1945",
+ "svg": "../dk-1920s/map.svg",
+ "width": 1000,
+ "height": 750.0,
+ "regions": {
+  "DK": "덴마크"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1945년",
+   "sub": "보정 의석(Tillægsmandater) 포함",
+   "regions": [
+    "DK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    750
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "사회민주당 (A)",
+   "color": "#F04D46"
+  },
+  {
+   "name": "자유당 벤스트레 (V)",
+   "color": "#002883"
+  },
+  {
+   "name": "보수인민당 (C)",
+   "color": "#004931"
+  },
+  {
+   "name": "공산당 (K)",
+   "color": "#A52A2A"
+  },
+  {
+   "name": "사회자유당 (B)",
+   "color": "#733280"
+  },
+  {
+   "name": "덴마크 연합",
+   "color": "#4EA8FF"
+  },
+  {
+   "name": "정의당 (E)",
+   "color": "#C0C0FF"
+  },
+  {
+   "name": "무소속·기타",
+   "color": "#DDDDDD"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "dk-faeroerne": 1,
+  "dk-t": 31,
+  "dk-bornholm": 2,
+  "dk-sondre": 6,
+  "dk-ostre": 6,
+  "dk-vestre": 6,
+  "dk-frederiksborg": 4,
+  "dk-holbaek": 4,
+  "dk-soro": 4,
+  "dk-praesto": 4,
+  "dk-maribo": 5,
+  "dk-odense": 7,
+  "dk-svendborg": 6,
+  "dk-hjorring": 5,
+  "dk-aalborg": 6,
+  "dk-viborg": 5,
+  "dk-randers": 6,
+  "dk-aarhus": 4,
+  "dk-skanderborg": 5,
+  "dk-ringkobing": 6,
+  "dk-ribe": 5,
+  "dk-thisted": 3,
+  "dk-vejle": 6,
+  "dk-kobenhavns-amt": 5,
+  "dk-sonderjylland": 7
+ },
+ "names": {
+  "dk-faeroerne": "페로 제도",
+  "dk-t": "보정 의석",
+  "dk-bornholm": "보른홀름",
+  "dk-sondre": "코펜하겐 남부",
+  "dk-ostre": "코펜하겐 동부",
+  "dk-vestre": "코펜하겐 서부",
+  "dk-frederiksborg": "프레데릭스보르",
+  "dk-holbaek": "홀베크",
+  "dk-soro": "소뢰",
+  "dk-praesto": "프레스퇴",
+  "dk-maribo": "마리보",
+  "dk-odense": "오덴세",
+  "dk-svendborg": "스벤보르",
+  "dk-hjorring": "예링",
+  "dk-aalborg": "올보르",
+  "dk-viborg": "비보르",
+  "dk-randers": "라네르스",
+  "dk-aarhus": "오르후스",
+  "dk-skanderborg": "스칸데르보르",
+  "dk-ringkobing": "링쾨빙",
+  "dk-ribe": "리베",
+  "dk-thisted": "티스테드",
+  "dk-vejle": "바일레",
+  "dk-kobenhavns-amt": "코펜하겐 주",
+  "dk-sonderjylland": "쇠네르윌란"
+ },
+ "labels": {
+  "dk-faeroerne": "Færøerne",
+  "dk-t": "Tillægsmandater",
+  "dk-bornholm": "Bornholm",
+  "dk-sondre": "Søndre Storkreds",
+  "dk-ostre": "Østre Storkreds",
+  "dk-vestre": "Vestre Storkreds (Frederiksberg 포함)",
+  "dk-frederiksborg": "Frederiksborg",
+  "dk-holbaek": "Holbæk",
+  "dk-soro": "Sorø",
+  "dk-praesto": "Præstø",
+  "dk-maribo": "Maribo",
+  "dk-odense": "Odense",
+  "dk-svendborg": "Svendborg",
+  "dk-hjorring": "Hjørring",
+  "dk-aalborg": "Aalborg",
+  "dk-viborg": "Viborg",
+  "dk-randers": "Randers",
+  "dk-aarhus": "Aarhus",
+  "dk-skanderborg": "Skanderborg",
+  "dk-ringkobing": "Ringkøbing",
+  "dk-ribe": "Ribe",
+  "dk-thisted": "Thisted",
+  "dk-vejle": "Vejle",
+  "dk-kobenhavns-amt": "Københavns amt",
+  "dk-sonderjylland": "Sønderjylland"
+ },
+ "regionOf": {
+  "dk-faeroerne": "DK",
+  "dk-t": "DK",
+  "dk-bornholm": "DK",
+  "dk-sondre": "DK",
+  "dk-ostre": "DK",
+  "dk-vestre": "DK",
+  "dk-frederiksborg": "DK",
+  "dk-holbaek": "DK",
+  "dk-soro": "DK",
+  "dk-praesto": "DK",
+  "dk-maribo": "DK",
+  "dk-odense": "DK",
+  "dk-svendborg": "DK",
+  "dk-hjorring": "DK",
+  "dk-aalborg": "DK",
+  "dk-viborg": "DK",
+  "dk-randers": "DK",
+  "dk-aarhus": "DK",
+  "dk-skanderborg": "DK",
+  "dk-ringkobing": "DK",
+  "dk-ribe": "DK",
+  "dk-thisted": "DK",
+  "dk-vejle": "DK",
+  "dk-kobenhavns-amt": "DK",
+  "dk-sonderjylland": "DK"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "dk-faeroerne": {
+     "무소속·기타": 1
+    },
+    "dk-t": {
+     "공산당 (K)": 10,
+     "보수인민당 (C)": 9,
+     "사회자유당 (B)": 5,
+     "덴마크 연합": 4,
+     "정의당 (E)": 3
+    },
+    "dk-bornholm": {
+     "자유당 벤스트레 (V)": 1,
+     "사회민주당 (A)": 1
+    },
+    "dk-sondre": {
+     "사회민주당 (A)": 3,
+     "공산당 (K)": 2,
+     "보수인민당 (C)": 1
+    },
+    "dk-ostre": {
+     "사회민주당 (A)": 3,
+     "보수인민당 (C)": 2,
+     "공산당 (K)": 1
+    },
+    "dk-vestre": {
+     "사회민주당 (A)": 3,
+     "보수인민당 (C)": 2,
+     "공산당 (K)": 1
+    },
+    "dk-frederiksborg": {
+     "사회민주당 (A)": 2,
+     "보수인민당 (C)": 1,
+     "자유당 벤스트레 (V)": 1
+    },
+    "dk-holbaek": {
+     "자유당 벤스트레 (V)": 2,
+     "사회자유당 (B)": 1,
+     "사회민주당 (A)": 1
+    },
+    "dk-soro": {
+     "사회민주당 (A)": 2,
+     "보수인민당 (C)": 1,
+     "자유당 벤스트레 (V)": 1
+    },
+    "dk-praesto": {
+     "사회민주당 (A)": 2,
+     "사회자유당 (B)": 1,
+     "자유당 벤스트레 (V)": 1
+    },
+    "dk-maribo": {
+     "사회민주당 (A)": 2,
+     "사회자유당 (B)": 1,
+     "보수인민당 (C)": 1,
+     "자유당 벤스트레 (V)": 1
+    },
+    "dk-odense": {
+     "사회민주당 (A)": 2,
+     "공산당 (K)": 1,
+     "보수인민당 (C)": 1,
+     "자유당 벤스트레 (V)": 2,
+     "사회자유당 (B)": 1
+    },
+    "dk-svendborg": {
+     "자유당 벤스트레 (V)": 2,
+     "보수인민당 (C)": 1,
+     "사회민주당 (A)": 2,
+     "사회자유당 (B)": 1
+    },
+    "dk-hjorring": {
+     "자유당 벤스트레 (V)": 3,
+     "사회민주당 (A)": 2
+    },
+    "dk-aalborg": {
+     "사회민주당 (A)": 2,
+     "보수인민당 (C)": 1,
+     "자유당 벤스트레 (V)": 2,
+     "공산당 (K)": 1
+    },
+    "dk-viborg": {
+     "자유당 벤스트레 (V)": 2,
+     "사회자유당 (B)": 1,
+     "사회민주당 (A)": 2
+    },
+    "dk-randers": {
+     "사회민주당 (A)": 3,
+     "자유당 벤스트레 (V)": 2,
+     "보수인민당 (C)": 1
+    },
+    "dk-aarhus": {
+     "사회민주당 (A)": 2,
+     "공산당 (K)": 1,
+     "자유당 벤스트레 (V)": 1
+    },
+    "dk-skanderborg": {
+     "보수인민당 (C)": 1,
+     "사회민주당 (A)": 2,
+     "자유당 벤스트레 (V)": 2
+    },
+    "dk-ringkobing": {
+     "자유당 벤스트레 (V)": 4,
+     "사회민주당 (A)": 2
+    },
+    "dk-ribe": {
+     "자유당 벤스트레 (V)": 3,
+     "사회민주당 (A)": 2
+    },
+    "dk-thisted": {
+     "자유당 벤스트레 (V)": 2,
+     "사회민주당 (A)": 1
+    },
+    "dk-vejle": {
+     "자유당 벤스트레 (V)": 3,
+     "사회민주당 (A)": 2,
+     "보수인민당 (C)": 1
+    },
+    "dk-kobenhavns-amt": {
+     "보수인민당 (C)": 2,
+     "공산당 (K)": 1,
+     "사회민주당 (A)": 2
+    },
+    "dk-sonderjylland": {
+     "사회민주당 (A)": 3,
+     "자유당 벤스트레 (V)": 3,
+     "보수인민당 (C)": 1
+    }
+   }
+  }
+ ]
+}

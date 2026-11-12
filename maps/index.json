@@ -1031,6 +1031,142 @@
   {
    "id": "pl-pow",
    "folder": "pl-pow"
+  },
+  {
+   "id": "dk-1920a",
+   "folder": "dk-1920a"
+  },
+  {
+   "id": "dk-1920j",
+   "folder": "dk-1920j"
+  },
+  {
+   "id": "dk-1920s",
+   "folder": "dk-1920s"
+  },
+  {
+   "id": "dk-1924",
+   "folder": "dk-1924"
+  },
+  {
+   "id": "dk-1926",
+   "folder": "dk-1926"
+  },
+  {
+   "id": "dk-1929",
+   "folder": "dk-1929"
+  },
+  {
+   "id": "dk-1932",
+   "folder": "dk-1932"
+  },
+  {
+   "id": "dk-1935",
+   "folder": "dk-1935"
+  },
+  {
+   "id": "dk-1939",
+   "folder": "dk-1939"
+  },
+  {
+   "id": "dk-1943",
+   "folder": "dk-1943"
+  },
+  {
+   "id": "dk-1945",
+   "folder": "dk-1945"
+  },
+  {
+   "id": "dk-1947",
+   "folder": "dk-1947"
+  },
+  {
+   "id": "dk-1950",
+   "folder": "dk-1950"
+  },
+  {
+   "id": "dk-1953a",
+   "folder": "dk-1953a"
+  },
+  {
+   "id": "dk-1953s",
+   "folder": "dk-1953s"
+  },
+  {
+   "id": "dk-1957",
+   "folder": "dk-1957"
+  },
+  {
+   "id": "dk-1960",
+   "folder": "dk-1960"
+  },
+  {
+   "id": "dk-1964",
+   "folder": "dk-1964"
+  },
+  {
+   "id": "dk-1966",
+   "folder": "dk-1966"
+  },
+  {
+   "id": "dk-1968",
+   "folder": "dk-1968"
+  },
+  {
+   "id": "dk-1971",
+   "folder": "dk-1971"
+  },
+  {
+   "id": "dk-1973",
+   "folder": "dk-1973"
+  },
+  {
+   "id": "dk-1975",
+   "folder": "dk-1975"
+  },
+  {
+   "id": "dk-1977",
+   "folder": "dk-1977"
+  },
+  {
+   "id": "dk-1979",
+   "folder": "dk-1979"
+  },
+  {
+   "id": "dk-1981",
+   "folder": "dk-1981"
+  },
+  {
+   "id": "dk-1984",
+   "folder": "dk-1984"
+  },
+  {
+   "id": "dk-1987",
+   "folder": "dk-1987"
+  },
+  {
+   "id": "dk-1988",
+   "folder": "dk-1988"
+  },
+  {
+   "id": "dk-1990",
+   "folder": "dk-1990"
+  },
+  {
+   "id": "dk-1994",
+   "folder": "dk-1994"
+  },
+  {
+   "id": "dk-1998",
+   "folder": "dk-1998"
+  },
+  {
+   "id": "dk-regioner",
+   "folder": "dk-regioner"
+  },
+  {
+   "id": "dk-kommuner",
+   "folder": "dk-kommuner"
   }
  ]
 }
