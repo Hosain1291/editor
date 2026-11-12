@@ -1,0 +1,205 @@
+{
+ "id": "cl-sen-1945",
+ "name": "칠레 상원 선거",
+ "subtitle": "1945년 · 이번에 선출된 25석 · 선거가 없던 곳은 0석",
+ "tag": "SENADO 1945",
+ "menuCountry": "칠레",
+ "menuGroup": "칠레 상원 선거",
+ "cardName": "1945",
+ "yearLink": true,
+ "svg": "../cl-sen-1941/map.svg",
+ "width": 560,
+ "height": 2720.1,
+ "regions": {
+  "CL": "칠레"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "전국",
+   "sub": "25석",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    0,
+    0,
+    560,
+    2720.1
+   ],
+   "big": false
+  },
+  {
+   "key": "n",
+   "name": "북부",
+   "sub": "아리카~코킴보",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    -11.8,
+    -7.0,
+    560.0,
+    1047.3
+   ]
+  },
+  {
+   "key": "c",
+   "name": "중부",
+   "sub": "발파라이소~비오비오",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    94.3,
+    1026.2,
+    259.4,
+    463.9
+   ]
+  },
+  {
+   "key": "m",
+   "name": "산티아고 수도권",
+   "sub": "Santiago",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    285.9,
+    1116.2,
+    29.5,
+    28.1
+   ]
+  },
+  {
+   "key": "s",
+   "name": "남부",
+   "sub": "아라우카니아~마가야네스",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    -11.8,
+    1412.8,
+    571.8,
+    1307.3
+   ]
+  }
+ ],
+ "parties": [
+  {
+   "name": "급진당",
+   "color": "#7aa711"
+  },
+  {
+   "name": "자유당",
+   "color": "#0288d1"
+  },
+  {
+   "name": "보수당",
+   "color": "#303f9f"
+  },
+  {
+   "name": "국민진보당 (공산당)",
+   "color": "#cc0000"
+  },
+  {
+   "name": "사회당",
+   "color": "#8f00b3"
+  },
+  {
+   "name": "민주주의당",
+   "color": "#9e9d24"
+  },
+  {
+   "name": "진보자유당",
+   "color": "#4fc3f7"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "s-atacama-y-coquimbo": 0,
+  "s-santiago": 0,
+  "s-curico-talca-maule-y-linares": 0,
+  "s-bio-bio-malleco-y-cautin": 0,
+  "s-aconcagua-y-valparaiso": 5,
+  "s-ohiggins-y-colchagua": 5,
+  "s-tarapaca-y-antofagasta": 5,
+  "s-valdivia-osorno-llanquihue-chiloe-aysen-y-magallanes": 5,
+  "s-nuble-concepcion-y-arauco": 5
+ },
+ "names": {
+  "s-atacama-y-coquimbo": "Atacama y Coquimbo",
+  "s-santiago": "Santiago",
+  "s-curico-talca-maule-y-linares": "Curicó, Talca, Maule y Linares",
+  "s-bio-bio-malleco-y-cautin": "Bío-Bío, Malleco y Cautín",
+  "s-aconcagua-y-valparaiso": "Aconcagua y Valparaíso",
+  "s-ohiggins-y-colchagua": "O'Higgins y Colchagua",
+  "s-tarapaca-y-antofagasta": "Tarapacá y Antofagasta",
+  "s-valdivia-osorno-llanquihue-chiloe-aysen-y-magallanes": "Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes",
+  "s-nuble-concepcion-y-arauco": "Ñuble, Concepción y Arauco"
+ },
+ "labels": {
+  "s-atacama-y-coquimbo": "Atacama y Coquimbo",
+  "s-santiago": "Santiago",
+  "s-curico-talca-maule-y-linares": "Curicó, Talca, Maule y Linares",
+  "s-bio-bio-malleco-y-cautin": "Bío-Bío, Malleco y Cautín",
+  "s-aconcagua-y-valparaiso": "Aconcagua y Valparaíso",
+  "s-ohiggins-y-colchagua": "O'Higgins y Colchagua",
+  "s-tarapaca-y-antofagasta": "Tarapacá y Antofagasta",
+  "s-valdivia-osorno-llanquihue-chiloe-aysen-y-magallanes": "Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes",
+  "s-nuble-concepcion-y-arauco": "Ñuble, Concepción y Arauco"
+ },
+ "regionOf": {
+  "s-atacama-y-coquimbo": "CL",
+  "s-santiago": "CL",
+  "s-curico-talca-maule-y-linares": "CL",
+  "s-bio-bio-malleco-y-cautin": "CL",
+  "s-aconcagua-y-valparaiso": "CL",
+  "s-ohiggins-y-colchagua": "CL",
+  "s-tarapaca-y-antofagasta": "CL",
+  "s-valdivia-osorno-llanquihue-chiloe-aysen-y-magallanes": "CL",
+  "s-nuble-concepcion-y-arauco": "CL"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "s-tarapaca-y-antofagasta": {
+     "자유당": 1,
+     "국민진보당 (공산당)": 2,
+     "급진당": 2
+    },
+    "s-aconcagua-y-valparaiso": {
+     "보수당": 2,
+     "자유당": 1,
+     "사회당": 1,
+     "급진당": 1
+    },
+    "s-ohiggins-y-colchagua": {
+     "보수당": 2,
+     "자유당": 2,
+     "급진당": 1
+    },
+    "s-nuble-concepcion-y-arauco": {
+     "자유당": 1,
+     "보수당": 1,
+     "급진당": 1,
+     "민주주의당": 1,
+     "국민진보당 (공산당)": 1
+    },
+    "s-valdivia-osorno-llanquihue-chiloe-aysen-y-magallanes": {
+     "자유당": 1,
+     "진보자유당": 1,
+     "사회당": 1,
+     "급진당": 2
+    },
+    "s-atacama-y-coquimbo": {},
+    "s-santiago": {},
+    "s-curico-talca-maule-y-linares": {},
+    "s-bio-bio-malleco-y-cautin": {}
+   }
+  }
+ ]
+}

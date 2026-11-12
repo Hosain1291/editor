@@ -1179,6 +1179,126 @@
   {
    "id": "dk-kommuner",
    "folder": "dk-kommuner"
+  },
+  {
+   "id": "cl-dip-1937",
+   "folder": "cl-dip-1937"
+  },
+  {
+   "id": "cl-dip-1941",
+   "folder": "cl-dip-1941"
+  },
+  {
+   "id": "cl-dip-1945",
+   "folder": "cl-dip-1945"
+  },
+  {
+   "id": "cl-dip-1949",
+   "folder": "cl-dip-1949"
+  },
+  {
+   "id": "cl-dip-1953",
+   "folder": "cl-dip-1953"
+  },
+  {
+   "id": "cl-dip-1957",
+   "folder": "cl-dip-1957"
+  },
+  {
+   "id": "cl-dip-1961",
+   "folder": "cl-dip-1961"
+  },
+  {
+   "id": "cl-dip-1965",
+   "folder": "cl-dip-1965"
+  },
+  {
+   "id": "cl-dip-1969",
+   "folder": "cl-dip-1969"
+  },
+  {
+   "id": "cl-dip-1973",
+   "folder": "cl-dip-1973"
+  },
+  {
+   "id": "cl-dip-1989",
+   "folder": "cl-dip-1989"
+  },
+  {
+   "id": "cl-dip-1993",
+   "folder": "cl-dip-1993"
+  },
+  {
+   "id": "cl-dip-1997",
+   "folder": "cl-dip-1997"
+  },
+  {
+   "id": "cl-dip-2001",
+   "folder": "cl-dip-2001"
+  },
+  {
+   "id": "cl-sen-1937",
+   "folder": "cl-sen-1937"
+  },
+  {
+   "id": "cl-sen-1941",
+   "folder": "cl-sen-1941"
+  },
+  {
+   "id": "cl-sen-1945",
+   "folder": "cl-sen-1945"
+  },
+  {
+   "id": "cl-sen-1949",
+   "folder": "cl-sen-1949"
+  },
+  {
+   "id": "cl-sen-1953",
+   "folder": "cl-sen-1953"
+  },
+  {
+   "id": "cl-sen-1957",
+   "folder": "cl-sen-1957"
+  },
+  {
+   "id": "cl-sen-1961",
+   "folder": "cl-sen-1961"
+  },
+  {
+   "id": "cl-sen-1965",
+   "folder": "cl-sen-1965"
+  },
+  {
+   "id": "cl-sen-1969",
+   "folder": "cl-sen-1969"
+  },
+  {
+   "id": "cl-sen-1973",
+   "folder": "cl-sen-1973"
+  },
+  {
+   "id": "cl-sen-1989",
+   "folder": "cl-sen-1989"
+  },
+  {
+   "id": "cl-sen-1993",
+   "folder": "cl-sen-1993"
+  },
+  {
+   "id": "cl-sen-1997",
+   "folder": "cl-sen-1997"
+  },
+  {
+   "id": "cl-sen-2001",
+   "folder": "cl-sen-2001"
+  },
+  {
+   "id": "cl-reg",
+   "folder": "cl-reg"
+  },
+  {
+   "id": "cl-com",
+   "folder": "cl-com"
   }
  ]
 }

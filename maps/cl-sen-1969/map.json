@@ -1,0 +1,211 @@
+{
+ "id": "cl-sen-1969",
+ "name": "칠레 상원 선거",
+ "subtitle": "1969년 · 이번에 선출된 30석 · 선거가 없던 곳은 0석",
+ "tag": "SENADO 1969",
+ "menuCountry": "칠레",
+ "menuGroup": "칠레 상원 선거",
+ "cardName": "1969",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 560,
+ "height": 2720.1,
+ "regions": {
+  "CL": "칠레"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "전국",
+   "sub": "30석",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    0,
+    0,
+    560,
+    2720.1
+   ],
+   "big": false
+  },
+  {
+   "key": "n",
+   "name": "북부",
+   "sub": "아리카~코킴보",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    -11.8,
+    -7.0,
+    560.0,
+    1047.3
+   ]
+  },
+  {
+   "key": "c",
+   "name": "중부",
+   "sub": "발파라이소~비오비오",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    94.3,
+    1026.2,
+    259.4,
+    463.9
+   ]
+  },
+  {
+   "key": "m",
+   "name": "산티아고 수도권",
+   "sub": "Santiago",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    285.9,
+    1116.2,
+    29.5,
+    28.1
+   ]
+  },
+  {
+   "key": "s",
+   "name": "남부",
+   "sub": "아라우카니아~마가야네스",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    -11.8,
+    1412.8,
+    571.8,
+    1307.3
+   ]
+  }
+ ],
+ "parties": [
+  {
+   "name": "기독민주당",
+   "color": "#f6cf71"
+  },
+  {
+   "name": "급진당",
+   "color": "#7aa711"
+  },
+  {
+   "name": "국민당",
+   "color": "#1a237e"
+  },
+  {
+   "name": "공산당",
+   "color": "#cc0000"
+  },
+  {
+   "name": "사회당",
+   "color": "#8f00b3"
+  },
+  {
+   "name": "인민사회연합",
+   "color": "#8e24aa"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "s-aconcagua-y-valparaiso": 5,
+  "s-chiloe-aysen-y-magallanes": 5,
+  "s-ohiggins-y-colchagua": 5,
+  "s-tarapaca-y-antofagasta": 5,
+  "s-valdivia-osorno-y-llanquihue": 5,
+  "s-nuble-concepcion-y-arauco": 5,
+  "s-atacama-y-coquimbo": 0,
+  "s-santiago": 0,
+  "s-curico-talca-maule-y-linares": 0,
+  "s-bio-bio-malleco-y-cautin": 0
+ },
+ "names": {
+  "s-aconcagua-y-valparaiso": "Aconcagua y Valparaíso",
+  "s-chiloe-aysen-y-magallanes": "Chiloé, Aysén y Magallanes",
+  "s-ohiggins-y-colchagua": "O'Higgins y Colchagua",
+  "s-tarapaca-y-antofagasta": "Tarapacá y Antofagasta",
+  "s-valdivia-osorno-y-llanquihue": "Valdivia, Osorno y Llanquihue",
+  "s-nuble-concepcion-y-arauco": "Ñuble, Concepción y Arauco",
+  "s-atacama-y-coquimbo": "Atacama y Coquimbo",
+  "s-santiago": "Santiago",
+  "s-curico-talca-maule-y-linares": "Curicó, Talca, Maule y Linares",
+  "s-bio-bio-malleco-y-cautin": "Bío-Bío, Malleco y Cautín"
+ },
+ "labels": {
+  "s-aconcagua-y-valparaiso": "Aconcagua y Valparaíso",
+  "s-chiloe-aysen-y-magallanes": "Chiloé, Aysén y Magallanes",
+  "s-ohiggins-y-colchagua": "O'Higgins y Colchagua",
+  "s-tarapaca-y-antofagasta": "Tarapacá y Antofagasta",
+  "s-valdivia-osorno-y-llanquihue": "Valdivia, Osorno y Llanquihue",
+  "s-nuble-concepcion-y-arauco": "Ñuble, Concepción y Arauco",
+  "s-atacama-y-coquimbo": "Atacama y Coquimbo",
+  "s-santiago": "Santiago",
+  "s-curico-talca-maule-y-linares": "Curicó, Talca, Maule y Linares",
+  "s-bio-bio-malleco-y-cautin": "Bío-Bío, Malleco y Cautín"
+ },
+ "regionOf": {
+  "s-aconcagua-y-valparaiso": "CL",
+  "s-chiloe-aysen-y-magallanes": "CL",
+  "s-ohiggins-y-colchagua": "CL",
+  "s-tarapaca-y-antofagasta": "CL",
+  "s-valdivia-osorno-y-llanquihue": "CL",
+  "s-nuble-concepcion-y-arauco": "CL",
+  "s-atacama-y-coquimbo": "CL",
+  "s-santiago": "CL",
+  "s-curico-talca-maule-y-linares": "CL",
+  "s-bio-bio-malleco-y-cautin": "CL"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "s-tarapaca-y-antofagasta": {
+     "공산당": 2,
+     "인민사회연합": 1,
+     "기독민주당": 2
+    },
+    "s-aconcagua-y-valparaiso": {
+     "공산당": 1,
+     "기독민주당": 2,
+     "급진당": 1,
+     "국민당": 1
+    },
+    "s-ohiggins-y-colchagua": {
+     "사회당": 1,
+     "기독민주당": 2,
+     "급진당": 1,
+     "국민당": 1
+    },
+    "s-nuble-concepcion-y-arauco": {
+     "공산당": 1,
+     "기독민주당": 2,
+     "급진당": 1,
+     "국민당": 1
+    },
+    "s-valdivia-osorno-y-llanquihue": {
+     "사회당": 1,
+     "기독민주당": 2,
+     "급진당": 1,
+     "국민당": 1
+    },
+    "s-chiloe-aysen-y-magallanes": {
+     "사회당": 1,
+     "기독민주당": 2,
+     "급진당": 1,
+     "국민당": 1
+    },
+    "s-atacama-y-coquimbo": {},
+    "s-santiago": {},
+    "s-curico-talca-maule-y-linares": {},
+    "s-bio-bio-malleco-y-cautin": {}
+   }
+  }
+ ]
+}

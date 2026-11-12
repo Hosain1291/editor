@@ -1,0 +1,129 @@
+{
+ "id": "cl-reg",
+ "name": "칠레 16개 주",
+ "subtitle": "현재 행정구역 · 주(región)별 1위 정당",
+ "tag": "REGIONES",
+ "menuCountry": "칠레",
+ "menuGroup": "칠레 현재 행정구역",
+ "cardName": "16개 주 (región)",
+ "menuLabel": "지도를 고르세요",
+ "svg": "map.svg",
+ "width": 560,
+ "height": 2720.1,
+ "regions": {
+  "CL": "칠레"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "16개 주",
+   "sub": "각 주의 1위 정당을 칠하세요",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    0,
+    0,
+    560,
+    2720.1
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "독립민주연합",
+   "color": "#303f9f"
+  },
+  {
+   "name": "기독민주당",
+   "color": "#f6cf71"
+  },
+  {
+   "name": "민주주의를 위한 당",
+   "color": "#f66fdb"
+  },
+  {
+   "name": "국민혁신",
+   "color": "#0288d1"
+  },
+  {
+   "name": "사회당",
+   "color": "#8f00b3"
+  },
+  {
+   "name": "무소속 (우파 연합)",
+   "color": "#9fa8da"
+  },
+  {
+   "name": "사회민주급진당",
+   "color": "#7aa711"
+  },
+  {
+   "name": "무소속 (콘세르타시온)",
+   "color": "#b5c99a"
+  },
+  {
+   "name": "무소속",
+   "color": "#9e9e9e"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {},
+ "names": {
+  "r01": "타라파카 주",
+  "r02": "안토파가스타 주",
+  "r03": "아타카마 주",
+  "r04": "코킴보 주",
+  "r05": "발파라이소 주",
+  "r06": "오이긴스 주",
+  "r07": "마울레 주",
+  "r08": "비오비오 주",
+  "r09": "아라우카니아 주",
+  "r10": "로스라고스 주",
+  "r11": "아이센 주",
+  "r12": "마가야네스 주",
+  "r13": "산티아고 수도주",
+  "r14": "로스리오스 주",
+  "r15": "아리카이파리나코타 주",
+  "r16": "뉴블레 주"
+ },
+ "labels": {
+  "r01": "Tarapacá",
+  "r02": "Antofagasta",
+  "r03": "Atacama",
+  "r04": "Coquimbo",
+  "r05": "Valparaíso",
+  "r06": "Libertador Bernardo O'Higgins",
+  "r07": "Maule",
+  "r08": "Bío-Bío",
+  "r09": "La Araucanía",
+  "r10": "Los Lagos",
+  "r11": "Aysén del Gral.Ibañez del Campo",
+  "r12": "Magallanes y Antártica Chilena",
+  "r13": "Metropolitana de Santiago",
+  "r14": "Los Ríos",
+  "r15": "Arica y Parinacota",
+  "r16": "Ñuble"
+ },
+ "regionOf": {
+  "r01": "CL",
+  "r02": "CL",
+  "r03": "CL",
+  "r04": "CL",
+  "r05": "CL",
+  "r06": "CL",
+  "r07": "CL",
+  "r08": "CL",
+  "r09": "CL",
+  "r10": "CL",
+  "r11": "CL",
+  "r12": "CL",
+  "r13": "CL",
+  "r14": "CL",
+  "r15": "CL",
+  "r16": "CL"
+ },
+ "labelName": true
+}

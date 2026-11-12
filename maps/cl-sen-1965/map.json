@@ -1,0 +1,190 @@
+{
+ "id": "cl-sen-1965",
+ "name": "칠레 상원 선거",
+ "subtitle": "1965년 · 이번에 선출된 20석 · 선거가 없던 곳은 0석",
+ "tag": "SENADO 1965",
+ "menuCountry": "칠레",
+ "menuGroup": "칠레 상원 선거",
+ "cardName": "1965",
+ "yearLink": true,
+ "svg": "../cl-sen-1941/map.svg",
+ "width": 560,
+ "height": 2720.1,
+ "regions": {
+  "CL": "칠레"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "전국",
+   "sub": "20석",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    0,
+    0,
+    560,
+    2720.1
+   ],
+   "big": false
+  },
+  {
+   "key": "n",
+   "name": "북부",
+   "sub": "아리카~코킴보",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    -11.8,
+    -7.0,
+    560.0,
+    1047.3
+   ]
+  },
+  {
+   "key": "c",
+   "name": "중부",
+   "sub": "발파라이소~비오비오",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    94.3,
+    1026.2,
+    259.4,
+    463.9
+   ]
+  },
+  {
+   "key": "m",
+   "name": "산티아고 수도권",
+   "sub": "Santiago",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    285.9,
+    1116.2,
+    29.5,
+    28.1
+   ]
+  },
+  {
+   "key": "s",
+   "name": "남부",
+   "sub": "아라우카니아~마가야네스",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    -11.8,
+    1412.8,
+    571.8,
+    1307.3
+   ]
+  }
+ ],
+ "parties": [
+  {
+   "name": "기독민주당",
+   "color": "#f6cf71"
+  },
+  {
+   "name": "사회당",
+   "color": "#8f00b3"
+  },
+  {
+   "name": "급진당",
+   "color": "#7aa711"
+  },
+  {
+   "name": "공산당",
+   "color": "#cc0000"
+  },
+  {
+   "name": "국민민주당 (PADENA)",
+   "color": "#fb37a3"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "s-atacama-y-coquimbo": 5,
+  "s-santiago": 5,
+  "s-curico-talca-maule-y-linares": 5,
+  "s-bio-bio-malleco-y-cautin": 5,
+  "s-aconcagua-y-valparaiso": 0,
+  "s-ohiggins-y-colchagua": 0,
+  "s-tarapaca-y-antofagasta": 0,
+  "s-valdivia-osorno-llanquihue-chiloe-aysen-y-magallanes": 0,
+  "s-nuble-concepcion-y-arauco": 0
+ },
+ "names": {
+  "s-atacama-y-coquimbo": "Atacama y Coquimbo",
+  "s-santiago": "Santiago",
+  "s-curico-talca-maule-y-linares": "Curicó, Talca, Maule y Linares",
+  "s-bio-bio-malleco-y-cautin": "Bío-Bío, Malleco y Cautín",
+  "s-aconcagua-y-valparaiso": "Aconcagua y Valparaíso",
+  "s-ohiggins-y-colchagua": "O'Higgins y Colchagua",
+  "s-tarapaca-y-antofagasta": "Tarapacá y Antofagasta",
+  "s-valdivia-osorno-llanquihue-chiloe-aysen-y-magallanes": "Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes",
+  "s-nuble-concepcion-y-arauco": "Ñuble, Concepción y Arauco"
+ },
+ "labels": {
+  "s-atacama-y-coquimbo": "Atacama y Coquimbo",
+  "s-santiago": "Santiago",
+  "s-curico-talca-maule-y-linares": "Curicó, Talca, Maule y Linares",
+  "s-bio-bio-malleco-y-cautin": "Bío-Bío, Malleco y Cautín",
+  "s-aconcagua-y-valparaiso": "Aconcagua y Valparaíso",
+  "s-ohiggins-y-colchagua": "O'Higgins y Colchagua",
+  "s-tarapaca-y-antofagasta": "Tarapacá y Antofagasta",
+  "s-valdivia-osorno-llanquihue-chiloe-aysen-y-magallanes": "Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes",
+  "s-nuble-concepcion-y-arauco": "Ñuble, Concepción y Arauco"
+ },
+ "regionOf": {
+  "s-atacama-y-coquimbo": "CL",
+  "s-santiago": "CL",
+  "s-curico-talca-maule-y-linares": "CL",
+  "s-bio-bio-malleco-y-cautin": "CL",
+  "s-aconcagua-y-valparaiso": "CL",
+  "s-ohiggins-y-colchagua": "CL",
+  "s-tarapaca-y-antofagasta": "CL",
+  "s-valdivia-osorno-llanquihue-chiloe-aysen-y-magallanes": "CL",
+  "s-nuble-concepcion-y-arauco": "CL"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "s-atacama-y-coquimbo": {
+     "공산당": 1,
+     "사회당": 1,
+     "기독민주당": 2,
+     "급진당": 1
+    },
+    "s-santiago": {
+     "공산당": 1,
+     "사회당": 1,
+     "기독민주당": 3
+    },
+    "s-curico-talca-maule-y-linares": {
+     "사회당": 1,
+     "기독민주당": 3,
+     "급진당": 1
+    },
+    "s-bio-bio-malleco-y-cautin": {
+     "국민민주당 (PADENA)": 1,
+     "기독민주당": 3,
+     "급진당": 1
+    },
+    "s-aconcagua-y-valparaiso": {},
+    "s-ohiggins-y-colchagua": {},
+    "s-tarapaca-y-antofagasta": {},
+    "s-valdivia-osorno-llanquihue-chiloe-aysen-y-magallanes": {},
+    "s-nuble-concepcion-y-arauco": {}
+   }
+  }
+ ]
+}

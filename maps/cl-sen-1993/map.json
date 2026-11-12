@@ -1,0 +1,254 @@
+{
+ "id": "cl-sen-1993",
+ "name": "칠레 상원 선거",
+ "subtitle": "1993년 · 이번에 선출된 18석 (지명·종신 의원 제외) · 선거가 없던 곳은 0석",
+ "tag": "SENADO 1993",
+ "menuCountry": "칠레",
+ "menuGroup": "칠레 상원 선거",
+ "cardName": "1993",
+ "yearLink": true,
+ "svg": "../cl-sen-1989/map.svg",
+ "width": 560,
+ "height": 2720.1,
+ "regions": {
+  "CL": "칠레"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "전국",
+   "sub": "18석",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    0,
+    0,
+    560,
+    2720.1
+   ],
+   "big": false
+  },
+  {
+   "key": "n",
+   "name": "북부",
+   "sub": "아리카~코킴보",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    -11.8,
+    -7.0,
+    560.0,
+    1047.3
+   ]
+  },
+  {
+   "key": "c",
+   "name": "중부",
+   "sub": "발파라이소~비오비오",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    94.3,
+    1026.2,
+    259.4,
+    463.9
+   ]
+  },
+  {
+   "key": "m",
+   "name": "산티아고 수도권",
+   "sub": "Santiago",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    285.9,
+    1116.2,
+    29.5,
+    28.1
+   ]
+  },
+  {
+   "key": "s",
+   "name": "남부",
+   "sub": "아라우카니아~마가야네스",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    -11.8,
+    1412.8,
+    571.8,
+    1307.3
+   ]
+  }
+ ],
+ "parties": [
+  {
+   "name": "국민혁신",
+   "color": "#0288d1"
+  },
+  {
+   "name": "기독민주당",
+   "color": "#f6cf71"
+  },
+  {
+   "name": "사회당",
+   "color": "#8f00b3"
+  },
+  {
+   "name": "민주주의를 위한 당",
+   "color": "#f66fdb"
+  },
+  {
+   "name": "독립민주연합",
+   "color": "#303f9f"
+  },
+  {
+   "name": "무소속 (우파 연합)",
+   "color": "#9fa8da"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "s-tarapaca": 2,
+  "s-antofagasta": 0,
+  "s-atacama": 2,
+  "s-coquimbo": 0,
+  "s-valparaiso-cordillera": 2,
+  "s-valparaiso-costa": 2,
+  "s-santiago-poniente": 0,
+  "s-santiago-oriente": 0,
+  "s-ohiggins": 0,
+  "s-maule-norte": 2,
+  "s-maule-sur": 2,
+  "s-bio-bio-costa": 0,
+  "s-bio-bio-cordillera": 0,
+  "s-araucania-norte": 2,
+  "s-araucania-sur": 2,
+  "s-los-lagos-norte": 0,
+  "s-los-lagos-sur": 0,
+  "s-aysen": 2,
+  "s-magallanes": 0
+ },
+ "names": {
+  "s-tarapaca": "Tarapacá",
+  "s-antofagasta": "Antofagasta",
+  "s-atacama": "Atacama",
+  "s-coquimbo": "Coquimbo",
+  "s-valparaiso-cordillera": "Valparaíso Cordillera",
+  "s-valparaiso-costa": "Valparaíso Costa",
+  "s-santiago-poniente": "Santiago Poniente",
+  "s-santiago-oriente": "Santiago Oriente",
+  "s-ohiggins": "O'Higgins",
+  "s-maule-norte": "Maule Norte",
+  "s-maule-sur": "Maule Sur",
+  "s-bio-bio-costa": "Bío-Bío Costa",
+  "s-bio-bio-cordillera": "Bío-Bío Cordillera",
+  "s-araucania-norte": "Araucanía Norte",
+  "s-araucania-sur": "Araucanía Sur",
+  "s-los-lagos-norte": "Los Lagos Norte",
+  "s-los-lagos-sur": "Los Lagos Sur",
+  "s-aysen": "Aysén",
+  "s-magallanes": "Magallanes"
+ },
+ "labels": {
+  "s-tarapaca": "Tarapacá",
+  "s-antofagasta": "Antofagasta",
+  "s-atacama": "Atacama",
+  "s-coquimbo": "Coquimbo",
+  "s-valparaiso-cordillera": "Valparaíso Cordillera",
+  "s-valparaiso-costa": "Valparaíso Costa",
+  "s-santiago-poniente": "Santiago Poniente",
+  "s-santiago-oriente": "Santiago Oriente",
+  "s-ohiggins": "O'Higgins",
+  "s-maule-norte": "Maule Norte",
+  "s-maule-sur": "Maule Sur",
+  "s-bio-bio-costa": "Bío-Bío Costa",
+  "s-bio-bio-cordillera": "Bío-Bío Cordillera",
+  "s-araucania-norte": "Araucanía Norte",
+  "s-araucania-sur": "Araucanía Sur",
+  "s-los-lagos-norte": "Los Lagos Norte",
+  "s-los-lagos-sur": "Los Lagos Sur",
+  "s-aysen": "Aysén",
+  "s-magallanes": "Magallanes"
+ },
+ "regionOf": {
+  "s-tarapaca": "CL",
+  "s-antofagasta": "CL",
+  "s-atacama": "CL",
+  "s-coquimbo": "CL",
+  "s-valparaiso-cordillera": "CL",
+  "s-valparaiso-costa": "CL",
+  "s-santiago-poniente": "CL",
+  "s-santiago-oriente": "CL",
+  "s-ohiggins": "CL",
+  "s-maule-norte": "CL",
+  "s-maule-sur": "CL",
+  "s-bio-bio-costa": "CL",
+  "s-bio-bio-cordillera": "CL",
+  "s-araucania-norte": "CL",
+  "s-araucania-sur": "CL",
+  "s-los-lagos-norte": "CL",
+  "s-los-lagos-sur": "CL",
+  "s-aysen": "CL",
+  "s-magallanes": "CL"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "s-tarapaca": {
+     "민주주의를 위한 당": 1,
+     "국민혁신": 1
+    },
+    "s-atacama": {
+     "사회당": 1,
+     "국민혁신": 1
+    },
+    "s-valparaiso-cordillera": {
+     "사회당": 1,
+     "국민혁신": 1
+    },
+    "s-valparaiso-costa": {
+     "기독민주당": 1,
+     "독립민주연합": 1
+    },
+    "s-maule-norte": {
+     "사회당": 1,
+     "무소속 (우파 연합)": 1
+    },
+    "s-maule-sur": {
+     "기독민주당": 1,
+     "독립민주연합": 1
+    },
+    "s-araucania-norte": {
+     "민주주의를 위한 당": 1,
+     "국민혁신": 1
+    },
+    "s-araucania-sur": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "s-aysen": {
+     "기독민주당": 1,
+     "무소속 (우파 연합)": 1
+    },
+    "s-antofagasta": {},
+    "s-coquimbo": {},
+    "s-santiago-poniente": {},
+    "s-santiago-oriente": {},
+    "s-ohiggins": {},
+    "s-bio-bio-costa": {},
+    "s-bio-bio-cordillera": {},
+    "s-los-lagos-norte": {},
+    "s-los-lagos-sur": {},
+    "s-magallanes": {}
+   }
+  }
+ ]
+}

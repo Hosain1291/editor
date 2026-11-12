@@ -1,0 +1,423 @@
+{
+ "id": "cl-dip-1937",
+ "name": "칠레 하원 선거",
+ "subtitle": "1937년 · 146석 · 과반 74",
+ "tag": "DIPUTADOS 1937",
+ "menuCountry": "칠레",
+ "menuGroup": "칠레 하원(대의원원) 선거",
+ "cardName": "1937",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 560,
+ "height": 2720.1,
+ "regions": {
+  "CL": "칠레"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "전국",
+   "sub": "146석",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    0,
+    0,
+    560,
+    2720.1
+   ],
+   "big": false
+  },
+  {
+   "key": "n",
+   "name": "북부",
+   "sub": "아리카~코킴보",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    -11.8,
+    -7.0,
+    560.0,
+    1047.3
+   ]
+  },
+  {
+   "key": "c",
+   "name": "중부",
+   "sub": "발파라이소~비오비오",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    94.3,
+    1026.2,
+    259.4,
+    463.9
+   ]
+  },
+  {
+   "key": "m",
+   "name": "산티아고 수도권",
+   "sub": "Santiago",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    285.9,
+    1116.2,
+    29.5,
+    28.1
+   ]
+  },
+  {
+   "key": "s",
+   "name": "남부",
+   "sub": "아라우카니아~마가야네스",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    -11.8,
+    1412.8,
+    571.8,
+    1307.3
+   ]
+  }
+ ],
+ "parties": [
+  {
+   "name": "보수당",
+   "color": "#303f9f"
+  },
+  {
+   "name": "자유당",
+   "color": "#0288d1"
+  },
+  {
+   "name": "급진당",
+   "color": "#7aa711"
+  },
+  {
+   "name": "사회당",
+   "color": "#8f00b3"
+  },
+  {
+   "name": "민주당",
+   "color": "#c0ca33"
+  },
+  {
+   "name": "국민민주당",
+   "color": "#827717"
+  },
+  {
+   "name": "민주주의당",
+   "color": "#9e9d24"
+  },
+  {
+   "name": "무소속",
+   "color": "#9e9e9e"
+  },
+  {
+   "name": "국가사회주의운동",
+   "color": "#000000"
+  },
+  {
+   "name": "아라우코당",
+   "color": "#8d6e63"
+  },
+  {
+   "name": "농민당",
+   "color": "#558b2f"
+  },
+  {
+   "name": "사회급진당",
+   "color": "#aed581"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "d-aconcagua": 3,
+  "d-antofagasta": 7,
+  "d-arauco": 2,
+  "d-atacama": 2,
+  "d-bio-bio": 6,
+  "d-cautin": 9,
+  "d-chiloe": 3,
+  "d-colchagua": 4,
+  "d-concepcion": 9,
+  "d-coquimbo": 7,
+  "d-curico": 3,
+  "d-linares": 4,
+  "d-llanquihue-y-aysen": 3,
+  "d-magallanes": 1,
+  "d-malleco": 4,
+  "d-maule": 3,
+  "d-ohiggins": 6,
+  "d-santiago-1": 18,
+  "d-santiago-2": 5,
+  "d-santiago-3": 5,
+  "d-santiago-4": 5,
+  "d-talca": 5,
+  "d-tarapaca": 4,
+  "d-valdivia": 8,
+  "d-valparaiso": 12,
+  "d-nuble-1": 3,
+  "d-nuble-2": 5
+ },
+ "names": {
+  "d-aconcagua": "Aconcagua",
+  "d-antofagasta": "Antofagasta",
+  "d-arauco": "Arauco",
+  "d-atacama": "Atacama",
+  "d-bio-bio": "Bío 제Bío구",
+  "d-cautin": "Cautín",
+  "d-chiloe": "Chiloé",
+  "d-colchagua": "Colchagua",
+  "d-concepcion": "Concepción",
+  "d-coquimbo": "Coquimbo",
+  "d-curico": "Curicó",
+  "d-linares": "Linares",
+  "d-llanquihue-y-aysen": "Llanquihue y Aysén",
+  "d-magallanes": "Magallanes",
+  "d-malleco": "Malleco",
+  "d-maule": "Maule",
+  "d-ohiggins": "O'Higgins",
+  "d-santiago-1": "Santiago 제1구",
+  "d-santiago-2": "Santiago 제2구",
+  "d-santiago-3": "Santiago 제3구",
+  "d-santiago-4": "Santiago 제4구",
+  "d-talca": "Talca",
+  "d-tarapaca": "Tarapacá",
+  "d-valdivia": "Valdivia",
+  "d-valparaiso": "Valparaíso",
+  "d-nuble-1": "Ñuble 제1구",
+  "d-nuble-2": "Ñuble 제2구"
+ },
+ "labels": {
+  "d-aconcagua": "Aconcagua",
+  "d-antofagasta": "Antofagasta",
+  "d-arauco": "Arauco",
+  "d-atacama": "Atacama",
+  "d-bio-bio": "Bío Bío",
+  "d-cautin": "Cautín",
+  "d-chiloe": "Chiloé",
+  "d-colchagua": "Colchagua",
+  "d-concepcion": "Concepción",
+  "d-coquimbo": "Coquimbo",
+  "d-curico": "Curicó",
+  "d-linares": "Linares",
+  "d-llanquihue-y-aysen": "Llanquihue y Aysén",
+  "d-magallanes": "Magallanes",
+  "d-malleco": "Malleco",
+  "d-maule": "Maule",
+  "d-ohiggins": "O'Higgins",
+  "d-santiago-1": "Santiago 1",
+  "d-santiago-2": "Santiago 2",
+  "d-santiago-3": "Santiago 3",
+  "d-santiago-4": "Santiago 4",
+  "d-talca": "Talca",
+  "d-tarapaca": "Tarapacá",
+  "d-valdivia": "Valdivia",
+  "d-valparaiso": "Valparaíso",
+  "d-nuble-1": "Ñuble 1",
+  "d-nuble-2": "Ñuble 2"
+ },
+ "regionOf": {
+  "d-aconcagua": "CL",
+  "d-antofagasta": "CL",
+  "d-arauco": "CL",
+  "d-atacama": "CL",
+  "d-bio-bio": "CL",
+  "d-cautin": "CL",
+  "d-chiloe": "CL",
+  "d-colchagua": "CL",
+  "d-concepcion": "CL",
+  "d-coquimbo": "CL",
+  "d-curico": "CL",
+  "d-linares": "CL",
+  "d-llanquihue-y-aysen": "CL",
+  "d-magallanes": "CL",
+  "d-malleco": "CL",
+  "d-maule": "CL",
+  "d-ohiggins": "CL",
+  "d-santiago-1": "CL",
+  "d-santiago-2": "CL",
+  "d-santiago-3": "CL",
+  "d-santiago-4": "CL",
+  "d-talca": "CL",
+  "d-tarapaca": "CL",
+  "d-valdivia": "CL",
+  "d-valparaiso": "CL",
+  "d-nuble-1": "CL",
+  "d-nuble-2": "CL"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "d-tarapaca": {
+     "급진당": 1,
+     "국민민주당": 1,
+     "사회당": 1,
+     "무소속": 1
+    },
+    "d-antofagasta": {
+     "급진당": 2,
+     "국민민주당": 1,
+     "사회당": 1,
+     "보수당": 1,
+     "자유당": 1,
+     "무소속": 1
+    },
+    "d-atacama": {
+     "급진당": 1,
+     "자유당": 1
+    },
+    "d-coquimbo": {
+     "급진당": 3,
+     "사회당": 1,
+     "자유당": 2,
+     "보수당": 1
+    },
+    "d-aconcagua": {
+     "급진당": 1,
+     "보수당": 2
+    },
+    "d-valparaiso": {
+     "사회당": 3,
+     "급진당": 2,
+     "국민민주당": 1,
+     "보수당": 3,
+     "자유당": 2,
+     "국가사회주의운동": 1
+    },
+    "d-santiago-1": {
+     "사회당": 3,
+     "국민민주당": 2,
+     "급진당": 3,
+     "민주주의당": 1,
+     "사회급진당": 1,
+     "민주당": 1,
+     "자유당": 2,
+     "보수당": 3,
+     "아라우코당": 1,
+     "국가사회주의운동": 1
+    },
+    "d-santiago-2": {
+     "민주주의당": 1,
+     "국민민주당": 1,
+     "사회당": 1,
+     "보수당": 2
+    },
+    "d-santiago-3": {
+     "급진당": 1,
+     "사회당": 1,
+     "보수당": 2,
+     "자유당": 1
+    },
+    "d-santiago-4": {
+     "급진당": 1,
+     "보수당": 2,
+     "자유당": 2
+    },
+    "d-ohiggins": {
+     "사회당": 1,
+     "급진당": 1,
+     "자유당": 2,
+     "보수당": 2
+    },
+    "d-colchagua": {
+     "자유당": 2,
+     "보수당": 2
+    },
+    "d-curico": {
+     "보수당": 2,
+     "자유당": 1
+    },
+    "d-talca": {
+     "급진당": 1,
+     "자유당": 2,
+     "보수당": 2
+    },
+    "d-maule": {
+     "급진당": 1,
+     "보수당": 1,
+     "자유당": 1
+    },
+    "d-linares": {
+     "급진당": 1,
+     "자유당": 2,
+     "보수당": 1
+    },
+    "d-nuble-1": {
+     "급진당": 1,
+     "자유당": 1,
+     "보수당": 1
+    },
+    "d-nuble-2": {
+     "급진당": 1,
+     "민주당": 1,
+     "보수당": 2,
+     "자유당": 1
+    },
+    "d-concepcion": {
+     "민주주의당": 1,
+     "급진당": 3,
+     "사회당": 2,
+     "민주당": 1,
+     "자유당": 1,
+     "보수당": 1
+    },
+    "d-arauco": {
+     "급진당": 1,
+     "자유당": 1
+    },
+    "d-bio-bio": {
+     "급진당": 1,
+     "민주당": 1,
+     "자유당": 3,
+     "보수당": 1
+    },
+    "d-malleco": {
+     "급진당": 1,
+     "민주당": 1,
+     "보수당": 1,
+     "자유당": 1
+    },
+    "d-cautin": {
+     "급진당": 1,
+     "사회당": 1,
+     "민주당": 1,
+     "농민당": 2,
+     "자유당": 1,
+     "보수당": 1,
+     "아라우코당": 1,
+     "국가사회주의운동": 1
+    },
+    "d-valdivia": {
+     "급진당": 2,
+     "민주주의당": 1,
+     "사회당": 1,
+     "민주당": 1,
+     "자유당": 2,
+     "무소속": 1
+    },
+    "d-llanquihue-y-aysen": {
+     "보수당": 2,
+     "자유당": 1
+    },
+    "d-chiloe": {
+     "급진당": 1,
+     "보수당": 1,
+     "자유당": 1
+    },
+    "d-magallanes": {
+     "사회당": 1
+    }
+   }
+  }
+ ]
+}

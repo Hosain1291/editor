@@ -1,0 +1,624 @@
+{
+ "id": "cl-dip-1993",
+ "name": "칠레 하원 선거",
+ "subtitle": "1993년 · 120석 · 과반 61",
+ "tag": "DIPUTADOS 1993",
+ "menuCountry": "칠레",
+ "menuGroup": "칠레 하원(대의원원) 선거",
+ "cardName": "1993",
+ "yearLink": true,
+ "svg": "../cl-dip-1989/map.svg",
+ "width": 560,
+ "height": 2720.1,
+ "regions": {
+  "CL": "칠레"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "전국",
+   "sub": "120석",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    0,
+    0,
+    560,
+    2720.1
+   ],
+   "big": false
+  },
+  {
+   "key": "n",
+   "name": "북부",
+   "sub": "아리카~코킴보",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    -11.8,
+    -7.0,
+    560.0,
+    1047.3
+   ]
+  },
+  {
+   "key": "c",
+   "name": "중부",
+   "sub": "발파라이소~비오비오",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    94.3,
+    1026.2,
+    259.4,
+    463.9
+   ]
+  },
+  {
+   "key": "m",
+   "name": "산티아고 수도권",
+   "sub": "Santiago",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    285.9,
+    1116.2,
+    29.5,
+    28.1
+   ]
+  },
+  {
+   "key": "s",
+   "name": "남부",
+   "sub": "아라우카니아~마가야네스",
+   "regions": [
+    "CL"
+   ],
+   "box": [
+    -11.8,
+    1412.8,
+    571.8,
+    1307.3
+   ]
+  }
+ ],
+ "parties": [
+  {
+   "name": "기독민주당",
+   "color": "#f6cf71"
+  },
+  {
+   "name": "국민혁신",
+   "color": "#0288d1"
+  },
+  {
+   "name": "민주주의를 위한 당",
+   "color": "#f66fdb"
+  },
+  {
+   "name": "사회당",
+   "color": "#8f00b3"
+  },
+  {
+   "name": "독립민주연합",
+   "color": "#303f9f"
+  },
+  {
+   "name": "무소속 (우파 연합)",
+   "color": "#9fa8da"
+  },
+  {
+   "name": "중도중앙연합",
+   "color": "#26c6da"
+  },
+  {
+   "name": "급진당",
+   "color": "#7aa711"
+  },
+  {
+   "name": "무소속 (콘세르타시온)",
+   "color": "#b5c99a"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "d-d1-(tarapaca)": 2,
+  "d-d2-(tarapaca)": 2,
+  "d-d3-(antofagasta)": 2,
+  "d-d4-(antofagasta)": 2,
+  "d-d5-(atacama)": 2,
+  "d-d6-(atacama)": 2,
+  "d-d7-(coquimbo)": 2,
+  "d-d8-(coquimbo)": 2,
+  "d-d9-(coquimbo)": 2,
+  "d-d10-(valparaiso)": 2,
+  "d-d11-(valparaiso)": 2,
+  "d-d12-(valparaiso)": 2,
+  "d-d13-(valparaiso)": 2,
+  "d-d14-(valparaiso)": 2,
+  "d-d15-(valparaiso)": 2,
+  "d-d16-(santiago)": 2,
+  "d-d17-(santiago)": 2,
+  "d-d18-(santiago)": 2,
+  "d-d19-(santiago)": 2,
+  "d-d20-(santiago)": 2,
+  "d-d21-(santiago)": 2,
+  "d-d22-(santiago)": 2,
+  "d-d23-(santiago)": 2,
+  "d-d24-(santiago)": 2,
+  "d-d25-(santiago)": 2,
+  "d-d26-(santiago)": 2,
+  "d-d27-(santiago)": 2,
+  "d-d28-(santiago)": 2,
+  "d-d29-(santiago)": 2,
+  "d-d30-(santiago)": 2,
+  "d-d31-(santiago)": 2,
+  "d-d32-(ohiggins)": 2,
+  "d-d33-(ohiggins)": 2,
+  "d-d34-(ohiggins)": 2,
+  "d-d35-(ohiggins)": 2,
+  "d-d36-(maule)": 2,
+  "d-d37-(maule)": 2,
+  "d-d38-(maule)": 2,
+  "d-d39-(maule)": 2,
+  "d-d40-(maule)": 2,
+  "d-d41-(bio-bio)": 2,
+  "d-d42-(bio-bio)": 2,
+  "d-d43-(bio-bio)": 2,
+  "d-d44-(bio-bio)": 2,
+  "d-d45-(bio-bio)": 2,
+  "d-d46-(bio-bio)": 2,
+  "d-d47-(bio-bio)": 2,
+  "d-d48-(araucania)": 2,
+  "d-d49-(araucania)": 2,
+  "d-d50-(araucania)": 2,
+  "d-d51-(araucania)": 2,
+  "d-d52-(araucania)": 2,
+  "d-d53-(los-lagos)": 2,
+  "d-d54-(los-lagos)": 2,
+  "d-d55-(los-lagos)": 2,
+  "d-d56-(los-lagos)": 2,
+  "d-d57-(los-lagos)": 2,
+  "d-d58-(los-lagos)": 2,
+  "d-d59-(aysen)": 2,
+  "d-d60-(magallanes)": 2
+ },
+ "names": {
+  "d-d1-(tarapaca)": "제1선거구 (Tarapacá)",
+  "d-d2-(tarapaca)": "제2선거구 (Tarapacá)",
+  "d-d3-(antofagasta)": "제3선거구 (Antofagasta)",
+  "d-d4-(antofagasta)": "제4선거구 (Antofagasta)",
+  "d-d5-(atacama)": "제5선거구 (Atacama)",
+  "d-d6-(atacama)": "제6선거구 (Atacama)",
+  "d-d7-(coquimbo)": "제7선거구 (Coquimbo)",
+  "d-d8-(coquimbo)": "제8선거구 (Coquimbo)",
+  "d-d9-(coquimbo)": "제9선거구 (Coquimbo)",
+  "d-d10-(valparaiso)": "제10선거구 (Valparaíso)",
+  "d-d11-(valparaiso)": "제11선거구 (Valparaíso)",
+  "d-d12-(valparaiso)": "제12선거구 (Valparaíso)",
+  "d-d13-(valparaiso)": "제13선거구 (Valparaíso)",
+  "d-d14-(valparaiso)": "제14선거구 (Valparaíso)",
+  "d-d15-(valparaiso)": "제15선거구 (Valparaíso)",
+  "d-d16-(santiago)": "제16선거구 (Santiago)",
+  "d-d17-(santiago)": "제17선거구 (Santiago)",
+  "d-d18-(santiago)": "제18선거구 (Santiago)",
+  "d-d19-(santiago)": "제19선거구 (Santiago)",
+  "d-d20-(santiago)": "제20선거구 (Santiago)",
+  "d-d21-(santiago)": "제21선거구 (Santiago)",
+  "d-d22-(santiago)": "제22선거구 (Santiago)",
+  "d-d23-(santiago)": "제23선거구 (Santiago)",
+  "d-d24-(santiago)": "제24선거구 (Santiago)",
+  "d-d25-(santiago)": "제25선거구 (Santiago)",
+  "d-d26-(santiago)": "제26선거구 (Santiago)",
+  "d-d27-(santiago)": "제27선거구 (Santiago)",
+  "d-d28-(santiago)": "제28선거구 (Santiago)",
+  "d-d29-(santiago)": "제29선거구 (Santiago)",
+  "d-d30-(santiago)": "제30선거구 (Santiago)",
+  "d-d31-(santiago)": "제31선거구 (Santiago)",
+  "d-d32-(ohiggins)": "제32선거구 (O'Higgins)",
+  "d-d33-(ohiggins)": "제33선거구 (O'Higgins)",
+  "d-d34-(ohiggins)": "제34선거구 (O'Higgins)",
+  "d-d35-(ohiggins)": "제35선거구 (O'Higgins)",
+  "d-d36-(maule)": "제36선거구 (Maule)",
+  "d-d37-(maule)": "제37선거구 (Maule)",
+  "d-d38-(maule)": "제38선거구 (Maule)",
+  "d-d39-(maule)": "제39선거구 (Maule)",
+  "d-d40-(maule)": "제40선거구 (Maule)",
+  "d-d41-(bio-bio)": "제41선거구 (Bío-Bío)",
+  "d-d42-(bio-bio)": "제42선거구 (Bío-Bío)",
+  "d-d43-(bio-bio)": "제43선거구 (Bío-Bío)",
+  "d-d44-(bio-bio)": "제44선거구 (Bío-Bío)",
+  "d-d45-(bio-bio)": "제45선거구 (Bío-Bío)",
+  "d-d46-(bio-bio)": "제46선거구 (Bío-Bío)",
+  "d-d47-(bio-bio)": "제47선거구 (Bío-Bío)",
+  "d-d48-(araucania)": "제48선거구 (Araucanía)",
+  "d-d49-(araucania)": "제49선거구 (Araucanía)",
+  "d-d50-(araucania)": "제50선거구 (Araucanía)",
+  "d-d51-(araucania)": "제51선거구 (Araucanía)",
+  "d-d52-(araucania)": "제52선거구 (Araucanía)",
+  "d-d53-(los-lagos)": "제53선거구 (Los Lagos)",
+  "d-d54-(los-lagos)": "제54선거구 (Los Lagos)",
+  "d-d55-(los-lagos)": "제55선거구 (Los Lagos)",
+  "d-d56-(los-lagos)": "제56선거구 (Los Lagos)",
+  "d-d57-(los-lagos)": "제57선거구 (Los Lagos)",
+  "d-d58-(los-lagos)": "제58선거구 (Los Lagos)",
+  "d-d59-(aysen)": "제59선거구 (Aysén)",
+  "d-d60-(magallanes)": "제60선거구 (Magallanes)"
+ },
+ "labels": {
+  "d-d1-(tarapaca)": "D1",
+  "d-d2-(tarapaca)": "D2",
+  "d-d3-(antofagasta)": "D3",
+  "d-d4-(antofagasta)": "D4",
+  "d-d5-(atacama)": "D5",
+  "d-d6-(atacama)": "D6",
+  "d-d7-(coquimbo)": "D7",
+  "d-d8-(coquimbo)": "D8",
+  "d-d9-(coquimbo)": "D9",
+  "d-d10-(valparaiso)": "D10",
+  "d-d11-(valparaiso)": "D11",
+  "d-d12-(valparaiso)": "D12",
+  "d-d13-(valparaiso)": "D13",
+  "d-d14-(valparaiso)": "D14",
+  "d-d15-(valparaiso)": "D15",
+  "d-d16-(santiago)": "D16",
+  "d-d17-(santiago)": "D17",
+  "d-d18-(santiago)": "D18",
+  "d-d19-(santiago)": "D19",
+  "d-d20-(santiago)": "D20",
+  "d-d21-(santiago)": "D21",
+  "d-d22-(santiago)": "D22",
+  "d-d23-(santiago)": "D23",
+  "d-d24-(santiago)": "D24",
+  "d-d25-(santiago)": "D25",
+  "d-d26-(santiago)": "D26",
+  "d-d27-(santiago)": "D27",
+  "d-d28-(santiago)": "D28",
+  "d-d29-(santiago)": "D29",
+  "d-d30-(santiago)": "D30",
+  "d-d31-(santiago)": "D31",
+  "d-d32-(ohiggins)": "D32",
+  "d-d33-(ohiggins)": "D33",
+  "d-d34-(ohiggins)": "D34",
+  "d-d35-(ohiggins)": "D35",
+  "d-d36-(maule)": "D36",
+  "d-d37-(maule)": "D37",
+  "d-d38-(maule)": "D38",
+  "d-d39-(maule)": "D39",
+  "d-d40-(maule)": "D40",
+  "d-d41-(bio-bio)": "D41",
+  "d-d42-(bio-bio)": "D42",
+  "d-d43-(bio-bio)": "D43",
+  "d-d44-(bio-bio)": "D44",
+  "d-d45-(bio-bio)": "D45",
+  "d-d46-(bio-bio)": "D46",
+  "d-d47-(bio-bio)": "D47",
+  "d-d48-(araucania)": "D48",
+  "d-d49-(araucania)": "D49",
+  "d-d50-(araucania)": "D50",
+  "d-d51-(araucania)": "D51",
+  "d-d52-(araucania)": "D52",
+  "d-d53-(los-lagos)": "D53",
+  "d-d54-(los-lagos)": "D54",
+  "d-d55-(los-lagos)": "D55",
+  "d-d56-(los-lagos)": "D56",
+  "d-d57-(los-lagos)": "D57",
+  "d-d58-(los-lagos)": "D58",
+  "d-d59-(aysen)": "D59",
+  "d-d60-(magallanes)": "D60"
+ },
+ "regionOf": {
+  "d-d1-(tarapaca)": "CL",
+  "d-d2-(tarapaca)": "CL",
+  "d-d3-(antofagasta)": "CL",
+  "d-d4-(antofagasta)": "CL",
+  "d-d5-(atacama)": "CL",
+  "d-d6-(atacama)": "CL",
+  "d-d7-(coquimbo)": "CL",
+  "d-d8-(coquimbo)": "CL",
+  "d-d9-(coquimbo)": "CL",
+  "d-d10-(valparaiso)": "CL",
+  "d-d11-(valparaiso)": "CL",
+  "d-d12-(valparaiso)": "CL",
+  "d-d13-(valparaiso)": "CL",
+  "d-d14-(valparaiso)": "CL",
+  "d-d15-(valparaiso)": "CL",
+  "d-d16-(santiago)": "CL",
+  "d-d17-(santiago)": "CL",
+  "d-d18-(santiago)": "CL",
+  "d-d19-(santiago)": "CL",
+  "d-d20-(santiago)": "CL",
+  "d-d21-(santiago)": "CL",
+  "d-d22-(santiago)": "CL",
+  "d-d23-(santiago)": "CL",
+  "d-d24-(santiago)": "CL",
+  "d-d25-(santiago)": "CL",
+  "d-d26-(santiago)": "CL",
+  "d-d27-(santiago)": "CL",
+  "d-d28-(santiago)": "CL",
+  "d-d29-(santiago)": "CL",
+  "d-d30-(santiago)": "CL",
+  "d-d31-(santiago)": "CL",
+  "d-d32-(ohiggins)": "CL",
+  "d-d33-(ohiggins)": "CL",
+  "d-d34-(ohiggins)": "CL",
+  "d-d35-(ohiggins)": "CL",
+  "d-d36-(maule)": "CL",
+  "d-d37-(maule)": "CL",
+  "d-d38-(maule)": "CL",
+  "d-d39-(maule)": "CL",
+  "d-d40-(maule)": "CL",
+  "d-d41-(bio-bio)": "CL",
+  "d-d42-(bio-bio)": "CL",
+  "d-d43-(bio-bio)": "CL",
+  "d-d44-(bio-bio)": "CL",
+  "d-d45-(bio-bio)": "CL",
+  "d-d46-(bio-bio)": "CL",
+  "d-d47-(bio-bio)": "CL",
+  "d-d48-(araucania)": "CL",
+  "d-d49-(araucania)": "CL",
+  "d-d50-(araucania)": "CL",
+  "d-d51-(araucania)": "CL",
+  "d-d52-(araucania)": "CL",
+  "d-d53-(los-lagos)": "CL",
+  "d-d54-(los-lagos)": "CL",
+  "d-d55-(los-lagos)": "CL",
+  "d-d56-(los-lagos)": "CL",
+  "d-d57-(los-lagos)": "CL",
+  "d-d58-(los-lagos)": "CL",
+  "d-d59-(aysen)": "CL",
+  "d-d60-(magallanes)": "CL"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "d-d1-(tarapaca)": {
+     "민주주의를 위한 당": 1,
+     "국민혁신": 1
+    },
+    "d-d2-(tarapaca)": {
+     "민주주의를 위한 당": 1,
+     "국민혁신": 1
+    },
+    "d-d3-(antofagasta)": {
+     "무소속 (콘세르타시온)": 1,
+     "국민혁신": 1
+    },
+    "d-d4-(antofagasta)": {
+     "기독민주당": 1,
+     "사회당": 1
+    },
+    "d-d5-(atacama)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d6-(atacama)": {
+     "사회당": 1,
+     "국민혁신": 1
+    },
+    "d-d7-(coquimbo)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d8-(coquimbo)": {
+     "기독민주당": 1,
+     "사회당": 1
+    },
+    "d-d9-(coquimbo)": {
+     "기독민주당": 1,
+     "사회당": 1
+    },
+    "d-d10-(valparaiso)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d11-(valparaiso)": {
+     "민주주의를 위한 당": 1,
+     "국민혁신": 1
+    },
+    "d-d12-(valparaiso)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d13-(valparaiso)": {
+     "기독민주당": 1,
+     "독립민주연합": 1
+    },
+    "d-d14-(valparaiso)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d15-(valparaiso)": {
+     "기독민주당": 1,
+     "무소속 (우파 연합)": 1
+    },
+    "d-d16-(santiago)": {
+     "기독민주당": 1,
+     "독립민주연합": 1
+    },
+    "d-d17-(santiago)": {
+     "민주주의를 위한 당": 1,
+     "기독민주당": 1
+    },
+    "d-d18-(santiago)": {
+     "민주주의를 위한 당": 1,
+     "기독민주당": 1
+    },
+    "d-d19-(santiago)": {
+     "기독민주당": 1,
+     "독립민주연합": 1
+    },
+    "d-d20-(santiago)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d21-(santiago)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d22-(santiago)": {
+     "민주주의를 위한 당": 1,
+     "국민혁신": 1
+    },
+    "d-d23-(santiago)": {
+     "국민혁신": 1,
+     "독립민주연합": 1
+    },
+    "d-d24-(santiago)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d25-(santiago)": {
+     "기독민주당": 1,
+     "독립민주연합": 1
+    },
+    "d-d26-(santiago)": {
+     "기독민주당": 1,
+     "사회당": 1
+    },
+    "d-d27-(santiago)": {
+     "사회당": 1,
+     "독립민주연합": 1
+    },
+    "d-d28-(santiago)": {
+     "기독민주당": 1,
+     "독립민주연합": 1
+    },
+    "d-d29-(santiago)": {
+     "사회당": 1,
+     "국민혁신": 1
+    },
+    "d-d30-(santiago)": {
+     "기독민주당": 1,
+     "독립민주연합": 1
+    },
+    "d-d31-(santiago)": {
+     "민주주의를 위한 당": 1,
+     "독립민주연합": 1
+    },
+    "d-d32-(ohiggins)": {
+     "사회당": 1,
+     "중도중앙연합": 1
+    },
+    "d-d33-(ohiggins)": {
+     "사회당": 1,
+     "독립민주연합": 1
+    },
+    "d-d34-(ohiggins)": {
+     "급진당": 1,
+     "독립민주연합": 1
+    },
+    "d-d35-(ohiggins)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d36-(maule)": {
+     "기독민주당": 1,
+     "독립민주연합": 1
+    },
+    "d-d37-(maule)": {
+     "사회당": 1,
+     "기독민주당": 1
+    },
+    "d-d38-(maule)": {
+     "민주주의를 위한 당": 1,
+     "국민혁신": 1
+    },
+    "d-d39-(maule)": {
+     "사회당": 1,
+     "국민혁신": 1
+    },
+    "d-d40-(maule)": {
+     "민주주의를 위한 당": 1,
+     "독립민주연합": 1
+    },
+    "d-d41-(bio-bio)": {
+     "사회당": 1,
+     "무소속 (우파 연합)": 1
+    },
+    "d-d42-(bio-bio)": {
+     "민주주의를 위한 당": 1,
+     "기독민주당": 1
+    },
+    "d-d43-(bio-bio)": {
+     "민주주의를 위한 당": 1,
+     "독립민주연합": 1
+    },
+    "d-d44-(bio-bio)": {
+     "사회당": 1,
+     "기독민주당": 1
+    },
+    "d-d45-(bio-bio)": {
+     "기독민주당": 1,
+     "사회당": 1
+    },
+    "d-d46-(bio-bio)": {
+     "급진당": 1,
+     "민주주의를 위한 당": 1
+    },
+    "d-d47-(bio-bio)": {
+     "민주주의를 위한 당": 1,
+     "독립민주연합": 1
+    },
+    "d-d48-(araucania)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d49-(araucania)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d50-(araucania)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d51-(araucania)": {
+     "민주주의를 위한 당": 1,
+     "국민혁신": 1
+    },
+    "d-d52-(araucania)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d53-(los-lagos)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d54-(los-lagos)": {
+     "민주주의를 위한 당": 1,
+     "국민혁신": 1
+    },
+    "d-d55-(los-lagos)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d56-(los-lagos)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d57-(los-lagos)": {
+     "기독민주당": 1,
+     "국민혁신": 1
+    },
+    "d-d58-(los-lagos)": {
+     "기독민주당": 1,
+     "무소속 (우파 연합)": 1
+    },
+    "d-d59-(aysen)": {
+     "기독민주당": 1,
+     "중도중앙연합": 1
+    },
+    "d-d60-(magallanes)": {
+     "사회당": 1,
+     "무소속 (우파 연합)": 1
+    }
+   }
+  }
+ ]
+}
