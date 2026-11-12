@@ -1,0 +1,157 @@
+{
+ "id": "dk-amt-1793",
+ "name": "덴마크 주 (1793~1970)",
+ "subtitle": "1793~1970년 행정구역 · 주(amt)별 1위 정당 · 남윌란 4개 주는 1920년부터",
+ "tag": "AMTER 1793–1970",
+ "menuCountry": "덴마크",
+ "menuGroup": "덴마크 주 (amt · region)",
+ "cardName": "1793~1970",
+ "menuLabel": "연도를 고르세요",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 789.1,
+ "regions": {
+  "DK": "덴마크"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1793~1970년 주",
+   "sub": "각 주의 1위 정당을 칠하세요",
+   "regions": [
+    "DK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    789.1
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "사회민주당 (A)",
+   "color": "#F04D46"
+  },
+  {
+   "name": "보수인민당 (C)",
+   "color": "#004931"
+  },
+  {
+   "name": "자유당 벤스트레 (V)",
+   "color": "#002883"
+  },
+  {
+   "name": "사회자유당 (B)",
+   "color": "#733280"
+  },
+  {
+   "name": "사회주의인민당 (F)",
+   "color": "#E07EA8"
+  },
+  {
+   "name": "좌파사회주의당 (Y)",
+   "color": "#CE4000"
+  },
+  {
+   "name": "무소속·기타",
+   "color": "#DDDDDD"
+  },
+  {
+   "name": "페로 사회민주당",
+   "color": "#A73033"
+  },
+  {
+   "name": "페로 인민당",
+   "color": "#00843B"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {},
+ "names": {
+  "a-randers": "라네르스 주",
+  "a-roskilde": "로스킬레 주",
+  "a-ribe": "리베 주",
+  "a-ringkobing": "링쾨빙 주",
+  "a-maribo": "마리보 주",
+  "a-vejle": "바일레 주",
+  "a-bornholm": "보른홀름 주",
+  "a-viborg": "비보르 주",
+  "a-soro": "소뢰 주",
+  "a-sonderborg": "쇠네르보르 주",
+  "a-svendborg": "스벤보르 주",
+  "a-skanderborg": "스칸데르보르 주",
+  "a-hjorring": "예링 주",
+  "a-odense": "오덴세 주",
+  "a-aarhus": "오르후스 주",
+  "a-aabenraa": "오벤로 주",
+  "a-aalborg": "올보르 주",
+  "a-kobenhavns-amt": "코펜하겐 주",
+  "a-kobenhavn": "코펜하겐시 (프레데릭스베르 포함)",
+  "a-tonder": "퇸데르 주",
+  "a-thisted": "티스테드 주",
+  "a-frederiksborg": "프레데릭스보르 주",
+  "a-praesto": "프레스퇴 주",
+  "a-haderslev": "하데르슬레우 주",
+  "a-holbaek": "홀베크 주"
+ },
+ "labels": {
+  "a-randers": "Randers Amt",
+  "a-roskilde": "Roskilde Amt",
+  "a-ribe": "Ribe Amt",
+  "a-ringkobing": "Ringkøbing Amt",
+  "a-maribo": "Maribo Amt",
+  "a-vejle": "Vejle Amt",
+  "a-bornholm": "Bornholm Amt",
+  "a-viborg": "Viborg Amt",
+  "a-soro": "Sorø Amt",
+  "a-sonderborg": "Sønderborg Amt",
+  "a-svendborg": "Svendborg Amt",
+  "a-skanderborg": "Skanderborg Amt",
+  "a-hjorring": "Hjørring Amt",
+  "a-odense": "Odense Amt",
+  "a-aarhus": "Aarhus Amt",
+  "a-aabenraa": "Aabenraa Amt",
+  "a-aalborg": "Aalborg Amt",
+  "a-kobenhavns-amt": "Københavns Amt",
+  "a-kobenhavn": "København · Frederiksberg",
+  "a-tonder": "Tønder Amt",
+  "a-thisted": "Thisted Amt",
+  "a-frederiksborg": "Frederiksborg Amt",
+  "a-praesto": "Præstø Amt",
+  "a-haderslev": "Haderslev Amt",
+  "a-holbaek": "Holbæk Amt"
+ },
+ "regionOf": {
+  "a-randers": "DK",
+  "a-roskilde": "DK",
+  "a-ribe": "DK",
+  "a-ringkobing": "DK",
+  "a-maribo": "DK",
+  "a-vejle": "DK",
+  "a-bornholm": "DK",
+  "a-viborg": "DK",
+  "a-soro": "DK",
+  "a-sonderborg": "DK",
+  "a-svendborg": "DK",
+  "a-skanderborg": "DK",
+  "a-hjorring": "DK",
+  "a-odense": "DK",
+  "a-aarhus": "DK",
+  "a-aabenraa": "DK",
+  "a-aalborg": "DK",
+  "a-kobenhavns-amt": "DK",
+  "a-kobenhavn": "DK",
+  "a-tonder": "DK",
+  "a-thisted": "DK",
+  "a-frederiksborg": "DK",
+  "a-praesto": "DK",
+  "a-haderslev": "DK",
+  "a-holbaek": "DK"
+ },
+ "labelName": true
+}
