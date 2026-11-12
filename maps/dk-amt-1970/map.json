@@ -1,0 +1,150 @@
+{
+ "id": "dk-amt-1970",
+ "name": "덴마크 16개 주 (1970~2006)",
+ "subtitle": "1970~2006년 행정구역 · 주(amt)별 1위 정당 · 코펜하겐·프레데릭스베르는 주와 같은 시",
+ "tag": "AMTER 1970–2006",
+ "menuCountry": "덴마크",
+ "menuGroup": "덴마크 주 (amt · region)",
+ "cardName": "1970~2006",
+ "menuLabel": "연도를 고르세요",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 1184.8,
+ "regions": {
+  "DK": "덴마크"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1970~2006년 주",
+   "sub": "각 주의 1위 정당을 칠하세요",
+   "regions": [
+    "DK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1184.8
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "사회민주당 (A)",
+   "color": "#F04D46"
+  },
+  {
+   "name": "자유당 벤스트레 (V)",
+   "color": "#002883"
+  },
+  {
+   "name": "보수인민당 (C)",
+   "color": "#004931"
+  },
+  {
+   "name": "사회주의인민당 (F)",
+   "color": "#E07EA8"
+  },
+  {
+   "name": "덴마크 인민당 (O)",
+   "color": "#FCD03B"
+  },
+  {
+   "name": "중도민주당 (M)",
+   "color": "#8080FF"
+  },
+  {
+   "name": "사회자유당 (B)",
+   "color": "#733280"
+  },
+  {
+   "name": "적록동맹 (Ø)",
+   "color": "#E6801A"
+  },
+  {
+   "name": "기독인민당 (Q)",
+   "color": "#B1A269"
+  },
+  {
+   "name": "진보당 (Z)",
+   "color": "#FFFF00"
+  },
+  {
+   "name": "아타수트 (그린란드)",
+   "color": "#2B9996"
+  },
+  {
+   "name": "시우무트 (그린란드)",
+   "color": "#BF8E00"
+  },
+  {
+   "name": "페로 사회민주당",
+   "color": "#A73033"
+  },
+  {
+   "name": "페로 인민당",
+   "color": "#00843B"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {},
+ "names": {
+  "a-roskilde": "로스킬레 주",
+  "a-ribe": "리베 주",
+  "a-ringkobing": "링쾨빙 주",
+  "a-vejle": "바일레 주",
+  "a-bornholm": "보른홀름 주",
+  "a-nordjylland": "북윌란 주",
+  "a-viborg": "비보르 주",
+  "a-vestsjaelland": "서셸란 주",
+  "a-sonderjylland": "쇠네르윌란 주",
+  "a-storstrom": "스토르스트룀 주",
+  "a-aarhus": "오르후스 주",
+  "a-kobenhavns-amt": "코펜하겐 주",
+  "a-kobenhavn": "코펜하겐시",
+  "a-fyn": "퓐 주",
+  "a-frederiksberg": "프레데릭스베르시",
+  "a-frederiksborg": "프레데릭스보르 주"
+ },
+ "labels": {
+  "a-roskilde": "Roskilde Amt",
+  "a-ribe": "Ribe Amt",
+  "a-ringkobing": "Ringkøbing Amt",
+  "a-vejle": "Vejle Amt",
+  "a-bornholm": "Bornholms Amt",
+  "a-nordjylland": "Nordjylland Amt",
+  "a-viborg": "Viborg Amt",
+  "a-vestsjaelland": "Vestsjælland Amt",
+  "a-sonderjylland": "Sønderjyllands Amt",
+  "a-storstrom": "Storstrøm Amt",
+  "a-aarhus": "Århus Amt",
+  "a-kobenhavns-amt": "Københavns Amt",
+  "a-kobenhavn": "Københavns Kommune",
+  "a-fyn": "Fyns Amt",
+  "a-frederiksberg": "Frederiksberg Kommune",
+  "a-frederiksborg": "Frederiksborg Amt"
+ },
+ "regionOf": {
+  "a-roskilde": "DK",
+  "a-ribe": "DK",
+  "a-ringkobing": "DK",
+  "a-vejle": "DK",
+  "a-bornholm": "DK",
+  "a-nordjylland": "DK",
+  "a-viborg": "DK",
+  "a-vestsjaelland": "DK",
+  "a-sonderjylland": "DK",
+  "a-storstrom": "DK",
+  "a-aarhus": "DK",
+  "a-kobenhavns-amt": "DK",
+  "a-kobenhavn": "DK",
+  "a-fyn": "DK",
+  "a-frederiksberg": "DK",
+  "a-frederiksborg": "DK"
+ },
+ "labelName": true
+}
