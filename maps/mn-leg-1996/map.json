@@ -1,0 +1,301 @@
+{
+ "id": "mn-leg-1996",
+ "name": "몽골 국가대회의 선거",
+ "subtitle": "1996년 · 전체 76석 (소선거구 76) · 과반 39 · 의석은 아이막·구별로 묶어 표시",
+ "tag": "STATE GREAT KHURAL 1996",
+ "menuCountry": "몽골",
+ "menuGroup": "몽골 국가대회의(의회) 선거",
+ "cardName": "1996",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 713.7,
+ "regions": {
+  "MN": "몽골",
+  "UB": "울란바토르",
+  "PR": "비례대표",
+  "CTX": "—"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1996년",
+   "sub": "76석",
+   "regions": [
+    "MN",
+    "UB"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    713.7
+   ],
+   "big": false
+  },
+  {
+   "key": "ub",
+   "name": "울란바토르",
+   "sub": "9개 구",
+   "regions": [
+    "UB"
+   ],
+   "box": [
+    30.0,
+    422.4,
+    445.1,
+    298.4
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "민주연합",
+   "color": "#11479e"
+  },
+  {
+   "name": "몽골인민혁명당",
+   "color": "#ed1b34"
+  },
+  {
+   "name": "몽골전통연합당",
+   "color": "#1c53b1"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "mn-arkhangai": 3,
+  "mn-bagakhangai": 0,
+  "mn-baganuur": 0,
+  "mn-bayanulgii": 3,
+  "mn-bayangol": 4,
+  "mn-bayankhongor": 3,
+  "mn-bayanzurkh": 3,
+  "mn-bulgan": 2,
+  "mn-chingeltei": 3,
+  "mn-darkhanuul": 3,
+  "mn-dornod": 3,
+  "mn-dornogovi": 2,
+  "mn-dundgovi": 2,
+  "mn-govialtai": 2,
+  "mn-govisumber": 0,
+  "mn-khanuul": 2,
+  "mn-khentii": 3,
+  "mn-khovd": 3,
+  "mn-khuvsgul": 4,
+  "mn-nalaikh": 1,
+  "mn-orkhon": 2,
+  "mn-selenge": 3,
+  "mn-songinokhairkhan": 4,
+  "mn-sukhbaatar": 2,
+  "mn-sukhbaatar-d": 3,
+  "mn-tuv": 4,
+  "mn-ubmain": 0,
+  "mn-umnugovi": 2,
+  "mn-uvs": 3,
+  "mn-uvurkhangai": 4,
+  "mn-zavkhan": 3
+ },
+ "names": {
+  "mn-arkhangai": "아르항가이",
+  "mn-bagakhangai": "바가항가이구",
+  "mn-baganuur": "바가노르구",
+  "mn-bayanulgii": "바양울기",
+  "mn-bayangol": "바양골구",
+  "mn-bayankhongor": "바양헝고르",
+  "mn-bayanzurkh": "바양주르흐구",
+  "mn-bulgan": "불간",
+  "mn-chingeltei": "칭겔테이구",
+  "mn-darkhanuul": "다르항올",
+  "mn-dornod": "도르노드",
+  "mn-dornogovi": "도르노고비",
+  "mn-dundgovi": "돈드고비",
+  "mn-govialtai": "고비알타이",
+  "mn-govisumber": "고비숨베르",
+  "mn-khanuul": "한올구",
+  "mn-khentii": "헨티",
+  "mn-khovd": "호브드",
+  "mn-khuvsgul": "흡스굴",
+  "mn-nalaikh": "날라이흐구",
+  "mn-orkhon": "오르홍",
+  "mn-selenge": "셀렝게",
+  "mn-songinokhairkhan": "송기노하이르항구",
+  "mn-sukhbaatar": "수흐바타르",
+  "mn-sukhbaatar-d": "수흐바타르구",
+  "mn-tuv": "투브",
+  "mn-ubmain": "울란바토르",
+  "mn-umnugovi": "움누고비",
+  "mn-uvs": "오브스",
+  "mn-uvurkhangai": "우부르항가이",
+  "mn-zavkhan": "자브항"
+ },
+ "labels": {
+  "mn-arkhangai": "Arkhangai",
+  "mn-bagakhangai": "Bagakhangai",
+  "mn-baganuur": "Baganuur",
+  "mn-bayanulgii": "Bayan-Ölgii",
+  "mn-bayangol": "Bayangol",
+  "mn-bayankhongor": "Bayankhongor",
+  "mn-bayanzurkh": "Bayanzürkh",
+  "mn-bulgan": "Bulgan",
+  "mn-chingeltei": "Chingeltei",
+  "mn-darkhanuul": "Darkhan-Uul",
+  "mn-dornod": "Dornod",
+  "mn-dornogovi": "Dornogovi",
+  "mn-dundgovi": "Dundgovi",
+  "mn-govialtai": "Govi-Altai",
+  "mn-govisumber": "Govisümber",
+  "mn-khanuul": "Khan-Uul",
+  "mn-khentii": "Khentii",
+  "mn-khovd": "Khovd",
+  "mn-khuvsgul": "Khövsgöl",
+  "mn-nalaikh": "Nalaikh",
+  "mn-orkhon": "Orkhon",
+  "mn-selenge": "Selenge",
+  "mn-songinokhairkhan": "Songinokhairkhan",
+  "mn-sukhbaatar": "Sükhbaatar",
+  "mn-sukhbaatar-d": "Sükhbaatar (UB)",
+  "mn-tuv": "Töv",
+  "mn-ubmain": "Ulaanbaatar",
+  "mn-umnugovi": "Ömnögovi",
+  "mn-uvs": "Uvs",
+  "mn-uvurkhangai": "Övörkhangai",
+  "mn-zavkhan": "Zavkhan"
+ },
+ "regionOf": {
+  "mn-arkhangai": "MN",
+  "mn-bagakhangai": "UB",
+  "mn-baganuur": "UB",
+  "mn-bayanulgii": "MN",
+  "mn-bayangol": "UB",
+  "mn-bayankhongor": "MN",
+  "mn-bayanzurkh": "UB",
+  "mn-bulgan": "MN",
+  "mn-chingeltei": "UB",
+  "mn-darkhanuul": "MN",
+  "mn-dornod": "MN",
+  "mn-dornogovi": "MN",
+  "mn-dundgovi": "MN",
+  "mn-govialtai": "MN",
+  "mn-govisumber": "MN",
+  "mn-khanuul": "UB",
+  "mn-khentii": "MN",
+  "mn-khovd": "MN",
+  "mn-khuvsgul": "MN",
+  "mn-nalaikh": "UB",
+  "mn-orkhon": "MN",
+  "mn-selenge": "MN",
+  "mn-songinokhairkhan": "UB",
+  "mn-sukhbaatar": "MN",
+  "mn-sukhbaatar-d": "UB",
+  "mn-tuv": "MN",
+  "mn-ubmain": "CTX",
+  "mn-umnugovi": "MN",
+  "mn-uvs": "MN",
+  "mn-uvurkhangai": "MN",
+  "mn-zavkhan": "MN"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "mn-bayanulgii": {
+     "몽골인민혁명당": 3
+    },
+    "mn-khovd": {
+     "몽골인민혁명당": 3
+    },
+    "mn-uvs": {
+     "몽골인민혁명당": 3
+    },
+    "mn-zavkhan": {
+     "민주연합": 2,
+     "몽골인민혁명당": 1
+    },
+    "mn-govialtai": {
+     "몽골인민혁명당": 2
+    },
+    "mn-bayankhongor": {
+     "민주연합": 3
+    },
+    "mn-khuvsgul": {
+     "민주연합": 4
+    },
+    "mn-selenge": {
+     "민주연합": 2,
+     "몽골인민혁명당": 1
+    },
+    "mn-uvurkhangai": {
+     "민주연합": 2,
+     "몽골인민혁명당": 2
+    },
+    "mn-arkhangai": {
+     "민주연합": 2,
+     "몽골인민혁명당": 1
+    },
+    "mn-orkhon": {
+     "민주연합": 2
+    },
+    "mn-bulgan": {
+     "민주연합": 2
+    },
+    "mn-darkhanuul": {
+     "민주연합": 3
+    },
+    "mn-tuv": {
+     "민주연합": 2,
+     "몽골인민혁명당": 2
+    },
+    "mn-umnugovi": {
+     "민주연합": 2
+    },
+    "mn-dornogovi": {
+     "몽골인민혁명당": 2
+    },
+    "mn-dundgovi": {
+     "몽골인민혁명당": 1,
+     "민주연합": 1
+    },
+    "mn-sukhbaatar": {
+     "몽골인민혁명당": 1,
+     "몽골전통연합당": 1
+    },
+    "mn-khentii": {
+     "민주연합": 3
+    },
+    "mn-dornod": {
+     "민주연합": 3
+    },
+    "mn-nalaikh": {
+     "민주연합": 1
+    },
+    "mn-bayanzurkh": {
+     "민주연합": 3
+    },
+    "mn-chingeltei": {
+     "민주연합": 3
+    },
+    "mn-sukhbaatar-d": {
+     "민주연합": 3
+    },
+    "mn-songinokhairkhan": {
+     "민주연합": 4
+    },
+    "mn-bayangol": {
+     "민주연합": 2,
+     "몽골인민혁명당": 2
+    },
+    "mn-khanuul": {
+     "몽골인민혁명당": 1,
+     "민주연합": 1
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "mn-baganuur": "날라이흐구와(과) 한 선거구 — 의석은 날라이흐구에 표시",
+  "mn-bagakhangai": "한올구와(과) 한 선거구 — 의석은 한올구에 표시"
+ }
+}

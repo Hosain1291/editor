@@ -1,0 +1,329 @@
+{
+ "id": "mn-pres-1997",
+ "name": "몽골 대통령 선거",
+ "subtitle": "1997년 · 아이막·구별 1위 후보 (지역마다 1칸) · 당선: 바가반디",
+ "tag": "PRESIDENT 1997",
+ "menuCountry": "몽골",
+ "menuGroup": "몽골 대통령 선거",
+ "cardName": "1997",
+ "yearLink": true,
+ "svg": "../mn-pres-1993/map.svg",
+ "width": 1000,
+ "height": 782.5,
+ "regions": {
+  "MN": "몽골",
+  "UB": "울란바토르",
+  "PR": "비례대표",
+  "CTX": "—"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1997년",
+   "sub": "아이막 21 + 수도 9구",
+   "regions": [
+    "MN",
+    "UB"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    782.5
+   ],
+   "big": false
+  },
+  {
+   "key": "ub",
+   "name": "울란바토르",
+   "sub": "9개 구",
+   "regions": [
+    "UB"
+   ],
+   "box": [
+    35.1,
+    463.5,
+    487.5,
+    326.1
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "바가반디 (인민혁명당)",
+   "color": "#8e101f"
+  },
+  {
+   "name": "오치르바트 (민족민주당·사회민주당)",
+   "color": "#163d7b"
+  },
+  {
+   "name": "곰보자브 (전통연합당)",
+   "color": "#242362"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "mn-arkhangai": 1,
+  "mn-bagakhangai": 1,
+  "mn-baganuur": 1,
+  "mn-bayanulgii": 1,
+  "mn-bayangol": 1,
+  "mn-bayankhongor": 1,
+  "mn-bayanzurkh": 1,
+  "mn-bulgan": 1,
+  "mn-chingeltei": 1,
+  "mn-darkhanuul": 1,
+  "mn-dornod": 1,
+  "mn-dornogovi": 1,
+  "mn-dundgovi": 1,
+  "mn-govialtai": 1,
+  "mn-govisumber": 1,
+  "mn-khanuul": 1,
+  "mn-khentii": 1,
+  "mn-khovd": 1,
+  "mn-khuvsgul": 1,
+  "mn-nalaikh": 1,
+  "mn-orkhon": 1,
+  "mn-selenge": 1,
+  "mn-songinokhairkhan": 1,
+  "mn-sukhbaatar": 1,
+  "mn-sukhbaatar-d": 1,
+  "mn-tuv": 1,
+  "mn-ubmain": 0,
+  "mn-umnugovi": 1,
+  "mn-uvs": 1,
+  "mn-uvurkhangai": 1,
+  "mn-zavkhan": 1
+ },
+ "names": {
+  "mn-arkhangai": "아르항가이",
+  "mn-bagakhangai": "바가항가이구",
+  "mn-baganuur": "바가노르구",
+  "mn-bayanulgii": "바양울기",
+  "mn-bayangol": "바양골구",
+  "mn-bayankhongor": "바양헝고르",
+  "mn-bayanzurkh": "바양주르흐구",
+  "mn-bulgan": "불간",
+  "mn-chingeltei": "칭겔테이구",
+  "mn-darkhanuul": "다르항올",
+  "mn-dornod": "도르노드",
+  "mn-dornogovi": "도르노고비",
+  "mn-dundgovi": "돈드고비",
+  "mn-govialtai": "고비알타이",
+  "mn-govisumber": "고비숨베르",
+  "mn-khanuul": "한올구",
+  "mn-khentii": "헨티",
+  "mn-khovd": "호브드",
+  "mn-khuvsgul": "흡스굴",
+  "mn-nalaikh": "날라이흐구",
+  "mn-orkhon": "오르홍",
+  "mn-selenge": "셀렝게",
+  "mn-songinokhairkhan": "송기노하이르항구",
+  "mn-sukhbaatar": "수흐바타르",
+  "mn-sukhbaatar-d": "수흐바타르구",
+  "mn-tuv": "투브",
+  "mn-ubmain": "울란바토르",
+  "mn-umnugovi": "움누고비",
+  "mn-uvs": "오브스",
+  "mn-uvurkhangai": "우부르항가이",
+  "mn-zavkhan": "자브항"
+ },
+ "labels": {
+  "mn-arkhangai": "Arkhangai",
+  "mn-bagakhangai": "Bagakhangai",
+  "mn-baganuur": "Baganuur",
+  "mn-bayanulgii": "Bayan-Ölgii",
+  "mn-bayangol": "Bayangol",
+  "mn-bayankhongor": "Bayankhongor",
+  "mn-bayanzurkh": "Bayanzürkh",
+  "mn-bulgan": "Bulgan",
+  "mn-chingeltei": "Chingeltei",
+  "mn-darkhanuul": "Darkhan-Uul",
+  "mn-dornod": "Dornod",
+  "mn-dornogovi": "Dornogovi",
+  "mn-dundgovi": "Dundgovi",
+  "mn-govialtai": "Govi-Altai",
+  "mn-govisumber": "Govisümber",
+  "mn-khanuul": "Khan-Uul",
+  "mn-khentii": "Khentii",
+  "mn-khovd": "Khovd",
+  "mn-khuvsgul": "Khövsgöl",
+  "mn-nalaikh": "Nalaikh",
+  "mn-orkhon": "Orkhon",
+  "mn-selenge": "Selenge",
+  "mn-songinokhairkhan": "Songinokhairkhan",
+  "mn-sukhbaatar": "Sükhbaatar",
+  "mn-sukhbaatar-d": "Sükhbaatar (UB)",
+  "mn-tuv": "Töv",
+  "mn-ubmain": "Ulaanbaatar",
+  "mn-umnugovi": "Ömnögovi",
+  "mn-uvs": "Uvs",
+  "mn-uvurkhangai": "Övörkhangai",
+  "mn-zavkhan": "Zavkhan"
+ },
+ "regionOf": {
+  "mn-arkhangai": "MN",
+  "mn-bagakhangai": "UB",
+  "mn-baganuur": "UB",
+  "mn-bayanulgii": "MN",
+  "mn-bayangol": "UB",
+  "mn-bayankhongor": "MN",
+  "mn-bayanzurkh": "UB",
+  "mn-bulgan": "MN",
+  "mn-chingeltei": "UB",
+  "mn-darkhanuul": "MN",
+  "mn-dornod": "MN",
+  "mn-dornogovi": "MN",
+  "mn-dundgovi": "MN",
+  "mn-govialtai": "MN",
+  "mn-govisumber": "MN",
+  "mn-khanuul": "UB",
+  "mn-khentii": "MN",
+  "mn-khovd": "MN",
+  "mn-khuvsgul": "MN",
+  "mn-nalaikh": "UB",
+  "mn-orkhon": "MN",
+  "mn-selenge": "MN",
+  "mn-songinokhairkhan": "UB",
+  "mn-sukhbaatar": "MN",
+  "mn-sukhbaatar-d": "UB",
+  "mn-tuv": "MN",
+  "mn-ubmain": "CTX",
+  "mn-umnugovi": "MN",
+  "mn-uvs": "MN",
+  "mn-uvurkhangai": "MN",
+  "mn-zavkhan": "MN"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "mn-umnugovi": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-uvurkhangai": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-arkhangai": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-bayanulgii": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-bayankhongor": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-bulgan": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-dornod": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-dundgovi": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-zavkhan": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-govialtai": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-govisumber": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-khuvsgul": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-khentii": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-khovd": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-sukhbaatar": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-selenge": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-tuv": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-uvs": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-dornogovi": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-orkhon": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-darkhanuul": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-bayanzurkh": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-songinokhairkhan": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-khanuul": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-sukhbaatar-d": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-chingeltei": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-bayangol": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-nalaikh": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-bagakhangai": {
+     "바가반디 (인민혁명당)": 1
+    },
+    "mn-baganuur": {
+     "바가반디 (인민혁명당)": 1
+    }
+   },
+   "m": {
+    "mn-umnugovi": 2,
+    "mn-uvurkhangai": 3,
+    "mn-arkhangai": 3,
+    "mn-bayanulgii": 2,
+    "mn-bayankhongor": 2,
+    "mn-bulgan": 2,
+    "mn-dornod": 3,
+    "mn-dundgovi": 2,
+    "mn-zavkhan": 2,
+    "mn-govialtai": 1,
+    "mn-govisumber": 3,
+    "mn-khuvsgul": 3,
+    "mn-khentii": 3,
+    "mn-khovd": 1,
+    "mn-sukhbaatar": 3,
+    "mn-selenge": 3,
+    "mn-tuv": 2,
+    "mn-uvs": 1,
+    "mn-dornogovi": 2,
+    "mn-orkhon": 3,
+    "mn-darkhanuul": 3,
+    "mn-bayanzurkh": 2,
+    "mn-songinokhairkhan": 2,
+    "mn-khanuul": 2,
+    "mn-sukhbaatar-d": 2,
+    "mn-chingeltei": 2,
+    "mn-bayangol": 2,
+    "mn-nalaikh": 1,
+    "mn-bagakhangai": 3,
+    "mn-baganuur": 3
+   }
+  }
+ ]
+}

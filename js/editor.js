@@ -278,7 +278,7 @@ function initEditor() {
         if (!inMap[id]) continue;
         const a = {}; for (const n in ps.d[id]) { const pid = byName[n]; if (pid) a[pid] = (a[pid] || 0) + ps.d[id][n]; else miss.add(n); }
         const tot = Object.values(ps.d[id]).reduce((s, v) => s + v, 0); if (tot) store.seats[id] = tot;
-        M.d[id] = { a, m: 0 };
+        M.d[id] = { a, m: (ps.m && ps.m[id]) || 0 };
       }
       paintAll(); refresh();
       toast(miss.size ? `목록에 없는 정당은 빼고 불러왔어요: ${[...miss].join(', ')}` : `${ps.name}를 불러왔어요.`);
