@@ -1,0 +1,20 @@
+/* Windows 테마(3.1 · 95 · XP) 전용 클릭 애니메이션: 누르면 버튼이 움푹 들어가고 글자가 1px 아래·오른쪽으로 밀려요 */
+@keyframes winflash{0%{filter:invert(1)}100%{filter:none}}
+/* --- Windows 3.1 --- */
+html[data-theme="win31"] button:active:not(:disabled),
+html[data-theme="win31"] .ctl i:active{box-shadow:inset 1px 1px #808080,inset 2px 2px #808080,inset -1px -1px #c0c0c0!important;border-color:#000!important;transform:translate(1px,1px);transition:none!important}
+html[data-theme="win31"] .card:active{transform:translate(1px,1px);transition:none}
+html[data-theme="win31"] .ylink:active{background:#000080;color:#fff;outline:1px dotted #000}
+/* --- Windows 95 --- */
+html[data-theme="win95"] button:active:not(:disabled),
+html[data-theme="win95"] .ctl i:active{box-shadow:inset 1px 1px #000,inset -1px -1px #fff,inset 2px 2px #808080,inset -2px -2px #dfdfdf!important;transform:translate(1px,1px);transition:none!important}
+html[data-theme="win95"] button:focus-visible{outline:1px dotted #000;outline-offset:-4px}
+html[data-theme="win95"] .card:active{box-shadow:inset 1px 1px #000,inset -1px -1px #fff,inset 2px 2px #808080!important;transform:translate(1px,1px);transition:none}
+html[data-theme="win95"] .ylink:active{background:#000080;color:#fff;outline:1px dotted #000}
+/* --- Windows XP --- */
+html[data-theme="winxp"] button:active:not(:disabled){background:linear-gradient(#cdcac3,#e3e2da 30%,#ecebe5)!important;box-shadow:inset 1px 1px 3px #0005!important;border-color:#003c74!important;transform:translateY(1px);transition:none!important}
+html[data-theme="winxp"] .ctl i:active{filter:brightness(.8);transform:translateY(1px)}
+html[data-theme="winxp"] .card:active{transform:scale(.99);filter:brightness(.96);transition:transform .05s}
+html[data-theme="winxp"] .ylink:active{background:#316ac5;color:#fff}
+/* 지도 칸을 누를 때 깜빡(반전) */
+html[data-theme^="win"] #mapWrap path:active{animation:winflash .18s steps(2,end)}
