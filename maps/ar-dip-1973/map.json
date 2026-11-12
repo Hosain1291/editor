@@ -1,0 +1,391 @@
+{
+ "id": "ar-dip-1973",
+ "name": "아르헨티나 하원 선거",
+ "subtitle": "1973년 · 하원 전체 243석 선출 · 과반 122",
+ "tag": "DIPUTADOS 1973",
+ "menuCountry": "아르헨티나",
+ "menuGroup": "아르헨티나 하원(대의원원) 선거",
+ "cardName": "1973",
+ "yearLink": true,
+ "svg": "../ar-dip-1958/map.svg",
+ "width": 700,
+ "height": 1245.6,
+ "regions": {
+  "AR": "아르헨티나"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1973년",
+   "sub": "243석",
+   "regions": [
+    "AR"
+   ],
+   "box": [
+    0,
+    0,
+    700,
+    1245.6
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "정의당 (페론주의)",
+   "color": "#318ce7"
+  },
+  {
+   "name": "급진시민연합 (UCR)",
+   "color": "#e10019"
+  },
+  {
+   "name": "Mov. de Integración y Desarrollo",
+   "color": "#0f2b3d"
+  },
+  {
+   "name": "비타협당",
+   "color": "#d10047"
+  },
+  {
+   "name": "Partido Conservador Popular",
+   "color": "#000055"
+  },
+  {
+   "name": "Partido Popular Cristiano",
+   "color": "#2b3094"
+  },
+  {
+   "name": "Partido Revolucionario Cristiano",
+   "color": "#00dede"
+  },
+  {
+   "name": "Unión Conservadora",
+   "color": "#4169e1"
+  },
+  {
+   "name": "Partido Federal",
+   "color": "#b84e00"
+  },
+  {
+   "name": "인민연합 (페론주의)",
+   "color": "#009999"
+  },
+  {
+   "name": "Unión del Pueblo Argentino",
+   "color": "#00708b"
+  },
+  {
+   "name": "Partido Bloquista",
+   "color": "#44944a"
+  },
+  {
+   "name": "진보민주당",
+   "color": "#005c9e"
+  },
+  {
+   "name": "Partido Comunista",
+   "color": "#5c0000"
+  },
+  {
+   "name": "Partido Autonomista de Corrientes",
+   "color": "#ff8080"
+  },
+  {
+   "name": "Movimiento Federalista Pampeano",
+   "color": "#424f5c"
+  },
+  {
+   "name": "Partido Orientación Legalista",
+   "color": "#00472e"
+  },
+  {
+   "name": "Partido Demócrata de Mendoza",
+   "color": "#0434b1"
+  },
+  {
+   "name": "Movimiento Popular Neuquino",
+   "color": "#0070b8"
+  },
+  {
+   "name": "Vanguardia Federal",
+   "color": "#ffd700"
+  },
+  {
+   "name": "Cruzada Renovadora",
+   "color": "#9fe4ff"
+  },
+  {
+   "name": "Movimiento Popular Provincial",
+   "color": "#0d3e6f"
+  },
+  {
+   "name": "Partido Liberal de Corrientes",
+   "color": "#35aae0"
+  },
+  {
+   "name": "Movimiento Popular Salteño",
+   "color": "#0000ff"
+  },
+  {
+   "name": "Movimiento Popular Jujeño",
+   "color": "#000088"
+  },
+  {
+   "name": "Partido Acción Chubutense",
+   "color": "#008c5b"
+  },
+  {
+   "name": "Movimiento Popular Catamarqueño",
+   "color": "#0052ce"
+  },
+  {
+   "name": "Partido Provincial Rionegrino",
+   "color": "#eb3721"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "ar-buenos-aires": 68,
+  "ar-capital-federal": 25,
+  "ar-catamarca": 4,
+  "ar-chaco": 7,
+  "ar-chubut": 4,
+  "ar-corrientes": 7,
+  "ar-cordoba": 18,
+  "ar-entre-rios": 9,
+  "ar-formosa": 5,
+  "ar-jujuy": 5,
+  "ar-la-pampa": 4,
+  "ar-la-rioja": 4,
+  "ar-mendoza": 10,
+  "ar-misiones": 6,
+  "ar-neuquen": 4,
+  "ar-rio-negro": 5,
+  "ar-salta": 7,
+  "ar-san-juan": 6,
+  "ar-san-luis": 4,
+  "ar-santa-cruz": 4,
+  "ar-santa-fe": 19,
+  "ar-santiago-del-estero": 7,
+  "ar-tierra-del-fuego": 2,
+  "ar-tucuman": 9
+ },
+ "names": {
+  "ar-buenos-aires": "부에노스아이레스",
+  "ar-capital-federal": "수도 (부에노스아이레스시)",
+  "ar-catamarca": "카타마르카",
+  "ar-chaco": "차코",
+  "ar-chubut": "추부트",
+  "ar-corrientes": "코리엔테스",
+  "ar-cordoba": "코르도바",
+  "ar-entre-rios": "엔트레리오스",
+  "ar-formosa": "포르모사",
+  "ar-jujuy": "후후이",
+  "ar-la-pampa": "라팜파",
+  "ar-la-rioja": "라리오하",
+  "ar-mendoza": "멘도사",
+  "ar-misiones": "미시오네스",
+  "ar-neuquen": "네우켄",
+  "ar-rio-negro": "리오네그로",
+  "ar-salta": "살타",
+  "ar-san-juan": "산후안",
+  "ar-san-luis": "산루이스",
+  "ar-santa-cruz": "산타크루스",
+  "ar-santa-fe": "산타페",
+  "ar-santiago-del-estero": "산티아고델에스테로",
+  "ar-tierra-del-fuego": "티에라델푸에고",
+  "ar-tucuman": "투쿠만"
+ },
+ "labels": {
+  "ar-buenos-aires": "Buenos Aires",
+  "ar-capital-federal": "Capital Federal",
+  "ar-catamarca": "Catamarca",
+  "ar-chaco": "Chaco",
+  "ar-chubut": "Chubut",
+  "ar-corrientes": "Corrientes",
+  "ar-cordoba": "Córdoba",
+  "ar-entre-rios": "Entre Ríos",
+  "ar-formosa": "Formosa",
+  "ar-jujuy": "Jujuy",
+  "ar-la-pampa": "La Pampa",
+  "ar-la-rioja": "La Rioja",
+  "ar-mendoza": "Mendoza",
+  "ar-misiones": "Misiones",
+  "ar-neuquen": "Neuquén",
+  "ar-rio-negro": "Río Negro",
+  "ar-salta": "Salta",
+  "ar-san-juan": "San Juan",
+  "ar-san-luis": "San Luis",
+  "ar-santa-cruz": "Santa Cruz",
+  "ar-santa-fe": "Santa Fe",
+  "ar-santiago-del-estero": "Santiago del Estero",
+  "ar-tierra-del-fuego": "Tierra del Fuego",
+  "ar-tucuman": "Tucumán"
+ },
+ "regionOf": {
+  "ar-buenos-aires": "AR",
+  "ar-capital-federal": "AR",
+  "ar-catamarca": "AR",
+  "ar-chaco": "AR",
+  "ar-chubut": "AR",
+  "ar-corrientes": "AR",
+  "ar-cordoba": "AR",
+  "ar-entre-rios": "AR",
+  "ar-formosa": "AR",
+  "ar-jujuy": "AR",
+  "ar-la-pampa": "AR",
+  "ar-la-rioja": "AR",
+  "ar-mendoza": "AR",
+  "ar-misiones": "AR",
+  "ar-neuquen": "AR",
+  "ar-rio-negro": "AR",
+  "ar-salta": "AR",
+  "ar-san-juan": "AR",
+  "ar-san-luis": "AR",
+  "ar-santa-cruz": "AR",
+  "ar-santa-fe": "AR",
+  "ar-santiago-del-estero": "AR",
+  "ar-tierra-del-fuego": "AR",
+  "ar-tucuman": "AR"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "ar-cordoba": {
+     "정의당 (페론주의)": 9,
+     "Mov. de Integración y Desarrollo": 1,
+     "급진시민연합 (UCR)": 8
+    },
+    "ar-buenos-aires": {
+     "정의당 (페론주의)": 31,
+     "Partido Conservador Popular": 2,
+     "Mov. de Integración y Desarrollo": 4,
+     "Partido Popular Cristiano": 2,
+     "급진시민연합 (UCR)": 14,
+     "Partido Comunista": 1,
+     "Partido Revolucionario Cristiano": 1,
+     "Unión Conservadora": 3,
+     "Partido Federal": 3,
+     "인민연합 (페론주의)": 2,
+     "비타협당": 5
+    },
+    "ar-capital-federal": {
+     "정의당 (페론주의)": 11,
+     "Mov. de Integración y Desarrollo": 1,
+     "Partido Popular Cristiano": 1,
+     "급진시민연합 (UCR)": 7,
+     "Unión del Pueblo Argentino": 3,
+     "Partido Revolucionario Cristiano": 1,
+     "Partido Comunista": 1
+    },
+    "ar-entre-rios": {
+     "정의당 (페론주의)": 4,
+     "Partido Conservador Popular": 1,
+     "Mov. de Integración y Desarrollo": 1,
+     "급진시민연합 (UCR)": 3
+    },
+    "ar-san-juan": {
+     "Partido Bloquista": 3,
+     "정의당 (페론주의)": 2,
+     "Cruzada Renovadora": 1
+    },
+    "ar-san-luis": {
+     "정의당 (페론주의)": 3,
+     "Movimiento Popular Provincial": 1
+    },
+    "ar-corrientes": {
+     "Mov. de Integración y Desarrollo": 1,
+     "정의당 (페론주의)": 3,
+     "Partido Liberal de Corrientes": 1,
+     "Partido Autonomista de Corrientes": 2
+    },
+    "ar-la-pampa": {
+     "정의당 (페론주의)": 2,
+     "Movimiento Federalista Pampeano": 2
+    },
+    "ar-santa-fe": {
+     "Mov. de Integración y Desarrollo": 8,
+     "진보민주당": 3,
+     "Partido Orientación Legalista": 2,
+     "정의당 (페론주의)": 2,
+     "인민연합 (페론주의)": 1,
+     "급진시민연합 (UCR)": 3
+    },
+    "ar-salta": {
+     "정의당 (페론주의)": 5,
+     "Movimiento Popular Salteño": 1,
+     "급진시민연합 (UCR)": 1
+    },
+    "ar-chaco": {
+     "정의당 (페론주의)": 5,
+     "급진시민연합 (UCR)": 2
+    },
+    "ar-formosa": {
+     "정의당 (페론주의)": 3,
+     "Mov. de Integración y Desarrollo": 1,
+     "급진시민연합 (UCR)": 1
+    },
+    "ar-jujuy": {
+     "정의당 (페론주의)": 4,
+     "Movimiento Popular Jujeño": 1
+    },
+    "ar-chubut": {
+     "Partido Acción Chubutense": 1,
+     "정의당 (페론주의)": 2,
+     "급진시민연합 (UCR)": 1
+    },
+    "ar-catamarca": {
+     "Movimiento Popular Catamarqueño": 1,
+     "정의당 (페론주의)": 2,
+     "급진시민연합 (UCR)": 1
+    },
+    "ar-la-rioja": {
+     "정의당 (페론주의)": 3,
+     "급진시민연합 (UCR)": 1
+    },
+    "ar-mendoza": {
+     "정의당 (페론주의)": 6,
+     "Partido Demócrata de Mendoza": 2,
+     "급진시민연합 (UCR)": 2
+    },
+    "ar-neuquen": {
+     "Movimiento Popular Neuquino": 2,
+     "정의당 (페론주의)": 1,
+     "Mov. de Integración y Desarrollo": 1
+    },
+    "ar-misiones": {
+     "정의당 (페론주의)": 3,
+     "Mov. de Integración y Desarrollo": 1,
+     "급진시민연합 (UCR)": 2
+    },
+    "ar-rio-negro": {
+     "정의당 (페론주의)": 3,
+     "급진시민연합 (UCR)": 1,
+     "Partido Provincial Rionegrino": 1
+    },
+    "ar-santa-cruz": {
+     "급진시민연합 (UCR)": 2,
+     "정의당 (페론주의)": 2
+    },
+    "ar-tierra-del-fuego": {
+     "정의당 (페론주의)": 1,
+     "Mov. de Integración y Desarrollo": 1
+    },
+    "ar-santiago-del-estero": {
+     "정의당 (페론주의)": 4,
+     "Mov. de Integración y Desarrollo": 1,
+     "Partido Revolucionario Cristiano": 1,
+     "급진시민연합 (UCR)": 1
+    },
+    "ar-tucuman": {
+     "정의당 (페론주의)": 6,
+     "Vanguardia Federal": 2,
+     "급진시민연합 (UCR)": 1
+    }
+   }
+  }
+ ]
+}

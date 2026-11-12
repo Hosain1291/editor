@@ -1,0 +1,298 @@
+{
+ "id": "ar-dip-1985",
+ "name": "아르헨티나 하원 선거",
+ "subtitle": "1985년 · 이번에 뽑은 127석 (하원은 2년마다 절반 개선) · 선거가 없던 곳은 0석",
+ "tag": "DIPUTADOS 1985",
+ "menuCountry": "아르헨티나",
+ "menuGroup": "아르헨티나 하원(대의원원) 선거",
+ "cardName": "1985",
+ "yearLink": true,
+ "svg": "../ar-dip-1958/map.svg",
+ "width": 700,
+ "height": 1245.6,
+ "regions": {
+  "AR": "아르헨티나"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1985년",
+   "sub": "127석",
+   "regions": [
+    "AR"
+   ],
+   "box": [
+    0,
+    0,
+    700,
+    1245.6
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "급진시민연합 (UCR)",
+   "color": "#e10019"
+  },
+  {
+   "name": "정의당 (페론주의)",
+   "color": "#318ce7"
+  },
+  {
+   "name": "비타협당",
+   "color": "#d10047"
+  },
+  {
+   "name": "Peronismo Renovador",
+   "color": "#75aadb"
+  },
+  {
+   "name": "민주중도연합 (UCeDé)",
+   "color": "#007aad"
+  },
+  {
+   "name": "Pacto Autonomista - Liberal",
+   "color": "#40e0d0"
+  },
+  {
+   "name": "Partido Renovador de Salta",
+   "color": "#00ffff"
+  },
+  {
+   "name": "Movimiento Popular Jujeño",
+   "color": "#000088"
+  },
+  {
+   "name": "진보민주당",
+   "color": "#00004f"
+  },
+  {
+   "name": "Movimiento Popular Neuquino",
+   "color": "#0070b8"
+  },
+  {
+   "name": "Partido Demócrata de Mendoza",
+   "color": "#006572"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "ar-buenos-aires": 35,
+  "ar-capital-federal": 13,
+  "ar-catamarca": 3,
+  "ar-chaco": 4,
+  "ar-chubut": 2,
+  "ar-corrientes": 3,
+  "ar-cordoba": 9,
+  "ar-entre-rios": 5,
+  "ar-formosa": 2,
+  "ar-jujuy": 3,
+  "ar-la-pampa": 3,
+  "ar-la-rioja": 2,
+  "ar-mendoza": 5,
+  "ar-misiones": 3,
+  "ar-neuquen": 3,
+  "ar-rio-negro": 2,
+  "ar-salta": 3,
+  "ar-san-juan": 3,
+  "ar-san-luis": 3,
+  "ar-santa-cruz": 3,
+  "ar-santa-fe": 9,
+  "ar-santiago-del-estero": 3,
+  "ar-tierra-del-fuego": 2,
+  "ar-tucuman": 4
+ },
+ "names": {
+  "ar-buenos-aires": "부에노스아이레스",
+  "ar-capital-federal": "수도 (부에노스아이레스시)",
+  "ar-catamarca": "카타마르카",
+  "ar-chaco": "차코",
+  "ar-chubut": "추부트",
+  "ar-corrientes": "코리엔테스",
+  "ar-cordoba": "코르도바",
+  "ar-entre-rios": "엔트레리오스",
+  "ar-formosa": "포르모사",
+  "ar-jujuy": "후후이",
+  "ar-la-pampa": "라팜파",
+  "ar-la-rioja": "라리오하",
+  "ar-mendoza": "멘도사",
+  "ar-misiones": "미시오네스",
+  "ar-neuquen": "네우켄",
+  "ar-rio-negro": "리오네그로",
+  "ar-salta": "살타",
+  "ar-san-juan": "산후안",
+  "ar-san-luis": "산루이스",
+  "ar-santa-cruz": "산타크루스",
+  "ar-santa-fe": "산타페",
+  "ar-santiago-del-estero": "산티아고델에스테로",
+  "ar-tierra-del-fuego": "티에라델푸에고",
+  "ar-tucuman": "투쿠만"
+ },
+ "labels": {
+  "ar-buenos-aires": "Buenos Aires",
+  "ar-capital-federal": "Capital Federal",
+  "ar-catamarca": "Catamarca",
+  "ar-chaco": "Chaco",
+  "ar-chubut": "Chubut",
+  "ar-corrientes": "Corrientes",
+  "ar-cordoba": "Córdoba",
+  "ar-entre-rios": "Entre Ríos",
+  "ar-formosa": "Formosa",
+  "ar-jujuy": "Jujuy",
+  "ar-la-pampa": "La Pampa",
+  "ar-la-rioja": "La Rioja",
+  "ar-mendoza": "Mendoza",
+  "ar-misiones": "Misiones",
+  "ar-neuquen": "Neuquén",
+  "ar-rio-negro": "Río Negro",
+  "ar-salta": "Salta",
+  "ar-san-juan": "San Juan",
+  "ar-san-luis": "San Luis",
+  "ar-santa-cruz": "Santa Cruz",
+  "ar-santa-fe": "Santa Fe",
+  "ar-santiago-del-estero": "Santiago del Estero",
+  "ar-tierra-del-fuego": "Tierra del Fuego",
+  "ar-tucuman": "Tucumán"
+ },
+ "regionOf": {
+  "ar-buenos-aires": "AR",
+  "ar-capital-federal": "AR",
+  "ar-catamarca": "AR",
+  "ar-chaco": "AR",
+  "ar-chubut": "AR",
+  "ar-corrientes": "AR",
+  "ar-cordoba": "AR",
+  "ar-entre-rios": "AR",
+  "ar-formosa": "AR",
+  "ar-jujuy": "AR",
+  "ar-la-pampa": "AR",
+  "ar-la-rioja": "AR",
+  "ar-mendoza": "AR",
+  "ar-misiones": "AR",
+  "ar-neuquen": "AR",
+  "ar-rio-negro": "AR",
+  "ar-salta": "AR",
+  "ar-san-juan": "AR",
+  "ar-san-luis": "AR",
+  "ar-santa-cruz": "AR",
+  "ar-santa-fe": "AR",
+  "ar-santiago-del-estero": "AR",
+  "ar-tierra-del-fuego": "AR",
+  "ar-tucuman": "AR"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "ar-cordoba": {
+     "급진시민연합 (UCR)": 2,
+     "정의당 (페론주의)": 7
+    },
+    "ar-buenos-aires": {
+     "급진시민연합 (UCR)": 16,
+     "Peronismo Renovador": 3,
+     "정의당 (페론주의)": 11,
+     "비타협당": 4,
+     "민주중도연합 (UCeDé)": 1
+    },
+    "ar-capital-federal": {
+     "급진시민연합 (UCR)": 7,
+     "정의당 (페론주의)": 4,
+     "비타협당": 1,
+     "민주중도연합 (UCeDé)": 1
+    },
+    "ar-santiago-del-estero": {
+     "급진시민연합 (UCR)": 2,
+     "정의당 (페론주의)": 1
+    },
+    "ar-salta": {
+     "급진시민연합 (UCR)": 1,
+     "정의당 (페론주의)": 1,
+     "Partido Renovador de Salta": 1
+    },
+    "ar-corrientes": {
+     "Pacto Autonomista - Liberal": 2,
+     "급진시민연합 (UCR)": 1
+    },
+    "ar-misiones": {
+     "급진시민연합 (UCR)": 2,
+     "정의당 (페론주의)": 1
+    },
+    "ar-entre-rios": {
+     "급진시민연합 (UCR)": 3,
+     "정의당 (페론주의)": 2
+    },
+    "ar-tierra-del-fuego": {
+     "정의당 (페론주의)": 1,
+     "급진시민연합 (UCR)": 1
+    },
+    "ar-jujuy": {
+     "급진시민연합 (UCR)": 1,
+     "정의당 (페론주의)": 1,
+     "Movimiento Popular Jujeño": 1
+    },
+    "ar-santa-fe": {
+     "급진시민연합 (UCR)": 5,
+     "정의당 (페론주의)": 3,
+     "진보민주당": 1
+    },
+    "ar-catamarca": {
+     "급진시민연합 (UCR)": 2,
+     "정의당 (페론주의)": 1
+    },
+    "ar-la-rioja": {
+     "정의당 (페론주의)": 1,
+     "급진시민연합 (UCR)": 1
+    },
+    "ar-santa-cruz": {
+     "급진시민연합 (UCR)": 2,
+     "정의당 (페론주의)": 1
+    },
+    "ar-rio-negro": {
+     "급진시민연합 (UCR)": 1,
+     "정의당 (페론주의)": 1
+    },
+    "ar-la-pampa": {
+     "급진시민연합 (UCR)": 2,
+     "정의당 (페론주의)": 1
+    },
+    "ar-neuquen": {
+     "급진시민연합 (UCR)": 1,
+     "Movimiento Popular Neuquino": 1,
+     "정의당 (페론주의)": 1
+    },
+    "ar-formosa": {
+     "급진시민연합 (UCR)": 1,
+     "정의당 (페론주의)": 1
+    },
+    "ar-chubut": {
+     "급진시민연합 (UCR)": 1,
+     "정의당 (페론주의)": 1
+    },
+    "ar-chaco": {
+     "급진시민연합 (UCR)": 2,
+     "정의당 (페론주의)": 2
+    },
+    "ar-san-juan": {
+     "급진시민연합 (UCR)": 2,
+     "정의당 (페론주의)": 1
+    },
+    "ar-san-luis": {
+     "급진시민연합 (UCR)": 2,
+     "정의당 (페론주의)": 1
+    },
+    "ar-tucuman": {
+     "급진시민연합 (UCR)": 2,
+     "정의당 (페론주의)": 2
+    },
+    "ar-mendoza": {
+     "급진시민연합 (UCR)": 3,
+     "정의당 (페론주의)": 1,
+     "Partido Demócrata de Mendoza": 1
+    }
+   }
+  }
+ ]
+}

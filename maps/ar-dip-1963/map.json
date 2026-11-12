@@ -1,0 +1,317 @@
+{
+ "id": "ar-dip-1963",
+ "name": "아르헨티나 하원 선거",
+ "subtitle": "1963년 · 하원 전체 192석 선출 · 과반 97",
+ "tag": "DIPUTADOS 1963",
+ "menuCountry": "아르헨티나",
+ "menuGroup": "아르헨티나 하원(대의원원) 선거",
+ "cardName": "1963",
+ "yearLink": true,
+ "svg": "../ar-dip-1958/map.svg",
+ "width": 700,
+ "height": 1245.6,
+ "regions": {
+  "AR": "아르헨티나"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1963년",
+   "sub": "192석",
+   "regions": [
+    "AR"
+   ],
+   "box": [
+    0,
+    0,
+    700,
+    1245.6
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "인민 급진시민연합 (UCRP)",
+   "color": "#e10019"
+  },
+  {
+   "name": "비타협 급진시민연합 (UCRI)",
+   "color": "#e36552"
+  },
+  {
+   "name": "신페론주의",
+   "color": "#318ce7"
+  },
+  {
+   "name": "Unión del Pueblo Argentino",
+   "color": "#00708b"
+  },
+  {
+   "name": "진보민주당",
+   "color": "#005c9e"
+  },
+  {
+   "name": "중도 전국연맹",
+   "color": "#4169e1"
+  },
+  {
+   "name": "Partido Demócrata Cristiano",
+   "color": "#2b3094"
+  },
+  {
+   "name": "Partido Socialista Democrático",
+   "color": "#ff9900"
+  },
+  {
+   "name": "Partido Socialista Argentino",
+   "color": "#ff6600"
+  },
+  {
+   "name": "Partido Autonomista de Corrientes",
+   "color": "#ff8080"
+  },
+  {
+   "name": "Partido Liberal de Corrientes",
+   "color": "#35aae0"
+  },
+  {
+   "name": "Defensa Provincial - Bandera Blanca",
+   "color": "#a0a0a0"
+  },
+  {
+   "name": "Unión Cívica Radical Bloquista",
+   "color": "#44944a"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "ar-buenos-aires": 50,
+  "ar-capital-federal": 35,
+  "ar-catamarca": 2,
+  "ar-chaco": 5,
+  "ar-chubut": 2,
+  "ar-corrientes": 6,
+  "ar-cordoba": 18,
+  "ar-entre-rios": 9,
+  "ar-formosa": 2,
+  "ar-jujuy": 2,
+  "ar-la-pampa": 2,
+  "ar-la-rioja": 2,
+  "ar-mendoza": 7,
+  "ar-misiones": 3,
+  "ar-neuquen": 2,
+  "ar-rio-negro": 2,
+  "ar-salta": 3,
+  "ar-san-juan": 3,
+  "ar-san-luis": 2,
+  "ar-santa-cruz": 2,
+  "ar-santa-fe": 20,
+  "ar-santiago-del-estero": 6,
+  "ar-tierra-del-fuego": 0,
+  "ar-tucuman": 7
+ },
+ "names": {
+  "ar-buenos-aires": "부에노스아이레스",
+  "ar-capital-federal": "수도 (부에노스아이레스시)",
+  "ar-catamarca": "카타마르카",
+  "ar-chaco": "차코",
+  "ar-chubut": "추부트",
+  "ar-corrientes": "코리엔테스",
+  "ar-cordoba": "코르도바",
+  "ar-entre-rios": "엔트레리오스",
+  "ar-formosa": "포르모사",
+  "ar-jujuy": "후후이",
+  "ar-la-pampa": "라팜파",
+  "ar-la-rioja": "라리오하",
+  "ar-mendoza": "멘도사",
+  "ar-misiones": "미시오네스",
+  "ar-neuquen": "네우켄",
+  "ar-rio-negro": "리오네그로",
+  "ar-salta": "살타",
+  "ar-san-juan": "산후안",
+  "ar-san-luis": "산루이스",
+  "ar-santa-cruz": "산타크루스",
+  "ar-santa-fe": "산타페",
+  "ar-santiago-del-estero": "산티아고델에스테로",
+  "ar-tierra-del-fuego": "티에라델푸에고",
+  "ar-tucuman": "투쿠만"
+ },
+ "labels": {
+  "ar-buenos-aires": "Buenos Aires",
+  "ar-capital-federal": "Capital Federal",
+  "ar-catamarca": "Catamarca",
+  "ar-chaco": "Chaco",
+  "ar-chubut": "Chubut",
+  "ar-corrientes": "Corrientes",
+  "ar-cordoba": "Córdoba",
+  "ar-entre-rios": "Entre Ríos",
+  "ar-formosa": "Formosa",
+  "ar-jujuy": "Jujuy",
+  "ar-la-pampa": "La Pampa",
+  "ar-la-rioja": "La Rioja",
+  "ar-mendoza": "Mendoza",
+  "ar-misiones": "Misiones",
+  "ar-neuquen": "Neuquén",
+  "ar-rio-negro": "Río Negro",
+  "ar-salta": "Salta",
+  "ar-san-juan": "San Juan",
+  "ar-san-luis": "San Luis",
+  "ar-santa-cruz": "Santa Cruz",
+  "ar-santa-fe": "Santa Fe",
+  "ar-santiago-del-estero": "Santiago del Estero",
+  "ar-tierra-del-fuego": "Tierra del Fuego",
+  "ar-tucuman": "Tucumán"
+ },
+ "regionOf": {
+  "ar-buenos-aires": "AR",
+  "ar-capital-federal": "AR",
+  "ar-catamarca": "AR",
+  "ar-chaco": "AR",
+  "ar-chubut": "AR",
+  "ar-corrientes": "AR",
+  "ar-cordoba": "AR",
+  "ar-entre-rios": "AR",
+  "ar-formosa": "AR",
+  "ar-jujuy": "AR",
+  "ar-la-pampa": "AR",
+  "ar-la-rioja": "AR",
+  "ar-mendoza": "AR",
+  "ar-misiones": "AR",
+  "ar-neuquen": "AR",
+  "ar-rio-negro": "AR",
+  "ar-salta": "AR",
+  "ar-san-juan": "AR",
+  "ar-san-luis": "AR",
+  "ar-santa-cruz": "AR",
+  "ar-santa-fe": "AR",
+  "ar-santiago-del-estero": "AR",
+  "ar-tierra-del-fuego": "AR",
+  "ar-tucuman": "AR"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "ar-cordoba": {
+     "인민 급진시민연합 (UCRP)": 12,
+     "비타협 급진시민연합 (UCRI)": 2,
+     "Unión del Pueblo Argentino": 1,
+     "Partido Demócrata Cristiano": 2,
+     "중도 전국연맹": 1
+    },
+    "ar-tucuman": {
+     "비타협 급진시민연합 (UCRI)": 2,
+     "Unión del Pueblo Argentino": 1,
+     "Partido Demócrata Cristiano": 1,
+     "인민 급진시민연합 (UCRP)": 1,
+     "신페론주의": 1,
+     "Defensa Provincial - Bandera Blanca": 1
+    },
+    "ar-buenos-aires": {
+     "신페론주의": 1,
+     "인민 급진시민연합 (UCRP)": 18,
+     "비타협 급진시민연합 (UCRI)": 13,
+     "Partido Demócrata Cristiano": 2,
+     "Partido Socialista Democrático": 3,
+     "중도 전국연맹": 3,
+     "진보민주당": 3,
+     "Partido Socialista Argentino": 3,
+     "Unión del Pueblo Argentino": 4
+    },
+    "ar-capital-federal": {
+     "인민 급진시민연합 (UCRP)": 11,
+     "비타협 급진시민연합 (UCRI)": 7,
+     "Unión del Pueblo Argentino": 5,
+     "중도 전국연맹": 1,
+     "진보민주당": 4,
+     "Partido Socialista Democrático": 3,
+     "Partido Demócrata Cristiano": 2,
+     "Partido Socialista Argentino": 2
+    },
+    "ar-chaco": {
+     "신페론주의": 3,
+     "비타협 급진시민연합 (UCRI)": 1,
+     "인민 급진시민연합 (UCRP)": 1
+    },
+    "ar-formosa": {
+     "비타협 급진시민연합 (UCRI)": 1,
+     "인민 급진시민연합 (UCRP)": 1
+    },
+    "ar-misiones": {
+     "인민 급진시민연합 (UCRP)": 1,
+     "비타협 급진시민연합 (UCRI)": 1,
+     "Unión del Pueblo Argentino": 1
+    },
+    "ar-entre-rios": {
+     "인민 급진시민연합 (UCRP)": 4,
+     "신페론주의": 1,
+     "비타협 급진시민연합 (UCRI)": 3,
+     "중도 전국연맹": 1
+    },
+    "ar-jujuy": {
+     "신페론주의": 2
+    },
+    "ar-santa-fe": {
+     "인민 급진시민연합 (UCRP)": 7,
+     "진보민주당": 5,
+     "비타협 급진시민연합 (UCRI)": 5,
+     "Unión del Pueblo Argentino": 2,
+     "Partido Demócrata Cristiano": 1
+    },
+    "ar-santiago-del-estero": {
+     "인민 급진시민연합 (UCRP)": 5,
+     "신페론주의": 1
+    },
+    "ar-la-pampa": {
+     "비타협 급진시민연합 (UCRI)": 1,
+     "인민 급진시민연합 (UCRP)": 1
+    },
+    "ar-rio-negro": {
+     "인민 급진시민연합 (UCRP)": 1,
+     "비타협 급진시민연합 (UCRI)": 1
+    },
+    "ar-chubut": {
+     "인민 급진시민연합 (UCRP)": 2
+    },
+    "ar-san-juan": {
+     "Unión Cívica Radical Bloquista": 1,
+     "인민 급진시민연합 (UCRP)": 1,
+     "신페론주의": 1
+    },
+    "ar-san-luis": {
+     "중도 전국연맹": 1,
+     "신페론주의": 1
+    },
+    "ar-catamarca": {
+     "인민 급진시민연합 (UCRP)": 2
+    },
+    "ar-la-rioja": {
+     "인민 급진시민연합 (UCRP)": 2
+    },
+    "ar-corrientes": {
+     "비타협 급진시민연합 (UCRI)": 2,
+     "Partido Autonomista de Corrientes": 2,
+     "Partido Liberal de Corrientes": 2
+    },
+    "ar-mendoza": {
+     "중도 전국연맹": 2,
+     "신페론주의": 3,
+     "인민 급진시민연합 (UCRP)": 2
+    },
+    "ar-salta": {
+     "신페론주의": 3
+    },
+    "ar-neuquen": {
+     "신페론주의": 2
+    },
+    "ar-santa-cruz": {
+     "인민 급진시민연합 (UCRP)": 1,
+     "비타협 급진시민연합 (UCRI)": 1
+    },
+    "ar-tierra-del-fuego": {}
+   }
+  }
+ ]
+}

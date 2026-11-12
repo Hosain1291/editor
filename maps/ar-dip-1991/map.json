@@ -1,0 +1,313 @@
+{
+ "id": "ar-dip-1991",
+ "name": "아르헨티나 하원 선거",
+ "subtitle": "1991년 · 이번에 뽑은 130석 (하원은 2년마다 절반 개선) · 선거가 없던 곳은 0석",
+ "tag": "DIPUTADOS 1991",
+ "menuCountry": "아르헨티나",
+ "menuGroup": "아르헨티나 하원(대의원원) 선거",
+ "cardName": "1991",
+ "yearLink": true,
+ "svg": "../ar-dip-1989/map.svg",
+ "width": 700,
+ "height": 1272.4,
+ "regions": {
+  "AR": "아르헨티나"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1991년",
+   "sub": "130석",
+   "regions": [
+    "AR"
+   ],
+   "box": [
+    0,
+    0,
+    700,
+    1272.4
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "정의주의 전선",
+   "color": "#318ce7"
+  },
+  {
+   "name": "급진시민연합 (UCR)",
+   "color": "#e10019"
+  },
+  {
+   "name": "민주중도연합 (UCeDé)",
+   "color": "#007aad"
+  },
+  {
+   "name": "존엄과 독립 운동 (MODIN)",
+   "color": "#ffff00"
+  },
+  {
+   "name": "사회주의 연합",
+   "color": "#ff9900"
+  },
+  {
+   "name": "Pacto Autonomista - Liberal",
+   "color": "#40e0d0"
+  },
+  {
+   "name": "Partido Renovador de Salta",
+   "color": "#00ffff"
+  },
+  {
+   "name": "Fuerza Republicana",
+   "color": "#00708b"
+  },
+  {
+   "name": "Movimiento Popular Fueguino",
+   "color": "#000088"
+  },
+  {
+   "name": "Acción Chaqueña",
+   "color": "#ff0080"
+  },
+  {
+   "name": "Movimiento Popular Jujeño",
+   "color": "#000088"
+  },
+  {
+   "name": "진보민주당",
+   "color": "#00004f"
+  },
+  {
+   "name": "Movimiento Popular Neuquino",
+   "color": "#0070b8"
+  },
+  {
+   "name": "Cruzada Renovadora",
+   "color": "#87ceeb"
+  },
+  {
+   "name": "Alianza Bloquista",
+   "color": "#44944a"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "ar-buenos-aires": 35,
+  "ar-capital-federal": 12,
+  "ar-catamarca": 3,
+  "ar-chaco": 3,
+  "ar-chubut": 3,
+  "ar-corrientes": 4,
+  "ar-cordoba": 9,
+  "ar-entre-rios": 4,
+  "ar-formosa": 3,
+  "ar-jujuy": 3,
+  "ar-la-pampa": 2,
+  "ar-la-rioja": 3,
+  "ar-mendoza": 5,
+  "ar-misiones": 4,
+  "ar-neuquen": 2,
+  "ar-rio-negro": 3,
+  "ar-salta": 4,
+  "ar-san-juan": 3,
+  "ar-san-luis": 2,
+  "ar-santa-cruz": 2,
+  "ar-santa-fe": 10,
+  "ar-santiago-del-estero": 4,
+  "ar-tierra-del-fuego": 3,
+  "ar-tucuman": 4
+ },
+ "names": {
+  "ar-buenos-aires": "부에노스아이레스",
+  "ar-capital-federal": "수도 (부에노스아이레스시)",
+  "ar-catamarca": "카타마르카",
+  "ar-chaco": "차코",
+  "ar-chubut": "추부트",
+  "ar-corrientes": "코리엔테스",
+  "ar-cordoba": "코르도바",
+  "ar-entre-rios": "엔트레리오스",
+  "ar-formosa": "포르모사",
+  "ar-jujuy": "후후이",
+  "ar-la-pampa": "라팜파",
+  "ar-la-rioja": "라리오하",
+  "ar-mendoza": "멘도사",
+  "ar-misiones": "미시오네스",
+  "ar-neuquen": "네우켄",
+  "ar-rio-negro": "리오네그로",
+  "ar-salta": "살타",
+  "ar-san-juan": "산후안",
+  "ar-san-luis": "산루이스",
+  "ar-santa-cruz": "산타크루스",
+  "ar-santa-fe": "산타페",
+  "ar-santiago-del-estero": "산티아고델에스테로",
+  "ar-tierra-del-fuego": "티에라델푸에고",
+  "ar-tucuman": "투쿠만"
+ },
+ "labels": {
+  "ar-buenos-aires": "Buenos Aires",
+  "ar-capital-federal": "Capital Federal",
+  "ar-catamarca": "Catamarca",
+  "ar-chaco": "Chaco",
+  "ar-chubut": "Chubut",
+  "ar-corrientes": "Corrientes",
+  "ar-cordoba": "Córdoba",
+  "ar-entre-rios": "Entre Ríos",
+  "ar-formosa": "Formosa",
+  "ar-jujuy": "Jujuy",
+  "ar-la-pampa": "La Pampa",
+  "ar-la-rioja": "La Rioja",
+  "ar-mendoza": "Mendoza",
+  "ar-misiones": "Misiones",
+  "ar-neuquen": "Neuquén",
+  "ar-rio-negro": "Río Negro",
+  "ar-salta": "Salta",
+  "ar-san-juan": "San Juan",
+  "ar-san-luis": "San Luis",
+  "ar-santa-cruz": "Santa Cruz",
+  "ar-santa-fe": "Santa Fe",
+  "ar-santiago-del-estero": "Santiago del Estero",
+  "ar-tierra-del-fuego": "Tierra del Fuego",
+  "ar-tucuman": "Tucumán"
+ },
+ "regionOf": {
+  "ar-buenos-aires": "AR",
+  "ar-capital-federal": "AR",
+  "ar-catamarca": "AR",
+  "ar-chaco": "AR",
+  "ar-chubut": "AR",
+  "ar-corrientes": "AR",
+  "ar-cordoba": "AR",
+  "ar-entre-rios": "AR",
+  "ar-formosa": "AR",
+  "ar-jujuy": "AR",
+  "ar-la-pampa": "AR",
+  "ar-la-rioja": "AR",
+  "ar-mendoza": "AR",
+  "ar-misiones": "AR",
+  "ar-neuquen": "AR",
+  "ar-rio-negro": "AR",
+  "ar-salta": "AR",
+  "ar-san-juan": "AR",
+  "ar-san-luis": "AR",
+  "ar-santa-cruz": "AR",
+  "ar-santa-fe": "AR",
+  "ar-santiago-del-estero": "AR",
+  "ar-tierra-del-fuego": "AR",
+  "ar-tucuman": "AR"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "ar-cordoba": {
+     "급진시민연합 (UCR)": 5,
+     "정의주의 전선": 4
+    },
+    "ar-santiago-del-estero": {
+     "급진시민연합 (UCR)": 2,
+     "정의주의 전선": 2
+    },
+    "ar-chaco": {
+     "급진시민연합 (UCR)": 1,
+     "정의주의 전선": 1,
+     "Acción Chaqueña": 1
+    },
+    "ar-formosa": {
+     "급진시민연합 (UCR)": 1,
+     "정의주의 전선": 2
+    },
+    "ar-chubut": {
+     "급진시민연합 (UCR)": 1,
+     "정의주의 전선": 2
+    },
+    "ar-corrientes": {
+     "Pacto Autonomista - Liberal": 2,
+     "정의주의 전선": 2
+    },
+    "ar-buenos-aires": {
+     "정의주의 전선": 19,
+     "급진시민연합 (UCR)": 10,
+     "존엄과 독립 운동 (MODIN)": 3,
+     "민주중도연합 (UCeDé)": 3
+    },
+    "ar-capital-federal": {
+     "급진시민연합 (UCR)": 6,
+     "민주중도연합 (UCeDé)": 1,
+     "사회주의 연합": 1,
+     "정의주의 전선": 4
+    },
+    "ar-jujuy": {
+     "급진시민연합 (UCR)": 1,
+     "정의주의 전선": 1,
+     "Movimiento Popular Jujeño": 1
+    },
+    "ar-santa-fe": {
+     "정의주의 전선": 4,
+     "급진시민연합 (UCR)": 3,
+     "사회주의 연합": 2,
+     "진보민주당": 1
+    },
+    "ar-catamarca": {
+     "정의주의 전선": 2,
+     "급진시민연합 (UCR)": 1
+    },
+    "ar-santa-cruz": {
+     "급진시민연합 (UCR)": 1,
+     "정의주의 전선": 1
+    },
+    "ar-la-pampa": {
+     "정의주의 전선": 1,
+     "급진시민연합 (UCR)": 1
+    },
+    "ar-neuquen": {
+     "정의주의 전선": 1,
+     "Movimiento Popular Neuquino": 1
+    },
+    "ar-san-juan": {
+     "정의주의 전선": 1,
+     "Cruzada Renovadora": 1,
+     "Alianza Bloquista": 1
+    },
+    "ar-san-luis": {
+     "급진시민연합 (UCR)": 1,
+     "정의주의 전선": 1
+    },
+    "ar-mendoza": {
+     "정의주의 전선": 3,
+     "급진시민연합 (UCR)": 2
+    },
+    "ar-entre-rios": {
+     "정의주의 전선": 2,
+     "급진시민연합 (UCR)": 2
+    },
+    "ar-la-rioja": {
+     "급진시민연합 (UCR)": 1,
+     "정의주의 전선": 2
+    },
+    "ar-misiones": {
+     "급진시민연합 (UCR)": 2,
+     "정의주의 전선": 2
+    },
+    "ar-rio-negro": {
+     "급진시민연합 (UCR)": 2,
+     "정의주의 전선": 1
+    },
+    "ar-salta": {
+     "Partido Renovador de Salta": 2,
+     "정의주의 전선": 2
+    },
+    "ar-tucuman": {
+     "정의주의 전선": 2,
+     "Fuerza Republicana": 2
+    },
+    "ar-tierra-del-fuego": {
+     "정의주의 전선": 1,
+     "Movimiento Popular Fueguino": 2
+    }
+   }
+  }
+ ]
+}

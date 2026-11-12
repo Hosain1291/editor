@@ -1,0 +1,237 @@
+{
+ "id": "ar-dip-1960",
+ "name": "아르헨티나 하원 선거",
+ "subtitle": "1960년 · 이번에 뽑은 102석 (하원은 2년마다 절반 개선) · 선거가 없던 곳은 0석",
+ "tag": "DIPUTADOS 1960",
+ "menuCountry": "아르헨티나",
+ "menuGroup": "아르헨티나 하원(대의원원) 선거",
+ "cardName": "1960",
+ "yearLink": true,
+ "svg": "../ar-dip-1958/map.svg",
+ "width": 700,
+ "height": 1245.6,
+ "regions": {
+  "AR": "아르헨티나"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1960년",
+   "sub": "102석",
+   "regions": [
+    "AR"
+   ],
+   "box": [
+    0,
+    0,
+    700,
+    1245.6
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "인민 급진시민연합 (UCRP)",
+   "color": "#e10019"
+  },
+  {
+   "name": "비타협 급진시민연합 (UCRI)",
+   "color": "#e36552"
+  },
+  {
+   "name": "중도 전국연맹",
+   "color": "#4169e1"
+  },
+  {
+   "name": "Defensa Provincial - Bandera Blanca",
+   "color": "#a0a0a0"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "ar-buenos-aires": 26,
+  "ar-capital-federal": 18,
+  "ar-catamarca": 2,
+  "ar-chaco": 3,
+  "ar-chubut": 1,
+  "ar-corrientes": 3,
+  "ar-cordoba": 9,
+  "ar-entre-rios": 7,
+  "ar-formosa": 2,
+  "ar-jujuy": 0,
+  "ar-la-pampa": 0,
+  "ar-la-rioja": 2,
+  "ar-mendoza": 3,
+  "ar-misiones": 3,
+  "ar-neuquen": 1,
+  "ar-rio-negro": 0,
+  "ar-salta": 1,
+  "ar-san-juan": 0,
+  "ar-san-luis": 2,
+  "ar-santa-cruz": 2,
+  "ar-santa-fe": 10,
+  "ar-santiago-del-estero": 3,
+  "ar-tierra-del-fuego": 0,
+  "ar-tucuman": 4
+ },
+ "names": {
+  "ar-buenos-aires": "부에노스아이레스",
+  "ar-capital-federal": "수도 (부에노스아이레스시)",
+  "ar-catamarca": "카타마르카",
+  "ar-chaco": "차코",
+  "ar-chubut": "추부트",
+  "ar-corrientes": "코리엔테스",
+  "ar-cordoba": "코르도바",
+  "ar-entre-rios": "엔트레리오스",
+  "ar-formosa": "포르모사",
+  "ar-jujuy": "후후이",
+  "ar-la-pampa": "라팜파",
+  "ar-la-rioja": "라리오하",
+  "ar-mendoza": "멘도사",
+  "ar-misiones": "미시오네스",
+  "ar-neuquen": "네우켄",
+  "ar-rio-negro": "리오네그로",
+  "ar-salta": "살타",
+  "ar-san-juan": "산후안",
+  "ar-san-luis": "산루이스",
+  "ar-santa-cruz": "산타크루스",
+  "ar-santa-fe": "산타페",
+  "ar-santiago-del-estero": "산티아고델에스테로",
+  "ar-tierra-del-fuego": "티에라델푸에고",
+  "ar-tucuman": "투쿠만"
+ },
+ "labels": {
+  "ar-buenos-aires": "Buenos Aires",
+  "ar-capital-federal": "Capital Federal",
+  "ar-catamarca": "Catamarca",
+  "ar-chaco": "Chaco",
+  "ar-chubut": "Chubut",
+  "ar-corrientes": "Corrientes",
+  "ar-cordoba": "Córdoba",
+  "ar-entre-rios": "Entre Ríos",
+  "ar-formosa": "Formosa",
+  "ar-jujuy": "Jujuy",
+  "ar-la-pampa": "La Pampa",
+  "ar-la-rioja": "La Rioja",
+  "ar-mendoza": "Mendoza",
+  "ar-misiones": "Misiones",
+  "ar-neuquen": "Neuquén",
+  "ar-rio-negro": "Río Negro",
+  "ar-salta": "Salta",
+  "ar-san-juan": "San Juan",
+  "ar-san-luis": "San Luis",
+  "ar-santa-cruz": "Santa Cruz",
+  "ar-santa-fe": "Santa Fe",
+  "ar-santiago-del-estero": "Santiago del Estero",
+  "ar-tierra-del-fuego": "Tierra del Fuego",
+  "ar-tucuman": "Tucumán"
+ },
+ "regionOf": {
+  "ar-buenos-aires": "AR",
+  "ar-capital-federal": "AR",
+  "ar-catamarca": "AR",
+  "ar-chaco": "AR",
+  "ar-chubut": "AR",
+  "ar-corrientes": "AR",
+  "ar-cordoba": "AR",
+  "ar-entre-rios": "AR",
+  "ar-formosa": "AR",
+  "ar-jujuy": "AR",
+  "ar-la-pampa": "AR",
+  "ar-la-rioja": "AR",
+  "ar-mendoza": "AR",
+  "ar-misiones": "AR",
+  "ar-neuquen": "AR",
+  "ar-rio-negro": "AR",
+  "ar-salta": "AR",
+  "ar-san-juan": "AR",
+  "ar-san-luis": "AR",
+  "ar-santa-cruz": "AR",
+  "ar-santa-fe": "AR",
+  "ar-santiago-del-estero": "AR",
+  "ar-tierra-del-fuego": "AR",
+  "ar-tucuman": "AR"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "ar-cordoba": {
+     "인민 급진시민연합 (UCRP)": 6,
+     "비타협 급진시민연합 (UCRI)": 3
+    },
+    "ar-tucuman": {
+     "비타협 급진시민연합 (UCRI)": 3,
+     "Defensa Provincial - Bandera Blanca": 1
+    },
+    "ar-la-rioja": {
+     "비타협 급진시민연합 (UCRI)": 2
+    },
+    "ar-buenos-aires": {
+     "비타협 급진시민연합 (UCRI)": 8,
+     "인민 급진시민연합 (UCRP)": 18
+    },
+    "ar-entre-rios": {
+     "인민 급진시민연합 (UCRP)": 5,
+     "비타협 급진시민연합 (UCRI)": 2
+    },
+    "ar-capital-federal": {
+     "인민 급진시민연합 (UCRP)": 13,
+     "비타협 급진시민연합 (UCRI)": 5
+    },
+    "ar-chaco": {
+     "인민 급진시민연합 (UCRP)": 2,
+     "비타협 급진시민연합 (UCRI)": 1
+    },
+    "ar-formosa": {
+     "비타협 급진시민연합 (UCRI)": 2
+    },
+    "ar-misiones": {
+     "비타협 급진시민연합 (UCRI)": 2,
+     "인민 급진시민연합 (UCRP)": 1
+    },
+    "ar-santa-fe": {
+     "비타협 급진시민연합 (UCRI)": 7,
+     "인민 급진시민연합 (UCRP)": 3
+    },
+    "ar-santiago-del-estero": {
+     "인민 급진시민연합 (UCRP)": 2,
+     "비타협 급진시민연합 (UCRI)": 1
+    },
+    "ar-neuquen": {
+     "비타협 급진시민연합 (UCRI)": 1
+    },
+    "ar-san-luis": {
+     "비타협 급진시민연합 (UCRI)": 2
+    },
+    "ar-catamarca": {
+     "인민 급진시민연합 (UCRP)": 2
+    },
+    "ar-salta": {
+     "비타협 급진시민연합 (UCRI)": 1
+    },
+    "ar-chubut": {
+     "비타협 급진시민연합 (UCRI)": 1
+    },
+    "ar-santa-cruz": {
+     "비타협 급진시민연합 (UCRI)": 2
+    },
+    "ar-corrientes": {
+     "비타협 급진시민연합 (UCRI)": 2,
+     "중도 전국연맹": 1
+    },
+    "ar-mendoza": {
+     "중도 전국연맹": 2,
+     "인민 급진시민연합 (UCRP)": 1
+    },
+    "ar-jujuy": {},
+    "ar-la-pampa": {},
+    "ar-rio-negro": {},
+    "ar-san-juan": {},
+    "ar-tierra-del-fuego": {}
+   }
+  }
+ ]
+}
