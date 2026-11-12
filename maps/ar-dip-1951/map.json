@@ -1,13 +1,13 @@
 {
  "id": "ar-dip-1951",
  "name": "아르헨티나 하원 선거",
- "subtitle": "1951년 · 하원 전체 149석 선출 (소선거구 139 + 소수파 보너스 10) · 과반 75 · 준주 대표 11명(발언권만)은 제외",
+ "subtitle": "1951년 · 하원 전체 160석 (소선거구 139 + 소수파 보너스 10 + 준주 대표 11) · 과반 81 · 준주 대표는 페론당으로 합산 · 차코·라팜파는 이후 선출",
  "tag": "DIPUTADOS 1951",
  "menuCountry": "아르헨티나",
  "menuGroup": "아르헨티나 하원(대의원원) 선거",
  "cardName": "1951",
  "yearLink": true,
- "svg": "../ar-dip-1948/map.svg",
+ "svg": "map.svg",
  "width": 700,
  "height": 1245.6,
  "regions": {
@@ -18,7 +18,7 @@
   {
    "key": "all",
    "name": "1951년",
-   "sub": "149석",
+   "sub": "160석",
    "regions": [
     "AR"
    ],
@@ -51,26 +51,26 @@
   "ar-capital-federal": 30,
   "ar-catamarca": 2,
   "ar-chaco": 0,
-  "ar-chubut": 0,
-  "ar-comodoro-rivadavia": 0,
+  "ar-chubut": 1,
+  "ar-comodoro-rivadavia": 1,
   "ar-corrientes": 5,
   "ar-cordoba": 15,
   "ar-entre-rios": 8,
-  "ar-formosa": 0,
+  "ar-formosa": 2,
   "ar-jujuy": 2,
   "ar-la-pampa": 0,
   "ar-la-rioja": 2,
   "ar-mendoza": 6,
-  "ar-misiones": 0,
-  "ar-neuquen": 0,
-  "ar-rio-negro": 0,
+  "ar-misiones": 2,
+  "ar-neuquen": 1,
+  "ar-rio-negro": 2,
   "ar-salta": 3,
   "ar-san-juan": 3,
   "ar-san-luis": 2,
-  "ar-santa-cruz": 0,
+  "ar-santa-cruz": 1,
   "ar-santa-fe": 17,
   "ar-santiago-del-estero": 5,
-  "ar-tierra-del-fuego": 0,
+  "ar-tierra-del-fuego": 1,
   "ar-tucuman": 6
  },
  "names": {
@@ -217,6 +217,30 @@
     "ar-tucuman": {
      "페론당": 5,
      "페론당 여성부 (PPF)": 1
+    },
+    "ar-chubut": {
+     "페론당": 1
+    },
+    "ar-comodoro-rivadavia": {
+     "페론당": 1
+    },
+    "ar-formosa": {
+     "페론당": 2
+    },
+    "ar-misiones": {
+     "페론당": 2
+    },
+    "ar-neuquen": {
+     "페론당": 1
+    },
+    "ar-rio-negro": {
+     "페론당": 2
+    },
+    "ar-santa-cruz": {
+     "페론당": 1
+    },
+    "ar-tierra-del-fuego": {
+     "페론당": 1
     }
    }
   }
