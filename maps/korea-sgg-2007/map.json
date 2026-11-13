@@ -71,7 +71,7 @@
   },
   {
    "name": "이회창 (무소속)",
-   "color": "#8e8e8e"
+   "color": "#9a9a9a"
   },
   {
    "name": "문국현 (창조한국당)",
@@ -836,6 +836,7 @@
  },
  "labelName": true,
  "menuCountry": "대한민국",
+ "yearLink": true,
  "presets": [
   {
    "name": "2007년 대통령 선거 1위 후보",
@@ -1836,6 +1837,5 @@
     "제주특별자치도-서귀포시": 0
    }
   }
- ],
- "yearLink": true
+ ]
 }

@@ -305,7 +305,7 @@
   },
   {
    "name": "자유민주연합",
-   "color": "#43bc97"
+   "color": "#1b5b40"
   },
   {
    "name": "국민통합21",
@@ -313,7 +313,7 @@
   },
   {
    "name": "무소속",
-   "color": "#9d9d9d"
+   "color": "#9a9a9a"
   }
  ],
  "defaultSeats": 1,
@@ -1306,6 +1306,7 @@
  },
  "menuCountry": "대한민국",
  "labelName": true,
+ "yearLink": true,
  "presets": [
   {
    "name": "실제 결과",
@@ -2292,6 +2293,5 @@
     "제주-서귀포시·남제주군": 1
    }
   }
- ],
- "yearLink": true
+ ]
 }

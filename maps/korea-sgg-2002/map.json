@@ -813,6 +813,7 @@
  },
  "labelName": true,
  "menuCountry": "대한민국",
+ "yearLink": true,
  "presets": [
   {
    "name": "2002년 대통령 선거 1위 후보",
@@ -1793,6 +1794,5 @@
     "제주도-남제주군": 0
    }
   }
- ],
- "yearLink": true
+ ]
 }

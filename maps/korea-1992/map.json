@@ -289,7 +289,7 @@
   },
   {
    "name": "무소속",
-   "color": "#8e8e8e"
+   "color": "#9a9a9a"
   }
  ],
  "defaultSeats": 1,
@@ -1258,6 +1258,7 @@
  },
  "menuCountry": "대한민국",
  "labelName": true,
+ "yearLink": true,
  "presets": [
   {
    "name": "실제 결과",
@@ -2219,6 +2220,5 @@
     "제주-서귀포시·남제주군": 0
    }
   }
- ],
- "yearLink": true
+ ]
 }
