@@ -1703,6 +1703,270 @@
   {
    "id": "pk-na-2024",
    "folder": "pk-na-2024"
+  },
+  {
+   "id": "nl-gemeenten",
+   "folder": "nl-gemeenten"
+  },
+  {
+   "id": "nl-provincies",
+   "folder": "nl-provincies"
+  },
+  {
+   "id": "nl-tk-g-1918",
+   "folder": "nl-tk-g-1918"
+  },
+  {
+   "id": "nl-tk-p-1918",
+   "folder": "nl-tk-p-1918"
+  },
+  {
+   "id": "nl-tk-g-1922",
+   "folder": "nl-tk-g-1922"
+  },
+  {
+   "id": "nl-tk-p-1922",
+   "folder": "nl-tk-p-1922"
+  },
+  {
+   "id": "nl-tk-g-1925",
+   "folder": "nl-tk-g-1925"
+  },
+  {
+   "id": "nl-tk-p-1925",
+   "folder": "nl-tk-p-1925"
+  },
+  {
+   "id": "nl-tk-g-1929",
+   "folder": "nl-tk-g-1929"
+  },
+  {
+   "id": "nl-tk-p-1929",
+   "folder": "nl-tk-p-1929"
+  },
+  {
+   "id": "nl-tk-g-1933",
+   "folder": "nl-tk-g-1933"
+  },
+  {
+   "id": "nl-tk-p-1933",
+   "folder": "nl-tk-p-1933"
+  },
+  {
+   "id": "nl-tk-g-1937",
+   "folder": "nl-tk-g-1937"
+  },
+  {
+   "id": "nl-tk-p-1937",
+   "folder": "nl-tk-p-1937"
+  },
+  {
+   "id": "nl-tk-g-1946",
+   "folder": "nl-tk-g-1946"
+  },
+  {
+   "id": "nl-tk-p-1946",
+   "folder": "nl-tk-p-1946"
+  },
+  {
+   "id": "nl-tk-g-1948",
+   "folder": "nl-tk-g-1948"
+  },
+  {
+   "id": "nl-tk-p-1948",
+   "folder": "nl-tk-p-1948"
+  },
+  {
+   "id": "nl-tk-g-1952",
+   "folder": "nl-tk-g-1952"
+  },
+  {
+   "id": "nl-tk-p-1952",
+   "folder": "nl-tk-p-1952"
+  },
+  {
+   "id": "nl-tk-g-1956",
+   "folder": "nl-tk-g-1956"
+  },
+  {
+   "id": "nl-tk-p-1956",
+   "folder": "nl-tk-p-1956"
+  },
+  {
+   "id": "nl-tk-g-1959",
+   "folder": "nl-tk-g-1959"
+  },
+  {
+   "id": "nl-tk-p-1959",
+   "folder": "nl-tk-p-1959"
+  },
+  {
+   "id": "nl-tk-g-1963",
+   "folder": "nl-tk-g-1963"
+  },
+  {
+   "id": "nl-tk-p-1963",
+   "folder": "nl-tk-p-1963"
+  },
+  {
+   "id": "nl-tk-g-1967",
+   "folder": "nl-tk-g-1967"
+  },
+  {
+   "id": "nl-tk-p-1967",
+   "folder": "nl-tk-p-1967"
+  },
+  {
+   "id": "nl-tk-g-1971",
+   "folder": "nl-tk-g-1971"
+  },
+  {
+   "id": "nl-tk-p-1971",
+   "folder": "nl-tk-p-1971"
+  },
+  {
+   "id": "nl-tk-g-1972",
+   "folder": "nl-tk-g-1972"
+  },
+  {
+   "id": "nl-tk-p-1972",
+   "folder": "nl-tk-p-1972"
+  },
+  {
+   "id": "nl-tk-g-1977",
+   "folder": "nl-tk-g-1977"
+  },
+  {
+   "id": "nl-tk-p-1977",
+   "folder": "nl-tk-p-1977"
+  },
+  {
+   "id": "nl-tk-g-1981",
+   "folder": "nl-tk-g-1981"
+  },
+  {
+   "id": "nl-tk-p-1981",
+   "folder": "nl-tk-p-1981"
+  },
+  {
+   "id": "nl-tk-g-1982",
+   "folder": "nl-tk-g-1982"
+  },
+  {
+   "id": "nl-tk-p-1982",
+   "folder": "nl-tk-p-1982"
+  },
+  {
+   "id": "nl-tk-g-1986",
+   "folder": "nl-tk-g-1986"
+  },
+  {
+   "id": "nl-tk-p-1986",
+   "folder": "nl-tk-p-1986"
+  },
+  {
+   "id": "nl-tk-g-1989",
+   "folder": "nl-tk-g-1989"
+  },
+  {
+   "id": "nl-tk-p-1989",
+   "folder": "nl-tk-p-1989"
+  },
+  {
+   "id": "nl-tk-g-1994",
+   "folder": "nl-tk-g-1994"
+  },
+  {
+   "id": "nl-tk-p-1994",
+   "folder": "nl-tk-p-1994"
+  },
+  {
+   "id": "nl-tk-g-1998",
+   "folder": "nl-tk-g-1998"
+  },
+  {
+   "id": "nl-tk-p-1998",
+   "folder": "nl-tk-p-1998"
+  },
+  {
+   "id": "nl-tk-g-2002",
+   "folder": "nl-tk-g-2002"
+  },
+  {
+   "id": "nl-tk-p-2002",
+   "folder": "nl-tk-p-2002"
+  },
+  {
+   "id": "nl-tk-g-2003",
+   "folder": "nl-tk-g-2003"
+  },
+  {
+   "id": "nl-tk-p-2003",
+   "folder": "nl-tk-p-2003"
+  },
+  {
+   "id": "nl-tk-g-2006",
+   "folder": "nl-tk-g-2006"
+  },
+  {
+   "id": "nl-tk-p-2006",
+   "folder": "nl-tk-p-2006"
+  },
+  {
+   "id": "nl-tk-g-2010",
+   "folder": "nl-tk-g-2010"
+  },
+  {
+   "id": "nl-tk-p-2010",
+   "folder": "nl-tk-p-2010"
+  },
+  {
+   "id": "nl-tk-g-2012",
+   "folder": "nl-tk-g-2012"
+  },
+  {
+   "id": "nl-tk-p-2012",
+   "folder": "nl-tk-p-2012"
+  },
+  {
+   "id": "nl-tk-g-2017",
+   "folder": "nl-tk-g-2017"
+  },
+  {
+   "id": "nl-tk-p-2017",
+   "folder": "nl-tk-p-2017"
+  },
+  {
+   "id": "nl-tk-g-2021",
+   "folder": "nl-tk-g-2021"
+  },
+  {
+   "id": "nl-tk-p-2021",
+   "folder": "nl-tk-p-2021"
+  },
+  {
+   "id": "nl-tk-g-2023",
+   "folder": "nl-tk-g-2023"
+  },
+  {
+   "id": "nl-tk-p-2023",
+   "folder": "nl-tk-p-2023"
+  },
+  {
+   "id": "nl-tk-g-2025",
+   "folder": "nl-tk-g-2025"
+  },
+  {
+   "id": "nl-tk-p-2025",
+   "folder": "nl-tk-p-2025"
+  },
+  {
+   "id": "il-districts",
+   "folder": "il-districts"
+  },
+  {
+   "id": "il-subdistricts",
+   "folder": "il-subdistricts"
   }
  ]
 }

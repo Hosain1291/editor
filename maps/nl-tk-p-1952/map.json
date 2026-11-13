@@ -1,0 +1,144 @@
+{
+ "id": "nl-tk-p-1952",
+ "name": "네덜란드 총선 (하원)",
+ "subtitle": "1952년 6월 25일 · 주별 1위 정당",
+ "tag": "TWEEDE KAMER 1952",
+ "menuCountry": "네덜란드",
+ "menuGroup": "네덜란드 총선 · 주별",
+ "cardName": "1952",
+ "yearLink": true,
+ "svg": "../nl-provincies/map.svg",
+ "width": 1000,
+ "height": 1176.4,
+ "regions": {
+  "NL": "네덜란드",
+  "CTX": "—"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1952년",
+   "sub": "11개 지역",
+   "regions": [
+    "NL"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1176.4
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "노동당 (PvdA)",
+   "color": "#df0101"
+  },
+  {
+   "name": "가톨릭 인민당 (KVP)",
+   "color": "#9afe2e"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "NLP-Groningen": 1,
+  "NLP-Drenthe": 1,
+  "NLP-Utrecht": 1,
+  "NLP-Flevoland": 0,
+  "NLP-Overijssel": 1,
+  "NLP-Noord-Holland": 1,
+  "NLP-Gelderland": 1,
+  "NLP-Zuid-Holland": 1,
+  "NLP-Fryslân": 1,
+  "NLP-Noord-Brabant": 1,
+  "NLP-Limburg": 1,
+  "NLP-Zeeland": 1
+ },
+ "names": {
+  "NLP-Groningen": "흐로닝언",
+  "NLP-Drenthe": "드렌터",
+  "NLP-Utrecht": "위트레흐트",
+  "NLP-Flevoland": "플레볼란트",
+  "NLP-Overijssel": "오버레이설",
+  "NLP-Noord-Holland": "노르트홀란트",
+  "NLP-Gelderland": "헬데를란트",
+  "NLP-Zuid-Holland": "자위트홀란트",
+  "NLP-Fryslân": "프리슬란트",
+  "NLP-Noord-Brabant": "노르트브라반트",
+  "NLP-Limburg": "림뷔르흐",
+  "NLP-Zeeland": "제일란트"
+ },
+ "labels": {
+  "NLP-Groningen": "Groningen",
+  "NLP-Drenthe": "Drenthe",
+  "NLP-Utrecht": "Utrecht",
+  "NLP-Flevoland": "Flevoland",
+  "NLP-Overijssel": "Overijssel",
+  "NLP-Noord-Holland": "Noord-Holland",
+  "NLP-Gelderland": "Gelderland",
+  "NLP-Zuid-Holland": "Zuid-Holland",
+  "NLP-Fryslân": "Fryslân",
+  "NLP-Noord-Brabant": "Noord-Brabant",
+  "NLP-Limburg": "Limburg",
+  "NLP-Zeeland": "Zeeland"
+ },
+ "regionOf": {
+  "NLP-Groningen": "NL",
+  "NLP-Drenthe": "NL",
+  "NLP-Utrecht": "NL",
+  "NLP-Flevoland": "CTX",
+  "NLP-Overijssel": "NL",
+  "NLP-Noord-Holland": "NL",
+  "NLP-Gelderland": "NL",
+  "NLP-Zuid-Holland": "NL",
+  "NLP-Fryslân": "NL",
+  "NLP-Noord-Brabant": "NL",
+  "NLP-Limburg": "NL",
+  "NLP-Zeeland": "NL"
+ },
+ "labelName": true,
+ "seatNotes": "전국 단위 비례대표 선거라 지역마다 1석으로 1위 정당만 칠했어요. 자료: verkiezingsuitslagen.nl (Kiesraad)",
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "NLP-Groningen": {
+     "노동당 (PvdA)": 1
+    },
+    "NLP-Drenthe": {
+     "노동당 (PvdA)": 1
+    },
+    "NLP-Utrecht": {
+     "노동당 (PvdA)": 1
+    },
+    "NLP-Overijssel": {
+     "노동당 (PvdA)": 1
+    },
+    "NLP-Noord-Holland": {
+     "노동당 (PvdA)": 1
+    },
+    "NLP-Gelderland": {
+     "가톨릭 인민당 (KVP)": 1
+    },
+    "NLP-Zuid-Holland": {
+     "노동당 (PvdA)": 1
+    },
+    "NLP-Fryslân": {
+     "노동당 (PvdA)": 1
+    },
+    "NLP-Noord-Brabant": {
+     "가톨릭 인민당 (KVP)": 1
+    },
+    "NLP-Limburg": {
+     "가톨릭 인민당 (KVP)": 1
+    },
+    "NLP-Zeeland": {
+     "노동당 (PvdA)": 1
+    }
+   }
+  }
+ ]
+}

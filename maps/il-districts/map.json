@@ -1,0 +1,122 @@
+{
+ "id": "il-districts",
+ "name": "이스라엘 지구 지도",
+ "subtitle": "지구 6개 · 크네세트 정당",
+ "tag": "ISRAEL",
+ "menuCountry": "이스라엘",
+ "menuGroup": "이스라엘 기본 지도",
+ "cardName": "지구 (6개)",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 3140.4,
+ "regions": {
+  "IL": "이스라엘"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "전국",
+   "sub": "6개",
+   "regions": [
+    "IL"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    3140.4
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "리쿠드",
+   "color": "#1a4fa0"
+  },
+  {
+   "name": "예시 아티드",
+   "color": "#31a7e0"
+  },
+  {
+   "name": "종교 시온주의당",
+   "color": "#8d6e27"
+  },
+  {
+   "name": "국민통합당",
+   "color": "#2d4b9b"
+  },
+  {
+   "name": "샤스",
+   "color": "#000000"
+  },
+  {
+   "name": "토라 유대주의 연합",
+   "color": "#3c3c3c"
+  },
+  {
+   "name": "이스라엘 베이테누",
+   "color": "#2a9d8f"
+  },
+  {
+   "name": "라암",
+   "color": "#1e7d3a"
+  },
+  {
+   "name": "하다시-타알",
+   "color": "#c0392b"
+  },
+  {
+   "name": "노동당",
+   "color": "#e63946"
+  },
+  {
+   "name": "메레츠",
+   "color": "#2ecc40"
+  },
+  {
+   "name": "발라드",
+   "color": "#7d3c98"
+  },
+  {
+   "name": "유대인의 힘",
+   "color": "#c49a00"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "IL-Southern_District": 1,
+  "IL-Central_District": 1,
+  "IL-Jerusalem_District": 1,
+  "IL-Tel_Aviv": 1,
+  "IL-Haifa": 1,
+  "IL-Northern_District": 1
+ },
+ "names": {
+  "IL-Southern_District": "남부 지구",
+  "IL-Central_District": "중부 지구",
+  "IL-Jerusalem_District": "예루살렘 지구",
+  "IL-Tel_Aviv": "텔아비브 지구",
+  "IL-Haifa": "하이파 지구",
+  "IL-Northern_District": "북부 지구"
+ },
+ "labels": {
+  "IL-Southern_District": "South",
+  "IL-Central_District": "Center",
+  "IL-Jerusalem_District": "Jerusalem",
+  "IL-Tel_Aviv": "Tel Aviv",
+  "IL-Haifa": "Haifa",
+  "IL-Northern_District": "North"
+ },
+ "regionOf": {
+  "IL-Southern_District": "IL",
+  "IL-Central_District": "IL",
+  "IL-Jerusalem_District": "IL",
+  "IL-Tel_Aviv": "IL",
+  "IL-Haifa": "IL",
+  "IL-Northern_District": "IL"
+ },
+ "labelName": true,
+ "presets": []
+}

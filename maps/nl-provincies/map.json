@@ -1,0 +1,102 @@
+{
+ "id": "nl-provincies",
+ "name": "네덜란드 주 지도",
+ "subtitle": "주 12개",
+ "tag": "NETHERLANDS",
+ "menuCountry": "네덜란드",
+ "menuGroup": "네덜란드 기본 지도",
+ "cardName": "주",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 1176.4,
+ "regions": {
+  "NL": "네덜란드"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "전국",
+   "sub": "12개",
+   "regions": [
+    "NL"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1176.4
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "A",
+   "color": "#1f5fbf"
+  },
+  {
+   "name": "B",
+   "color": "#c8302c"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "NLP-Groningen": 1,
+  "NLP-Drenthe": 1,
+  "NLP-Utrecht": 1,
+  "NLP-Flevoland": 1,
+  "NLP-Overijssel": 1,
+  "NLP-Noord-Holland": 1,
+  "NLP-Gelderland": 1,
+  "NLP-Zuid-Holland": 1,
+  "NLP-Fryslân": 1,
+  "NLP-Noord-Brabant": 1,
+  "NLP-Limburg": 1,
+  "NLP-Zeeland": 1
+ },
+ "names": {
+  "NLP-Groningen": "흐로닝언",
+  "NLP-Drenthe": "드렌터",
+  "NLP-Utrecht": "위트레흐트",
+  "NLP-Flevoland": "플레볼란트",
+  "NLP-Overijssel": "오버레이설",
+  "NLP-Noord-Holland": "노르트홀란트",
+  "NLP-Gelderland": "헬데를란트",
+  "NLP-Zuid-Holland": "자위트홀란트",
+  "NLP-Fryslân": "프리슬란트",
+  "NLP-Noord-Brabant": "노르트브라반트",
+  "NLP-Limburg": "림뷔르흐",
+  "NLP-Zeeland": "제일란트"
+ },
+ "labels": {
+  "NLP-Groningen": "Groningen",
+  "NLP-Drenthe": "Drenthe",
+  "NLP-Utrecht": "Utrecht",
+  "NLP-Flevoland": "Flevoland",
+  "NLP-Overijssel": "Overijssel",
+  "NLP-Noord-Holland": "Noord-Holland",
+  "NLP-Gelderland": "Gelderland",
+  "NLP-Zuid-Holland": "Zuid-Holland",
+  "NLP-Fryslân": "Fryslân",
+  "NLP-Noord-Brabant": "Noord-Brabant",
+  "NLP-Limburg": "Limburg",
+  "NLP-Zeeland": "Zeeland"
+ },
+ "regionOf": {
+  "NLP-Groningen": "NL",
+  "NLP-Drenthe": "NL",
+  "NLP-Utrecht": "NL",
+  "NLP-Flevoland": "NL",
+  "NLP-Overijssel": "NL",
+  "NLP-Noord-Holland": "NL",
+  "NLP-Gelderland": "NL",
+  "NLP-Zuid-Holland": "NL",
+  "NLP-Fryslân": "NL",
+  "NLP-Noord-Brabant": "NL",
+  "NLP-Limburg": "NL",
+  "NLP-Zeeland": "NL"
+ },
+ "labelName": true,
+ "presets": []
+}

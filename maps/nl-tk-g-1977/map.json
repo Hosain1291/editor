@@ -1,0 +1,2476 @@
+{
+ "id": "nl-tk-g-1977",
+ "name": "네덜란드 총선 (하원)",
+ "subtitle": "1977년 5월 25일 · 기초자치단체별 1위 정당 (지금 경계 기준)",
+ "tag": "TWEEDE KAMER 1977",
+ "menuCountry": "네덜란드",
+ "menuGroup": "네덜란드 총선 · 기초자치단체별",
+ "cardName": "1977",
+ "yearLink": true,
+ "svg": "../nl-gemeenten/map.svg",
+ "width": 1000,
+ "height": 1176.3,
+ "regions": {
+  "NL": "네덜란드",
+  "CTX": "—"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1977년",
+   "sub": "343개 지역",
+   "regions": [
+    "NL"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1176.3
+   ],
+   "big": true
+  }
+ ],
+ "parties": [
+  {
+   "name": "기독민주당 (CDA)",
+   "color": "#04b404"
+  },
+  {
+   "name": "노동당 (PvdA)",
+   "color": "#df0101"
+  },
+  {
+   "name": "자유민주국민당 (VVD)",
+   "color": "#0101df"
+  },
+  {
+   "name": "개혁정치당 (SGP)",
+   "color": "#81f7f3"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "NL-Groningen": 1,
+  "NL-Almere": 0,
+  "NL-Stadskanaal": 1,
+  "NL-Veendam": 1,
+  "NL-Zeewolde": 1,
+  "NL-Achtkarspelen": 1,
+  "NL-Ameland": 1,
+  "NL-Harlingen": 1,
+  "NL-Heerenveen": 1,
+  "NL-Leeuwarden": 1,
+  "NL-Ooststellingwerf": 1,
+  "NL-Opsterland": 1,
+  "NL-Schiermonnikoog": 1,
+  "NL-Smallingerland": 1,
+  "NL-Terschelling": 1,
+  "NL-Vlieland": 1,
+  "NL-Weststellingwerf": 1,
+  "NL-Assen": 1,
+  "NL-Coevorden": 1,
+  "NL-Emmen": 1,
+  "NL-Hoogeveen": 1,
+  "NL-Meppel": 1,
+  "NL-Almelo": 1,
+  "NL-Borne": 1,
+  "NL-Dalfsen": 1,
+  "NL-Deventer": 1,
+  "NL-Enschede": 1,
+  "NL-Haaksbergen": 1,
+  "NL-Hardenberg": 1,
+  "NL-Hellendoorn": 1,
+  "NL-Kampen": 1,
+  "NL-Losser": 1,
+  "NL-Noordoostpolder": 1,
+  "NL-Oldenzaal": 1,
+  "NL-Ommen": 1,
+  "NL-Raalte": 1,
+  "NL-Staphorst": 1,
+  "NL-Tubbergen": 1,
+  "NL-Urk": 1,
+  "NL-Wierden": 1,
+  "NL-Zwolle": 1,
+  "NL-Aalten": 1,
+  "NL-Apeldoorn": 1,
+  "NL-Arnhem": 1,
+  "NL-Barneveld": 1,
+  "NL-Beuningen": 1,
+  "NL-Brummen": 1,
+  "NL-Buren": 1,
+  "NL-Culemborg": 1,
+  "NL-Doesburg": 1,
+  "NL-Doetinchem": 1,
+  "NL-Druten": 1,
+  "NL-Duiven": 1,
+  "NL-Ede": 1,
+  "NL-Elburg": 1,
+  "NL-Epe": 1,
+  "NL-Ermelo": 1,
+  "NL-Harderwijk": 1,
+  "NL-Hattem": 1,
+  "NL-Heerde": 1,
+  "NL-Heumen": 1,
+  "NL-Lochem": 1,
+  "NL-Maasdriel": 1,
+  "NL-Nijkerk": 1,
+  "NL-Nijmegen": 1,
+  "NL-Oldebroek": 1,
+  "NL-Putten": 1,
+  "NL-Renkum": 1,
+  "NL-Rheden": 1,
+  "NL-Rozendaal": 1,
+  "NL-Scherpenzeel": 1,
+  "NL-Tiel": 1,
+  "NL-Voorst": 1,
+  "NL-Wageningen": 1,
+  "NL-Westervoort": 1,
+  "NL-Winterswijk": 1,
+  "NL-Wijchen": 1,
+  "NL-Zaltbommel": 1,
+  "NL-Zevenaar": 1,
+  "NL-Zutphen": 1,
+  "NL-Nunspeet": 1,
+  "NL-Dronten": 1,
+  "NL-Amersfoort": 1,
+  "NL-Baarn": 1,
+  "NL-De_Bilt": 1,
+  "NL-Bunnik": 1,
+  "NL-Bunschoten": 1,
+  "NL-Eemnes": 1,
+  "NL-Houten": 1,
+  "NL-Leusden": 1,
+  "NL-Lopik": 1,
+  "NL-Montfoort": 1,
+  "NL-Renswoude": 1,
+  "NL-Rhenen": 1,
+  "NL-Soest": 1,
+  "NL-Utrecht": 1,
+  "NL-Veenendaal": 1,
+  "NL-Woudenberg": 1,
+  "NL-Wijk_bij_Duurstede": 1,
+  "NL-IJsselstein": 1,
+  "NL-Zeist": 1,
+  "NL-Nieuwegein": 1,
+  "NL-Aalsmeer": 1,
+  "NL-Alkmaar": 1,
+  "NL-Amstelveen": 1,
+  "NL-Amsterdam": 1,
+  "NL-Beverwijk": 1,
+  "NL-Blaricum": 1,
+  "NL-Bloemendaal": 1,
+  "NL-Castricum": 1,
+  "NL-Diemen": 1,
+  "NL-Edam-Volendam": 1,
+  "NL-Enkhuizen": 1,
+  "NL-Haarlem": 1,
+  "NL-Haarlemmermeer": 1,
+  "NL-Heemskerk": 1,
+  "NL-Heemstede": 1,
+  "NL-Heiloo": 1,
+  "NL-Bergen_(NH)": 1,
+  "NL-Den_Helder": 1,
+  "NL-Hilversum": 1,
+  "NL-Hoorn": 1,
+  "NL-Huizen": 1,
+  "NL-Landsmeer": 1,
+  "NL-Laren": 1,
+  "NL-Medemblik": 1,
+  "NL-Oostzaan": 1,
+  "NL-Opmeer": 1,
+  "NL-Ouder-Amstel": 1,
+  "NL-Purmerend": 1,
+  "NL-Schagen": 1,
+  "NL-Texel": 1,
+  "NL-Uitgeest": 1,
+  "NL-Uithoorn": 1,
+  "NL-Velsen": 1,
+  "NL-Zandvoort": 1,
+  "NL-Zaanstad": 1,
+  "NL-Alblasserdam": 1,
+  "NL-Alphen_aan_den_Rijn": 1,
+  "NL-Barendrecht": 1,
+  "NL-Drechterland": 1,
+  "NL-Brielle": 1,
+  "NL-Capelle_aan_den_IJssel": 1,
+  "NL-Delft": 1,
+  "NL-Dordrecht": 1,
+  "NL-Gorinchem": 1,
+  "NL-Gouda": 1,
+  "NL-s-Gravenhage": 1,
+  "NL-Hardinxveld-Giessendam": 1,
+  "NL-Hellevoetsluis": 1,
+  "NL-Hendrik-Ido-Ambacht": 1,
+  "NL-Stede_Broec": 1,
+  "NL-Hillegom": 1,
+  "NL-Katwijk": 1,
+  "NL-Krimpen_aan_den_IJssel": 1,
+  "NL-Leiden": 1,
+  "NL-Leiderdorp": 1,
+  "NL-Lisse": 1,
+  "NL-Maassluis": 1,
+  "NL-Nieuwkoop": 1,
+  "NL-Noordwijk": 1,
+  "NL-Oegstgeest": 1,
+  "NL-Oudewater": 1,
+  "NL-Papendrecht": 1,
+  "NL-Ridderkerk": 1,
+  "NL-Rotterdam": 1,
+  "NL-Rijswijk": 1,
+  "NL-Schiedam": 1,
+  "NL-Sliedrecht": 1,
+  "NL-Albrandswaard": 1,
+  "NL-Westvoorne": 1,
+  "NL-Vlaardingen": 1,
+  "NL-Voorschoten": 1,
+  "NL-Waddinxveen": 1,
+  "NL-Wassenaar": 1,
+  "NL-Woerden": 1,
+  "NL-Zoetermeer": 1,
+  "NL-Zoeterwoude": 1,
+  "NL-Zwijndrecht": 1,
+  "NL-Borsele": 1,
+  "NL-Goes": 1,
+  "NL-West_Maas_en_Waal": 1,
+  "NL-Hulst": 1,
+  "NL-Kapelle": 1,
+  "NL-Middelburg": 1,
+  "NL-Reimerswaal": 1,
+  "NL-Terneuzen": 1,
+  "NL-Tholen": 1,
+  "NL-Veere": 1,
+  "NL-Vlissingen": 1,
+  "NL-De_Ronde_Venen": 1,
+  "NL-Tytsjerksteradiel": 1,
+  "NL-Asten": 1,
+  "NL-Baarle-Nassau": 1,
+  "NL-Bergen_op_Zoom": 1,
+  "NL-Best": 1,
+  "NL-Boekel": 1,
+  "NL-Boxtel": 1,
+  "NL-Breda": 1,
+  "NL-Deurne": 1,
+  "NL-Pekela": 1,
+  "NL-Dongen": 1,
+  "NL-Eersel": 1,
+  "NL-Eindhoven": 1,
+  "NL-Etten-Leur": 1,
+  "NL-Geertruidenberg": 1,
+  "NL-Gilze_en_Rijen": 1,
+  "NL-Goirle": 1,
+  "NL-Helmond": 1,
+  "NL-s-Hertogenbosch": 1,
+  "NL-Heusden": 1,
+  "NL-Hilvarenbeek": 1,
+  "NL-Loon_op_Zand": 1,
+  "NL-Nuenen,_Gerwen_en_Nederwetten": 1,
+  "NL-Oirschot": 1,
+  "NL-Oisterwijk": 1,
+  "NL-Oosterhout": 1,
+  "NL-Oss": 1,
+  "NL-Rucphen": 1,
+  "NL-Sint-Michielsgestel": 1,
+  "NL-Someren": 1,
+  "NL-Son_en_Breugel": 1,
+  "NL-Steenbergen": 1,
+  "NL-Waterland": 1,
+  "NL-Tilburg": 1,
+  "NL-Valkenswaard": 1,
+  "NL-Veldhoven": 1,
+  "NL-Vught": 1,
+  "NL-Waalre": 1,
+  "NL-Waalwijk": 1,
+  "NL-Woensdrecht": 1,
+  "NL-Zundert": 1,
+  "NL-Wormerland": 1,
+  "NL-Landgraaf": 1,
+  "NL-Beek": 1,
+  "NL-Beesel": 1,
+  "NL-Bergen_(L)": 1,
+  "NL-Brunssum": 1,
+  "NL-Gennep": 1,
+  "NL-Heerlen": 1,
+  "NL-Kerkrade": 1,
+  "NL-Maastricht": 1,
+  "NL-Meerssen": 1,
+  "NL-Mook_en_Middelaar": 1,
+  "NL-Nederweert": 1,
+  "NL-Roermond": 1,
+  "NL-Simpelveld": 1,
+  "NL-Stein": 1,
+  "NL-Vaals": 1,
+  "NL-Venlo": 1,
+  "NL-Venray": 1,
+  "NL-Voerendaal": 1,
+  "NL-Weert": 1,
+  "NL-Valkenburg_aan_de_Geul": 1,
+  "NL-Lelystad": 1,
+  "NL-Horst_aan_de_Maas": 1,
+  "NL-Oude_IJsselstreek": 1,
+  "NL-Teylingen": 1,
+  "NL-Utrechtse_Heuvelrug": 1,
+  "NL-Oost_Gelre": 1,
+  "NL-Koggenland": 1,
+  "NL-Lansingerland": 1,
+  "NL-Leudal": 1,
+  "NL-Maasgouw": 1,
+  "NL-Gemert-Bakel": 1,
+  "NL-Halderberge": 1,
+  "NL-Heeze-Leende": 1,
+  "NL-Laarbeek": 1,
+  "NL-Reusel-De_Mierden": 1,
+  "NL-Roerdalen": 1,
+  "NL-Roosendaal": 1,
+  "NL-Schouwen-Duiveland": 1,
+  "NL-Aa_en_Hunze": 1,
+  "NL-Borger-Odoorn": 1,
+  "NL-De_Wolden": 1,
+  "NL-Noord-Beveland": 1,
+  "NL-Wijdemeren": 1,
+  "NL-Noordenveld": 1,
+  "NL-Twenterand": 1,
+  "NL-Westerveld": 1,
+  "NL-Lingewaard": 1,
+  "NL-Cranendonck": 1,
+  "NL-Steenwijkerland": 1,
+  "NL-Moerdijk": 1,
+  "NL-Echt-Susteren": 1,
+  "NL-Sluis": 1,
+  "NL-Drimmelen": 1,
+  "NL-Bernheze": 1,
+  "NL-Alphen-Chaam": 1,
+  "NL-Bergeijk": 1,
+  "NL-Bladel": 1,
+  "NL-Gulpen-Wittem": 1,
+  "NL-Tynaarlo": 1,
+  "NL-Midden-Drenthe": 1,
+  "NL-Overbetuwe": 1,
+  "NL-Hof_van_Twente": 1,
+  "NL-Neder-Betuwe": 1,
+  "NL-Rijssen-Holten": 1,
+  "NL-Geldrop-Mierlo": 1,
+  "NL-Olst-Wijhe": 1,
+  "NL-Dinkelland": 1,
+  "NL-Westland": 1,
+  "NL-Midden-Delfland": 1,
+  "NL-Berkelland": 1,
+  "NL-Bronckhorst": 1,
+  "NL-Sittard-Geleen": 1,
+  "NL-Kaag_en_Braassem": 1,
+  "NL-Dantumadiel": 1,
+  "NL-Zuidplas": 1,
+  "NL-Peel_en_Maas": 1,
+  "NL-Oldambt": 1,
+  "NL-Zwartewaterland": 1,
+  "NL-Súdwest-Fryslân": 1,
+  "NL-Bodegraven-Reeuwijk": 1,
+  "NL-Eijsden-Margraten": 1,
+  "NL-Stichtse_Vecht": 1,
+  "NL-Hollands_Kroon": 1,
+  "NL-Leidschendam-Voorburg": 1,
+  "NL-Goeree-Overflakkee": 1,
+  "NL-Pijnacker-Nootdorp": 1,
+  "NL-Nissewaard": 1,
+  "NL-Krimpenerwaard": 1,
+  "NL-De_Fryske_Marren": 1,
+  "NL-Gooise_Meren": 1,
+  "NL-Berg_en_Dal": 1,
+  "NL-Meierijstad": 1,
+  "NL-Waadhoeke": 1,
+  "NL-Westerwolde": 1,
+  "NL-Midden-Groningen": 1,
+  "NL-Beekdaelen": 1,
+  "NL-Montferland": 1,
+  "NL-Altena": 1,
+  "NL-West_Betuwe": 1,
+  "NL-Vijfheerenlanden": 1,
+  "NL-Hoeksche_Waard": 1,
+  "NL-Het_Hogeland": 1,
+  "NL-Westerkwartier": 1,
+  "NL-Noardeast-Fryslân": 1,
+  "NL-Molenlanden": 1,
+  "NL-Eemsdelta": 1,
+  "NL-Dijk_en_Waard": 1,
+  "NL-Land_van_Cuijk": 1,
+  "NL-Maashorst": 1,
+  "NL-Hengelo_(O)": 1
+ },
+ "names": {
+  "NL-Groningen": "Groningen",
+  "NL-Almere": "Almere",
+  "NL-Stadskanaal": "Stadskanaal",
+  "NL-Veendam": "Veendam",
+  "NL-Zeewolde": "Zeewolde",
+  "NL-Achtkarspelen": "Achtkarspelen",
+  "NL-Ameland": "Ameland",
+  "NL-Harlingen": "Harlingen",
+  "NL-Heerenveen": "Heerenveen",
+  "NL-Leeuwarden": "Leeuwarden",
+  "NL-Ooststellingwerf": "Ooststellingwerf",
+  "NL-Opsterland": "Opsterland",
+  "NL-Schiermonnikoog": "Schiermonnikoog",
+  "NL-Smallingerland": "Smallingerland",
+  "NL-Terschelling": "Terschelling",
+  "NL-Vlieland": "Vlieland",
+  "NL-Weststellingwerf": "Weststellingwerf",
+  "NL-Assen": "Assen",
+  "NL-Coevorden": "Coevorden",
+  "NL-Emmen": "Emmen",
+  "NL-Hoogeveen": "Hoogeveen",
+  "NL-Meppel": "Meppel",
+  "NL-Almelo": "Almelo",
+  "NL-Borne": "Borne",
+  "NL-Dalfsen": "Dalfsen",
+  "NL-Deventer": "Deventer",
+  "NL-Enschede": "Enschede",
+  "NL-Haaksbergen": "Haaksbergen",
+  "NL-Hardenberg": "Hardenberg",
+  "NL-Hellendoorn": "Hellendoorn",
+  "NL-Kampen": "Kampen",
+  "NL-Losser": "Losser",
+  "NL-Noordoostpolder": "Noordoostpolder",
+  "NL-Oldenzaal": "Oldenzaal",
+  "NL-Ommen": "Ommen",
+  "NL-Raalte": "Raalte",
+  "NL-Staphorst": "Staphorst",
+  "NL-Tubbergen": "Tubbergen",
+  "NL-Urk": "Urk",
+  "NL-Wierden": "Wierden",
+  "NL-Zwolle": "Zwolle",
+  "NL-Aalten": "Aalten",
+  "NL-Apeldoorn": "Apeldoorn",
+  "NL-Arnhem": "Arnhem",
+  "NL-Barneveld": "Barneveld",
+  "NL-Beuningen": "Beuningen",
+  "NL-Brummen": "Brummen",
+  "NL-Buren": "Buren",
+  "NL-Culemborg": "Culemborg",
+  "NL-Doesburg": "Doesburg",
+  "NL-Doetinchem": "Doetinchem",
+  "NL-Druten": "Druten",
+  "NL-Duiven": "Duiven",
+  "NL-Ede": "Ede",
+  "NL-Elburg": "Elburg",
+  "NL-Epe": "Epe",
+  "NL-Ermelo": "Ermelo",
+  "NL-Harderwijk": "Harderwijk",
+  "NL-Hattem": "Hattem",
+  "NL-Heerde": "Heerde",
+  "NL-Heumen": "Heumen",
+  "NL-Lochem": "Lochem",
+  "NL-Maasdriel": "Maasdriel",
+  "NL-Nijkerk": "Nijkerk",
+  "NL-Nijmegen": "Nijmegen",
+  "NL-Oldebroek": "Oldebroek",
+  "NL-Putten": "Putten",
+  "NL-Renkum": "Renkum",
+  "NL-Rheden": "Rheden",
+  "NL-Rozendaal": "Rozendaal",
+  "NL-Scherpenzeel": "Scherpenzeel",
+  "NL-Tiel": "Tiel",
+  "NL-Voorst": "Voorst",
+  "NL-Wageningen": "Wageningen",
+  "NL-Westervoort": "Westervoort",
+  "NL-Winterswijk": "Winterswijk",
+  "NL-Wijchen": "Wijchen",
+  "NL-Zaltbommel": "Zaltbommel",
+  "NL-Zevenaar": "Zevenaar",
+  "NL-Zutphen": "Zutphen",
+  "NL-Nunspeet": "Nunspeet",
+  "NL-Dronten": "Dronten",
+  "NL-Amersfoort": "Amersfoort",
+  "NL-Baarn": "Baarn",
+  "NL-De_Bilt": "De Bilt",
+  "NL-Bunnik": "Bunnik",
+  "NL-Bunschoten": "Bunschoten",
+  "NL-Eemnes": "Eemnes",
+  "NL-Houten": "Houten",
+  "NL-Leusden": "Leusden",
+  "NL-Lopik": "Lopik",
+  "NL-Montfoort": "Montfoort",
+  "NL-Renswoude": "Renswoude",
+  "NL-Rhenen": "Rhenen",
+  "NL-Soest": "Soest",
+  "NL-Utrecht": "Utrecht",
+  "NL-Veenendaal": "Veenendaal",
+  "NL-Woudenberg": "Woudenberg",
+  "NL-Wijk_bij_Duurstede": "Wijk bij Duurstede",
+  "NL-IJsselstein": "IJsselstein",
+  "NL-Zeist": "Zeist",
+  "NL-Nieuwegein": "Nieuwegein",
+  "NL-Aalsmeer": "Aalsmeer",
+  "NL-Alkmaar": "Alkmaar",
+  "NL-Amstelveen": "Amstelveen",
+  "NL-Amsterdam": "Amsterdam",
+  "NL-Beverwijk": "Beverwijk",
+  "NL-Blaricum": "Blaricum",
+  "NL-Bloemendaal": "Bloemendaal",
+  "NL-Castricum": "Castricum",
+  "NL-Diemen": "Diemen",
+  "NL-Edam-Volendam": "Edam-Volendam",
+  "NL-Enkhuizen": "Enkhuizen",
+  "NL-Haarlem": "Haarlem",
+  "NL-Haarlemmermeer": "Haarlemmermeer",
+  "NL-Heemskerk": "Heemskerk",
+  "NL-Heemstede": "Heemstede",
+  "NL-Heiloo": "Heiloo",
+  "NL-Bergen_(NH)": "Bergen (NH)",
+  "NL-Den_Helder": "Den Helder",
+  "NL-Hilversum": "Hilversum",
+  "NL-Hoorn": "Hoorn",
+  "NL-Huizen": "Huizen",
+  "NL-Landsmeer": "Landsmeer",
+  "NL-Laren": "Laren",
+  "NL-Medemblik": "Medemblik",
+  "NL-Oostzaan": "Oostzaan",
+  "NL-Opmeer": "Opmeer",
+  "NL-Ouder-Amstel": "Ouder-Amstel",
+  "NL-Purmerend": "Purmerend",
+  "NL-Schagen": "Schagen",
+  "NL-Texel": "Texel",
+  "NL-Uitgeest": "Uitgeest",
+  "NL-Uithoorn": "Uithoorn",
+  "NL-Velsen": "Velsen",
+  "NL-Zandvoort": "Zandvoort",
+  "NL-Zaanstad": "Zaanstad",
+  "NL-Alblasserdam": "Alblasserdam",
+  "NL-Alphen_aan_den_Rijn": "Alphen aan den Rijn",
+  "NL-Barendrecht": "Barendrecht",
+  "NL-Drechterland": "Drechterland",
+  "NL-Brielle": "Brielle",
+  "NL-Capelle_aan_den_IJssel": "Capelle aan den IJssel",
+  "NL-Delft": "Delft",
+  "NL-Dordrecht": "Dordrecht",
+  "NL-Gorinchem": "Gorinchem",
+  "NL-Gouda": "Gouda",
+  "NL-s-Gravenhage": "'s-Gravenhage",
+  "NL-Hardinxveld-Giessendam": "Hardinxveld-Giessendam",
+  "NL-Hellevoetsluis": "Hellevoetsluis",
+  "NL-Hendrik-Ido-Ambacht": "Hendrik-Ido-Ambacht",
+  "NL-Stede_Broec": "Stede Broec",
+  "NL-Hillegom": "Hillegom",
+  "NL-Katwijk": "Katwijk",
+  "NL-Krimpen_aan_den_IJssel": "Krimpen aan den IJssel",
+  "NL-Leiden": "Leiden",
+  "NL-Leiderdorp": "Leiderdorp",
+  "NL-Lisse": "Lisse",
+  "NL-Maassluis": "Maassluis",
+  "NL-Nieuwkoop": "Nieuwkoop",
+  "NL-Noordwijk": "Noordwijk",
+  "NL-Oegstgeest": "Oegstgeest",
+  "NL-Oudewater": "Oudewater",
+  "NL-Papendrecht": "Papendrecht",
+  "NL-Ridderkerk": "Ridderkerk",
+  "NL-Rotterdam": "Rotterdam",
+  "NL-Rijswijk": "Rijswijk",
+  "NL-Schiedam": "Schiedam",
+  "NL-Sliedrecht": "Sliedrecht",
+  "NL-Albrandswaard": "Albrandswaard",
+  "NL-Westvoorne": "Westvoorne",
+  "NL-Vlaardingen": "Vlaardingen",
+  "NL-Voorschoten": "Voorschoten",
+  "NL-Waddinxveen": "Waddinxveen",
+  "NL-Wassenaar": "Wassenaar",
+  "NL-Woerden": "Woerden",
+  "NL-Zoetermeer": "Zoetermeer",
+  "NL-Zoeterwoude": "Zoeterwoude",
+  "NL-Zwijndrecht": "Zwijndrecht",
+  "NL-Borsele": "Borsele",
+  "NL-Goes": "Goes",
+  "NL-West_Maas_en_Waal": "West Maas en Waal",
+  "NL-Hulst": "Hulst",
+  "NL-Kapelle": "Kapelle",
+  "NL-Middelburg": "Middelburg",
+  "NL-Reimerswaal": "Reimerswaal",
+  "NL-Terneuzen": "Terneuzen",
+  "NL-Tholen": "Tholen",
+  "NL-Veere": "Veere",
+  "NL-Vlissingen": "Vlissingen",
+  "NL-De_Ronde_Venen": "De Ronde Venen",
+  "NL-Tytsjerksteradiel": "Tytsjerksteradiel",
+  "NL-Asten": "Asten",
+  "NL-Baarle-Nassau": "Baarle-Nassau",
+  "NL-Bergen_op_Zoom": "Bergen op Zoom",
+  "NL-Best": "Best",
+  "NL-Boekel": "Boekel",
+  "NL-Boxtel": "Boxtel",
+  "NL-Breda": "Breda",
+  "NL-Deurne": "Deurne",
+  "NL-Pekela": "Pekela",
+  "NL-Dongen": "Dongen",
+  "NL-Eersel": "Eersel",
+  "NL-Eindhoven": "Eindhoven",
+  "NL-Etten-Leur": "Etten-Leur",
+  "NL-Geertruidenberg": "Geertruidenberg",
+  "NL-Gilze_en_Rijen": "Gilze en Rijen",
+  "NL-Goirle": "Goirle",
+  "NL-Helmond": "Helmond",
+  "NL-s-Hertogenbosch": "'s-Hertogenbosch",
+  "NL-Heusden": "Heusden",
+  "NL-Hilvarenbeek": "Hilvarenbeek",
+  "NL-Loon_op_Zand": "Loon op Zand",
+  "NL-Nuenen,_Gerwen_en_Nederwetten": "Nuenen, Gerwen en Nederwetten",
+  "NL-Oirschot": "Oirschot",
+  "NL-Oisterwijk": "Oisterwijk",
+  "NL-Oosterhout": "Oosterhout",
+  "NL-Oss": "Oss",
+  "NL-Rucphen": "Rucphen",
+  "NL-Sint-Michielsgestel": "Sint-Michielsgestel",
+  "NL-Someren": "Someren",
+  "NL-Son_en_Breugel": "Son en Breugel",
+  "NL-Steenbergen": "Steenbergen",
+  "NL-Waterland": "Waterland",
+  "NL-Tilburg": "Tilburg",
+  "NL-Valkenswaard": "Valkenswaard",
+  "NL-Veldhoven": "Veldhoven",
+  "NL-Vught": "Vught",
+  "NL-Waalre": "Waalre",
+  "NL-Waalwijk": "Waalwijk",
+  "NL-Woensdrecht": "Woensdrecht",
+  "NL-Zundert": "Zundert",
+  "NL-Wormerland": "Wormerland",
+  "NL-Landgraaf": "Landgraaf",
+  "NL-Beek": "Beek",
+  "NL-Beesel": "Beesel",
+  "NL-Bergen_(L)": "Bergen (L)",
+  "NL-Brunssum": "Brunssum",
+  "NL-Gennep": "Gennep",
+  "NL-Heerlen": "Heerlen",
+  "NL-Kerkrade": "Kerkrade",
+  "NL-Maastricht": "Maastricht",
+  "NL-Meerssen": "Meerssen",
+  "NL-Mook_en_Middelaar": "Mook en Middelaar",
+  "NL-Nederweert": "Nederweert",
+  "NL-Roermond": "Roermond",
+  "NL-Simpelveld": "Simpelveld",
+  "NL-Stein": "Stein",
+  "NL-Vaals": "Vaals",
+  "NL-Venlo": "Venlo",
+  "NL-Venray": "Venray",
+  "NL-Voerendaal": "Voerendaal",
+  "NL-Weert": "Weert",
+  "NL-Valkenburg_aan_de_Geul": "Valkenburg aan de Geul",
+  "NL-Lelystad": "Lelystad",
+  "NL-Horst_aan_de_Maas": "Horst aan de Maas",
+  "NL-Oude_IJsselstreek": "Oude IJsselstreek",
+  "NL-Teylingen": "Teylingen",
+  "NL-Utrechtse_Heuvelrug": "Utrechtse Heuvelrug",
+  "NL-Oost_Gelre": "Oost Gelre",
+  "NL-Koggenland": "Koggenland",
+  "NL-Lansingerland": "Lansingerland",
+  "NL-Leudal": "Leudal",
+  "NL-Maasgouw": "Maasgouw",
+  "NL-Gemert-Bakel": "Gemert-Bakel",
+  "NL-Halderberge": "Halderberge",
+  "NL-Heeze-Leende": "Heeze-Leende",
+  "NL-Laarbeek": "Laarbeek",
+  "NL-Reusel-De_Mierden": "Reusel-De Mierden",
+  "NL-Roerdalen": "Roerdalen",
+  "NL-Roosendaal": "Roosendaal",
+  "NL-Schouwen-Duiveland": "Schouwen-Duiveland",
+  "NL-Aa_en_Hunze": "Aa en Hunze",
+  "NL-Borger-Odoorn": "Borger-Odoorn",
+  "NL-De_Wolden": "De Wolden",
+  "NL-Noord-Beveland": "Noord-Beveland",
+  "NL-Wijdemeren": "Wijdemeren",
+  "NL-Noordenveld": "Noordenveld",
+  "NL-Twenterand": "Twenterand",
+  "NL-Westerveld": "Westerveld",
+  "NL-Lingewaard": "Lingewaard",
+  "NL-Cranendonck": "Cranendonck",
+  "NL-Steenwijkerland": "Steenwijkerland",
+  "NL-Moerdijk": "Moerdijk",
+  "NL-Echt-Susteren": "Echt-Susteren",
+  "NL-Sluis": "Sluis",
+  "NL-Drimmelen": "Drimmelen",
+  "NL-Bernheze": "Bernheze",
+  "NL-Alphen-Chaam": "Alphen-Chaam",
+  "NL-Bergeijk": "Bergeijk",
+  "NL-Bladel": "Bladel",
+  "NL-Gulpen-Wittem": "Gulpen-Wittem",
+  "NL-Tynaarlo": "Tynaarlo",
+  "NL-Midden-Drenthe": "Midden-Drenthe",
+  "NL-Overbetuwe": "Overbetuwe",
+  "NL-Hof_van_Twente": "Hof van Twente",
+  "NL-Neder-Betuwe": "Neder-Betuwe",
+  "NL-Rijssen-Holten": "Rijssen-Holten",
+  "NL-Geldrop-Mierlo": "Geldrop-Mierlo",
+  "NL-Olst-Wijhe": "Olst-Wijhe",
+  "NL-Dinkelland": "Dinkelland",
+  "NL-Westland": "Westland",
+  "NL-Midden-Delfland": "Midden-Delfland",
+  "NL-Berkelland": "Berkelland",
+  "NL-Bronckhorst": "Bronckhorst",
+  "NL-Sittard-Geleen": "Sittard-Geleen",
+  "NL-Kaag_en_Braassem": "Kaag en Braassem",
+  "NL-Dantumadiel": "Dantumadiel",
+  "NL-Zuidplas": "Zuidplas",
+  "NL-Peel_en_Maas": "Peel en Maas",
+  "NL-Oldambt": "Oldambt",
+  "NL-Zwartewaterland": "Zwartewaterland",
+  "NL-Súdwest-Fryslân": "Súdwest-Fryslân",
+  "NL-Bodegraven-Reeuwijk": "Bodegraven-Reeuwijk",
+  "NL-Eijsden-Margraten": "Eijsden-Margraten",
+  "NL-Stichtse_Vecht": "Stichtse Vecht",
+  "NL-Hollands_Kroon": "Hollands Kroon",
+  "NL-Leidschendam-Voorburg": "Leidschendam-Voorburg",
+  "NL-Goeree-Overflakkee": "Goeree-Overflakkee",
+  "NL-Pijnacker-Nootdorp": "Pijnacker-Nootdorp",
+  "NL-Nissewaard": "Nissewaard",
+  "NL-Krimpenerwaard": "Krimpenerwaard",
+  "NL-De_Fryske_Marren": "De Fryske Marren",
+  "NL-Gooise_Meren": "Gooise Meren",
+  "NL-Berg_en_Dal": "Berg en Dal",
+  "NL-Meierijstad": "Meierijstad",
+  "NL-Waadhoeke": "Waadhoeke",
+  "NL-Westerwolde": "Westerwolde",
+  "NL-Midden-Groningen": "Midden-Groningen",
+  "NL-Beekdaelen": "Beekdaelen",
+  "NL-Montferland": "Montferland",
+  "NL-Altena": "Altena",
+  "NL-West_Betuwe": "West Betuwe",
+  "NL-Vijfheerenlanden": "Vijfheerenlanden",
+  "NL-Hoeksche_Waard": "Hoeksche Waard",
+  "NL-Het_Hogeland": "Het Hogeland",
+  "NL-Westerkwartier": "Westerkwartier",
+  "NL-Noardeast-Fryslân": "Noardeast-Fryslân",
+  "NL-Molenlanden": "Molenlanden",
+  "NL-Eemsdelta": "Eemsdelta",
+  "NL-Dijk_en_Waard": "Dijk en Waard",
+  "NL-Land_van_Cuijk": "Land van Cuijk",
+  "NL-Maashorst": "Maashorst",
+  "NL-Hengelo_(O)": "Hengelo (O)"
+ },
+ "labels": {
+  "NL-Groningen": "Groningen",
+  "NL-Almere": "Almere",
+  "NL-Stadskanaal": "Stadskanaal",
+  "NL-Veendam": "Veendam",
+  "NL-Zeewolde": "Zeewolde",
+  "NL-Achtkarspelen": "Achtkarspelen",
+  "NL-Ameland": "Ameland",
+  "NL-Harlingen": "Harlingen",
+  "NL-Heerenveen": "Heerenveen",
+  "NL-Leeuwarden": "Leeuwarden",
+  "NL-Ooststellingwerf": "Ooststellingwerf",
+  "NL-Opsterland": "Opsterland",
+  "NL-Schiermonnikoog": "Schiermonnikoog",
+  "NL-Smallingerland": "Smallingerland",
+  "NL-Terschelling": "Terschelling",
+  "NL-Vlieland": "Vlieland",
+  "NL-Weststellingwerf": "Weststellingwerf",
+  "NL-Assen": "Assen",
+  "NL-Coevorden": "Coevorden",
+  "NL-Emmen": "Emmen",
+  "NL-Hoogeveen": "Hoogeveen",
+  "NL-Meppel": "Meppel",
+  "NL-Almelo": "Almelo",
+  "NL-Borne": "Borne",
+  "NL-Dalfsen": "Dalfsen",
+  "NL-Deventer": "Deventer",
+  "NL-Enschede": "Enschede",
+  "NL-Haaksbergen": "Haaksbergen",
+  "NL-Hardenberg": "Hardenberg",
+  "NL-Hellendoorn": "Hellendoorn",
+  "NL-Kampen": "Kampen",
+  "NL-Losser": "Losser",
+  "NL-Noordoostpolder": "Noordoostpolder",
+  "NL-Oldenzaal": "Oldenzaal",
+  "NL-Ommen": "Ommen",
+  "NL-Raalte": "Raalte",
+  "NL-Staphorst": "Staphorst",
+  "NL-Tubbergen": "Tubbergen",
+  "NL-Urk": "Urk",
+  "NL-Wierden": "Wierden",
+  "NL-Zwolle": "Zwolle",
+  "NL-Aalten": "Aalten",
+  "NL-Apeldoorn": "Apeldoorn",
+  "NL-Arnhem": "Arnhem",
+  "NL-Barneveld": "Barneveld",
+  "NL-Beuningen": "Beuningen",
+  "NL-Brummen": "Brummen",
+  "NL-Buren": "Buren",
+  "NL-Culemborg": "Culemborg",
+  "NL-Doesburg": "Doesburg",
+  "NL-Doetinchem": "Doetinchem",
+  "NL-Druten": "Druten",
+  "NL-Duiven": "Duiven",
+  "NL-Ede": "Ede",
+  "NL-Elburg": "Elburg",
+  "NL-Epe": "Epe",
+  "NL-Ermelo": "Ermelo",
+  "NL-Harderwijk": "Harderwijk",
+  "NL-Hattem": "Hattem",
+  "NL-Heerde": "Heerde",
+  "NL-Heumen": "Heumen",
+  "NL-Lochem": "Lochem",
+  "NL-Maasdriel": "Maasdriel",
+  "NL-Nijkerk": "Nijkerk",
+  "NL-Nijmegen": "Nijmegen",
+  "NL-Oldebroek": "Oldebroek",
+  "NL-Putten": "Putten",
+  "NL-Renkum": "Renkum",
+  "NL-Rheden": "Rheden",
+  "NL-Rozendaal": "Rozendaal",
+  "NL-Scherpenzeel": "Scherpenzeel",
+  "NL-Tiel": "Tiel",
+  "NL-Voorst": "Voorst",
+  "NL-Wageningen": "Wageningen",
+  "NL-Westervoort": "Westervoort",
+  "NL-Winterswijk": "Winterswijk",
+  "NL-Wijchen": "Wijchen",
+  "NL-Zaltbommel": "Zaltbommel",
+  "NL-Zevenaar": "Zevenaar",
+  "NL-Zutphen": "Zutphen",
+  "NL-Nunspeet": "Nunspeet",
+  "NL-Dronten": "Dronten",
+  "NL-Amersfoort": "Amersfoort",
+  "NL-Baarn": "Baarn",
+  "NL-De_Bilt": "De Bilt",
+  "NL-Bunnik": "Bunnik",
+  "NL-Bunschoten": "Bunschoten",
+  "NL-Eemnes": "Eemnes",
+  "NL-Houten": "Houten",
+  "NL-Leusden": "Leusden",
+  "NL-Lopik": "Lopik",
+  "NL-Montfoort": "Montfoort",
+  "NL-Renswoude": "Renswoude",
+  "NL-Rhenen": "Rhenen",
+  "NL-Soest": "Soest",
+  "NL-Utrecht": "Utrecht",
+  "NL-Veenendaal": "Veenendaal",
+  "NL-Woudenberg": "Woudenberg",
+  "NL-Wijk_bij_Duurstede": "Wijk bij Duurstede",
+  "NL-IJsselstein": "IJsselstein",
+  "NL-Zeist": "Zeist",
+  "NL-Nieuwegein": "Nieuwegein",
+  "NL-Aalsmeer": "Aalsmeer",
+  "NL-Alkmaar": "Alkmaar",
+  "NL-Amstelveen": "Amstelveen",
+  "NL-Amsterdam": "Amsterdam",
+  "NL-Beverwijk": "Beverwijk",
+  "NL-Blaricum": "Blaricum",
+  "NL-Bloemendaal": "Bloemendaal",
+  "NL-Castricum": "Castricum",
+  "NL-Diemen": "Diemen",
+  "NL-Edam-Volendam": "Edam-Volendam",
+  "NL-Enkhuizen": "Enkhuizen",
+  "NL-Haarlem": "Haarlem",
+  "NL-Haarlemmermeer": "Haarlemmermeer",
+  "NL-Heemskerk": "Heemskerk",
+  "NL-Heemstede": "Heemstede",
+  "NL-Heiloo": "Heiloo",
+  "NL-Bergen_(NH)": "Bergen (NH)",
+  "NL-Den_Helder": "Den Helder",
+  "NL-Hilversum": "Hilversum",
+  "NL-Hoorn": "Hoorn",
+  "NL-Huizen": "Huizen",
+  "NL-Landsmeer": "Landsmeer",
+  "NL-Laren": "Laren",
+  "NL-Medemblik": "Medemblik",
+  "NL-Oostzaan": "Oostzaan",
+  "NL-Opmeer": "Opmeer",
+  "NL-Ouder-Amstel": "Ouder-Amstel",
+  "NL-Purmerend": "Purmerend",
+  "NL-Schagen": "Schagen",
+  "NL-Texel": "Texel",
+  "NL-Uitgeest": "Uitgeest",
+  "NL-Uithoorn": "Uithoorn",
+  "NL-Velsen": "Velsen",
+  "NL-Zandvoort": "Zandvoort",
+  "NL-Zaanstad": "Zaanstad",
+  "NL-Alblasserdam": "Alblasserdam",
+  "NL-Alphen_aan_den_Rijn": "Alphen aan den Rijn",
+  "NL-Barendrecht": "Barendrecht",
+  "NL-Drechterland": "Drechterland",
+  "NL-Brielle": "Brielle",
+  "NL-Capelle_aan_den_IJssel": "Capelle aan den IJssel",
+  "NL-Delft": "Delft",
+  "NL-Dordrecht": "Dordrecht",
+  "NL-Gorinchem": "Gorinchem",
+  "NL-Gouda": "Gouda",
+  "NL-s-Gravenhage": "'s-Gravenhage",
+  "NL-Hardinxveld-Giessendam": "Hardinxveld-Giessendam",
+  "NL-Hellevoetsluis": "Hellevoetsluis",
+  "NL-Hendrik-Ido-Ambacht": "Hendrik-Ido-Ambacht",
+  "NL-Stede_Broec": "Stede Broec",
+  "NL-Hillegom": "Hillegom",
+  "NL-Katwijk": "Katwijk",
+  "NL-Krimpen_aan_den_IJssel": "Krimpen aan den IJssel",
+  "NL-Leiden": "Leiden",
+  "NL-Leiderdorp": "Leiderdorp",
+  "NL-Lisse": "Lisse",
+  "NL-Maassluis": "Maassluis",
+  "NL-Nieuwkoop": "Nieuwkoop",
+  "NL-Noordwijk": "Noordwijk",
+  "NL-Oegstgeest": "Oegstgeest",
+  "NL-Oudewater": "Oudewater",
+  "NL-Papendrecht": "Papendrecht",
+  "NL-Ridderkerk": "Ridderkerk",
+  "NL-Rotterdam": "Rotterdam",
+  "NL-Rijswijk": "Rijswijk",
+  "NL-Schiedam": "Schiedam",
+  "NL-Sliedrecht": "Sliedrecht",
+  "NL-Albrandswaard": "Albrandswaard",
+  "NL-Westvoorne": "Westvoorne",
+  "NL-Vlaardingen": "Vlaardingen",
+  "NL-Voorschoten": "Voorschoten",
+  "NL-Waddinxveen": "Waddinxveen",
+  "NL-Wassenaar": "Wassenaar",
+  "NL-Woerden": "Woerden",
+  "NL-Zoetermeer": "Zoetermeer",
+  "NL-Zoeterwoude": "Zoeterwoude",
+  "NL-Zwijndrecht": "Zwijndrecht",
+  "NL-Borsele": "Borsele",
+  "NL-Goes": "Goes",
+  "NL-West_Maas_en_Waal": "West Maas en Waal",
+  "NL-Hulst": "Hulst",
+  "NL-Kapelle": "Kapelle",
+  "NL-Middelburg": "Middelburg",
+  "NL-Reimerswaal": "Reimerswaal",
+  "NL-Terneuzen": "Terneuzen",
+  "NL-Tholen": "Tholen",
+  "NL-Veere": "Veere",
+  "NL-Vlissingen": "Vlissingen",
+  "NL-De_Ronde_Venen": "De Ronde Venen",
+  "NL-Tytsjerksteradiel": "Tytsjerksteradiel",
+  "NL-Asten": "Asten",
+  "NL-Baarle-Nassau": "Baarle-Nassau",
+  "NL-Bergen_op_Zoom": "Bergen op Zoom",
+  "NL-Best": "Best",
+  "NL-Boekel": "Boekel",
+  "NL-Boxtel": "Boxtel",
+  "NL-Breda": "Breda",
+  "NL-Deurne": "Deurne",
+  "NL-Pekela": "Pekela",
+  "NL-Dongen": "Dongen",
+  "NL-Eersel": "Eersel",
+  "NL-Eindhoven": "Eindhoven",
+  "NL-Etten-Leur": "Etten-Leur",
+  "NL-Geertruidenberg": "Geertruidenberg",
+  "NL-Gilze_en_Rijen": "Gilze en Rijen",
+  "NL-Goirle": "Goirle",
+  "NL-Helmond": "Helmond",
+  "NL-s-Hertogenbosch": "'s-Hertogenbosch",
+  "NL-Heusden": "Heusden",
+  "NL-Hilvarenbeek": "Hilvarenbeek",
+  "NL-Loon_op_Zand": "Loon op Zand",
+  "NL-Nuenen,_Gerwen_en_Nederwetten": "Nuenen, Gerwen en Nederwetten",
+  "NL-Oirschot": "Oirschot",
+  "NL-Oisterwijk": "Oisterwijk",
+  "NL-Oosterhout": "Oosterhout",
+  "NL-Oss": "Oss",
+  "NL-Rucphen": "Rucphen",
+  "NL-Sint-Michielsgestel": "Sint-Michielsgestel",
+  "NL-Someren": "Someren",
+  "NL-Son_en_Breugel": "Son en Breugel",
+  "NL-Steenbergen": "Steenbergen",
+  "NL-Waterland": "Waterland",
+  "NL-Tilburg": "Tilburg",
+  "NL-Valkenswaard": "Valkenswaard",
+  "NL-Veldhoven": "Veldhoven",
+  "NL-Vught": "Vught",
+  "NL-Waalre": "Waalre",
+  "NL-Waalwijk": "Waalwijk",
+  "NL-Woensdrecht": "Woensdrecht",
+  "NL-Zundert": "Zundert",
+  "NL-Wormerland": "Wormerland",
+  "NL-Landgraaf": "Landgraaf",
+  "NL-Beek": "Beek",
+  "NL-Beesel": "Beesel",
+  "NL-Bergen_(L)": "Bergen (L)",
+  "NL-Brunssum": "Brunssum",
+  "NL-Gennep": "Gennep",
+  "NL-Heerlen": "Heerlen",
+  "NL-Kerkrade": "Kerkrade",
+  "NL-Maastricht": "Maastricht",
+  "NL-Meerssen": "Meerssen",
+  "NL-Mook_en_Middelaar": "Mook en Middelaar",
+  "NL-Nederweert": "Nederweert",
+  "NL-Roermond": "Roermond",
+  "NL-Simpelveld": "Simpelveld",
+  "NL-Stein": "Stein",
+  "NL-Vaals": "Vaals",
+  "NL-Venlo": "Venlo",
+  "NL-Venray": "Venray",
+  "NL-Voerendaal": "Voerendaal",
+  "NL-Weert": "Weert",
+  "NL-Valkenburg_aan_de_Geul": "Valkenburg aan de Geul",
+  "NL-Lelystad": "Lelystad",
+  "NL-Horst_aan_de_Maas": "Horst aan de Maas",
+  "NL-Oude_IJsselstreek": "Oude IJsselstreek",
+  "NL-Teylingen": "Teylingen",
+  "NL-Utrechtse_Heuvelrug": "Utrechtse Heuvelrug",
+  "NL-Oost_Gelre": "Oost Gelre",
+  "NL-Koggenland": "Koggenland",
+  "NL-Lansingerland": "Lansingerland",
+  "NL-Leudal": "Leudal",
+  "NL-Maasgouw": "Maasgouw",
+  "NL-Gemert-Bakel": "Gemert-Bakel",
+  "NL-Halderberge": "Halderberge",
+  "NL-Heeze-Leende": "Heeze-Leende",
+  "NL-Laarbeek": "Laarbeek",
+  "NL-Reusel-De_Mierden": "Reusel-De Mierden",
+  "NL-Roerdalen": "Roerdalen",
+  "NL-Roosendaal": "Roosendaal",
+  "NL-Schouwen-Duiveland": "Schouwen-Duiveland",
+  "NL-Aa_en_Hunze": "Aa en Hunze",
+  "NL-Borger-Odoorn": "Borger-Odoorn",
+  "NL-De_Wolden": "De Wolden",
+  "NL-Noord-Beveland": "Noord-Beveland",
+  "NL-Wijdemeren": "Wijdemeren",
+  "NL-Noordenveld": "Noordenveld",
+  "NL-Twenterand": "Twenterand",
+  "NL-Westerveld": "Westerveld",
+  "NL-Lingewaard": "Lingewaard",
+  "NL-Cranendonck": "Cranendonck",
+  "NL-Steenwijkerland": "Steenwijkerland",
+  "NL-Moerdijk": "Moerdijk",
+  "NL-Echt-Susteren": "Echt-Susteren",
+  "NL-Sluis": "Sluis",
+  "NL-Drimmelen": "Drimmelen",
+  "NL-Bernheze": "Bernheze",
+  "NL-Alphen-Chaam": "Alphen-Chaam",
+  "NL-Bergeijk": "Bergeijk",
+  "NL-Bladel": "Bladel",
+  "NL-Gulpen-Wittem": "Gulpen-Wittem",
+  "NL-Tynaarlo": "Tynaarlo",
+  "NL-Midden-Drenthe": "Midden-Drenthe",
+  "NL-Overbetuwe": "Overbetuwe",
+  "NL-Hof_van_Twente": "Hof van Twente",
+  "NL-Neder-Betuwe": "Neder-Betuwe",
+  "NL-Rijssen-Holten": "Rijssen-Holten",
+  "NL-Geldrop-Mierlo": "Geldrop-Mierlo",
+  "NL-Olst-Wijhe": "Olst-Wijhe",
+  "NL-Dinkelland": "Dinkelland",
+  "NL-Westland": "Westland",
+  "NL-Midden-Delfland": "Midden-Delfland",
+  "NL-Berkelland": "Berkelland",
+  "NL-Bronckhorst": "Bronckhorst",
+  "NL-Sittard-Geleen": "Sittard-Geleen",
+  "NL-Kaag_en_Braassem": "Kaag en Braassem",
+  "NL-Dantumadiel": "Dantumadiel",
+  "NL-Zuidplas": "Zuidplas",
+  "NL-Peel_en_Maas": "Peel en Maas",
+  "NL-Oldambt": "Oldambt",
+  "NL-Zwartewaterland": "Zwartewaterland",
+  "NL-Súdwest-Fryslân": "Súdwest-Fryslân",
+  "NL-Bodegraven-Reeuwijk": "Bodegraven-Reeuwijk",
+  "NL-Eijsden-Margraten": "Eijsden-Margraten",
+  "NL-Stichtse_Vecht": "Stichtse Vecht",
+  "NL-Hollands_Kroon": "Hollands Kroon",
+  "NL-Leidschendam-Voorburg": "Leidschendam-Voorburg",
+  "NL-Goeree-Overflakkee": "Goeree-Overflakkee",
+  "NL-Pijnacker-Nootdorp": "Pijnacker-Nootdorp",
+  "NL-Nissewaard": "Nissewaard",
+  "NL-Krimpenerwaard": "Krimpenerwaard",
+  "NL-De_Fryske_Marren": "De Fryske Marren",
+  "NL-Gooise_Meren": "Gooise Meren",
+  "NL-Berg_en_Dal": "Berg en Dal",
+  "NL-Meierijstad": "Meierijstad",
+  "NL-Waadhoeke": "Waadhoeke",
+  "NL-Westerwolde": "Westerwolde",
+  "NL-Midden-Groningen": "Midden-Groningen",
+  "NL-Beekdaelen": "Beekdaelen",
+  "NL-Montferland": "Montferland",
+  "NL-Altena": "Altena",
+  "NL-West_Betuwe": "West Betuwe",
+  "NL-Vijfheerenlanden": "Vijfheerenlanden",
+  "NL-Hoeksche_Waard": "Hoeksche Waard",
+  "NL-Het_Hogeland": "Het Hogeland",
+  "NL-Westerkwartier": "Westerkwartier",
+  "NL-Noardeast-Fryslân": "Noardeast-Fryslân",
+  "NL-Molenlanden": "Molenlanden",
+  "NL-Eemsdelta": "Eemsdelta",
+  "NL-Dijk_en_Waard": "Dijk en Waard",
+  "NL-Land_van_Cuijk": "Land van Cuijk",
+  "NL-Maashorst": "Maashorst",
+  "NL-Hengelo_(O)": "Hengelo (O)"
+ },
+ "regionOf": {
+  "NL-Groningen": "NL",
+  "NL-Almere": "CTX",
+  "NL-Stadskanaal": "NL",
+  "NL-Veendam": "NL",
+  "NL-Zeewolde": "NL",
+  "NL-Achtkarspelen": "NL",
+  "NL-Ameland": "NL",
+  "NL-Harlingen": "NL",
+  "NL-Heerenveen": "NL",
+  "NL-Leeuwarden": "NL",
+  "NL-Ooststellingwerf": "NL",
+  "NL-Opsterland": "NL",
+  "NL-Schiermonnikoog": "NL",
+  "NL-Smallingerland": "NL",
+  "NL-Terschelling": "NL",
+  "NL-Vlieland": "NL",
+  "NL-Weststellingwerf": "NL",
+  "NL-Assen": "NL",
+  "NL-Coevorden": "NL",
+  "NL-Emmen": "NL",
+  "NL-Hoogeveen": "NL",
+  "NL-Meppel": "NL",
+  "NL-Almelo": "NL",
+  "NL-Borne": "NL",
+  "NL-Dalfsen": "NL",
+  "NL-Deventer": "NL",
+  "NL-Enschede": "NL",
+  "NL-Haaksbergen": "NL",
+  "NL-Hardenberg": "NL",
+  "NL-Hellendoorn": "NL",
+  "NL-Kampen": "NL",
+  "NL-Losser": "NL",
+  "NL-Noordoostpolder": "NL",
+  "NL-Oldenzaal": "NL",
+  "NL-Ommen": "NL",
+  "NL-Raalte": "NL",
+  "NL-Staphorst": "NL",
+  "NL-Tubbergen": "NL",
+  "NL-Urk": "NL",
+  "NL-Wierden": "NL",
+  "NL-Zwolle": "NL",
+  "NL-Aalten": "NL",
+  "NL-Apeldoorn": "NL",
+  "NL-Arnhem": "NL",
+  "NL-Barneveld": "NL",
+  "NL-Beuningen": "NL",
+  "NL-Brummen": "NL",
+  "NL-Buren": "NL",
+  "NL-Culemborg": "NL",
+  "NL-Doesburg": "NL",
+  "NL-Doetinchem": "NL",
+  "NL-Druten": "NL",
+  "NL-Duiven": "NL",
+  "NL-Ede": "NL",
+  "NL-Elburg": "NL",
+  "NL-Epe": "NL",
+  "NL-Ermelo": "NL",
+  "NL-Harderwijk": "NL",
+  "NL-Hattem": "NL",
+  "NL-Heerde": "NL",
+  "NL-Heumen": "NL",
+  "NL-Lochem": "NL",
+  "NL-Maasdriel": "NL",
+  "NL-Nijkerk": "NL",
+  "NL-Nijmegen": "NL",
+  "NL-Oldebroek": "NL",
+  "NL-Putten": "NL",
+  "NL-Renkum": "NL",
+  "NL-Rheden": "NL",
+  "NL-Rozendaal": "NL",
+  "NL-Scherpenzeel": "NL",
+  "NL-Tiel": "NL",
+  "NL-Voorst": "NL",
+  "NL-Wageningen": "NL",
+  "NL-Westervoort": "NL",
+  "NL-Winterswijk": "NL",
+  "NL-Wijchen": "NL",
+  "NL-Zaltbommel": "NL",
+  "NL-Zevenaar": "NL",
+  "NL-Zutphen": "NL",
+  "NL-Nunspeet": "NL",
+  "NL-Dronten": "NL",
+  "NL-Amersfoort": "NL",
+  "NL-Baarn": "NL",
+  "NL-De_Bilt": "NL",
+  "NL-Bunnik": "NL",
+  "NL-Bunschoten": "NL",
+  "NL-Eemnes": "NL",
+  "NL-Houten": "NL",
+  "NL-Leusden": "NL",
+  "NL-Lopik": "NL",
+  "NL-Montfoort": "NL",
+  "NL-Renswoude": "NL",
+  "NL-Rhenen": "NL",
+  "NL-Soest": "NL",
+  "NL-Utrecht": "NL",
+  "NL-Veenendaal": "NL",
+  "NL-Woudenberg": "NL",
+  "NL-Wijk_bij_Duurstede": "NL",
+  "NL-IJsselstein": "NL",
+  "NL-Zeist": "NL",
+  "NL-Nieuwegein": "NL",
+  "NL-Aalsmeer": "NL",
+  "NL-Alkmaar": "NL",
+  "NL-Amstelveen": "NL",
+  "NL-Amsterdam": "NL",
+  "NL-Beverwijk": "NL",
+  "NL-Blaricum": "NL",
+  "NL-Bloemendaal": "NL",
+  "NL-Castricum": "NL",
+  "NL-Diemen": "NL",
+  "NL-Edam-Volendam": "NL",
+  "NL-Enkhuizen": "NL",
+  "NL-Haarlem": "NL",
+  "NL-Haarlemmermeer": "NL",
+  "NL-Heemskerk": "NL",
+  "NL-Heemstede": "NL",
+  "NL-Heiloo": "NL",
+  "NL-Bergen_(NH)": "NL",
+  "NL-Den_Helder": "NL",
+  "NL-Hilversum": "NL",
+  "NL-Hoorn": "NL",
+  "NL-Huizen": "NL",
+  "NL-Landsmeer": "NL",
+  "NL-Laren": "NL",
+  "NL-Medemblik": "NL",
+  "NL-Oostzaan": "NL",
+  "NL-Opmeer": "NL",
+  "NL-Ouder-Amstel": "NL",
+  "NL-Purmerend": "NL",
+  "NL-Schagen": "NL",
+  "NL-Texel": "NL",
+  "NL-Uitgeest": "NL",
+  "NL-Uithoorn": "NL",
+  "NL-Velsen": "NL",
+  "NL-Zandvoort": "NL",
+  "NL-Zaanstad": "NL",
+  "NL-Alblasserdam": "NL",
+  "NL-Alphen_aan_den_Rijn": "NL",
+  "NL-Barendrecht": "NL",
+  "NL-Drechterland": "NL",
+  "NL-Brielle": "NL",
+  "NL-Capelle_aan_den_IJssel": "NL",
+  "NL-Delft": "NL",
+  "NL-Dordrecht": "NL",
+  "NL-Gorinchem": "NL",
+  "NL-Gouda": "NL",
+  "NL-s-Gravenhage": "NL",
+  "NL-Hardinxveld-Giessendam": "NL",
+  "NL-Hellevoetsluis": "NL",
+  "NL-Hendrik-Ido-Ambacht": "NL",
+  "NL-Stede_Broec": "NL",
+  "NL-Hillegom": "NL",
+  "NL-Katwijk": "NL",
+  "NL-Krimpen_aan_den_IJssel": "NL",
+  "NL-Leiden": "NL",
+  "NL-Leiderdorp": "NL",
+  "NL-Lisse": "NL",
+  "NL-Maassluis": "NL",
+  "NL-Nieuwkoop": "NL",
+  "NL-Noordwijk": "NL",
+  "NL-Oegstgeest": "NL",
+  "NL-Oudewater": "NL",
+  "NL-Papendrecht": "NL",
+  "NL-Ridderkerk": "NL",
+  "NL-Rotterdam": "NL",
+  "NL-Rijswijk": "NL",
+  "NL-Schiedam": "NL",
+  "NL-Sliedrecht": "NL",
+  "NL-Albrandswaard": "NL",
+  "NL-Westvoorne": "NL",
+  "NL-Vlaardingen": "NL",
+  "NL-Voorschoten": "NL",
+  "NL-Waddinxveen": "NL",
+  "NL-Wassenaar": "NL",
+  "NL-Woerden": "NL",
+  "NL-Zoetermeer": "NL",
+  "NL-Zoeterwoude": "NL",
+  "NL-Zwijndrecht": "NL",
+  "NL-Borsele": "NL",
+  "NL-Goes": "NL",
+  "NL-West_Maas_en_Waal": "NL",
+  "NL-Hulst": "NL",
+  "NL-Kapelle": "NL",
+  "NL-Middelburg": "NL",
+  "NL-Reimerswaal": "NL",
+  "NL-Terneuzen": "NL",
+  "NL-Tholen": "NL",
+  "NL-Veere": "NL",
+  "NL-Vlissingen": "NL",
+  "NL-De_Ronde_Venen": "NL",
+  "NL-Tytsjerksteradiel": "NL",
+  "NL-Asten": "NL",
+  "NL-Baarle-Nassau": "NL",
+  "NL-Bergen_op_Zoom": "NL",
+  "NL-Best": "NL",
+  "NL-Boekel": "NL",
+  "NL-Boxtel": "NL",
+  "NL-Breda": "NL",
+  "NL-Deurne": "NL",
+  "NL-Pekela": "NL",
+  "NL-Dongen": "NL",
+  "NL-Eersel": "NL",
+  "NL-Eindhoven": "NL",
+  "NL-Etten-Leur": "NL",
+  "NL-Geertruidenberg": "NL",
+  "NL-Gilze_en_Rijen": "NL",
+  "NL-Goirle": "NL",
+  "NL-Helmond": "NL",
+  "NL-s-Hertogenbosch": "NL",
+  "NL-Heusden": "NL",
+  "NL-Hilvarenbeek": "NL",
+  "NL-Loon_op_Zand": "NL",
+  "NL-Nuenen,_Gerwen_en_Nederwetten": "NL",
+  "NL-Oirschot": "NL",
+  "NL-Oisterwijk": "NL",
+  "NL-Oosterhout": "NL",
+  "NL-Oss": "NL",
+  "NL-Rucphen": "NL",
+  "NL-Sint-Michielsgestel": "NL",
+  "NL-Someren": "NL",
+  "NL-Son_en_Breugel": "NL",
+  "NL-Steenbergen": "NL",
+  "NL-Waterland": "NL",
+  "NL-Tilburg": "NL",
+  "NL-Valkenswaard": "NL",
+  "NL-Veldhoven": "NL",
+  "NL-Vught": "NL",
+  "NL-Waalre": "NL",
+  "NL-Waalwijk": "NL",
+  "NL-Woensdrecht": "NL",
+  "NL-Zundert": "NL",
+  "NL-Wormerland": "NL",
+  "NL-Landgraaf": "NL",
+  "NL-Beek": "NL",
+  "NL-Beesel": "NL",
+  "NL-Bergen_(L)": "NL",
+  "NL-Brunssum": "NL",
+  "NL-Gennep": "NL",
+  "NL-Heerlen": "NL",
+  "NL-Kerkrade": "NL",
+  "NL-Maastricht": "NL",
+  "NL-Meerssen": "NL",
+  "NL-Mook_en_Middelaar": "NL",
+  "NL-Nederweert": "NL",
+  "NL-Roermond": "NL",
+  "NL-Simpelveld": "NL",
+  "NL-Stein": "NL",
+  "NL-Vaals": "NL",
+  "NL-Venlo": "NL",
+  "NL-Venray": "NL",
+  "NL-Voerendaal": "NL",
+  "NL-Weert": "NL",
+  "NL-Valkenburg_aan_de_Geul": "NL",
+  "NL-Lelystad": "NL",
+  "NL-Horst_aan_de_Maas": "NL",
+  "NL-Oude_IJsselstreek": "NL",
+  "NL-Teylingen": "NL",
+  "NL-Utrechtse_Heuvelrug": "NL",
+  "NL-Oost_Gelre": "NL",
+  "NL-Koggenland": "NL",
+  "NL-Lansingerland": "NL",
+  "NL-Leudal": "NL",
+  "NL-Maasgouw": "NL",
+  "NL-Gemert-Bakel": "NL",
+  "NL-Halderberge": "NL",
+  "NL-Heeze-Leende": "NL",
+  "NL-Laarbeek": "NL",
+  "NL-Reusel-De_Mierden": "NL",
+  "NL-Roerdalen": "NL",
+  "NL-Roosendaal": "NL",
+  "NL-Schouwen-Duiveland": "NL",
+  "NL-Aa_en_Hunze": "NL",
+  "NL-Borger-Odoorn": "NL",
+  "NL-De_Wolden": "NL",
+  "NL-Noord-Beveland": "NL",
+  "NL-Wijdemeren": "NL",
+  "NL-Noordenveld": "NL",
+  "NL-Twenterand": "NL",
+  "NL-Westerveld": "NL",
+  "NL-Lingewaard": "NL",
+  "NL-Cranendonck": "NL",
+  "NL-Steenwijkerland": "NL",
+  "NL-Moerdijk": "NL",
+  "NL-Echt-Susteren": "NL",
+  "NL-Sluis": "NL",
+  "NL-Drimmelen": "NL",
+  "NL-Bernheze": "NL",
+  "NL-Alphen-Chaam": "NL",
+  "NL-Bergeijk": "NL",
+  "NL-Bladel": "NL",
+  "NL-Gulpen-Wittem": "NL",
+  "NL-Tynaarlo": "NL",
+  "NL-Midden-Drenthe": "NL",
+  "NL-Overbetuwe": "NL",
+  "NL-Hof_van_Twente": "NL",
+  "NL-Neder-Betuwe": "NL",
+  "NL-Rijssen-Holten": "NL",
+  "NL-Geldrop-Mierlo": "NL",
+  "NL-Olst-Wijhe": "NL",
+  "NL-Dinkelland": "NL",
+  "NL-Westland": "NL",
+  "NL-Midden-Delfland": "NL",
+  "NL-Berkelland": "NL",
+  "NL-Bronckhorst": "NL",
+  "NL-Sittard-Geleen": "NL",
+  "NL-Kaag_en_Braassem": "NL",
+  "NL-Dantumadiel": "NL",
+  "NL-Zuidplas": "NL",
+  "NL-Peel_en_Maas": "NL",
+  "NL-Oldambt": "NL",
+  "NL-Zwartewaterland": "NL",
+  "NL-Súdwest-Fryslân": "NL",
+  "NL-Bodegraven-Reeuwijk": "NL",
+  "NL-Eijsden-Margraten": "NL",
+  "NL-Stichtse_Vecht": "NL",
+  "NL-Hollands_Kroon": "NL",
+  "NL-Leidschendam-Voorburg": "NL",
+  "NL-Goeree-Overflakkee": "NL",
+  "NL-Pijnacker-Nootdorp": "NL",
+  "NL-Nissewaard": "NL",
+  "NL-Krimpenerwaard": "NL",
+  "NL-De_Fryske_Marren": "NL",
+  "NL-Gooise_Meren": "NL",
+  "NL-Berg_en_Dal": "NL",
+  "NL-Meierijstad": "NL",
+  "NL-Waadhoeke": "NL",
+  "NL-Westerwolde": "NL",
+  "NL-Midden-Groningen": "NL",
+  "NL-Beekdaelen": "NL",
+  "NL-Montferland": "NL",
+  "NL-Altena": "NL",
+  "NL-West_Betuwe": "NL",
+  "NL-Vijfheerenlanden": "NL",
+  "NL-Hoeksche_Waard": "NL",
+  "NL-Het_Hogeland": "NL",
+  "NL-Westerkwartier": "NL",
+  "NL-Noardeast-Fryslân": "NL",
+  "NL-Molenlanden": "NL",
+  "NL-Eemsdelta": "NL",
+  "NL-Dijk_en_Waard": "NL",
+  "NL-Land_van_Cuijk": "NL",
+  "NL-Maashorst": "NL",
+  "NL-Hengelo_(O)": "NL"
+ },
+ "labelName": true,
+ "seatNotes": "전국 단위 비례대표 선거라 지역마다 1석으로 1위 정당만 칠했어요. 자료: verkiezingsuitslagen.nl (Kiesraad) · 옛 기초자치단체 결과를 지금 경계에 맞춰 옮겼어요",
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "NL-Groningen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Stadskanaal": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Veendam": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Zeewolde": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Achtkarspelen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Ameland": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Harlingen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Heerenveen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Leeuwarden": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Ooststellingwerf": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Opsterland": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Schiermonnikoog": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Smallingerland": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Terschelling": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Vlieland": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Weststellingwerf": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Assen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Coevorden": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Emmen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Hoogeveen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Meppel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Almelo": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Borne": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Dalfsen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Deventer": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Enschede": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Haaksbergen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Hardenberg": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Hellendoorn": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Kampen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Losser": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Noordoostpolder": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Oldenzaal": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Ommen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Raalte": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Staphorst": {
+     "개혁정치당 (SGP)": 1
+    },
+    "NL-Tubbergen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Urk": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Wierden": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Zwolle": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Aalten": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Apeldoorn": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Arnhem": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Barneveld": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Beuningen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Brummen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Buren": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Culemborg": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Doesburg": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Doetinchem": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Druten": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Duiven": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Ede": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Elburg": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Epe": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Ermelo": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Harderwijk": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Hattem": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Heerde": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Heumen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Lochem": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Maasdriel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Nijkerk": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Nijmegen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Oldebroek": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Putten": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Renkum": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Rheden": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Rozendaal": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Scherpenzeel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Tiel": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Voorst": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Wageningen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Westervoort": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Winterswijk": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Wijchen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Zaltbommel": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Zevenaar": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Zutphen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Nunspeet": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Dronten": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Amersfoort": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Baarn": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-De_Bilt": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Bunnik": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Bunschoten": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Eemnes": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Houten": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Leusden": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Lopik": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Montfoort": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Renswoude": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Rhenen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Soest": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Utrecht": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Veenendaal": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Woudenberg": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Wijk_bij_Duurstede": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-IJsselstein": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Zeist": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Nieuwegein": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Aalsmeer": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Alkmaar": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Amstelveen": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Amsterdam": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Beverwijk": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Blaricum": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Bloemendaal": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Castricum": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Diemen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Edam-Volendam": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Enkhuizen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Haarlem": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Haarlemmermeer": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Heemskerk": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Heemstede": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Heiloo": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Bergen_(NH)": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Den_Helder": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Hilversum": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Hoorn": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Huizen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Landsmeer": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Laren": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Medemblik": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Oostzaan": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Opmeer": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Ouder-Amstel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Purmerend": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Schagen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Texel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Uitgeest": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Uithoorn": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Velsen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Zandvoort": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Zaanstad": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Alblasserdam": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Alphen_aan_den_Rijn": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Barendrecht": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Drechterland": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Brielle": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Capelle_aan_den_IJssel": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Delft": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Dordrecht": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Gorinchem": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Gouda": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-s-Gravenhage": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Hardinxveld-Giessendam": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Hellevoetsluis": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Hendrik-Ido-Ambacht": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Stede_Broec": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Hillegom": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Katwijk": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Krimpen_aan_den_IJssel": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Leiden": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Leiderdorp": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Lisse": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Maassluis": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Nieuwkoop": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Noordwijk": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Oegstgeest": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Oudewater": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Papendrecht": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Ridderkerk": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Rotterdam": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Rijswijk": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Schiedam": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Sliedrecht": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Albrandswaard": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Westvoorne": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Vlaardingen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Voorschoten": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Waddinxveen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Wassenaar": {
+     "자유민주국민당 (VVD)": 1
+    },
+    "NL-Woerden": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Zoetermeer": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Zoeterwoude": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Zwijndrecht": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Borsele": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Goes": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-West_Maas_en_Waal": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Hulst": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Kapelle": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Middelburg": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Reimerswaal": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Terneuzen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Tholen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Veere": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Vlissingen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-De_Ronde_Venen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Tytsjerksteradiel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Asten": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Baarle-Nassau": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Bergen_op_Zoom": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Best": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Boekel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Boxtel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Breda": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Deurne": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Pekela": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Dongen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Eersel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Eindhoven": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Etten-Leur": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Geertruidenberg": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Gilze_en_Rijen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Goirle": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Helmond": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-s-Hertogenbosch": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Heusden": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Hilvarenbeek": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Loon_op_Zand": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Nuenen,_Gerwen_en_Nederwetten": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Oirschot": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Oisterwijk": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Oosterhout": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Oss": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Rucphen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Sint-Michielsgestel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Someren": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Son_en_Breugel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Steenbergen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Waterland": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Tilburg": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Valkenswaard": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Veldhoven": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Vught": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Waalre": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Waalwijk": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Woensdrecht": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Zundert": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Wormerland": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Landgraaf": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Beek": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Beesel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Bergen_(L)": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Brunssum": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Gennep": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Heerlen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Kerkrade": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Maastricht": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Meerssen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Mook_en_Middelaar": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Nederweert": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Roermond": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Simpelveld": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Stein": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Vaals": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Venlo": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Venray": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Voerendaal": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Weert": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Valkenburg_aan_de_Geul": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Lelystad": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Horst_aan_de_Maas": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Oude_IJsselstreek": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Teylingen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Utrechtse_Heuvelrug": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Oost_Gelre": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Koggenland": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Lansingerland": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Leudal": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Maasgouw": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Gemert-Bakel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Halderberge": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Heeze-Leende": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Laarbeek": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Reusel-De_Mierden": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Roerdalen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Roosendaal": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Schouwen-Duiveland": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Aa_en_Hunze": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Borger-Odoorn": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-De_Wolden": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Noord-Beveland": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Wijdemeren": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Noordenveld": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Twenterand": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Westerveld": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Lingewaard": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Cranendonck": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Steenwijkerland": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Moerdijk": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Echt-Susteren": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Sluis": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Drimmelen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Bernheze": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Alphen-Chaam": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Bergeijk": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Bladel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Gulpen-Wittem": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Tynaarlo": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Midden-Drenthe": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Overbetuwe": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Hof_van_Twente": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Neder-Betuwe": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Rijssen-Holten": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Geldrop-Mierlo": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Olst-Wijhe": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Dinkelland": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Westland": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Midden-Delfland": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Berkelland": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Bronckhorst": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Sittard-Geleen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Kaag_en_Braassem": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Dantumadiel": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Zuidplas": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Peel_en_Maas": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Oldambt": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Zwartewaterland": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Súdwest-Fryslân": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Bodegraven-Reeuwijk": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Eijsden-Margraten": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Stichtse_Vecht": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Hollands_Kroon": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Leidschendam-Voorburg": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Goeree-Overflakkee": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Pijnacker-Nootdorp": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Nissewaard": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Krimpenerwaard": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-De_Fryske_Marren": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Gooise_Meren": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Berg_en_Dal": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Meierijstad": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Waadhoeke": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Westerwolde": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Midden-Groningen": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Beekdaelen": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Montferland": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Altena": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-West_Betuwe": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Vijfheerenlanden": {
+     "개혁정치당 (SGP)": 1
+    },
+    "NL-Hoeksche_Waard": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Het_Hogeland": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Westerkwartier": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Noardeast-Fryslân": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Molenlanden": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Eemsdelta": {
+     "노동당 (PvdA)": 1
+    },
+    "NL-Dijk_en_Waard": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Land_van_Cuijk": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Maashorst": {
+     "기독민주당 (CDA)": 1
+    },
+    "NL-Hengelo_(O)": {
+     "노동당 (PvdA)": 1
+    }
+   }
+  }
+ ]
+}
