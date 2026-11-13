@@ -855,5 +855,6 @@
    }
   }
  ],
- "yearLink": true
+ "yearLink": true,
+ "partyVersion": 2
 }
