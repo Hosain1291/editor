@@ -9,7 +9,7 @@
  "yearLink": true,
  "svg": "../nl-gemeenten/map.svg",
  "width": 1000,
- "height": 1176.3,
+ "height": 1192.7,
  "regions": {
   "NL": "네덜란드",
   "CTX": "—"
@@ -27,7 +27,7 @@
     0,
     0,
     1000,
-    1176.3
+    1192.7
    ],
    "big": true
   }
