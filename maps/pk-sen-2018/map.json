@@ -7,9 +7,9 @@
  "menuGroup": "파키스탄 상원 선거",
  "cardName": "2018",
  "yearLink": true,
- "svg": "map.svg",
+ "svg": "../pk-sen-2003/map.svg",
  "width": 1000,
- "height": 796.5,
+ "height": 795.3,
  "regions": {
   "PK": "파키스탄",
   "CTX": "—"
@@ -27,7 +27,7 @@
     0,
     0,
     1000,
-    796.5
+    795.3
    ],
    "big": false
   }
