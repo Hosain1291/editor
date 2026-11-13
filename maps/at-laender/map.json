@@ -1,0 +1,91 @@
+{
+ "id": "at-laender",
+ "name": "오스트리아 연방주",
+ "subtitle": "9개 연방주 (1단계 행정구역) · 1위 정당 칠하기",
+ "tag": "ÖSTERREICH · BUNDESLÄNDER",
+ "menuCountry": "오스트리아",
+ "menuGroup": "오스트리아 행정구역",
+ "cardName": "연방주 (9개)",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 517.2,
+ "regions": {
+  "AT": "오스트리아"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "연방주",
+   "sub": "9개 주",
+   "regions": [
+    "AT"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    517.2
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "국민당 (ÖVP)",
+   "color": "#63c3d0"
+  },
+  {
+   "name": "사회민주당 (SPÖ)",
+   "color": "#e31e2d"
+  },
+  {
+   "name": "자유당 (FPÖ)",
+   "color": "#205ca5"
+  },
+  {
+   "name": "녹색당",
+   "color": "#88b626"
+  },
+  {
+   "name": "네오스 (NEOS)",
+   "color": "#e84188"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {},
+ "names": {
+  "at-vbg": "포어아를베르크",
+  "at-tir": "티롤",
+  "at-sbg": "잘츠부르크",
+  "at-ktn": "케른텐",
+  "at-ooe": "오버외스터라이히",
+  "at-noe": "니더외스터라이히",
+  "at-wien": "빈",
+  "at-bgld": "부르겐란트",
+  "at-stmk": "슈타이어마르크"
+ },
+ "labels": {
+  "at-vbg": "Vorarlberg",
+  "at-tir": "Tirol",
+  "at-sbg": "Salzburg",
+  "at-ktn": "Kärnten",
+  "at-ooe": "Oberösterreich",
+  "at-noe": "Niederösterreich",
+  "at-wien": "Wien",
+  "at-bgld": "Burgenland",
+  "at-stmk": "Steiermark"
+ },
+ "regionOf": {
+  "at-vbg": "AT",
+  "at-tir": "AT",
+  "at-sbg": "AT",
+  "at-ktn": "AT",
+  "at-ooe": "AT",
+  "at-noe": "AT",
+  "at-wien": "AT",
+  "at-bgld": "AT",
+  "at-stmk": "AT"
+ },
+ "labelName": true
+}

@@ -1,0 +1,277 @@
+{
+ "id": "at-nr-1959",
+ "name": "오스트리아 국민의회 선거",
+ "subtitle": "1959년 · 전체 165석 · 과반 83 · 25개 선거구 + 선거구연합 2차 배분",
+ "tag": "NATIONALRAT 1959",
+ "menuCountry": "오스트리아",
+ "menuGroup": "오스트리아 국민의회(나치오날라트) 선거",
+ "cardName": "1959",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 517.2,
+ "regions": {
+  "AT": "오스트리아",
+  "PR": "선거구연합 배분 (2차)"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1959년",
+   "sub": "165석",
+   "regions": [
+    "AT",
+    "PR"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    517.2
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "국민당 (ÖVP)",
+   "color": "#323232"
+  },
+  {
+   "name": "사회당 (SPÖ)",
+   "color": "#ce000c"
+  },
+  {
+   "name": "자유당 (FPÖ)",
+   "color": "#3264b4"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "at-noe4": 6,
+  "at-noe3": 6,
+  "at-noe1": 9,
+  "at-noe2": 10,
+  "at-ooe3": 5,
+  "at-ooe1": 2,
+  "at-ooe5": 7,
+  "at-ooe2": 3,
+  "at-stmk3": 4,
+  "at-stmk1": 6,
+  "at-stmk2": 5,
+  "at-vbg": 4,
+  "at-tir": 15,
+  "at-sbg": 7,
+  "at-ktn": 10,
+  "at-ooe4": 5,
+  "at-bgld": 6,
+  "at-stmk4": 8,
+  "at-wien2": 2,
+  "at-wien6": 6,
+  "at-wien5": 5,
+  "at-wien7": 6,
+  "at-wien3": 4,
+  "at-wien1": 4,
+  "at-wien4": 6,
+  "at-pr": 14
+ },
+ "names": {
+  "at-noe4": "니더외스터라이히 · Viertel unter dem Manhartsberg",
+  "at-noe3": "니더외스터라이히 · Viertel ober dem Manhartsberg",
+  "at-noe1": "니더외스터라이히 · Viertel ober dem Wienerwald",
+  "at-noe2": "니더외스터라이히 · Viertel unter dem Wienerwald",
+  "at-ooe3": "오버외스터라이히 · Hausruckviertel",
+  "at-ooe1": "오버외스터라이히 · Linz und Umgebung",
+  "at-ooe5": "오버외스터라이히 · Mühlviertel",
+  "at-ooe2": "오버외스터라이히 · Innviertel",
+  "at-stmk3": "슈타이어마르크 · Oststeier",
+  "at-stmk1": "슈타이어마르크 · Graz und Umgebung",
+  "at-stmk2": "슈타이어마르크 · Mittel- und Untersteier",
+  "at-vbg": "포어아를베르크 · Vorarlberg",
+  "at-tir": "티롤 · Tirol",
+  "at-sbg": "잘츠부르크 · Salzburg",
+  "at-ktn": "케른텐 · Kärnten",
+  "at-ooe4": "오버외스터라이히 · Traunviertel",
+  "at-bgld": "부르겐란트 · Burgenland",
+  "at-stmk4": "슈타이어마르크 · Obersteier",
+  "at-wien2": "빈 · Wien Innen-West",
+  "at-wien6": "빈 · Wien Südwest",
+  "at-wien5": "빈 · Wien Südost",
+  "at-wien7": "빈 · Wien West",
+  "at-wien3": "빈 · Wien Nordwest",
+  "at-wien1": "빈 · Wien Innen-Ost",
+  "at-wien4": "빈 · Wien Nordost",
+  "at-pr": "선거구연합 배분 (2차)"
+ },
+ "labels": {
+  "at-noe4": "Viertel unter dem Manhartsberg",
+  "at-noe3": "Viertel ober dem Manhartsberg",
+  "at-noe1": "Viertel ober dem Wienerwald",
+  "at-noe2": "Viertel unter dem Wienerwald",
+  "at-ooe3": "Hausruckviertel",
+  "at-ooe1": "Linz und Umgebung",
+  "at-ooe5": "Mühlviertel",
+  "at-ooe2": "Innviertel",
+  "at-stmk3": "Oststeier",
+  "at-stmk1": "Graz und Umgebung",
+  "at-stmk2": "Mittel- und Untersteier",
+  "at-vbg": "Vorarlberg",
+  "at-tir": "Tirol",
+  "at-sbg": "Salzburg",
+  "at-ktn": "Kärnten",
+  "at-ooe4": "Traunviertel",
+  "at-bgld": "Burgenland",
+  "at-stmk4": "Obersteier",
+  "at-wien2": "Wien Innen-West",
+  "at-wien6": "Wien Südwest",
+  "at-wien5": "Wien Südost",
+  "at-wien7": "Wien West",
+  "at-wien3": "Wien Nordwest",
+  "at-wien1": "Wien Innen-Ost",
+  "at-wien4": "Wien Nordost",
+  "at-pr": "선거구연합 배분 (2차)"
+ },
+ "regionOf": {
+  "at-noe4": "AT",
+  "at-noe3": "AT",
+  "at-noe1": "AT",
+  "at-noe2": "AT",
+  "at-ooe3": "AT",
+  "at-ooe1": "AT",
+  "at-ooe5": "AT",
+  "at-ooe2": "AT",
+  "at-stmk3": "AT",
+  "at-stmk1": "AT",
+  "at-stmk2": "AT",
+  "at-vbg": "AT",
+  "at-tir": "AT",
+  "at-sbg": "AT",
+  "at-ktn": "AT",
+  "at-ooe4": "AT",
+  "at-bgld": "AT",
+  "at-stmk4": "AT",
+  "at-wien2": "AT",
+  "at-wien6": "AT",
+  "at-wien5": "AT",
+  "at-wien7": "AT",
+  "at-wien3": "AT",
+  "at-wien1": "AT",
+  "at-wien4": "AT",
+  "at-pr": "PR"
+ },
+ "labelName": true,
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "at-tir": {
+     "국민당 (ÖVP)": 6,
+     "사회당 (SPÖ)": 3,
+     "자유당 (FPÖ)": 6
+    },
+    "at-bgld": {
+     "국민당 (ÖVP)": 3,
+     "사회당 (SPÖ)": 3
+    },
+    "at-wien2": {
+     "사회당 (SPÖ)": 1,
+     "국민당 (ÖVP)": 1
+    },
+    "at-noe2": {
+     "사회당 (SPÖ)": 6,
+     "국민당 (ÖVP)": 4
+    },
+    "at-noe3": {
+     "국민당 (ÖVP)": 4,
+     "사회당 (SPÖ)": 2
+    },
+    "at-ooe5": {
+     "사회당 (SPÖ)": 4,
+     "국민당 (ÖVP)": 3
+    },
+    "at-ooe1": {
+     "국민당 (ÖVP)": 2
+    },
+    "at-ooe2": {
+     "국민당 (ÖVP)": 2,
+     "사회당 (SPÖ)": 1
+    },
+    "at-vbg": {
+     "국민당 (ÖVP)": 3,
+     "사회당 (SPÖ)": 1
+    },
+    "at-stmk1": {
+     "사회당 (SPÖ)": 3,
+     "국민당 (ÖVP)": 3
+    },
+    "at-stmk4": {
+     "국민당 (ÖVP)": 3,
+     "사회당 (SPÖ)": 5
+    },
+    "at-stmk2": {
+     "국민당 (ÖVP)": 3,
+     "사회당 (SPÖ)": 2
+    },
+    "at-wien4": {
+     "사회당 (SPÖ)": 4,
+     "국민당 (ÖVP)": 2
+    },
+    "at-wien6": {
+     "사회당 (SPÖ)": 4,
+     "국민당 (ÖVP)": 2
+    },
+    "at-ooe3": {
+     "사회당 (SPÖ)": 2,
+     "국민당 (ÖVP)": 3
+    },
+    "at-wien3": {
+     "국민당 (ÖVP)": 2,
+     "사회당 (SPÖ)": 2
+    },
+    "at-wien5": {
+     "국민당 (ÖVP)": 1,
+     "사회당 (SPÖ)": 4
+    },
+    "at-wien7": {
+     "사회당 (SPÖ)": 4,
+     "국민당 (ÖVP)": 2
+    },
+    "at-noe4": {
+     "국민당 (ÖVP)": 4,
+     "사회당 (SPÖ)": 2
+    },
+    "at-wien1": {
+     "국민당 (ÖVP)": 2,
+     "사회당 (SPÖ)": 2
+    },
+    "at-noe1": {
+     "사회당 (SPÖ)": 4,
+     "국민당 (ÖVP)": 5
+    },
+    "at-ooe4": {
+     "국민당 (ÖVP)": 2,
+     "사회당 (SPÖ)": 3
+    },
+    "at-sbg": {
+     "사회당 (SPÖ)": 3,
+     "자유당 (FPÖ)": 1,
+     "국민당 (ÖVP)": 3
+    },
+    "at-ktn": {
+     "사회당 (SPÖ)": 6,
+     "국민당 (ÖVP)": 3,
+     "자유당 (FPÖ)": 1
+    },
+    "at-pr": {
+     "사회당 (SPÖ)": 6,
+     "국민당 (ÖVP)": 8
+    },
+    "at-stmk3": {
+     "국민당 (ÖVP)": 3,
+     "사회당 (SPÖ)": 1
+    }
+   }
+  }
+ ]
+}

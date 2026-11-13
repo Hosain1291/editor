@@ -1,0 +1,371 @@
+{
+ "id": "at-nr-2019",
+ "name": "오스트리아 국민의회 선거",
+ "subtitle": "2019년 · 전체 183석 · 과반 92 · 39개 지역선거구 직접 의석 + 주·연방 배분",
+ "tag": "NATIONALRAT 2019",
+ "menuCountry": "오스트리아",
+ "menuGroup": "오스트리아 국민의회(나치오날라트) 선거",
+ "cardName": "2019",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 516.9,
+ "regions": {
+  "AT": "오스트리아",
+  "PR": "주·연방 배분"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2019년",
+   "sub": "183석",
+   "regions": [
+    "AT",
+    "PR"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    516.9
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "국민당 (ÖVP)",
+   "color": "#69c3cf"
+  },
+  {
+   "name": "사회민주당 (SPÖ)",
+   "color": "#e01f29"
+  },
+  {
+   "name": "자유당 (FPÖ)",
+   "color": "#205ca5"
+  },
+  {
+   "name": "녹색당",
+   "color": "#53a62f"
+  },
+  {
+   "name": "네오스 (NEOS)",
+   "color": "#e84188"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "at-1A": 2,
+  "at-1B": 1,
+  "at-2A": 1,
+  "at-2B": 0,
+  "at-2C": 1,
+  "at-2D": 1,
+  "at-3A": 2,
+  "at-3B": 2,
+  "at-3C": 3,
+  "at-3D": 4,
+  "at-3E": 1,
+  "at-3F": 3,
+  "at-3G": 2,
+  "at-4A": 3,
+  "at-4B": 3,
+  "at-4C": 5,
+  "at-4D": 3,
+  "at-4E": 5,
+  "at-5A": 0,
+  "at-5B": 2,
+  "at-5C": 2,
+  "at-6A": 5,
+  "at-6B": 4,
+  "at-6C": 1,
+  "at-6D": 4,
+  "at-7A": 0,
+  "at-7B": 2,
+  "at-7C": 1,
+  "at-7D": 1,
+  "at-7E": 0,
+  "at-8A": 1,
+  "at-8B": 1,
+  "at-9A": 0,
+  "at-9B": 0,
+  "at-9C": 0,
+  "at-9D": 4,
+  "at-9E": 3,
+  "at-9F": 3,
+  "at-9G": 3,
+  "at-pr": 104
+ },
+ "names": {
+  "at-1A": "부르겐란트 · 1A Burgenland Nord",
+  "at-1B": "부르겐란트 · 1B Burgenland Süd",
+  "at-2A": "케른텐 · 2A Klagenfurt",
+  "at-2B": "케른텐 · 2B Villach",
+  "at-2C": "케른텐 · 2C Kärnten West",
+  "at-2D": "케른텐 · 2D Kärnten Ost",
+  "at-3A": "니더외스터라이히 · 3A Weinviertel",
+  "at-3B": "니더외스터라이히 · 3B Waldviertel",
+  "at-3C": "니더외스터라이히 · 3C Mostviertel",
+  "at-3D": "니더외스터라이히 · 3D Niederösterreich Mitte",
+  "at-3E": "니더외스터라이히 · 3E Niederösterreich Süd",
+  "at-3F": "니더외스터라이히 · 3F Thermenregion",
+  "at-3G": "니더외스터라이히 · 3G Niederösterreich Ost",
+  "at-4A": "오버외스터라이히 · 4A Linz und Umgebung",
+  "at-4B": "오버외스터라이히 · 4B Innviertel",
+  "at-4C": "오버외스터라이히 · 4C Hausruckviertel",
+  "at-4D": "오버외스터라이히 · 4D Traunviertel",
+  "at-4E": "오버외스터라이히 · 4E Mühlviertel",
+  "at-5A": "잘츠부르크 · 5A Salzburg Stadt",
+  "at-5B": "잘츠부르크 · 5B Flachgau/Tennengau",
+  "at-5C": "잘츠부르크 · 5C Lungau/Pinzgau/Pongau",
+  "at-6A": "슈타이어마르크 · 6A Graz und Umgebung",
+  "at-6B": "슈타이어마르크 · 6B Oststeiermark",
+  "at-6C": "슈타이어마르크 · 6C Weststeiermark",
+  "at-6D": "슈타이어마르크 · 6D Obersteiermark",
+  "at-7A": "티롤 · 7A Innsbruck",
+  "at-7B": "티롤 · 7B Innsbruck-Land",
+  "at-7C": "티롤 · 7C Unterland",
+  "at-7D": "티롤 · 7D Oberland",
+  "at-7E": "티롤 · 7E Osttirol",
+  "at-8A": "포어아를베르크 · 8A Vorarlberg Nord",
+  "at-8B": "포어아를베르크 · 8B Vorarlberg Süd",
+  "at-9A": "빈 · 9A Wien Innen-Süd",
+  "at-9B": "빈 · 9B Wien Innen-West",
+  "at-9C": "빈 · 9C Wien Innen-Ost",
+  "at-9D": "빈 · 9D Wien Süd",
+  "at-9E": "빈 · 9E Wien Süd-West",
+  "at-9F": "빈 · 9F Wien Nord-West",
+  "at-9G": "빈 · 9G Wien Nord",
+  "at-pr": "주·연방 배분 (2·3차)"
+ },
+ "labels": {
+  "at-1A": "Burgenland Nord",
+  "at-1B": "Burgenland Süd",
+  "at-2A": "Klagenfurt",
+  "at-2B": "Villach",
+  "at-2C": "Kärnten West",
+  "at-2D": "Kärnten Ost",
+  "at-3A": "Weinviertel",
+  "at-3B": "Waldviertel",
+  "at-3C": "Mostviertel",
+  "at-3D": "Niederösterreich Mitte",
+  "at-3E": "Niederösterreich Süd",
+  "at-3F": "Thermenregion",
+  "at-3G": "Niederösterreich Ost",
+  "at-4A": "Linz und Umgebung",
+  "at-4B": "Innviertel",
+  "at-4C": "Hausruckviertel",
+  "at-4D": "Traunviertel",
+  "at-4E": "Mühlviertel",
+  "at-5A": "Salzburg Stadt",
+  "at-5B": "Flachgau/Tennengau",
+  "at-5C": "Lungau/Pinzgau/Pongau",
+  "at-6A": "Graz und Umgebung",
+  "at-6B": "Oststeiermark",
+  "at-6C": "Weststeiermark",
+  "at-6D": "Obersteiermark",
+  "at-7A": "Innsbruck",
+  "at-7B": "Innsbruck-Land",
+  "at-7C": "Unterland",
+  "at-7D": "Oberland",
+  "at-7E": "Osttirol",
+  "at-8A": "Vorarlberg Nord",
+  "at-8B": "Vorarlberg Süd",
+  "at-9A": "Wien Innen-Süd",
+  "at-9B": "Wien Innen-West",
+  "at-9C": "Wien Innen-Ost",
+  "at-9D": "Wien Süd",
+  "at-9E": "Wien Süd-West",
+  "at-9F": "Wien Nord-West",
+  "at-9G": "Wien Nord",
+  "at-pr": "주·연방 배분"
+ },
+ "regionOf": {
+  "at-1A": "AT",
+  "at-1B": "AT",
+  "at-2A": "AT",
+  "at-2B": "AT",
+  "at-2C": "AT",
+  "at-2D": "AT",
+  "at-3A": "AT",
+  "at-3B": "AT",
+  "at-3C": "AT",
+  "at-3D": "AT",
+  "at-3E": "AT",
+  "at-3F": "AT",
+  "at-3G": "AT",
+  "at-4A": "AT",
+  "at-4B": "AT",
+  "at-4C": "AT",
+  "at-4D": "AT",
+  "at-4E": "AT",
+  "at-5A": "AT",
+  "at-5B": "AT",
+  "at-5C": "AT",
+  "at-6A": "AT",
+  "at-6B": "AT",
+  "at-6C": "AT",
+  "at-6D": "AT",
+  "at-7A": "AT",
+  "at-7B": "AT",
+  "at-7C": "AT",
+  "at-7D": "AT",
+  "at-7E": "AT",
+  "at-8A": "AT",
+  "at-8B": "AT",
+  "at-9A": "AT",
+  "at-9B": "AT",
+  "at-9C": "AT",
+  "at-9D": "AT",
+  "at-9E": "AT",
+  "at-9F": "AT",
+  "at-9G": "AT",
+  "at-pr": "PR"
+ },
+ "labelName": true,
+ "seatNotes": {
+  "at-pr": "지역선거구에서 다 채우지 못한 의석을 주(2차)·연방(3차) 단위로 나눈 몫이에요."
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "at-8B": {
+     "국민당 (ÖVP)": 1
+    },
+    "at-9G": {
+     "국민당 (ÖVP)": 1,
+     "사회민주당 (SPÖ)": 1,
+     "자유당 (FPÖ)": 1
+    },
+    "at-8A": {
+     "국민당 (ÖVP)": 1
+    },
+    "at-9F": {
+     "국민당 (ÖVP)": 1,
+     "사회민주당 (SPÖ)": 1,
+     "녹색당": 1
+    },
+    "at-7C": {
+     "국민당 (ÖVP)": 1
+    },
+    "at-7D": {
+     "국민당 (ÖVP)": 1
+    },
+    "at-3D": {
+     "국민당 (ÖVP)": 2,
+     "사회민주당 (SPÖ)": 1,
+     "자유당 (FPÖ)": 1
+    },
+    "at-3C": {
+     "국민당 (ÖVP)": 2,
+     "사회민주당 (SPÖ)": 1
+    },
+    "at-7B": {
+     "국민당 (ÖVP)": 2
+    },
+    "at-1A": {
+     "국민당 (ÖVP)": 1,
+     "사회민주당 (SPÖ)": 1
+    },
+    "at-1B": {
+     "국민당 (ÖVP)": 1
+    },
+    "at-6A": {
+     "국민당 (ÖVP)": 2,
+     "사회민주당 (SPÖ)": 1,
+     "자유당 (FPÖ)": 1,
+     "녹색당": 1
+    },
+    "at-4C": {
+     "국민당 (ÖVP)": 2,
+     "사회민주당 (SPÖ)": 1,
+     "자유당 (FPÖ)": 1,
+     "녹색당": 1
+    },
+    "at-9D": {
+     "국민당 (ÖVP)": 1,
+     "사회민주당 (SPÖ)": 2,
+     "자유당 (FPÖ)": 1
+    },
+    "at-4D": {
+     "국민당 (ÖVP)": 2,
+     "사회민주당 (SPÖ)": 1
+    },
+    "at-3B": {
+     "국민당 (ÖVP)": 2
+    },
+    "at-5B": {
+     "국민당 (ÖVP)": 2
+    },
+    "at-6D": {
+     "국민당 (ÖVP)": 2,
+     "사회민주당 (SPÖ)": 1,
+     "자유당 (FPÖ)": 1
+    },
+    "at-4E": {
+     "국민당 (ÖVP)": 2,
+     "사회민주당 (SPÖ)": 1,
+     "자유당 (FPÖ)": 1,
+     "녹색당": 1
+    },
+    "at-3A": {
+     "국민당 (ÖVP)": 2
+    },
+    "at-2D": {
+     "국민당 (ÖVP)": 1
+    },
+    "at-4A": {
+     "국민당 (ÖVP)": 1,
+     "사회민주당 (SPÖ)": 1,
+     "자유당 (FPÖ)": 1
+    },
+    "at-9E": {
+     "국민당 (ÖVP)": 1,
+     "사회민주당 (SPÖ)": 1,
+     "녹색당": 1
+    },
+    "at-3E": {
+     "국민당 (ÖVP)": 1
+    },
+    "at-3G": {
+     "국민당 (ÖVP)": 1,
+     "사회민주당 (SPÖ)": 1
+    },
+    "at-2A": {
+     "국민당 (ÖVP)": 1
+    },
+    "at-6B": {
+     "국민당 (ÖVP)": 3,
+     "자유당 (FPÖ)": 1
+    },
+    "at-3F": {
+     "국민당 (ÖVP)": 2,
+     "사회민주당 (SPÖ)": 1
+    },
+    "at-5C": {
+     "국민당 (ÖVP)": 2
+    },
+    "at-4B": {
+     "국민당 (ÖVP)": 2,
+     "자유당 (FPÖ)": 1
+    },
+    "at-6C": {
+     "국민당 (ÖVP)": 1
+    },
+    "at-2C": {
+     "국민당 (ÖVP)": 1
+    },
+    "at-pr": {
+     "국민당 (ÖVP)": 23,
+     "사회민주당 (SPÖ)": 24,
+     "자유당 (FPÖ)": 21,
+     "녹색당": 21,
+     "네오스 (NEOS)": 15
+    }
+   }
+  }
+ ]
+}

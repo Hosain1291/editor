@@ -1,0 +1,189 @@
+{
+ "id": "at-nr-2013",
+ "name": "오스트리아 국민의회 선거",
+ "subtitle": "2013년 · 전체 183석 · 과반 92 · 9개 주 선거구 + 주·연방 배분 (주 칸에 지역구·주 의석 합산)",
+ "tag": "NATIONALRAT 2013",
+ "menuCountry": "오스트리아",
+ "menuGroup": "오스트리아 국민의회(나치오날라트) 선거",
+ "cardName": "2013",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 517.2,
+ "regions": {
+  "AT": "오스트리아",
+  "PR": "연방 배분 (3차)"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2013년",
+   "sub": "183석",
+   "regions": [
+    "AT",
+    "PR"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    517.2
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "사회민주당 (SPÖ)",
+   "color": "#ce000c"
+  },
+  {
+   "name": "국민당 (ÖVP)",
+   "color": "#323232"
+  },
+  {
+   "name": "자유당 (FPÖ)",
+   "color": "#3264b4"
+  },
+  {
+   "name": "녹색당",
+   "color": "#88b626"
+  },
+  {
+   "name": "팀 슈트로나흐",
+   "color": "#ffcc00"
+  },
+  {
+   "name": "네오스 (NEOS)",
+   "color": "#e84188"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "at-vbg": 6,
+  "at-tir": 19,
+  "at-sbg": 7,
+  "at-ktn": 8,
+  "at-ooe": 27,
+  "at-noe": 32,
+  "at-wien": 28,
+  "at-bgld": 4,
+  "at-stmk": 22,
+  "at-pr": 30
+ },
+ "names": {
+  "at-vbg": "포어아를베르크",
+  "at-tir": "티롤",
+  "at-sbg": "잘츠부르크",
+  "at-ktn": "케른텐",
+  "at-ooe": "오버외스터라이히",
+  "at-noe": "니더외스터라이히",
+  "at-wien": "빈",
+  "at-bgld": "부르겐란트",
+  "at-stmk": "슈타이어마르크",
+  "at-pr": "연방 배분 (3차)"
+ },
+ "labels": {
+  "at-vbg": "Vorarlberg",
+  "at-tir": "Tirol",
+  "at-sbg": "Salzburg",
+  "at-ktn": "Kärnten",
+  "at-ooe": "Oberösterreich",
+  "at-noe": "Niederösterreich",
+  "at-wien": "Wien",
+  "at-bgld": "Burgenland",
+  "at-stmk": "Steiermark",
+  "at-pr": "연방 배분 (3차)"
+ },
+ "regionOf": {
+  "at-vbg": "AT",
+  "at-tir": "AT",
+  "at-sbg": "AT",
+  "at-ktn": "AT",
+  "at-ooe": "AT",
+  "at-noe": "AT",
+  "at-wien": "AT",
+  "at-bgld": "AT",
+  "at-stmk": "AT",
+  "at-pr": "PR"
+ },
+ "labelName": true,
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "at-sbg": {
+     "국민당 (ÖVP)": 2,
+     "사회민주당 (SPÖ)": 2,
+     "자유당 (FPÖ)": 2,
+     "녹색당": 1
+    },
+    "at-stmk": {
+     "자유당 (FPÖ)": 6,
+     "사회민주당 (SPÖ)": 6,
+     "국민당 (ÖVP)": 5,
+     "녹색당": 2,
+     "팀 슈트로나흐": 2,
+     "네오스 (NEOS)": 1
+    },
+    "at-ooe": {
+     "사회민주당 (SPÖ)": 8,
+     "국민당 (ÖVP)": 8,
+     "자유당 (FPÖ)": 6,
+     "녹색당": 3,
+     "팀 슈트로나흐": 1,
+     "네오스 (NEOS)": 1
+    },
+    "at-noe": {
+     "국민당 (ÖVP)": 11,
+     "사회민주당 (SPÖ)": 10,
+     "자유당 (FPÖ)": 6,
+     "녹색당": 3,
+     "팀 슈트로나흐": 1,
+     "네오스 (NEOS)": 1
+    },
+    "at-bgld": {
+     "자유당 (FPÖ)": 1,
+     "국민당 (ÖVP)": 1,
+     "사회민주당 (SPÖ)": 2
+    },
+    "at-wien": {
+     "사회민주당 (SPÖ)": 10,
+     "자유당 (FPÖ)": 6,
+     "녹색당": 5,
+     "국민당 (ÖVP)": 4,
+     "네오스 (NEOS)": 2,
+     "팀 슈트로나흐": 1
+    },
+    "at-vbg": {
+     "국민당 (ÖVP)": 2,
+     "자유당 (FPÖ)": 1,
+     "녹색당": 1,
+     "사회민주당 (SPÖ)": 1,
+     "네오스 (NEOS)": 1
+    },
+    "at-tir": {
+     "국민당 (ÖVP)": 4,
+     "자유당 (FPÖ)": 2,
+     "사회민주당 (SPÖ)": 2,
+     "녹색당": 2,
+     "팀 슈트로나흐": 6,
+     "네오스 (NEOS)": 3
+    },
+    "at-ktn": {
+     "사회민주당 (SPÖ)": 4,
+     "자유당 (FPÖ)": 2,
+     "국민당 (ÖVP)": 1,
+     "녹색당": 1
+    },
+    "at-pr": {
+     "사회민주당 (SPÖ)": 7,
+     "국민당 (ÖVP)": 10,
+     "자유당 (FPÖ)": 8,
+     "녹색당": 5
+    }
+   }
+  }
+ ]
+}

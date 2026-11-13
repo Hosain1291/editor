@@ -1,0 +1,164 @@
+{
+ "id": "at-nr-1986",
+ "name": "오스트리아 국민의회 선거",
+ "subtitle": "1986년 · 전체 183석 · 과반 92 · 9개 주 선거구 + 선거구연합 2차 배분",
+ "tag": "NATIONALRAT 1986",
+ "menuCountry": "오스트리아",
+ "menuGroup": "오스트리아 국민의회(나치오날라트) 선거",
+ "cardName": "1986",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 517.2,
+ "regions": {
+  "AT": "오스트리아",
+  "PR": "선거구연합 배분 (2차)"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1986년",
+   "sub": "183석",
+   "regions": [
+    "AT",
+    "PR"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    517.2
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "사회당 (SPÖ)",
+   "color": "#ce000c"
+  },
+  {
+   "name": "국민당 (ÖVP)",
+   "color": "#323232"
+  },
+  {
+   "name": "자유당 (FPÖ)",
+   "color": "#3264b4"
+  },
+  {
+   "name": "녹색당",
+   "color": "#89b721"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "at-vbg": 4,
+  "at-tir": 12,
+  "at-sbg": 9,
+  "at-ktn": 11,
+  "at-ooe": 29,
+  "at-noe": 33,
+  "at-wien": 33,
+  "at-bgld": 5,
+  "at-stmk": 26,
+  "at-pr": 21
+ },
+ "names": {
+  "at-vbg": "포어아를베르크",
+  "at-tir": "티롤",
+  "at-sbg": "잘츠부르크",
+  "at-ktn": "케른텐",
+  "at-ooe": "오버외스터라이히",
+  "at-noe": "니더외스터라이히",
+  "at-wien": "빈",
+  "at-bgld": "부르겐란트",
+  "at-stmk": "슈타이어마르크",
+  "at-pr": "선거구연합 배분 (2차)"
+ },
+ "labels": {
+  "at-vbg": "Vorarlberg",
+  "at-tir": "Tirol",
+  "at-sbg": "Salzburg",
+  "at-ktn": "Kärnten",
+  "at-ooe": "Oberösterreich",
+  "at-noe": "Niederösterreich",
+  "at-wien": "Wien",
+  "at-bgld": "Burgenland",
+  "at-stmk": "Steiermark",
+  "at-pr": "선거구연합 배분 (2차)"
+ },
+ "regionOf": {
+  "at-vbg": "AT",
+  "at-tir": "AT",
+  "at-sbg": "AT",
+  "at-ktn": "AT",
+  "at-ooe": "AT",
+  "at-noe": "AT",
+  "at-wien": "AT",
+  "at-bgld": "AT",
+  "at-stmk": "AT",
+  "at-pr": "PR"
+ },
+ "labelName": true,
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "at-bgld": {
+     "사회당 (SPÖ)": 3,
+     "국민당 (ÖVP)": 2
+    },
+    "at-noe": {
+     "국민당 (ÖVP)": 16,
+     "사회당 (SPÖ)": 14,
+     "자유당 (FPÖ)": 2,
+     "녹색당": 1
+    },
+    "at-ooe": {
+     "사회당 (SPÖ)": 13,
+     "국민당 (ÖVP)": 12,
+     "자유당 (FPÖ)": 3,
+     "녹색당": 1
+    },
+    "at-ktn": {
+     "국민당 (ÖVP)": 3,
+     "자유당 (FPÖ)": 2,
+     "사회당 (SPÖ)": 6
+    },
+    "at-stmk": {
+     "사회당 (SPÖ)": 12,
+     "국민당 (ÖVP)": 11,
+     "자유당 (FPÖ)": 2,
+     "녹색당": 1
+    },
+    "at-sbg": {
+     "국민당 (ÖVP)": 4,
+     "사회당 (SPÖ)": 4,
+     "자유당 (FPÖ)": 1
+    },
+    "at-tir": {
+     "국민당 (ÖVP)": 7,
+     "사회당 (SPÖ)": 4,
+     "자유당 (FPÖ)": 1
+    },
+    "at-wien": {
+     "사회당 (SPÖ)": 18,
+     "국민당 (ÖVP)": 11,
+     "녹색당": 2,
+     "자유당 (FPÖ)": 2
+    },
+    "at-vbg": {
+     "국민당 (ÖVP)": 3,
+     "사회당 (SPÖ)": 1
+    },
+    "at-pr": {
+     "사회당 (SPÖ)": 5,
+     "국민당 (ÖVP)": 8,
+     "자유당 (FPÖ)": 5,
+     "녹색당": 3
+    }
+   }
+  }
+ ]
+}
