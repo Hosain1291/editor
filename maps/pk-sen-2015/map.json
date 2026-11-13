@@ -1,0 +1,158 @@
+{
+ "id": "pk-sen-2015",
+ "name": "파키스탄 상원 선거",
+ "subtitle": "2015년 · 이번에 뽑은 52석 (주별로 묶어 표시)",
+ "tag": "SENATE 2015",
+ "menuCountry": "파키스탄",
+ "menuGroup": "파키스탄 상원 선거",
+ "cardName": "2015",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 760.4,
+ "regions": {
+  "PK": "파키스탄",
+  "CTX": "—"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2015년",
+   "sub": "52석",
+   "regions": [
+    "PK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    760.4
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "파키스탄 무슬림연맹 (N)",
+   "color": "#228b22"
+  },
+  {
+   "name": "파키스탄 인민당 (PPP)",
+   "color": "#000000"
+  },
+  {
+   "name": "파키스탄 정의운동 (PTI)",
+   "color": "#e70a0a"
+  },
+  {
+   "name": "무소속",
+   "color": "#b3b3b3"
+  },
+  {
+   "name": "무타히다 카우미 운동 (MQM)",
+   "color": "#ffcc00"
+  },
+  {
+   "name": "파슈툰크와 밀리 아와미당 (PkMAP)",
+   "color": "#ff4500"
+  },
+  {
+   "name": "국민당 (NP)",
+   "color": "#cd5c5c"
+  },
+  {
+   "name": "아와미 민족당 (ANP)",
+   "color": "#782121"
+  },
+  {
+   "name": "자미아트 울레마-에-이슬람 (F)",
+   "color": "#003800"
+  },
+  {
+   "name": "자마아트-에-이슬라미",
+   "color": "#0095cb"
+  },
+  {
+   "name": "발루치스탄 민족당 (M)",
+   "color": "#ffff00"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "pk-punjab": 11,
+  "pk-sindh": 11,
+  "pk-kp": 12,
+  "pk-balochistan": 12,
+  "pk-fata": 4,
+  "pk-ict": 2,
+  "pk-gb": 0,
+  "pk-ajk": 0
+ },
+ "names": {
+  "pk-punjab": "펀자브",
+  "pk-sindh": "신드",
+  "pk-kp": "카이버파크툰크와",
+  "pk-balochistan": "발루치스탄",
+  "pk-fata": "연방직할부족지역 (FATA)",
+  "pk-ict": "이슬라마바드 수도구역",
+  "pk-gb": "길기트발티스탄",
+  "pk-ajk": "아자드 카슈미르"
+ },
+ "labels": {
+  "pk-punjab": "Punjab",
+  "pk-sindh": "Sindh",
+  "pk-kp": "Khyber Pakhtunkhwa",
+  "pk-balochistan": "Balochistan",
+  "pk-fata": "FATA",
+  "pk-ict": "Islamabad",
+  "pk-gb": "Gilgit-Baltistan",
+  "pk-ajk": "Azad Kashmir"
+ },
+ "regionOf": {
+  "pk-punjab": "PK",
+  "pk-sindh": "PK",
+  "pk-kp": "PK",
+  "pk-balochistan": "PK",
+  "pk-fata": "PK",
+  "pk-ict": "PK",
+  "pk-gb": "CTX",
+  "pk-ajk": "CTX"
+ },
+ "labelName": true,
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "pk-sindh": {
+     "파키스탄 인민당 (PPP)": 7,
+     "무타히다 카우미 운동 (MQM)": 4
+    },
+    "pk-ict": {
+     "파키스탄 무슬림연맹 (N)": 2
+    },
+    "pk-punjab": {
+     "파키스탄 무슬림연맹 (N)": 11
+    },
+    "pk-kp": {
+     "파키스탄 정의운동 (PTI)": 6,
+     "파키스탄 무슬림연맹 (N)": 2,
+     "아와미 민족당 (ANP)": 2,
+     "자미아트 울레마-에-이슬람 (F)": 1,
+     "자마아트-에-이슬라미": 1
+    },
+    "pk-fata": {
+     "무소속": 4
+    },
+    "pk-balochistan": {
+     "파슈툰크와 밀리 아와미당 (PkMAP)": 3,
+     "국민당 (NP)": 3,
+     "파키스탄 무슬림연맹 (N)": 3,
+     "자미아트 울레마-에-이슬람 (F)": 1,
+     "발루치스탄 민족당 (M)": 1,
+     "무소속": 1
+    }
+   }
+  }
+ ]
+}

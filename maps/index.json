@@ -1627,6 +1627,54 @@
   {
    "id": "at-laender",
    "folder": "at-laender"
+  },
+  {
+   "id": "pk-sen-2003",
+   "folder": "pk-sen-2003"
+  },
+  {
+   "id": "pk-sen-2006",
+   "folder": "pk-sen-2006"
+  },
+  {
+   "id": "pk-sen-2012",
+   "folder": "pk-sen-2012"
+  },
+  {
+   "id": "pk-sen-2015",
+   "folder": "pk-sen-2015"
+  },
+  {
+   "id": "pk-sen-2018",
+   "folder": "pk-sen-2018"
+  },
+  {
+   "id": "pk-sen-2021",
+   "folder": "pk-sen-2021"
+  },
+  {
+   "id": "pk-sen-2024",
+   "folder": "pk-sen-2024"
+  },
+  {
+   "id": "pk-provinces",
+   "folder": "pk-provinces"
+  },
+  {
+   "id": "pk-na-2008",
+   "folder": "pk-na-2008"
+  },
+  {
+   "id": "pk-na-2013",
+   "folder": "pk-na-2013"
+  },
+  {
+   "id": "pk-na-2018",
+   "folder": "pk-na-2018"
+  },
+  {
+   "id": "pk-na-2024",
+   "folder": "pk-na-2024"
   }
  ]
 }

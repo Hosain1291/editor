@@ -1,0 +1,186 @@
+{
+ "id": "pk-sen-2003",
+ "name": "파키스탄 상원 선거",
+ "subtitle": "2003년 · 이번에 뽑은 100석 (주별로 묶어 표시)",
+ "tag": "SENATE 2003",
+ "menuCountry": "파키스탄",
+ "menuGroup": "파키스탄 상원 선거",
+ "cardName": "2003",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 795.3,
+ "regions": {
+  "PK": "파키스탄",
+  "CTX": "—"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2003년",
+   "sub": "100석",
+   "regions": [
+    "PK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    795.3
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "파키스탄 무슬림연맹 (Q)",
+   "color": "#00ff00"
+  },
+  {
+   "name": "무타히다 마즐리스-에-아말 (MMA)",
+   "color": "#003800"
+  },
+  {
+   "name": "파키스탄 인민당 (PPP)",
+   "color": "#000000"
+  },
+  {
+   "name": "무소속",
+   "color": "#b3b3b3"
+  },
+  {
+   "name": "무타히다 카우미 운동 (MQM)",
+   "color": "#ffcc00"
+  },
+  {
+   "name": "파키스탄 무슬림연맹 (N)",
+   "color": "#008000"
+  },
+  {
+   "name": "국민연합 (NA)",
+   "color": "#5fbcd3"
+  },
+  {
+   "name": "파슈툰크와 밀리 아와미당 (PkMAP)",
+   "color": "#ff4500"
+  },
+  {
+   "name": "아와미 민족당 (ANP)",
+   "color": "#782121"
+  },
+  {
+   "name": "파키스탄 무슬림연맹 (F)",
+   "color": "#8fac5d"
+  },
+  {
+   "name": "발루치스탄 민족운동 (BNM)",
+   "color": "#cd5c5c"
+  },
+  {
+   "name": "발루치스탄 민족당 (BNP)",
+   "color": "#ffff00"
+  },
+  {
+   "name": "발루치스탄 민족당 (A)",
+   "color": "#008080"
+  },
+  {
+   "name": "잠후리 와탄당",
+   "color": "#ff8080"
+  },
+  {
+   "name": "파키스탄 인민당 (셰르파오)",
+   "color": "#800080"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "pk-punjab": 22,
+  "pk-sindh": 22,
+  "pk-kp": 22,
+  "pk-balochistan": 22,
+  "pk-fata": 8,
+  "pk-ict": 4,
+  "pk-gb": 0,
+  "pk-ajk": 0
+ },
+ "names": {
+  "pk-punjab": "펀자브",
+  "pk-sindh": "신드",
+  "pk-kp": "카이버파크툰크와",
+  "pk-balochistan": "발루치스탄",
+  "pk-fata": "연방직할부족지역 (FATA)",
+  "pk-ict": "이슬라마바드 수도구역",
+  "pk-gb": "길기트발티스탄",
+  "pk-ajk": "아자드 카슈미르"
+ },
+ "labels": {
+  "pk-punjab": "Punjab",
+  "pk-sindh": "Sindh",
+  "pk-kp": "Khyber Pakhtunkhwa",
+  "pk-balochistan": "Balochistan",
+  "pk-fata": "FATA",
+  "pk-ict": "Islamabad",
+  "pk-gb": "Gilgit-Baltistan",
+  "pk-ajk": "Azad Kashmir"
+ },
+ "regionOf": {
+  "pk-punjab": "PK",
+  "pk-sindh": "PK",
+  "pk-kp": "PK",
+  "pk-balochistan": "PK",
+  "pk-fata": "PK",
+  "pk-ict": "PK",
+  "pk-gb": "CTX",
+  "pk-ajk": "CTX"
+ },
+ "labelName": true,
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "pk-punjab": {
+     "파키스탄 무슬림연맹 (Q)": 16,
+     "파키스탄 인민당 (PPP)": 3,
+     "파키스탄 무슬림연맹 (N)": 3
+    },
+    "pk-ict": {
+     "파키스탄 무슬림연맹 (Q)": 3,
+     "무타히다 마즐리스-에-아말 (MMA)": 1
+    },
+    "pk-sindh": {
+     "무타히다 카우미 운동 (MQM)": 6,
+     "파키스탄 무슬림연맹 (Q)": 5,
+     "무타히다 마즐리스-에-아말 (MMA)": 1,
+     "국민연합 (NA)": 1,
+     "파키스탄 무슬림연맹 (F)": 1,
+     "무소속": 1,
+     "파키스탄 인민당 (PPP)": 7
+    },
+    "pk-balochistan": {
+     "무타히다 마즐리스-에-아말 (MMA)": 6,
+     "파슈툰크와 밀리 아와미당 (PkMAP)": 2,
+     "발루치스탄 민족운동 (BNM)": 1,
+     "발루치스탄 민족당 (BNP)": 1,
+     "발루치스탄 민족당 (A)": 1,
+     "파키스탄 무슬림연맹 (Q)": 9,
+     "잠후리 와탄당": 1,
+     "국민연합 (NA)": 1
+    },
+    "pk-kp": {
+     "아와미 민족당 (ANP)": 2,
+     "파키스탄 무슬림연맹 (N)": 1,
+     "파키스탄 무슬림연맹 (Q)": 2,
+     "파키스탄 인민당 (셰르파오)": 1,
+     "무소속": 3,
+     "무타히다 마즐리스-에-아말 (MMA)": 11,
+     "파키스탄 인민당 (PPP)": 2
+    },
+    "pk-fata": {
+     "무소속": 8
+    }
+   }
+  }
+ ]
+}

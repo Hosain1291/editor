@@ -1,0 +1,82 @@
+{
+ "id": "pk-provinces",
+ "name": "파키스탄 주 지도",
+ "subtitle": "주·준주 7개 (1단계 행정구역)",
+ "tag": "PROVINCES",
+ "menuCountry": "파키스탄",
+ "menuGroup": "파키스탄 기본 지도",
+ "cardName": "주·준주",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 905,
+ "regions": {
+  "PK": "파키스탄"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "전국",
+   "sub": "7개 지역",
+   "regions": [
+    "PK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    905
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "A",
+   "color": "#1f5fbf"
+  },
+  {
+   "name": "B",
+   "color": "#c8302c"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "pk-balochistan": 1,
+  "pk-sindh": 1,
+  "pk-gb": 1,
+  "pk-ajk": 1,
+  "pk-kp": 1,
+  "pk-punjab": 1,
+  "pk-ict": 1
+ },
+ "names": {
+  "pk-balochistan": "발루치스탄",
+  "pk-sindh": "신드",
+  "pk-gb": "길기트발티스탄",
+  "pk-ajk": "아자드 카슈미르",
+  "pk-kp": "카이버파크툰크와",
+  "pk-punjab": "펀자브",
+  "pk-ict": "이슬라마바드 수도구역"
+ },
+ "labels": {
+  "pk-balochistan": "Balochistan",
+  "pk-sindh": "Sindh",
+  "pk-gb": "Gilgit-Baltistan",
+  "pk-ajk": "Azad Kashmir",
+  "pk-kp": "Khyber Pakhtunkhwa",
+  "pk-punjab": "Punjab",
+  "pk-ict": "Islamabad Capital Territory"
+ },
+ "regionOf": {
+  "pk-balochistan": "PK",
+  "pk-sindh": "PK",
+  "pk-gb": "PK",
+  "pk-ajk": "PK",
+  "pk-kp": "PK",
+  "pk-punjab": "PK",
+  "pk-ict": "PK"
+ },
+ "labelName": true,
+ "presets": []
+}

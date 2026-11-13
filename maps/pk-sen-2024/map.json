@@ -1,0 +1,148 @@
+{
+ "id": "pk-sen-2024",
+ "name": "파키스탄 상원 선거",
+ "subtitle": "2024년 · 이번에 뽑은 48석 (주별로 묶어 표시)",
+ "tag": "SENATE 2024",
+ "menuCountry": "파키스탄",
+ "menuGroup": "파키스탄 상원 선거",
+ "cardName": "2024",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 796.5,
+ "regions": {
+  "PK": "파키스탄",
+  "CTX": "—"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2024년",
+   "sub": "48석",
+   "regions": [
+    "PK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    796.5
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "파키스탄 인민당 (PPP)",
+   "color": "#000000"
+  },
+  {
+   "name": "파키스탄 무슬림연맹 (N)",
+   "color": "#228b22"
+  },
+  {
+   "name": "선거 연기",
+   "color": "#4d4d4d"
+  },
+  {
+   "name": "무소속",
+   "color": "#b3b3b3"
+  },
+  {
+   "name": "자미아트 울레마-에-이슬람 (F)",
+   "color": "#003800"
+  },
+  {
+   "name": "무타히다 카우미 운동-파키스탄 (MQM-P)",
+   "color": "#ffcc00"
+  },
+  {
+   "name": "순니 이테하드 위원회 (SIC)",
+   "color": "#2f4f4f"
+  },
+  {
+   "name": "마즐리스 와흐다트-에-무슬리민 (MWM)",
+   "color": "#2ca089"
+  },
+  {
+   "name": "국민당 (NP)",
+   "color": "#cd5c5c"
+  },
+  {
+   "name": "아와미 민족당 (ANP)",
+   "color": "#782121"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "pk-punjab": 12,
+  "pk-sindh": 12,
+  "pk-kp": 11,
+  "pk-balochistan": 11,
+  "pk-ict": 2,
+  "pk-gb": 0,
+  "pk-ajk": 0
+ },
+ "names": {
+  "pk-punjab": "펀자브",
+  "pk-sindh": "신드",
+  "pk-kp": "카이버파크툰크와",
+  "pk-balochistan": "발루치스탄",
+  "pk-ict": "이슬라마바드 수도구역",
+  "pk-gb": "길기트발티스탄",
+  "pk-ajk": "아자드 카슈미르"
+ },
+ "labels": {
+  "pk-punjab": "Punjab",
+  "pk-sindh": "Sindh",
+  "pk-kp": "Khyber Pakhtunkhwa",
+  "pk-balochistan": "Balochistan",
+  "pk-ict": "Islamabad",
+  "pk-gb": "Gilgit-Baltistan",
+  "pk-ajk": "Azad Kashmir"
+ },
+ "regionOf": {
+  "pk-punjab": "PK",
+  "pk-sindh": "PK",
+  "pk-kp": "PK",
+  "pk-balochistan": "PK",
+  "pk-ict": "PK",
+  "pk-gb": "CTX",
+  "pk-ajk": "CTX"
+ },
+ "labelName": true,
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "pk-sindh": {
+     "파키스탄 인민당 (PPP)": 10,
+     "무타히다 카우미 운동-파키스탄 (MQM-P)": 1,
+     "무소속": 1
+    },
+    "pk-punjab": {
+     "파키스탄 무슬림연맹 (N)": 9,
+     "순니 이테하드 위원회 (SIC)": 1,
+     "마즐리스 와흐다트-에-무슬리민 (MWM)": 1,
+     "무소속": 1
+    },
+    "pk-ict": {
+     "파키스탄 인민당 (PPP)": 1,
+     "파키스탄 무슬림연맹 (N)": 1
+    },
+    "pk-kp": {
+     "선거 연기": 11
+    },
+    "pk-balochistan": {
+     "파키스탄 무슬림연맹 (N)": 3,
+     "파키스탄 인민당 (PPP)": 3,
+     "자미아트 울레마-에-이슬람 (F)": 2,
+     "국민당 (NP)": 1,
+     "아와미 민족당 (ANP)": 1,
+     "무소속": 1
+    }
+   }
+  }
+ ]
+}
