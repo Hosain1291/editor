@@ -7,7 +7,7 @@
  "menuGroup": "오스트리아 국민의회(나치오날라트) 선거",
  "cardName": "1986",
  "yearLink": true,
- "svg": "map.svg",
+ "svg": "../at-nr-1971/map.svg",
  "width": 1000,
  "height": 517.2,
  "regions": {
