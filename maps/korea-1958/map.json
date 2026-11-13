@@ -774,5 +774,6 @@
   "경북-울릉군": "경북"
  },
  "labelName": true,
- "menuCountry": "대한민국"
+ "menuCountry": "대한민국",
+ "yearLink": true
 }

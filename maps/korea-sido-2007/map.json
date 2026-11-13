@@ -109,5 +109,6 @@
   "전국-제주특별자치도": "전국"
  },
  "labelName": true,
- "menuCountry": "대한민국"
+ "menuCountry": "대한민국",
+ "yearLink": true
 }

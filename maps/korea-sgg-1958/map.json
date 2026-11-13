@@ -618,5 +618,6 @@
   "제주도-제주시": "제주도"
  },
  "labelName": true,
- "menuCountry": "대한민국"
+ "menuCountry": "대한민국",
+ "yearLink": true
 }
