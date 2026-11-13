@@ -7,7 +7,7 @@
  "menuGroup": "일본 중의원 총선거",
  "menuLabel": "연도를 고르세요",
  "cardName": "1942",
- "svg": "map.svg",
+ "svg": "../jp-1928/map.svg",
  "width": 1000,
  "height": 1143.9,
  "regions": {

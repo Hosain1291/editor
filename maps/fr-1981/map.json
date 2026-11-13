@@ -7,7 +7,7 @@
  "menuGroup": "프랑스 국민의회 선거",
  "menuLabel": "연도를 고르세요",
  "cardName": "1981",
- "svg": "map.svg",
+ "svg": "../fr-1978/map.svg",
  "width": 1000,
  "height": 733.1,
  "regions": {

@@ -7,7 +7,7 @@
  "menuGroup": "튀르키예 대국민의회 총선거",
  "menuLabel": "연도를 고르세요",
  "cardName": "1983",
- "svg": "map.svg",
+ "svg": "../tr-1957/map.svg",
  "width": 1000,
  "height": 420.1,
  "regions": {

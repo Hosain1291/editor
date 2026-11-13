@@ -7,7 +7,7 @@
  "menuGroup": "스웨덴 의회 총선거",
  "menuLabel": "연도를 고르세요",
  "cardName": "1991",
- "svg": "map.svg",
+ "svg": "../se-1979/map.svg",
  "width": 1000,
  "height": 1218.3,
  "regions": {

@@ -6,7 +6,7 @@
  "menuGroup": "대한민국 행정구역 · 시·도",
  "menuLabel": "연도를 고르세요",
  "cardName": "1960년",
- "svg": "map.svg",
+ "svg": "../korea-sido-1958/map.svg",
  "width": 1000,
  "height": 931.5,
  "regions": {

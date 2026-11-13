@@ -7,7 +7,7 @@
  "menuGroup": "스웨덴 의회 총선거",
  "menuLabel": "연도를 고르세요",
  "cardName": "1964",
- "svg": "map.svg",
+ "svg": "../se-1952/map.svg",
  "width": 1000,
  "height": 1635.0,
  "regions": {
