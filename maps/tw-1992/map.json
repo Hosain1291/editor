@@ -181,5 +181,6 @@
   "TW-X3": "TW",
   "TW-X4": "TW"
  },
- "presets": []
+ "presets": [],
+ "yearLink": true
 }
