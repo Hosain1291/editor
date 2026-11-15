@@ -1,7 +1,7 @@
 {
- "id": "tw-xian-h3",
+ "id": "tw-xian-h1",
  "name": "중화민국 현·시 지도",
- "subtitle": "현·시 1950–2009 (25개)",
+ "subtitle": "현·시 1950–1982 (23개)",
  "tag": "TAIWAN",
  "menuCountry": "중화민국",
  "menuGroup": "중화민국 기본 지도",
@@ -9,7 +9,7 @@
  "yearLink": true,
  "svg": "map.svg",
  "width": 1000,
- "height": 1330.8,
+ "height": 1335.6,
  "regions": {
   "TW": "타이완·진먼·마쭈"
  },
@@ -26,7 +26,7 @@
     0,
     0,
     1000,
-    1330.8
+    1335.6
    ],
    "big": false
   }
