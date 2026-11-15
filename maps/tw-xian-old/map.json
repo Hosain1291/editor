@@ -9,7 +9,7 @@
  "yearLink": true,
  "svg": "map.svg",
  "width": 1000,
- "height": 1173.0,
+ "height": 1335.3,
  "regions": {
   "TW": "타이완·진먼·마쭈"
  },
@@ -26,7 +26,7 @@
     0,
     0,
     1000,
-    1173.0
+    1335.3
    ],
    "big": false
   }

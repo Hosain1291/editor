@@ -48,6 +48,7 @@ for e in idx['maps']:
         vs[v['key']]=[n,t]
     light['vstat']=vs
     tp=svgp[:-len('map.svg')]+'thumb.svg' if svgp.endswith('map.svg') else None
+    if tp and os.path.exists(os.path.join(os.path.dirname(svgp),'.nothumb')): tp=None
     if tp:
         if tp not in done: done[tp]=thumb(svgp,tp,m.get('width',1000))
         if done[tp]: light['thumb']=os.path.relpath(tp,os.path.join(R,f)).replace(os.sep,'/')
