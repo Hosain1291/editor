@@ -110,7 +110,7 @@ function filterMenu() {
   });
   const nEl = $('#mapSearchN'); if (nEl) nEl.textContent = toks.length ? (hits ? `${hits}개 찾음` : '찾는 지도가 없어요') : '';
 }
-document.addEventListener('input', e => { if (e.target && e.target.id === 'mapSearch') filterMenu(); });
+['input', 'keyup', 'search', 'change', 'compositionend'].forEach(ev => document.addEventListener(ev, e => { if (e.target && e.target.id === 'mapSearch') filterMenu(); }));
 document.addEventListener('keydown', e => { if (e.target && e.target.id === 'mapSearch' && e.key === 'Escape') { e.target.value = ''; filterMenu(); } });
 
 function showMenu() {
