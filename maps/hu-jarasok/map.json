@@ -934,5 +934,6 @@
   "HUJ-HU020006": "ZA"
  },
  "labelName": true,
- "presets": []
+ "presets": [],
+ "yearLink": true
 }

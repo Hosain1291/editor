@@ -1977,6 +1977,18 @@
    "folder": "hu-jarasok"
   },
   {
+   "id": "hu-1945-c",
+   "folder": "hu-1945-c"
+  },
+  {
+   "id": "hu-1945-d",
+   "folder": "hu-1945-d"
+  },
+  {
+   "id": "hu-1947-d",
+   "folder": "hu-1947-d"
+  },
+  {
    "id": "hu-oevk-1990",
    "folder": "hu-oevk-1990"
   },
@@ -1987,6 +1999,50 @@
   {
    "id": "hu-oevk-2026",
    "folder": "hu-oevk-2026"
+  },
+  {
+   "id": "hu-ogy-1945",
+   "folder": "hu-ogy-1945"
+  },
+  {
+   "id": "hu-ogy-1947",
+   "folder": "hu-ogy-1947"
+  },
+  {
+   "id": "hu-ogy-1949",
+   "folder": "hu-ogy-1949"
+  },
+  {
+   "id": "hu-ogy-1953",
+   "folder": "hu-ogy-1953"
+  },
+  {
+   "id": "hu-ogy-1958",
+   "folder": "hu-ogy-1958"
+  },
+  {
+   "id": "hu-ogy-1963",
+   "folder": "hu-ogy-1963"
+  },
+  {
+   "id": "hu-ogy-1967",
+   "folder": "hu-ogy-1967"
+  },
+  {
+   "id": "hu-ogy-1971",
+   "folder": "hu-ogy-1971"
+  },
+  {
+   "id": "hu-ogy-1975",
+   "folder": "hu-ogy-1975"
+  },
+  {
+   "id": "hu-ogy-1980",
+   "folder": "hu-ogy-1980"
+  },
+  {
+   "id": "hu-ogy-1985",
+   "folder": "hu-ogy-1985"
   },
   {
    "id": "hu-ogy-1990",
@@ -2029,64 +2085,8 @@
    "folder": "hu-ogy-2026"
   },
   {
-   "id": "hu-ogy-1953",
-   "folder": "hu-ogy-1953"
-  },
-  {
-   "id": "hu-ogy-1958",
-   "folder": "hu-ogy-1958"
-  },
-  {
-   "id": "hu-ogy-1963",
-   "folder": "hu-ogy-1963"
-  },
-  {
-   "id": "hu-ogy-1967",
-   "folder": "hu-ogy-1967"
-  },
-  {
-   "id": "hu-ogy-1971",
-   "folder": "hu-ogy-1971"
-  },
-  {
-   "id": "hu-ogy-1975",
-   "folder": "hu-ogy-1975"
-  },
-  {
-   "id": "hu-ogy-1980",
-   "folder": "hu-ogy-1980"
-  },
-  {
-   "id": "hu-ogy-1985",
-   "folder": "hu-ogy-1985"
-  },
-  {
-   "id": "hu-1945-c",
-   "folder": "hu-1945-c"
-  },
-  {
-   "id": "hu-ogy-1945",
-   "folder": "hu-ogy-1945"
-  },
-  {
-   "id": "hu-ogy-1947",
-   "folder": "hu-ogy-1947"
-  },
-  {
-   "id": "hu-ogy-1949",
-   "folder": "hu-ogy-1949"
-  },
-  {
-   "id": "hu-1945-d",
-   "folder": "hu-1945-d"
-  },
-  {
    "id": "hu-ogy-1945-d",
    "folder": "hu-ogy-1945-d"
-  },
-  {
-   "id": "hu-1947-d",
-   "folder": "hu-1947-d"
   },
   {
    "id": "hu-ogy-1947-d",

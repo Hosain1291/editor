@@ -226,5 +226,6 @@
   "HUM-ZA": "ZA"
  },
  "labelName": true,
- "presets": []
+ "presets": [],
+ "yearLink": true
 }

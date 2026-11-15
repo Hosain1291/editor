@@ -857,5 +857,6 @@
   "LIST": "LIST"
  },
  "labelName": true,
- "presets": []
+ "presets": [],
+ "yearLink": true
 }
