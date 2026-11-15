@@ -2193,6 +2193,14 @@
    "folder": "tw-adm2"
   },
   {
+   "id": "tw-xian-old",
+   "folder": "tw-xian-old"
+  },
+  {
+   "id": "tw-xian-new",
+   "folder": "tw-xian-new"
+  },
+  {
    "id": "tw-ly-2008",
    "folder": "tw-ly-2008"
   },
@@ -2243,6 +2251,78 @@
   {
    "id": "tw-2024",
    "folder": "tw-2024"
+  },
+  {
+   "id": "tw-local-1950",
+   "folder": "tw-local-1950"
+  },
+  {
+   "id": "tw-local-1954",
+   "folder": "tw-local-1954"
+  },
+  {
+   "id": "tw-local-1957",
+   "folder": "tw-local-1957"
+  },
+  {
+   "id": "tw-local-1960",
+   "folder": "tw-local-1960"
+  },
+  {
+   "id": "tw-local-1964",
+   "folder": "tw-local-1964"
+  },
+  {
+   "id": "tw-local-1968",
+   "folder": "tw-local-1968"
+  },
+  {
+   "id": "tw-local-1972",
+   "folder": "tw-local-1972"
+  },
+  {
+   "id": "tw-local-1977",
+   "folder": "tw-local-1977"
+  },
+  {
+   "id": "tw-local-1981",
+   "folder": "tw-local-1981"
+  },
+  {
+   "id": "tw-local-1985",
+   "folder": "tw-local-1985"
+  },
+  {
+   "id": "tw-local-1989",
+   "folder": "tw-local-1989"
+  },
+  {
+   "id": "tw-local-1993",
+   "folder": "tw-local-1993"
+  },
+  {
+   "id": "tw-local-1997",
+   "folder": "tw-local-1997"
+  },
+  {
+   "id": "tw-local-2001",
+   "folder": "tw-local-2001"
+  },
+  {
+   "id": "tw-local-2005",
+   "folder": "tw-local-2005"
+  },
+  {
+   "id": "tw-local-2009",
+   "folder": "tw-local-2009"
+  },
+  {
+   "id": "tw-local-2018",
+   "folder": "tw-local-2018"
+  },
+  {
+   "id": "tw-local-2022",
+   "folder": "tw-local-2022"
   }
  ]
 }
