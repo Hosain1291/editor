@@ -1,0 +1,129 @@
+{
+ "id": "hr-izb-2024",
+ "name": "크로아티아 선거구 지도 (2024–)",
+ "subtitle": "국내 10개 선거구(각 14석) + 재외국민 + 소수민족",
+ "tag": "CROATIA",
+ "menuCountry": "크로아티아",
+ "menuGroup": "크로아티아 기본 지도",
+ "cardName": "선거구 2024–",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 915.1,
+ "height": 907.7,
+ "regions": {
+  "HR": "국내 선거구",
+  "ABR": "재외국민·소수민족"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "전국",
+   "sub": "선거구 12개",
+   "regions": [
+    "HR",
+    "ABR"
+   ],
+   "box": [
+    0,
+    0,
+    915.1,
+    907.7
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "크로아티아 민주연합 (HDZ)",
+   "color": "#005baa"
+  },
+  {
+   "name": "정의의 강 연합 (SDP)",
+   "color": "#ed1c24"
+  },
+  {
+   "name": "국토운동 (DP)",
+   "color": "#9393b7"
+  },
+  {
+   "name": "우리는 할 수 있다 (Možemo)",
+   "color": "#bbd22d"
+  },
+  {
+   "name": "모스트 (Most)",
+   "color": "#e85726"
+  },
+  {
+   "name": "포커스–개혁당 (Fokus–RP)",
+   "color": "#00accb"
+  },
+  {
+   "name": "이스트라 민주의회 (IDS)",
+   "color": "#0cb14b"
+  },
+  {
+   "name": "지역당 (NPS)",
+   "color": "#30907f"
+  }
+ ],
+ "defaultSeats": 14,
+ "seats": {
+  "HR-II": 14,
+  "HR-III": 14,
+  "HR-IV": 14,
+  "HR-V": 14,
+  "HR-VII": 14,
+  "HR-VIII": 14,
+  "HR-IX": 14,
+  "HR-X": 14,
+  "HR-I": 14,
+  "HR-VI": 14,
+  "HR-XI": 3,
+  "HR-XII": 8
+ },
+ "names": {
+  "HR-I": "제1선거구 (자그레브 동부)",
+  "HR-II": "제2선거구 (자그레브 북동부·비엘로바르)",
+  "HR-III": "제3선거구 (바라주딘·메지무레·크라피나)",
+  "HR-IV": "제4선거구 (오시예크·비로비티차)",
+  "HR-V": "제5선거구 (부코바르·슬라본스키브로드·포제가)",
+  "HR-VI": "제6선거구 (자그레브 남부·시사크)",
+  "HR-VII": "제7선거구 (카를로바츠·리카·리예카 일부)",
+  "HR-VIII": "제8선거구 (이스트라·리예카)",
+  "HR-IX": "제9선거구 (자다르·시베니크·스플리트 일부)",
+  "HR-X": "제10선거구 (스플리트·두브로브니크)",
+  "HR-XI": "제11선거구 (재외국민)",
+  "HR-XII": "제12선거구 (소수민족)"
+ },
+ "labels": {
+  "HR-I": "I",
+  "HR-II": "II",
+  "HR-III": "III",
+  "HR-IV": "IV",
+  "HR-V": "V",
+  "HR-VI": "VI",
+  "HR-VII": "VII",
+  "HR-VIII": "VIII",
+  "HR-IX": "IX",
+  "HR-X": "X",
+  "HR-XI": "XI",
+  "HR-XII": "XII"
+ },
+ "regionOf": {
+  "HR-II": "HR",
+  "HR-III": "HR",
+  "HR-IV": "HR",
+  "HR-V": "HR",
+  "HR-VII": "HR",
+  "HR-VIII": "HR",
+  "HR-IX": "HR",
+  "HR-X": "HR",
+  "HR-I": "HR",
+  "HR-VI": "HR",
+  "HR-XI": "ABR",
+  "HR-XII": "ABR"
+ },
+ "labelName": true,
+ "presets": []
+}

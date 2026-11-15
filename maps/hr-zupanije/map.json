@@ -1,0 +1,163 @@
+{
+ "id": "hr-zupanije",
+ "name": "크로아티아 주 지도",
+ "subtitle": "주 20개 + 자그레브시",
+ "tag": "CROATIA",
+ "menuCountry": "크로아티아",
+ "menuGroup": "크로아티아 기본 지도",
+ "cardName": "주 (21개)",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 989.0,
+ "regions": {
+  "HR": "크로아티아"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "전국",
+   "sub": "21개",
+   "regions": [
+    "HR"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    989.0
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "크로아티아 민주연합 (HDZ)",
+   "color": "#005baa"
+  },
+  {
+   "name": "정의의 강 연합 (SDP)",
+   "color": "#ed1c24"
+  },
+  {
+   "name": "국토운동 (DP)",
+   "color": "#9393b7"
+  },
+  {
+   "name": "우리는 할 수 있다 (Možemo)",
+   "color": "#bbd22d"
+  },
+  {
+   "name": "모스트 (Most)",
+   "color": "#e85726"
+  },
+  {
+   "name": "포커스–개혁당 (Fokus–RP)",
+   "color": "#00accb"
+  },
+  {
+   "name": "이스트라 민주의회 (IDS)",
+   "color": "#0cb14b"
+  },
+  {
+   "name": "지역당 (NPS)",
+   "color": "#30907f"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "HRZ-HR20": 1,
+  "HRZ-HR10": 1,
+  "HRZ-HR06": 1,
+  "HRZ-HR14": 1,
+  "HRZ-HR18": 1,
+  "HRZ-HR19": 1,
+  "HRZ-HR03": 1,
+  "HRZ-HR12": 1,
+  "HRZ-HR04": 1,
+  "HRZ-HR13": 1,
+  "HRZ-HR16": 1,
+  "HRZ-HR17": 1,
+  "HRZ-HR05": 1,
+  "HRZ-HR02": 1,
+  "HRZ-HR01": 1,
+  "HRZ-HR08": 1,
+  "HRZ-HR15": 1,
+  "HRZ-HR09": 1,
+  "HRZ-HR07": 1,
+  "HRZ-HR21": 1,
+  "HRZ-HR11": 1
+ },
+ "names": {
+  "HRZ-HR20": "메지무레주",
+  "HRZ-HR10": "비로비티차포드라비나주",
+  "HRZ-HR06": "코프리브니차크리제브치주",
+  "HRZ-HR14": "오시예크바라냐주",
+  "HRZ-HR18": "이스트라주",
+  "HRZ-HR19": "두브로브니크네레트바주",
+  "HRZ-HR03": "시사크모슬라비나주",
+  "HRZ-HR12": "브로드포사비나주",
+  "HRZ-HR04": "카를로바츠주",
+  "HRZ-HR13": "자다르주",
+  "HRZ-HR16": "부코바르스리옘주",
+  "HRZ-HR17": "스플리트달마티아주",
+  "HRZ-HR05": "바라주딘주",
+  "HRZ-HR02": "크라피나자고레주",
+  "HRZ-HR01": "자그레브주",
+  "HRZ-HR08": "프리모레고르스키코타르주",
+  "HRZ-HR15": "시베니크크닌주",
+  "HRZ-HR09": "리카센주",
+  "HRZ-HR07": "비엘로바르빌로고라주",
+  "HRZ-HR21": "자그레브시",
+  "HRZ-HR11": "포제가슬라보니아주"
+ },
+ "labels": {
+  "HRZ-HR20": "Medimurska",
+  "HRZ-HR10": "Viroviticko-Podravska",
+  "HRZ-HR06": "Koprivničko-Križevačka",
+  "HRZ-HR14": "Osjecko-Baranjska",
+  "HRZ-HR18": "Istarska",
+  "HRZ-HR19": "Dubrovacko-Neretvanska",
+  "HRZ-HR03": "Sisacko-Moslavacka",
+  "HRZ-HR12": "Brodsko-Posavska",
+  "HRZ-HR04": "Karlovacka",
+  "HRZ-HR13": "Zadarska",
+  "HRZ-HR16": "Vukovarsko-Srijemska",
+  "HRZ-HR17": "Splitsko-Dalmatinska",
+  "HRZ-HR05": "Varaždinska",
+  "HRZ-HR02": "Krapinsko-Zagorska",
+  "HRZ-HR01": "Zagrebacka",
+  "HRZ-HR08": "Primorsko-Goranska",
+  "HRZ-HR15": "Šibensko-Kninska",
+  "HRZ-HR09": "Licko-Senjska",
+  "HRZ-HR07": "Bjelovarsko-bilogorska",
+  "HRZ-HR21": "Grad Zagreb",
+  "HRZ-HR11": "Požeško-slavonska županija"
+ },
+ "regionOf": {
+  "HRZ-HR20": "HR",
+  "HRZ-HR10": "HR",
+  "HRZ-HR06": "HR",
+  "HRZ-HR14": "HR",
+  "HRZ-HR18": "HR",
+  "HRZ-HR19": "HR",
+  "HRZ-HR03": "HR",
+  "HRZ-HR12": "HR",
+  "HRZ-HR04": "HR",
+  "HRZ-HR13": "HR",
+  "HRZ-HR16": "HR",
+  "HRZ-HR17": "HR",
+  "HRZ-HR05": "HR",
+  "HRZ-HR02": "HR",
+  "HRZ-HR01": "HR",
+  "HRZ-HR08": "HR",
+  "HRZ-HR15": "HR",
+  "HRZ-HR09": "HR",
+  "HRZ-HR07": "HR",
+  "HRZ-HR21": "HR",
+  "HRZ-HR11": "HR"
+ },
+ "labelName": true,
+ "presets": []
+}
