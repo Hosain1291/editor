@@ -1967,6 +1967,130 @@
   {
    "id": "il-subdistricts",
    "folder": "il-subdistricts"
+  },
+  {
+   "id": "hu-megyek",
+   "folder": "hu-megyek"
+  },
+  {
+   "id": "hu-jarasok",
+   "folder": "hu-jarasok"
+  },
+  {
+   "id": "hu-oevk-1990",
+   "folder": "hu-oevk-1990"
+  },
+  {
+   "id": "hu-oevk-2014",
+   "folder": "hu-oevk-2014"
+  },
+  {
+   "id": "hu-oevk-2026",
+   "folder": "hu-oevk-2026"
+  },
+  {
+   "id": "hu-ogy-1990",
+   "folder": "hu-ogy-1990"
+  },
+  {
+   "id": "hu-ogy-1994",
+   "folder": "hu-ogy-1994"
+  },
+  {
+   "id": "hu-ogy-1998",
+   "folder": "hu-ogy-1998"
+  },
+  {
+   "id": "hu-ogy-2002",
+   "folder": "hu-ogy-2002"
+  },
+  {
+   "id": "hu-ogy-2006",
+   "folder": "hu-ogy-2006"
+  },
+  {
+   "id": "hu-ogy-2010",
+   "folder": "hu-ogy-2010"
+  },
+  {
+   "id": "hu-ogy-2014",
+   "folder": "hu-ogy-2014"
+  },
+  {
+   "id": "hu-ogy-2018",
+   "folder": "hu-ogy-2018"
+  },
+  {
+   "id": "hu-ogy-2022",
+   "folder": "hu-ogy-2022"
+  },
+  {
+   "id": "hu-ogy-2026",
+   "folder": "hu-ogy-2026"
+  },
+  {
+   "id": "hu-ogy-1953",
+   "folder": "hu-ogy-1953"
+  },
+  {
+   "id": "hu-ogy-1958",
+   "folder": "hu-ogy-1958"
+  },
+  {
+   "id": "hu-ogy-1963",
+   "folder": "hu-ogy-1963"
+  },
+  {
+   "id": "hu-ogy-1967",
+   "folder": "hu-ogy-1967"
+  },
+  {
+   "id": "hu-ogy-1971",
+   "folder": "hu-ogy-1971"
+  },
+  {
+   "id": "hu-ogy-1975",
+   "folder": "hu-ogy-1975"
+  },
+  {
+   "id": "hu-ogy-1980",
+   "folder": "hu-ogy-1980"
+  },
+  {
+   "id": "hu-ogy-1985",
+   "folder": "hu-ogy-1985"
+  },
+  {
+   "id": "hu-1945-c",
+   "folder": "hu-1945-c"
+  },
+  {
+   "id": "hu-ogy-1945",
+   "folder": "hu-ogy-1945"
+  },
+  {
+   "id": "hu-ogy-1947",
+   "folder": "hu-ogy-1947"
+  },
+  {
+   "id": "hu-ogy-1949",
+   "folder": "hu-ogy-1949"
+  },
+  {
+   "id": "hu-1945-d",
+   "folder": "hu-1945-d"
+  },
+  {
+   "id": "hu-ogy-1945-d",
+   "folder": "hu-ogy-1945-d"
+  },
+  {
+   "id": "hu-1947-d",
+   "folder": "hu-1947-d"
+  },
+  {
+   "id": "hu-ogy-1947-d",
+   "folder": "hu-ogy-1947-d"
   }
  ]
 }

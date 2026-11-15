@@ -1,0 +1,270 @@
+{
+ "id": "hu-ogy-1953",
+ "name": "헝가리 총선 (국회)",
+ "subtitle": "1953년 5월 17일 · 애국인민전선 단일 명부 · 총 298석",
+ "tag": "ORSZÁGGYŰLÉS 1953",
+ "menuCountry": "헝가리",
+ "menuGroup": "헝가리 총선",
+ "cardName": "1953",
+ "yearLink": true,
+ "svg": "../hu-megyek/map.svg",
+ "width": 1000,
+ "height": 617.9,
+ "regions": {
+  "BP": "부다페스트",
+  "BA": "버러녀",
+  "BK": "바치키슈쿤",
+  "BE": "베케시",
+  "BO": "보르쇼드어버우이젬플렌",
+  "CS": "촌그라드",
+  "FE": "페예르",
+  "GY": "죄르모숀쇼프론",
+  "HB": "하이두비하르",
+  "HE": "헤베시",
+  "JN": "야스너지쿤솔노크",
+  "KE": "코마롬에스테르곰",
+  "NO": "노그라드",
+  "PE": "페스트",
+  "SO": "쇼모지",
+  "SZ": "서볼치서트마르베레그",
+  "TO": "톨너",
+  "VA": "버시",
+  "VE": "베스프렘",
+  "ZA": "잘러"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1953년",
+   "sub": "20개",
+   "regions": [
+    "BP",
+    "BA",
+    "BK",
+    "BE",
+    "BO",
+    "CS",
+    "FE",
+    "GY",
+    "HB",
+    "HE",
+    "JN",
+    "KE",
+    "NO",
+    "PE",
+    "SO",
+    "SZ",
+    "TO",
+    "VA",
+    "VE",
+    "ZA"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    617.9
+   ],
+   "big": false
+  },
+  {
+   "key": "bp",
+   "name": "부다페스트",
+   "sub": "확대",
+   "regions": [
+    "BP",
+    "BA",
+    "BK",
+    "BE",
+    "BO",
+    "CS",
+    "FE",
+    "GY",
+    "HB",
+    "HE",
+    "JN",
+    "KE",
+    "NO",
+    "PE",
+    "SO",
+    "SZ",
+    "TO",
+    "VA",
+    "VE",
+    "ZA"
+   ],
+   "box": [
+    406.4,
+    202.9,
+    76.4,
+    73.2
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "애국인민전선 (HNF)",
+   "color": "#c00000"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "HUM-BK": 1,
+  "HUM-BA": 1,
+  "HUM-BE": 1,
+  "HUM-BO": 1,
+  "HUM-BP": 1,
+  "HUM-CS": 1,
+  "HUM-FE": 1,
+  "HUM-GY": 1,
+  "HUM-HB": 1,
+  "HUM-HE": 1,
+  "HUM-JN": 1,
+  "HUM-KE": 1,
+  "HUM-NO": 1,
+  "HUM-PE": 1,
+  "HUM-SO": 1,
+  "HUM-SZ": 1,
+  "HUM-TO": 1,
+  "HUM-VA": 1,
+  "HUM-VE": 1,
+  "HUM-ZA": 1
+ },
+ "names": {
+  "HUM-BK": "바치키슈쿤 주",
+  "HUM-BA": "버러녀 주",
+  "HUM-BE": "베케시 주",
+  "HUM-BO": "보르쇼드어버우이젬플렌 주",
+  "HUM-BP": "부다페스트 (수도)",
+  "HUM-CS": "촌그라드 주",
+  "HUM-FE": "페예르 주",
+  "HUM-GY": "죄르모숀쇼프론 주",
+  "HUM-HB": "하이두비하르 주",
+  "HUM-HE": "헤베시 주",
+  "HUM-JN": "야스너지쿤솔노크 주",
+  "HUM-KE": "코마롬에스테르곰 주",
+  "HUM-NO": "노그라드 주",
+  "HUM-PE": "페스트 주",
+  "HUM-SO": "쇼모지 주",
+  "HUM-SZ": "서볼치서트마르베레그 주",
+  "HUM-TO": "톨너 주",
+  "HUM-VA": "버시 주",
+  "HUM-VE": "베스프렘 주",
+  "HUM-ZA": "잘러 주"
+ },
+ "labels": {
+  "HUM-BK": "Bács-Kiskun",
+  "HUM-BA": "Baranya",
+  "HUM-BE": "Békés",
+  "HUM-BO": "Borsod-Abaúj-Zemplén",
+  "HUM-BP": "Budapest",
+  "HUM-CS": "Csongrád",
+  "HUM-FE": "Fejér",
+  "HUM-GY": "Győr-Moson-Sopron",
+  "HUM-HB": "Hajdú-Bihar",
+  "HUM-HE": "Heves",
+  "HUM-JN": "Jász-Nagykun-Szolnok",
+  "HUM-KE": "Komárom-Esztergom",
+  "HUM-NO": "Nógrád",
+  "HUM-PE": "Pest",
+  "HUM-SO": "Somogy",
+  "HUM-SZ": "Szabolcs-Szatmár-Bereg",
+  "HUM-TO": "Tolna",
+  "HUM-VA": "Vas",
+  "HUM-VE": "Veszprém",
+  "HUM-ZA": "Zala"
+ },
+ "regionOf": {
+  "HUM-BK": "BK",
+  "HUM-BA": "BA",
+  "HUM-BE": "BE",
+  "HUM-BO": "BO",
+  "HUM-BP": "BP",
+  "HUM-CS": "CS",
+  "HUM-FE": "FE",
+  "HUM-GY": "GY",
+  "HUM-HB": "HB",
+  "HUM-HE": "HE",
+  "HUM-JN": "JN",
+  "HUM-KE": "KE",
+  "HUM-NO": "NO",
+  "HUM-PE": "PE",
+  "HUM-SO": "SO",
+  "HUM-SZ": "SZ",
+  "HUM-TO": "TO",
+  "HUM-VA": "VA",
+  "HUM-VE": "VE",
+  "HUM-ZA": "ZA"
+ },
+ "labelName": true,
+ "seatNotes": "공산당 시기 단일 후보 명부 선거라 모든 주를 애국인민전선으로 칠했어요. 실제 의석은 모두 298석이에요(주마다 1석으로 표시).",
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "HUM-BK": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-BA": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-BE": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-BO": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-BP": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-CS": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-FE": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-GY": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-HB": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-HE": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-JN": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-KE": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-NO": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-PE": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-SO": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-SZ": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-TO": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-VA": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-VE": {
+     "애국인민전선 (HNF)": 1
+    },
+    "HUM-ZA": {
+     "애국인민전선 (HNF)": 1
+    }
+   }
+  }
+ ]
+}

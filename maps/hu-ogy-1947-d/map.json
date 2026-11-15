@@ -1,0 +1,1557 @@
+{
+ "id": "hu-ogy-1947-d",
+ "name": "헝가리 총선 (국회)",
+ "subtitle": "1947년 8월 31일 · 군(járás)별 1위 정당",
+ "tag": "NEMZETGYŰLÉS 1947",
+ "menuCountry": "헝가리",
+ "menuGroup": "헝가리 총선 · 군별",
+ "cardName": "1947",
+ "svg": "../hu-1947-d/map.svg",
+ "width": 1105,
+ "height": 652,
+ "regions": {
+  "HU": "헝가리"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1947년",
+   "sub": "209개",
+   "regions": [
+    "HU"
+   ],
+   "box": [
+    0,
+    0,
+    1105,
+    652
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "헝가리 공산당 (MKP)",
+   "color": "#bc0000"
+  },
+  {
+   "name": "독립소농당 (FKGP)",
+   "color": "#345f25"
+  },
+  {
+   "name": "사회민주당 (SZDP)",
+   "color": "#7c131d"
+  },
+  {
+   "name": "민주인민당 (DNP)",
+   "color": "#938862"
+  },
+  {
+   "name": "헝가리 독립당 (MFP)",
+   "color": "#4b2a86"
+  },
+  {
+   "name": "민족농민당 (NPP)",
+   "color": "#ffcc00"
+  },
+  {
+   "name": "독립헝가리민주당 (FMDP)",
+   "color": "#50c878"
+  },
+  {
+   "name": "헝가리 급진당 (MRP)",
+   "color": "#e30b5c"
+  },
+  {
+   "name": "기독여성연맹 (KNT)",
+   "color": "#ff8c1a"
+  },
+  {
+   "name": "시민민주당 (PDP)",
+   "color": "#96825a"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "HUD47-001": 1,
+  "HUD47-002": 1,
+  "HUD47-003": 1,
+  "HUD47-004": 1,
+  "HUD47-005": 1,
+  "HUD47-006": 1,
+  "HUD47-007": 1,
+  "HUD47-008": 1,
+  "HUD47-009": 1,
+  "HUD47-010": 1,
+  "HUD47-011": 1,
+  "HUD47-012": 1,
+  "HUD47-013": 1,
+  "HUD47-014": 1,
+  "HUD47-015": 1,
+  "HUD47-016": 1,
+  "HUD47-017": 1,
+  "HUD47-018": 1,
+  "HUD47-019": 1,
+  "HUD47-020": 1,
+  "HUD47-021": 1,
+  "HUD47-022": 1,
+  "HUD47-023": 1,
+  "HUD47-024": 1,
+  "HUD47-025": 1,
+  "HUD47-026": 1,
+  "HUD47-027": 1,
+  "HUD47-028": 1,
+  "HUD47-029": 1,
+  "HUD47-030": 1,
+  "HUD47-031": 1,
+  "HUD47-032": 1,
+  "HUD47-033": 1,
+  "HUD47-034": 1,
+  "HUD47-035": 1,
+  "HUD47-036": 1,
+  "HUD47-037": 1,
+  "HUD47-038": 1,
+  "HUD47-039": 1,
+  "HUD47-040": 1,
+  "HUD47-041": 1,
+  "HUD47-042": 1,
+  "HUD47-043": 1,
+  "HUD47-044": 1,
+  "HUD47-045": 1,
+  "HUD47-046": 1,
+  "HUD47-047": 1,
+  "HUD47-048": 1,
+  "HUD47-049": 1,
+  "HUD47-050": 1,
+  "HUD47-051": 1,
+  "HUD47-052": 1,
+  "HUD47-053": 1,
+  "HUD47-054": 1,
+  "HUD47-055": 1,
+  "HUD47-056": 1,
+  "HUD47-057": 1,
+  "HUD47-058": 1,
+  "HUD47-059": 1,
+  "HUD47-060": 1,
+  "HUD47-061": 1,
+  "HUD47-062": 1,
+  "HUD47-063": 1,
+  "HUD47-064": 1,
+  "HUD47-065": 1,
+  "HUD47-066": 1,
+  "HUD47-067": 1,
+  "HUD47-068": 1,
+  "HUD47-069": 1,
+  "HUD47-070": 1,
+  "HUD47-071": 1,
+  "HUD47-072": 1,
+  "HUD47-073": 1,
+  "HUD47-074": 1,
+  "HUD47-075": 1,
+  "HUD47-076": 1,
+  "HUD47-077": 1,
+  "HUD47-078": 1,
+  "HUD47-079": 1,
+  "HUD47-080": 1,
+  "HUD47-081": 1,
+  "HUD47-082": 1,
+  "HUD47-083": 1,
+  "HUD47-084": 1,
+  "HUD47-085": 1,
+  "HUD47-086": 1,
+  "HUD47-087": 1,
+  "HUD47-088": 1,
+  "HUD47-089": 1,
+  "HUD47-090": 1,
+  "HUD47-091": 1,
+  "HUD47-092": 1,
+  "HUD47-093": 1,
+  "HUD47-094": 1,
+  "HUD47-095": 1,
+  "HUD47-096": 1,
+  "HUD47-097": 1,
+  "HUD47-098": 1,
+  "HUD47-099": 1,
+  "HUD47-100": 1,
+  "HUD47-101": 1,
+  "HUD47-102": 1,
+  "HUD47-103": 1,
+  "HUD47-104": 1,
+  "HUD47-105": 1,
+  "HUD47-106": 1,
+  "HUD47-107": 1,
+  "HUD47-108": 1,
+  "HUD47-109": 1,
+  "HUD47-110": 1,
+  "HUD47-111": 1,
+  "HUD47-112": 1,
+  "HUD47-113": 1,
+  "HUD47-114": 1,
+  "HUD47-115": 1,
+  "HUD47-116": 1,
+  "HUD47-117": 1,
+  "HUD47-118": 1,
+  "HUD47-119": 1,
+  "HUD47-120": 1,
+  "HUD47-121": 1,
+  "HUD47-122": 1,
+  "HUD47-123": 1,
+  "HUD47-124": 1,
+  "HUD47-125": 1,
+  "HUD47-126": 1,
+  "HUD47-127": 1,
+  "HUD47-128": 1,
+  "HUD47-129": 1,
+  "HUD47-130": 1,
+  "HUD47-131": 1,
+  "HUD47-132": 1,
+  "HUD47-133": 1,
+  "HUD47-134": 1,
+  "HUD47-135": 1,
+  "HUD47-136": 1,
+  "HUD47-137": 1,
+  "HUD47-138": 1,
+  "HUD47-139": 1,
+  "HUD47-140": 1,
+  "HUD47-141": 1,
+  "HUD47-142": 1,
+  "HUD47-143": 1,
+  "HUD47-144": 1,
+  "HUD47-145": 1,
+  "HUD47-146": 1,
+  "HUD47-147": 1,
+  "HUD47-148": 1,
+  "HUD47-149": 1,
+  "HUD47-150": 1,
+  "HUD47-151": 1,
+  "HUD47-152": 1,
+  "HUD47-153": 1,
+  "HUD47-154": 1,
+  "HUD47-155": 1,
+  "HUD47-156": 1,
+  "HUD47-157": 1,
+  "HUD47-158": 1,
+  "HUD47-159": 1,
+  "HUD47-160": 1,
+  "HUD47-161": 1,
+  "HUD47-162": 1,
+  "HUD47-163": 1,
+  "HUD47-164": 1,
+  "HUD47-165": 1,
+  "HUD47-166": 1,
+  "HUD47-167": 1,
+  "HUD47-168": 1,
+  "HUD47-169": 1,
+  "HUD47-170": 1,
+  "HUD47-171": 1,
+  "HUD47-172": 1,
+  "HUD47-173": 1,
+  "HUD47-174": 1,
+  "HUD47-175": 1,
+  "HUD47-176": 1,
+  "HUD47-177": 1,
+  "HUD47-178": 1,
+  "HUD47-179": 1,
+  "HUD47-180": 1,
+  "HUD47-181": 1,
+  "HUD47-182": 1,
+  "HUD47-183": 1,
+  "HUD47-184": 1,
+  "HUD47-185": 1,
+  "HUD47-186": 1,
+  "HUD47-187": 1,
+  "HUD47-188": 1,
+  "HUD47-189": 1,
+  "HUD47-190": 1,
+  "HUD47-191": 1,
+  "HUD47-192": 1,
+  "HUD47-193": 1,
+  "HUD47-194": 1,
+  "HUD47-195": 1,
+  "HUD47-196": 1,
+  "HUD47-197": 1,
+  "HUD47-198": 1,
+  "HUD47-199": 1,
+  "HUD47-200": 1,
+  "HUD47-201": 1,
+  "HUD47-202": 1,
+  "HUD47-203": 1,
+  "HUD47-204": 1,
+  "HUD47-205": 1,
+  "HUD47-206": 1,
+  "HUD47-207": 1,
+  "HUD47-208": 1,
+  "HUD47-209": 1
+ },
+ "names": {
+  "HUD47-001": "Bonyhad (Tolna)",
+  "HUD47-002": "Dombóvar (Tolna)",
+  "HUD47-003": "Szekazárd (Tolna)",
+  "HUD47-004": "Gyonk (Tolna)",
+  "HUD47-005": "Tamási (Tolna)",
+  "HUD47-006": "Szekazárd (Tolna)",
+  "HUD47-007": "Paks (Tolna)",
+  "HUD47-008": "Sásd (Baranya)",
+  "HUD47-009": "Móhacs City (Baranya)",
+  "HUD47-010": "Pécsvarád (Baranya)",
+  "HUD47-011": "Móhacs (Baranya)",
+  "HUD47-012": "Siklós (Baranya)",
+  "HUD47-013": "Villány (Baranya)",
+  "HUD47-014": "Szentlorine (Baranya)",
+  "HUD47-015": "Pécs (Baranya)",
+  "HUD47-016": "Pécs City (Pécs)",
+  "HUD47-017": "Szágetvad (Somogy)",
+  "HUD47-018": "Igal (Somogy)",
+  "HUD47-019": "Barcs (Somogy)",
+  "HUD47-020": "Nagyatád (Somogy)",
+  "HUD47-021": "Csurgo (Somogy)",
+  "HUD47-022": "Marcali (Somogy)",
+  "HUD47-023": "Lengyelsoti (Somogy)",
+  "HUD47-024": "Tab (Somogy)",
+  "HUD47-025": "Kapósvar (Somogy)",
+  "HUD47-026": "Kapósvar City (Kapósvar City)",
+  "HUD47-027": "Keszthély (Zala)",
+  "HUD47-028": "Lenti (Zala)",
+  "HUD47-029": "Letenye (Zala)",
+  "HUD47-030": "Nagykanizsa City (Zala)",
+  "HUD47-031": "Nagykanizsa (Zala)",
+  "HUD47-032": "Sümeg (Zala)",
+  "HUD47-033": "Zalaegerszeg (Zala)",
+  "HUD47-034": "Zalaegerszeg (Zala)",
+  "HUD47-035": "Zalaszentgrót (Zala)",
+  "HUD47-036": "Pacsa (Zala)",
+  "HUD47-037": "Nova (Zala)",
+  "HUD47-038": "Tapolca (Zala)",
+  "HUD47-039": "Balatonfured (Zala)",
+  "HUD47-040": "Pápa City (Vaszprém)",
+  "HUD47-041": "Pápa (Vaszprém)",
+  "HUD47-042": "Devecser (Vaszprém)",
+  "HUD47-043": "Zirc (Vaszprém)",
+  "HUD47-044": "Enying (Vaszprém)",
+  "HUD47-045": "Vaszprém City (Vaszprém)",
+  "HUD47-046": "Vaszprém (Vaszprém)",
+  "HUD47-047": "Szentgotthárd (Vas)",
+  "HUD47-048": "Körmend (Vas)",
+  "HUD47-049": "Celldömölk (Vas)",
+  "HUD47-050": "Sárvar (Vas)",
+  "HUD47-051": "Vasvár (Vas)",
+  "HUD47-052": "Kószeg (Vas)",
+  "HUD47-053": "Kószeg City (Vas)",
+  "HUD47-054": "Szombathely (Vas)",
+  "HUD47-055": "Szombathely City (Vas)",
+  "HUD47-056": "Csepreg (Sopron)",
+  "HUD47-057": "Sopron (Sopron)",
+  "HUD47-058": "Kapuvár (Sopron)",
+  "HUD47-059": "Csorna (Sopron)",
+  "HUD47-060": "Sopron City (Sopron City)",
+  "HUD47-061": "Gyor (Gyor-Moson)",
+  "HUD47-062": "Gyorszentmarton (Gyor-Moson)",
+  "HUD47-063": "Tét (Gyor-Moson)",
+  "HUD47-064": "Mosonmqgyarovar (Gyor-Moson)",
+  "HUD47-065": "Magyárovar (Gyor-Moson)",
+  "HUD47-066": "Gyor City (Gyor City)",
+  "HUD47-067": "Komárom City (Komárom-Esztergom)",
+  "HUD47-068": "Komárom (Komárom-Esztergom)",
+  "HUD47-069": "Esztergom City (Komárom-Esztergom)",
+  "HUD47-070": "Esztergom (Komárom-Esztergom)",
+  "HUD47-071": "Tatabanya (Komárom-Esztergom)",
+  "HUD47-072": "Mór (Fejér)",
+  "HUD47-073": "Val (Fejér)",
+  "HUD47-074": "Sárbogárd (Fejér)",
+  "HUD47-075": "Adony (Fejér)",
+  "HUD47-076": "Székesfehérvár (Fejér)",
+  "HUD47-077": "Székesfehérvár City (Székesfehérvár City)",
+  "HUD47-078": "Budakonyeki (Metropolitan Budapest)",
+  "HUD47-079": "Ujpest (Metropolitan Budapest)",
+  "HUD47-080": "Pestszentlorinc (Metropolitan Budapest)",
+  "HUD47-081": "Kíspest (Metropolitan Budapest)",
+  "HUD47-082": "Rákospalota (Metropolitan Budapest)",
+  "HUD47-083": "Pestszenterzsébet (Metropolitan Budapest)",
+  "HUD47-084": "Gödöllő Budapest (Metropolitan Budapest)",
+  "HUD47-085": "Ráckeve (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-086": "Kalocsá City (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-087": "Kalocsá (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-088": "Dunavecse (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-089": "Kiskunhalaz City (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-090": "Váe (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-091": "Váe City (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-092": "Kiskörös (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-093": "Kunszentmiklós (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-094": "Kiskunfelegyhaza (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-095": "Kiskunfelegyhaza City (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-096": "Alsodábas (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-097": "Nagykőrös (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-098": "Abony (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-099": "Cegléd (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-100": "Monor (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-101": "Gyömrő  (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-102": "Nagykáta (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-103": "Aszód (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-104": "Központi (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-105": "Budakörnyéki (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-106": "Szentendre (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-107": "Gödöllő (Pest-Pilis-Solt-Kaskun)",
+  "HUD47-108": "Janóshalm (Bács-Bodrog)",
+  "HUD47-109": "Bácsalmás (Bács-Bodrog)",
+  "HUD47-110": "Baja (Bács-Bodrog)",
+  "HUD47-111": "Kecszemet City (Kecszemet City)",
+  "HUD47-112": "Baja City (Baja City)",
+  "HUD47-113": "Szob (Nógrad-Hont)",
+  "HUD47-114": "Rétsag (Nógrad-Hont)",
+  "HUD47-115": "Balassgyarmat City (Nógrad-Hont)",
+  "HUD47-116": "Balassgyarmat (Nógrad-Hont)",
+  "HUD47-117": "Szirák (Nógrad-Hont)",
+  "HUD47-118": "Szécsény (Nógrad-Hont)",
+  "HUD47-119": "Salgotárjan City (Nógrad-Hont)",
+  "HUD47-120": "Salgotárjan (Nógrad-Hont)",
+  "HUD47-121": "Budapest (Budapest)",
+  "HUD47-122": "Tiszafüred (Heves)",
+  "HUD47-123": "Hatvan City (Heves)",
+  "HUD47-124": "Heves (Heves)",
+  "HUD47-125": "Hatvan (Heves)",
+  "HUD47-126": "Pétervására (Heves)",
+  "HUD47-127": "Gyöngyös City (Heves)",
+  "HUD47-128": "Gyöngyös (Heves)",
+  "HUD47-129": "Eger City (Heves)",
+  "HUD47-130": "Eger (Heves)",
+  "HUD47-131": "Szolnok (Jász-Nagykun-Szolnok)",
+  "HUD47-132": "Szolnok City (Jász-Nagykun-Szolnok)",
+  "HUD47-133": "Mezötur (Jász-Nagykun-Szolnok)",
+  "HUD47-134": "Túrkeve (Jász-Nagykun-Szolnok)",
+  "HUD47-135": "Kisújszállás (Jász-Nagykun-Szolnok)",
+  "HUD47-136": "Karcag (Jász-Nagykun-Szolnok)",
+  "HUD47-137": "Tiszaföldvár (Jász-Nagykun-Szolnok)",
+  "HUD47-138": "Kunhegyes (Jász-Nagykun-Szolnok)",
+  "HUD47-139": "Törökszentmiklós (Jász-Nagykun-Szolnok)",
+  "HUD47-140": "Jászberény City (Jász-Nagykun-Szolnok)",
+  "HUD47-141": "Jaszapati (Jász-Nagykun-Szolnok)",
+  "HUD47-142": "Jászberény (Jász-Nagykun-Szolnok)",
+  "HUD47-143": "Kiskundorozsma (Csóngrád)",
+  "HUD47-144": "Csongrád (Csóngrád)",
+  "HUD47-145": "Mindszet (Csóngrád)",
+  "HUD47-146": "Szentes (Csóngrád)",
+  "HUD47-147": "Csóngrád City (Csóngrád)",
+  "HUD47-148": "Hódmezővásárhely (Hódmezővásárhely)",
+  "HUD47-149": "Elek (Csanád)",
+  "HUD47-150": "Mako (Csanád)",
+  "HUD47-151": "Mako City (Csanád)",
+  "HUD47-152": "Kissombor (Csanád)",
+  "HUD47-153": "Battonya (Csanád)",
+  "HUD47-154": "Mezőkovácsháza (Csanád)",
+  "HUD47-155": "Szeged City (Szeged City)",
+  "HUD47-156": "Orosháza (Békés)",
+  "HUD47-157": "Békéscsaba (Békés)",
+  "HUD47-158": "Békés (Békés)",
+  "HUD47-159": "Gyula (Békés)",
+  "HUD47-160": "Gyula City (Békés)",
+  "HUD47-161": "Szarvas (Békés)",
+  "HUD47-162": "Gyoma (Békés)",
+  "HUD47-163": "Szeghalom (Békés)",
+  "HUD47-164": "Csenger (Szatmár-Beres)",
+  "HUD47-165": "Vásárosnamény (Szatmár-Beres)",
+  "HUD47-166": "Fehérgyarmat (Szatmár-Beres)",
+  "HUD47-167": "Mátészalka (Szatmár-Beres)",
+  "HUD47-168": "Tiszalök (Szabolcs)",
+  "HUD47-169": "Nyíregyháza (Szabolcs)",
+  "HUD47-170": "Nagykálló (Szabolcs)",
+  "HUD47-171": "Gáva (Szabolcs)",
+  "HUD47-172": "Nyírbátor (Szabolcs)",
+  "HUD47-173": "Baktalórántháza (Szabolcs)",
+  "HUD47-174": "Kemecse (Szabolcs)",
+  "HUD47-175": "Nyíradony (Szabolcs)",
+  "HUD47-176": "Kisvárda (Szabolcs)",
+  "HUD47-177": "Mándok (Szabolcs)",
+  "HUD47-178": "Biharnagybajom (Bihar)",
+  "HUD47-179": "Biharkeresztes (Bihar)",
+  "HUD47-180": "Sarkad (Bihar)",
+  "HUD47-181": "Berettyóújfalu (Bihar)",
+  "HUD47-182": "Derecske (Bihar)",
+  "HUD47-183": "Nagyléta (Bihar)",
+  "HUD47-184": "Hajdunánás (Hajdú)",
+  "HUD47-185": "Hajdúböszörmény (Hajdú)",
+  "HUD47-186": "Hajdúszoboszló (Hajdú)",
+  "HUD47-187": "Püspökladány (Hajdú)",
+  "HUD47-188": "Debrecen (Hajdú)",
+  "HUD47-189": "Debrecen City (Debrecen City)",
+  "HUD47-190": "Putnok (Borsod-Gömor)",
+  "HUD47-191": "Edelény (Borsod-Gömor)",
+  "HUD47-192": "Ózd (Borsod-Gömor)",
+  "HUD47-193": "Sajószentpéter (Borsod-Gömor)",
+  "HUD47-194": "Miskole (Borsod-Gömor)",
+  "HUD47-195": "Mezőcsát (Borsod-Gömor)",
+  "HUD47-196": "Mezőkeresztes (Borsod-Gömor)",
+  "HUD47-197": "Mezokoresd (Borsod-Gömor)",
+  "HUD47-198": "Miskole City (Miskole City)",
+  "HUD47-199": "Szikszó (Abauj)",
+  "HUD47-200": "Gönc (Abauj)",
+  "HUD47-201": "Encs (Abauj)",
+  "HUD47-202": "Bódvaszilas (Abauj)",
+  "HUD47-203": "Abaújszantó (Abauj)",
+  "HUD47-204": "Szerencs (Zempler)",
+  "HUD47-205": "Tokaj (Zempler)",
+  "HUD47-206": "Cigánd (Zempler)",
+  "HUD47-207": "Sárospatak (Zempler)",
+  "HUD47-208": "Sátoraljaújhely City (Zempler)",
+  "HUD47-209": "Sátoraljaújhely (Zempler)"
+ },
+ "labels": {
+  "HUD47-001": "Bonyhad",
+  "HUD47-002": "Dombóvar",
+  "HUD47-003": "Szekazárd",
+  "HUD47-004": "Gyonk",
+  "HUD47-005": "Tamási",
+  "HUD47-006": "Szekazárd",
+  "HUD47-007": "Paks",
+  "HUD47-008": "Sásd",
+  "HUD47-009": "Móhacs City",
+  "HUD47-010": "Pécsvarád",
+  "HUD47-011": "Móhacs",
+  "HUD47-012": "Siklós",
+  "HUD47-013": "Villány",
+  "HUD47-014": "Szentlorine",
+  "HUD47-015": "Pécs",
+  "HUD47-016": "Pécs City",
+  "HUD47-017": "Szágetvad",
+  "HUD47-018": "Igal",
+  "HUD47-019": "Barcs",
+  "HUD47-020": "Nagyatád",
+  "HUD47-021": "Csurgo",
+  "HUD47-022": "Marcali",
+  "HUD47-023": "Lengyelsoti",
+  "HUD47-024": "Tab",
+  "HUD47-025": "Kapósvar",
+  "HUD47-026": "Kapósvar City",
+  "HUD47-027": "Keszthély",
+  "HUD47-028": "Lenti",
+  "HUD47-029": "Letenye",
+  "HUD47-030": "Nagykanizsa City",
+  "HUD47-031": "Nagykanizsa",
+  "HUD47-032": "Sümeg",
+  "HUD47-033": "Zalaegerszeg",
+  "HUD47-034": "Zalaegerszeg",
+  "HUD47-035": "Zalaszentgrót",
+  "HUD47-036": "Pacsa",
+  "HUD47-037": "Nova",
+  "HUD47-038": "Tapolca",
+  "HUD47-039": "Balatonfured",
+  "HUD47-040": "Pápa City",
+  "HUD47-041": "Pápa",
+  "HUD47-042": "Devecser",
+  "HUD47-043": "Zirc",
+  "HUD47-044": "Enying",
+  "HUD47-045": "Vaszprém City",
+  "HUD47-046": "Vaszprém",
+  "HUD47-047": "Szentgotthárd",
+  "HUD47-048": "Körmend",
+  "HUD47-049": "Celldömölk",
+  "HUD47-050": "Sárvar",
+  "HUD47-051": "Vasvár",
+  "HUD47-052": "Kószeg",
+  "HUD47-053": "Kószeg City",
+  "HUD47-054": "Szombathely",
+  "HUD47-055": "Szombathely City",
+  "HUD47-056": "Csepreg",
+  "HUD47-057": "Sopron",
+  "HUD47-058": "Kapuvár",
+  "HUD47-059": "Csorna",
+  "HUD47-060": "Sopron City",
+  "HUD47-061": "Gyor",
+  "HUD47-062": "Gyorszentmarton",
+  "HUD47-063": "Tét",
+  "HUD47-064": "Mosonmqgyarovar",
+  "HUD47-065": "Magyárovar",
+  "HUD47-066": "Gyor City",
+  "HUD47-067": "Komárom City",
+  "HUD47-068": "Komárom",
+  "HUD47-069": "Esztergom City",
+  "HUD47-070": "Esztergom",
+  "HUD47-071": "Tatabanya",
+  "HUD47-072": "Mór",
+  "HUD47-073": "Val",
+  "HUD47-074": "Sárbogárd",
+  "HUD47-075": "Adony",
+  "HUD47-076": "Székesfehérvár",
+  "HUD47-077": "Székesfehérvár City",
+  "HUD47-078": "Budakonyeki",
+  "HUD47-079": "Ujpest",
+  "HUD47-080": "Pestszentlorinc",
+  "HUD47-081": "Kíspest",
+  "HUD47-082": "Rákospalota",
+  "HUD47-083": "Pestszenterzsébet",
+  "HUD47-084": "Gödöllő Budapest",
+  "HUD47-085": "Ráckeve",
+  "HUD47-086": "Kalocsá City",
+  "HUD47-087": "Kalocsá",
+  "HUD47-088": "Dunavecse",
+  "HUD47-089": "Kiskunhalaz City",
+  "HUD47-090": "Váe",
+  "HUD47-091": "Váe City",
+  "HUD47-092": "Kiskörös",
+  "HUD47-093": "Kunszentmiklós",
+  "HUD47-094": "Kiskunfelegyhaza",
+  "HUD47-095": "Kiskunfelegyhaza City",
+  "HUD47-096": "Alsodábas",
+  "HUD47-097": "Nagykőrös",
+  "HUD47-098": "Abony",
+  "HUD47-099": "Cegléd",
+  "HUD47-100": "Monor",
+  "HUD47-101": "Gyömrő ",
+  "HUD47-102": "Nagykáta",
+  "HUD47-103": "Aszód",
+  "HUD47-104": "Központi",
+  "HUD47-105": "Budakörnyéki",
+  "HUD47-106": "Szentendre",
+  "HUD47-107": "Gödöllő",
+  "HUD47-108": "Janóshalm",
+  "HUD47-109": "Bácsalmás",
+  "HUD47-110": "Baja",
+  "HUD47-111": "Kecszemet City",
+  "HUD47-112": "Baja City",
+  "HUD47-113": "Szob",
+  "HUD47-114": "Rétsag",
+  "HUD47-115": "Balassgyarmat City",
+  "HUD47-116": "Balassgyarmat",
+  "HUD47-117": "Szirák",
+  "HUD47-118": "Szécsény",
+  "HUD47-119": "Salgotárjan City",
+  "HUD47-120": "Salgotárjan",
+  "HUD47-121": "Budapest",
+  "HUD47-122": "Tiszafüred",
+  "HUD47-123": "Hatvan City",
+  "HUD47-124": "Heves",
+  "HUD47-125": "Hatvan",
+  "HUD47-126": "Pétervására",
+  "HUD47-127": "Gyöngyös City",
+  "HUD47-128": "Gyöngyös",
+  "HUD47-129": "Eger City",
+  "HUD47-130": "Eger",
+  "HUD47-131": "Szolnok",
+  "HUD47-132": "Szolnok City",
+  "HUD47-133": "Mezötur",
+  "HUD47-134": "Túrkeve",
+  "HUD47-135": "Kisújszállás",
+  "HUD47-136": "Karcag",
+  "HUD47-137": "Tiszaföldvár",
+  "HUD47-138": "Kunhegyes",
+  "HUD47-139": "Törökszentmiklós",
+  "HUD47-140": "Jászberény City",
+  "HUD47-141": "Jaszapati",
+  "HUD47-142": "Jászberény",
+  "HUD47-143": "Kiskundorozsma",
+  "HUD47-144": "Csongrád",
+  "HUD47-145": "Mindszet",
+  "HUD47-146": "Szentes",
+  "HUD47-147": "Csóngrád City",
+  "HUD47-148": "Hódmezővásárhely",
+  "HUD47-149": "Elek",
+  "HUD47-150": "Mako",
+  "HUD47-151": "Mako City",
+  "HUD47-152": "Kissombor",
+  "HUD47-153": "Battonya",
+  "HUD47-154": "Mezőkovácsháza",
+  "HUD47-155": "Szeged City",
+  "HUD47-156": "Orosháza",
+  "HUD47-157": "Békéscsaba",
+  "HUD47-158": "Békés",
+  "HUD47-159": "Gyula",
+  "HUD47-160": "Gyula City",
+  "HUD47-161": "Szarvas",
+  "HUD47-162": "Gyoma",
+  "HUD47-163": "Szeghalom",
+  "HUD47-164": "Csenger",
+  "HUD47-165": "Vásárosnamény",
+  "HUD47-166": "Fehérgyarmat",
+  "HUD47-167": "Mátészalka",
+  "HUD47-168": "Tiszalök",
+  "HUD47-169": "Nyíregyháza",
+  "HUD47-170": "Nagykálló",
+  "HUD47-171": "Gáva",
+  "HUD47-172": "Nyírbátor",
+  "HUD47-173": "Baktalórántháza",
+  "HUD47-174": "Kemecse",
+  "HUD47-175": "Nyíradony",
+  "HUD47-176": "Kisvárda",
+  "HUD47-177": "Mándok",
+  "HUD47-178": "Biharnagybajom",
+  "HUD47-179": "Biharkeresztes",
+  "HUD47-180": "Sarkad",
+  "HUD47-181": "Berettyóújfalu",
+  "HUD47-182": "Derecske",
+  "HUD47-183": "Nagyléta",
+  "HUD47-184": "Hajdunánás",
+  "HUD47-185": "Hajdúböszörmény",
+  "HUD47-186": "Hajdúszoboszló",
+  "HUD47-187": "Püspökladány",
+  "HUD47-188": "Debrecen",
+  "HUD47-189": "Debrecen City",
+  "HUD47-190": "Putnok",
+  "HUD47-191": "Edelény",
+  "HUD47-192": "Ózd",
+  "HUD47-193": "Sajószentpéter",
+  "HUD47-194": "Miskole",
+  "HUD47-195": "Mezőcsát",
+  "HUD47-196": "Mezőkeresztes",
+  "HUD47-197": "Mezokoresd",
+  "HUD47-198": "Miskole City",
+  "HUD47-199": "Szikszó",
+  "HUD47-200": "Gönc",
+  "HUD47-201": "Encs",
+  "HUD47-202": "Bódvaszilas",
+  "HUD47-203": "Abaújszantó",
+  "HUD47-204": "Szerencs",
+  "HUD47-205": "Tokaj",
+  "HUD47-206": "Cigánd",
+  "HUD47-207": "Sárospatak",
+  "HUD47-208": "Sátoraljaújhely City",
+  "HUD47-209": "Sátoraljaújhely"
+ },
+ "regionOf": {
+  "HUD47-001": "HU",
+  "HUD47-002": "HU",
+  "HUD47-003": "HU",
+  "HUD47-004": "HU",
+  "HUD47-005": "HU",
+  "HUD47-006": "HU",
+  "HUD47-007": "HU",
+  "HUD47-008": "HU",
+  "HUD47-009": "HU",
+  "HUD47-010": "HU",
+  "HUD47-011": "HU",
+  "HUD47-012": "HU",
+  "HUD47-013": "HU",
+  "HUD47-014": "HU",
+  "HUD47-015": "HU",
+  "HUD47-016": "HU",
+  "HUD47-017": "HU",
+  "HUD47-018": "HU",
+  "HUD47-019": "HU",
+  "HUD47-020": "HU",
+  "HUD47-021": "HU",
+  "HUD47-022": "HU",
+  "HUD47-023": "HU",
+  "HUD47-024": "HU",
+  "HUD47-025": "HU",
+  "HUD47-026": "HU",
+  "HUD47-027": "HU",
+  "HUD47-028": "HU",
+  "HUD47-029": "HU",
+  "HUD47-030": "HU",
+  "HUD47-031": "HU",
+  "HUD47-032": "HU",
+  "HUD47-033": "HU",
+  "HUD47-034": "HU",
+  "HUD47-035": "HU",
+  "HUD47-036": "HU",
+  "HUD47-037": "HU",
+  "HUD47-038": "HU",
+  "HUD47-039": "HU",
+  "HUD47-040": "HU",
+  "HUD47-041": "HU",
+  "HUD47-042": "HU",
+  "HUD47-043": "HU",
+  "HUD47-044": "HU",
+  "HUD47-045": "HU",
+  "HUD47-046": "HU",
+  "HUD47-047": "HU",
+  "HUD47-048": "HU",
+  "HUD47-049": "HU",
+  "HUD47-050": "HU",
+  "HUD47-051": "HU",
+  "HUD47-052": "HU",
+  "HUD47-053": "HU",
+  "HUD47-054": "HU",
+  "HUD47-055": "HU",
+  "HUD47-056": "HU",
+  "HUD47-057": "HU",
+  "HUD47-058": "HU",
+  "HUD47-059": "HU",
+  "HUD47-060": "HU",
+  "HUD47-061": "HU",
+  "HUD47-062": "HU",
+  "HUD47-063": "HU",
+  "HUD47-064": "HU",
+  "HUD47-065": "HU",
+  "HUD47-066": "HU",
+  "HUD47-067": "HU",
+  "HUD47-068": "HU",
+  "HUD47-069": "HU",
+  "HUD47-070": "HU",
+  "HUD47-071": "HU",
+  "HUD47-072": "HU",
+  "HUD47-073": "HU",
+  "HUD47-074": "HU",
+  "HUD47-075": "HU",
+  "HUD47-076": "HU",
+  "HUD47-077": "HU",
+  "HUD47-078": "HU",
+  "HUD47-079": "HU",
+  "HUD47-080": "HU",
+  "HUD47-081": "HU",
+  "HUD47-082": "HU",
+  "HUD47-083": "HU",
+  "HUD47-084": "HU",
+  "HUD47-085": "HU",
+  "HUD47-086": "HU",
+  "HUD47-087": "HU",
+  "HUD47-088": "HU",
+  "HUD47-089": "HU",
+  "HUD47-090": "HU",
+  "HUD47-091": "HU",
+  "HUD47-092": "HU",
+  "HUD47-093": "HU",
+  "HUD47-094": "HU",
+  "HUD47-095": "HU",
+  "HUD47-096": "HU",
+  "HUD47-097": "HU",
+  "HUD47-098": "HU",
+  "HUD47-099": "HU",
+  "HUD47-100": "HU",
+  "HUD47-101": "HU",
+  "HUD47-102": "HU",
+  "HUD47-103": "HU",
+  "HUD47-104": "HU",
+  "HUD47-105": "HU",
+  "HUD47-106": "HU",
+  "HUD47-107": "HU",
+  "HUD47-108": "HU",
+  "HUD47-109": "HU",
+  "HUD47-110": "HU",
+  "HUD47-111": "HU",
+  "HUD47-112": "HU",
+  "HUD47-113": "HU",
+  "HUD47-114": "HU",
+  "HUD47-115": "HU",
+  "HUD47-116": "HU",
+  "HUD47-117": "HU",
+  "HUD47-118": "HU",
+  "HUD47-119": "HU",
+  "HUD47-120": "HU",
+  "HUD47-121": "HU",
+  "HUD47-122": "HU",
+  "HUD47-123": "HU",
+  "HUD47-124": "HU",
+  "HUD47-125": "HU",
+  "HUD47-126": "HU",
+  "HUD47-127": "HU",
+  "HUD47-128": "HU",
+  "HUD47-129": "HU",
+  "HUD47-130": "HU",
+  "HUD47-131": "HU",
+  "HUD47-132": "HU",
+  "HUD47-133": "HU",
+  "HUD47-134": "HU",
+  "HUD47-135": "HU",
+  "HUD47-136": "HU",
+  "HUD47-137": "HU",
+  "HUD47-138": "HU",
+  "HUD47-139": "HU",
+  "HUD47-140": "HU",
+  "HUD47-141": "HU",
+  "HUD47-142": "HU",
+  "HUD47-143": "HU",
+  "HUD47-144": "HU",
+  "HUD47-145": "HU",
+  "HUD47-146": "HU",
+  "HUD47-147": "HU",
+  "HUD47-148": "HU",
+  "HUD47-149": "HU",
+  "HUD47-150": "HU",
+  "HUD47-151": "HU",
+  "HUD47-152": "HU",
+  "HUD47-153": "HU",
+  "HUD47-154": "HU",
+  "HUD47-155": "HU",
+  "HUD47-156": "HU",
+  "HUD47-157": "HU",
+  "HUD47-158": "HU",
+  "HUD47-159": "HU",
+  "HUD47-160": "HU",
+  "HUD47-161": "HU",
+  "HUD47-162": "HU",
+  "HUD47-163": "HU",
+  "HUD47-164": "HU",
+  "HUD47-165": "HU",
+  "HUD47-166": "HU",
+  "HUD47-167": "HU",
+  "HUD47-168": "HU",
+  "HUD47-169": "HU",
+  "HUD47-170": "HU",
+  "HUD47-171": "HU",
+  "HUD47-172": "HU",
+  "HUD47-173": "HU",
+  "HUD47-174": "HU",
+  "HUD47-175": "HU",
+  "HUD47-176": "HU",
+  "HUD47-177": "HU",
+  "HUD47-178": "HU",
+  "HUD47-179": "HU",
+  "HUD47-180": "HU",
+  "HUD47-181": "HU",
+  "HUD47-182": "HU",
+  "HUD47-183": "HU",
+  "HUD47-184": "HU",
+  "HUD47-185": "HU",
+  "HUD47-186": "HU",
+  "HUD47-187": "HU",
+  "HUD47-188": "HU",
+  "HUD47-189": "HU",
+  "HUD47-190": "HU",
+  "HUD47-191": "HU",
+  "HUD47-192": "HU",
+  "HUD47-193": "HU",
+  "HUD47-194": "HU",
+  "HUD47-195": "HU",
+  "HUD47-196": "HU",
+  "HUD47-197": "HU",
+  "HUD47-198": "HU",
+  "HUD47-199": "HU",
+  "HUD47-200": "HU",
+  "HUD47-201": "HU",
+  "HUD47-202": "HU",
+  "HUD47-203": "HU",
+  "HUD47-204": "HU",
+  "HUD47-205": "HU",
+  "HUD47-206": "HU",
+  "HUD47-207": "HU",
+  "HUD47-208": "HU",
+  "HUD47-209": "HU"
+ },
+ "labelName": true,
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "HUD47-001": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-002": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-003": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-004": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-005": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-006": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-007": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-008": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-009": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-010": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-011": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-012": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-013": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-014": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-015": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-016": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-017": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-018": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-019": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-020": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-021": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-022": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-023": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-024": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-025": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-026": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-027": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-028": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-029": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-030": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-031": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-032": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-033": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-034": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-035": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-036": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-037": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-038": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-039": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-040": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-041": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-042": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-043": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-044": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-045": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-046": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-047": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-048": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-049": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-050": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-051": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-052": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-053": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-054": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-055": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-056": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-057": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-058": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-059": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-060": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-061": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-062": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-063": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-064": {
+     "사회민주당 (SZDP)": 1
+    },
+    "HUD47-065": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-066": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-067": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-068": {
+     "독립헝가리민주당 (FMDP)": 1
+    },
+    "HUD47-069": {
+     "기독여성연맹 (KNT)": 1
+    },
+    "HUD47-070": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-071": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-072": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-073": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-074": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-075": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-076": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-077": {
+     "기독여성연맹 (KNT)": 1
+    },
+    "HUD47-078": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-079": {
+     "사회민주당 (SZDP)": 1
+    },
+    "HUD47-080": {
+     "사회민주당 (SZDP)": 1
+    },
+    "HUD47-081": {
+     "사회민주당 (SZDP)": 1
+    },
+    "HUD47-082": {
+     "사회민주당 (SZDP)": 1
+    },
+    "HUD47-083": {
+     "사회민주당 (SZDP)": 1
+    },
+    "HUD47-084": {
+     "사회민주당 (SZDP)": 1
+    },
+    "HUD47-085": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-086": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-087": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-088": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-089": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-090": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-091": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-092": {
+     "독립헝가리민주당 (FMDP)": 1
+    },
+    "HUD47-093": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-094": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-095": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-096": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-097": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-098": {
+     "독립헝가리민주당 (FMDP)": 1
+    },
+    "HUD47-099": {
+     "사회민주당 (SZDP)": 1
+    },
+    "HUD47-100": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-101": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-102": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-103": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-104": {
+     "사회민주당 (SZDP)": 1
+    },
+    "HUD47-105": {
+     "사회민주당 (SZDP)": 1
+    },
+    "HUD47-106": {
+     "사회민주당 (SZDP)": 1
+    },
+    "HUD47-107": {
+     "사회민주당 (SZDP)": 1
+    },
+    "HUD47-108": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-109": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-110": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-111": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-112": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-113": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-114": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-115": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-116": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-117": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-118": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-119": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-120": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-121": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-122": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-123": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-124": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-125": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-126": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-127": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-128": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-129": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-130": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-131": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-132": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-133": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-134": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-135": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-136": {
+     "민족농민당 (NPP)": 1
+    },
+    "HUD47-137": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-138": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-139": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-140": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-141": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-142": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-143": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-144": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-145": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-146": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-147": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-148": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-149": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-150": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-151": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-152": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-153": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-154": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-155": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-156": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-157": {
+     "사회민주당 (SZDP)": 1
+    },
+    "HUD47-158": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-159": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-160": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-161": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-162": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-163": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-164": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-165": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-166": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-167": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-168": {
+     "독립헝가리민주당 (FMDP)": 1
+    },
+    "HUD47-169": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-170": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-171": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-172": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-173": {
+     "민족농민당 (NPP)": 1
+    },
+    "HUD47-174": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-175": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-176": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-177": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-178": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-179": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-180": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-181": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-182": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-183": {
+     "민족농민당 (NPP)": 1
+    },
+    "HUD47-184": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-185": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-186": {
+     "민족농민당 (NPP)": 1
+    },
+    "HUD47-187": {
+     "민족농민당 (NPP)": 1
+    },
+    "HUD47-188": {
+     "민족농민당 (NPP)": 1
+    },
+    "HUD47-189": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-190": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-191": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-192": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-193": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-194": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-195": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-196": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-197": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-198": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-199": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-200": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-201": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-202": {
+     "헝가리 독립당 (MFP)": 1
+    },
+    "HUD47-203": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-204": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-205": {
+     "민주인민당 (DNP)": 1
+    },
+    "HUD47-206": {
+     "헝가리 공산당 (MKP)": 1
+    },
+    "HUD47-207": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-208": {
+     "독립소농당 (FKGP)": 1
+    },
+    "HUD47-209": {
+     "독립소농당 (FKGP)": 1
+    }
+   }
+  }
+ ],
+ "yearLink": true,
+ "seatNotes": "군마다 1석으로 1위 정당만 칠했어요(원본 지도 색 기준)."
+}
