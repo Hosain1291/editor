@@ -47,7 +47,7 @@ function renderMenu() {
     // YAPms처럼: 모양틀 하나 + 텍스트 링크로 고르기 (연도별 지도 묶음, 또는 주·지역 보기가 여러 개인 지도)
     const linkCard = (title, items, cur) => {
       const c = document.createElement('div'); c.className = 'card win ycard big';
-      const yl = items.map((it, i) => `<a href="#${it.e.meta.id}--${it.v.key}" data-i="${i}" class="ylink${viewProgress(it.e, it.v).asg ? ' wip' : ''}" title="${esc(it.e.meta.name)}">${esc(it.label)}</a>`).join('');
+      const yl = items.map((it, i) => `<a href="#${it.e.meta.id}--${it.v.key}" data-i="${i}" class="ylink${viewProgress(it.e, it.v).asg ? ' wip' : ''}" title="${esc(it.e.meta.name)}" data-q="${esc([it.e.meta.id, it.e.meta.name, it.e.meta.subtitle, it.v.name, it.v.sub, it.label].filter(Boolean).join(' '))}">${esc(it.label)}</a>`).join('');
       c.innerHTML = `<div class="tb"><span class="t">${esc(title)}</span><span class="ctl"><i>—</i><i>❐</i><i>✕</i></span></div><div class="ythumb"></div><div class="cb"><div class="meta ymeta"></div><div class="ylinks">${yl}</div></div>`;
       const show = i => { const { e, v, label } = items[i], pr = viewProgress(e, v), ml = metaLine(e.meta, v, pr.n, pr.tot); cur = i;
         c.querySelector('.ythumb').innerHTML = thumbSVG(e, v);
@@ -64,7 +64,7 @@ function renderMenu() {
       if (meta.linkViews && meta.views.length > 1) { linkCard(meta.name, meta.views.map(v => ({ e: entry, v, label: v.name })), 0); return; }
       meta.views.forEach(v => {
         const { n, tot, asg } = viewProgress(entry, v);
-        const c = document.createElement('button'); c.className = 'card win' + (v.big ? ' big' : '');
+        const c = document.createElement('button'); c.className = 'card win' + (v.big ? ' big' : ''); c.dataset.q = [meta.id, meta.name, meta.subtitle, meta.cardName, v.name, v.sub].filter(Boolean).join(' ');
         c.innerHTML = `<div class="tb"><span class="t">${esc(meta.cardName && meta.views.length === 1 ? meta.cardName : v.name)}</span><span class="ctl"><i>—</i><i>❐</i><i>✕</i></span></div>` +
           thumbSVG(entry, v) + (asg ? `<span class="tag">진행 중</span>` : '') +
           `<div class="cb"><div class="meta">${metaLine(meta, v, n, tot)}</div><div class="prog"><i style="width:${tot ? asg / tot * 100 : 0}%"></i></div></div>`;
@@ -80,7 +80,38 @@ function renderMenu() {
   up.innerHTML = `<div class="msec"><h2>내 지도</h2><span class="label">Custom map · SVG · GeoJSON · SHP</span></div><div class="cards"><button class="card win upcard"><div class="tb"><span class="t">지도 파일 올리기</span></div><div class="upin"><b>＋</b><span>SVG · GeoJSON · Shapefile을 올리면 바로 칠할 수 있어요.<br>Shapefile은 .zip 하나, 또는 .shp와 .dbf를 함께 고르세요.<br>이 브라우저에 저장돼요.</span></div></button></div>`;
   up.querySelector('.upcard').onclick = () => $('#cuFile').click();
   wrap.appendChild(up);
+  filterMenu();
 }
+
+/* 지도 찾기: 나라·묶음·지도 이름·연도로 걸러요 (띄어 쓴 낱말이 모두 들어간 것만) */
+const Q_ALIAS = { '대만': '중화민국', '타이완': '중화민국', 'taiwan': '중화민국', '한국': '대한민국', '남한': '대한민국', '터키': '튀르키예', '버마': '미얀마', '네덜': '네덜란드' };
+function filterMenu() {
+  const inp = $('#mapSearch'); if (!inp) return;
+  const norm = t => (t || '').toLowerCase().replace(/[·・\s\-–—()]/g, '');
+  const toks = inp.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  let hits = 0;
+  document.querySelectorAll('#mapGroups .mgroup').forEach(sec => {
+    const h = sec.querySelector('.msec h2')?.textContent || '';
+    let any = false;
+    sec.querySelectorAll('.cards > .card').forEach(card => {
+      if (card.classList.contains('upcard')) { card.classList.toggle('qhide', !!toks.length); return; }
+      const base = h + ' ' + (card.querySelector('.tb .t')?.textContent || '');
+      const ok = q => { const hay = norm(base + ' ' + q); return toks.every(t => { const n = norm(t), a = Q_ALIAS[t]; return hay.includes(n) || (a && hay.includes(norm(a))); }); };
+      const links = card.querySelectorAll('.ylink');
+      if (links.length) {
+        let n = 0, first = -1;
+        links.forEach(a => { const m = !toks.length || ok(a.dataset.q || a.textContent); a.classList.toggle('qhide', !m); if (m) { n++; if (first < 0) first = +a.dataset.i; } });
+        card.classList.toggle('qhide', !n); if (n) { any = true; hits += toks.length ? n : 0; if (toks.length && links[first] && links[first].onmouseenter) links[first].onmouseenter(); }
+      } else {
+        const m = !toks.length || ok(card.dataset.q || ''); card.classList.toggle('qhide', !m); if (m) { any = true; if (toks.length) hits++; }
+      }
+    });
+    sec.classList.toggle('qhide', !any && !!toks.length);
+  });
+  const nEl = $('#mapSearchN'); if (nEl) nEl.textContent = toks.length ? (hits ? `${hits}개 찾음` : '찾는 지도가 없어요') : '';
+}
+document.addEventListener('input', e => { if (e.target && e.target.id === 'mapSearch') filterMenu(); });
+document.addEventListener('keydown', e => { if (e.target && e.target.id === 'mapSearch' && e.key === 'Escape') { e.target.value = ''; filterMenu(); } });
 
 function showMenu() {
   curView = null; curHash = null; hideTip();

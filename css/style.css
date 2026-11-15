@@ -383,3 +383,9 @@ body.present #chartSec{display:block!important}
 .cowin .sw,.corow .sw{display:inline-block;width:12px;height:12px;flex:none}
 .corow0 .bn{width:20px;text-align:center;opacity:.7}.corow0 .del{padding:2px 8px;font-size:12px}
 .cosel{min-width:110px}.cobar .cob{display:flex;height:100%}.cobar .cob+.cob{border-left:2px solid #000}
+
+.msearch{display:flex;align-items:center;gap:10px;margin:0 0 18px}
+.msearch input{flex:1;max-width:560px;background:var(--panel);border:1px solid var(--line2);color:var(--text);padding:9px 12px;border-radius:2px;font-size:15px}
+.msearch input:focus{outline:none;border-color:var(--frame);box-shadow:0 0 0 1px var(--frame)}
+#mapSearchN{color:var(--mute);font-size:13px}
+.ylink.qhide,.card.qhide,.mgroup.qhide{display:none!important}
