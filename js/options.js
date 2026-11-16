@@ -29,8 +29,8 @@ function renderOptions() {
   const tog = (key, t, sub) => `<label class="tog"><span><b>${t}</b>${sub ? `<small>${sub}</small>` : ''}</span><input type="checkbox" data-k="${key}" ${OPT[key] ? 'checked' : ''}><i></i></label>`;
   $('#optBody').innerHTML = `
    <div class="ogrp"><div class="olab">테마</div>
-    <div class="orow"><span>화면 테마</span><div class="seg themeSeg" data-built="1">${themeButtons()}</div></div>
-    <div class="hint" style="margin:-2px 0 4px">TNO는 하늘색 홀로그램, TFR(The Fire Rises)은 검은 바탕에 네온 마젠타 격자, PC통신은 하이텔·천리안 같은 파란 화면, Win 3.1·95·XP는 옛 윈도우 창 모양이에요.</div></div>
+    <div class="themeSeg flat" data-built="1">${themeButtons(true)}</div>
+    <div class="hint" style="margin:-2px 0 4px">누르면 바로 바뀌어요. 메뉴 화면 위쪽 '테마' 단추로도 고를 수 있어요.</div></div>
    <div class="ogrp"><div class="olab">지도 글자</div>
     <div class="orow"><span>지도 숫자</span>${seg('labels', [[true, 'YES'], [false, 'NO']])}</div>
     <div class="hint" style="margin:-2px 0 4px">선거구 위에 의석수(미국은 주 약자도)를 보여줘요. 위쪽 '숫자' 버튼으로도 바꿀 수 있어요.</div>
@@ -53,6 +53,7 @@ function initOptions() {
   $('#optBtn').onclick = () => { renderOptions(); $('#mOpt').classList.add('open'); };
   $('#lblBtn').onclick = () => { OPT.labels = !OPT.labels; saveOpt(); applyOptions(); toast(`지도 숫자 ${OPT.labels ? 'YES' : 'NO'}`); };
   $('#optBody').addEventListener('click', e => {
+    if (e.target.closest('.themeSeg')) return;
     const b = e.target.closest('.seg button'); if (!b) return;
     const k = b.parentElement.dataset.k, v = b.dataset.v;
     OPT[k] = v === 'true' ? true : v === 'false' ? false : isNaN(+v) ? v : +v; saveOpt(); renderOptions(); applyOptions();

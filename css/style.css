@@ -400,3 +400,7 @@ body.present #chartSec{display:block!important}
 .themeSeg.open .tpop{display:block}
 .themeSeg .tlist{display:grid;grid-template-columns:repeat(2,1fr);gap:6px;padding:10px}
 .themeSeg .tlist button{display:flex;align-items:center;gap:8px;text-align:left;padding:7px 9px}
+
+.themeSeg.flat .tlist{padding:4px 0 6px}
+.themeSeg.flat .tlist button{display:flex;align-items:center;gap:8px;text-align:left;padding:7px 9px}
+.themeSeg.flat .tsw{display:inline-block;width:18px;height:18px;border:1px solid currentColor;border-radius:3px;flex:none}

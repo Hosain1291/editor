@@ -27,11 +27,13 @@ setThemeCss();
 function themeTexts() {
   const d = document.getElementById('menuDesc'); if (d) d.textContent = THEME.desc;
   const l = document.getElementById('menuLabel'); if (l) l.textContent = THEME.full + ' · 선거 지도 시뮬레이터';
-  document.querySelectorAll('.themeSeg').forEach(seg => { seg.innerHTML = themeButtons(); seg.dataset.built = 1; });
+  document.querySelectorAll('.themeSeg').forEach(seg => { seg.innerHTML = themeButtons(seg.classList.contains('flat')); seg.dataset.built = 1; });
 }
 /* 테마 고르기: 필터 창처럼 단추 하나 → 펼쳐지는 목록 */
-function themeButtons() {
+function themeButtons(flat) {
   const sw = t => `<i class="tsw" style="background:linear-gradient(135deg,${t.sea} 0 33%,${t.toss} 33% 66%,${t.frame} 66%)"></i>`;
+  const list = Object.entries(THEMES).map(([k, t]) => `<button type="button" data-theme="${k}" class="${k === THEME_ID ? 'on' : ''}">${sw(t)}<span>${t.name}</span></button>`).join('');
+  if (flat) return `<div class="tlist">${list}</div>`;
   return `<button type="button" class="tdrop">${sw(THEME)}<b>${THEME.name}</b><span class="car">▾</span></button>`
     + `<div class="tpop win"><div class="tb"><span class="t">화면 테마</span><span class="ctl"><i class="tclose" style="cursor:pointer">✕</i></span></div><div class="tlist">`
     + Object.entries(THEMES).map(([k, t]) => `<button type="button" data-theme="${k}" class="${k === THEME_ID ? 'on' : ''}">${sw(t)}<span>${t.name}</span></button>`).join('') + `</div></div>`;
