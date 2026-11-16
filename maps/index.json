@@ -1961,6 +1961,10 @@
    "folder": "il-subdistricts"
   },
   {
+   "id": "il-municipalities",
+   "folder": "il-municipalities"
+  },
+  {
    "id": "hu-megyek",
    "folder": "hu-megyek"
   },

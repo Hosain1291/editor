@@ -29,7 +29,7 @@ def thumb(svgpath,out,w):
     open(out,'w').write(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{vb}">{gopen}<path d="'+''.join(ds)+'"/></g></svg>')
     return True
 idx=json.load(open(os.path.join(R,'index.json')))
-cat=[];done={};bund={}
+cat=[];done={};thash={};bund={}
 for e in idx['maps']:
     f=e['folder']; mp=os.path.join(R,f,'map.json'); m=json.load(open(mp))
     svgrel=m.get('svg','map.svg'); svgp=os.path.normpath(os.path.join(R,f,svgrel))
@@ -50,8 +50,13 @@ for e in idx['maps']:
     tp=svgp[:-len('map.svg')]+'thumb.svg' if svgp.endswith('map.svg') else None
     if tp and os.path.exists(os.path.join(os.path.dirname(svgp),'.nothumb')): tp=None
     if tp:
-        if tp not in done: done[tp]=thumb(svgp,tp,m.get('width',1000))
-        if done[tp]: light['thumb']=os.path.relpath(tp,os.path.join(R,f)).replace(os.sep,'/')
+        if tp not in done:
+            done[tp]=thumb(svgp,tp,m.get('width',1000))
+            if done[tp]:  # 똑같은 썸네일은 하나만 두고 같이 써요 (파일 수 아끼기)
+                hx=hashlib.md5(open(tp,'rb').read()).hexdigest()
+                if hx in thash: os.remove(tp); done[tp]=thash[hx]
+                else: thash[hx]=tp; done[tp]=tp
+        if done[tp]: light['thumb']=os.path.relpath(done[tp],os.path.join(R,f)).replace(os.sep,'/')
     bk=re.sub(r'[^0-9A-Za-z]+','-',m.get('menuCountry') and ('c'+hashlib.md5(m['menuCountry'].encode()).hexdigest()[:8]) or m.get('id',e['id']))
     bund.setdefault(bk,{})[m.get('id',e['id'])]=m
     cat.append({'id':m.get('id',e['id']),'folder':f,'v':h,'b':bk,'meta':light})
