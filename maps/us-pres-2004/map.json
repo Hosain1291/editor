@@ -1,0 +1,431 @@
+{
+ "id": "us-pres-2004",
+ "name": "미국 대통령 선거",
+ "subtitle": "2004년 · 선거인단 538명",
+ "tag": "PRESIDENTIAL ELECTION",
+ "layout": "presidential",
+ "menuCountry": "미국",
+ "menuGroup": "미국 대통령 선거 (실제 결과)",
+ "cardName": "2004",
+ "yearLink": true,
+ "svg": "../us-states/map.svg",
+ "width": 975,
+ "height": 610,
+ "regions": {
+  "USA": "미국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2004년",
+   "sub": "50개 주 + DC",
+   "regions": [
+    "USA"
+   ],
+   "box": [
+    0,
+    0,
+    975,
+    610
+   ],
+   "big": true
+  }
+ ],
+ "parties": [
+  {
+   "name": "민주당 (존 케리)",
+   "color": "#1f5fbf"
+  },
+  {
+   "name": "공화당 (조지 W. 부시)",
+   "color": "#d62828"
+  },
+  {
+   "name": "존 에드워즈 (신의 없는 선거인)",
+   "color": "#e0a800"
+  }
+ ],
+ "candidates": [
+  "존 케리",
+  "조지 W. 부시",
+  "존 에드워즈 (신의 없는 선거인)"
+ ],
+ "defaultSeats": 3,
+ "seats": {
+  "AL": 9,
+  "AK": 3,
+  "AZ": 10,
+  "AR": 6,
+  "CA": 55,
+  "CO": 9,
+  "CT": 7,
+  "DE": 3,
+  "FL": 27,
+  "GA": 15,
+  "HI": 4,
+  "ID": 4,
+  "IL": 21,
+  "IN": 11,
+  "IA": 7,
+  "KS": 6,
+  "KY": 8,
+  "LA": 9,
+  "ME": 4,
+  "MD": 10,
+  "MA": 12,
+  "MI": 17,
+  "MN": 10,
+  "MS": 6,
+  "MO": 11,
+  "MT": 3,
+  "NE": 5,
+  "NV": 5,
+  "NH": 4,
+  "NJ": 15,
+  "NM": 5,
+  "NY": 31,
+  "NC": 15,
+  "ND": 3,
+  "OH": 20,
+  "OK": 7,
+  "OR": 7,
+  "PA": 21,
+  "RI": 4,
+  "SC": 8,
+  "SD": 3,
+  "TN": 11,
+  "TX": 34,
+  "UT": 5,
+  "VT": 3,
+  "VA": 13,
+  "WA": 11,
+  "WV": 5,
+  "WI": 10,
+  "WY": 3,
+  "DC": 3
+ },
+ "names": {
+  "AL": "앨라배마",
+  "AK": "알래스카",
+  "AZ": "애리조나",
+  "AR": "아칸소",
+  "CA": "캘리포니아",
+  "CO": "콜로라도",
+  "CT": "코네티컷",
+  "DE": "델라웨어",
+  "FL": "플로리다",
+  "GA": "조지아",
+  "HI": "하와이",
+  "ID": "아이다호",
+  "IL": "일리노이",
+  "IN": "인디애나",
+  "IA": "아이오와",
+  "KS": "캔자스",
+  "KY": "켄터키",
+  "LA": "루이지애나",
+  "ME": "메인",
+  "MD": "메릴랜드",
+  "MA": "매사추세츠",
+  "MI": "미시간",
+  "MN": "미네소타",
+  "MS": "미시시피",
+  "MO": "미주리",
+  "MT": "몬태나",
+  "NE": "네브래스카",
+  "NV": "네바다",
+  "NH": "뉴햄프셔",
+  "NJ": "뉴저지",
+  "NM": "뉴멕시코",
+  "NY": "뉴욕",
+  "NC": "노스캐롤라이나",
+  "ND": "노스다코타",
+  "OH": "오하이오",
+  "OK": "오클라호마",
+  "OR": "오리건",
+  "PA": "펜실베이니아",
+  "RI": "로드아일랜드",
+  "SC": "사우스캐롤라이나",
+  "SD": "사우스다코타",
+  "TN": "테네시",
+  "TX": "텍사스",
+  "UT": "유타",
+  "VT": "버몬트",
+  "VA": "버지니아",
+  "WA": "워싱턴",
+  "WV": "웨스트버지니아",
+  "WI": "위스콘신",
+  "WY": "와이오밍",
+  "DC": "컬럼비아 특별구 (워싱턴 D.C.)"
+ },
+ "labels": {
+  "AL": "ALABAMA",
+  "AK": "ALASKA",
+  "AZ": "ARIZONA",
+  "AR": "ARKANSAS",
+  "CA": "CALIFORNIA",
+  "CO": "COLORADO",
+  "CT": "CONNECTICUT",
+  "DE": "DELAWARE",
+  "FL": "FLORIDA",
+  "GA": "GEORGIA",
+  "HI": "HAWAII",
+  "ID": "IDAHO",
+  "IL": "ILLINOIS",
+  "IN": "INDIANA",
+  "IA": "IOWA",
+  "KS": "KANSAS",
+  "KY": "KENTUCKY",
+  "LA": "LOUISIANA",
+  "ME": "MAINE",
+  "MD": "MARYLAND",
+  "MA": "MASSACHUSETTS",
+  "MI": "MICHIGAN",
+  "MN": "MINNESOTA",
+  "MS": "MISSISSIPPI",
+  "MO": "MISSOURI",
+  "MT": "MONTANA",
+  "NE": "NEBRASKA",
+  "NV": "NEVADA",
+  "NH": "NEW HAMPSHIRE",
+  "NJ": "NEW JERSEY",
+  "NM": "NEW MEXICO",
+  "NY": "NEW YORK",
+  "NC": "NORTH CAROLINA",
+  "ND": "NORTH DAKOTA",
+  "OH": "OHIO",
+  "OK": "OKLAHOMA",
+  "OR": "OREGON",
+  "PA": "PENNSYLVANIA",
+  "RI": "RHODE ISLAND",
+  "SC": "SOUTH CAROLINA",
+  "SD": "SOUTH DAKOTA",
+  "TN": "TENNESSEE",
+  "TX": "TEXAS",
+  "UT": "UTAH",
+  "VT": "VERMONT",
+  "VA": "VIRGINIA",
+  "WA": "WASHINGTON",
+  "WV": "WEST VIRGINIA",
+  "WI": "WISCONSIN",
+  "WY": "WYOMING",
+  "DC": "DC"
+ },
+ "regionOf": {
+  "AL": "USA",
+  "AK": "USA",
+  "AZ": "USA",
+  "AR": "USA",
+  "CA": "USA",
+  "CO": "USA",
+  "CT": "USA",
+  "DE": "USA",
+  "FL": "USA",
+  "GA": "USA",
+  "HI": "USA",
+  "ID": "USA",
+  "IL": "USA",
+  "IN": "USA",
+  "IA": "USA",
+  "KS": "USA",
+  "KY": "USA",
+  "LA": "USA",
+  "ME": "USA",
+  "MD": "USA",
+  "MA": "USA",
+  "MI": "USA",
+  "MN": "USA",
+  "MS": "USA",
+  "MO": "USA",
+  "MT": "USA",
+  "NE": "USA",
+  "NV": "USA",
+  "NH": "USA",
+  "NJ": "USA",
+  "NM": "USA",
+  "NY": "USA",
+  "NC": "USA",
+  "ND": "USA",
+  "OH": "USA",
+  "OK": "USA",
+  "OR": "USA",
+  "PA": "USA",
+  "RI": "USA",
+  "SC": "USA",
+  "SD": "USA",
+  "TN": "USA",
+  "TX": "USA",
+  "UT": "USA",
+  "VT": "USA",
+  "VA": "USA",
+  "WA": "USA",
+  "WV": "USA",
+  "WI": "USA",
+  "WY": "USA",
+  "DC": "USA"
+ },
+ "labelCode": true,
+ "hideIds": [],
+ "presets": [
+  {
+   "name": "2004년 실제 결과",
+   "d": {
+    "AL": {
+     "공화당 (조지 W. 부시)": 9
+    },
+    "AK": {
+     "공화당 (조지 W. 부시)": 3
+    },
+    "AZ": {
+     "공화당 (조지 W. 부시)": 10
+    },
+    "AR": {
+     "공화당 (조지 W. 부시)": 6
+    },
+    "CA": {
+     "민주당 (존 케리)": 55
+    },
+    "CO": {
+     "공화당 (조지 W. 부시)": 9
+    },
+    "CT": {
+     "민주당 (존 케리)": 7
+    },
+    "DE": {
+     "민주당 (존 케리)": 3
+    },
+    "FL": {
+     "공화당 (조지 W. 부시)": 27
+    },
+    "GA": {
+     "공화당 (조지 W. 부시)": 15
+    },
+    "HI": {
+     "민주당 (존 케리)": 4
+    },
+    "ID": {
+     "공화당 (조지 W. 부시)": 4
+    },
+    "IL": {
+     "민주당 (존 케리)": 21
+    },
+    "IN": {
+     "공화당 (조지 W. 부시)": 11
+    },
+    "IA": {
+     "공화당 (조지 W. 부시)": 7
+    },
+    "KS": {
+     "공화당 (조지 W. 부시)": 6
+    },
+    "KY": {
+     "공화당 (조지 W. 부시)": 8
+    },
+    "LA": {
+     "공화당 (조지 W. 부시)": 9
+    },
+    "ME": {
+     "민주당 (존 케리)": 4
+    },
+    "MD": {
+     "민주당 (존 케리)": 10
+    },
+    "MA": {
+     "민주당 (존 케리)": 12
+    },
+    "MI": {
+     "민주당 (존 케리)": 17
+    },
+    "MN": {
+     "민주당 (존 케리)": 9,
+     "존 에드워즈 (신의 없는 선거인)": 1
+    },
+    "MS": {
+     "공화당 (조지 W. 부시)": 6
+    },
+    "MO": {
+     "공화당 (조지 W. 부시)": 11
+    },
+    "MT": {
+     "공화당 (조지 W. 부시)": 3
+    },
+    "NE": {
+     "공화당 (조지 W. 부시)": 5
+    },
+    "NV": {
+     "공화당 (조지 W. 부시)": 5
+    },
+    "NH": {
+     "민주당 (존 케리)": 4
+    },
+    "NJ": {
+     "민주당 (존 케리)": 15
+    },
+    "NM": {
+     "공화당 (조지 W. 부시)": 5
+    },
+    "NY": {
+     "민주당 (존 케리)": 31
+    },
+    "NC": {
+     "공화당 (조지 W. 부시)": 15
+    },
+    "ND": {
+     "공화당 (조지 W. 부시)": 3
+    },
+    "OH": {
+     "공화당 (조지 W. 부시)": 20
+    },
+    "OK": {
+     "공화당 (조지 W. 부시)": 7
+    },
+    "OR": {
+     "민주당 (존 케리)": 7
+    },
+    "PA": {
+     "민주당 (존 케리)": 21
+    },
+    "RI": {
+     "민주당 (존 케리)": 4
+    },
+    "SC": {
+     "공화당 (조지 W. 부시)": 8
+    },
+    "SD": {
+     "공화당 (조지 W. 부시)": 3
+    },
+    "TN": {
+     "공화당 (조지 W. 부시)": 11
+    },
+    "TX": {
+     "공화당 (조지 W. 부시)": 34
+    },
+    "UT": {
+     "공화당 (조지 W. 부시)": 5
+    },
+    "VT": {
+     "민주당 (존 케리)": 3
+    },
+    "VA": {
+     "공화당 (조지 W. 부시)": 13
+    },
+    "WA": {
+     "민주당 (존 케리)": 11
+    },
+    "WV": {
+     "공화당 (조지 W. 부시)": 5
+    },
+    "WI": {
+     "민주당 (존 케리)": 10
+    },
+    "WY": {
+     "공화당 (조지 W. 부시)": 3
+    },
+    "DC": {
+     "민주당 (존 케리)": 3
+    }
+   }
+  }
+ ],
+ "seatNotes": "주별 선거인단 결과예요. 메인·네브래스카의 선거구별 분할과 신의 없는 선거인도 넣었어요. DC는 지도 오른쪽 작은 네모예요."
+}
