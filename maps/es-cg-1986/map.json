@@ -1,0 +1,546 @@
+{
+ "id": "es-cg-1986",
+ "name": "스페인 하원 (코르테스) 총선",
+ "subtitle": "1986년 · 주별 비례대표 · 350석",
+ "tag": "SPAIN",
+ "menuCountry": "스페인",
+ "menuGroup": "스페인 하원 총선",
+ "cardName": "1986",
+ "svg": "../es-prov/map.svg",
+ "width": 1059.7,
+ "height": 768.1,
+ "regions": {
+  "ES": "스페인"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1986",
+   "sub": "선거구 52곳 · 350석",
+   "regions": [
+    "ES"
+   ],
+   "box": [
+    0,
+    0,
+    1059.7,
+    768.1
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "스페인 사회노동당 (PSOE)",
+   "color": "#f11828"
+  },
+  {
+   "name": "국민연합 (CP)",
+   "color": "#1d84ce"
+  },
+  {
+   "name": "집중과 통합 (CiU)",
+   "color": "#18307b"
+  },
+  {
+   "name": "민주사회중도 (CDS)",
+   "color": "#19804f"
+  },
+  {
+   "name": "통합좌파 (IU)",
+   "color": "#971324"
+  },
+  {
+   "name": "바스크 민족주의당 (EAJ-PNV)",
+   "color": "#4aae4a"
+  },
+  {
+   "name": "에리 바타수나 (HB)",
+   "color": "#633000"
+  },
+  {
+   "name": "바스크 좌파 (EE)",
+   "color": "#80df20"
+  },
+  {
+   "name": "갈리시아 연합 (CG)",
+   "color": "#26538d"
+  },
+  {
+   "name": "아라곤 당 (PAR)",
+   "color": "#3333ff"
+  },
+  {
+   "name": "카나리아 무소속연합 (AIC)",
+   "color": "#ffc766"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "ES-Soria": 3,
+  "ES-Orense": 5,
+  "ES-Córdoba": 7,
+  "ES-Guipúzcoa": 7,
+  "ES-Badajoz": 6,
+  "ES-Valladolid": 5,
+  "ES-Cantabria": 5,
+  "ES-LaRioja": 4,
+  "ES-Álava": 4,
+  "ES-Burgos": 4,
+  "ES-Gerona": 5,
+  "ES-Tarragona": 5,
+  "ES-Almería": 5,
+  "ES-Toledo": 5,
+  "ES-Ávila": 3,
+  "ES-Guadalajara": 3,
+  "ES-Sevilla": 12,
+  "ES-Valencia": 16,
+  "ES-Alicante": 10,
+  "ES-Murcia": 8,
+  "ES-Granada": 7,
+  "ES-Málaga": 9,
+  "ES-Cádiz": 9,
+  "ES-IslasBaleare": 6,
+  "ES-LasPalmas": 7,
+  "ES-SantaCruzdeT": 6,
+  "ES-Castellón": 5,
+  "ES-Ceuta": 1,
+  "ES-Melilla": 1,
+  "ES-Salamanca": 4,
+  "ES-Albacete": 4,
+  "ES-Lérida": 4,
+  "ES-Palencia": 3,
+  "ES-Cuenca": 3,
+  "ES-Teruel": 3,
+  "ES-Huesca": 3,
+  "ES-Segovia": 3,
+  "ES-CiudadReal": 5,
+  "ES-Huelva": 5,
+  "ES-Navarra": 5,
+  "ES-Madrid": 33,
+  "ES-Barcelona": 33,
+  "ES-Vizcaya": 10,
+  "ES-Asturias": 9,
+  "ES-LaCoruña": 9,
+  "ES-Pontevedra": 8,
+  "ES-Zaragoza": 8,
+  "ES-Jaén": 6,
+  "ES-León": 5,
+  "ES-Cáceres": 5,
+  "ES-Lugo": 5,
+  "ES-Zamora": 4
+ },
+ "names": {
+  "ES-Melilla": "멜리야",
+  "ES-Ceuta": "세우타",
+  "ES-SantaCruzdeT": "산타크루스데테네리페",
+  "ES-LasPalmas": "라스팔마스",
+  "ES-Cádiz": "카디스",
+  "ES-Málaga": "말라가",
+  "ES-Sevilla": "세비야",
+  "ES-Huelva": "우엘바",
+  "ES-Badajoz": "바다호스",
+  "ES-Cáceres": "카세레스",
+  "ES-Córdoba": "코르도바",
+  "ES-Jaén": "하엔",
+  "ES-Granada": "그라나다",
+  "ES-Almería": "알메리아",
+  "ES-Murcia": "무르시아",
+  "ES-Alicante": "알리칸테",
+  "ES-Valencia": "발렌시아",
+  "ES-IslasBaleare": "발레아레스 제도",
+  "ES-Castellón": "카스테욘",
+  "ES-Tarragona": "타라고나",
+  "ES-Gerona": "히로나",
+  "ES-Lérida": "예이다",
+  "ES-Albacete": "알바세테",
+  "ES-CiudadReal": "시우다드레알",
+  "ES-Toledo": "톨레도",
+  "ES-Ávila": "아빌라",
+  "ES-Cuenca": "쿠엥카",
+  "ES-Teruel": "테루엘",
+  "ES-Zaragoza": "사라고사",
+  "ES-Huesca": "우에스카",
+  "ES-Guadalajara": "과달라하라",
+  "ES-Segovia": "세고비아",
+  "ES-Salamanca": "살라망카",
+  "ES-Soria": "소리아",
+  "ES-LaRioja": "라리오하",
+  "ES-Zamora": "사모라",
+  "ES-Valladolid": "바야돌리드",
+  "ES-León": "레온",
+  "ES-Palencia": "팔렌시아",
+  "ES-Burgos": "부르고스",
+  "ES-Álava": "알라바",
+  "ES-Vizcaya": "비스카야",
+  "ES-Guipúzcoa": "기푸스코아",
+  "ES-Navarra": "나바라",
+  "ES-Cantabria": "칸타브리아",
+  "ES-Asturias": "아스투리아스",
+  "ES-Lugo": "루고",
+  "ES-Orense": "오우렌세",
+  "ES-Pontevedra": "폰테베드라",
+  "ES-LaCoruña": "아코루냐",
+  "ES-Barcelona": "바르셀로나",
+  "ES-Madrid": "마드리드"
+ },
+ "labels": {
+  "ES-Melilla": "멜리야",
+  "ES-Ceuta": "세우타",
+  "ES-SantaCruzdeT": "산타크루스데테네리페",
+  "ES-LasPalmas": "라스팔마스",
+  "ES-Cádiz": "카디스",
+  "ES-Málaga": "말라가",
+  "ES-Sevilla": "세비야",
+  "ES-Huelva": "우엘바",
+  "ES-Badajoz": "바다호스",
+  "ES-Cáceres": "카세레스",
+  "ES-Córdoba": "코르도바",
+  "ES-Jaén": "하엔",
+  "ES-Granada": "그라나다",
+  "ES-Almería": "알메리아",
+  "ES-Murcia": "무르시아",
+  "ES-Alicante": "알리칸테",
+  "ES-Valencia": "발렌시아",
+  "ES-IslasBaleare": "발레아레스 제도",
+  "ES-Castellón": "카스테욘",
+  "ES-Tarragona": "타라고나",
+  "ES-Gerona": "히로나",
+  "ES-Lérida": "예이다",
+  "ES-Albacete": "알바세테",
+  "ES-CiudadReal": "시우다드레알",
+  "ES-Toledo": "톨레도",
+  "ES-Ávila": "아빌라",
+  "ES-Cuenca": "쿠엥카",
+  "ES-Teruel": "테루엘",
+  "ES-Zaragoza": "사라고사",
+  "ES-Huesca": "우에스카",
+  "ES-Guadalajara": "과달라하라",
+  "ES-Segovia": "세고비아",
+  "ES-Salamanca": "살라망카",
+  "ES-Soria": "소리아",
+  "ES-LaRioja": "라리오하",
+  "ES-Zamora": "사모라",
+  "ES-Valladolid": "바야돌리드",
+  "ES-León": "레온",
+  "ES-Palencia": "팔렌시아",
+  "ES-Burgos": "부르고스",
+  "ES-Álava": "알라바",
+  "ES-Vizcaya": "비스카야",
+  "ES-Guipúzcoa": "기푸스코아",
+  "ES-Navarra": "나바라",
+  "ES-Cantabria": "칸타브리아",
+  "ES-Asturias": "아스투리아스",
+  "ES-Lugo": "루고",
+  "ES-Orense": "오우렌세",
+  "ES-Pontevedra": "폰테베드라",
+  "ES-LaCoruña": "아코루냐",
+  "ES-Barcelona": "바르셀로나",
+  "ES-Madrid": "마드리드"
+ },
+ "regionOf": {
+  "ES-Melilla": "ES",
+  "ES-Ceuta": "ES",
+  "ES-SantaCruzdeT": "ES",
+  "ES-LasPalmas": "ES",
+  "ES-Cádiz": "ES",
+  "ES-Málaga": "ES",
+  "ES-Sevilla": "ES",
+  "ES-Huelva": "ES",
+  "ES-Badajoz": "ES",
+  "ES-Cáceres": "ES",
+  "ES-Córdoba": "ES",
+  "ES-Jaén": "ES",
+  "ES-Granada": "ES",
+  "ES-Almería": "ES",
+  "ES-Murcia": "ES",
+  "ES-Alicante": "ES",
+  "ES-Valencia": "ES",
+  "ES-IslasBaleare": "ES",
+  "ES-Castellón": "ES",
+  "ES-Tarragona": "ES",
+  "ES-Gerona": "ES",
+  "ES-Lérida": "ES",
+  "ES-Albacete": "ES",
+  "ES-CiudadReal": "ES",
+  "ES-Toledo": "ES",
+  "ES-Ávila": "ES",
+  "ES-Cuenca": "ES",
+  "ES-Teruel": "ES",
+  "ES-Zaragoza": "ES",
+  "ES-Huesca": "ES",
+  "ES-Guadalajara": "ES",
+  "ES-Segovia": "ES",
+  "ES-Salamanca": "ES",
+  "ES-Soria": "ES",
+  "ES-LaRioja": "ES",
+  "ES-Zamora": "ES",
+  "ES-Valladolid": "ES",
+  "ES-León": "ES",
+  "ES-Palencia": "ES",
+  "ES-Burgos": "ES",
+  "ES-Álava": "ES",
+  "ES-Vizcaya": "ES",
+  "ES-Guipúzcoa": "ES",
+  "ES-Navarra": "ES",
+  "ES-Cantabria": "ES",
+  "ES-Asturias": "ES",
+  "ES-Lugo": "ES",
+  "ES-Orense": "ES",
+  "ES-Pontevedra": "ES",
+  "ES-LaCoruña": "ES",
+  "ES-Barcelona": "ES",
+  "ES-Madrid": "ES"
+ },
+ "labelName": true,
+ "presets": [
+  {
+   "name": "1986 실제 결과",
+   "d": {
+    "ES-Soria": {
+     "국민연합 (CP)": 2,
+     "스페인 사회노동당 (PSOE)": 1
+    },
+    "ES-Orense": {
+     "국민연합 (CP)": 2,
+     "스페인 사회노동당 (PSOE)": 2,
+     "집중과 통합 (CiU)": 1
+    },
+    "ES-Córdoba": {
+     "스페인 사회노동당 (PSOE)": 4,
+     "국민연합 (CP)": 2,
+     "통합좌파 (IU)": 1
+    },
+    "ES-Guipúzcoa": {
+     "바스크 민족주의당 (EAJ-PNV)": 2,
+     "스페인 사회노동당 (PSOE)": 2,
+     "에리 바타수나 (HB)": 2,
+     "바스크 좌파 (EE)": 1
+    },
+    "ES-Badajoz": {
+     "스페인 사회노동당 (PSOE)": 4,
+     "국민연합 (CP)": 2
+    },
+    "ES-Valladolid": {
+     "스페인 사회노동당 (PSOE)": 2,
+     "국민연합 (CP)": 2,
+     "민주사회중도 (CDS)": 1
+    },
+    "ES-Cantabria": {
+     "스페인 사회노동당 (PSOE)": 3,
+     "국민연합 (CP)": 2
+    },
+    "ES-LaRioja": {
+     "스페인 사회노동당 (PSOE)": 2,
+     "국민연합 (CP)": 2
+    },
+    "ES-Álava": {
+     "스페인 사회노동당 (PSOE)": 2,
+     "바스크 민족주의당 (EAJ-PNV)": 1,
+     "국민연합 (CP)": 1
+    },
+    "ES-Burgos": {
+     "국민연합 (CP)": 2,
+     "스페인 사회노동당 (PSOE)": 2
+    },
+    "ES-Gerona": {
+     "집중과 통합 (CiU)": 3,
+     "스페인 사회노동당 (PSOE)": 2
+    },
+    "ES-Tarragona": {
+     "스페인 사회노동당 (PSOE)": 2,
+     "집중과 통합 (CiU)": 2,
+     "국민연합 (CP)": 1
+    },
+    "ES-Almería": {
+     "스페인 사회노동당 (PSOE)": 4,
+     "국민연합 (CP)": 1
+    },
+    "ES-Toledo": {
+     "스페인 사회노동당 (PSOE)": 3,
+     "국민연합 (CP)": 2
+    },
+    "ES-Ávila": {
+     "국민연합 (CP)": 1,
+     "민주사회중도 (CDS)": 1,
+     "스페인 사회노동당 (PSOE)": 1
+    },
+    "ES-Guadalajara": {
+     "국민연합 (CP)": 2,
+     "스페인 사회노동당 (PSOE)": 1
+    },
+    "ES-Sevilla": {
+     "스페인 사회노동당 (PSOE)": 8,
+     "국민연합 (CP)": 3,
+     "통합좌파 (IU)": 1
+    },
+    "ES-Valencia": {
+     "스페인 사회노동당 (PSOE)": 9,
+     "국민연합 (CP)": 5,
+     "민주사회중도 (CDS)": 1,
+     "갈리시아 연합 (CG)": 1
+    },
+    "ES-Alicante": {
+     "스페인 사회노동당 (PSOE)": 6,
+     "국민연합 (CP)": 3,
+     "민주사회중도 (CDS)": 1
+    },
+    "ES-Murcia": {
+     "스페인 사회노동당 (PSOE)": 5,
+     "국민연합 (CP)": 3
+    },
+    "ES-Granada": {
+     "스페인 사회노동당 (PSOE)": 5,
+     "국민연합 (CP)": 2
+    },
+    "ES-Málaga": {
+     "스페인 사회노동당 (PSOE)": 6,
+     "국민연합 (CP)": 2,
+     "통합좌파 (IU)": 1
+    },
+    "ES-Cádiz": {
+     "스페인 사회노동당 (PSOE)": 7,
+     "국민연합 (CP)": 2
+    },
+    "ES-IslasBaleare": {
+     "스페인 사회노동당 (PSOE)": 3,
+     "국민연합 (CP)": 3
+    },
+    "ES-LasPalmas": {
+     "스페인 사회노동당 (PSOE)": 3,
+     "국민연합 (CP)": 2,
+     "민주사회중도 (CDS)": 2
+    },
+    "ES-SantaCruzdeT": {
+     "스페인 사회노동당 (PSOE)": 3,
+     "국민연합 (CP)": 1,
+     "아라곤 당 (PAR)": 1,
+     "민주사회중도 (CDS)": 1
+    },
+    "ES-Castellón": {
+     "스페인 사회노동당 (PSOE)": 3,
+     "국민연합 (CP)": 2
+    },
+    "ES-Ceuta": {
+     "스페인 사회노동당 (PSOE)": 1
+    },
+    "ES-Melilla": {
+     "국민연합 (CP)": 1
+    },
+    "ES-Salamanca": {
+     "스페인 사회노동당 (PSOE)": 2,
+     "국민연합 (CP)": 1,
+     "민주사회중도 (CDS)": 1
+    },
+    "ES-Albacete": {
+     "스페인 사회노동당 (PSOE)": 3,
+     "국민연합 (CP)": 1
+    },
+    "ES-Lérida": {
+     "집중과 통합 (CiU)": 2,
+     "스페인 사회노동당 (PSOE)": 1,
+     "국민연합 (CP)": 1
+    },
+    "ES-Palencia": {
+     "스페인 사회노동당 (PSOE)": 2,
+     "국민연합 (CP)": 1
+    },
+    "ES-Cuenca": {
+     "스페인 사회노동당 (PSOE)": 2,
+     "국민연합 (CP)": 1
+    },
+    "ES-Teruel": {
+     "스페인 사회노동당 (PSOE)": 2,
+     "국민연합 (CP)": 1
+    },
+    "ES-Huesca": {
+     "스페인 사회노동당 (PSOE)": 2,
+     "국민연합 (CP)": 1
+    },
+    "ES-Segovia": {
+     "스페인 사회노동당 (PSOE)": 1,
+     "국민연합 (CP)": 1,
+     "민주사회중도 (CDS)": 1
+    },
+    "ES-CiudadReal": {
+     "스페인 사회노동당 (PSOE)": 3,
+     "국민연합 (CP)": 2
+    },
+    "ES-Huelva": {
+     "스페인 사회노동당 (PSOE)": 4,
+     "국민연합 (CP)": 1
+    },
+    "ES-Navarra": {
+     "스페인 사회노동당 (PSOE)": 2,
+     "국민연합 (CP)": 2,
+     "에리 바타수나 (HB)": 1
+    },
+    "ES-Madrid": {
+     "스페인 사회노동당 (PSOE)": 15,
+     "국민연합 (CP)": 11,
+     "민주사회중도 (CDS)": 5,
+     "통합좌파 (IU)": 2
+    },
+    "ES-Barcelona": {
+     "스페인 사회노동당 (PSOE)": 16,
+     "집중과 통합 (CiU)": 11,
+     "국민연합 (CP)": 4,
+     "민주사회중도 (CDS)": 1,
+     "통합좌파 (IU)": 1
+    },
+    "ES-Vizcaya": {
+     "바스크 민족주의당 (EAJ-PNV)": 3,
+     "스페인 사회노동당 (PSOE)": 3,
+     "에리 바타수나 (HB)": 2,
+     "국민연합 (CP)": 1,
+     "바스크 좌파 (EE)": 1
+    },
+    "ES-Asturias": {
+     "스페인 사회노동당 (PSOE)": 5,
+     "국민연합 (CP)": 2,
+     "민주사회중도 (CDS)": 1,
+     "통합좌파 (IU)": 1
+    },
+    "ES-LaCoruña": {
+     "스페인 사회노동당 (PSOE)": 4,
+     "국민연합 (CP)": 4,
+     "민주사회중도 (CDS)": 1
+    },
+    "ES-Pontevedra": {
+     "국민연합 (CP)": 4,
+     "스페인 사회노동당 (PSOE)": 3,
+     "민주사회중도 (CDS)": 1
+    },
+    "ES-Zaragoza": {
+     "스페인 사회노동당 (PSOE)": 4,
+     "국민연합 (CP)": 2,
+     "민주사회중도 (CDS)": 1,
+     "카나리아 무소속연합 (AIC)": 1
+    },
+    "ES-Jaén": {
+     "스페인 사회노동당 (PSOE)": 4,
+     "국민연합 (CP)": 2
+    },
+    "ES-León": {
+     "스페인 사회노동당 (PSOE)": 3,
+     "국민연합 (CP)": 2
+    },
+    "ES-Cáceres": {
+     "스페인 사회노동당 (PSOE)": 3,
+     "국민연합 (CP)": 2
+    },
+    "ES-Lugo": {
+     "국민연합 (CP)": 3,
+     "스페인 사회노동당 (PSOE)": 2
+    },
+    "ES-Zamora": {
+     "국민연합 (CP)": 2,
+     "스페인 사회노동당 (PSOE)": 2
+    }
+   }
+  }
+ ],
+ "yearLink": true,
+ "seatNotes": "올려주신 위키미디어 지도의 의석 점을 주별로 세어 만들었어요."
+}
