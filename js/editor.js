@@ -199,7 +199,7 @@ function openParty(pid) {
 
 /* ---------- 확대·이동 ---------- */
 let vb = { x: 0, y: 0, w: 1600, h: 1600 };
-const setVB = () => { svg.setAttribute('viewBox', `${vb.x} ${vb.y} ${vb.w} ${vb.h}`); scheduleLabels(); };
+const setVB = () => { svg.setAttribute('viewBox', `${vb.x} ${vb.y} ${vb.w} ${vb.h}`); scheduleLabels(); if (typeof pxUpdate === 'function') pxUpdate(); };
 function fitBox(b) {
   const r = svg.getBoundingClientRect(); if (!r.width) return;
   const pad = .05; let w = b.w * (1 + pad * 2), h = b.h * (1 + pad * 2); const ar = r.width / r.height;

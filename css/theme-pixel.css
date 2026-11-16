@@ -1,0 +1,10 @@
+/* 픽셀 지도: 지도를 네모 픽셀로 바꿔 보여요 (8·16·24픽셀). 글자는 또렷하게 그대로 */
+#map #g{filter:url(#pxf)}
+#map #g path{transition:none!important;shape-rendering:crispEdges}
+html,body{font-family:'DotGothic16','Galmuri11','Courier New',monospace!important}
+button,.win,.card,.ctl i,input,select{border-radius:0!important}
+.win{box-shadow:4px 4px 0 #000!important}
+button{box-shadow:2px 2px 0 #000!important}
+button:hover,button.on{box-shadow:2px 2px 0 #000,inset 0 0 0 2px currentColor!important}
+.card .thumb{image-rendering:pixelated;filter:url(#pxt)}
+body::after{display:none}

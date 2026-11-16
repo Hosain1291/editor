@@ -9,6 +9,12 @@ const THEMES = {
   tv80: {"name": "선거방송 1980", "full": "ELECTION NIGHT 1980", "desc": "1980년대 개표방송 스튜디오처럼 선거지도를 칠해보세요", "toss": "#d8c18a", "ctx": "#8a7c5a", "sea": "#050508", "grid": "#0b0d16", "head": "#141725", "frame": "#e9d7a8", "text": "#f2ead6", "mute": "#a59d86", "stroke": "#2a2116", "ctxStroke": "#5a4f38", "off": "#6e6450", "dark": "#0b0d16", "css": "tv80Css", "btn": "방송 1980"},
   tv00: {"name": "선거방송 2000", "full": "ELECTION NIGHT 2000", "desc": "2000년 개표방송 스튜디오처럼 선거지도를 칠해보세요", "toss": "#2b3068", "ctx": "#1c1f4c", "sea": "#14104a", "grid": "#1a1650", "head": "#1a1650", "frame": "#ffffff", "text": "#ffffff", "mute": "#b9bde8", "stroke": "#ffffff", "ctxStroke": "#5b62c4", "off": "#1c1f4c", "dark": "#120d38", "css": "tv00Css", "btn": "방송 2000"},
   td: {"name": "3D 지도", "full": "THE NEW ORDER · 3D", "desc": "지도를 비스듬히 눕혀 입체로 칠해보세요", "toss": "#1d3a40", "ctx": "#0e2125", "sea": "#081619", "grid": "#0f262b", "head": "#0a191d", "frame": "#8fe3e8", "text": "#eaffff", "mute": "#6f9ea2", "stroke": "#d86a78", "ctxStroke": "#2c4f55", "off": "#0a1a1d", "dark": "#071215", "css": "tdCss", "btn": "3D"},
+  tdb: {"name": "3D 블록", "full": "THE NEW ORDER · 3D BLOCK", "desc": "선거구가 블록처럼 솟은 입체 지도를 칠해보세요", "toss": "#1d3a40", "ctx": "#0e2125", "sea": "#081619", "grid": "#0f262b", "head": "#0a191d", "frame": "#8fe3e8", "text": "#eaffff", "mute": "#6f9ea2", "stroke": "#d86a78", "ctxStroke": "#2c4f55", "off": "#0a1a1d", "dark": "#071215", "css": "tdbCss", "btn": "3D 블록"},
+  tdd: {"name": "3D 다크", "full": "DARK · 3D", "desc": "어두운 화면에서 입체 지도를 칠해보세요", "toss": "#2a2a2e", "ctx": "#19191c", "sea": "#121214", "grid": "#1c1c1f", "head": "#18181a", "frame": "#ededed", "text": "#ededed", "mute": "#8a8a90", "stroke": "#55555c", "ctxStroke": "#2e2e33", "off": "#1b1b1e", "dark": "#0f0f10", "css": "darkCss tddCss", "btn": "3D 다크"},
+  tdw: {"name": "3D 화이트", "full": "WHITE · 3D", "desc": "밝은 화면에서 입체 지도를 칠해보세요", "toss": "#e3e1dc", "ctx": "#efede8", "sea": "#ffffff", "grid": "#f3f2ef", "head": "#ffffff", "frame": "#1a1a1a", "text": "#1a1a1a", "mute": "#777777", "stroke": "#9a968e", "ctxStroke": "#d6d3cc", "off": "#f3f2ef", "dark": "#1a1a1a", "css": "lightCss tdwCss", "btn": "3D 화이트"},
+  px8: {"name": "픽셀 8", "full": "PIXEL MAP · 8PX", "desc": "8픽셀 네모로 선거지도를 칠해보세요", "toss": "#3b4a6b", "ctx": "#20283b", "sea": "#0d1020", "grid": "#151a2e", "head": "#151a2e", "frame": "#f4f4f4", "text": "#f4f4f4", "mute": "#9aa3c0", "stroke": "#0d1020", "ctxStroke": "#2b3450", "off": "#181d33", "dark": "#0d1020", "css": "darkCss pxCss", "btn": "픽셀 8", "px": 8},
+  px16: {"name": "픽셀 16", "full": "PIXEL MAP · 16PX", "desc": "16픽셀 네모로 선거지도를 칠해보세요", "toss": "#3b4a6b", "ctx": "#20283b", "sea": "#0d1020", "grid": "#151a2e", "head": "#151a2e", "frame": "#f4f4f4", "text": "#f4f4f4", "mute": "#9aa3c0", "stroke": "#0d1020", "ctxStroke": "#2b3450", "off": "#181d33", "dark": "#0d1020", "css": "darkCss pxCss", "btn": "픽셀 16", "px": 16},
+  px24: {"name": "픽셀 24", "full": "PIXEL MAP · 24PX", "desc": "24픽셀 네모로 선거지도를 칠해보세요", "toss": "#3b4a6b", "ctx": "#20283b", "sea": "#0d1020", "grid": "#151a2e", "head": "#151a2e", "frame": "#f4f4f4", "text": "#f4f4f4", "mute": "#9aa3c0", "stroke": "#0d1020", "ctxStroke": "#2b3450", "off": "#181d33", "dark": "#0d1020", "css": "darkCss pxCss", "btn": "픽셀 24", "px": 24},
   light: {"name": "라이트", "full": "LIGHT", "desc": "깔끔한 밝은 화면에서 선거지도를 만들어보세요", "toss": "#e3e1dc", "ctx": "#efede8", "sea": "#ffffff", "grid": "#f3f2ef", "head": "#ffffff", "frame": "#1a1a1a", "text": "#1a1a1a", "mute": "#777777", "stroke": "#9a968e", "ctxStroke": "#d6d3cc", "off": "#f3f2ef", "dark": "#1a1a1a", "css": "lightCss"},
   dark: {"name": "다크", "full": "DARK", "desc": "차분한 어두운 화면에서 선거지도를 만들어보세요", "toss": "#2a2a2e", "ctx": "#19191c", "sea": "#121214", "grid": "#1c1c1f", "head": "#18181a", "frame": "#ededed", "text": "#ededed", "mute": "#8a8a90", "stroke": "#55555c", "ctxStroke": "#2e2e33", "off": "#1b1b1e", "dark": "#0f0f10", "css": "darkCss"},
   paper: {"name": "올드페이퍼", "full": "OLD PAPER", "desc": "누렇게 바랜 옛 종이 위에 선거지도를 그려보세요", "toss": "#d9c9a3", "ctx": "#e4d6b6", "sea": "#e9dcbd", "grid": "#e2d3b0", "head": "#efe4cc", "frame": "#3b2a1a", "text": "#3b2a1a", "mute": "#7a6548", "stroke": "#8c7556", "ctxStroke": "#c9b48c", "off": "#ece0c3", "dark": "#3b2a1a", "css": "paperCss"},
@@ -19,7 +25,9 @@ if (!THEMES[THEME_ID]) THEME_ID = 'tno';
 let THEME = THEMES[THEME_ID];
 function setThemeCss() {
   document.documentElement.dataset.theme = THEME_ID;
-  for (const k in THEMES) { const c = THEMES[k].css; const l = c && document.getElementById(c); if (l) l.media = k === THEME_ID ? 'all' : 'not all'; }
+  const on = new Set((THEMES[THEME_ID].css || '').split(' ').filter(Boolean));
+  for (const k in THEMES) for (const c of (THEMES[k].css || '').split(' ').filter(Boolean)) { const l = document.getElementById(c); if (l) l.media = on.has(c) ? 'all' : 'not all'; }
+  if (typeof pxUpdate === 'function') pxUpdate();
 }
 setThemeCss();
 
@@ -60,3 +68,15 @@ document.addEventListener('click', e => {
 });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') document.querySelectorAll('.themeSeg.open').forEach(s => s.classList.remove('open')); });
 document.addEventListener('DOMContentLoaded', themeTexts);
+
+/* 픽셀 지도: 화면 픽셀 크기가 늘 같도록 확대할 때마다 필터 칸 크기를 다시 맞춰요 */
+function pxUpdate() {
+  const n = THEMES[THEME_ID] && THEMES[THEME_ID].px; if (!n) return;
+  const svg = document.getElementById('map'), f = document.getElementById('pxf'); if (!svg || !f) return;
+  const vb = svg.viewBox && svg.viewBox.baseVal, w = svg.clientWidth || 1;
+  const u = vb && vb.width ? vb.width / w : 1, s = n * u;
+  const dot = document.getElementById('pxDot'), tile = document.getElementById('pxTile'), dil = document.getElementById('pxDil');
+  dot.setAttribute('x', s / 2); dot.setAttribute('y', s / 2); dot.setAttribute('width', u); dot.setAttribute('height', u);
+  tile.setAttribute('width', s); tile.setAttribute('height', s); dil.setAttribute('radius', s / 2);
+}
+window.addEventListener('resize', () => pxUpdate());
