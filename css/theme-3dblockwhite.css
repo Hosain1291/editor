@@ -1,0 +1,6 @@
+/* 3D 블록 화이트 */
+#mapWrap{perspective:1200px;overflow:hidden;background:radial-gradient(ellipse at 50% 25%,#ffffff 0,#d9d5cc 75%);background-size:auto}
+#map{position:absolute;left:-18%;top:-34%;width:136%!important;height:152%!important;overflow:visible;transform:rotateX(42deg);transform-origin:50% 60%;will-change:transform;backface-visibility:hidden}
+#map #g{filter:drop-shadow(0 3px 0 #b8b2a6) drop-shadow(0 4px 0 #8f897d)}
+#map #g path{stroke-width:1.4px;transition:none!important}
+.card .thumb{transform:perspective(600px) rotateX(32deg);filter:drop-shadow(0 4px 0 #a9a398)}
