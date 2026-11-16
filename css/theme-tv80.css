@@ -1,0 +1,18 @@
+/* 선거방송 1980: 어두운 스튜디오 + 베이지 지도판 + 굵은 고딕 */
+:root{--bg:#0b0d16;--panel:#141725;--panel2:#1b1f31;--line:#2c3350;--line2:#46507a;--frame:#e9d7a8;--text:#f2ead6;--mute:#a59d86;--gold:#e9d7a8;--sea:#050508;--land:#d8c18a;--stroke:#2a2116;--toss:#d8c18a;
+ --title:'Helvetica Neue','Arial Black',Arial,'IBM Plex Sans KR',sans-serif;--lat:'Helvetica Neue',Arial,'IBM Plex Sans KR',sans-serif}
+html,body{background:#0b0d16 radial-gradient(ellipse at 50% 0%,#20243c 0,#0b0d16 70%) fixed;background-size:auto}
+body::after{background:repeating-linear-gradient(transparent 0 2px,#0000002e 2px 3px)}
+button{background:#1b1f31;border:1px solid #46507a;border-radius:2px;color:#f2ead6;font-weight:700}
+button:hover{border-color:#e9d7a8;box-shadow:none}
+button.on{background:#e9d7a8;color:#141725;border-color:#e9d7a8;box-shadow:none}
+.win{background:#141725f2;border:3px solid #2c3350;border-radius:6px;box-shadow:0 6px 18px #000a}
+.tb{background:linear-gradient(#2a3150,#1b1f31);border-bottom:2px solid #46507a;color:#f2ead6;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+.ctl i{border-color:#a59d86;color:#a59d86}
+.label{color:#e9d7a8}
+.mhead h1,.msec h2{color:#f2ead6;text-shadow:none;font-weight:900}
+.card:hover{box-shadow:0 0 0 2px #e9d7a8}
+.card .cb{border-top:2px solid #2c3350}
+.ylink{color:#e9d7a8}
+#mapWrap{background:#050508;background-image:none;border:6px solid #1b1f31;border-radius:10px;box-shadow:inset 0 0 40px #000}
+#map path{stroke-width:1.4px}

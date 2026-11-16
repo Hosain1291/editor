@@ -1,0 +1,18 @@
+/* 선거방송 2000: 남색 유광 스튜디오 + 흰 빛나는 경계선 */
+:root{--bg:#120d38;--panel:#1a1650;--panel2:#221d63;--line:#3b3a8c;--line2:#5b62c4;--frame:#ffffff;--text:#ffffff;--mute:#b9bde8;--gold:#ffd25a;--sea:#14104a;--land:#2b3068;--stroke:#ffffff;--toss:#2b3068;
+ --title:'Futura','Trebuchet MS','Arial Black',Arial,'IBM Plex Sans KR',sans-serif;--lat:'Futura','Trebuchet MS',Arial,'IBM Plex Sans KR',sans-serif}
+html,body{background:#120d38 linear-gradient(115deg,#5a0f1e 0,#2a0d3c 22%,#120d38 45%,#0d1a5e 75%,#0a2c8a 100%) fixed}
+body::after{background:none}
+button{background:linear-gradient(#3a44b8,#1d2270);border:1px solid #8c95ff;border-radius:14px;color:#fff;font-weight:700}
+button:hover{box-shadow:0 0 10px #8c95ffaa}
+button.on{background:linear-gradient(#ff5a5a,#b0141e);border-color:#ffb3b3;box-shadow:0 0 12px #ff5a5a99}
+.win{background:#16124ae8;border:2px solid #8c95ff;border-radius:10px;box-shadow:0 0 24px #3b46ff55,inset 0 1px 0 #ffffff44}
+.tb{background:linear-gradient(#f4f6ff,#b9c2ee 55%,#8f9ad8);color:#0b1150;border-bottom:2px solid #8c95ff;border-radius:8px 8px 0 0;font-weight:800;text-transform:uppercase}
+.ctl i{border-color:#0b1150;color:#0b1150}
+.label{color:#ffd25a}
+.mhead h1{color:#fff;text-shadow:0 0 14px #8c95ff}
+.msec h2{color:#fff}
+.card .cb{border-top:2px solid #5b62c4}
+.ylink{color:#ffd25a}
+#mapWrap{background:radial-gradient(ellipse at 50% 40%,#2c2a8a 0,#14104a 60%,#0a0830 100%);background-size:auto}
+#map #g path{stroke-width:1.6px;filter:drop-shadow(0 0 1.5px #ffffffcc)}
