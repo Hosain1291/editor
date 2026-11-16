@@ -1,0 +1,207 @@
+{
+ "id": "eg-gov",
+ "name": "이집트 기본 지도",
+ "subtitle": "주 27개",
+ "tag": "EGYPT",
+ "menuCountry": "이집트",
+ "menuGroup": "이집트 기본 지도",
+ "cardName": "주 27개",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 891.0,
+ "regions": {
+  "EG": "이집트"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "전국",
+   "sub": "주 27개",
+   "regions": [
+    "EG"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    891.0
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "국가미래당",
+   "color": "#0d47a1"
+  },
+  {
+   "name": "조국수호당",
+   "color": "#1e88e5"
+  },
+  {
+   "name": "국민전선",
+   "color": "#00897b"
+  },
+  {
+   "name": "공화인민당",
+   "color": "#5e35b1"
+  },
+  {
+   "name": "이집트사회민주당",
+   "color": "#e53935"
+  },
+  {
+   "name": "정의당",
+   "color": "#f9a825"
+  },
+  {
+   "name": "개혁발전당",
+   "color": "#43a047"
+  },
+  {
+   "name": "와프드당",
+   "color": "#c62828"
+  },
+  {
+   "name": "누르당",
+   "color": "#2e7d32"
+  },
+  {
+   "name": "타감무당",
+   "color": "#8e0000"
+  },
+  {
+   "name": "보수당",
+   "color": "#6d4c41"
+  },
+  {
+   "name": "인식당",
+   "color": "#ff7043"
+  },
+  {
+   "name": "무소속",
+   "color": "#9e9e9e"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "EG-SIN": 1,
+  "EG-JS": 1,
+  "EG-ASN": 1,
+  "EG-BA": 1,
+  "EG-MT": 1,
+  "EG-WAD": 1,
+  "EG-ALX": 1,
+  "EG-IS": 1,
+  "EG-SUZ": 1,
+  "EG-GH": 1,
+  "EG-FYM": 1,
+  "EG-BNS": 1,
+  "EG-MN": 1,
+  "EG-AST": 1,
+  "EG-SHG": 1,
+  "EG-KN": 1,
+  "EG-LX": 1,
+  "EG-GZ": 1,
+  "EG-MNF": 1,
+  "EG-BH": 1,
+  "EG-C": 1,
+  "EG-KB": 1,
+  "EG-DK": 1,
+  "EG-DT": 1,
+  "EG-KFS": 1,
+  "EG-PTS": 1,
+  "EG-SHR": 1
+ },
+ "names": {
+  "EG-SIN": "북시나이",
+  "EG-JS": "남시나이",
+  "EG-ASN": "아스완",
+  "EG-BA": "홍해",
+  "EG-MT": "마트루",
+  "EG-WAD": "뉴밸리",
+  "EG-ALX": "알렉산드리아",
+  "EG-IS": "이스마일리아",
+  "EG-SUZ": "수에즈",
+  "EG-GH": "가르비야",
+  "EG-FYM": "파이윰",
+  "EG-BNS": "베니수에프",
+  "EG-MN": "미냐",
+  "EG-AST": "아시우트",
+  "EG-SHG": "소하그",
+  "EG-KN": "케나",
+  "EG-LX": "룩소르",
+  "EG-GZ": "기자",
+  "EG-MNF": "미누피야",
+  "EG-BH": "베헤이라",
+  "EG-C": "카이로",
+  "EG-KB": "칼류비야",
+  "EG-DK": "다카힐리야",
+  "EG-DT": "다미에타",
+  "EG-KFS": "카프르엘셰이크",
+  "EG-PTS": "포트사이드",
+  "EG-SHR": "샤르키야"
+ },
+ "labels": {
+  "EG-SIN": "북시나이",
+  "EG-JS": "남시나이",
+  "EG-ASN": "아스완",
+  "EG-BA": "홍해",
+  "EG-MT": "마트루",
+  "EG-WAD": "뉴밸리",
+  "EG-ALX": "알렉산드리아",
+  "EG-IS": "이스마일리아",
+  "EG-SUZ": "수에즈",
+  "EG-GH": "가르비야",
+  "EG-FYM": "파이윰",
+  "EG-BNS": "베니수에프",
+  "EG-MN": "미냐",
+  "EG-AST": "아시우트",
+  "EG-SHG": "소하그",
+  "EG-KN": "케나",
+  "EG-LX": "룩소르",
+  "EG-GZ": "기자",
+  "EG-MNF": "미누피야",
+  "EG-BH": "베헤이라",
+  "EG-C": "카이로",
+  "EG-KB": "칼류비야",
+  "EG-DK": "다카힐리야",
+  "EG-DT": "다미에타",
+  "EG-KFS": "카프르엘셰이크",
+  "EG-PTS": "포트사이드",
+  "EG-SHR": "샤르키야"
+ },
+ "regionOf": {
+  "EG-SIN": "EG",
+  "EG-JS": "EG",
+  "EG-ASN": "EG",
+  "EG-BA": "EG",
+  "EG-MT": "EG",
+  "EG-WAD": "EG",
+  "EG-ALX": "EG",
+  "EG-IS": "EG",
+  "EG-SUZ": "EG",
+  "EG-GH": "EG",
+  "EG-FYM": "EG",
+  "EG-BNS": "EG",
+  "EG-MN": "EG",
+  "EG-AST": "EG",
+  "EG-SHG": "EG",
+  "EG-KN": "EG",
+  "EG-LX": "EG",
+  "EG-GZ": "EG",
+  "EG-MNF": "EG",
+  "EG-BH": "EG",
+  "EG-C": "EG",
+  "EG-KB": "EG",
+  "EG-DK": "EG",
+  "EG-DT": "EG",
+  "EG-KFS": "EG",
+  "EG-PTS": "EG",
+  "EG-SHR": "EG"
+ },
+ "labelName": true,
+ "presets": []
+}
