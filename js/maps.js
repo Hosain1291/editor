@@ -14,7 +14,7 @@ async function loadMapList() {
   // 메뉴용 가벼운 목록(catalog.json)을 한 번에 받아요. 지도 하나의 전체 설정은 열 때 받아요.
   try {
     const cat = await (await fetch('maps/catalog.json', { cache: 'no-cache' })).json();
-    cat.maps.forEach(m => MAP_LIST.push({ id: m.id, folder: m.folder, v: m.v, b: m.b, bv: m.bv, meta: m.meta, full: false }));
+    cat.maps.forEach(m => MAP_LIST.push({ id: m.id, folder: m.folder, v: m.v, b: m.b, bv: m.bv, sk: m.sk, sp: m.sp, spv: m.spv, meta: m.meta, full: false }));
     return;
   } catch (e) { }
   const idx = await (await fetch('maps/index.json', { cache: 'no-cache' })).json();
@@ -22,6 +22,23 @@ async function loadMapList() {
   idx.maps.forEach((m, i) => MAP_LIST.push({ id: metas[i].id || m.id, folder: m.folder, meta: metas[i], full: true }));
 }
 const bundleCache = {};
+/* 지도 모양·썸네일 묶음(maps/packs/): 파일 하나에 여러 svg가 들어 있어요. 없으면 예전처럼 낱개 파일을 읽어요. */
+const packCache = {};
+function getPack(name, v) {
+  if (!packCache[name]) packCache[name] = fetch(`maps/packs/${name}.json?v=${v}`).then(r => { if (!r.ok) throw 0; return r.json(); }).catch(er => { delete packCache[name]; throw er; });
+  return packCache[name];
+}
+const THUMB_URL = {};
+function thumbFromPack(entry) {
+  const meta = entry.meta, tk = meta.tk || entry.sk, tp = meta.tk ? meta.tp : entry.sp, tv = meta.tk ? meta.tpv : entry.spv;
+  if (!tk || !tp) return null;
+  if (THUMB_URL[tk]) return THUMB_URL[tk];
+  getPack(tp, tv).then(pk => {
+    for (const k in pk) if (!THUMB_URL[k]) THUMB_URL[k] = URL.createObjectURL(new Blob([pk[k]], { type: 'image/svg+xml' }));
+    document.querySelectorAll('image[data-tk]').forEach(im => { const u = THUMB_URL[im.dataset.tk]; if (u && im.getAttribute('href') !== u) im.setAttribute('href', u); });
+  }).catch(() => { document.querySelectorAll(`image[data-tk="${tk}"]`).forEach(im => im.setAttribute('href', im.dataset.fb)); });
+  return '';
+}
 async function fullMeta(e) {
   if (e.full !== false) return e.meta;
   // 같은 나라 지도들의 전체 설정은 maps/bundles/ 안의 묶음 파일 하나에 들어 있어요.
@@ -43,7 +60,9 @@ async function useMap(id) {
   await fullMeta(e);
   MAP = e.meta; MAP_BASE = e.folder ? `maps/${e.folder}/` : '';
   let txt = svgCache[id] || e.svgText;
-  if (!txt) { txt = await (await fetch(MAP_BASE + (MAP.svg || 'map.svg') + (e.v ? '?v=' + e.v : ''))).text(); svgCache[id] = txt; }
+  if (!txt && e.sp) { try { txt = (await getPack(e.sp, e.spv))[e.sk]; } catch (er) { } }
+  if (!txt) { txt = await (await fetch(MAP_BASE + (MAP.svg || 'map.svg') + (e.v ? '?v=' + e.v : ''))).text(); }
+  svgCache[id] = txt;
   const doc = new DOMParser().parseFromString(txt, 'image/svg+xml');
   const alias = MAP.regionAlias || {}, hid = new Set(MAP.hideIds || []);
   DATA = [...doc.querySelectorAll('path[id]')].map(p => {

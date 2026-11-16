@@ -29,7 +29,7 @@ def thumb(svgpath,out,w):
     open(out,'w').write(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{vb}">{gopen}<path d="'+''.join(ds)+'"/></g></svg>')
     return True
 idx=json.load(open(os.path.join(R,'index.json')))
-cat=[];done={};thash={};bund={}
+cat=[];done={};thash={};spack={};tpack={};bund={}
 for e in idx['maps']:
     f=e['folder']; mp=os.path.join(R,f,'map.json'); m=json.load(open(mp))
     svgrel=m.get('svg','map.svg'); svgp=os.path.normpath(os.path.join(R,f,svgrel))
@@ -59,12 +59,41 @@ for e in idx['maps']:
         if done[tp]: light['thumb']=os.path.relpath(done[tp],os.path.join(R,f)).replace(os.sep,'/')
     bk=re.sub(r'[^0-9A-Za-z]+','-',m.get('menuCountry') and ('c'+hashlib.md5(m['menuCountry'].encode()).hexdigest()[:8]) or m.get('id',e['id']))
     bund.setdefault(bk,{})[m.get('id',e['id'])]=m
-    cat.append({'id':m.get('id',e['id']),'folder':f,'v':h,'b':bk,'meta':light})
+    ce={'id':m.get('id',e['id']),'folder':f,'v':h,'b':bk,'meta':light}
+    sk=os.path.relpath(svgp,os.path.dirname(R)).replace(os.sep,'/'); ce['sk']=sk
+    if sk not in spack: spack[sk]=bk
+    if light.get('thumb'):
+        tk=os.path.relpath(os.path.normpath(os.path.join(R,f,light['thumb'])),os.path.dirname(R)).replace(os.sep,'/'); light['tk']=tk
+        if tk not in tpack: tpack[tk]=bk
+    cat.append(ce)
 os.makedirs(os.path.join(R,'bundles'),exist_ok=True)
 for fn in os.listdir(os.path.join(R,'bundles')): os.remove(os.path.join(R,'bundles',fn))
 bh={}
 for bk,d in bund.items():
     t=json.dumps(d,ensure_ascii=False,separators=(',',':')); open(os.path.join(R,'bundles',bk+'.json'),'w').write(t); bh[bk]=hashlib.md5(t.encode()).hexdigest()[:8]
 for c in cat: c['bv']=bh[c['b']]
+# 지도 모양(svg)과 썸네일을 나라별 묶음 파일(packs/)에 모아요. 아티팩트에는 이 묶음만 올리면 돼서 파일 수가 크게 줄어요.
+PK=os.path.join(R,'packs'); os.makedirs(PK,exist_ok=True)
+for fn in os.listdir(PK): os.remove(os.path.join(PK,fn))
+LIM=int(2.5*1024*1024); loc={}
+def writepacks(src,pre):
+    grp={}
+    for k,bk in src.items(): grp.setdefault(bk,[]).append(k)
+    for bk,ks in grp.items():
+        part=0; cur={}; size=0
+        def flush():
+            if not cur: return
+            name=f'{pre}-{bk}-{part}'; t=json.dumps(cur,ensure_ascii=False,separators=(',',':'))
+            open(os.path.join(PK,name+'.json'),'w').write(t); hv=hashlib.md5(t.encode()).hexdigest()[:8]
+            for k in cur: loc[k]=(name,hv)
+        for k in ks:
+            txt=open(os.path.join(os.path.dirname(R),k)).read()
+            if cur and size+len(txt)>LIM: flush(); part+=1; cur={}; size=0
+            cur[k]=txt; size+=len(txt)
+        flush()
+writepacks(spack,'s'); writepacks(tpack,'t')
+for c in cat:
+    c['sp'],c['spv']=loc[c['sk']]
+    if c['meta'].get('tk'): c['meta']['tp'],c['meta']['tpv']=loc[c['meta']['tk']]
 json.dump({'maps':cat},open(os.path.join(R,'catalog.json'),'w'),ensure_ascii=False,separators=(',',':'))
-print(len(cat),'maps',len(bund),'bundles', sum(1 for c in cat if 'thumb' in c['meta']),'thumbs', os.path.getsize(os.path.join(R,'catalog.json'))//1024,'KB')
+print(len(os.listdir(PK)),'packs',len(cat),'maps',len(bund),'bundles', sum(1 for c in cat if 'thumb' in c['meta']),'thumbs', os.path.getsize(os.path.join(R,'catalog.json'))//1024,'KB')

@@ -35,7 +35,8 @@ function renderMenu() {
     return entry.custom ? entry.thumb : (entry.folder ? `maps/${entry.folder}/` : '') + (entry.meta.thumb || entry.meta.svg || 'map.svg') + (entry.v ? '?v=' + entry.v : '');
   };
   const thumbSVG = (entry, v) => { const [bx, by, bw, bh] = v.box, p = Math.max(bw, bh) * .06;
-    return `<svg class="thumb" viewBox="${bx - p} ${by - p} ${bw + 2 * p} ${bh + 2 * p}" preserveAspectRatio="xMidYMid meet"><image href="${thumbOf(entry)}" width="${entry.meta.width}" height="${entry.meta.height}"/></svg>`; };
+    const fb = thumbOf(entry), pk = entry.custom ? null : thumbFromPack(entry), href = pk === null ? fb : pk;
+    return `<svg class="thumb" viewBox="${bx - p} ${by - p} ${bw + 2 * p} ${bh + 2 * p}" preserveAspectRatio="xMidYMid meet"><image href="${href}"${pk === null ? '' : ` data-tk="${esc(entry.meta.tk || entry.sk)}" data-fb="${esc(fb)}"`} width="${entry.meta.width}" height="${entry.meta.height}"/></svg>`; };
   const metaLine = (meta, v, n, tot) => [v.sub ? esc(v.sub) : '', meta.labelName ? '' : (meta.layout === 'presidential' ? `주 ${n} · 선거인단 ${tot}` : `선거구 ${n} · ${tot}석`)].filter(Boolean).join(' · ');
   corder.forEach(ckey => { const gl = countries[ckey], m0 = groups[gl[0]][0].meta, isC = !!m0.menuCountry;
     const sec = document.createElement('div'); sec.className = 'mgroup';
