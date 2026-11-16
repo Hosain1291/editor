@@ -1473,6 +1473,26 @@
    "folder": "korea-sgg-2007"
   },
   {
+   "id": "korea-sgg-2012",
+   "folder": "korea-sgg-2012"
+  },
+  {
+   "id": "korea-sgg-2017",
+   "folder": "korea-sgg-2017"
+  },
+  {
+   "id": "korea-sgg-2022",
+   "folder": "korea-sgg-2022"
+  },
+  {
+   "id": "korea-sgg-2025",
+   "folder": "korea-sgg-2025"
+  },
+  {
+   "id": "korea-sgg-2026",
+   "folder": "korea-sgg-2026"
+  },
+  {
    "id": "korea-sido-1958",
    "folder": "korea-sido-1958"
   },
@@ -1503,26 +1523,6 @@
   {
    "id": "korea-sido-1981",
    "folder": "korea-sido-1981"
-  },
-  {
-   "id": "korea-sido-1985",
-   "folder": "korea-sido-1985"
-  },
-  {
-   "id": "korea-sido-1992",
-   "folder": "korea-sido-1992"
-  },
-  {
-   "id": "korea-sido-1997",
-   "folder": "korea-sido-1997"
-  },
-  {
-   "id": "korea-sido-2002",
-   "folder": "korea-sido-2002"
-  },
-  {
-   "id": "korea-sido-2007",
-   "folder": "korea-sido-2007"
   },
   {
    "id": "at-nr-1945",
@@ -2731,6 +2731,58 @@
   {
    "id": "it-cam-1919",
    "folder": "it-cam-1919"
+  },
+  {
+   "id": "korea-2008",
+   "folder": "korea-2008"
+  },
+  {
+   "id": "korea-2012",
+   "folder": "korea-2012"
+  },
+  {
+   "id": "korea-2016",
+   "folder": "korea-2016"
+  },
+  {
+   "id": "korea-2020",
+   "folder": "korea-2020"
+  },
+  {
+   "id": "korea-2024",
+   "folder": "korea-2024"
+  },
+  {
+   "id": "korea-sido-1985",
+   "folder": "korea-sido-1985"
+  },
+  {
+   "id": "korea-sido-1992",
+   "folder": "korea-sido-1992"
+  },
+  {
+   "id": "korea-sido-1997",
+   "folder": "korea-sido-1997"
+  },
+  {
+   "id": "korea-sido-2002",
+   "folder": "korea-sido-2002"
+  },
+  {
+   "id": "korea-sido-2007",
+   "folder": "korea-sido-2007"
+  },
+  {
+   "id": "korea-sido-2012",
+   "folder": "korea-sido-2012"
+  },
+  {
+   "id": "korea-sido-2025",
+   "folder": "korea-sido-2025"
+  },
+  {
+   "id": "korea-sido-2026",
+   "folder": "korea-sido-2026"
   }
  ]
 }
