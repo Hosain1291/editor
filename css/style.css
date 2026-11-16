@@ -389,3 +389,14 @@ body.present #chartSec{display:block!important}
 .msearch input:focus{outline:none;border-color:var(--frame);box-shadow:0 0 0 1px var(--frame)}
 #mapSearchN{color:var(--mute);font-size:13px}
 .ylink.qhide,.card.qhide,.mgroup.qhide{display:none!important}
+
+/* 테마 고르기 (펼침 목록) */
+.themeSeg{display:block!important;position:relative;flex:0 0 auto!important}
+.themeSeg .tdrop{display:inline-flex;align-items:center;gap:8px;min-width:170px;justify-content:flex-start}
+.themeSeg .tdrop b{flex:1;text-align:left;font-weight:700}
+.themeSeg .car{opacity:.7}
+.themeSeg .tsw{display:inline-block;width:18px;height:18px;border:1px solid currentColor;border-radius:3px;flex:none}
+.themeSeg .tpop{display:none;position:absolute;z-index:60;top:calc(100% + 6px);left:0;width:min(420px,86vw)}
+.themeSeg.open .tpop{display:block}
+.themeSeg .tlist{display:grid;grid-template-columns:repeat(2,1fr);gap:6px;padding:10px}
+.themeSeg .tlist button{display:flex;align-items:center;gap:8px;text-align:left;padding:7px 9px}

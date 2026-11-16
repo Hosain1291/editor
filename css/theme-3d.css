@@ -1,6 +1,6 @@
 /* 3D 지도: TNO 색 그대로, 지도를 비스듬히 눕히고 두께를 줘요 */
 #mapWrap{perspective:1300px;overflow:hidden;background:radial-gradient(ellipse at 50% 30%,#123038 0,#071215 70%);background-size:auto}
-#map{transform:rotateX(34deg) scale(.96);transform-origin:50% 62%;transform-style:preserve-3d}
+#map{position:absolute;left:-18%;top:-32%;width:136%!important;height:150%!important;overflow:visible;transform:rotateX(34deg);transform-origin:50% 60%}
 #map #g{filter:drop-shadow(0 1px 0 #0b2a30) drop-shadow(0 2px 0 #0b2a30) drop-shadow(0 3px 0 #0b2a30) drop-shadow(0 4px 0 #09242a) drop-shadow(0 10px 8px #000a)}
 #map #g path{stroke-width:1px}
 #map #labels{filter:drop-shadow(0 2px 2px #000)}

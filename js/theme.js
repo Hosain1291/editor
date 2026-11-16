@@ -27,10 +27,15 @@ setThemeCss();
 function themeTexts() {
   const d = document.getElementById('menuDesc'); if (d) d.textContent = THEME.desc;
   const l = document.getElementById('menuLabel'); if (l) l.textContent = THEME.full + ' · 선거 지도 시뮬레이터';
-  document.querySelectorAll('.themeSeg').forEach(seg => { if (!seg.dataset.built) { seg.innerHTML = themeButtons(); seg.dataset.built = 1; } });
-  document.querySelectorAll('.themeSeg button').forEach(b => b.classList.toggle('on', b.dataset.theme === THEME_ID));
+  document.querySelectorAll('.themeSeg').forEach(seg => { seg.innerHTML = themeButtons(); seg.dataset.built = 1; });
 }
-function themeButtons() { return Object.entries(THEMES).map(([k, t]) => `<button data-theme="${k}" class="${k === THEME_ID ? 'on' : ''}">${t.btn || t.name}</button>`).join(''); }
+/* 테마 고르기: 필터 창처럼 단추 하나 → 펼쳐지는 목록 */
+function themeButtons() {
+  const sw = t => `<i class="tsw" style="background:linear-gradient(135deg,${t.sea} 0 33%,${t.toss} 33% 66%,${t.frame} 66%)"></i>`;
+  return `<button type="button" class="tdrop">${sw(THEME)}<b>${THEME.name}</b><span class="car">▾</span></button>`
+    + `<div class="tpop win"><div class="tb"><span class="t">화면 테마</span><span class="ctl"><i class="tclose" style="cursor:pointer">✕</i></span></div><div class="tlist">`
+    + Object.entries(THEMES).map(([k, t]) => `<button type="button" data-theme="${k}" class="${k === THEME_ID ? 'on' : ''}">${sw(t)}<span>${t.name}</span></button>`).join('') + `</div></div>`;
+}
 function applyTheme(id) {
   if (!THEMES[id]) return;
   THEME_ID = id; THEME = THEMES[id];
@@ -43,5 +48,13 @@ function applyTheme(id) {
   if (typeof MAP !== 'undefined' && MAP && typeof M !== 'undefined' && M) { paintAll(); refresh(); if (typeof updTag === 'function') updTag(); const t = document.getElementById('mapTag'); if (t) t.textContent = THEME.full + ' · ' + (MAP.tag || MAP.name); }
   if (typeof renderOptions === 'function' && document.getElementById('mOpt') && document.getElementById('mOpt').classList.contains('open')) renderOptions();
 }
-document.addEventListener('click', e => { const b = e.target.closest('.themeSeg button'); if (b) applyTheme(b.dataset.theme); });
+document.addEventListener('click', e => {
+  const seg = e.target.closest('.themeSeg');
+  document.querySelectorAll('.themeSeg.open').forEach(s => { if (s !== seg) s.classList.remove('open'); });
+  if (!seg) return;
+  if (e.target.closest('.tdrop')) { seg.classList.toggle('open'); return; }
+  if (e.target.closest('.tclose')) { seg.classList.remove('open'); return; }
+  const b = e.target.closest('.tlist button'); if (b) { applyTheme(b.dataset.theme); }
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') document.querySelectorAll('.themeSeg.open').forEach(s => s.classList.remove('open')); });
 document.addEventListener('DOMContentLoaded', themeTexts);
