@@ -69,14 +69,50 @@ document.addEventListener('click', e => {
 document.addEventListener('keydown', e => { if (e.key === 'Escape') document.querySelectorAll('.themeSeg.open').forEach(s => s.classList.remove('open')); });
 document.addEventListener('DOMContentLoaded', themeTexts);
 
-/* 픽셀 지도: 화면 픽셀 크기가 늘 같도록 확대할 때마다 필터 칸 크기를 다시 맞춰요 */
+/* 픽셀 지도: 지금 보이는 지도를 N픽셀 칸으로 다시 그려요 (칸마다 한 색, 경계는 어두운 칸). 클릭은 원래 도형이 받아요 */
+var pxT = 0, pxSeq = 0;
 function pxUpdate() {
-  const n = THEMES[THEME_ID] && THEMES[THEME_ID].px; if (!n) return;
-  const svg = document.getElementById('map'), f = document.getElementById('pxf'); if (!svg || !f) return;
-  const vb = svg.viewBox && svg.viewBox.baseVal, w = svg.clientWidth || 1;
-  const u = vb && vb.width ? vb.width / w : 1, s = n * u;
-  const dot = document.getElementById('pxDot'), tile = document.getElementById('pxTile'), dil = document.getElementById('pxDil');
-  dot.setAttribute('x', s / 2); dot.setAttribute('y', s / 2); dot.setAttribute('width', u); dot.setAttribute('height', u);
-  tile.setAttribute('width', s); tile.setAttribute('height', s); dil.setAttribute('radius', s / 2);
+  const t = THEMES[THEME_ID], on = !!(t && t.px);
+  if (!document.body) { document.addEventListener('DOMContentLoaded', pxUpdate, { once: true }); return; }
+  document.body.classList.toggle('pxon', on);
+  const im = document.getElementById('pxImg');
+  if (!on) { if (im) im.remove(); return; }
+  clearTimeout(pxT); pxT = setTimeout(pxRender, 30);
+}
+function pxRender() {
+  const t = THEMES[THEME_ID]; if (!t || !t.px) return;
+  const svg = document.getElementById('map'), g = document.getElementById('g');
+  if (!svg || !g || !g.firstChild || !svg.clientWidth) return;
+  const n = t.px, W = svg.clientWidth, H = svg.clientHeight, m = svg.getScreenCTM(); if (!m) return;
+  const r = svg.getBoundingClientRect(), inv = m.inverse(), P = (x, y) => { const q = svg.createSVGPoint(); q.x = x; q.y = y; return q.matrixTransform(inv); };
+  const a = P(r.left, r.top), b = P(r.left + W, r.top + H);
+  const cw = Math.max(1, Math.ceil(W / n)), ch = Math.max(1, Math.ceil(H / n));
+  const vw = (b.x - a.x) * cw * n / W, vh = (b.y - a.y) * ch * n / H;
+  const defs = document.getElementById('defs');
+  const src = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${a.x} ${a.y} ${vw} ${vh}" width="${cw}" height="${ch}" preserveAspectRatio="none"><style>path{stroke:none!important}</style><defs>${defs ? defs.innerHTML : ''}</defs><g shape-rendering="crispEdges">${g.innerHTML}</g></svg>`;
+  /* 선거구마다 다른 색으로 한 번 더 그려서 경계를 찾아요 */
+  let k = 0, idg = '';
+  for (const el of g.children) { k++; const d = el.getAttribute('d'); if (!d) continue; const tr = el.getAttribute('transform'); idg += `<path d="${d}"${tr ? ` transform="${tr}"` : ''} fill="#${(k * 2654435761 % 16777215).toString(16).padStart(6, '0')}"/>`; }
+  const src2 = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${a.x} ${a.y} ${vw} ${vh}" width="${cw}" height="${ch}" preserveAspectRatio="none"><g shape-rendering="crispEdges" stroke="none">${idg}</g></svg>`;
+  const seq = ++pxSeq, img = new Image(), img2 = new Image(); let got = 0;
+  const draw = (im) => { const c = document.createElement('canvas'); c.width = cw; c.height = ch; const x = c.getContext('2d'); x.imageSmoothingEnabled = false; x.drawImage(im, 0, 0, cw, ch); return [c, x, x.getImageData(0, 0, cw, ch).data]; };
+  img.onload = img2.onload = () => { if (++got < 2) return;
+    if (seq !== pxSeq) return;
+    const [c, x, d] = draw(img), q = draw(img2)[2], o = new Uint8ClampedArray(d);
+    const same = (i, j) => q[i] === q[j] && q[i + 1] === q[j + 1] && q[i + 2] === q[j + 2] && (d[i + 3] > 127) === (d[j + 3] > 127);
+    for (let yy = 0; yy < ch; yy++) for (let xx = 0; xx < cw; xx++) {
+      const i = (yy * cw + xx) * 4; if (d[i + 3] < 128) { o[i + 3] = 0; continue; }
+      o[i + 3] = 255;
+      const edge = (xx + 1 < cw && !same(i, i + 4)) || (yy + 1 < ch && !same(i, i + cw * 4)) || (xx > 0 && d[i - 1] < 128) || (yy > 0 && d[i - cw * 4 + 3] < 128);
+      if (edge) { o[i] = d[i] * .55; o[i + 1] = d[i + 1] * .55; o[i + 2] = d[i + 2] * .55; }
+    }
+    x.putImageData(new ImageData(o, cw, ch), 0, 0);
+    let el = document.getElementById('pxImg');
+    if (!el) { el = document.createElementNS('http://www.w3.org/2000/svg', 'image'); el.id = 'pxImg'; el.setAttribute('preserveAspectRatio', 'none'); el.style.pointerEvents = 'none'; el.style.imageRendering = 'pixelated'; }
+    const lab = document.getElementById('labels'); if (el.nextSibling !== lab) svg.insertBefore(el, lab);
+    el.setAttribute('x', a.x); el.setAttribute('y', a.y); el.setAttribute('width', vw); el.setAttribute('height', vh);
+    el.setAttribute('href', c.toDataURL());
+  };
+  img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(src); img2.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(src2);
 }
 window.addEventListener('resize', () => pxUpdate());

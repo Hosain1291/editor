@@ -59,8 +59,8 @@ function districtFill(id) {
   return 'url(#' + key + ')';
 }
 function baseDefs() { defs.innerHTML = '<pattern id="offPat" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(45)"><rect width="5" height="5" fill="#0a1a1d"/><rect width="1.4" height="5" fill="#24484e"/></pattern>'; }
-function paintOne(id) { const p = els[id]; if (!inMap[id]) return; p.setAttribute('fill', districtFill(id)); const x = M.d[id]; p.classList.toggle('lock', !!(x && x.lock)); refreshLabel(id); }
-function paintAll() { labelsDirty = true; scheduleLabels(); baseDefs(); ids.forEach(id => { if (inMap[id]) paintOne(id); else { els[id].setAttribute('fill', CTX_FILL); els[id].classList.remove('lock'); } }); }
+function paintOne(id) { const p = els[id]; if (!inMap[id]) return; p.setAttribute('fill', districtFill(id)); const x = M.d[id]; p.classList.toggle('lock', !!(x && x.lock)); refreshLabel(id); if (typeof pxUpdate === 'function') pxUpdate(); }
+function paintAll() { if (typeof pxUpdate === 'function') pxUpdate(); labelsDirty = true; scheduleLabels(); baseDefs(); ids.forEach(id => { if (inMap[id]) paintOne(id); else { els[id].setAttribute('fill', CTX_FILL); els[id].classList.remove('lock'); } }); }
 
 /* ---------- 합계 ---------- */
 function totals() {
