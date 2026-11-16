@@ -1,25 +1,27 @@
 {
  "id": "ir-majlis",
  "name": "이란 이슬람 의회 (마즐리스)",
- "subtitle": "주별 의석 · 지역구 286석",
+ "subtitle": "주별 의석 + 종교 소수자 · 290석",
  "tag": "IRAN",
  "menuCountry": "이란",
  "menuGroup": "이란 이슬람 의회",
  "cardName": "마즐리스 (주별 의석)",
- "svg": "../ir-ostan/map.svg",
+ "svg": "map.svg",
  "width": 1000,
  "height": 899.4,
  "regions": {
-  "IR": "이란"
+  "IR": "이란",
+  "MIN": "종교 소수자"
  },
  "regionAlias": {},
  "views": [
   {
    "key": "all",
    "name": "전국",
-   "sub": "주 31개 · 286석",
+   "sub": "주 31개 · 종교 소수자 5석 · 290석",
    "regions": [
-    "IR"
+    "IR",
+    "MIN"
    ],
    "box": [
     0,
@@ -51,7 +53,7 @@
  "defaultSeats": 1,
  "seats": {
   "IR-Mazandaran": 12,
-  "IR-North_Khorasan": 4,
+  "IR-North_Khorasan": 3,
   "IR-Kerman": 10,
   "IR-Ilam": 3,
   "IR-Lorestan": 9,
@@ -80,7 +82,12 @@
   "IR-Yazd": 4,
   "IR-Hormozgan": 5,
   "IR-Khuzestan": 18,
-  "IR-Tehran": 35
+  "IR-Tehran": 35,
+  "IR-MIN-ARM-N": 1,
+  "IR-MIN-ARM-S": 1,
+  "IR-MIN-ASY": 1,
+  "IR-MIN-JEW": 1,
+  "IR-MIN-ZOR": 1
  },
  "names": {
   "IR-Mazandaran": "마잔다란",
@@ -113,7 +120,12 @@
   "IR-Yazd": "야즈드",
   "IR-Hormozgan": "호르모즈간",
   "IR-Khuzestan": "후제스탄",
-  "IR-Tehran": "테헤란"
+  "IR-Tehran": "테헤란",
+  "IR-MIN-ARM-N": "종교 소수자 · 아르메니아계 (북부)",
+  "IR-MIN-ARM-S": "종교 소수자 · 아르메니아계 (남부)",
+  "IR-MIN-ASY": "종교 소수자 · 아시리아·칼데아계",
+  "IR-MIN-JEW": "종교 소수자 · 유대계",
+  "IR-MIN-ZOR": "종교 소수자 · 조로아스터계"
  },
  "labels": {
   "IR-Mazandaran": "마잔다란",
@@ -146,7 +158,12 @@
   "IR-Yazd": "야즈드",
   "IR-Hormozgan": "호르모즈간",
   "IR-Khuzestan": "후제스탄",
-  "IR-Tehran": "테헤란"
+  "IR-Tehran": "테헤란",
+  "IR-MIN-ARM-N": "아르메니",
+  "IR-MIN-ARM-S": "아르메니",
+  "IR-MIN-ASY": "아시리아",
+  "IR-MIN-JEW": "유대계",
+  "IR-MIN-ZOR": "조로아스"
  },
  "regionOf": {
   "IR-Mazandaran": "IR",
@@ -179,9 +196,14 @@
   "IR-Yazd": "IR",
   "IR-Hormozgan": "IR",
   "IR-Khuzestan": "IR",
-  "IR-Tehran": "IR"
+  "IR-Tehran": "IR",
+  "IR-MIN-ARM-N": "MIN",
+  "IR-MIN-ARM-S": "MIN",
+  "IR-MIN-ASY": "MIN",
+  "IR-MIN-JEW": "MIN",
+  "IR-MIN-ZOR": "MIN"
  },
  "labelName": false,
  "presets": [],
- "seatNotes": "올려주신 지도의 페르시아 숫자로 주별 의석을 넣었어요(합계 286석). 종교 소수자 몫 5석은 지도에 없어서 빠져 있어요."
+ "seatNotes": "올려주신 지도의 주별 의석에 종교 소수자 5석을 더해 290석이에요. 원본 지도는 북호라산·라자비호라산에 걸친 쿠찬·파루즈 선거구(1석)를 양쪽에 모두 세어 북호라산을 4석으로 적었는데, 한 번만 세도록 북호라산을 3석으로 고쳤어요."
 }
