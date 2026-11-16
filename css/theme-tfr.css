@@ -87,7 +87,7 @@ main{position:relative;overflow:hidden;display:flex;flex-direction:column}
 #map path{stroke:var(--stroke);stroke-width:calc(.6 * var(--swm,1));vector-effect:non-scaling-stroke;fill-rule:evenodd}
 #map path.ctx{fill:#120620;stroke:#4a1e60;pointer-events:none}
 #map path.lock{stroke:var(--frame);stroke-width:1.4;stroke-dasharray:3 2}
-#map path.hov{stroke:#ffffff;stroke-width:1.8;filter:drop-shadow(0 0 3px #ff3ce6)}
+#map path.hov{fill:none;pointer-events:none;stroke:#ffffff;stroke-width:1.8;}
 #mapTag{position:absolute;left:12px;bottom:10px;font-family:var(--lat);letter-spacing:.2em;font-size:12px;color:var(--mute);pointer-events:none}
 #zoomCtl{position:absolute;right:12px;top:12px;display:flex;flex-direction:column;gap:4px}
 #zoomCtl button{width:34px;height:34px;padding:0;font-size:18px;background:#0d0416e0}
@@ -192,7 +192,7 @@ textarea{width:100%;height:110px;font-family:monospace;font-size:11px}
  #zoomCtl button{width:40px;height:40px}
  #mapTag{display:none}
  #tip{display:none!important}
- #map path.hov{filter:none}
+ #map path.hov{fill:none;pointer-events:none;}
  .modal{align-items:flex-end;padding:0}
  .box{width:100%!important;max-height:80vh;border-radius:8px 8px 0 0}
  .alloc button{width:44px;height:38px;font-size:18px}

@@ -233,6 +233,7 @@ function showTip(id, cx, cy) {
   tip.style.left = Math.min(innerWidth - w - 8, px + 14) + 'px'; tip.style.top = Math.min(innerHeight - hh - 8, py + 14) + 'px';
 }
 function hideTip() { $('#tip').style.display = 'none'; }
+function moveTip(cx, cy) { const tip = $('#tip'); tipXY = [cx, cy]; const w = tip.offsetWidth, hh = tip.offsetHeight; tip.style.left = Math.min(innerWidth - w - 8, cx + 14) + 'px'; tip.style.top = Math.min(innerHeight - hh - 8, cy + 14) + 'px'; }
 
 /* ---------- 지도 열기 ---------- */
 function openView(v) {
@@ -355,7 +356,15 @@ function initEditor() {
   svg.addEventListener('wheel', e => { e.preventDefault(); zoomAt(e.deltaY > 0 ? 1.15 : 1 / 1.15, e.clientX, e.clientY); }, { passive: false });
   const ptrs = new Map(); let drag = null, moved = false, pinch = null, painting = null, hovEl = null;
   const distAt = (x, y) => { const el = document.elementFromPoint(x, y); return el && el.dataset && el.dataset.id && inMap[el.dataset.id] ? el.dataset.id : null; };
-  const setHov = id => { const el = id ? els[id] : null; if (el === hovEl) return; hovEl && hovEl.classList.remove('hov'); hovEl = el; if (el) { el.classList.add('hov'); el.parentNode.appendChild(el); } };
+  /* 마우스를 올린 선거구 강조: 원래 도형은 그대로 두고 위에 테두리 한 장만 옮겨 그려요 (지도 전체를 다시 그리지 않아 빨라요) */
+  const setHov = id => {
+    const el = id ? els[id] : null; if (el === hovEl) return; hovEl = el;
+    let o = document.getElementById('hovP');
+    if (!o) { o = document.createElementNS(NS, 'path'); o.id = 'hovP'; o.setAttribute('class', 'hov'); svg.insertBefore(o, document.getElementById('labels')); }
+    if (!el) { o.style.display = 'none'; return; }
+    o.setAttribute('d', el.getAttribute('d')); const tf = el.getAttribute('transform'); tf ? o.setAttribute('transform', tf) : o.removeAttribute('transform'); o.style.display = '';
+  };
+  let hovRaf = 0, hovEv = null, hovTipId = null;
   let lpTimer = null, lpFired = false;
   const cancelLP = () => { clearTimeout(lpTimer); lpTimer = null; };
   svg.addEventListener('pointerdown', e => {
@@ -377,7 +386,15 @@ function initEditor() {
     if (ptrs.size === 2) { const [a, b] = [...ptrs.values()]; pinch = { d: Math.hypot(a.x - b.x, a.y - b.y) }; drag = null; painting = null; moved = true; cancelLP(); }
   });
   svg.addEventListener('pointermove', e => {
-    if (!ptrs.has(e.pointerId)) { const id = e.target.dataset && e.target.dataset.id; if (id && inMap[id]) { setHov(id); showTip(id, e.clientX, e.clientY); } else { setHov(null); hideTip(); } return; }
+    if (!ptrs.has(e.pointerId)) {
+      hovEv = e; if (hovRaf) return;
+      hovRaf = requestAnimationFrame(() => {
+        hovRaf = 0; const ev = hovEv, id = ev.target.dataset && ev.target.dataset.id;
+        if (id && inMap[id]) { setHov(id); if (id !== hovTipId) { hovTipId = id; showTip(id, ev.clientX, ev.clientY); } else moveTip(ev.clientX, ev.clientY); }
+        else { setHov(null); hideTip(); hovTipId = null; }
+      });
+      return;
+    }
     ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
     if (pinch && ptrs.size === 2) { const [a, b] = [...ptrs.values()]; const d = Math.hypot(a.x - b.x, a.y - b.y); zoomAt(pinch.d / d, (a.x + b.x) / 2, (a.y + b.y) / 2); pinch.d = d; return; }
     if (painting) {
@@ -404,7 +421,7 @@ function initEditor() {
     e.preventDefault(); const id = e.target.dataset && e.target.dataset.id;
     if (id && inMap[id]) { const x = D(id); if (x.off || x.lock) { toast('비활성이거나 잠긴 선거구예요.'); return; } openSplit(id); }
   });
-  svg.addEventListener('pointerleave', () => { hideTip(); setHov(null); });
+  svg.addEventListener('pointerleave', () => { hideTip(); setHov(null); hovTipId = null; });
 
   // 키보드
   addEventListener('keydown', e => {
