@@ -1,6 +1,6 @@
 /* 3D 화이트: 밝은 화면 + 비스듬한 지도 */
 #mapWrap{perspective:1300px;overflow:hidden;background:radial-gradient(ellipse at 50% 30%,#ffffff 0,#dedbd4 75%);background-size:auto}
-#map{position:absolute;left:-18%;top:-32%;width:136%!important;height:150%!important;overflow:visible;transform:rotateX(36deg);transform-origin:50% 60%;will-change:transform;backface-visibility:hidden}
+#map{position:absolute;left:-18%;top:-32%;width:136%!important;height:150%!important;overflow:visible;transform:rotateX(36deg);transform-origin:50% 60%}
 #map #g{filter:drop-shadow(0 4px 0 #a9a49a)}
 #map #g path{stroke-width:1px;transition:none!important}
 .card .thumb{transform:perspective(600px) rotateX(28deg);filter:drop-shadow(0 3px 0 #b9b4aa)}

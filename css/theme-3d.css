@@ -1,6 +1,6 @@
 /* 3D 지도: TNO 색 그대로, 지도를 비스듬히 눕혀요. 가볍게: 그림자는 흐림 없이 한 겹만 */
 #mapWrap{perspective:1300px;overflow:hidden;background:radial-gradient(ellipse at 50% 30%,#123038 0,#071215 70%);background-size:auto}
-#map{position:absolute;left:-18%;top:-32%;width:136%!important;height:150%!important;overflow:visible;transform:rotateX(34deg);transform-origin:50% 60%;will-change:transform;backface-visibility:hidden}
+#map{position:absolute;left:-18%;top:-32%;width:136%!important;height:150%!important;overflow:visible;transform:rotateX(34deg);transform-origin:50% 60%}
 #map #g{filter:drop-shadow(0 4px 0 #0b2a30)}
 #map #g path{stroke-width:1px;transition:none!important}
 .card .thumb{transform:perspective(600px) rotateX(28deg)}

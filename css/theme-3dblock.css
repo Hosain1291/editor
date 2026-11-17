@@ -1,6 +1,6 @@
 /* 3D 블록 지도: 선거구가 두툼한 블록처럼 솟아 보여요 (그림자 두 겹, 흐림 없음) */
 #mapWrap{perspective:1200px;overflow:hidden;background:radial-gradient(ellipse at 50% 25%,#16404a 0,#061013 72%);background-size:auto}
-#map{position:absolute;left:-18%;top:-34%;width:136%!important;height:152%!important;overflow:visible;transform:rotateX(42deg);transform-origin:50% 60%;will-change:transform;backface-visibility:hidden}
+#map{position:absolute;left:-18%;top:-34%;width:136%!important;height:152%!important;overflow:visible;transform:rotateX(42deg);transform-origin:50% 60%}
 #map #g{filter:drop-shadow(0 3px 0 #0e3a42) drop-shadow(0 4px 0 #051417)}
 #map #g path{stroke-width:1.4px;transition:none!important}
 .card .thumb{transform:perspective(600px) rotateX(32deg);filter:drop-shadow(0 4px 0 #0e3a42)}
