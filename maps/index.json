@@ -2783,6 +2783,50 @@
   {
    "id": "korea-sido-2026",
    "folder": "korea-sido-2026"
+  },
+  {
+   "id": "fr-regions",
+   "folder": "fr-regions"
+  },
+  {
+   "id": "fr-regions-1982",
+   "folder": "fr-regions-1982"
+  },
+  {
+   "id": "fr-departements",
+   "folder": "fr-departements"
+  },
+  {
+   "id": "fr-1988",
+   "folder": "fr-1988"
+  },
+  {
+   "id": "fr-1993",
+   "folder": "fr-1993"
+  },
+  {
+   "id": "fr-1997",
+   "folder": "fr-1997"
+  },
+  {
+   "id": "fr-2002",
+   "folder": "fr-2002"
+  },
+  {
+   "id": "fr-2007",
+   "folder": "fr-2007"
+  },
+  {
+   "id": "fr-2012",
+   "folder": "fr-2012"
+  },
+  {
+   "id": "fr-2017",
+   "folder": "fr-2017"
+  },
+  {
+   "id": "fr-2024",
+   "folder": "fr-2024"
   }
  ]
 }
