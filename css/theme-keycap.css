@@ -1,0 +1,7 @@
+/* 키캡 지도: 선거구가 키보드 키캡처럼 솟아 보여요 (틈은 검은 선, 윗면은 빛을 받아 볼록) */
+#mapWrap{perspective:1300px;overflow:hidden;background:radial-gradient(ellipse at 50% 25%,#16404a 0,#061013 72%);background-size:auto}
+#map{position:absolute;left:-18%;top:-32%;width:136%!important;height:150%!important;overflow:visible;transform:rotateX(30deg);transform-origin:50% 60%}
+#map #g{filter:url(#kcF)}
+#map #g path,#map #g path.ctx{stroke:#000!important;stroke-width:2.4px!important;stroke-dasharray:none;transition:none!important}
+#map #g path.lock{stroke-dasharray:none}
+.card .thumb{transform:perspective(600px) rotateX(26deg);filter:drop-shadow(0 3px 0 #0e3a42)}

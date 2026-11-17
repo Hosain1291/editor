@@ -1,6 +1,0 @@
-/* 3D 블록 다크 */
-#mapWrap{perspective:1200px;overflow:hidden;background:radial-gradient(ellipse at 50% 25%,#2a2a2e 0,#08080a 72%);background-size:auto}
-#map{position:absolute;left:-18%;top:-34%;width:136%!important;height:152%!important;overflow:visible;transform:rotateX(42deg);transform-origin:50% 60%}
-#map #g{filter:drop-shadow(0 3px 0 #3a3a40) drop-shadow(0 4px 0 #000)}
-#map #g path{stroke-width:1.4px;transition:none!important}
-.card .thumb{transform:perspective(600px) rotateX(32deg);filter:drop-shadow(0 4px 0 #000)}
