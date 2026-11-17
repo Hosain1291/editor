@@ -1,0 +1,102 @@
+{
+ "id": "gr-regions",
+ "name": "그리스 지방 (페리페리아)",
+ "subtitle": "2011년 칼리크라티스 개편 이후 13개 지방",
+ "tag": "HELLAS",
+ "menuCountry": "그리스",
+ "menuGroup": "그리스 기본 지도",
+ "cardName": "지방 (ADM1)",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 682.9,
+ "regions": {
+  "GR": "그리스"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "지방 (ADM1)",
+   "sub": "13곳",
+   "regions": [
+    "GR"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    682.9
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "신민주주의 (ND)",
+   "color": "#1F4E9C"
+  },
+  {
+   "name": "급진좌파연합 (SYRIZA)",
+   "color": "#E9626E"
+  },
+  {
+   "name": "범그리스 사회주의 운동 (PASOK)",
+   "color": "#2DB34A"
+  },
+  {
+   "name": "그리스 공산당 (KKE)",
+   "color": "#E2001A"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {},
+ "names": {
+  "GR-A": "동마케도니아·트라키",
+  "GR-B": "중앙마케도니아",
+  "GR-C": "서마케도니아",
+  "GR-D": "이피로스",
+  "GR-E": "테살리아",
+  "GR-F": "이오니아 제도",
+  "GR-G": "서그리스",
+  "GR-H": "중앙그리스",
+  "GR-I": "아티키",
+  "GR-J": "펠로폰니소스",
+  "GR-K": "북에게",
+  "GR-L": "남에게",
+  "GR-M": "크레타"
+ },
+ "labels": {
+  "GR-A": "동마케도니아·트라키",
+  "GR-B": "중앙마케도니아",
+  "GR-C": "서마케도니아",
+  "GR-D": "이피로스",
+  "GR-E": "테살리아",
+  "GR-F": "이오니아 제도",
+  "GR-G": "서그리스",
+  "GR-H": "중앙그리스",
+  "GR-I": "아티키",
+  "GR-J": "펠로폰니소스",
+  "GR-K": "북에게",
+  "GR-L": "남에게",
+  "GR-M": "크레타"
+ },
+ "regionOf": {
+  "GR-A": "GR",
+  "GR-B": "GR",
+  "GR-C": "GR",
+  "GR-D": "GR",
+  "GR-E": "GR",
+  "GR-F": "GR",
+  "GR-G": "GR",
+  "GR-H": "GR",
+  "GR-I": "GR",
+  "GR-J": "GR",
+  "GR-K": "GR",
+  "GR-L": "GR",
+  "GR-M": "GR"
+ },
+ "labelName": true,
+ "hideSeatOne": true,
+ "seatNotes": "아토스산 자치 수도원 지역은 지도에 넣지 않았어요."
+}
