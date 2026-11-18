@@ -125,7 +125,7 @@ let curHash = null, leaveOK = false, skipRoute = false;
 const seatsChanged = () => store && ids.some(id => store.seats[id] !== defaultSeat(id));
 const hasWork = () => M && (seatsChanged() || Object.values(M.d || {}).some(x => x.off || x.lock || Object.values(x.a || {}).some(v => v > 0)));
 /* 초기화하고 나가기: 칠한 내용과 함께 표 편집에서 바꾼 의석수도 지도의 원래 의석수로 되돌려요 (저장하고 나가면 바꾼 의석수 유지) */
-function resetCurrentView() { if (!M) return; M.d = {}; if (seatsChanged()) applySeats(store, MAP.seats || {}); save(); }
+function resetCurrentView() { if (!M) return; M.d = offInit({}); if (seatsChanged()) applySeats(store, MAP.seats || {}); save(); }
 function leaveTo(target) {
   leaveOK = true;
   if (location.hash.replace('#', '') === target) { route(); } else location.hash = target;

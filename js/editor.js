@@ -1,3 +1,5 @@
+/* map.json 의 off: 처음부터 꺼 둘 선거구 (예: 당선자 없는 선거구) */
+function offInit(d) { (MAP.off || []).forEach(id => { d[id] = { a: {}, m: 0, off: true }; }); return d; }
 /* 편집 화면: 지도 그리기, 칠하기(YAPms 방식), 분할·비활성·잠금, 되돌리기, 확대·이동 */
 
 let curView = null, M = null, mapIds = [], inMap = {};
@@ -238,7 +240,7 @@ function moveTip(cx, cy) { const tip = $('#tip'); tipXY = [cx, cy]; const w = ti
 /* ---------- 지도 열기 ---------- */
 function openView(v) {
   curView = v;
-  store.maps[v.key] = store.maps[v.key] || { d: {} }; M = store.maps[v.key];
+  if (!store.maps[v.key]) store.maps[v.key] = { d: offInit({}) }; M = store.maps[v.key];
   mapIds = idsOfView(v); inMap = {}; mapIds.forEach(id => inMap[id] = true);
   ids.forEach(id => els[id].classList.toggle('ctx', !inMap[id]));
   undoS = []; redoS = []; hideMBar();
@@ -281,11 +283,11 @@ function initEditor() {
         const tot = Object.values(ps.d[id]).reduce((s, v) => s + v, 0); if (tot) store.seats[id] = tot;
         M.d[id] = { a, m: (ps.m && ps.m[id]) || 0 };
       }
-      paintAll(); refresh();
+      offInit(M.d); paintAll(); refresh();
       toast(miss.size ? `목록에 없는 정당은 빼고 불러왔어요: ${[...miss].join(', ')}` : `${ps.name}를 불러왔어요.`);
     });
   };
-  $('#clearMap').onclick = () => confirmBox('지도 초기화', '이 지도의 칠한 내용, 비활성, 잠금을 모두 지워요. 되돌리기로 복구할 수 있어요.', () => { snap(); M.d = {}; paintAll(); refresh(); });
+  $('#clearMap').onclick = () => confirmBox('지도 초기화', '이 지도의 칠한 내용, 비활성, 잠금을 모두 지워요. 되돌리기로 복구할 수 있어요.', () => { snap(); M.d = offInit({}); paintAll(); refresh(); });
   $('#bulkApply').onclick = () => {
     const n = Math.max(0, Math.min(999, (v => isNaN(v) ? 3 : v)(parseInt($('#bulkSeats').value))));
     confirmBox('의석수 일괄 적용', `모든 선거구를 ${n}석으로 바꿔요. 한 정당이 다 가진 선거구는 그대로 그 정당 몫이 되고, 나눠진 선거구는 비워져요.`, () => {
