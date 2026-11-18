@@ -1,0 +1,80 @@
+{
+ "id": "ru-2011",
+ "name": "러시아 국가두마 총선거",
+ "subtitle": "2011년 12월 · 전국 단일 비례대표 · 450석",
+ "tag": "GOSUDARSTVENNAYA DUMA 2011",
+ "menuCountry": "러시아",
+ "menuGroup": "러시아 국가두마 총선거",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2011",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 546.5,
+ "regions": {
+  "RU": "러시아"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2011년",
+   "sub": "전국 단일 비례대표",
+   "regions": [
+    "RU"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    546.5
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "통합 러시아",
+   "color": "#10549b"
+  },
+  {
+   "name": "러시아연방 공산당 (KPRF)",
+   "color": "#be0200"
+  },
+  {
+   "name": "정의 러시아 (SR)",
+   "color": "#fab512"
+  },
+  {
+   "name": "자유민주당 (LDPR)",
+   "color": "#4488cc"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "RU-ALL": 450
+ },
+ "names": {
+  "RU-ALL": "전국 단일 선거구 (비례 450석)"
+ },
+ "labels": {
+  "RU-ALL": "450"
+ },
+ "regionOf": {
+  "RU-ALL": "RU"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "RU-ALL": {
+     "통합 러시아": 238,
+     "러시아연방 공산당 (KPRF)": 92,
+     "정의 러시아 (SR)": 64,
+     "자유민주당 (LDPR)": 56
+    }
+   }
+  }
+ ],
+ "seatNotes": "2007·2011년은 소선거구 없이 전국을 한 선거구로 450석을 정당 명부 비례대표로 뽑았어요."
+}
