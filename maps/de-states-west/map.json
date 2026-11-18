@@ -1,0 +1,92 @@
+{
+ "id": "de-states-west",
+ "name": "서독의 주 (1957~1990)",
+ "subtitle": "10개 주 (서베를린 제외)",
+ "tag": "DEUTSCHLAND",
+ "menuCountry": "독일",
+ "menuGroup": "독일 기본 지도",
+ "cardName": "서독 주",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 1493.6,
+ "regions": {
+  "DE": "독일"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "서독 주",
+   "sub": "10개 주 (서베를린 제외)",
+   "regions": [
+    "DE"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1493.6
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "기민·기사연합 (CDU/CSU)",
+   "color": "#454545"
+  },
+  {
+   "name": "사회민주당 (SPD)",
+   "color": "#e6404a"
+  },
+  {
+   "name": "자유민주당 (FDP)",
+   "color": "#ffc327"
+  },
+  {
+   "name": "녹색당",
+   "color": "#64cf58"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {},
+ "names": {
+  "DE-BW": "바덴뷔르템베르크",
+  "DE-BY": "바이에른",
+  "DE-HB": "브레멘",
+  "DE-HH": "함부르크",
+  "DE-HE": "헤센",
+  "DE-NW": "노르트라인베스트팔렌",
+  "DE-RP": "라인란트팔츠",
+  "DE-SL": "자를란트",
+  "DE-SH": "슐레스비히홀슈타인",
+  "DE-NI": "니더작센"
+ },
+ "labels": {
+  "DE-BW": "바덴뷔르템베르크",
+  "DE-BY": "바이에른",
+  "DE-HB": "브레멘",
+  "DE-HH": "함부르크",
+  "DE-HE": "헤센",
+  "DE-NW": "노르트라인베스트팔렌",
+  "DE-RP": "라인란트팔츠",
+  "DE-SL": "자를란트",
+  "DE-SH": "슐레스비히홀슈타인",
+  "DE-NI": "니더작센"
+ },
+ "regionOf": {
+  "DE-BW": "DE",
+  "DE-BY": "DE",
+  "DE-HB": "DE",
+  "DE-HH": "DE",
+  "DE-HE": "DE",
+  "DE-NW": "DE",
+  "DE-RP": "DE",
+  "DE-SL": "DE",
+  "DE-SH": "DE",
+  "DE-NI": "DE"
+ },
+ "labelName": true,
+ "hideSeatOne": true
+}

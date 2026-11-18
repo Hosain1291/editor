@@ -185,6 +185,42 @@
    "folder": "de-1990"
   },
   {
+   "id": "de-1994",
+   "folder": "de-1994"
+  },
+  {
+   "id": "de-1998",
+   "folder": "de-1998"
+  },
+  {
+   "id": "de-2002",
+   "folder": "de-2002"
+  },
+  {
+   "id": "de-2005",
+   "folder": "de-2005"
+  },
+  {
+   "id": "de-2009",
+   "folder": "de-2009"
+  },
+  {
+   "id": "de-2013",
+   "folder": "de-2013"
+  },
+  {
+   "id": "de-2017",
+   "folder": "de-2017"
+  },
+  {
+   "id": "de-2021",
+   "folder": "de-2021"
+  },
+  {
+   "id": "de-2025",
+   "folder": "de-2025"
+  },
+  {
    "id": "jp-1928",
    "folder": "jp-1928"
   },
@@ -2923,6 +2959,14 @@
   {
    "id": "tr-2023",
    "folder": "tr-2023"
+  },
+  {
+   "id": "de-states-west",
+   "folder": "de-states-west"
+  },
+  {
+   "id": "de-states",
+   "folder": "de-states"
   }
  ]
 }
