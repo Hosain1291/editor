@@ -933,6 +933,34 @@
    "folder": "uk-1997"
   },
   {
+   "id": "uk-2001",
+   "folder": "uk-2001"
+  },
+  {
+   "id": "uk-2005",
+   "folder": "uk-2005"
+  },
+  {
+   "id": "uk-2010",
+   "folder": "uk-2010"
+  },
+  {
+   "id": "uk-2015",
+   "folder": "uk-2015"
+  },
+  {
+   "id": "uk-2017",
+   "folder": "uk-2017"
+  },
+  {
+   "id": "uk-2019",
+   "folder": "uk-2019"
+  },
+  {
+   "id": "uk-2024",
+   "folder": "uk-2024"
+  },
+  {
    "id": "pl-sejm-1922",
    "folder": "pl-sejm-1922"
   },
@@ -2967,6 +2995,14 @@
   {
    "id": "de-states",
    "folder": "de-states"
+  },
+  {
+   "id": "uk-regions",
+   "folder": "uk-regions"
+  },
+  {
+   "id": "uk-counties",
+   "folder": "uk-counties"
   }
  ]
 }

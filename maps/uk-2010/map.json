@@ -1,0 +1,3349 @@
+{
+ "id": "uk-2010",
+ "name": "영국 총선거",
+ "subtitle": "2010년 5월 · 하원 650석 · 선거구 650개",
+ "tag": "HOUSE OF COMMONS 2010",
+ "menuCountry": "영국",
+ "menuGroup": "영국 총선거",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2010",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 1600.5,
+ "regions": {
+  "UK": "영국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2010년",
+   "sub": "소선거구",
+   "regions": [
+    "UK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1600.5
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "보수당",
+   "color": "#0087dc"
+  },
+  {
+   "name": "노동당",
+   "color": "#dc241f"
+  },
+  {
+   "name": "자유민주당",
+   "color": "#faa61a"
+  },
+  {
+   "name": "민주연합당 (DUP)",
+   "color": "#d46a4c"
+  },
+  {
+   "name": "스코틀랜드 국민당 (SNP)",
+   "color": "#ffff00"
+  },
+  {
+   "name": "신페인",
+   "color": "#008800"
+  },
+  {
+   "name": "웨일스당 (플라이드 컴리)",
+   "color": "#008142"
+  },
+  {
+   "name": "사회민주노동당 (SDLP)",
+   "color": "#99ff66"
+  },
+  {
+   "name": "하원의장",
+   "color": "#ffffff"
+  },
+  {
+   "name": "무소속",
+   "color": "#cccccc"
+  },
+  {
+   "name": "동맹당 (Alliance)",
+   "color": "#f6cb2f"
+  },
+  {
+   "name": "녹색당",
+   "color": "#6ab023"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {},
+ "names": {
+  "UK-Orkney-and-Shetland": "Orkney and Shetland",
+  "UK-Caithness-Sutherland-and-Easter-Ross": "Caithness, Sutherland and Easter Ross",
+  "UK-Na-h-Eileanan-an-Iar": "Na h-Eileanan an Iar",
+  "UK-Moray": "Moray",
+  "UK-Banff-and-Buchan": "Banff and Buchan",
+  "UK-Ross-Skye-and-Lochaber": "Ross, Skye and Lochaber",
+  "UK-Inverness-Nairn-Badenoch-and-Strathspey": "Inverness, Nairn, Badenoch and Strathspey",
+  "UK-Gordon": "Gordon",
+  "UK-Aberdeen-South": "Aberdeen South",
+  "UK-Aberdeen-North": "Aberdeen North",
+  "UK-West-Aberdeenshire-and-Kincardine": "West Aberdeenshire and Kincardine",
+  "UK-Perth-and-North-Perthshire": "Perth and North Perthshire",
+  "UK-Angus": "Angus",
+  "UK-Dundee-West": "Dundee West",
+  "UK-Dundee-East": "Dundee East",
+  "UK-Argyll-and-Bute": "Argyll and Bute",
+  "UK-Stirling": "Stirling",
+  "UK-Ochil-and-South-Perthshire": "Ochil and South Perthshire",
+  "UK-Glenrothes": "Glenrothes",
+  "UK-North-East-Fife": "North East Fife",
+  "UK-Inverclyde": "Inverclyde",
+  "UK-West-Dunbartonshire": "West Dunbartonshire",
+  "UK-Paisley-and-Renfrewshire-North": "Paisley and Renfrewshire North",
+  "UK-Glasgow-North-West": "Glasgow North West",
+  "UK-Glasgow-North": "Glasgow North",
+  "UK-East-Dunbartonshire": "East Dunbartonshire",
+  "UK-Cumbernauld-Kilsyth-and-Kirkintilloch-East": "Cumbernauld, Kilsyth and Kirkintilloch East",
+  "UK-Falkirk": "Falkirk",
+  "UK-Linlithgow-and-East-Falkirk": "Linlithgow and East Falkirk",
+  "UK-Dunfermline-and-West-Fife": "Dunfermline and West Fife",
+  "UK-Edinburgh-West": "Edinburgh West",
+  "UK-Kirkcaldy-and-Cowdenbeath": "Kirkcaldy and Cowdenbeath",
+  "UK-Edinburgh-North-and-Leith": "Edinburgh North and Leith",
+  "UK-Edinburgh-South": "Edinburgh South",
+  "UK-Edinburgh-East": "Edinburgh East",
+  "UK-East-Lothian": "East Lothian",
+  "UK-North-Ayrshire-and-Arran": "North Ayrshire and Arran",
+  "UK-Paisley-and-Renfrewshire-South": "Paisley and Renfrewshire South",
+  "UK-East-Renfrewshire": "East Renfrewshire",
+  "UK-Glasgow-South-West": "Glasgow South West",
+  "UK-Glasgow-South": "Glasgow South",
+  "UK-Glasgow-Central": "Glasgow Central",
+  "UK-Glasgow-North-East": "Glasgow North East",
+  "UK-Glasgow-East": "Glasgow East",
+  "UK-Rutherglen-and-Hamilton-West": "Rutherglen and Hamilton West",
+  "UK-East-Kilbride-Strathaven-and-Lesmahagow": "East Kilbride, Strathaven and Lesmahagow",
+  "UK-Coatbridge-Chryston-and-Bellshill": "Coatbridge, Chryston and Bellshill",
+  "UK-Motherwell-and-Wishaw": "Motherwell and Wishaw",
+  "UK-Airdrie-and-Shotts": "Airdrie and Shotts",
+  "UK-Lanark-and-Hamilton-East": "Lanark and Hamilton East",
+  "UK-Livingston": "Livingston",
+  "UK-Edinburgh-South-West": "Edinburgh South West",
+  "UK-Midlothian": "Midlothian",
+  "UK-Central-Ayrshire": "Central Ayrshire",
+  "UK-Kilmarnock-and-Loudoun": "Kilmarnock and Loudoun",
+  "UK-Berwickshire-Roxburgh-and-Selkirk": "Berwickshire, Roxburgh and Selkirk",
+  "UK-Berwick-upon-Tweed": "Berwick-upon-Tweed",
+  "UK-Ayr-Carrick-and-Cumnock": "Ayr, Carrick and Cumnock",
+  "UK-Dumfriesshire-Clydesdale-and-Tweeddale": "Dumfriesshire, Clydesdale and Tweeddale",
+  "UK-Foyle": "Foyle",
+  "UK-East-Londonderry": "East Londonderry",
+  "UK-North-Antrim": "North Antrim",
+  "UK-East-Antrim": "East Antrim",
+  "UK-Dumfries-and-Galloway": "Dumfries and Galloway",
+  "UK-Hexham": "Hexham",
+  "UK-Newcastle-upon-Tyne-North": "Newcastle-upon-Tyne North",
+  "UK-Newcastle-upon-Tyne-Central": "Newcastle-upon-Tyne Central",
+  "UK-Wansbeck": "Wansbeck",
+  "UK-Gateshead": "Gateshead",
+  "UK-Newcastle-upon-Tyne-East": "Newcastle-upon-Tyne East",
+  "UK-Blyth-Valley": "Blyth Valley",
+  "UK-North-Tyneside": "North Tyneside",
+  "UK-Tynemouth": "Tynemouth",
+  "UK-Jarrow": "Jarrow",
+  "UK-South-Shields": "South Shields",
+  "UK-West-Tyrone": "West Tyrone",
+  "UK-Mid-Ulster": "Mid Ulster",
+  "UK-South-Antrim": "South Antrim",
+  "UK-Belfast-North": "Belfast North",
+  "UK-Workington": "Workington",
+  "UK-Carlisle": "Carlisle",
+  "UK-Penrith-and-the-Border": "Penrith and the Border",
+  "UK-North-West-Durham": "North West Durham",
+  "UK-Blaydon": "Blaydon",
+  "UK-North-Durham": "North Durham",
+  "UK-City-of-Durham": "City of Durham",
+  "UK-Washington-and-Sunderland-West": "Washington and Sunderland West",
+  "UK-Houghton-and-Sunderland-South": "Houghton and Sunderland South",
+  "UK-Sunderland-Central": "Sunderland Central",
+  "UK-Easington": "Easington",
+  "UK-Fermanagh-and-South-Tyrone": "Fermanagh and South Tyrone",
+  "UK-Upper-Bann": "Upper Bann",
+  "UK-Lagan-Valley": "Lagan Valley",
+  "UK-Belfast-West": "Belfast West",
+  "UK-Belfast-South": "Belfast South",
+  "UK-Belfast-East": "Belfast East",
+  "UK-Strangford": "Strangford",
+  "UK-North-Down": "North Down",
+  "UK-Copeland": "Copeland",
+  "UK-Bishop-Auckland": "Bishop Auckland",
+  "UK-Darlington": "Darlington",
+  "UK-Sedgefield": "Sedgefield",
+  "UK-Stockton-South": "Stockton South",
+  "UK-Stockton-North": "Stockton North",
+  "UK-Hartlepool": "Hartlepool",
+  "UK-Middlesbrough": "Middlesbrough",
+  "UK-Redcar": "Redcar",
+  "UK-Middlesbrough-South-and-East-Cleveland": "Middlesbrough South and East Cleveland",
+  "UK-Newry-and-Armagh": "Newry and Armagh",
+  "UK-South-Down": "South Down",
+  "UK-Westmorland-and-Lonsdale": "Westmorland and Lonsdale",
+  "UK-Richmond-Yorks": "Richmond Yorks",
+  "UK-Scarborough-and-Whitby": "Scarborough and Whitby",
+  "UK-Barrow-and-Furness": "Barrow and Furness",
+  "UK-Lancaster-and-Fleetwood": "Lancaster and Fleetwood",
+  "UK-Morecambe-and-Lunesdale": "Morecambe and Lunesdale",
+  "UK-Skipton-and-Ripon": "Skipton and Ripon",
+  "UK-Harrogate-and-Knaresborough": "Harrogate and Knaresborough",
+  "UK-Thirsk-and-Malton": "Thirsk and Malton",
+  "UK-East-Yorkshire": "East Yorkshire",
+  "UK-Blackpool-North-and-Cleveleys": "Blackpool North and Cleveleys",
+  "UK-Blackpool-South": "Blackpool South",
+  "UK-Fylde": "Fylde",
+  "UK-Wyre-and-Preston-North": "Wyre and Preston North",
+  "UK-Preston": "Preston",
+  "UK-Blackburn": "Blackburn",
+  "UK-Ribble-Valley": "Ribble Valley",
+  "UK-Hyndburn": "Hyndburn",
+  "UK-Burnley": "Burnley",
+  "UK-Pendle": "Pendle",
+  "UK-Keighley": "Keighley",
+  "UK-Shipley": "Shipley",
+  "UK-Bradford-West": "Bradford West",
+  "UK-Bradford-South": "Bradford South",
+  "UK-Bradford-East": "Bradford East",
+  "UK-Pudsey": "Pudsey",
+  "UK-Leeds-North-West": "Leeds North West",
+  "UK-Leeds-West": "Leeds West",
+  "UK-Leeds-North-East": "Leeds North East",
+  "UK-Leeds-Central": "Leeds Central",
+  "UK-Leeds-East": "Leeds East",
+  "UK-Elmet-and-Rothwell": "Elmet and Rothwell",
+  "UK-Selby-and-Ainsty": "Selby and Ainsty",
+  "UK-York-Central": "York Central",
+  "UK-York-Outer": "York Outer",
+  "UK-Haltemprice-and-Howden": "Haltemprice and Howden",
+  "UK-Kingston-upon-Hull-West-and-Hessle": "Kingston-upon-Hull West and Hessle",
+  "UK-Kingston-upon-Hull-North": "Kingston-upon-Hull North",
+  "UK-Kingston-upon-Hull-East": "Kingston-upon-Hull East",
+  "UK-Beverley-and-Holderness": "Beverley and Holderness",
+  "UK-Sefton-Central": "Sefton Central",
+  "UK-Southport": "Southport",
+  "UK-West-Lancashire": "West Lancashire",
+  "UK-South-Ribble": "South Ribble",
+  "UK-Wigan": "Wigan",
+  "UK-Makerfield": "Makerfield",
+  "UK-Chorley": "Chorley",
+  "UK-Bolton-West": "Bolton West",
+  "UK-Bolton-South-East": "Bolton South East",
+  "UK-Bolton-North-East": "Bolton North East",
+  "UK-Rossendale-and-Darwen": "Rossendale and Darwen",
+  "UK-Bury-North": "Bury North",
+  "UK-Salford-and-Eccles": "Salford and Eccles",
+  "UK-Bury-South": "Bury South",
+  "UK-Blackley-and-Broughton": "Blackley and Broughton",
+  "UK-Heywood-and-Middleton": "Heywood and Middleton",
+  "UK-Oldham-West-and-Royton": "Oldham West and Royton",
+  "UK-Rochdale": "Rochdale",
+  "UK-Oldham-East-and-Saddleworth": "Oldham East and Saddleworth",
+  "UK-Calder-Valley": "Calder Valley",
+  "UK-Halifax": "Halifax",
+  "UK-Colne-Valley": "Colne Valley",
+  "UK-Huddersfield": "Huddersfield",
+  "UK-Batley-and-Spen": "Batley and Spen",
+  "UK-Dewsbury": "Dewsbury",
+  "UK-Morley-and-Outwood": "Morley and Outwood",
+  "UK-Wakefield": "Wakefield",
+  "UK-Barnsley-Central": "Barnsley Central",
+  "UK-Barnsley-East": "Barnsley East",
+  "UK-Hemsworth": "Hemsworth",
+  "UK-Normanton-Pontefract-and-Castleford": "Normanton, Pontefract and Castleford",
+  "UK-Doncaster-North": "Doncaster North",
+  "UK-Doncaster-Central": "Doncaster Central",
+  "UK-Don-Valley": "Don Valley",
+  "UK-Brigg-and-Goole": "Brigg and Goole",
+  "UK-Scunthorpe": "Scunthorpe",
+  "UK-Cleethorpes": "Cleethorpes",
+  "UK-Great-Grimsby": "Great Grimsby",
+  "UK-Ynys-Mon": "Ynys Mon",
+  "UK-Wirral-West": "Wirral West",
+  "UK-Wallasey": "Wallasey",
+  "UK-Birkenhead": "Birkenhead",
+  "UK-Wirral-South": "Wirral South",
+  "UK-Bootle": "Bootle",
+  "UK-Liverpool-Riverside": "Liverpool Riverside",
+  "UK-Liverpool-Walton": "Liverpool Walton",
+  "UK-Ellesmere-Port-and-Neston": "Ellesmere Port and Neston",
+  "UK-Liverpool-Wavertree": "Liverpool Wavertree",
+  "UK-Liverpool-West-Derby": "Liverpool West Derby",
+  "UK-Knowsley": "Knowsley",
+  "UK-Garston-and-Halewood": "Garston and Halewood",
+  "UK-Halton": "Halton",
+  "UK-St-Helens-South-and-Whiston": "St Helens South and Whiston",
+  "UK-St-Helens-North": "St Helens North",
+  "UK-Weaver-Vale": "Weaver Vale",
+  "UK-Warrington-South": "Warrington South",
+  "UK-Warrington-North": "Warrington North",
+  "UK-Leigh": "Leigh",
+  "UK-Worsley-and-Eccles-South": "Worsley and Eccles South",
+  "UK-Tatton": "Tatton",
+  "UK-Altrincham-and-Sale-West": "Altrincham and Sale West",
+  "UK-Stretford-and-Urmston": "Stretford and Urmston",
+  "UK-Wythenshawe-and-Sale-East": "Wythenshawe and Sale East",
+  "UK-Manchester-Withington": "Manchester Withington",
+  "UK-Manchester-Central": "Manchester Central",
+  "UK-Manchester-Gorton": "Manchester Gorton",
+  "UK-Cheadle": "Cheadle",
+  "UK-Stockport": "Stockport",
+  "UK-Denton-and-Reddish": "Denton and Reddish",
+  "UK-Macclesfield": "Macclesfield",
+  "UK-Ashton-under-Lyne": "Ashton-under-Lyne",
+  "UK-Hazel-Grove": "Hazel Grove",
+  "UK-Stalybridge-and-Hyde": "Stalybridge and Hyde",
+  "UK-High-Peak": "High Peak",
+  "UK-Penistone-and-Stocksbridge": "Penistone and Stocksbridge",
+  "UK-Sheffield-Hallam": "Sheffield Hallam",
+  "UK-Sheffield-Central": "Sheffield Central",
+  "UK-Sheffield-Brightside-and-Hillsborough": "Sheffield, Brightside and Hillsborough",
+  "UK-Sheffield-Heeley": "Sheffield, Heeley",
+  "UK-Sheffield-South-East": "Sheffield South East",
+  "UK-Rotherham": "Rotherham",
+  "UK-Wentworth-and-Dearne": "Wentworth and Dearne",
+  "UK-Rother-Valley": "Rother Valley",
+  "UK-Bassetlaw": "Bassetlaw",
+  "UK-Gainsborough": "Gainsborough",
+  "UK-Louth-and-Horncastle": "Louth and Horncastle",
+  "UK-Arfon": "Arfon",
+  "UK-Aberconwy": "Aberconwy",
+  "UK-Clwyd-West": "Clwyd West",
+  "UK-Vale-of-Clwyd": "Vale of Clwyd",
+  "UK-Delyn": "Delyn",
+  "UK-Alyn-and-Deeside": "Alyn and Deeside",
+  "UK-Wrexham": "Wrexham",
+  "UK-City-of-Chester": "City of Chester",
+  "UK-Eddisbury": "Eddisbury",
+  "UK-Crewe-and-Nantwich": "Crewe and Nantwich",
+  "UK-Congleton": "Congleton",
+  "UK-Newcastle-under-Lyme": "Newcastle-under-Lyme",
+  "UK-Stoke-on-Trent-North": "Stoke-on-Trent North",
+  "UK-Stoke-on-Trent-Central": "Stoke-on-Trent Central",
+  "UK-Staffordshire-Moorlands": "Staffordshire Moorlands",
+  "UK-Derbyshire-Dales": "Derbyshire Dales",
+  "UK-North-East-Derbyshire": "North East Derbyshire",
+  "UK-Chesterfield": "Chesterfield",
+  "UK-Amber-Valley": "Amber Valley",
+  "UK-Bolsover": "Bolsover",
+  "UK-Ashfield": "Ashfield",
+  "UK-Mansfield": "Mansfield",
+  "UK-Sherwood": "Sherwood",
+  "UK-Newark": "Newark",
+  "UK-Lincoln": "Lincoln",
+  "UK-Sleaford-and-North-Hykeham": "Sleaford and North Hykeham",
+  "UK-Boston-and-Skegness": "Boston and Skegness",
+  "UK-Dwyfor-Meirionnydd": "Dwyfor Meirionnydd",
+  "UK-Clwyd-South": "Clwyd South",
+  "UK-North-Shropshire": "North Shropshire",
+  "UK-Stone": "Stone",
+  "UK-Stoke-on-Trent-South": "Stoke-on-Trent South",
+  "UK-Burton": "Burton",
+  "UK-South-Derbyshire": "South Derbyshire",
+  "UK-Derby-North": "Derby North",
+  "UK-Derby-South": "Derby South",
+  "UK-Mid-Derbyshire": "Mid Derbyshire",
+  "UK-Erewash": "Erewash",
+  "UK-Broxtowe": "Broxtowe",
+  "UK-Nottingham-North": "Nottingham North",
+  "UK-Nottingham-South": "Nottingham South",
+  "UK-Nottingham-East": "Nottingham East",
+  "UK-Gedling": "Gedling",
+  "UK-Rushcliffe": "Rushcliffe",
+  "UK-Grantham-and-Stamford": "Grantham and Stamford",
+  "UK-South-Holland-and-the-Deepings": "South Holland and the Deepings",
+  "UK-North-West-Norfolk": "North West Norfolk",
+  "UK-Broadland": "Broadland",
+  "UK-North-Norfolk": "North Norfolk",
+  "UK-Montgomeryshire": "Montgomeryshire",
+  "UK-Shrewsbury-and-Atcham": "Shrewsbury and Atcham",
+  "UK-Telford": "Telford",
+  "UK-The-Wrekin": "The Wrekin",
+  "UK-South-Staffordshire": "South Staffordshire",
+  "UK-Wolverhampton-South-West": "Wolverhampton South West",
+  "UK-Stafford": "Stafford",
+  "UK-Wolverhampton-North-East": "Wolverhampton North East",
+  "UK-Wolverhampton-South-East": "Wolverhampton South East",
+  "UK-Walsall-North": "Walsall North",
+  "UK-Cannock-Chase": "Cannock Chase",
+  "UK-West-Bromwich-East": "West Bromwich East",
+  "UK-Walsall-South": "Walsall South",
+  "UK-Aldridge-Brownhills": "Aldridge-Brownhills",
+  "UK-Lichfield": "Lichfield",
+  "UK-Sutton-Coldfield": "Sutton Coldfield",
+  "UK-Tamworth": "Tamworth",
+  "UK-North-Warwickshire": "North Warwickshire",
+  "UK-North-West-Leicestershire": "North West Leicestershire",
+  "UK-Bosworth": "Bosworth",
+  "UK-Loughborough": "Loughborough",
+  "UK-Leicester-West": "Leicester West",
+  "UK-Charnwood": "Charnwood",
+  "UK-Leicester-South": "Leicester South",
+  "UK-Leicester-East": "Leicester East",
+  "UK-Rutland-and-Melton": "Rutland and Melton",
+  "UK-Peterborough": "Peterborough",
+  "UK-North-East-Cambridgeshire": "North East Cambridgeshire",
+  "UK-South-West-Norfolk": "South West Norfolk",
+  "UK-Mid-Norfolk": "Mid Norfolk",
+  "UK-Norwich-South": "Norwich South",
+  "UK-Norwich-North": "Norwich North",
+  "UK-South-Norfolk": "South Norfolk",
+  "UK-Great-Yarmouth": "Great Yarmouth",
+  "UK-Ludlow": "Ludlow",
+  "UK-Wyre-Forest": "Wyre Forest",
+  "UK-Dudley-South": "Dudley South",
+  "UK-Stourbridge": "Stourbridge",
+  "UK-Dudley-North": "Dudley North",
+  "UK-Halesowen-and-Rowley-Regis": "Halesowen and Rowley Regis",
+  "UK-West-Bromwich-West": "West Bromwich West",
+  "UK-Bromsgrove": "Bromsgrove",
+  "UK-Warley": "Warley",
+  "UK-Birmingham-Northfield": "Birmingham, Northfield",
+  "UK-Birmingham-Edgbaston": "Birmingham, Edgbaston",
+  "UK-Birmingham-Perry-Barr": "Birmingham, Perry Barr",
+  "UK-Birmingham-Selly-Oak": "Birmingham, Selly Oak",
+  "UK-Birmingham-Ladywood": "Birmingham, Ladywood",
+  "UK-Birmingham-Hall-Green": "Birmingham, Hall Green",
+  "UK-Birmingham-Erdington": "Birmingham, Erdington",
+  "UK-Birmingham-Hodge-Hill": "Birmingham, Hodge Hill",
+  "UK-Birmingham-Yardley": "Birmingham, Yardley",
+  "UK-Solihull": "Solihull",
+  "UK-Meriden": "Meriden",
+  "UK-Coventry-North-West": "Coventry North West",
+  "UK-Coventry-South": "Coventry South",
+  "UK-Nuneaton": "Nuneaton",
+  "UK-Coventry-North-East": "Coventry North East",
+  "UK-Rugby": "Rugby",
+  "UK-South-Leicestershire": "South Leicestershire",
+  "UK-Daventry": "Daventry",
+  "UK-Harborough": "Harborough",
+  "UK-Kettering": "Kettering",
+  "UK-Wellingborough": "Wellingborough",
+  "UK-Corby": "Corby",
+  "UK-North-West-Cambridgeshire": "North West Cambridgeshire",
+  "UK-Huntingdon": "Huntingdon",
+  "UK-West-Suffolk": "West Suffolk",
+  "UK-Waveney": "Waveney",
+  "UK-Ceredigion": "Ceredigion",
+  "UK-Brecon-and-Radnorshire": "Brecon and Radnorshire",
+  "UK-North-Herefordshire": "North Herefordshire",
+  "UK-West-Worcestershire": "West Worcestershire",
+  "UK-Worcester": "Worcester",
+  "UK-Mid-Worcestershire": "Mid Worcestershire",
+  "UK-Redditch": "Redditch",
+  "UK-Stratford-on-Avon": "Stratford-on-Avon",
+  "UK-Warwick-and-Leamington": "Warwick and Leamington",
+  "UK-Kenilworth-and-Southam": "Kenilworth and Southam",
+  "UK-South-Northamptonshire": "South Northamptonshire",
+  "UK-Northampton-South": "Northampton South",
+  "UK-Northampton-North": "Northampton North",
+  "UK-Milton-Keynes-North": "Milton Keynes North",
+  "UK-Bedford": "Bedford",
+  "UK-North-East-Bedfordshire": "North East Bedfordshire",
+  "UK-South-Cambridgeshire": "South Cambridgeshire",
+  "UK-Cambridge": "Cambridge",
+  "UK-South-East-Cambridgeshire": "South East Cambridgeshire",
+  "UK-Bury-St-Edmunds": "Bury St Edmunds",
+  "UK-South-Suffolk": "South Suffolk",
+  "UK-Ipswich": "Ipswich",
+  "UK-Central-Suffolk-and-North-Ipswich": "Central Suffolk and North Ipswich",
+  "UK-Suffolk-Coastal": "Suffolk Coastal",
+  "UK-Preseli-Pembrokeshire": "Preseli Pembrokeshire",
+  "UK-Carmarthen-West-and-South-Pembrokeshire": "Carmarthen West and South Pembrokeshire",
+  "UK-Carmarthen-East-And-Dinefwr": "Carmarthen East And Dinefwr",
+  "UK-Hereford-and-South-Herefordshire": "Hereford and South Herefordshire",
+  "UK-Forest-of-Dean": "Forest of Dean",
+  "UK-Gloucester": "Gloucester",
+  "UK-Cheltenham": "Cheltenham",
+  "UK-Tewkesbury": "Tewkesbury",
+  "UK-Witney": "Witney",
+  "UK-Banbury": "Banbury",
+  "UK-Buckingham": "Buckingham",
+  "UK-Milton-Keynes-South": "Milton Keynes South",
+  "UK-South-West-Bedfordshire": "South West Bedfordshire",
+  "UK-Mid-Bedfordshire": "Mid Bedfordshire",
+  "UK-Luton-North": "Luton North",
+  "UK-Luton-South": "Luton South",
+  "UK-Hitchin-and-Harpenden": "Hitchin and Harpenden",
+  "UK-Stevenage": "Stevenage",
+  "UK-North-East-Hertfordshire": "North East Hertfordshire",
+  "UK-Hertford-and-Stortford": "Hertford and Stortford",
+  "UK-Saffron-Walden": "Saffron Walden",
+  "UK-Braintree": "Braintree",
+  "UK-Witham": "Witham",
+  "UK-Colchester": "Colchester",
+  "UK-Harwich-and-North-Essex": "Harwich and North Essex",
+  "UK-Clacton": "Clacton",
+  "UK-Llanelli": "Llanelli",
+  "UK-Gower": "Gower",
+  "UK-Swansea-West": "Swansea West",
+  "UK-Swansea-East": "Swansea East",
+  "UK-Neath": "Neath",
+  "UK-Aberavon": "Aberavon",
+  "UK-Ogmore": "Ogmore",
+  "UK-Rhondda": "Rhondda",
+  "UK-Cynon-Valley": "Cynon Valley",
+  "UK-Pontypridd": "Pontypridd",
+  "UK-Merthyr-Tydfil-and-Rhymney": "Merthyr Tydfil and Rhymney",
+  "UK-Caerphilly": "Caerphilly",
+  "UK-Blaenau-Gwent": "Blaenau Gwent",
+  "UK-Islwyn": "Islwyn",
+  "UK-Torfaen": "Torfaen",
+  "UK-Newport-West": "Newport West",
+  "UK-Newport-East": "Newport East",
+  "UK-Monmouth": "Monmouth",
+  "UK-Stroud": "Stroud",
+  "UK-The-Cotswolds": "The Cotswolds",
+  "UK-North-Swindon": "North Swindon",
+  "UK-Wantage": "Wantage",
+  "UK-Oxford-West-and-Abingdon": "Oxford West and Abingdon",
+  "UK-Oxford-East": "Oxford East",
+  "UK-Henley": "Henley",
+  "UK-Wycombe": "Wycombe",
+  "UK-Aylesbury": "Aylesbury",
+  "UK-Chesham-and-Amersham": "Chesham and Amersham",
+  "UK-South-West-Hertfordshire": "South West Hertfordshire",
+  "UK-Hemel-Hempstead": "Hemel Hempstead",
+  "UK-Ruislip-Northwood-and-Pinner": "Ruislip, Northwood and Pinner",
+  "UK-Watford": "Watford",
+  "UK-Harrow-West": "Harrow West",
+  "UK-St-Albans": "St Albans",
+  "UK-Harrow-East": "Harrow East",
+  "UK-Brent-North": "Brent North",
+  "UK-Hertsmere": "Hertsmere",
+  "UK-Hendon": "Hendon",
+  "UK-Welwyn-Hatfield": "Welwyn Hatfield",
+  "UK-Chipping-Barnet": "Chipping Barnet",
+  "UK-Finchley-and-Golders-Green": "Finchley and Golders Green",
+  "UK-Hornsey-and-Wood-Green": "Hornsey and Wood Green",
+  "UK-Enfield-Southgate": "Enfield, Southgate",
+  "UK-Enfield-North": "Enfield North",
+  "UK-Tottenham": "Tottenham",
+  "UK-Broxbourne": "Broxbourne",
+  "UK-Hackney-North-and-Stoke-Newington": "Hackney North and Stoke Newington",
+  "UK-Edmonton": "Edmonton",
+  "UK-Walthamstow": "Walthamstow",
+  "UK-Chingford-and-Woodford-Green": "Chingford and Woodford Green",
+  "UK-Leyton-and-Wanstead": "Leyton and Wanstead",
+  "UK-Epping-Forest": "Epping Forest",
+  "UK-Ilford-North": "Ilford North",
+  "UK-Ilford-South": "Ilford South",
+  "UK-Harlow": "Harlow",
+  "UK-Romford": "Romford",
+  "UK-Hornchurch-and-Upminster": "Hornchurch and Upminster",
+  "UK-Brentwood-and-Ongar": "Brentwood and Ongar",
+  "UK-Basildon-and-Billericay": "Basildon and Billericay",
+  "UK-Chelmsford": "Chelmsford",
+  "UK-Southend-West": "Southend West",
+  "UK-Rayleigh-and-Wickford": "Rayleigh and Wickford",
+  "UK-Maldon": "Maldon",
+  "UK-Rochford-and-Southend-East": "Rochford and Southend East",
+  "UK-Bridgend": "Bridgend",
+  "UK-Vale-of-Glamorgan": "Vale of Glamorgan",
+  "UK-Cardiff-West": "Cardiff West",
+  "UK-Cardiff-North": "Cardiff North",
+  "UK-Cardiff-Central": "Cardiff Central",
+  "UK-Cardiff-South-and-Penarth": "Cardiff South and Penarth",
+  "UK-Weston-super-Mare": "Weston-super-Mare",
+  "UK-North-Somerset": "North Somerset",
+  "UK-Bristol-North-West": "Bristol North West",
+  "UK-Bristol-South": "Bristol South",
+  "UK-Bristol-West": "Bristol West",
+  "UK-Filton-and-Bradley-Stoke": "Filton and Bradley Stoke",
+  "UK-Bristol-East": "Bristol East",
+  "UK-North-East-Somerset": "North East Somerset",
+  "UK-Kingswood": "Kingswood",
+  "UK-Thornbury-and-Yate": "Thornbury and Yate",
+  "UK-Bath": "Bath",
+  "UK-Chippenham": "Chippenham",
+  "UK-North-Wiltshire": "North Wiltshire",
+  "UK-Devizes": "Devizes",
+  "UK-South-Swindon": "South Swindon",
+  "UK-Newbury": "Newbury",
+  "UK-Reading-West": "Reading West",
+  "UK-Wokingham": "Wokingham",
+  "UK-Reading-East": "Reading East",
+  "UK-Bracknell": "Bracknell",
+  "UK-Maidenhead": "Maidenhead",
+  "UK-Surrey-Heath": "Surrey Heath",
+  "UK-Windsor": "Windsor",
+  "UK-Beaconsfield": "Beaconsfield",
+  "UK-Slough": "Slough",
+  "UK-Runnymede-and-Weybridge": "Runnymede and Weybridge",
+  "UK-Spelthorne": "Spelthorne",
+  "UK-Uxbridge-and-South-Ruislip": "Uxbridge and South Ruislip",
+  "UK-Hayes-and-Harlington": "Hayes and Harlington",
+  "UK-Feltham-and-Heston": "Feltham and Heston",
+  "UK-Esher-and-Walton": "Esher and Walton",
+  "UK-Ealing-Southall": "Ealing, Southall",
+  "UK-Ealing-North": "Ealing North",
+  "UK-Twickenham": "Twickenham",
+  "UK-Brentford-and-Isleworth": "Brentford and Isleworth",
+  "UK-Kingston-and-Surbiton": "Kingston and Surbiton",
+  "UK-Ealing-Central-and-Acton": "Ealing Central and Acton",
+  "UK-Richmond-Park": "Richmond Park",
+  "UK-Epsom-and-Ewell": "Epsom and Ewell",
+  "UK-Brent-Central": "Brent Central",
+  "UK-Hammersmith": "Hammersmith",
+  "UK-Putney": "Putney",
+  "UK-Wimbledon": "Wimbledon",
+  "UK-Sutton-and-Cheam": "Sutton and Cheam",
+  "UK-Kensington": "Kensington",
+  "UK-Hampstead-and-Kilburn": "Hampstead and Kilburn",
+  "UK-Chelsea-and-Fulham": "Chelsea and Fulham",
+  "UK-Westminster-North": "Westminster North",
+  "UK-Mitcham-and-Morden": "Mitcham and Morden",
+  "UK-Tooting": "Tooting",
+  "UK-Battersea": "Battersea",
+  "UK-Carshalton-and-Wallington": "Carshalton and Wallington",
+  "UK-Holborn-and-St-Pancras": "Holborn and St. Pancras",
+  "UK-Cities-of-London-and-Westminster": "Cities of London and Westminster",
+  "UK-Streatham": "Streatham",
+  "UK-Vauxhall": "Vauxhall",
+  "UK-Islington-North": "Islington North",
+  "UK-Islington-South-and-Finsbury": "Islington South and Finsbury",
+  "UK-Croydon-North": "Croydon North",
+  "UK-Croydon-South": "Croydon South",
+  "UK-Dulwich-and-West-Norwood": "Dulwich and West Norwood",
+  "UK-Bermondsey-and-Old-Southwark": "Bermondsey and Old Southwark",
+  "UK-Camberwell-and-Peckham": "Camberwell and Peckham",
+  "UK-Hackney-South-and-Shoreditch": "Hackney South and Shoreditch",
+  "UK-Bethnal-Green-and-Bow": "Bethnal Green and Bow",
+  "UK-Lewisham-West-and-Penge": "Lewisham West and Penge",
+  "UK-Croydon-Central": "Croydon Central",
+  "UK-Lewisham-Deptford": "Lewisham, Deptford",
+  "UK-Poplar-and-Limehouse": "Poplar and Limehouse",
+  "UK-Lewisham-East": "Lewisham East",
+  "UK-Beckenham": "Beckenham",
+  "UK-West-Ham": "West Ham",
+  "UK-Greenwich-and-Woolwich": "Greenwich and Woolwich",
+  "UK-East-Ham": "East Ham",
+  "UK-Eltham": "Eltham",
+  "UK-Bromley-and-Chislehurst": "Bromley and Chislehurst",
+  "UK-Orpington": "Orpington",
+  "UK-Barking": "Barking",
+  "UK-Old-Bexley-and-Sidcup": "Old Bexley and Sidcup",
+  "UK-Erith-and-Thamesmead": "Erith and Thamesmead",
+  "UK-Bexleyheath-and-Crayford": "Bexleyheath and Crayford",
+  "UK-Dagenham-and-Rainham": "Dagenham and Rainham",
+  "UK-Dartford": "Dartford",
+  "UK-Thurrock": "Thurrock",
+  "UK-Gravesham": "Gravesham",
+  "UK-South-Basildon-and-East-Thurrock": "South Basildon and East Thurrock",
+  "UK-Chatham-and-Aylesford": "Chatham and Aylesford",
+  "UK-Rochester-and-Strood": "Rochester and Strood",
+  "UK-Castle-Point": "Castle Point",
+  "UK-Gillingham-and-Rainham": "Gillingham and Rainham",
+  "UK-Sittingbourne-and-Sheppey": "Sittingbourne and Sheppey",
+  "UK-North-Thanet": "North Thanet",
+  "UK-South-Thanet": "South Thanet",
+  "UK-Bridgwater-and-West-Somerset": "Bridgwater and West Somerset",
+  "UK-Wells": "Wells",
+  "UK-Somerton-and-Frome": "Somerton and Frome",
+  "UK-South-West-Wiltshire": "South West Wiltshire",
+  "UK-North-West-Hampshire": "North West Hampshire",
+  "UK-Basingstoke": "Basingstoke",
+  "UK-North-East-Hampshire": "North East Hampshire",
+  "UK-East-Hampshire": "East Hampshire",
+  "UK-Aldershot": "Aldershot",
+  "UK-South-West-Surrey": "South West Surrey",
+  "UK-Woking": "Woking",
+  "UK-Guildford": "Guildford",
+  "UK-Mole-Valley": "Mole Valley",
+  "UK-Reigate": "Reigate",
+  "UK-Crawley": "Crawley",
+  "UK-East-Surrey": "East Surrey",
+  "UK-Sevenoaks": "Sevenoaks",
+  "UK-Tonbridge-and-Malling": "Tonbridge and Malling",
+  "UK-Tunbridge-Wells": "Tunbridge Wells",
+  "UK-Maidstone-and-the-Weald": "Maidstone and the Weald",
+  "UK-Faversham-and-Mid-Kent": "Faversham and Mid-Kent",
+  "UK-Ashford": "Ashford",
+  "UK-Folkestone-and-Hythe": "Folkestone and Hythe",
+  "UK-Canterbury": "Canterbury",
+  "UK-Dover": "Dover",
+  "UK-North-Devon": "North Devon",
+  "UK-Tiverton-and-Honiton": "Tiverton and Honiton",
+  "UK-Taunton-Deane": "Taunton Deane",
+  "UK-Yeovil": "Yeovil",
+  "UK-North-Dorset": "North Dorset",
+  "UK-Salisbury": "Salisbury",
+  "UK-New-Forest-West": "New Forest West",
+  "UK-Romsey-and-Southampton-North": "Romsey and Southampton North",
+  "UK-Southampton-Test": "Southampton, Test",
+  "UK-Southampton-Itchen": "Southampton, Itchen",
+  "UK-Eastleigh": "Eastleigh",
+  "UK-Winchester": "Winchester",
+  "UK-Fareham": "Fareham",
+  "UK-Meon-Valley": "Meon Valley",
+  "UK-Chichester": "Chichester",
+  "UK-Arundel-and-South-Downs": "Arundel and South Downs",
+  "UK-East-Worthing-and-Shoreham": "East Worthing and Shoreham",
+  "UK-Horsham": "Horsham",
+  "UK-Hove": "Hove",
+  "UK-Brighton-Pavilion": "Brighton, Pavilion",
+  "UK-Mid-Sussex": "Mid Sussex",
+  "UK-Lewes": "Lewes",
+  "UK-Wealden": "Wealden",
+  "UK-Bexhill-and-Battle": "Bexhill and Battle",
+  "UK-Hastings-and-Rye": "Hastings and Rye",
+  "UK-North-Cornwall": "North Cornwall",
+  "UK-Torridge-and-West-Devon": "Torridge and West Devon",
+  "UK-Central-Devon": "Central Devon",
+  "UK-Exeter": "Exeter",
+  "UK-East-Devon": "East Devon",
+  "UK-West-Dorset": "West Dorset",
+  "UK-South-Dorset": "South Dorset",
+  "UK-Mid-Dorset-and-North-Poole": "Mid Dorset and North Poole",
+  "UK-Poole": "Poole",
+  "UK-Bournemouth-West": "Bournemouth West",
+  "UK-Christchurch": "Christchurch",
+  "UK-Bournemouth-East": "Bournemouth East",
+  "UK-New-Forest-East": "New Forest East",
+  "UK-Isle-of-Wight": "Isle of Wight",
+  "UK-Gosport": "Gosport",
+  "UK-Portsmouth-South": "Portsmouth South",
+  "UK-Portsmouth-North": "Portsmouth North",
+  "UK-Havant": "Havant",
+  "UK-Bognor-Regis-and-Littlehampton": "Bognor Regis and Littlehampton",
+  "UK-Worthing-West": "Worthing West",
+  "UK-Brighton-Kemptown": "Brighton, Kemptown",
+  "UK-Eastbourne": "Eastbourne",
+  "UK-St-Austell-and-Newquay": "St Austell and Newquay",
+  "UK-South-East-Cornwall": "South East Cornwall",
+  "UK-Plymouth-Sutton-and-Devonport": "Plymouth Sutton and Devonport",
+  "UK-Plymouth-Moor-View": "Plymouth Moor View",
+  "UK-South-West-Devon": "South West Devon",
+  "UK-Totnes": "Totnes",
+  "UK-Newton-Abbot": "Newton Abbot",
+  "UK-Torbay": "Torbay",
+  "UK-St-Ives": "St Ives",
+  "UK-Camborne-and-Redruth": "Camborne and Redruth",
+  "UK-Truro-and-Falmouth": "Truro and Falmouth"
+ },
+ "labels": {},
+ "regionOf": {
+  "UK-South-East-Cornwall": "UK",
+  "UK-St-Austell-and-Newquay": "UK",
+  "UK-Camborne-and-Redruth": "UK",
+  "UK-Truro-and-Falmouth": "UK",
+  "UK-North-Cornwall": "UK",
+  "UK-St-Ives": "UK",
+  "UK-Plymouth-Moor-View": "UK",
+  "UK-Newton-Abbot": "UK",
+  "UK-Exeter": "UK",
+  "UK-Central-Devon": "UK",
+  "UK-Tiverton-and-Honiton": "UK",
+  "UK-North-Devon": "UK",
+  "UK-Totnes": "UK",
+  "UK-Torbay": "UK",
+  "UK-Torridge-and-West-Devon": "UK",
+  "UK-East-Devon": "UK",
+  "UK-Plymouth-Sutton-and-Devonport": "UK",
+  "UK-South-West-Devon": "UK",
+  "UK-Yeovil": "UK",
+  "UK-Taunton-Deane": "UK",
+  "UK-Bridgwater-and-West-Somerset": "UK",
+  "UK-Somerton-and-Frome": "UK",
+  "UK-Wells": "UK",
+  "UK-West-Dorset": "UK",
+  "UK-Bristol-West": "UK",
+  "UK-Bristol-South": "UK",
+  "UK-Bristol-East": "UK",
+  "UK-North-East-Somerset": "UK",
+  "UK-Filton-and-Bradley-Stoke": "UK",
+  "UK-Kingswood": "UK",
+  "UK-Thornbury-and-Yate": "UK",
+  "UK-Bath": "UK",
+  "UK-Bristol-North-West": "UK",
+  "UK-Devizes": "UK",
+  "UK-South-Swindon": "UK",
+  "UK-North-Swindon": "UK",
+  "UK-South-West-Wiltshire": "UK",
+  "UK-Chippenham": "UK",
+  "UK-North-Wiltshire": "UK",
+  "UK-Cheltenham": "UK",
+  "UK-Tewkesbury": "UK",
+  "UK-Forest-of-Dean": "UK",
+  "UK-Stroud": "UK",
+  "UK-Gloucester": "UK",
+  "UK-The-Cotswolds": "UK",
+  "UK-Aldershot": "UK",
+  "UK-North-East-Hampshire": "UK",
+  "UK-North-West-Hampshire": "UK",
+  "UK-Basingstoke": "UK",
+  "UK-Winchester": "UK",
+  "UK-Crawley": "UK",
+  "UK-Eastbourne": "UK",
+  "UK-Hastings-and-Rye": "UK",
+  "UK-Bexhill-and-Battle": "UK",
+  "UK-Wealden": "UK",
+  "UK-West-Suffolk": "UK",
+  "UK-South-Suffolk": "UK",
+  "UK-Bury-St-Edmunds": "UK",
+  "UK-Ipswich": "UK",
+  "UK-Suffolk-Coastal": "UK",
+  "UK-Central-Suffolk-and-North-Ipswich": "UK",
+  "UK-Waveney": "UK",
+  "UK-Broadland": "UK",
+  "UK-North-Norfolk": "UK",
+  "UK-South-Norfolk": "UK",
+  "UK-South-West-Norfolk": "UK",
+  "UK-Mid-Norfolk": "UK",
+  "UK-Norwich-South": "UK",
+  "UK-Norwich-North": "UK",
+  "UK-Great-Yarmouth": "UK",
+  "UK-North-West-Norfolk": "UK",
+  "UK-Boston-and-Skegness": "UK",
+  "UK-Louth-and-Horncastle": "UK",
+  "UK-Grantham-and-Stamford": "UK",
+  "UK-Sleaford-and-North-Hykeham": "UK",
+  "UK-Lincoln": "UK",
+  "UK-South-Holland-and-the-Deepings": "UK",
+  "UK-Great-Grimsby": "UK",
+  "UK-Cleethorpes": "UK",
+  "UK-Scunthorpe": "UK",
+  "UK-Kingston-upon-Hull-West-and-Hessle": "UK",
+  "UK-Kingston-upon-Hull-East": "UK",
+  "UK-Kingston-upon-Hull-North": "UK",
+  "UK-Beverley-and-Holderness": "UK",
+  "UK-East-Yorkshire": "UK",
+  "UK-Thirsk-and-Malton": "UK",
+  "UK-Harrogate-and-Knaresborough": "UK",
+  "UK-Richmond-Yorks": "UK",
+  "UK-Scarborough-and-Whitby": "UK",
+  "UK-Stockton-South": "UK",
+  "UK-Middlesbrough-South-and-East-Cleveland": "UK",
+  "UK-Middlesbrough": "UK",
+  "UK-Redcar": "UK",
+  "UK-Stockton-North": "UK",
+  "UK-Hartlepool": "UK",
+  "UK-Bishop-Auckland": "UK",
+  "UK-Darlington": "UK",
+  "UK-Sedgefield": "UK",
+  "UK-Easington": "UK",
+  "UK-North-Durham": "UK",
+  "UK-City-of-Durham": "UK",
+  "UK-North-West-Durham": "UK",
+  "UK-Newcastle-upon-Tyne-East": "UK",
+  "UK-Houghton-and-Sunderland-South": "UK",
+  "UK-Washington-and-Sunderland-West": "UK",
+  "UK-Sunderland-Central": "UK",
+  "UK-Gateshead": "UK",
+  "UK-Blaydon": "UK",
+  "UK-Jarrow": "UK",
+  "UK-South-Shields": "UK",
+  "UK-North-Tyneside": "UK",
+  "UK-Tynemouth": "UK",
+  "UK-Newcastle-upon-Tyne-Central": "UK",
+  "UK-Newcastle-upon-Tyne-North": "UK",
+  "UK-Berwick-upon-Tweed": "UK",
+  "UK-Blyth-Valley": "UK",
+  "UK-Hexham": "UK",
+  "UK-Wansbeck": "UK",
+  "UK-Copeland": "UK",
+  "UK-Workington": "UK",
+  "UK-Penrith-and-the-Border": "UK",
+  "UK-Carlisle": "UK",
+  "UK-Westmorland-and-Lonsdale": "UK",
+  "UK-Barrow-and-Furness": "UK",
+  "UK-Morecambe-and-Lunesdale": "UK",
+  "UK-Crewe-and-Nantwich": "UK",
+  "UK-East-Surrey": "UK",
+  "UK-Epsom-and-Ewell": "UK",
+  "UK-Reigate": "UK",
+  "UK-South-West-Surrey": "UK",
+  "UK-Guildford": "UK",
+  "UK-Mole-Valley": "UK",
+  "UK-Esher-and-Walton": "UK",
+  "UK-Woking": "UK",
+  "UK-Surrey-Heath": "UK",
+  "UK-Runnymede-and-Weybridge": "UK",
+  "UK-Spelthorne": "UK",
+  "UK-Newbury": "UK",
+  "UK-Slough": "UK",
+  "UK-Bracknell": "UK",
+  "UK-Wokingham": "UK",
+  "UK-Windsor": "UK",
+  "UK-Reading-West": "UK",
+  "UK-Reading-East": "UK",
+  "UK-Maidenhead": "UK",
+  "UK-Henley": "UK",
+  "UK-Wantage": "UK",
+  "UK-Oxford-East": "UK",
+  "UK-Oxford-West-and-Abingdon": "UK",
+  "UK-Witney": "UK",
+  "UK-Banbury": "UK",
+  "UK-Beaconsfield": "UK",
+  "UK-Wycombe": "UK",
+  "UK-Chesham-and-Amersham": "UK",
+  "UK-Aylesbury": "UK",
+  "UK-Buckingham": "UK",
+  "UK-Milton-Keynes-South": "UK",
+  "UK-Milton-Keynes-North": "UK",
+  "UK-Sittingbourne-and-Sheppey": "UK",
+  "UK-Gillingham-and-Rainham": "UK",
+  "UK-Rochester-and-Strood": "UK",
+  "UK-Sevenoaks": "UK",
+  "UK-Gravesham": "UK",
+  "UK-Dartford": "UK",
+  "UK-Tonbridge-and-Malling": "UK",
+  "UK-Chatham-and-Aylesford": "UK",
+  "UK-Tunbridge-Wells": "UK",
+  "UK-Maidstone-and-the-Weald": "UK",
+  "UK-Faversham-and-Mid-Kent": "UK",
+  "UK-Ashford": "UK",
+  "UK-Canterbury": "UK",
+  "UK-North-Thanet": "UK",
+  "UK-Folkestone-and-Hythe": "UK",
+  "UK-Dover": "UK",
+  "UK-South-Thanet": "UK",
+  "UK-Saffron-Walden": "UK",
+  "UK-Colchester": "UK",
+  "UK-Clacton": "UK",
+  "UK-Harwich-and-North-Essex": "UK",
+  "UK-Braintree": "UK",
+  "UK-Epping-Forest": "UK",
+  "UK-Thurrock": "UK",
+  "UK-Southend-West": "UK",
+  "UK-Castle-Point": "UK",
+  "UK-South-Basildon-and-East-Thurrock": "UK",
+  "UK-Rochford-and-Southend-East": "UK",
+  "UK-Rayleigh-and-Wickford": "UK",
+  "UK-Basildon-and-Billericay": "UK",
+  "UK-Brentwood-and-Ongar": "UK",
+  "UK-Harlow": "UK",
+  "UK-Chelmsford": "UK",
+  "UK-Maldon": "UK",
+  "UK-Witham": "UK",
+  "UK-Finchley-and-Golders-Green": "UK",
+  "UK-Hendon": "UK",
+  "UK-Chipping-Barnet": "UK",
+  "UK-Ilford-North": "UK",
+  "UK-Edmonton": "UK",
+  "UK-Enfield-Southgate": "UK",
+  "UK-Enfield-North": "UK",
+  "UK-Hayes-and-Harlington": "UK",
+  "UK-Uxbridge-and-South-Ruislip": "UK",
+  "UK-Harrow-West": "UK",
+  "UK-Ruislip-Northwood-and-Pinner": "UK",
+  "UK-Harrow-East": "UK",
+  "UK-Hampstead-and-Kilburn": "UK",
+  "UK-Holborn-and-St-Pancras": "UK",
+  "UK-Brent-Central": "UK",
+  "UK-Brent-North": "UK",
+  "UK-Hammersmith": "UK",
+  "UK-Barking": "UK",
+  "UK-Dagenham-and-Rainham": "UK",
+  "UK-Romford": "UK",
+  "UK-Hornchurch-and-Upminster": "UK",
+  "UK-West-Ham": "UK",
+  "UK-East-Ham": "UK",
+  "UK-Poplar-and-Limehouse": "UK",
+  "UK-Bethnal-Green-and-Bow": "UK",
+  "UK-Cities-of-London-and-Westminster": "UK",
+  "UK-Westminster-North": "UK",
+  "UK-Chelsea-and-Fulham": "UK",
+  "UK-Kensington": "UK",
+  "UK-Twickenham": "UK",
+  "UK-Kingston-and-Surbiton": "UK",
+  "UK-Richmond-Park": "UK",
+  "UK-Orpington": "UK",
+  "UK-Beckenham": "UK",
+  "UK-Bromley-and-Chislehurst": "UK",
+  "UK-Lewisham-West-and-Penge": "UK",
+  "UK-Lewisham-East": "UK",
+  "UK-Lewisham-Deptford": "UK",
+  "UK-Croydon-South": "UK",
+  "UK-Croydon-Central": "UK",
+  "UK-Croydon-North": "UK",
+  "UK-Sutton-and-Cheam": "UK",
+  "UK-Carshalton-and-Wallington": "UK",
+  "UK-Mitcham-and-Morden": "UK",
+  "UK-Wimbledon": "UK",
+  "UK-Putney": "UK",
+  "UK-Tooting": "UK",
+  "UK-Battersea": "UK",
+  "UK-Dulwich-and-West-Norwood": "UK",
+  "UK-Streatham": "UK",
+  "UK-Vauxhall": "UK",
+  "UK-Camberwell-and-Peckham": "UK",
+  "UK-Bermondsey-and-Old-Southwark": "UK",
+  "UK-Old-Bexley-and-Sidcup": "UK",
+  "UK-Bexleyheath-and-Crayford": "UK",
+  "UK-Eltham": "UK",
+  "UK-Greenwich-and-Woolwich": "UK",
+  "UK-Erith-and-Thamesmead": "UK",
+  "UK-Feltham-and-Heston": "UK",
+  "UK-Brentford-and-Isleworth": "UK",
+  "UK-Ilford-South": "UK",
+  "UK-Leyton-and-Wanstead": "UK",
+  "UK-Walthamstow": "UK",
+  "UK-Chingford-and-Woodford-Green": "UK",
+  "UK-Tottenham": "UK",
+  "UK-Hornsey-and-Wood-Green": "UK",
+  "UK-Islington-South-and-Finsbury": "UK",
+  "UK-Islington-North": "UK",
+  "UK-Ealing-Central-and-Acton": "UK",
+  "UK-Ealing-Southall": "UK",
+  "UK-Ealing-North": "UK",
+  "UK-Hackney-South-and-Shoreditch": "UK",
+  "UK-Hackney-North-and-Stoke-Newington": "UK",
+  "UK-Huntingdon": "UK",
+  "UK-Cambridge": "UK",
+  "UK-South-Cambridgeshire": "UK",
+  "UK-South-East-Cambridgeshire": "UK",
+  "UK-Peterborough": "UK",
+  "UK-North-West-Cambridgeshire": "UK",
+  "UK-North-East-Cambridgeshire": "UK",
+  "UK-St-Albans": "UK",
+  "UK-Hemel-Hempstead": "UK",
+  "UK-South-West-Hertfordshire": "UK",
+  "UK-Watford": "UK",
+  "UK-Hertsmere": "UK",
+  "UK-Broxbourne": "UK",
+  "UK-Hertford-and-Stortford": "UK",
+  "UK-Welwyn-Hatfield": "UK",
+  "UK-Stevenage": "UK",
+  "UK-Hitchin-and-Harpenden": "UK",
+  "UK-North-East-Hertfordshire": "UK",
+  "UK-Luton-South": "UK",
+  "UK-Luton-North": "UK",
+  "UK-South-West-Bedfordshire": "UK",
+  "UK-Bedford": "UK",
+  "UK-Mid-Bedfordshire": "UK",
+  "UK-North-East-Bedfordshire": "UK",
+  "UK-South-Derbyshire": "UK",
+  "UK-Erewash": "UK",
+  "UK-Derby-South": "UK",
+  "UK-Derby-North": "UK",
+  "UK-Mid-Derbyshire": "UK",
+  "UK-Amber-Valley": "UK",
+  "UK-Broxtowe": "UK",
+  "UK-Ashfield": "UK",
+  "UK-Nottingham-South": "UK",
+  "UK-Nottingham-East": "UK",
+  "UK-Nottingham-North": "UK",
+  "UK-Gedling": "UK",
+  "UK-Rushcliffe": "UK",
+  "UK-Charnwood": "UK",
+  "UK-Loughborough": "UK",
+  "UK-Harborough": "UK",
+  "UK-South-Leicestershire": "UK",
+  "UK-Leicester-South": "UK",
+  "UK-Leicester-East": "UK",
+  "UK-Leicester-West": "UK",
+  "UK-Bosworth": "UK",
+  "UK-North-West-Leicestershire": "UK",
+  "UK-Rutland-and-Melton": "UK",
+  "UK-Northampton-South": "UK",
+  "UK-Northampton-North": "UK",
+  "UK-Wellingborough": "UK",
+  "UK-Kettering": "UK",
+  "UK-Corby": "UK",
+  "UK-South-Northamptonshire": "UK",
+  "UK-Daventry": "UK",
+  "UK-North-Herefordshire": "UK",
+  "UK-Ludlow": "UK",
+  "UK-Shrewsbury-and-Atcham": "UK",
+  "UK-Telford": "UK",
+  "UK-The-Wrekin": "UK",
+  "UK-North-Shropshire": "UK",
+  "UK-Stoke-on-Trent-North": "UK",
+  "UK-South-Staffordshire": "UK",
+  "UK-Cannock-Chase": "UK",
+  "UK-Stafford": "UK",
+  "UK-Stone": "UK",
+  "UK-Tamworth": "UK",
+  "UK-Lichfield": "UK",
+  "UK-Burton": "UK",
+  "UK-Newcastle-under-Lyme": "UK",
+  "UK-Stoke-on-Trent-South": "UK",
+  "UK-Stoke-on-Trent-Central": "UK",
+  "UK-Bromsgrove": "UK",
+  "UK-West-Worcestershire": "UK",
+  "UK-Redditch": "UK",
+  "UK-Worcester": "UK",
+  "UK-Mid-Worcestershire": "UK",
+  "UK-Wyre-Forest": "UK",
+  "UK-Stratford-on-Avon": "UK",
+  "UK-Warwick-and-Leamington": "UK",
+  "UK-Kenilworth-and-Southam": "UK",
+  "UK-Rugby": "UK",
+  "UK-Nuneaton": "UK",
+  "UK-North-Warwickshire": "UK",
+  "UK-Coventry-South": "UK",
+  "UK-Coventry-North-East": "UK",
+  "UK-Coventry-North-West": "UK",
+  "UK-Solihull": "UK",
+  "UK-Meriden": "UK",
+  "UK-Birmingham-Northfield": "UK",
+  "UK-Birmingham-Selly-Oak": "UK",
+  "UK-Birmingham-Hall-Green": "UK",
+  "UK-Birmingham-Edgbaston": "UK",
+  "UK-Birmingham-Yardley": "UK",
+  "UK-Birmingham-Hodge-Hill": "UK",
+  "UK-Birmingham-Ladywood": "UK",
+  "UK-Birmingham-Erdington": "UK",
+  "UK-Birmingham-Perry-Barr": "UK",
+  "UK-Sutton-Coldfield": "UK",
+  "UK-Halesowen-and-Rowley-Regis": "UK",
+  "UK-Warley": "UK",
+  "UK-West-Bromwich-East": "UK",
+  "UK-West-Bromwich-West": "UK",
+  "UK-Stourbridge": "UK",
+  "UK-Dudley-South": "UK",
+  "UK-Dudley-North": "UK",
+  "UK-Wolverhampton-South-East": "UK",
+  "UK-Wolverhampton-South-West": "UK",
+  "UK-Wolverhampton-North-East": "UK",
+  "UK-Walsall-South": "UK",
+  "UK-Walsall-North": "UK",
+  "UK-Aldridge-Brownhills": "UK",
+  "UK-Argyll-and-Bute": "UK",
+  "UK-Inverness-Nairn-Badenoch-and-Strathspey": "UK",
+  "UK-Dumfries-and-Galloway": "UK",
+  "UK-Dumfriesshire-Clydesdale-and-Tweeddale": "UK",
+  "UK-Berwickshire-Roxburgh-and-Selkirk": "UK",
+  "UK-Dunfermline-and-West-Fife": "UK",
+  "UK-Kirkcaldy-and-Cowdenbeath": "UK",
+  "UK-Glenrothes": "UK",
+  "UK-North-East-Fife": "UK",
+  "UK-Ochil-and-South-Perthshire": "UK",
+  "UK-Ayr-Carrick-and-Cumnock": "UK",
+  "UK-West-Dunbartonshire": "UK",
+  "UK-Central-Ayrshire": "UK",
+  "UK-East-Lothian": "UK",
+  "UK-Midlothian": "UK",
+  "UK-North-Ayrshire-and-Arran": "UK",
+  "UK-Kilmarnock-and-Loudoun": "UK",
+  "UK-Inverclyde": "UK",
+  "UK-Linlithgow-and-East-Falkirk": "UK",
+  "UK-Edinburgh-South-West": "UK",
+  "UK-Edinburgh-South": "UK",
+  "UK-Edinburgh-East": "UK",
+  "UK-Edinburgh-North-and-Leith": "UK",
+  "UK-Edinburgh-West": "UK",
+  "UK-Livingston": "UK",
+  "UK-Paisley-and-Renfrewshire-South": "UK",
+  "UK-East-Kilbride-Strathaven-and-Lesmahagow": "UK",
+  "UK-Paisley-and-Renfrewshire-North": "UK",
+  "UK-East-Renfrewshire": "UK",
+  "UK-Lanark-and-Hamilton-East": "UK",
+  "UK-Motherwell-and-Wishaw": "UK",
+  "UK-Airdrie-and-Shotts": "UK",
+  "UK-Rutherglen-and-Hamilton-West": "UK",
+  "UK-Glasgow-North-East": "UK",
+  "UK-Glasgow-South-West": "UK",
+  "UK-Glasgow-South": "UK",
+  "UK-Glasgow-Central": "UK",
+  "UK-Glasgow-East": "UK",
+  "UK-Glasgow-North": "UK",
+  "UK-Glasgow-North-West": "UK",
+  "UK-Coatbridge-Chryston-and-Bellshill": "UK",
+  "UK-East-Dunbartonshire": "UK",
+  "UK-Cumbernauld-Kilsyth-and-Kirkintilloch-East": "UK",
+  "UK-Falkirk": "UK",
+  "UK-Stirling": "UK",
+  "UK-Perth-and-North-Perthshire": "UK",
+  "UK-Dundee-West": "UK",
+  "UK-Dundee-East": "UK",
+  "UK-Angus": "UK",
+  "UK-Aberdeen-South": "UK",
+  "UK-Aberdeen-North": "UK",
+  "UK-West-Aberdeenshire-and-Kincardine": "UK",
+  "UK-Gordon": "UK",
+  "UK-Banff-and-Buchan": "UK",
+  "UK-Moray": "UK",
+  "UK-Ross-Skye-and-Lochaber": "UK",
+  "UK-Caithness-Sutherland-and-Easter-Ross": "UK",
+  "UK-Na-h-Eileanan-an-Iar": "UK",
+  "UK-Preseli-Pembrokeshire": "UK",
+  "UK-Arfon": "UK",
+  "UK-Dwyfor-Meirionnydd": "UK",
+  "UK-Ceredigion": "UK",
+  "UK-Aberconwy": "UK",
+  "UK-Montgomeryshire": "UK",
+  "UK-Clwyd-South": "UK",
+  "UK-Clwyd-West": "UK",
+  "UK-Vale-of-Clwyd": "UK",
+  "UK-Wrexham": "UK",
+  "UK-Ynys-Mon": "UK",
+  "UK-Newry-and-Armagh": "UK",
+  "UK-West-Tyrone": "UK",
+  "UK-Mid-Ulster": "UK",
+  "UK-Foyle": "UK",
+  "UK-East-Londonderry": "UK",
+  "UK-Upper-Bann": "UK",
+  "UK-South-Down": "UK",
+  "UK-Lagan-Valley": "UK",
+  "UK-Strangford": "UK",
+  "UK-North-Down": "UK",
+  "UK-East-Antrim": "UK",
+  "UK-South-Antrim": "UK",
+  "UK-North-Antrim": "UK",
+  "UK-Fermanagh-and-South-Tyrone": "UK",
+  "UK-Belfast-South": "UK",
+  "UK-Belfast-West": "UK",
+  "UK-Belfast-East": "UK",
+  "UK-Belfast-North": "UK",
+  "UK-Orkney-and-Shetland": "UK",
+  "UK-Weston-super-Mare": "UK",
+  "UK-North-Somerset": "UK",
+  "UK-Hereford-and-South-Herefordshire": "UK",
+  "UK-Carmarthen-West-and-South-Pembrokeshire": "UK",
+  "UK-Llanelli": "UK",
+  "UK-Carmarthen-East-And-Dinefwr": "UK",
+  "UK-Aberavon": "UK",
+  "UK-Swansea-East": "UK",
+  "UK-Swansea-West": "UK",
+  "UK-Gower": "UK",
+  "UK-Neath": "UK",
+  "UK-Vale-of-Glamorgan": "UK",
+  "UK-Cardiff-South-and-Penarth": "UK",
+  "UK-Cardiff-West": "UK",
+  "UK-Cardiff-Central": "UK",
+  "UK-Cardiff-North": "UK",
+  "UK-Bridgend": "UK",
+  "UK-Ogmore": "UK",
+  "UK-Rhondda": "UK",
+  "UK-Pontypridd": "UK",
+  "UK-Newport-West": "UK",
+  "UK-Newport-East": "UK",
+  "UK-Cynon-Valley": "UK",
+  "UK-Blaenau-Gwent": "UK",
+  "UK-Caerphilly": "UK",
+  "UK-Islwyn": "UK",
+  "UK-Torfaen": "UK",
+  "UK-Merthyr-Tydfil-and-Rhymney": "UK",
+  "UK-Monmouth": "UK",
+  "UK-Brecon-and-Radnorshire": "UK",
+  "UK-Gainsborough": "UK",
+  "UK-Haltemprice-and-Howden": "UK",
+  "UK-Brigg-and-Goole": "UK",
+  "UK-York-Outer": "UK",
+  "UK-Selby-and-Ainsty": "UK",
+  "UK-Skipton-and-Ripon": "UK",
+  "UK-York-Central": "UK",
+  "UK-Burnley": "UK",
+  "UK-Pendle": "UK",
+  "UK-West-Lancashire": "UK",
+  "UK-South-Ribble": "UK",
+  "UK-Chorley": "UK",
+  "UK-Rossendale-and-Darwen": "UK",
+  "UK-Blackburn": "UK",
+  "UK-Hyndburn": "UK",
+  "UK-Ribble-Valley": "UK",
+  "UK-Blackpool-South": "UK",
+  "UK-Blackpool-North-and-Cleveleys": "UK",
+  "UK-Preston": "UK",
+  "UK-Fylde": "UK",
+  "UK-Wyre-and-Preston-North": "UK",
+  "UK-Lancaster-and-Fleetwood": "UK",
+  "UK-Garston-and-Halewood": "UK",
+  "UK-Liverpool-Wavertree": "UK",
+  "UK-Liverpool-Riverside": "UK",
+  "UK-Liverpool-West-Derby": "UK",
+  "UK-Liverpool-Walton": "UK",
+  "UK-Knowsley": "UK",
+  "UK-St-Helens-South-and-Whiston": "UK",
+  "UK-St-Helens-North": "UK",
+  "UK-Bootle": "UK",
+  "UK-Sefton-Central": "UK",
+  "UK-Southport": "UK",
+  "UK-Wirral-South": "UK",
+  "UK-Birkenhead": "UK",
+  "UK-Wallasey": "UK",
+  "UK-Wirral-West": "UK",
+  "UK-Leigh": "UK",
+  "UK-Makerfield": "UK",
+  "UK-Wigan": "UK",
+  "UK-Bolton-West": "UK",
+  "UK-Bolton-North-East": "UK",
+  "UK-Bolton-South-East": "UK",
+  "UK-Bury-South": "UK",
+  "UK-Bury-North": "UK",
+  "UK-Heywood-and-Middleton": "UK",
+  "UK-Rochdale": "UK",
+  "UK-Oldham-West-and-Royton": "UK",
+  "UK-Oldham-East-and-Saddleworth": "UK",
+  "UK-Salford-and-Eccles": "UK",
+  "UK-Worsley-and-Eccles-South": "UK",
+  "UK-Manchester-Central": "UK",
+  "UK-Blackley-and-Broughton": "UK",
+  "UK-Ashton-under-Lyne": "UK",
+  "UK-Stalybridge-and-Hyde": "UK",
+  "UK-Stretford-and-Urmston": "UK",
+  "UK-Manchester-Withington": "UK",
+  "UK-Manchester-Gorton": "UK",
+  "UK-Denton-and-Reddish": "UK",
+  "UK-Wythenshawe-and-Sale-East": "UK",
+  "UK-Altrincham-and-Sale-West": "UK",
+  "UK-Cheadle": "UK",
+  "UK-Stockport": "UK",
+  "UK-Hazel-Grove": "UK",
+  "UK-Halton": "UK",
+  "UK-Eddisbury": "UK",
+  "UK-City-of-Chester": "UK",
+  "UK-Ellesmere-Port-and-Neston": "UK",
+  "UK-Weaver-Vale": "UK",
+  "UK-Congleton": "UK",
+  "UK-Macclesfield": "UK",
+  "UK-Tatton": "UK",
+  "UK-Warrington-South": "UK",
+  "UK-Warrington-North": "UK",
+  "UK-Colne-Valley": "UK",
+  "UK-Huddersfield": "UK",
+  "UK-Dewsbury": "UK",
+  "UK-Batley-and-Spen": "UK",
+  "UK-Halifax": "UK",
+  "UK-Calder-Valley": "UK",
+  "UK-Bradford-South": "UK",
+  "UK-Bradford-West": "UK",
+  "UK-Bradford-East": "UK",
+  "UK-Shipley": "UK",
+  "UK-Keighley": "UK",
+  "UK-Leeds-West": "UK",
+  "UK-Pudsey": "UK",
+  "UK-Leeds-North-West": "UK",
+  "UK-Hemsworth": "UK",
+  "UK-Normanton-Pontefract-and-Castleford": "UK",
+  "UK-Wakefield": "UK",
+  "UK-Morley-and-Outwood": "UK",
+  "UK-Leeds-Central": "UK",
+  "UK-Leeds-East": "UK",
+  "UK-Leeds-North-East": "UK",
+  "UK-Elmet-and-Rothwell": "UK",
+  "UK-Sheffield-Heeley": "UK",
+  "UK-Sheffield-Central": "UK",
+  "UK-Sheffield-South-East": "UK",
+  "UK-Sheffield-Brightside-and-Hillsborough": "UK",
+  "UK-Sheffield-Hallam": "UK",
+  "UK-Penistone-and-Stocksbridge": "UK",
+  "UK-Rother-Valley": "UK",
+  "UK-Rotherham": "UK",
+  "UK-Wentworth-and-Dearne": "UK",
+  "UK-Barnsley-East": "UK",
+  "UK-Barnsley-Central": "UK",
+  "UK-Doncaster-Central": "UK",
+  "UK-Don-Valley": "UK",
+  "UK-Doncaster-North": "UK",
+  "UK-Bolsover": "UK",
+  "UK-Chesterfield": "UK",
+  "UK-North-East-Derbyshire": "UK",
+  "UK-Derbyshire-Dales": "UK",
+  "UK-High-Peak": "UK",
+  "UK-Mansfield": "UK",
+  "UK-Sherwood": "UK",
+  "UK-Newark": "UK",
+  "UK-Bassetlaw": "UK",
+  "UK-Staffordshire-Moorlands": "UK",
+  "UK-Delyn": "UK",
+  "UK-Alyn-and-Deeside": "UK",
+  "UK-Bournemouth-East": "UK",
+  "UK-Poole": "UK",
+  "UK-Bournemouth-West": "UK",
+  "UK-Mid-Dorset-and-North-Poole": "UK",
+  "UK-Christchurch": "UK",
+  "UK-North-Dorset": "UK",
+  "UK-South-Dorset": "UK",
+  "UK-Havant": "UK",
+  "UK-Portsmouth-South": "UK",
+  "UK-New-Forest-East": "UK",
+  "UK-New-Forest-West": "UK",
+  "UK-Southampton-Itchen": "UK",
+  "UK-Southampton-Test": "UK",
+  "UK-Eastleigh": "UK",
+  "UK-Gosport": "UK",
+  "UK-Portsmouth-North": "UK",
+  "UK-Fareham": "UK",
+  "UK-Meon-Valley": "UK",
+  "UK-Romsey-and-Southampton-North": "UK",
+  "UK-Isle-of-Wight": "UK",
+  "UK-Bognor-Regis-and-Littlehampton": "UK",
+  "UK-Worthing-West": "UK",
+  "UK-East-Worthing-and-Shoreham": "UK",
+  "UK-Arundel-and-South-Downs": "UK",
+  "UK-Mid-Sussex": "UK",
+  "UK-Horsham": "UK",
+  "UK-Chichester": "UK",
+  "UK-Hove": "UK",
+  "UK-Brighton-Kemptown": "UK",
+  "UK-Brighton-Pavilion": "UK",
+  "UK-Lewes": "UK",
+  "UK-Salisbury": "UK",
+  "UK-East-Hampshire": "UK"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "UK-South-East-Cornwall": {
+     "보수당": 1
+    },
+    "UK-St-Austell-and-Newquay": {
+     "자유민주당": 1
+    },
+    "UK-Camborne-and-Redruth": {
+     "보수당": 1
+    },
+    "UK-Truro-and-Falmouth": {
+     "보수당": 1
+    },
+    "UK-North-Cornwall": {
+     "자유민주당": 1
+    },
+    "UK-St-Ives": {
+     "자유민주당": 1
+    },
+    "UK-Plymouth-Moor-View": {
+     "노동당": 1
+    },
+    "UK-Newton-Abbot": {
+     "보수당": 1
+    },
+    "UK-Exeter": {
+     "노동당": 1
+    },
+    "UK-Central-Devon": {
+     "보수당": 1
+    },
+    "UK-Tiverton-and-Honiton": {
+     "보수당": 1
+    },
+    "UK-North-Devon": {
+     "자유민주당": 1
+    },
+    "UK-Totnes": {
+     "보수당": 1
+    },
+    "UK-Torbay": {
+     "자유민주당": 1
+    },
+    "UK-Torridge-and-West-Devon": {
+     "보수당": 1
+    },
+    "UK-East-Devon": {
+     "보수당": 1
+    },
+    "UK-Plymouth-Sutton-and-Devonport": {
+     "보수당": 1
+    },
+    "UK-South-West-Devon": {
+     "보수당": 1
+    },
+    "UK-Yeovil": {
+     "자유민주당": 1
+    },
+    "UK-Taunton-Deane": {
+     "자유민주당": 1
+    },
+    "UK-Bridgwater-and-West-Somerset": {
+     "보수당": 1
+    },
+    "UK-Somerton-and-Frome": {
+     "자유민주당": 1
+    },
+    "UK-Wells": {
+     "자유민주당": 1
+    },
+    "UK-West-Dorset": {
+     "보수당": 1
+    },
+    "UK-Bristol-West": {
+     "자유민주당": 1
+    },
+    "UK-Bristol-South": {
+     "노동당": 1
+    },
+    "UK-Bristol-East": {
+     "노동당": 1
+    },
+    "UK-North-East-Somerset": {
+     "보수당": 1
+    },
+    "UK-Filton-and-Bradley-Stoke": {
+     "보수당": 1
+    },
+    "UK-Kingswood": {
+     "보수당": 1
+    },
+    "UK-Thornbury-and-Yate": {
+     "자유민주당": 1
+    },
+    "UK-Bath": {
+     "자유민주당": 1
+    },
+    "UK-Bristol-North-West": {
+     "보수당": 1
+    },
+    "UK-Devizes": {
+     "보수당": 1
+    },
+    "UK-South-Swindon": {
+     "보수당": 1
+    },
+    "UK-North-Swindon": {
+     "보수당": 1
+    },
+    "UK-South-West-Wiltshire": {
+     "보수당": 1
+    },
+    "UK-Chippenham": {
+     "자유민주당": 1
+    },
+    "UK-North-Wiltshire": {
+     "보수당": 1
+    },
+    "UK-Cheltenham": {
+     "자유민주당": 1
+    },
+    "UK-Tewkesbury": {
+     "보수당": 1
+    },
+    "UK-Forest-of-Dean": {
+     "보수당": 1
+    },
+    "UK-Stroud": {
+     "보수당": 1
+    },
+    "UK-Gloucester": {
+     "보수당": 1
+    },
+    "UK-The-Cotswolds": {
+     "보수당": 1
+    },
+    "UK-Aldershot": {
+     "보수당": 1
+    },
+    "UK-North-East-Hampshire": {
+     "보수당": 1
+    },
+    "UK-North-West-Hampshire": {
+     "보수당": 1
+    },
+    "UK-Basingstoke": {
+     "보수당": 1
+    },
+    "UK-Winchester": {
+     "보수당": 1
+    },
+    "UK-Crawley": {
+     "보수당": 1
+    },
+    "UK-Eastbourne": {
+     "자유민주당": 1
+    },
+    "UK-Hastings-and-Rye": {
+     "보수당": 1
+    },
+    "UK-Bexhill-and-Battle": {
+     "보수당": 1
+    },
+    "UK-Wealden": {
+     "보수당": 1
+    },
+    "UK-West-Suffolk": {
+     "보수당": 1
+    },
+    "UK-South-Suffolk": {
+     "보수당": 1
+    },
+    "UK-Bury-St-Edmunds": {
+     "보수당": 1
+    },
+    "UK-Ipswich": {
+     "보수당": 1
+    },
+    "UK-Suffolk-Coastal": {
+     "보수당": 1
+    },
+    "UK-Central-Suffolk-and-North-Ipswich": {
+     "보수당": 1
+    },
+    "UK-Waveney": {
+     "보수당": 1
+    },
+    "UK-Broadland": {
+     "보수당": 1
+    },
+    "UK-North-Norfolk": {
+     "자유민주당": 1
+    },
+    "UK-South-Norfolk": {
+     "보수당": 1
+    },
+    "UK-South-West-Norfolk": {
+     "보수당": 1
+    },
+    "UK-Mid-Norfolk": {
+     "보수당": 1
+    },
+    "UK-Norwich-South": {
+     "자유민주당": 1
+    },
+    "UK-Norwich-North": {
+     "보수당": 1
+    },
+    "UK-Great-Yarmouth": {
+     "보수당": 1
+    },
+    "UK-North-West-Norfolk": {
+     "보수당": 1
+    },
+    "UK-Boston-and-Skegness": {
+     "보수당": 1
+    },
+    "UK-Louth-and-Horncastle": {
+     "보수당": 1
+    },
+    "UK-Grantham-and-Stamford": {
+     "보수당": 1
+    },
+    "UK-Sleaford-and-North-Hykeham": {
+     "보수당": 1
+    },
+    "UK-Lincoln": {
+     "보수당": 1
+    },
+    "UK-South-Holland-and-the-Deepings": {
+     "보수당": 1
+    },
+    "UK-Great-Grimsby": {
+     "노동당": 1
+    },
+    "UK-Cleethorpes": {
+     "보수당": 1
+    },
+    "UK-Scunthorpe": {
+     "노동당": 1
+    },
+    "UK-Kingston-upon-Hull-West-and-Hessle": {
+     "노동당": 1
+    },
+    "UK-Kingston-upon-Hull-East": {
+     "노동당": 1
+    },
+    "UK-Kingston-upon-Hull-North": {
+     "노동당": 1
+    },
+    "UK-Beverley-and-Holderness": {
+     "보수당": 1
+    },
+    "UK-East-Yorkshire": {
+     "보수당": 1
+    },
+    "UK-Thirsk-and-Malton": {
+     "보수당": 1
+    },
+    "UK-Harrogate-and-Knaresborough": {
+     "보수당": 1
+    },
+    "UK-Richmond-Yorks": {
+     "보수당": 1
+    },
+    "UK-Scarborough-and-Whitby": {
+     "보수당": 1
+    },
+    "UK-Stockton-South": {
+     "보수당": 1
+    },
+    "UK-Middlesbrough-South-and-East-Cleveland": {
+     "노동당": 1
+    },
+    "UK-Middlesbrough": {
+     "노동당": 1
+    },
+    "UK-Redcar": {
+     "자유민주당": 1
+    },
+    "UK-Stockton-North": {
+     "노동당": 1
+    },
+    "UK-Hartlepool": {
+     "노동당": 1
+    },
+    "UK-Bishop-Auckland": {
+     "노동당": 1
+    },
+    "UK-Darlington": {
+     "노동당": 1
+    },
+    "UK-Sedgefield": {
+     "노동당": 1
+    },
+    "UK-Easington": {
+     "노동당": 1
+    },
+    "UK-North-Durham": {
+     "노동당": 1
+    },
+    "UK-City-of-Durham": {
+     "노동당": 1
+    },
+    "UK-North-West-Durham": {
+     "노동당": 1
+    },
+    "UK-Newcastle-upon-Tyne-East": {
+     "노동당": 1
+    },
+    "UK-Houghton-and-Sunderland-South": {
+     "노동당": 1
+    },
+    "UK-Washington-and-Sunderland-West": {
+     "노동당": 1
+    },
+    "UK-Sunderland-Central": {
+     "노동당": 1
+    },
+    "UK-Gateshead": {
+     "노동당": 1
+    },
+    "UK-Blaydon": {
+     "노동당": 1
+    },
+    "UK-Jarrow": {
+     "노동당": 1
+    },
+    "UK-South-Shields": {
+     "노동당": 1
+    },
+    "UK-North-Tyneside": {
+     "노동당": 1
+    },
+    "UK-Tynemouth": {
+     "노동당": 1
+    },
+    "UK-Newcastle-upon-Tyne-Central": {
+     "노동당": 1
+    },
+    "UK-Newcastle-upon-Tyne-North": {
+     "노동당": 1
+    },
+    "UK-Berwick-upon-Tweed": {
+     "자유민주당": 1
+    },
+    "UK-Blyth-Valley": {
+     "노동당": 1
+    },
+    "UK-Hexham": {
+     "보수당": 1
+    },
+    "UK-Wansbeck": {
+     "노동당": 1
+    },
+    "UK-Copeland": {
+     "노동당": 1
+    },
+    "UK-Workington": {
+     "노동당": 1
+    },
+    "UK-Penrith-and-the-Border": {
+     "보수당": 1
+    },
+    "UK-Carlisle": {
+     "보수당": 1
+    },
+    "UK-Westmorland-and-Lonsdale": {
+     "자유민주당": 1
+    },
+    "UK-Barrow-and-Furness": {
+     "노동당": 1
+    },
+    "UK-Morecambe-and-Lunesdale": {
+     "보수당": 1
+    },
+    "UK-Crewe-and-Nantwich": {
+     "보수당": 1
+    },
+    "UK-East-Surrey": {
+     "보수당": 1
+    },
+    "UK-Epsom-and-Ewell": {
+     "보수당": 1
+    },
+    "UK-Reigate": {
+     "보수당": 1
+    },
+    "UK-South-West-Surrey": {
+     "보수당": 1
+    },
+    "UK-Guildford": {
+     "보수당": 1
+    },
+    "UK-Mole-Valley": {
+     "보수당": 1
+    },
+    "UK-Esher-and-Walton": {
+     "보수당": 1
+    },
+    "UK-Woking": {
+     "보수당": 1
+    },
+    "UK-Surrey-Heath": {
+     "보수당": 1
+    },
+    "UK-Runnymede-and-Weybridge": {
+     "보수당": 1
+    },
+    "UK-Spelthorne": {
+     "보수당": 1
+    },
+    "UK-Newbury": {
+     "보수당": 1
+    },
+    "UK-Slough": {
+     "노동당": 1
+    },
+    "UK-Bracknell": {
+     "보수당": 1
+    },
+    "UK-Wokingham": {
+     "보수당": 1
+    },
+    "UK-Windsor": {
+     "보수당": 1
+    },
+    "UK-Reading-West": {
+     "보수당": 1
+    },
+    "UK-Reading-East": {
+     "보수당": 1
+    },
+    "UK-Maidenhead": {
+     "보수당": 1
+    },
+    "UK-Henley": {
+     "보수당": 1
+    },
+    "UK-Wantage": {
+     "보수당": 1
+    },
+    "UK-Oxford-East": {
+     "노동당": 1
+    },
+    "UK-Oxford-West-and-Abingdon": {
+     "보수당": 1
+    },
+    "UK-Witney": {
+     "보수당": 1
+    },
+    "UK-Banbury": {
+     "보수당": 1
+    },
+    "UK-Beaconsfield": {
+     "보수당": 1
+    },
+    "UK-Wycombe": {
+     "보수당": 1
+    },
+    "UK-Chesham-and-Amersham": {
+     "보수당": 1
+    },
+    "UK-Aylesbury": {
+     "보수당": 1
+    },
+    "UK-Buckingham": {
+     "하원의장": 1
+    },
+    "UK-Milton-Keynes-South": {
+     "보수당": 1
+    },
+    "UK-Milton-Keynes-North": {
+     "보수당": 1
+    },
+    "UK-Sittingbourne-and-Sheppey": {
+     "보수당": 1
+    },
+    "UK-Gillingham-and-Rainham": {
+     "보수당": 1
+    },
+    "UK-Rochester-and-Strood": {
+     "보수당": 1
+    },
+    "UK-Sevenoaks": {
+     "보수당": 1
+    },
+    "UK-Gravesham": {
+     "보수당": 1
+    },
+    "UK-Dartford": {
+     "보수당": 1
+    },
+    "UK-Tonbridge-and-Malling": {
+     "보수당": 1
+    },
+    "UK-Chatham-and-Aylesford": {
+     "보수당": 1
+    },
+    "UK-Tunbridge-Wells": {
+     "보수당": 1
+    },
+    "UK-Maidstone-and-the-Weald": {
+     "보수당": 1
+    },
+    "UK-Faversham-and-Mid-Kent": {
+     "보수당": 1
+    },
+    "UK-Ashford": {
+     "보수당": 1
+    },
+    "UK-Canterbury": {
+     "보수당": 1
+    },
+    "UK-North-Thanet": {
+     "보수당": 1
+    },
+    "UK-Folkestone-and-Hythe": {
+     "보수당": 1
+    },
+    "UK-Dover": {
+     "보수당": 1
+    },
+    "UK-South-Thanet": {
+     "보수당": 1
+    },
+    "UK-Saffron-Walden": {
+     "보수당": 1
+    },
+    "UK-Colchester": {
+     "자유민주당": 1
+    },
+    "UK-Clacton": {
+     "보수당": 1
+    },
+    "UK-Harwich-and-North-Essex": {
+     "보수당": 1
+    },
+    "UK-Braintree": {
+     "보수당": 1
+    },
+    "UK-Epping-Forest": {
+     "보수당": 1
+    },
+    "UK-Thurrock": {
+     "보수당": 1
+    },
+    "UK-Southend-West": {
+     "보수당": 1
+    },
+    "UK-Castle-Point": {
+     "보수당": 1
+    },
+    "UK-South-Basildon-and-East-Thurrock": {
+     "보수당": 1
+    },
+    "UK-Rochford-and-Southend-East": {
+     "보수당": 1
+    },
+    "UK-Rayleigh-and-Wickford": {
+     "보수당": 1
+    },
+    "UK-Basildon-and-Billericay": {
+     "보수당": 1
+    },
+    "UK-Brentwood-and-Ongar": {
+     "보수당": 1
+    },
+    "UK-Harlow": {
+     "보수당": 1
+    },
+    "UK-Chelmsford": {
+     "보수당": 1
+    },
+    "UK-Maldon": {
+     "보수당": 1
+    },
+    "UK-Witham": {
+     "보수당": 1
+    },
+    "UK-Finchley-and-Golders-Green": {
+     "보수당": 1
+    },
+    "UK-Hendon": {
+     "보수당": 1
+    },
+    "UK-Chipping-Barnet": {
+     "보수당": 1
+    },
+    "UK-Ilford-North": {
+     "보수당": 1
+    },
+    "UK-Edmonton": {
+     "노동당": 1
+    },
+    "UK-Enfield-Southgate": {
+     "보수당": 1
+    },
+    "UK-Enfield-North": {
+     "보수당": 1
+    },
+    "UK-Hayes-and-Harlington": {
+     "노동당": 1
+    },
+    "UK-Uxbridge-and-South-Ruislip": {
+     "보수당": 1
+    },
+    "UK-Harrow-West": {
+     "노동당": 1
+    },
+    "UK-Ruislip-Northwood-and-Pinner": {
+     "보수당": 1
+    },
+    "UK-Harrow-East": {
+     "보수당": 1
+    },
+    "UK-Hampstead-and-Kilburn": {
+     "노동당": 1
+    },
+    "UK-Holborn-and-St-Pancras": {
+     "노동당": 1
+    },
+    "UK-Brent-Central": {
+     "자유민주당": 1
+    },
+    "UK-Brent-North": {
+     "노동당": 1
+    },
+    "UK-Hammersmith": {
+     "노동당": 1
+    },
+    "UK-Barking": {
+     "노동당": 1
+    },
+    "UK-Dagenham-and-Rainham": {
+     "노동당": 1
+    },
+    "UK-Romford": {
+     "보수당": 1
+    },
+    "UK-Hornchurch-and-Upminster": {
+     "보수당": 1
+    },
+    "UK-West-Ham": {
+     "노동당": 1
+    },
+    "UK-East-Ham": {
+     "노동당": 1
+    },
+    "UK-Poplar-and-Limehouse": {
+     "노동당": 1
+    },
+    "UK-Bethnal-Green-and-Bow": {
+     "노동당": 1
+    },
+    "UK-Cities-of-London-and-Westminster": {
+     "보수당": 1
+    },
+    "UK-Westminster-North": {
+     "노동당": 1
+    },
+    "UK-Chelsea-and-Fulham": {
+     "보수당": 1
+    },
+    "UK-Kensington": {
+     "보수당": 1
+    },
+    "UK-Twickenham": {
+     "자유민주당": 1
+    },
+    "UK-Kingston-and-Surbiton": {
+     "자유민주당": 1
+    },
+    "UK-Richmond-Park": {
+     "보수당": 1
+    },
+    "UK-Orpington": {
+     "보수당": 1
+    },
+    "UK-Beckenham": {
+     "보수당": 1
+    },
+    "UK-Bromley-and-Chislehurst": {
+     "보수당": 1
+    },
+    "UK-Lewisham-West-and-Penge": {
+     "노동당": 1
+    },
+    "UK-Lewisham-East": {
+     "노동당": 1
+    },
+    "UK-Lewisham-Deptford": {
+     "노동당": 1
+    },
+    "UK-Croydon-South": {
+     "보수당": 1
+    },
+    "UK-Croydon-Central": {
+     "보수당": 1
+    },
+    "UK-Croydon-North": {
+     "노동당": 1
+    },
+    "UK-Sutton-and-Cheam": {
+     "자유민주당": 1
+    },
+    "UK-Carshalton-and-Wallington": {
+     "자유민주당": 1
+    },
+    "UK-Mitcham-and-Morden": {
+     "노동당": 1
+    },
+    "UK-Wimbledon": {
+     "보수당": 1
+    },
+    "UK-Putney": {
+     "보수당": 1
+    },
+    "UK-Tooting": {
+     "노동당": 1
+    },
+    "UK-Battersea": {
+     "보수당": 1
+    },
+    "UK-Dulwich-and-West-Norwood": {
+     "노동당": 1
+    },
+    "UK-Streatham": {
+     "노동당": 1
+    },
+    "UK-Vauxhall": {
+     "노동당": 1
+    },
+    "UK-Camberwell-and-Peckham": {
+     "노동당": 1
+    },
+    "UK-Bermondsey-and-Old-Southwark": {
+     "자유민주당": 1
+    },
+    "UK-Old-Bexley-and-Sidcup": {
+     "보수당": 1
+    },
+    "UK-Bexleyheath-and-Crayford": {
+     "보수당": 1
+    },
+    "UK-Eltham": {
+     "노동당": 1
+    },
+    "UK-Greenwich-and-Woolwich": {
+     "노동당": 1
+    },
+    "UK-Erith-and-Thamesmead": {
+     "노동당": 1
+    },
+    "UK-Feltham-and-Heston": {
+     "노동당": 1
+    },
+    "UK-Brentford-and-Isleworth": {
+     "보수당": 1
+    },
+    "UK-Ilford-South": {
+     "노동당": 1
+    },
+    "UK-Leyton-and-Wanstead": {
+     "노동당": 1
+    },
+    "UK-Walthamstow": {
+     "노동당": 1
+    },
+    "UK-Chingford-and-Woodford-Green": {
+     "보수당": 1
+    },
+    "UK-Tottenham": {
+     "노동당": 1
+    },
+    "UK-Hornsey-and-Wood-Green": {
+     "자유민주당": 1
+    },
+    "UK-Islington-South-and-Finsbury": {
+     "노동당": 1
+    },
+    "UK-Islington-North": {
+     "노동당": 1
+    },
+    "UK-Ealing-Central-and-Acton": {
+     "보수당": 1
+    },
+    "UK-Ealing-Southall": {
+     "노동당": 1
+    },
+    "UK-Ealing-North": {
+     "노동당": 1
+    },
+    "UK-Hackney-South-and-Shoreditch": {
+     "노동당": 1
+    },
+    "UK-Hackney-North-and-Stoke-Newington": {
+     "노동당": 1
+    },
+    "UK-Huntingdon": {
+     "보수당": 1
+    },
+    "UK-Cambridge": {
+     "자유민주당": 1
+    },
+    "UK-South-Cambridgeshire": {
+     "보수당": 1
+    },
+    "UK-South-East-Cambridgeshire": {
+     "보수당": 1
+    },
+    "UK-Peterborough": {
+     "보수당": 1
+    },
+    "UK-North-West-Cambridgeshire": {
+     "보수당": 1
+    },
+    "UK-North-East-Cambridgeshire": {
+     "보수당": 1
+    },
+    "UK-St-Albans": {
+     "보수당": 1
+    },
+    "UK-Hemel-Hempstead": {
+     "보수당": 1
+    },
+    "UK-South-West-Hertfordshire": {
+     "보수당": 1
+    },
+    "UK-Watford": {
+     "보수당": 1
+    },
+    "UK-Hertsmere": {
+     "보수당": 1
+    },
+    "UK-Broxbourne": {
+     "보수당": 1
+    },
+    "UK-Hertford-and-Stortford": {
+     "보수당": 1
+    },
+    "UK-Welwyn-Hatfield": {
+     "보수당": 1
+    },
+    "UK-Stevenage": {
+     "보수당": 1
+    },
+    "UK-Hitchin-and-Harpenden": {
+     "보수당": 1
+    },
+    "UK-North-East-Hertfordshire": {
+     "보수당": 1
+    },
+    "UK-Luton-South": {
+     "노동당": 1
+    },
+    "UK-Luton-North": {
+     "노동당": 1
+    },
+    "UK-South-West-Bedfordshire": {
+     "보수당": 1
+    },
+    "UK-Bedford": {
+     "보수당": 1
+    },
+    "UK-Mid-Bedfordshire": {
+     "보수당": 1
+    },
+    "UK-North-East-Bedfordshire": {
+     "보수당": 1
+    },
+    "UK-South-Derbyshire": {
+     "보수당": 1
+    },
+    "UK-Erewash": {
+     "보수당": 1
+    },
+    "UK-Derby-South": {
+     "노동당": 1
+    },
+    "UK-Derby-North": {
+     "노동당": 1
+    },
+    "UK-Mid-Derbyshire": {
+     "보수당": 1
+    },
+    "UK-Amber-Valley": {
+     "보수당": 1
+    },
+    "UK-Broxtowe": {
+     "보수당": 1
+    },
+    "UK-Ashfield": {
+     "노동당": 1
+    },
+    "UK-Nottingham-South": {
+     "노동당": 1
+    },
+    "UK-Nottingham-East": {
+     "노동당": 1
+    },
+    "UK-Nottingham-North": {
+     "노동당": 1
+    },
+    "UK-Gedling": {
+     "노동당": 1
+    },
+    "UK-Rushcliffe": {
+     "보수당": 1
+    },
+    "UK-Charnwood": {
+     "보수당": 1
+    },
+    "UK-Loughborough": {
+     "보수당": 1
+    },
+    "UK-Harborough": {
+     "보수당": 1
+    },
+    "UK-South-Leicestershire": {
+     "보수당": 1
+    },
+    "UK-Leicester-South": {
+     "노동당": 1
+    },
+    "UK-Leicester-East": {
+     "노동당": 1
+    },
+    "UK-Leicester-West": {
+     "노동당": 1
+    },
+    "UK-Bosworth": {
+     "보수당": 1
+    },
+    "UK-North-West-Leicestershire": {
+     "보수당": 1
+    },
+    "UK-Rutland-and-Melton": {
+     "보수당": 1
+    },
+    "UK-Northampton-South": {
+     "보수당": 1
+    },
+    "UK-Northampton-North": {
+     "보수당": 1
+    },
+    "UK-Wellingborough": {
+     "보수당": 1
+    },
+    "UK-Kettering": {
+     "보수당": 1
+    },
+    "UK-Corby": {
+     "보수당": 1
+    },
+    "UK-South-Northamptonshire": {
+     "보수당": 1
+    },
+    "UK-Daventry": {
+     "보수당": 1
+    },
+    "UK-North-Herefordshire": {
+     "보수당": 1
+    },
+    "UK-Ludlow": {
+     "보수당": 1
+    },
+    "UK-Shrewsbury-and-Atcham": {
+     "보수당": 1
+    },
+    "UK-Telford": {
+     "노동당": 1
+    },
+    "UK-The-Wrekin": {
+     "보수당": 1
+    },
+    "UK-North-Shropshire": {
+     "보수당": 1
+    },
+    "UK-Stoke-on-Trent-North": {
+     "노동당": 1
+    },
+    "UK-South-Staffordshire": {
+     "보수당": 1
+    },
+    "UK-Cannock-Chase": {
+     "보수당": 1
+    },
+    "UK-Stafford": {
+     "보수당": 1
+    },
+    "UK-Stone": {
+     "보수당": 1
+    },
+    "UK-Tamworth": {
+     "보수당": 1
+    },
+    "UK-Lichfield": {
+     "보수당": 1
+    },
+    "UK-Burton": {
+     "보수당": 1
+    },
+    "UK-Newcastle-under-Lyme": {
+     "노동당": 1
+    },
+    "UK-Stoke-on-Trent-South": {
+     "노동당": 1
+    },
+    "UK-Stoke-on-Trent-Central": {
+     "노동당": 1
+    },
+    "UK-Bromsgrove": {
+     "보수당": 1
+    },
+    "UK-West-Worcestershire": {
+     "보수당": 1
+    },
+    "UK-Redditch": {
+     "보수당": 1
+    },
+    "UK-Worcester": {
+     "보수당": 1
+    },
+    "UK-Mid-Worcestershire": {
+     "보수당": 1
+    },
+    "UK-Wyre-Forest": {
+     "보수당": 1
+    },
+    "UK-Stratford-on-Avon": {
+     "보수당": 1
+    },
+    "UK-Warwick-and-Leamington": {
+     "보수당": 1
+    },
+    "UK-Kenilworth-and-Southam": {
+     "보수당": 1
+    },
+    "UK-Rugby": {
+     "보수당": 1
+    },
+    "UK-Nuneaton": {
+     "보수당": 1
+    },
+    "UK-North-Warwickshire": {
+     "보수당": 1
+    },
+    "UK-Coventry-South": {
+     "노동당": 1
+    },
+    "UK-Coventry-North-East": {
+     "노동당": 1
+    },
+    "UK-Coventry-North-West": {
+     "노동당": 1
+    },
+    "UK-Solihull": {
+     "자유민주당": 1
+    },
+    "UK-Meriden": {
+     "보수당": 1
+    },
+    "UK-Birmingham-Northfield": {
+     "노동당": 1
+    },
+    "UK-Birmingham-Selly-Oak": {
+     "노동당": 1
+    },
+    "UK-Birmingham-Hall-Green": {
+     "노동당": 1
+    },
+    "UK-Birmingham-Edgbaston": {
+     "노동당": 1
+    },
+    "UK-Birmingham-Yardley": {
+     "자유민주당": 1
+    },
+    "UK-Birmingham-Hodge-Hill": {
+     "노동당": 1
+    },
+    "UK-Birmingham-Ladywood": {
+     "노동당": 1
+    },
+    "UK-Birmingham-Erdington": {
+     "노동당": 1
+    },
+    "UK-Birmingham-Perry-Barr": {
+     "노동당": 1
+    },
+    "UK-Sutton-Coldfield": {
+     "보수당": 1
+    },
+    "UK-Halesowen-and-Rowley-Regis": {
+     "보수당": 1
+    },
+    "UK-Warley": {
+     "노동당": 1
+    },
+    "UK-West-Bromwich-East": {
+     "노동당": 1
+    },
+    "UK-West-Bromwich-West": {
+     "노동당": 1
+    },
+    "UK-Stourbridge": {
+     "보수당": 1
+    },
+    "UK-Dudley-South": {
+     "보수당": 1
+    },
+    "UK-Dudley-North": {
+     "노동당": 1
+    },
+    "UK-Wolverhampton-South-East": {
+     "노동당": 1
+    },
+    "UK-Wolverhampton-South-West": {
+     "보수당": 1
+    },
+    "UK-Wolverhampton-North-East": {
+     "노동당": 1
+    },
+    "UK-Walsall-South": {
+     "노동당": 1
+    },
+    "UK-Walsall-North": {
+     "노동당": 1
+    },
+    "UK-Aldridge-Brownhills": {
+     "보수당": 1
+    },
+    "UK-Argyll-and-Bute": {
+     "자유민주당": 1
+    },
+    "UK-Inverness-Nairn-Badenoch-and-Strathspey": {
+     "자유민주당": 1
+    },
+    "UK-Dumfries-and-Galloway": {
+     "노동당": 1
+    },
+    "UK-Dumfriesshire-Clydesdale-and-Tweeddale": {
+     "보수당": 1
+    },
+    "UK-Berwickshire-Roxburgh-and-Selkirk": {
+     "자유민주당": 1
+    },
+    "UK-Dunfermline-and-West-Fife": {
+     "노동당": 1
+    },
+    "UK-Kirkcaldy-and-Cowdenbeath": {
+     "노동당": 1
+    },
+    "UK-Glenrothes": {
+     "노동당": 1
+    },
+    "UK-North-East-Fife": {
+     "자유민주당": 1
+    },
+    "UK-Ochil-and-South-Perthshire": {
+     "노동당": 1
+    },
+    "UK-Ayr-Carrick-and-Cumnock": {
+     "노동당": 1
+    },
+    "UK-West-Dunbartonshire": {
+     "노동당": 1
+    },
+    "UK-Central-Ayrshire": {
+     "노동당": 1
+    },
+    "UK-East-Lothian": {
+     "노동당": 1
+    },
+    "UK-Midlothian": {
+     "노동당": 1
+    },
+    "UK-North-Ayrshire-and-Arran": {
+     "노동당": 1
+    },
+    "UK-Kilmarnock-and-Loudoun": {
+     "노동당": 1
+    },
+    "UK-Inverclyde": {
+     "노동당": 1
+    },
+    "UK-Linlithgow-and-East-Falkirk": {
+     "노동당": 1
+    },
+    "UK-Edinburgh-South-West": {
+     "노동당": 1
+    },
+    "UK-Edinburgh-South": {
+     "노동당": 1
+    },
+    "UK-Edinburgh-East": {
+     "노동당": 1
+    },
+    "UK-Edinburgh-North-and-Leith": {
+     "노동당": 1
+    },
+    "UK-Edinburgh-West": {
+     "자유민주당": 1
+    },
+    "UK-Livingston": {
+     "노동당": 1
+    },
+    "UK-Paisley-and-Renfrewshire-South": {
+     "노동당": 1
+    },
+    "UK-East-Kilbride-Strathaven-and-Lesmahagow": {
+     "노동당": 1
+    },
+    "UK-Paisley-and-Renfrewshire-North": {
+     "노동당": 1
+    },
+    "UK-East-Renfrewshire": {
+     "노동당": 1
+    },
+    "UK-Lanark-and-Hamilton-East": {
+     "노동당": 1
+    },
+    "UK-Motherwell-and-Wishaw": {
+     "노동당": 1
+    },
+    "UK-Airdrie-and-Shotts": {
+     "노동당": 1
+    },
+    "UK-Rutherglen-and-Hamilton-West": {
+     "노동당": 1
+    },
+    "UK-Glasgow-North-East": {
+     "노동당": 1
+    },
+    "UK-Glasgow-South-West": {
+     "노동당": 1
+    },
+    "UK-Glasgow-South": {
+     "노동당": 1
+    },
+    "UK-Glasgow-Central": {
+     "노동당": 1
+    },
+    "UK-Glasgow-East": {
+     "노동당": 1
+    },
+    "UK-Glasgow-North": {
+     "노동당": 1
+    },
+    "UK-Glasgow-North-West": {
+     "노동당": 1
+    },
+    "UK-Coatbridge-Chryston-and-Bellshill": {
+     "노동당": 1
+    },
+    "UK-East-Dunbartonshire": {
+     "자유민주당": 1
+    },
+    "UK-Cumbernauld-Kilsyth-and-Kirkintilloch-East": {
+     "노동당": 1
+    },
+    "UK-Falkirk": {
+     "노동당": 1
+    },
+    "UK-Stirling": {
+     "노동당": 1
+    },
+    "UK-Perth-and-North-Perthshire": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-Dundee-West": {
+     "노동당": 1
+    },
+    "UK-Dundee-East": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-Angus": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-Aberdeen-South": {
+     "노동당": 1
+    },
+    "UK-Aberdeen-North": {
+     "노동당": 1
+    },
+    "UK-West-Aberdeenshire-and-Kincardine": {
+     "자유민주당": 1
+    },
+    "UK-Gordon": {
+     "자유민주당": 1
+    },
+    "UK-Banff-and-Buchan": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-Moray": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-Ross-Skye-and-Lochaber": {
+     "자유민주당": 1
+    },
+    "UK-Caithness-Sutherland-and-Easter-Ross": {
+     "자유민주당": 1
+    },
+    "UK-Na-h-Eileanan-an-Iar": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-Preseli-Pembrokeshire": {
+     "보수당": 1
+    },
+    "UK-Arfon": {
+     "웨일스당 (플라이드 컴리)": 1
+    },
+    "UK-Dwyfor-Meirionnydd": {
+     "웨일스당 (플라이드 컴리)": 1
+    },
+    "UK-Ceredigion": {
+     "자유민주당": 1
+    },
+    "UK-Aberconwy": {
+     "보수당": 1
+    },
+    "UK-Montgomeryshire": {
+     "보수당": 1
+    },
+    "UK-Clwyd-South": {
+     "노동당": 1
+    },
+    "UK-Clwyd-West": {
+     "보수당": 1
+    },
+    "UK-Vale-of-Clwyd": {
+     "노동당": 1
+    },
+    "UK-Wrexham": {
+     "노동당": 1
+    },
+    "UK-Ynys-Mon": {
+     "노동당": 1
+    },
+    "UK-Newry-and-Armagh": {
+     "신페인": 1
+    },
+    "UK-West-Tyrone": {
+     "신페인": 1
+    },
+    "UK-Mid-Ulster": {
+     "신페인": 1
+    },
+    "UK-Foyle": {
+     "사회민주노동당 (SDLP)": 1
+    },
+    "UK-East-Londonderry": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-Upper-Bann": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-South-Down": {
+     "사회민주노동당 (SDLP)": 1
+    },
+    "UK-Lagan-Valley": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-Strangford": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-North-Down": {
+     "무소속": 1
+    },
+    "UK-East-Antrim": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-South-Antrim": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-North-Antrim": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-Fermanagh-and-South-Tyrone": {
+     "신페인": 1
+    },
+    "UK-Belfast-South": {
+     "사회민주노동당 (SDLP)": 1
+    },
+    "UK-Belfast-West": {
+     "신페인": 1
+    },
+    "UK-Belfast-East": {
+     "동맹당 (Alliance)": 1
+    },
+    "UK-Belfast-North": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-Orkney-and-Shetland": {
+     "자유민주당": 1
+    },
+    "UK-Weston-super-Mare": {
+     "보수당": 1
+    },
+    "UK-North-Somerset": {
+     "보수당": 1
+    },
+    "UK-Hereford-and-South-Herefordshire": {
+     "보수당": 1
+    },
+    "UK-Carmarthen-West-and-South-Pembrokeshire": {
+     "보수당": 1
+    },
+    "UK-Llanelli": {
+     "노동당": 1
+    },
+    "UK-Carmarthen-East-And-Dinefwr": {
+     "웨일스당 (플라이드 컴리)": 1
+    },
+    "UK-Aberavon": {
+     "노동당": 1
+    },
+    "UK-Swansea-East": {
+     "노동당": 1
+    },
+    "UK-Swansea-West": {
+     "노동당": 1
+    },
+    "UK-Gower": {
+     "노동당": 1
+    },
+    "UK-Neath": {
+     "노동당": 1
+    },
+    "UK-Vale-of-Glamorgan": {
+     "보수당": 1
+    },
+    "UK-Cardiff-South-and-Penarth": {
+     "노동당": 1
+    },
+    "UK-Cardiff-West": {
+     "노동당": 1
+    },
+    "UK-Cardiff-Central": {
+     "자유민주당": 1
+    },
+    "UK-Cardiff-North": {
+     "보수당": 1
+    },
+    "UK-Bridgend": {
+     "노동당": 1
+    },
+    "UK-Ogmore": {
+     "노동당": 1
+    },
+    "UK-Rhondda": {
+     "노동당": 1
+    },
+    "UK-Pontypridd": {
+     "노동당": 1
+    },
+    "UK-Newport-West": {
+     "노동당": 1
+    },
+    "UK-Newport-East": {
+     "노동당": 1
+    },
+    "UK-Cynon-Valley": {
+     "노동당": 1
+    },
+    "UK-Blaenau-Gwent": {
+     "노동당": 1
+    },
+    "UK-Caerphilly": {
+     "노동당": 1
+    },
+    "UK-Islwyn": {
+     "노동당": 1
+    },
+    "UK-Torfaen": {
+     "노동당": 1
+    },
+    "UK-Merthyr-Tydfil-and-Rhymney": {
+     "노동당": 1
+    },
+    "UK-Monmouth": {
+     "보수당": 1
+    },
+    "UK-Brecon-and-Radnorshire": {
+     "자유민주당": 1
+    },
+    "UK-Gainsborough": {
+     "보수당": 1
+    },
+    "UK-Haltemprice-and-Howden": {
+     "보수당": 1
+    },
+    "UK-Brigg-and-Goole": {
+     "보수당": 1
+    },
+    "UK-York-Outer": {
+     "보수당": 1
+    },
+    "UK-Selby-and-Ainsty": {
+     "보수당": 1
+    },
+    "UK-Skipton-and-Ripon": {
+     "보수당": 1
+    },
+    "UK-York-Central": {
+     "노동당": 1
+    },
+    "UK-Burnley": {
+     "자유민주당": 1
+    },
+    "UK-Pendle": {
+     "보수당": 1
+    },
+    "UK-West-Lancashire": {
+     "노동당": 1
+    },
+    "UK-South-Ribble": {
+     "보수당": 1
+    },
+    "UK-Chorley": {
+     "노동당": 1
+    },
+    "UK-Rossendale-and-Darwen": {
+     "보수당": 1
+    },
+    "UK-Blackburn": {
+     "노동당": 1
+    },
+    "UK-Hyndburn": {
+     "노동당": 1
+    },
+    "UK-Ribble-Valley": {
+     "보수당": 1
+    },
+    "UK-Blackpool-South": {
+     "노동당": 1
+    },
+    "UK-Blackpool-North-and-Cleveleys": {
+     "보수당": 1
+    },
+    "UK-Preston": {
+     "노동당": 1
+    },
+    "UK-Fylde": {
+     "보수당": 1
+    },
+    "UK-Wyre-and-Preston-North": {
+     "보수당": 1
+    },
+    "UK-Lancaster-and-Fleetwood": {
+     "보수당": 1
+    },
+    "UK-Garston-and-Halewood": {
+     "노동당": 1
+    },
+    "UK-Liverpool-Wavertree": {
+     "노동당": 1
+    },
+    "UK-Liverpool-Riverside": {
+     "노동당": 1
+    },
+    "UK-Liverpool-West-Derby": {
+     "노동당": 1
+    },
+    "UK-Liverpool-Walton": {
+     "노동당": 1
+    },
+    "UK-Knowsley": {
+     "노동당": 1
+    },
+    "UK-St-Helens-South-and-Whiston": {
+     "노동당": 1
+    },
+    "UK-St-Helens-North": {
+     "노동당": 1
+    },
+    "UK-Bootle": {
+     "노동당": 1
+    },
+    "UK-Sefton-Central": {
+     "노동당": 1
+    },
+    "UK-Southport": {
+     "자유민주당": 1
+    },
+    "UK-Wirral-South": {
+     "노동당": 1
+    },
+    "UK-Birkenhead": {
+     "노동당": 1
+    },
+    "UK-Wallasey": {
+     "노동당": 1
+    },
+    "UK-Wirral-West": {
+     "보수당": 1
+    },
+    "UK-Leigh": {
+     "노동당": 1
+    },
+    "UK-Makerfield": {
+     "노동당": 1
+    },
+    "UK-Wigan": {
+     "노동당": 1
+    },
+    "UK-Bolton-West": {
+     "노동당": 1
+    },
+    "UK-Bolton-North-East": {
+     "노동당": 1
+    },
+    "UK-Bolton-South-East": {
+     "노동당": 1
+    },
+    "UK-Bury-South": {
+     "노동당": 1
+    },
+    "UK-Bury-North": {
+     "보수당": 1
+    },
+    "UK-Heywood-and-Middleton": {
+     "노동당": 1
+    },
+    "UK-Rochdale": {
+     "노동당": 1
+    },
+    "UK-Oldham-West-and-Royton": {
+     "노동당": 1
+    },
+    "UK-Oldham-East-and-Saddleworth": {
+     "노동당": 1
+    },
+    "UK-Salford-and-Eccles": {
+     "노동당": 1
+    },
+    "UK-Worsley-and-Eccles-South": {
+     "노동당": 1
+    },
+    "UK-Manchester-Central": {
+     "노동당": 1
+    },
+    "UK-Blackley-and-Broughton": {
+     "노동당": 1
+    },
+    "UK-Ashton-under-Lyne": {
+     "노동당": 1
+    },
+    "UK-Stalybridge-and-Hyde": {
+     "노동당": 1
+    },
+    "UK-Stretford-and-Urmston": {
+     "노동당": 1
+    },
+    "UK-Manchester-Withington": {
+     "자유민주당": 1
+    },
+    "UK-Manchester-Gorton": {
+     "노동당": 1
+    },
+    "UK-Denton-and-Reddish": {
+     "노동당": 1
+    },
+    "UK-Wythenshawe-and-Sale-East": {
+     "노동당": 1
+    },
+    "UK-Altrincham-and-Sale-West": {
+     "보수당": 1
+    },
+    "UK-Cheadle": {
+     "자유민주당": 1
+    },
+    "UK-Stockport": {
+     "노동당": 1
+    },
+    "UK-Hazel-Grove": {
+     "자유민주당": 1
+    },
+    "UK-Halton": {
+     "노동당": 1
+    },
+    "UK-Eddisbury": {
+     "보수당": 1
+    },
+    "UK-City-of-Chester": {
+     "보수당": 1
+    },
+    "UK-Ellesmere-Port-and-Neston": {
+     "노동당": 1
+    },
+    "UK-Weaver-Vale": {
+     "보수당": 1
+    },
+    "UK-Congleton": {
+     "보수당": 1
+    },
+    "UK-Macclesfield": {
+     "보수당": 1
+    },
+    "UK-Tatton": {
+     "보수당": 1
+    },
+    "UK-Warrington-South": {
+     "보수당": 1
+    },
+    "UK-Warrington-North": {
+     "노동당": 1
+    },
+    "UK-Colne-Valley": {
+     "보수당": 1
+    },
+    "UK-Huddersfield": {
+     "노동당": 1
+    },
+    "UK-Dewsbury": {
+     "보수당": 1
+    },
+    "UK-Batley-and-Spen": {
+     "노동당": 1
+    },
+    "UK-Halifax": {
+     "노동당": 1
+    },
+    "UK-Calder-Valley": {
+     "보수당": 1
+    },
+    "UK-Bradford-South": {
+     "노동당": 1
+    },
+    "UK-Bradford-West": {
+     "노동당": 1
+    },
+    "UK-Bradford-East": {
+     "자유민주당": 1
+    },
+    "UK-Shipley": {
+     "보수당": 1
+    },
+    "UK-Keighley": {
+     "보수당": 1
+    },
+    "UK-Leeds-West": {
+     "노동당": 1
+    },
+    "UK-Pudsey": {
+     "보수당": 1
+    },
+    "UK-Leeds-North-West": {
+     "자유민주당": 1
+    },
+    "UK-Hemsworth": {
+     "노동당": 1
+    },
+    "UK-Normanton-Pontefract-and-Castleford": {
+     "노동당": 1
+    },
+    "UK-Wakefield": {
+     "노동당": 1
+    },
+    "UK-Morley-and-Outwood": {
+     "노동당": 1
+    },
+    "UK-Leeds-Central": {
+     "노동당": 1
+    },
+    "UK-Leeds-East": {
+     "노동당": 1
+    },
+    "UK-Leeds-North-East": {
+     "노동당": 1
+    },
+    "UK-Elmet-and-Rothwell": {
+     "보수당": 1
+    },
+    "UK-Sheffield-Heeley": {
+     "노동당": 1
+    },
+    "UK-Sheffield-Central": {
+     "노동당": 1
+    },
+    "UK-Sheffield-South-East": {
+     "노동당": 1
+    },
+    "UK-Sheffield-Brightside-and-Hillsborough": {
+     "노동당": 1
+    },
+    "UK-Sheffield-Hallam": {
+     "자유민주당": 1
+    },
+    "UK-Penistone-and-Stocksbridge": {
+     "노동당": 1
+    },
+    "UK-Rother-Valley": {
+     "노동당": 1
+    },
+    "UK-Rotherham": {
+     "노동당": 1
+    },
+    "UK-Wentworth-and-Dearne": {
+     "노동당": 1
+    },
+    "UK-Barnsley-East": {
+     "노동당": 1
+    },
+    "UK-Barnsley-Central": {
+     "노동당": 1
+    },
+    "UK-Doncaster-Central": {
+     "노동당": 1
+    },
+    "UK-Don-Valley": {
+     "노동당": 1
+    },
+    "UK-Doncaster-North": {
+     "노동당": 1
+    },
+    "UK-Bolsover": {
+     "노동당": 1
+    },
+    "UK-Chesterfield": {
+     "노동당": 1
+    },
+    "UK-North-East-Derbyshire": {
+     "노동당": 1
+    },
+    "UK-Derbyshire-Dales": {
+     "보수당": 1
+    },
+    "UK-High-Peak": {
+     "보수당": 1
+    },
+    "UK-Mansfield": {
+     "노동당": 1
+    },
+    "UK-Sherwood": {
+     "보수당": 1
+    },
+    "UK-Newark": {
+     "보수당": 1
+    },
+    "UK-Bassetlaw": {
+     "노동당": 1
+    },
+    "UK-Staffordshire-Moorlands": {
+     "보수당": 1
+    },
+    "UK-Delyn": {
+     "노동당": 1
+    },
+    "UK-Alyn-and-Deeside": {
+     "노동당": 1
+    },
+    "UK-Bournemouth-East": {
+     "보수당": 1
+    },
+    "UK-Poole": {
+     "보수당": 1
+    },
+    "UK-Bournemouth-West": {
+     "보수당": 1
+    },
+    "UK-Mid-Dorset-and-North-Poole": {
+     "자유민주당": 1
+    },
+    "UK-Christchurch": {
+     "보수당": 1
+    },
+    "UK-North-Dorset": {
+     "보수당": 1
+    },
+    "UK-South-Dorset": {
+     "보수당": 1
+    },
+    "UK-Havant": {
+     "보수당": 1
+    },
+    "UK-Portsmouth-South": {
+     "자유민주당": 1
+    },
+    "UK-New-Forest-East": {
+     "보수당": 1
+    },
+    "UK-New-Forest-West": {
+     "보수당": 1
+    },
+    "UK-Southampton-Itchen": {
+     "노동당": 1
+    },
+    "UK-Southampton-Test": {
+     "노동당": 1
+    },
+    "UK-Eastleigh": {
+     "자유민주당": 1
+    },
+    "UK-Gosport": {
+     "보수당": 1
+    },
+    "UK-Portsmouth-North": {
+     "보수당": 1
+    },
+    "UK-Fareham": {
+     "보수당": 1
+    },
+    "UK-Meon-Valley": {
+     "보수당": 1
+    },
+    "UK-Romsey-and-Southampton-North": {
+     "보수당": 1
+    },
+    "UK-Isle-of-Wight": {
+     "보수당": 1
+    },
+    "UK-Bognor-Regis-and-Littlehampton": {
+     "보수당": 1
+    },
+    "UK-Worthing-West": {
+     "보수당": 1
+    },
+    "UK-East-Worthing-and-Shoreham": {
+     "보수당": 1
+    },
+    "UK-Arundel-and-South-Downs": {
+     "보수당": 1
+    },
+    "UK-Mid-Sussex": {
+     "보수당": 1
+    },
+    "UK-Horsham": {
+     "보수당": 1
+    },
+    "UK-Chichester": {
+     "보수당": 1
+    },
+    "UK-Hove": {
+     "보수당": 1
+    },
+    "UK-Brighton-Kemptown": {
+     "보수당": 1
+    },
+    "UK-Brighton-Pavilion": {
+     "녹색당": 1
+    },
+    "UK-Lewes": {
+     "자유민주당": 1
+    },
+    "UK-Salisbury": {
+     "보수당": 1
+    },
+    "UK-East-Hampshire": {
+     "보수당": 1
+    }
+   }
+  }
+ ]
+}

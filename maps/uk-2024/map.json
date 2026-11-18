@@ -1,0 +1,3362 @@
+{
+ "id": "uk-2024",
+ "name": "영국 총선거",
+ "subtitle": "2024년 7월 · 하원 650석 · 선거구 650개",
+ "tag": "HOUSE OF COMMONS 2024",
+ "menuCountry": "영국",
+ "menuGroup": "영국 총선거",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2024",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 1601.5,
+ "regions": {
+  "UK": "영국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2024년",
+   "sub": "소선거구",
+   "regions": [
+    "UK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1601.5
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "노동당",
+   "color": "#dc241f"
+  },
+  {
+   "name": "보수당",
+   "color": "#0087dc"
+  },
+  {
+   "name": "자유민주당",
+   "color": "#faa61a"
+  },
+  {
+   "name": "스코틀랜드 국민당 (SNP)",
+   "color": "#fdf38e"
+  },
+  {
+   "name": "신페인",
+   "color": "#326760"
+  },
+  {
+   "name": "무소속",
+   "color": "#999999"
+  },
+  {
+   "name": "영국 개혁당 (Reform UK)",
+   "color": "#00e5e5"
+  },
+  {
+   "name": "민주연합당 (DUP)",
+   "color": "#d46a4c"
+  },
+  {
+   "name": "녹색당",
+   "color": "#6ab023"
+  },
+  {
+   "name": "웨일스당 (플라이드 컴리)",
+   "color": "#008142"
+  },
+  {
+   "name": "사회민주노동당 (SDLP)",
+   "color": "#2aa82c"
+  },
+  {
+   "name": "하원의장",
+   "color": "#000000"
+  },
+  {
+   "name": "동맹당 (Alliance)",
+   "color": "#f6cb2f"
+  },
+  {
+   "name": "전통유니어니스트의 목소리 (TUV)",
+   "color": "#0c3a6a"
+  },
+  {
+   "name": "얼스터 유니어니스트당 (UUP)",
+   "color": "#48a5ee"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {},
+ "names": {
+  "UK-w24-d": "선거구 1",
+  "UK-w24-lb": "선거구 2",
+  "UK-w24-mk": "Na h-Eileanan an Iar",
+  "UK-w24-lz": "선거구 3",
+  "UK-w24-ks": "선거구 4",
+  "UK-w24-mc": "선거구 5",
+  "UK-w24-mi": "선거구 6",
+  "UK-w24-kr": "선거구 7",
+  "UK-w24-kq": "선거구 8",
+  "UK-w24-ms": "West Aberdeenshire and Kincardine",
+  "UK-w24-kv": "선거구 9",
+  "UK-w24-li": "선거구 10",
+  "UK-w24-kw": "선거구 11",
+  "UK-w24-kx": "선거구 12",
+  "UK-w24-mr": "Stirling",
+  "UK-w24-mp": "선거구 13",
+  "UK-w24-ly": "선거구 14",
+  "UK-w24-mm": "North East Fife",
+  "UK-w24-mb": "선거구 15",
+  "UK-w24-mt": "West Dunbartonshire",
+  "UK-w24-mg": "선거구 16",
+  "UK-w24-lf": "선거구 17",
+  "UK-w24-lr": "선거구 18",
+  "UK-w24-ku": "선거구 19",
+  "UK-w24-kz": "선거구 20",
+  "UK-w24-lj": "선거구 21",
+  "UK-w24-lq": "선거구 22",
+  "UK-w24-le": "선거구 23",
+  "UK-w24-ln": "선거구 24",
+  "UK-w24-lp": "선거구 25",
+  "UK-w24-lm": "선거구 26",
+  "UK-w24-mf": "East Lothian",
+  "UK-w24-ml": "North Ayrshire and Arran",
+  "UK-w24-mo": "선거구 27",
+  "UK-w24-mn": "선거구 28",
+  "UK-w24-ll": "East Renfrewshire",
+  "UK-w24-lx": "선거구 29",
+  "UK-w24-lv": "선거구 30",
+  "UK-w24-lu": "선거구 31",
+  "UK-w24-lw": "선거구 32",
+  "UK-w24-ls": "선거구 33",
+  "UK-w24-lt": "선거구 34",
+  "UK-w24-mq": "선거구 35",
+  "UK-w24-lk": "선거구 36",
+  "UK-w24-ld": "선거구 37",
+  "UK-w24-ma": "선거구 38",
+  "UK-w24-kt": "Airdrie and Shotts",
+  "UK-w24-mj": "선거구 39",
+  "UK-w24-me": "선거구 40",
+  "UK-w24-lo": "선거구 41",
+  "UK-w24-mh": "Midlothian",
+  "UK-w24-lc": "Central Ayrshire",
+  "UK-w24-md": "Kilmarnock and Loudoun",
+  "UK-w24-la": "Berwickshire, Roxburgh and Selkirk",
+  "UK-w24-qk": "선거구 42",
+  "UK-w24-ky": "Ayr, Carrick and Cumnock",
+  "UK-w24-lh": "Dumfriesshire, Clydesdale and Tweeddale",
+  "UK-w24-py": "선거구 43",
+  "UK-w24-pw": "East Londonderry",
+  "UK-w24-qc": "선거구 44",
+  "UK-w24-lg": "Dumfries and Galloway",
+  "UK-w24-nj": "선거구 45",
+  "UK-w24-qu": "Hexham",
+  "UK-w24-qz": "선거구 46",
+  "UK-w24-rb": "선거구 47",
+  "UK-w24-qp": "선거구 48",
+  "UK-w24-qn": "선거구 49",
+  "UK-w24-ra": "선거구 50",
+  "UK-w24-qw": "선거구 51",
+  "UK-w24-rj": "선거구 52",
+  "UK-w24-rf": "선거구 53",
+  "UK-w24-qi": "West Tyrone",
+  "UK-w24-qa": "Mid Ulster",
+  "UK-w24-qe": "South Antrim",
+  "UK-w24-pv": "선거구 54",
+  "UK-w24-op": "선거구 55",
+  "UK-w24-qm": "선거구 56",
+  "UK-w24-rd": "선거구 57",
+  "UK-w24-qs": "선거구 58",
+  "UK-w24-qo": "선거구 59",
+  "UK-w24-rk": "선거구 60",
+  "UK-w24-qv": "Houghton and Sunderland South",
+  "UK-w24-ri": "선거구 61",
+  "UK-w24-qr": "선거구 62",
+  "UK-w24-px": "Fermanagh and South Tyrone",
+  "UK-w24-qh": "선거구 63",
+  "UK-w24-pz": "선거구 64",
+  "UK-w24-pu": "선거구 65",
+  "UK-w24-ps": "선거구 66",
+  "UK-w24-pt": "선거구 67",
+  "UK-w24-pr": "Belfast East",
+  "UK-w24-qg": "선거구 68",
+  "UK-w24-qd": "North Down",
+  "UK-w24-pk": "선거구 69",
+  "UK-w24-pj": "선거구 70",
+  "UK-w24-ql": "선거구 71",
+  "UK-w24-qq": "선거구 72",
+  "UK-w24-rc": "선거구 73",
+  "UK-w24-rh": "선거구 74",
+  "UK-w24-rg": "선거구 75",
+  "UK-w24-qt": "Hartlepool",
+  "UK-w24-qx": "선거구 76",
+  "UK-w24-re": "선거구 77",
+  "UK-w24-qy": "Middlesbrough South and East Cleveland",
+  "UK-w24-qb": "선거구 78",
+  "UK-w24-qf": "선거구 79",
+  "UK-w24-mx": "선거구 80",
+  "UK-w24-an": "Richmond Yorks",
+  "UK-w24-aq": "Scarborough and Whitby",
+  "UK-w24-ol": "선거구 81",
+  "UK-w24-az": "Skipton and Ripon",
+  "UK-w24-w": "선거구 82",
+  "UK-w24-be": "선거구 83",
+  "UK-w24-bb": "선거구 84",
+  "UK-w24-l": "선거구 85",
+  "UK-w24-nb": "선거구 86",
+  "UK-w24-na": "선거구 87",
+  "UK-w24-nr": "Fylde",
+  "UK-w24-nx": "선거구 88",
+  "UK-w24-oq": "선거구 89",
+  "UK-w24-or": "선거구 90",
+  "UK-w24-nv": "Hyndburn",
+  "UK-w24-oo": "선거구 91",
+  "UK-w24-ng": "선거구 92",
+  "UK-w24-z": "Keighley",
+  "UK-w24-ay": "선거구 93",
+  "UK-w24-k": "선거구 94",
+  "UK-w24-j": "선거구 95",
+  "UK-w24-i": "선거구 96",
+  "UK-w24-ag": "선거구 97",
+  "UK-w24-al": "선거구 98",
+  "UK-w24-x": "선거구 99",
+  "UK-w24-af": "선거구 100",
+  "UK-w24-ad": "선거구 101",
+  "UK-w24-ae": "선거구 102",
+  "UK-w24-as": "선거구 103",
+  "UK-w24-bf": "선거구 104",
+  "UK-w24-bg": "York Outer",
+  "UK-w24-t": "선거구 105",
+  "UK-w24-ac": "선거구 106",
+  "UK-w24-ab": "선거구 107",
+  "UK-w24-aa": "선거구 108",
+  "UK-w24-h": "Beverley and Holderness",
+  "UK-w24-ow": "선거구 109",
+  "UK-w24-oy": "선거구 110",
+  "UK-w24-pi": "West Lancashire",
+  "UK-w24-ox": "선거구 111",
+  "UK-w24-pm": "Wigan",
+  "UK-w24-of": "선거구 112",
+  "UK-w24-nn": "선거구 113",
+  "UK-w24-ne": "선거구 114",
+  "UK-w24-mz": "선거구 115",
+  "UK-w24-nc": "선거구 116",
+  "UK-w24-nd": "선거구 117",
+  "UK-w24-ot": "Rossendale and Darwen",
+  "UK-w24-nh": "선거구 118",
+  "UK-w24-ni": "선거구 119",
+  "UK-w24-nu": "선거구 120",
+  "UK-w24-og": "선거구 121",
+  "UK-w24-on": "선거구 122",
+  "UK-w24-os": "선거구 123",
+  "UK-w24-om": "선거구 124",
+  "UK-w24-n": "Calder Valley",
+  "UK-w24-v": "선거구 125",
+  "UK-w24-o": "Colne Valley",
+  "UK-w24-y": "선거구 126",
+  "UK-w24-ba": "선거구 127",
+  "UK-w24-p": "선거구 128",
+  "UK-w24-bd": "선거구 129",
+  "UK-w24-ah": "선거구 130",
+  "UK-w24-bc": "선거구 131",
+  "UK-w24-f": "선거구 132",
+  "UK-w24-g": "선거구 133",
+  "UK-w24-ai": "선거구 134",
+  "UK-w24-ak": "선거구 135",
+  "UK-w24-s": "선거구 136",
+  "UK-w24-r": "선거구 137",
+  "UK-w24-ar": "선거구 138",
+  "UK-w24-m": "선거구 139",
+  "UK-w24-u": "선거구 140",
+  "UK-w24-et": "Ynys Mon",
+  "UK-w24-pn": "선거구 141",
+  "UK-w24-pf": "선거구 142",
+  "UK-w24-my": "선거구 143",
+  "UK-w24-nf": "선거구 144",
+  "UK-w24-oa": "선거구 145",
+  "UK-w24-nq": "선거구 146",
+  "UK-w24-ob": "선거구 147",
+  "UK-w24-oc": "선거구 148",
+  "UK-w24-od": "선거구 149",
+  "UK-w24-nz": "선거구 150",
+  "UK-w24-nw": "선거구 151",
+  "UK-w24-pl": "선거구 152",
+  "UK-w24-ou": "선거구 153",
+  "UK-w24-pa": "선거구 154",
+  "UK-w24-oz": "선거구 155",
+  "UK-w24-ph": "선거구 156",
+  "UK-w24-pg": "선거구 157",
+  "UK-w24-ny": "선거구 158",
+  "UK-w24-po": "선거구 159",
+  "UK-w24-pe": "선거구 160",
+  "UK-w24-mv": "선거구 161",
+  "UK-w24-pd": "선거구 162",
+  "UK-w24-ov": "선거구 163",
+  "UK-w24-pp": "선거구 164",
+  "UK-w24-oj": "선거구 165",
+  "UK-w24-oi": "선거구 166",
+  "UK-w24-oh": "선거구 167",
+  "UK-w24-nk": "선거구 168",
+  "UK-w24-pc": "선거구 169",
+  "UK-w24-ns": "선거구 170",
+  "UK-w24-mw": "선거구 171",
+  "UK-w24-nt": "선거구 172",
+  "UK-w24-pb": "선거구 173",
+  "UK-w24-xk": "High Peak",
+  "UK-w24-aj": "Penistone and Stocksbridge",
+  "UK-w24-av": "Sheffield Hallam",
+  "UK-w24-au": "선거구 174",
+  "UK-w24-at": "선거구 175",
+  "UK-w24-aw": "선거구 176",
+  "UK-w24-ax": "선거구 177",
+  "UK-w24-ap": "선거구 178",
+  "UK-w24-am": "선거구 179",
+  "UK-w24-ao": "Rother Valley",
+  "UK-w24-q": "선거구 180",
+  "UK-w24-wv": "선거구 181",
+  "UK-w24-xg": "Gainsborough",
+  "UK-w24-xr": "선거구 182",
+  "UK-w24-dq": "선거구 183",
+  "UK-w24-ec": "선거구 184",
+  "UK-w24-eb": "선거구 185",
+  "UK-w24-dp": "선거구 186",
+  "UK-w24-nl": "선거구 187",
+  "UK-w24-nm": "선거구 188",
+  "UK-w24-ok": "선거구 189",
+  "UK-w24-np": "선거구 190",
+  "UK-w24-no": "선거구 191",
+  "UK-w24-cu": "선거구 192",
+  "UK-w24-oe": "Macclesfield",
+  "UK-w24-cs": "Staffordshire Moorlands",
+  "UK-w24-xe": "선거구 193",
+  "UK-w24-xx": "North East Derbyshire",
+  "UK-w24-wz": "선거구 194",
+  "UK-w24-wt": "Amber Valley",
+  "UK-w24-ww": "Bolsover",
+  "UK-w24-wu": "선거구 195",
+  "UK-w24-xs": "선거구 196",
+  "UK-w24-yg": "선거구 197",
+  "UK-w24-xw": "선거구 198",
+  "UK-w24-xp": "선거구 199",
+  "UK-w24-yh": "선거구 200",
+  "UK-w24-wx": "선거구 201",
+  "UK-w24-ed": "선거구 202",
+  "UK-w24-es": "선거구 203",
+  "UK-w24-cj": "선거구 204",
+  "UK-w24-ch": "선거구 205",
+  "UK-w24-cr": "선거구 206",
+  "UK-w24-ct": "선거구 207",
+  "UK-w24-cv": "선거구 208",
+  "UK-w24-bu": "선거구 209",
+  "UK-w24-yi": "선거구 210",
+  "UK-w24-xc": "선거구 211",
+  "UK-w24-xu": "선거구 212",
+  "UK-w24-xd": "선거구 213",
+  "UK-w24-xf": "선거구 214",
+  "UK-w24-wy": "선거구 215",
+  "UK-w24-yc": "선거구 216",
+  "UK-w24-yd": "선거구 217",
+  "UK-w24-yb": "선거구 218",
+  "UK-w24-xh": "선거구 219",
+  "UK-w24-ye": "Rushcliffe",
+  "UK-w24-xt": "선거구 220",
+  "UK-w24-xi": "선거구 221",
+  "UK-w24-yj": "South Holland and the Deepings",
+  "UK-w24-vu": "North West Norfolk",
+  "UK-w24-vs": "선거구 222",
+  "UK-w24-ej": "Montgomeryshire",
+  "UK-w24-cn": "선거구 223",
+  "UK-w24-dc": "선거구 224",
+  "UK-w24-db": "선거구 225",
+  "UK-w24-dk": "선거구 226",
+  "UK-w24-cw": "선거구 227",
+  "UK-w24-di": "선거구 228",
+  "UK-w24-dj": "선거구 229",
+  "UK-w24-de": "선거구 230",
+  "UK-w24-bv": "선거구 231",
+  "UK-w24-bi": "선거구 232",
+  "UK-w24-cf": "선거구 233",
+  "UK-w24-cz": "선거구 234",
+  "UK-w24-da": "선거구 235",
+  "UK-w24-yn": "선거구 236",
+  "UK-w24-xy": "선거구 237",
+  "UK-w24-xv": "선거구 238",
+  "UK-w24-xq": "선거구 239",
+  "UK-w24-xo": "선거구 240",
+  "UK-w24-xn": "선거구 241",
+  "UK-w24-xm": "선거구 242",
+  "UK-w24-yf": "선거구 243",
+  "UK-w24-vt": "선거구 244",
+  "UK-w24-vx": "선거구 245",
+  "UK-w24-vq": "선거구 246",
+  "UK-w24-wg": "선거구 247",
+  "UK-w24-vo": "선거구 248",
+  "UK-w24-un": "선거구 249",
+  "UK-w24-vw": "선거구 250",
+  "UK-w24-vv": "선거구 251",
+  "UK-w24-wd": "선거구 252",
+  "UK-w24-uz": "선거구 253",
+  "UK-w24-cq": "선거구 254",
+  "UK-w24-dm": "선거구 255",
+  "UK-w24-ce": "선거구 256",
+  "UK-w24-cx": "선거구 257",
+  "UK-w24-ca": "선거구 258",
+  "UK-w24-cb": "선거구 259",
+  "UK-w24-dd": "선거구 260",
+  "UK-w24-bt": "선거구 261",
+  "UK-w24-dg": "선거구 262",
+  "UK-w24-co": "선거구 263",
+  "UK-w24-bp": "선거구 264",
+  "UK-w24-bk": "선거구 265",
+  "UK-w24-bq": "선거구 266",
+  "UK-w24-br": "선거구 267",
+  "UK-w24-bo": "선거구 268",
+  "UK-w24-bm": "선거구 269",
+  "UK-w24-bl": "선거구 270",
+  "UK-w24-cp": "선거구 271",
+  "UK-w24-bs": "선거구 272",
+  "UK-w24-bn": "선거구 273",
+  "UK-w24-cg": "선거구 274",
+  "UK-w24-bj": "선거구 275",
+  "UK-w24-bx": "선거구 276",
+  "UK-w24-by": "선거구 277",
+  "UK-w24-ck": "선거구 278",
+  "UK-w24-bw": "선거구 279",
+  "UK-w24-cm": "Rugby",
+  "UK-w24-yk": "선거구 280",
+  "UK-w24-xb": "선거구 281",
+  "UK-w24-xj": "선거구 282",
+  "UK-w24-xl": "선거구 283",
+  "UK-w24-ym": "선거구 284",
+  "UK-w24-xa": "선거구 285",
+  "UK-w24-vh": "선거구 286",
+  "UK-w24-ux": "선거구 287",
+  "UK-w24-up": "선거구 288",
+  "UK-w24-wo": "선거구 289",
+  "UK-w24-vj": "선거구 290",
+  "UK-w24-ea": "선거구 291",
+  "UK-w24-ds": "Brecon and Radnorshire",
+  "UK-w24-ci": "North Herefordshire",
+  "UK-w24-dh": "West Worcestershire",
+  "UK-w24-dl": "선거구 292",
+  "UK-w24-bz": "선거구 293",
+  "UK-w24-cl": "선거구 294",
+  "UK-w24-cy": "Stratford-on-Avon",
+  "UK-w24-df": "선거구 295",
+  "UK-w24-cd": "선거구 296",
+  "UK-w24-yl": "선거구 297",
+  "UK-w24-ya": "선거구 298",
+  "UK-w24-xz": "선거구 299",
+  "UK-w24-jh": "선거구 300",
+  "UK-w24-uk": "선거구 301",
+  "UK-w24-vp": "선거구 302",
+  "UK-w24-wj": "선거구 303",
+  "UK-w24-wc": "선거구 304",
+  "UK-w24-uq": "선거구 305",
+  "UK-w24-wq": "선거구 306",
+  "UK-w24-we": "South Suffolk",
+  "UK-w24-vi": "선거구 307",
+  "UK-w24-us": "선거구 308",
+  "UK-w24-wl": "선거구 309",
+  "UK-w24-du": "선거구 310",
+  "UK-w24-cc": "Hereford and South Herefordshire",
+  "UK-w24-fn": "Forest of Dean",
+  "UK-w24-fq": "Gloucester",
+  "UK-w24-fg": "Cheltenham",
+  "UK-w24-gr": "선거구 311",
+  "UK-w24-fw": "선거구 312",
+  "UK-w24-hg": "선거구 313",
+  "UK-w24-hk": "선거구 314",
+  "UK-w24-hp": "선거구 315",
+  "UK-w24-ji": "선거구 316",
+  "UK-w24-hf": "선거구 317",
+  "UK-w24-uw": "선거구 318",
+  "UK-w24-vn": "선거구 319",
+  "UK-w24-vl": "선거구 320",
+  "UK-w24-vk": "선거구 321",
+  "UK-w24-vg": "선거구 322",
+  "UK-w24-wk": "선거구 323",
+  "UK-w24-vr": "North East Hertfordshire",
+  "UK-w24-ve": "선거구 324",
+  "UK-w24-wa": "선거구 325",
+  "UK-w24-ul": "선거구 326",
+  "UK-w24-wr": "선거구 327",
+  "UK-w24-uv": "선거구 328",
+  "UK-w24-vc": "선거구 329",
+  "UK-w24-uu": "선거구 330",
+  "UK-w24-eh": "선거구 331",
+  "UK-w24-ef": "선거구 332",
+  "UK-w24-ee": "선거구 333",
+  "UK-w24-ep": "선거구 334",
+  "UK-w24-ek": "선거구 335",
+  "UK-w24-do": "선거구 336",
+  "UK-w24-eo": "선거구 337",
+  "UK-w24-eg": "선거구 338",
+  "UK-w24-en": "선거구 339",
+  "UK-w24-dr": "선거구 340",
+  "UK-w24-dv": "선거구 341",
+  "UK-w24-em": "선거구 342",
+  "UK-w24-eq": "선거구 343",
+  "UK-w24-el": "선거구 344",
+  "UK-w24-ei": "Monmouth",
+  "UK-w24-gn": "선거구 345",
+  "UK-w24-gf": "선거구 346",
+  "UK-w24-go": "North Swindon",
+  "UK-w24-kk": "선거구 347",
+  "UK-w24-hw": "선거구 348",
+  "UK-w24-jp": "선거구 349",
+  "UK-w24-jo": "선거구 350",
+  "UK-w24-iv": "선거구 351",
+  "UK-w24-jf": "선거구 352",
+  "UK-w24-ko": "선거구 353",
+  "UK-w24-hs": "선거구 354",
+  "UK-w24-vd": "선거구 355",
+  "UK-w24-vb": "선거구 356",
+  "UK-w24-wf": "선거구 357",
+  "UK-w24-ts": "선거구 358",
+  "UK-w24-wn": "선거구 359",
+  "UK-w24-st": "선거구 360",
+  "UK-w24-wi": "선거구 361",
+  "UK-w24-ss": "선거구 362",
+  "UK-w24-vf": "선거구 363",
+  "UK-w24-sv": "선거구 364",
+  "UK-w24-wp": "선거구 365",
+  "UK-w24-rw": "선거구 366",
+  "UK-w24-sm": "선거구 367",
+  "UK-w24-sy": "선거구 368",
+  "UK-w24-tt": "선거구 369",
+  "UK-w24-sj": "선거구 370",
+  "UK-w24-tz": "선거구 371",
+  "UK-w24-sh": "선거구 372",
+  "UK-w24-uo": "선거구 373",
+  "UK-w24-ud": "선거구 374",
+  "UK-w24-rv": "선거구 375",
+  "UK-w24-ti": "선거구 376",
+  "UK-w24-uy": "Epping Forest",
+  "UK-w24-sz": "선거구 377",
+  "UK-w24-ta": "선거구 378",
+  "UK-w24-va": "선거구 379",
+  "UK-w24-tr": "선거구 380",
+  "UK-w24-sx": "선거구 381",
+  "UK-w24-um": "Brentwood and Ongar",
+  "UK-w24-uj": "Basildon and Billericay",
+  "UK-w24-ut": "선거구 382",
+  "UK-w24-vy": "선거구 383",
+  "UK-w24-wh": "선거구 384",
+  "UK-w24-vm": "Maldon",
+  "UK-w24-vz": "선거구 385",
+  "UK-w24-dt": "선거구 386",
+  "UK-w24-er": "Vale of Glamorgan",
+  "UK-w24-dz": "선거구 387",
+  "UK-w24-dx": "선거구 388",
+  "UK-w24-dy": "선거구 389",
+  "UK-w24-dw": "선거구 390",
+  "UK-w24-gz": "선거구 391",
+  "UK-w24-ga": "선거구 392",
+  "UK-w24-fc": "선거구 393",
+  "UK-w24-ez": "선거구 394",
+  "UK-w24-fd": "선거구 395",
+  "UK-w24-fa": "선거구 396",
+  "UK-w24-fz": "선거구 397",
+  "UK-w24-fm": "선거구 398",
+  "UK-w24-fb": "선거구 399",
+  "UK-w24-gs": "Thornbury and Yate",
+  "UK-w24-ev": "선거구 400",
+  "UK-w24-fs": "선거구 401",
+  "UK-w24-fh": "선거구 402",
+  "UK-w24-gp": "선거구 403",
+  "UK-w24-jl": "선거구 404",
+  "UK-w24-je": "선거구 405",
+  "UK-w24-js": "선거구 406",
+  "UK-w24-hz": "선거구 407",
+  "UK-w24-km": "선거구 408",
+  "UK-w24-hm": "선거구 409",
+  "UK-w24-jc": "선거구 410",
+  "UK-w24-hi": "선거구 411",
+  "UK-w24-jz": "선거구 412",
+  "UK-w24-kj": "선거구 413",
+  "UK-w24-kc": "Spelthorne",
+  "UK-w24-jw": "선거구 414",
+  "UK-w24-ub": "선거구 415",
+  "UK-w24-su": "선거구 416",
+  "UK-w24-sl": "선거구 417",
+  "UK-w24-ii": "선거구 418",
+  "UK-w24-sf": "선거구 419",
+  "UK-w24-se": "선거구 420",
+  "UK-w24-rr": "선거구 421",
+  "UK-w24-ua": "선거구 422",
+  "UK-w24-ue": "선거구 423",
+  "UK-w24-tw": "선거구 424",
+  "UK-w24-tq": "선거구 425",
+  "UK-w24-sd": "선거구 426",
+  "UK-w24-sq": "선거구 427",
+  "UK-w24-ug": "선거구 428",
+  "UK-w24-uh": "선거구 429",
+  "UK-w24-to": "선거구 430",
+  "UK-w24-tp": "선거구 431",
+  "UK-w24-tx": "선거구 432",
+  "UK-w24-td": "선거구 433",
+  "UK-w24-ru": "선거구 434",
+  "UK-w24-sr": "선거구 435",
+  "UK-w24-tj": "선거구 436",
+  "UK-w24-ty": "선거구 437",
+  "UK-w24-rm": "선거구 438",
+  "UK-w24-rt": "선거구 439",
+  "UK-w24-rx": "선거구 440",
+  "UK-w24-sw": "선거구 441",
+  "UK-w24-te": "선거구 442",
+  "UK-w24-tb": "선거구 443",
+  "UK-w24-uc": "선거구 444",
+  "UK-w24-tv": "선거구 445",
+  "UK-w24-tc": "선거구 446",
+  "UK-w24-sa": "선거구 447",
+  "UK-w24-rz": "선거구 448",
+  "UK-w24-sc": "선거구 449",
+  "UK-w24-tm": "선거구 450",
+  "UK-w24-ro": "선거구 451",
+  "UK-w24-so": "선거구 452",
+  "UK-w24-sp": "선거구 453",
+  "UK-w24-rp": "선거구 454",
+  "UK-w24-th": "선거구 455",
+  "UK-w24-ry": "선거구 456",
+  "UK-w24-rn": "선거구 457",
+  "UK-w24-tg": "선거구 458",
+  "UK-w24-tn": "선거구 459",
+  "UK-w24-tu": "선거구 460",
+  "UK-w24-tf": "선거구 461",
+  "UK-w24-sn": "선거구 462",
+  "UK-w24-rs": "선거구 463",
+  "UK-w24-uf": "선거구 464",
+  "UK-w24-sg": "선거구 465",
+  "UK-w24-si": "선거구 466",
+  "UK-w24-tl": "선거구 467",
+  "UK-w24-rl": "선거구 468",
+  "UK-w24-sk": "선거구 469",
+  "UK-w24-tk": "선거구 470",
+  "UK-w24-rq": "선거구 471",
+  "UK-w24-sb": "선거구 472",
+  "UK-w24-hv": "선거구 473",
+  "UK-w24-wm": "Thurrock",
+  "UK-w24-iq": "Gravesham",
+  "UK-w24-wb": "선거구 474",
+  "UK-w24-hr": "선거구 475",
+  "UK-w24-ju": "Rochester and Strood",
+  "UK-w24-ur": "선거구 476",
+  "UK-w24-in": "선거구 477",
+  "UK-w24-jy": "선거구 478",
+  "UK-w24-iw": "선거구 479",
+  "UK-w24-id": "선거구 480",
+  "UK-w24-ey": "선거구 481",
+  "UK-w24-gx": "선거구 482",
+  "UK-w24-fo": "선거구 483",
+  "UK-w24-gk": "선거구 484",
+  "UK-w24-fj": "선거구 485",
+  "UK-w24-jn": "선거구 486",
+  "UK-w24-hh": "선거구 487",
+  "UK-w24-jm": "선거구 488",
+  "UK-w24-ik": "선거구 489",
+  "UK-w24-hc": "선거구 490",
+  "UK-w24-kd": "선거구 491",
+  "UK-w24-io": "선거구 492",
+  "UK-w24-kl": "선거구 493",
+  "UK-w24-ir": "선거구 494",
+  "UK-w24-hx": "선거구 495",
+  "UK-w24-ih": "선거구 496",
+  "UK-w24-jt": "선거구 497",
+  "UK-w24-hu": "선거구 498",
+  "UK-w24-ic": "East Surrey",
+  "UK-w24-jx": "Sevenoaks",
+  "UK-w24-kf": "선거구 499",
+  "UK-w24-kg": "Tunbridge Wells",
+  "UK-w24-jd": "선거구 500",
+  "UK-w24-kh": "선거구 501",
+  "UK-w24-il": "선거구 502",
+  "UK-w24-he": "선거구 503",
+  "UK-w24-hq": "Canterbury",
+  "UK-w24-hy": "Dover",
+  "UK-w24-fx": "North Devon",
+  "UK-w24-gt": "선거구 504",
+  "UK-w24-gq": "선거구 505",
+  "UK-w24-ha": "선거구 506",
+  "UK-w24-fp": "선거구 507",
+  "UK-w24-fy": "선거구 508",
+  "UK-w24-ge": "선거구 509",
+  "UK-w24-jk": "New Forest West",
+  "UK-w24-jv": "선거구 510",
+  "UK-w24-kb": "선거구 511",
+  "UK-w24-ka": "선거구 512",
+  "UK-w24-ig": "선거구 513",
+  "UK-w24-is": "선거구 514",
+  "UK-w24-ki": "선거구 515",
+  "UK-w24-ij": "선거구 516",
+  "UK-w24-ib": "선거구 517",
+  "UK-w24-hd": "선거구 518",
+  "UK-w24-ix": "선거구 519",
+  "UK-w24-jg": "선거구 520",
+  "UK-w24-ho": "선거구 521",
+  "UK-w24-ia": "선거구 522",
+  "UK-w24-jb": "선거구 523",
+  "UK-w24-ke": "선거구 524",
+  "UK-w24-hj": "선거구 525",
+  "UK-w24-it": "선거구 526",
+  "UK-w24-im": "선거구 527",
+  "UK-w24-fv": "North Cornwall",
+  "UK-w24-gv": "Torridge and West Devon",
+  "UK-w24-ff": "Central Devon",
+  "UK-w24-fk": "선거구 528",
+  "UK-w24-fl": "선거구 529",
+  "UK-w24-fr": "선거구 530",
+  "UK-w24-gy": "West Dorset",
+  "UK-w24-gh": "선거구 531",
+  "UK-w24-ft": "선거구 532",
+  "UK-w24-gd": "선거구 533",
+  "UK-w24-ex": "선거구 534",
+  "UK-w24-fi": "Christchurch",
+  "UK-w24-ew": "Bournemouth East",
+  "UK-w24-jj": "New Forest East",
+  "UK-w24-ja": "선거구 535",
+  "UK-w24-iz": "선거구 536",
+  "UK-w24-ip": "선거구 537",
+  "UK-w24-jr": "선거구 538",
+  "UK-w24-jq": "선거구 539",
+  "UK-w24-iu": "선거구 540",
+  "UK-w24-ht": "선거구 541",
+  "UK-w24-hl": "선거구 542",
+  "UK-w24-kn": "선거구 543",
+  "UK-w24-ie": "선거구 544",
+  "UK-w24-iy": "선거구 545",
+  "UK-w24-hn": "선거구 546",
+  "UK-w24-if": "선거구 547",
+  "UK-w24-gl": "선거구 548",
+  "UK-w24-gi": "South East Cornwall",
+  "UK-w24-gc": "선거구 549",
+  "UK-w24-gb": "선거구 550",
+  "UK-w24-gj": "선거구 551",
+  "UK-w24-fu": "Newton Abbot",
+  "UK-w24-gu": "Torbay",
+  "UK-w24-gm": "St Ives",
+  "UK-w24-fe": "선거구 552",
+  "UK-w24-gw": "선거구 553",
+  "UK-w24-gg": "Totnes"
+ },
+ "labels": {},
+ "regionOf": {
+  "UK-w24-wt": "UK",
+  "UK-w24-wu": "UK",
+  "UK-w24-wv": "UK",
+  "UK-w24-ww": "UK",
+  "UK-w24-wx": "UK",
+  "UK-w24-wy": "UK",
+  "UK-w24-wz": "UK",
+  "UK-w24-xa": "UK",
+  "UK-w24-xb": "UK",
+  "UK-w24-xc": "UK",
+  "UK-w24-xd": "UK",
+  "UK-w24-xe": "UK",
+  "UK-w24-xf": "UK",
+  "UK-w24-xg": "UK",
+  "UK-w24-xh": "UK",
+  "UK-w24-xi": "UK",
+  "UK-w24-xj": "UK",
+  "UK-w24-xk": "UK",
+  "UK-w24-yn": "UK",
+  "UK-w24-xl": "UK",
+  "UK-w24-xm": "UK",
+  "UK-w24-xn": "UK",
+  "UK-w24-xo": "UK",
+  "UK-w24-xp": "UK",
+  "UK-w24-xq": "UK",
+  "UK-w24-xr": "UK",
+  "UK-w24-xs": "UK",
+  "UK-w24-xt": "UK",
+  "UK-w24-xu": "UK",
+  "UK-w24-xv": "UK",
+  "UK-w24-xw": "UK",
+  "UK-w24-xx": "UK",
+  "UK-w24-xy": "UK",
+  "UK-w24-xz": "UK",
+  "UK-w24-ya": "UK",
+  "UK-w24-yb": "UK",
+  "UK-w24-yc": "UK",
+  "UK-w24-yd": "UK",
+  "UK-w24-ye": "UK",
+  "UK-w24-yf": "UK",
+  "UK-w24-yg": "UK",
+  "UK-w24-yh": "UK",
+  "UK-w24-yi": "UK",
+  "UK-w24-yj": "UK",
+  "UK-w24-yk": "UK",
+  "UK-w24-yl": "UK",
+  "UK-w24-ym": "UK",
+  "UK-w24-uj": "UK",
+  "UK-w24-uk": "UK",
+  "UK-w24-ul": "UK",
+  "UK-w24-um": "UK",
+  "UK-w24-un": "UK",
+  "UK-w24-uo": "UK",
+  "UK-w24-up": "UK",
+  "UK-w24-uq": "UK",
+  "UK-w24-ur": "UK",
+  "UK-w24-us": "UK",
+  "UK-w24-ut": "UK",
+  "UK-w24-uu": "UK",
+  "UK-w24-uv": "UK",
+  "UK-w24-uw": "UK",
+  "UK-w24-ux": "UK",
+  "UK-w24-uy": "UK",
+  "UK-w24-uz": "UK",
+  "UK-w24-va": "UK",
+  "UK-w24-vb": "UK",
+  "UK-w24-vc": "UK",
+  "UK-w24-vd": "UK",
+  "UK-w24-ve": "UK",
+  "UK-w24-vf": "UK",
+  "UK-w24-vg": "UK",
+  "UK-w24-vh": "UK",
+  "UK-w24-vi": "UK",
+  "UK-w24-vj": "UK",
+  "UK-w24-vk": "UK",
+  "UK-w24-vl": "UK",
+  "UK-w24-vm": "UK",
+  "UK-w24-vn": "UK",
+  "UK-w24-vo": "UK",
+  "UK-w24-vp": "UK",
+  "UK-w24-vq": "UK",
+  "UK-w24-vr": "UK",
+  "UK-w24-vs": "UK",
+  "UK-w24-vt": "UK",
+  "UK-w24-wa": "UK",
+  "UK-w24-vu": "UK",
+  "UK-w24-vv": "UK",
+  "UK-w24-vw": "UK",
+  "UK-w24-vx": "UK",
+  "UK-w24-vy": "UK",
+  "UK-w24-wb": "UK",
+  "UK-w24-wc": "UK",
+  "UK-w24-wd": "UK",
+  "UK-w24-we": "UK",
+  "UK-w24-wf": "UK",
+  "UK-w24-wg": "UK",
+  "UK-w24-vz": "UK",
+  "UK-w24-wh": "UK",
+  "UK-w24-wi": "UK",
+  "UK-w24-wj": "UK",
+  "UK-w24-wk": "UK",
+  "UK-w24-wl": "UK",
+  "UK-w24-wm": "UK",
+  "UK-w24-wn": "UK",
+  "UK-w24-wo": "UK",
+  "UK-w24-wp": "UK",
+  "UK-w24-wq": "UK",
+  "UK-w24-wr": "UK",
+  "UK-w24-rl": "UK",
+  "UK-w24-rm": "UK",
+  "UK-w24-rn": "UK",
+  "UK-w24-ro": "UK",
+  "UK-w24-rp": "UK",
+  "UK-w24-rq": "UK",
+  "UK-w24-ug": "UK",
+  "UK-w24-ue": "UK",
+  "UK-w24-rr": "UK",
+  "UK-w24-rs": "UK",
+  "UK-w24-rt": "UK",
+  "UK-w24-ru": "UK",
+  "UK-w24-rv": "UK",
+  "UK-w24-rw": "UK",
+  "UK-w24-rx": "UK",
+  "UK-w24-te": "UK",
+  "UK-w24-ry": "UK",
+  "UK-w24-rz": "UK",
+  "UK-w24-sa": "UK",
+  "UK-w24-sb": "UK",
+  "UK-w24-sc": "UK",
+  "UK-w24-sd": "UK",
+  "UK-w24-se": "UK",
+  "UK-w24-sf": "UK",
+  "UK-w24-sg": "UK",
+  "UK-w24-sh": "UK",
+  "UK-w24-si": "UK",
+  "UK-w24-sj": "UK",
+  "UK-w24-sk": "UK",
+  "UK-w24-sl": "UK",
+  "UK-w24-sm": "UK",
+  "UK-w24-sn": "UK",
+  "UK-w24-so": "UK",
+  "UK-w24-sp": "UK",
+  "UK-w24-sq": "UK",
+  "UK-w24-sr": "UK",
+  "UK-w24-ss": "UK",
+  "UK-w24-st": "UK",
+  "UK-w24-su": "UK",
+  "UK-w24-sv": "UK",
+  "UK-w24-sw": "UK",
+  "UK-w24-sx": "UK",
+  "UK-w24-sy": "UK",
+  "UK-w24-sz": "UK",
+  "UK-w24-ta": "UK",
+  "UK-w24-tb": "UK",
+  "UK-w24-tc": "UK",
+  "UK-w24-td": "UK",
+  "UK-w24-tw": "UK",
+  "UK-w24-tf": "UK",
+  "UK-w24-tg": "UK",
+  "UK-w24-th": "UK",
+  "UK-w24-ti": "UK",
+  "UK-w24-tj": "UK",
+  "UK-w24-tk": "UK",
+  "UK-w24-tl": "UK",
+  "UK-w24-tm": "UK",
+  "UK-w24-tn": "UK",
+  "UK-w24-to": "UK",
+  "UK-w24-tp": "UK",
+  "UK-w24-tq": "UK",
+  "UK-w24-tr": "UK",
+  "UK-w24-ts": "UK",
+  "UK-w24-tt": "UK",
+  "UK-w24-tu": "UK",
+  "UK-w24-tv": "UK",
+  "UK-w24-tx": "UK",
+  "UK-w24-ty": "UK",
+  "UK-w24-tz": "UK",
+  "UK-w24-ua": "UK",
+  "UK-w24-ub": "UK",
+  "UK-w24-uc": "UK",
+  "UK-w24-ud": "UK",
+  "UK-w24-uf": "UK",
+  "UK-w24-uh": "UK",
+  "UK-w24-ql": "UK",
+  "UK-w24-qm": "UK",
+  "UK-w24-qn": "UK",
+  "UK-w24-qo": "UK",
+  "UK-w24-qp": "UK",
+  "UK-w24-qq": "UK",
+  "UK-w24-qr": "UK",
+  "UK-w24-qs": "UK",
+  "UK-w24-qt": "UK",
+  "UK-w24-qu": "UK",
+  "UK-w24-qv": "UK",
+  "UK-w24-qw": "UK",
+  "UK-w24-qx": "UK",
+  "UK-w24-qy": "UK",
+  "UK-w24-qz": "UK",
+  "UK-w24-ra": "UK",
+  "UK-w24-rb": "UK",
+  "UK-w24-rc": "UK",
+  "UK-w24-rd": "UK",
+  "UK-w24-qk": "UK",
+  "UK-w24-re": "UK",
+  "UK-w24-rf": "UK",
+  "UK-w24-rg": "UK",
+  "UK-w24-rh": "UK",
+  "UK-w24-ri": "UK",
+  "UK-w24-rj": "UK",
+  "UK-w24-rk": "UK",
+  "UK-w24-mv": "UK",
+  "UK-w24-mw": "UK",
+  "UK-w24-mx": "UK",
+  "UK-w24-my": "UK",
+  "UK-w24-mz": "UK",
+  "UK-w24-og": "UK",
+  "UK-w24-na": "UK",
+  "UK-w24-nb": "UK",
+  "UK-w24-nc": "UK",
+  "UK-w24-nd": "UK",
+  "UK-w24-ne": "UK",
+  "UK-w24-nf": "UK",
+  "UK-w24-ng": "UK",
+  "UK-w24-nh": "UK",
+  "UK-w24-ni": "UK",
+  "UK-w24-nj": "UK",
+  "UK-w24-nk": "UK",
+  "UK-w24-nl": "UK",
+  "UK-w24-nm": "UK",
+  "UK-w24-nn": "UK",
+  "UK-w24-no": "UK",
+  "UK-w24-np": "UK",
+  "UK-w24-nq": "UK",
+  "UK-w24-nr": "UK",
+  "UK-w24-ns": "UK",
+  "UK-w24-nt": "UK",
+  "UK-w24-nu": "UK",
+  "UK-w24-nv": "UK",
+  "UK-w24-nw": "UK",
+  "UK-w24-nx": "UK",
+  "UK-w24-ny": "UK",
+  "UK-w24-nz": "UK",
+  "UK-w24-oa": "UK",
+  "UK-w24-ob": "UK",
+  "UK-w24-oc": "UK",
+  "UK-w24-od": "UK",
+  "UK-w24-oe": "UK",
+  "UK-w24-of": "UK",
+  "UK-w24-oh": "UK",
+  "UK-w24-oi": "UK",
+  "UK-w24-oj": "UK",
+  "UK-w24-ok": "UK",
+  "UK-w24-ol": "UK",
+  "UK-w24-om": "UK",
+  "UK-w24-on": "UK",
+  "UK-w24-oo": "UK",
+  "UK-w24-op": "UK",
+  "UK-w24-oq": "UK",
+  "UK-w24-or": "UK",
+  "UK-w24-os": "UK",
+  "UK-w24-ot": "UK",
+  "UK-w24-ou": "UK",
+  "UK-w24-ov": "UK",
+  "UK-w24-ow": "UK",
+  "UK-w24-ox": "UK",
+  "UK-w24-oy": "UK",
+  "UK-w24-oz": "UK",
+  "UK-w24-pa": "UK",
+  "UK-w24-pb": "UK",
+  "UK-w24-pc": "UK",
+  "UK-w24-pd": "UK",
+  "UK-w24-pe": "UK",
+  "UK-w24-pf": "UK",
+  "UK-w24-pg": "UK",
+  "UK-w24-ph": "UK",
+  "UK-w24-pi": "UK",
+  "UK-w24-pj": "UK",
+  "UK-w24-pk": "UK",
+  "UK-w24-pl": "UK",
+  "UK-w24-pm": "UK",
+  "UK-w24-pn": "UK",
+  "UK-w24-po": "UK",
+  "UK-w24-pp": "UK",
+  "UK-w24-pr": "UK",
+  "UK-w24-ps": "UK",
+  "UK-w24-pt": "UK",
+  "UK-w24-pu": "UK",
+  "UK-w24-pv": "UK",
+  "UK-w24-pw": "UK",
+  "UK-w24-px": "UK",
+  "UK-w24-py": "UK",
+  "UK-w24-pz": "UK",
+  "UK-w24-qa": "UK",
+  "UK-w24-qb": "UK",
+  "UK-w24-qc": "UK",
+  "UK-w24-qd": "UK",
+  "UK-w24-qe": "UK",
+  "UK-w24-qf": "UK",
+  "UK-w24-qg": "UK",
+  "UK-w24-qh": "UK",
+  "UK-w24-qi": "UK",
+  "UK-w24-kq": "UK",
+  "UK-w24-kr": "UK",
+  "UK-w24-ks": "UK",
+  "UK-w24-kt": "UK",
+  "UK-w24-ku": "UK",
+  "UK-w24-kv": "UK",
+  "UK-w24-kw": "UK",
+  "UK-w24-kx": "UK",
+  "UK-w24-ky": "UK",
+  "UK-w24-kz": "UK",
+  "UK-w24-la": "UK",
+  "UK-w24-lb": "UK",
+  "UK-w24-lc": "UK",
+  "UK-w24-ld": "UK",
+  "UK-w24-le": "UK",
+  "UK-w24-lf": "UK",
+  "UK-w24-lg": "UK",
+  "UK-w24-lh": "UK",
+  "UK-w24-li": "UK",
+  "UK-w24-lj": "UK",
+  "UK-w24-lk": "UK",
+  "UK-w24-ll": "UK",
+  "UK-w24-lm": "UK",
+  "UK-w24-ln": "UK",
+  "UK-w24-lp": "UK",
+  "UK-w24-lo": "UK",
+  "UK-w24-lq": "UK",
+  "UK-w24-lr": "UK",
+  "UK-w24-ls": "UK",
+  "UK-w24-lu": "UK",
+  "UK-w24-lt": "UK",
+  "UK-w24-lw": "UK",
+  "UK-w24-lv": "UK",
+  "UK-w24-lx": "UK",
+  "UK-w24-ly": "UK",
+  "UK-w24-lz": "UK",
+  "UK-w24-ma": "UK",
+  "UK-w24-mb": "UK",
+  "UK-w24-mc": "UK",
+  "UK-w24-md": "UK",
+  "UK-w24-me": "UK",
+  "UK-w24-mf": "UK",
+  "UK-w24-mg": "UK",
+  "UK-w24-mh": "UK",
+  "UK-w24-mi": "UK",
+  "UK-w24-mj": "UK",
+  "UK-w24-mk": "UK",
+  "UK-w24-ml": "UK",
+  "UK-w24-mm": "UK",
+  "UK-w24-d": "UK",
+  "UK-w24-mn": "UK",
+  "UK-w24-mo": "UK",
+  "UK-w24-mp": "UK",
+  "UK-w24-mq": "UK",
+  "UK-w24-mr": "UK",
+  "UK-w24-ms": "UK",
+  "UK-w24-mt": "UK",
+  "UK-w24-hc": "UK",
+  "UK-w24-hd": "UK",
+  "UK-w24-he": "UK",
+  "UK-w24-hf": "UK",
+  "UK-w24-hg": "UK",
+  "UK-w24-hh": "UK",
+  "UK-w24-hi": "UK",
+  "UK-w24-hj": "UK",
+  "UK-w24-hk": "UK",
+  "UK-w24-hl": "UK",
+  "UK-w24-hm": "UK",
+  "UK-w24-hn": "UK",
+  "UK-w24-ho": "UK",
+  "UK-w24-hp": "UK",
+  "UK-w24-hq": "UK",
+  "UK-w24-hr": "UK",
+  "UK-w24-hs": "UK",
+  "UK-w24-ht": "UK",
+  "UK-w24-hu": "UK",
+  "UK-w24-hv": "UK",
+  "UK-w24-hw": "UK",
+  "UK-w24-hx": "UK",
+  "UK-w24-hy": "UK",
+  "UK-w24-hz": "UK",
+  "UK-w24-ia": "UK",
+  "UK-w24-ib": "UK",
+  "UK-w24-ic": "UK",
+  "UK-w24-id": "UK",
+  "UK-w24-ie": "UK",
+  "UK-w24-if": "UK",
+  "UK-w24-ig": "UK",
+  "UK-w24-ih": "UK",
+  "UK-w24-ii": "UK",
+  "UK-w24-ij": "UK",
+  "UK-w24-ik": "UK",
+  "UK-w24-il": "UK",
+  "UK-w24-im": "UK",
+  "UK-w24-in": "UK",
+  "UK-w24-io": "UK",
+  "UK-w24-ip": "UK",
+  "UK-w24-iq": "UK",
+  "UK-w24-ir": "UK",
+  "UK-w24-is": "UK",
+  "UK-w24-it": "UK",
+  "UK-w24-iu": "UK",
+  "UK-w24-iv": "UK",
+  "UK-w24-iw": "UK",
+  "UK-w24-ix": "UK",
+  "UK-w24-iy": "UK",
+  "UK-w24-iz": "UK",
+  "UK-w24-ja": "UK",
+  "UK-w24-jb": "UK",
+  "UK-w24-jc": "UK",
+  "UK-w24-jd": "UK",
+  "UK-w24-jf": "UK",
+  "UK-w24-jg": "UK",
+  "UK-w24-ji": "UK",
+  "UK-w24-jh": "UK",
+  "UK-w24-jj": "UK",
+  "UK-w24-jk": "UK",
+  "UK-w24-jl": "UK",
+  "UK-w24-jm": "UK",
+  "UK-w24-jn": "UK",
+  "UK-w24-jo": "UK",
+  "UK-w24-jp": "UK",
+  "UK-w24-jq": "UK",
+  "UK-w24-jr": "UK",
+  "UK-w24-js": "UK",
+  "UK-w24-je": "UK",
+  "UK-w24-jt": "UK",
+  "UK-w24-ju": "UK",
+  "UK-w24-jv": "UK",
+  "UK-w24-jw": "UK",
+  "UK-w24-jx": "UK",
+  "UK-w24-jy": "UK",
+  "UK-w24-jz": "UK",
+  "UK-w24-ka": "UK",
+  "UK-w24-kb": "UK",
+  "UK-w24-kc": "UK",
+  "UK-w24-kd": "UK",
+  "UK-w24-ke": "UK",
+  "UK-w24-kf": "UK",
+  "UK-w24-kg": "UK",
+  "UK-w24-kh": "UK",
+  "UK-w24-ki": "UK",
+  "UK-w24-kj": "UK",
+  "UK-w24-kk": "UK",
+  "UK-w24-kl": "UK",
+  "UK-w24-km": "UK",
+  "UK-w24-kn": "UK",
+  "UK-w24-ko": "UK",
+  "UK-w24-ev": "UK",
+  "UK-w24-ew": "UK",
+  "UK-w24-ex": "UK",
+  "UK-w24-ey": "UK",
+  "UK-w24-ez": "UK",
+  "UK-w24-fa": "UK",
+  "UK-w24-fb": "UK",
+  "UK-w24-fc": "UK",
+  "UK-w24-fd": "UK",
+  "UK-w24-fe": "UK",
+  "UK-w24-ff": "UK",
+  "UK-w24-fg": "UK",
+  "UK-w24-fh": "UK",
+  "UK-w24-fi": "UK",
+  "UK-w24-fj": "UK",
+  "UK-w24-fk": "UK",
+  "UK-w24-fl": "UK",
+  "UK-w24-fm": "UK",
+  "UK-w24-fn": "UK",
+  "UK-w24-fo": "UK",
+  "UK-w24-fp": "UK",
+  "UK-w24-fq": "UK",
+  "UK-w24-fr": "UK",
+  "UK-w24-fs": "UK",
+  "UK-w24-ft": "UK",
+  "UK-w24-fu": "UK",
+  "UK-w24-fv": "UK",
+  "UK-w24-fw": "UK",
+  "UK-w24-fx": "UK",
+  "UK-w24-fy": "UK",
+  "UK-w24-fz": "UK",
+  "UK-w24-ga": "UK",
+  "UK-w24-gb": "UK",
+  "UK-w24-gc": "UK",
+  "UK-w24-gd": "UK",
+  "UK-w24-ge": "UK",
+  "UK-w24-gf": "UK",
+  "UK-w24-gg": "UK",
+  "UK-w24-gh": "UK",
+  "UK-w24-gi": "UK",
+  "UK-w24-gj": "UK",
+  "UK-w24-gk": "UK",
+  "UK-w24-gl": "UK",
+  "UK-w24-gm": "UK",
+  "UK-w24-gn": "UK",
+  "UK-w24-go": "UK",
+  "UK-w24-gp": "UK",
+  "UK-w24-gq": "UK",
+  "UK-w24-gr": "UK",
+  "UK-w24-gs": "UK",
+  "UK-w24-gt": "UK",
+  "UK-w24-gu": "UK",
+  "UK-w24-gv": "UK",
+  "UK-w24-gw": "UK",
+  "UK-w24-gx": "UK",
+  "UK-w24-gy": "UK",
+  "UK-w24-gz": "UK",
+  "UK-w24-ha": "UK",
+  "UK-w24-do": "UK",
+  "UK-w24-dp": "UK",
+  "UK-w24-dq": "UK",
+  "UK-w24-dr": "UK",
+  "UK-w24-ds": "UK",
+  "UK-w24-dt": "UK",
+  "UK-w24-du": "UK",
+  "UK-w24-dv": "UK",
+  "UK-w24-dw": "UK",
+  "UK-w24-dx": "UK",
+  "UK-w24-dy": "UK",
+  "UK-w24-dz": "UK",
+  "UK-w24-ea": "UK",
+  "UK-w24-eb": "UK",
+  "UK-w24-ec": "UK",
+  "UK-w24-ed": "UK",
+  "UK-w24-ee": "UK",
+  "UK-w24-ef": "UK",
+  "UK-w24-eg": "UK",
+  "UK-w24-eh": "UK",
+  "UK-w24-ei": "UK",
+  "UK-w24-ej": "UK",
+  "UK-w24-ek": "UK",
+  "UK-w24-el": "UK",
+  "UK-w24-em": "UK",
+  "UK-w24-en": "UK",
+  "UK-w24-eo": "UK",
+  "UK-w24-ep": "UK",
+  "UK-w24-eq": "UK",
+  "UK-w24-er": "UK",
+  "UK-w24-es": "UK",
+  "UK-w24-et": "UK",
+  "UK-w24-bi": "UK",
+  "UK-w24-bk": "UK",
+  "UK-w24-bl": "UK",
+  "UK-w24-bm": "UK",
+  "UK-w24-bn": "UK",
+  "UK-w24-bo": "UK",
+  "UK-w24-bp": "UK",
+  "UK-w24-bq": "UK",
+  "UK-w24-br": "UK",
+  "UK-w24-bs": "UK",
+  "UK-w24-bt": "UK",
+  "UK-w24-bu": "UK",
+  "UK-w24-bv": "UK",
+  "UK-w24-bw": "UK",
+  "UK-w24-bx": "UK",
+  "UK-w24-by": "UK",
+  "UK-w24-bz": "UK",
+  "UK-w24-ca": "UK",
+  "UK-w24-cb": "UK",
+  "UK-w24-cc": "UK",
+  "UK-w24-cd": "UK",
+  "UK-w24-ce": "UK",
+  "UK-w24-cf": "UK",
+  "UK-w24-cg": "UK",
+  "UK-w24-ch": "UK",
+  "UK-w24-ci": "UK",
+  "UK-w24-cj": "UK",
+  "UK-w24-bj": "UK",
+  "UK-w24-ck": "UK",
+  "UK-w24-cl": "UK",
+  "UK-w24-cm": "UK",
+  "UK-w24-cn": "UK",
+  "UK-w24-co": "UK",
+  "UK-w24-cp": "UK",
+  "UK-w24-cq": "UK",
+  "UK-w24-cr": "UK",
+  "UK-w24-cs": "UK",
+  "UK-w24-ct": "UK",
+  "UK-w24-cu": "UK",
+  "UK-w24-cv": "UK",
+  "UK-w24-cw": "UK",
+  "UK-w24-cx": "UK",
+  "UK-w24-cy": "UK",
+  "UK-w24-cz": "UK",
+  "UK-w24-da": "UK",
+  "UK-w24-db": "UK",
+  "UK-w24-dc": "UK",
+  "UK-w24-dd": "UK",
+  "UK-w24-de": "UK",
+  "UK-w24-df": "UK",
+  "UK-w24-dg": "UK",
+  "UK-w24-dh": "UK",
+  "UK-w24-di": "UK",
+  "UK-w24-dj": "UK",
+  "UK-w24-dk": "UK",
+  "UK-w24-dl": "UK",
+  "UK-w24-dm": "UK",
+  "UK-w24-f": "UK",
+  "UK-w24-g": "UK",
+  "UK-w24-h": "UK",
+  "UK-w24-i": "UK",
+  "UK-w24-j": "UK",
+  "UK-w24-k": "UK",
+  "UK-w24-l": "UK",
+  "UK-w24-m": "UK",
+  "UK-w24-n": "UK",
+  "UK-w24-o": "UK",
+  "UK-w24-p": "UK",
+  "UK-w24-q": "UK",
+  "UK-w24-r": "UK",
+  "UK-w24-s": "UK",
+  "UK-w24-t": "UK",
+  "UK-w24-u": "UK",
+  "UK-w24-v": "UK",
+  "UK-w24-w": "UK",
+  "UK-w24-y": "UK",
+  "UK-w24-z": "UK",
+  "UK-w24-aa": "UK",
+  "UK-w24-ab": "UK",
+  "UK-w24-ac": "UK",
+  "UK-w24-x": "UK",
+  "UK-w24-ae": "UK",
+  "UK-w24-af": "UK",
+  "UK-w24-ag": "UK",
+  "UK-w24-ad": "UK",
+  "UK-w24-ah": "UK",
+  "UK-w24-al": "UK",
+  "UK-w24-ai": "UK",
+  "UK-w24-bd": "UK",
+  "UK-w24-aj": "UK",
+  "UK-w24-ak": "UK",
+  "UK-w24-am": "UK",
+  "UK-w24-an": "UK",
+  "UK-w24-ao": "UK",
+  "UK-w24-ap": "UK",
+  "UK-w24-aq": "UK",
+  "UK-w24-ar": "UK",
+  "UK-w24-as": "UK",
+  "UK-w24-at": "UK",
+  "UK-w24-au": "UK",
+  "UK-w24-av": "UK",
+  "UK-w24-aw": "UK",
+  "UK-w24-ax": "UK",
+  "UK-w24-ay": "UK",
+  "UK-w24-az": "UK",
+  "UK-w24-ba": "UK",
+  "UK-w24-bb": "UK",
+  "UK-w24-bc": "UK",
+  "UK-w24-be": "UK",
+  "UK-w24-bg": "UK",
+  "UK-w24-bf": "UK"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "UK-w24-wt": {
+     "노동당": 1
+    },
+    "UK-w24-wu": {
+     "영국 개혁당 (Reform UK)": 1
+    },
+    "UK-w24-wv": {
+     "노동당": 1
+    },
+    "UK-w24-ww": {
+     "노동당": 1
+    },
+    "UK-w24-wx": {
+     "영국 개혁당 (Reform UK)": 1
+    },
+    "UK-w24-wy": {
+     "노동당": 1
+    },
+    "UK-w24-wz": {
+     "노동당": 1
+    },
+    "UK-w24-xa": {
+     "노동당": 1
+    },
+    "UK-w24-xb": {
+     "보수당": 1
+    },
+    "UK-w24-xc": {
+     "노동당": 1
+    },
+    "UK-w24-xd": {
+     "노동당": 1
+    },
+    "UK-w24-xe": {
+     "노동당": 1
+    },
+    "UK-w24-xf": {
+     "노동당": 1
+    },
+    "UK-w24-xg": {
+     "보수당": 1
+    },
+    "UK-w24-xh": {
+     "노동당": 1
+    },
+    "UK-w24-xi": {
+     "보수당": 1
+    },
+    "UK-w24-xj": {
+     "보수당": 1
+    },
+    "UK-w24-xk": {
+     "노동당": 1
+    },
+    "UK-w24-yn": {
+     "보수당": 1
+    },
+    "UK-w24-xl": {
+     "노동당": 1
+    },
+    "UK-w24-xm": {
+     "보수당": 1
+    },
+    "UK-w24-xn": {
+     "무소속": 1
+    },
+    "UK-w24-xo": {
+     "노동당": 1
+    },
+    "UK-w24-xp": {
+     "노동당": 1
+    },
+    "UK-w24-xq": {
+     "노동당": 1
+    },
+    "UK-w24-xr": {
+     "보수당": 1
+    },
+    "UK-w24-xs": {
+     "노동당": 1
+    },
+    "UK-w24-xt": {
+     "보수당": 1
+    },
+    "UK-w24-xu": {
+     "노동당": 1
+    },
+    "UK-w24-xv": {
+     "보수당": 1
+    },
+    "UK-w24-xw": {
+     "보수당": 1
+    },
+    "UK-w24-xx": {
+     "노동당": 1
+    },
+    "UK-w24-xy": {
+     "노동당": 1
+    },
+    "UK-w24-xz": {
+     "노동당": 1
+    },
+    "UK-w24-ya": {
+     "노동당": 1
+    },
+    "UK-w24-yb": {
+     "노동당": 1
+    },
+    "UK-w24-yc": {
+     "노동당": 1
+    },
+    "UK-w24-yd": {
+     "노동당": 1
+    },
+    "UK-w24-ye": {
+     "노동당": 1
+    },
+    "UK-w24-yf": {
+     "보수당": 1
+    },
+    "UK-w24-yg": {
+     "노동당": 1
+    },
+    "UK-w24-yh": {
+     "보수당": 1
+    },
+    "UK-w24-yi": {
+     "노동당": 1
+    },
+    "UK-w24-yj": {
+     "보수당": 1
+    },
+    "UK-w24-yk": {
+     "보수당": 1
+    },
+    "UK-w24-yl": {
+     "보수당": 1
+    },
+    "UK-w24-ym": {
+     "노동당": 1
+    },
+    "UK-w24-uj": {
+     "보수당": 1
+    },
+    "UK-w24-uk": {
+     "노동당": 1
+    },
+    "UK-w24-ul": {
+     "보수당": 1
+    },
+    "UK-w24-um": {
+     "보수당": 1
+    },
+    "UK-w24-un": {
+     "보수당": 1
+    },
+    "UK-w24-uo": {
+     "보수당": 1
+    },
+    "UK-w24-up": {
+     "노동당": 1
+    },
+    "UK-w24-uq": {
+     "노동당": 1
+    },
+    "UK-w24-ur": {
+     "보수당": 1
+    },
+    "UK-w24-us": {
+     "보수당": 1
+    },
+    "UK-w24-ut": {
+     "자유민주당": 1
+    },
+    "UK-w24-uu": {
+     "영국 개혁당 (Reform UK)": 1
+    },
+    "UK-w24-uv": {
+     "노동당": 1
+    },
+    "UK-w24-uw": {
+     "노동당": 1
+    },
+    "UK-w24-ux": {
+     "자유민주당": 1
+    },
+    "UK-w24-uy": {
+     "보수당": 1
+    },
+    "UK-w24-uz": {
+     "영국 개혁당 (Reform UK)": 1
+    },
+    "UK-w24-va": {
+     "노동당": 1
+    },
+    "UK-w24-vb": {
+     "자유민주당": 1
+    },
+    "UK-w24-vc": {
+     "보수당": 1
+    },
+    "UK-w24-vd": {
+     "노동당": 1
+    },
+    "UK-w24-ve": {
+     "노동당": 1
+    },
+    "UK-w24-vf": {
+     "보수당": 1
+    },
+    "UK-w24-vg": {
+     "노동당": 1
+    },
+    "UK-w24-vh": {
+     "보수당": 1
+    },
+    "UK-w24-vi": {
+     "노동당": 1
+    },
+    "UK-w24-vj": {
+     "노동당": 1
+    },
+    "UK-w24-vk": {
+     "노동당": 1
+    },
+    "UK-w24-vl": {
+     "노동당": 1
+    },
+    "UK-w24-vm": {
+     "보수당": 1
+    },
+    "UK-w24-vn": {
+     "보수당": 1
+    },
+    "UK-w24-vo": {
+     "보수당": 1
+    },
+    "UK-w24-vp": {
+     "보수당": 1
+    },
+    "UK-w24-vq": {
+     "보수당": 1
+    },
+    "UK-w24-vr": {
+     "노동당": 1
+    },
+    "UK-w24-vs": {
+     "자유민주당": 1
+    },
+    "UK-w24-vt": {
+     "노동당": 1
+    },
+    "UK-w24-wa": {
+     "보수당": 1
+    },
+    "UK-w24-vu": {
+     "보수당": 1
+    },
+    "UK-w24-vv": {
+     "노동당": 1
+    },
+    "UK-w24-vw": {
+     "노동당": 1
+    },
+    "UK-w24-vx": {
+     "노동당": 1
+    },
+    "UK-w24-vy": {
+     "보수당": 1
+    },
+    "UK-w24-wb": {
+     "영국 개혁당 (Reform UK)": 1
+    },
+    "UK-w24-wc": {
+     "자유민주당": 1
+    },
+    "UK-w24-wd": {
+     "노동당": 1
+    },
+    "UK-w24-we": {
+     "보수당": 1
+    },
+    "UK-w24-wf": {
+     "보수당": 1
+    },
+    "UK-w24-wg": {
+     "노동당": 1
+    },
+    "UK-w24-vz": {
+     "노동당": 1
+    },
+    "UK-w24-wh": {
+     "노동당": 1
+    },
+    "UK-w24-wi": {
+     "자유민주당": 1
+    },
+    "UK-w24-wj": {
+     "자유민주당": 1
+    },
+    "UK-w24-wk": {
+     "노동당": 1
+    },
+    "UK-w24-wl": {
+     "노동당": 1
+    },
+    "UK-w24-wm": {
+     "노동당": 1
+    },
+    "UK-w24-wn": {
+     "노동당": 1
+    },
+    "UK-w24-wo": {
+     "녹색당": 1
+    },
+    "UK-w24-wp": {
+     "노동당": 1
+    },
+    "UK-w24-wq": {
+     "보수당": 1
+    },
+    "UK-w24-wr": {
+     "보수당": 1
+    },
+    "UK-w24-rl": {
+     "노동당": 1
+    },
+    "UK-w24-rm": {
+     "노동당": 1
+    },
+    "UK-w24-rn": {
+     "노동당": 1
+    },
+    "UK-w24-ro": {
+     "노동당": 1
+    },
+    "UK-w24-rp": {
+     "노동당": 1
+    },
+    "UK-w24-rq": {
+     "노동당": 1
+    },
+    "UK-w24-ug": {
+     "노동당": 1
+    },
+    "UK-w24-ue": {
+     "노동당": 1
+    },
+    "UK-w24-rr": {
+     "노동당": 1
+    },
+    "UK-w24-rs": {
+     "보수당": 1
+    },
+    "UK-w24-rt": {
+     "자유민주당": 1
+    },
+    "UK-w24-ru": {
+     "노동당": 1
+    },
+    "UK-w24-rv": {
+     "보수당": 1
+    },
+    "UK-w24-rw": {
+     "노동당": 1
+    },
+    "UK-w24-rx": {
+     "노동당": 1
+    },
+    "UK-w24-te": {
+     "노동당": 1
+    },
+    "UK-w24-ry": {
+     "노동당": 1
+    },
+    "UK-w24-rz": {
+     "보수당": 1
+    },
+    "UK-w24-sa": {
+     "노동당": 1
+    },
+    "UK-w24-sb": {
+     "노동당": 1
+    },
+    "UK-w24-sc": {
+     "노동당": 1
+    },
+    "UK-w24-sd": {
+     "노동당": 1
+    },
+    "UK-w24-se": {
+     "노동당": 1
+    },
+    "UK-w24-sf": {
+     "노동당": 1
+    },
+    "UK-w24-sg": {
+     "노동당": 1
+    },
+    "UK-w24-sh": {
+     "노동당": 1
+    },
+    "UK-w24-si": {
+     "노동당": 1
+    },
+    "UK-w24-sj": {
+     "노동당": 1
+    },
+    "UK-w24-sk": {
+     "노동당": 1
+    },
+    "UK-w24-sl": {
+     "노동당": 1
+    },
+    "UK-w24-sm": {
+     "노동당": 1
+    },
+    "UK-w24-sn": {
+     "노동당": 1
+    },
+    "UK-w24-so": {
+     "노동당": 1
+    },
+    "UK-w24-sp": {
+     "노동당": 1
+    },
+    "UK-w24-sq": {
+     "노동당": 1
+    },
+    "UK-w24-sr": {
+     "노동당": 1
+    },
+    "UK-w24-ss": {
+     "보수당": 1
+    },
+    "UK-w24-st": {
+     "노동당": 1
+    },
+    "UK-w24-su": {
+     "노동당": 1
+    },
+    "UK-w24-sv": {
+     "노동당": 1
+    },
+    "UK-w24-sw": {
+     "노동당": 1
+    },
+    "UK-w24-sx": {
+     "보수당": 1
+    },
+    "UK-w24-sy": {
+     "노동당": 1
+    },
+    "UK-w24-sz": {
+     "노동당": 1
+    },
+    "UK-w24-ta": {
+     "노동당": 1
+    },
+    "UK-w24-tb": {
+     "무소속": 1
+    },
+    "UK-w24-tc": {
+     "노동당": 1
+    },
+    "UK-w24-td": {
+     "노동당": 1
+    },
+    "UK-w24-tw": {
+     "자유민주당": 1
+    },
+    "UK-w24-tf": {
+     "노동당": 1
+    },
+    "UK-w24-tg": {
+     "노동당": 1
+    },
+    "UK-w24-th": {
+     "노동당": 1
+    },
+    "UK-w24-ti": {
+     "노동당": 1
+    },
+    "UK-w24-tj": {
+     "노동당": 1
+    },
+    "UK-w24-tk": {
+     "보수당": 1
+    },
+    "UK-w24-tl": {
+     "보수당": 1
+    },
+    "UK-w24-tm": {
+     "노동당": 1
+    },
+    "UK-w24-tn": {
+     "노동당": 1
+    },
+    "UK-w24-to": {
+     "노동당": 1
+    },
+    "UK-w24-tp": {
+     "노동당": 1
+    },
+    "UK-w24-tq": {
+     "자유민주당": 1
+    },
+    "UK-w24-tr": {
+     "보수당": 1
+    },
+    "UK-w24-ts": {
+     "보수당": 1
+    },
+    "UK-w24-tt": {
+     "노동당": 1
+    },
+    "UK-w24-tu": {
+     "노동당": 1
+    },
+    "UK-w24-tv": {
+     "노동당": 1
+    },
+    "UK-w24-tx": {
+     "자유민주당": 1
+    },
+    "UK-w24-ty": {
+     "노동당": 1
+    },
+    "UK-w24-tz": {
+     "노동당": 1
+    },
+    "UK-w24-ua": {
+     "자유민주당": 1
+    },
+    "UK-w24-ub": {
+     "노동당": 1
+    },
+    "UK-w24-uc": {
+     "노동당": 1
+    },
+    "UK-w24-ud": {
+     "노동당": 1
+    },
+    "UK-w24-uf": {
+     "노동당": 1
+    },
+    "UK-w24-uh": {
+     "자유민주당": 1
+    },
+    "UK-w24-ql": {
+     "노동당": 1
+    },
+    "UK-w24-qm": {
+     "노동당": 1
+    },
+    "UK-w24-qn": {
+     "노동당": 1
+    },
+    "UK-w24-qo": {
+     "노동당": 1
+    },
+    "UK-w24-qp": {
+     "노동당": 1
+    },
+    "UK-w24-qq": {
+     "노동당": 1
+    },
+    "UK-w24-qr": {
+     "노동당": 1
+    },
+    "UK-w24-qs": {
+     "노동당": 1
+    },
+    "UK-w24-qt": {
+     "노동당": 1
+    },
+    "UK-w24-qu": {
+     "노동당": 1
+    },
+    "UK-w24-qv": {
+     "노동당": 1
+    },
+    "UK-w24-qw": {
+     "노동당": 1
+    },
+    "UK-w24-qx": {
+     "노동당": 1
+    },
+    "UK-w24-qy": {
+     "노동당": 1
+    },
+    "UK-w24-qz": {
+     "노동당": 1
+    },
+    "UK-w24-ra": {
+     "노동당": 1
+    },
+    "UK-w24-rb": {
+     "노동당": 1
+    },
+    "UK-w24-rc": {
+     "노동당": 1
+    },
+    "UK-w24-rd": {
+     "노동당": 1
+    },
+    "UK-w24-qk": {
+     "노동당": 1
+    },
+    "UK-w24-re": {
+     "노동당": 1
+    },
+    "UK-w24-rf": {
+     "노동당": 1
+    },
+    "UK-w24-rg": {
+     "노동당": 1
+    },
+    "UK-w24-rh": {
+     "보수당": 1
+    },
+    "UK-w24-ri": {
+     "노동당": 1
+    },
+    "UK-w24-rj": {
+     "노동당": 1
+    },
+    "UK-w24-rk": {
+     "노동당": 1
+    },
+    "UK-w24-mv": {
+     "노동당": 1
+    },
+    "UK-w24-mw": {
+     "노동당": 1
+    },
+    "UK-w24-mx": {
+     "노동당": 1
+    },
+    "UK-w24-my": {
+     "노동당": 1
+    },
+    "UK-w24-mz": {
+     "무소속": 1
+    },
+    "UK-w24-og": {
+     "노동당": 1
+    },
+    "UK-w24-na": {
+     "노동당": 1
+    },
+    "UK-w24-nb": {
+     "노동당": 1
+    },
+    "UK-w24-nc": {
+     "노동당": 1
+    },
+    "UK-w24-nd": {
+     "노동당": 1
+    },
+    "UK-w24-ne": {
+     "노동당": 1
+    },
+    "UK-w24-nf": {
+     "노동당": 1
+    },
+    "UK-w24-ng": {
+     "노동당": 1
+    },
+    "UK-w24-nh": {
+     "노동당": 1
+    },
+    "UK-w24-ni": {
+     "노동당": 1
+    },
+    "UK-w24-nj": {
+     "노동당": 1
+    },
+    "UK-w24-nk": {
+     "자유민주당": 1
+    },
+    "UK-w24-nl": {
+     "노동당": 1
+    },
+    "UK-w24-nm": {
+     "보수당": 1
+    },
+    "UK-w24-nn": {
+     "하원의장": 1
+    },
+    "UK-w24-no": {
+     "노동당": 1
+    },
+    "UK-w24-np": {
+     "노동당": 1
+    },
+    "UK-w24-nq": {
+     "노동당": 1
+    },
+    "UK-w24-nr": {
+     "보수당": 1
+    },
+    "UK-w24-ns": {
+     "노동당": 1
+    },
+    "UK-w24-nt": {
+     "자유민주당": 1
+    },
+    "UK-w24-nu": {
+     "노동당": 1
+    },
+    "UK-w24-nv": {
+     "노동당": 1
+    },
+    "UK-w24-nw": {
+     "노동당": 1
+    },
+    "UK-w24-nx": {
+     "노동당": 1
+    },
+    "UK-w24-ny": {
+     "노동당": 1
+    },
+    "UK-w24-nz": {
+     "노동당": 1
+    },
+    "UK-w24-oa": {
+     "노동당": 1
+    },
+    "UK-w24-ob": {
+     "노동당": 1
+    },
+    "UK-w24-oc": {
+     "노동당": 1
+    },
+    "UK-w24-od": {
+     "노동당": 1
+    },
+    "UK-w24-oe": {
+     "노동당": 1
+    },
+    "UK-w24-of": {
+     "노동당": 1
+    },
+    "UK-w24-oh": {
+     "노동당": 1
+    },
+    "UK-w24-oi": {
+     "노동당": 1
+    },
+    "UK-w24-oj": {
+     "노동당": 1
+    },
+    "UK-w24-ok": {
+     "노동당": 1
+    },
+    "UK-w24-ol": {
+     "노동당": 1
+    },
+    "UK-w24-om": {
+     "노동당": 1
+    },
+    "UK-w24-on": {
+     "노동당": 1
+    },
+    "UK-w24-oo": {
+     "노동당": 1
+    },
+    "UK-w24-op": {
+     "노동당": 1
+    },
+    "UK-w24-oq": {
+     "노동당": 1
+    },
+    "UK-w24-or": {
+     "노동당": 1
+    },
+    "UK-w24-os": {
+     "노동당": 1
+    },
+    "UK-w24-ot": {
+     "노동당": 1
+    },
+    "UK-w24-ou": {
+     "노동당": 1
+    },
+    "UK-w24-ov": {
+     "노동당": 1
+    },
+    "UK-w24-ow": {
+     "노동당": 1
+    },
+    "UK-w24-ox": {
+     "노동당": 1
+    },
+    "UK-w24-oy": {
+     "노동당": 1
+    },
+    "UK-w24-oz": {
+     "노동당": 1
+    },
+    "UK-w24-pa": {
+     "노동당": 1
+    },
+    "UK-w24-pb": {
+     "노동당": 1
+    },
+    "UK-w24-pc": {
+     "노동당": 1
+    },
+    "UK-w24-pd": {
+     "노동당": 1
+    },
+    "UK-w24-pe": {
+     "보수당": 1
+    },
+    "UK-w24-pf": {
+     "노동당": 1
+    },
+    "UK-w24-pg": {
+     "노동당": 1
+    },
+    "UK-w24-ph": {
+     "노동당": 1
+    },
+    "UK-w24-pi": {
+     "노동당": 1
+    },
+    "UK-w24-pj": {
+     "자유민주당": 1
+    },
+    "UK-w24-pk": {
+     "노동당": 1
+    },
+    "UK-w24-pl": {
+     "노동당": 1
+    },
+    "UK-w24-pm": {
+     "노동당": 1
+    },
+    "UK-w24-pn": {
+     "노동당": 1
+    },
+    "UK-w24-po": {
+     "노동당": 1
+    },
+    "UK-w24-pp": {
+     "노동당": 1
+    },
+    "UK-w24-pr": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-w24-ps": {
+     "신페인": 1
+    },
+    "UK-w24-pt": {
+     "사회민주노동당 (SDLP)": 1
+    },
+    "UK-w24-pu": {
+     "신페인": 1
+    },
+    "UK-w24-pv": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-w24-pw": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-w24-px": {
+     "신페인": 1
+    },
+    "UK-w24-py": {
+     "사회민주노동당 (SDLP)": 1
+    },
+    "UK-w24-pz": {
+     "동맹당 (Alliance)": 1
+    },
+    "UK-w24-qa": {
+     "신페인": 1
+    },
+    "UK-w24-qb": {
+     "신페인": 1
+    },
+    "UK-w24-qc": {
+     "전통유니어니스트의 목소리 (TUV)": 1
+    },
+    "UK-w24-qd": {
+     "무소속": 1
+    },
+    "UK-w24-qe": {
+     "얼스터 유니어니스트당 (UUP)": 1
+    },
+    "UK-w24-qf": {
+     "신페인": 1
+    },
+    "UK-w24-qg": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-w24-qh": {
+     "민주연합당 (DUP)": 1
+    },
+    "UK-w24-qi": {
+     "신페인": 1
+    },
+    "UK-w24-kq": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-w24-kr": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-w24-ks": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-w24-kt": {
+     "노동당": 1
+    },
+    "UK-w24-ku": {
+     "노동당": 1
+    },
+    "UK-w24-kv": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-w24-kw": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-w24-kx": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-w24-ky": {
+     "노동당": 1
+    },
+    "UK-w24-kz": {
+     "노동당": 1
+    },
+    "UK-w24-la": {
+     "보수당": 1
+    },
+    "UK-w24-lb": {
+     "자유민주당": 1
+    },
+    "UK-w24-lc": {
+     "노동당": 1
+    },
+    "UK-w24-ld": {
+     "노동당": 1
+    },
+    "UK-w24-le": {
+     "노동당": 1
+    },
+    "UK-w24-lf": {
+     "노동당": 1
+    },
+    "UK-w24-lg": {
+     "보수당": 1
+    },
+    "UK-w24-lh": {
+     "보수당": 1
+    },
+    "UK-w24-li": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-w24-lj": {
+     "노동당": 1
+    },
+    "UK-w24-lk": {
+     "노동당": 1
+    },
+    "UK-w24-ll": {
+     "노동당": 1
+    },
+    "UK-w24-lm": {
+     "노동당": 1
+    },
+    "UK-w24-ln": {
+     "노동당": 1
+    },
+    "UK-w24-lp": {
+     "노동당": 1
+    },
+    "UK-w24-lo": {
+     "노동당": 1
+    },
+    "UK-w24-lq": {
+     "자유민주당": 1
+    },
+    "UK-w24-lr": {
+     "노동당": 1
+    },
+    "UK-w24-ls": {
+     "노동당": 1
+    },
+    "UK-w24-lu": {
+     "노동당": 1
+    },
+    "UK-w24-lt": {
+     "노동당": 1
+    },
+    "UK-w24-lw": {
+     "노동당": 1
+    },
+    "UK-w24-lv": {
+     "노동당": 1
+    },
+    "UK-w24-lx": {
+     "노동당": 1
+    },
+    "UK-w24-ly": {
+     "노동당": 1
+    },
+    "UK-w24-lz": {
+     "보수당": 1
+    },
+    "UK-w24-ma": {
+     "노동당": 1
+    },
+    "UK-w24-mb": {
+     "노동당": 1
+    },
+    "UK-w24-mc": {
+     "자유민주당": 1
+    },
+    "UK-w24-md": {
+     "노동당": 1
+    },
+    "UK-w24-me": {
+     "노동당": 1
+    },
+    "UK-w24-mf": {
+     "노동당": 1
+    },
+    "UK-w24-mg": {
+     "자유민주당": 1
+    },
+    "UK-w24-mh": {
+     "노동당": 1
+    },
+    "UK-w24-mi": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-w24-mj": {
+     "노동당": 1
+    },
+    "UK-w24-mk": {
+     "노동당": 1
+    },
+    "UK-w24-ml": {
+     "노동당": 1
+    },
+    "UK-w24-mm": {
+     "자유민주당": 1
+    },
+    "UK-w24-d": {
+     "자유민주당": 1
+    },
+    "UK-w24-mn": {
+     "노동당": 1
+    },
+    "UK-w24-mo": {
+     "노동당": 1
+    },
+    "UK-w24-mp": {
+     "스코틀랜드 국민당 (SNP)": 1
+    },
+    "UK-w24-mq": {
+     "노동당": 1
+    },
+    "UK-w24-mr": {
+     "노동당": 1
+    },
+    "UK-w24-ms": {
+     "보수당": 1
+    },
+    "UK-w24-mt": {
+     "노동당": 1
+    },
+    "UK-w24-hc": {
+     "노동당": 1
+    },
+    "UK-w24-hd": {
+     "보수당": 1
+    },
+    "UK-w24-he": {
+     "노동당": 1
+    },
+    "UK-w24-hf": {
+     "노동당": 1
+    },
+    "UK-w24-hg": {
+     "노동당": 1
+    },
+    "UK-w24-hh": {
+     "노동당": 1
+    },
+    "UK-w24-hi": {
+     "보수당": 1
+    },
+    "UK-w24-hj": {
+     "보수당": 1
+    },
+    "UK-w24-hk": {
+     "자유민주당": 1
+    },
+    "UK-w24-hl": {
+     "보수당": 1
+    },
+    "UK-w24-hm": {
+     "노동당": 1
+    },
+    "UK-w24-hn": {
+     "노동당": 1
+    },
+    "UK-w24-ho": {
+     "녹색당": 1
+    },
+    "UK-w24-hp": {
+     "노동당": 1
+    },
+    "UK-w24-hq": {
+     "노동당": 1
+    },
+    "UK-w24-hr": {
+     "노동당": 1
+    },
+    "UK-w24-hs": {
+     "자유민주당": 1
+    },
+    "UK-w24-ht": {
+     "자유민주당": 1
+    },
+    "UK-w24-hu": {
+     "노동당": 1
+    },
+    "UK-w24-hv": {
+     "노동당": 1
+    },
+    "UK-w24-hw": {
+     "자유민주당": 1
+    },
+    "UK-w24-hx": {
+     "자유민주당": 1
+    },
+    "UK-w24-hy": {
+     "노동당": 1
+    },
+    "UK-w24-hz": {
+     "노동당": 1
+    },
+    "UK-w24-ia": {
+     "보수당": 1
+    },
+    "UK-w24-ib": {
+     "보수당": 1
+    },
+    "UK-w24-ic": {
+     "보수당": 1
+    },
+    "UK-w24-id": {
+     "노동당": 1
+    },
+    "UK-w24-ie": {
+     "노동당": 1
+    },
+    "UK-w24-if": {
+     "자유민주당": 1
+    },
+    "UK-w24-ig": {
+     "자유민주당": 1
+    },
+    "UK-w24-ih": {
+     "자유민주당": 1
+    },
+    "UK-w24-ii": {
+     "자유민주당": 1
+    },
+    "UK-w24-ij": {
+     "보수당": 1
+    },
+    "UK-w24-ik": {
+     "보수당": 1
+    },
+    "UK-w24-il": {
+     "보수당": 1
+    },
+    "UK-w24-im": {
+     "노동당": 1
+    },
+    "UK-w24-in": {
+     "노동당": 1
+    },
+    "UK-w24-io": {
+     "보수당": 1
+    },
+    "UK-w24-ip": {
+     "보수당": 1
+    },
+    "UK-w24-iq": {
+     "노동당": 1
+    },
+    "UK-w24-ir": {
+     "자유민주당": 1
+    },
+    "UK-w24-is": {
+     "보수당": 1
+    },
+    "UK-w24-it": {
+     "노동당": 1
+    },
+    "UK-w24-iu": {
+     "보수당": 1
+    },
+    "UK-w24-iv": {
+     "자유민주당": 1
+    },
+    "UK-w24-iw": {
+     "보수당": 1
+    },
+    "UK-w24-ix": {
+     "자유민주당": 1
+    },
+    "UK-w24-iy": {
+     "노동당": 1
+    },
+    "UK-w24-iz": {
+     "보수당": 1
+    },
+    "UK-w24-ja": {
+     "노동당": 1
+    },
+    "UK-w24-jb": {
+     "자유민주당": 1
+    },
+    "UK-w24-jc": {
+     "자유민주당": 1
+    },
+    "UK-w24-jd": {
+     "보수당": 1
+    },
+    "UK-w24-jf": {
+     "보수당": 1
+    },
+    "UK-w24-jg": {
+     "자유민주당": 1
+    },
+    "UK-w24-ji": {
+     "노동당": 1
+    },
+    "UK-w24-jh": {
+     "노동당": 1
+    },
+    "UK-w24-jj": {
+     "보수당": 1
+    },
+    "UK-w24-jk": {
+     "보수당": 1
+    },
+    "UK-w24-jl": {
+     "자유민주당": 1
+    },
+    "UK-w24-jm": {
+     "자유민주당": 1
+    },
+    "UK-w24-jn": {
+     "보수당": 1
+    },
+    "UK-w24-jo": {
+     "노동당": 1
+    },
+    "UK-w24-jp": {
+     "자유민주당": 1
+    },
+    "UK-w24-jq": {
+     "노동당": 1
+    },
+    "UK-w24-jr": {
+     "노동당": 1
+    },
+    "UK-w24-js": {
+     "노동당": 1
+    },
+    "UK-w24-je": {
+     "노동당": 1
+    },
+    "UK-w24-jt": {
+     "보수당": 1
+    },
+    "UK-w24-ju": {
+     "노동당": 1
+    },
+    "UK-w24-jv": {
+     "보수당": 1
+    },
+    "UK-w24-jw": {
+     "보수당": 1
+    },
+    "UK-w24-jx": {
+     "보수당": 1
+    },
+    "UK-w24-jy": {
+     "노동당": 1
+    },
+    "UK-w24-jz": {
+     "노동당": 1
+    },
+    "UK-w24-ka": {
+     "노동당": 1
+    },
+    "UK-w24-kb": {
+     "노동당": 1
+    },
+    "UK-w24-kc": {
+     "보수당": 1
+    },
+    "UK-w24-kd": {
+     "자유민주당": 1
+    },
+    "UK-w24-ke": {
+     "보수당": 1
+    },
+    "UK-w24-kf": {
+     "보수당": 1
+    },
+    "UK-w24-kg": {
+     "자유민주당": 1
+    },
+    "UK-w24-kh": {
+     "보수당": 1
+    },
+    "UK-w24-ki": {
+     "자유민주당": 1
+    },
+    "UK-w24-kj": {
+     "보수당": 1
+    },
+    "UK-w24-kk": {
+     "자유민주당": 1
+    },
+    "UK-w24-kl": {
+     "자유민주당": 1
+    },
+    "UK-w24-km": {
+     "자유민주당": 1
+    },
+    "UK-w24-kn": {
+     "노동당": 1
+    },
+    "UK-w24-ko": {
+     "노동당": 1
+    },
+    "UK-w24-ev": {
+     "자유민주당": 1
+    },
+    "UK-w24-ew": {
+     "노동당": 1
+    },
+    "UK-w24-ex": {
+     "노동당": 1
+    },
+    "UK-w24-ey": {
+     "보수당": 1
+    },
+    "UK-w24-ez": {
+     "녹색당": 1
+    },
+    "UK-w24-fa": {
+     "노동당": 1
+    },
+    "UK-w24-fb": {
+     "노동당": 1
+    },
+    "UK-w24-fc": {
+     "노동당": 1
+    },
+    "UK-w24-fd": {
+     "노동당": 1
+    },
+    "UK-w24-fe": {
+     "노동당": 1
+    },
+    "UK-w24-ff": {
+     "보수당": 1
+    },
+    "UK-w24-fg": {
+     "자유민주당": 1
+    },
+    "UK-w24-fh": {
+     "자유민주당": 1
+    },
+    "UK-w24-fi": {
+     "보수당": 1
+    },
+    "UK-w24-fj": {
+     "보수당": 1
+    },
+    "UK-w24-fk": {
+     "노동당": 1
+    },
+    "UK-w24-fl": {
+     "보수당": 1
+    },
+    "UK-w24-fm": {
+     "노동당": 1
+    },
+    "UK-w24-fn": {
+     "노동당": 1
+    },
+    "UK-w24-fo": {
+     "자유민주당": 1
+    },
+    "UK-w24-fp": {
+     "자유민주당": 1
+    },
+    "UK-w24-fq": {
+     "노동당": 1
+    },
+    "UK-w24-fr": {
+     "자유민주당": 1
+    },
+    "UK-w24-fs": {
+     "자유민주당": 1
+    },
+    "UK-w24-ft": {
+     "자유민주당": 1
+    },
+    "UK-w24-fu": {
+     "자유민주당": 1
+    },
+    "UK-w24-fv": {
+     "자유민주당": 1
+    },
+    "UK-w24-fw": {
+     "보수당": 1
+    },
+    "UK-w24-fx": {
+     "자유민주당": 1
+    },
+    "UK-w24-fy": {
+     "보수당": 1
+    },
+    "UK-w24-fz": {
+     "노동당": 1
+    },
+    "UK-w24-ga": {
+     "노동당": 1
+    },
+    "UK-w24-gb": {
+     "노동당": 1
+    },
+    "UK-w24-gc": {
+     "노동당": 1
+    },
+    "UK-w24-gd": {
+     "노동당": 1
+    },
+    "UK-w24-ge": {
+     "보수당": 1
+    },
+    "UK-w24-gf": {
+     "자유민주당": 1
+    },
+    "UK-w24-gg": {
+     "자유민주당": 1
+    },
+    "UK-w24-gh": {
+     "노동당": 1
+    },
+    "UK-w24-gi": {
+     "노동당": 1
+    },
+    "UK-w24-gj": {
+     "보수당": 1
+    },
+    "UK-w24-gk": {
+     "보수당": 1
+    },
+    "UK-w24-gl": {
+     "노동당": 1
+    },
+    "UK-w24-gm": {
+     "자유민주당": 1
+    },
+    "UK-w24-gn": {
+     "노동당": 1
+    },
+    "UK-w24-go": {
+     "노동당": 1
+    },
+    "UK-w24-gp": {
+     "노동당": 1
+    },
+    "UK-w24-gq": {
+     "자유민주당": 1
+    },
+    "UK-w24-gr": {
+     "자유민주당": 1
+    },
+    "UK-w24-gs": {
+     "자유민주당": 1
+    },
+    "UK-w24-gt": {
+     "자유민주당": 1
+    },
+    "UK-w24-gu": {
+     "자유민주당": 1
+    },
+    "UK-w24-gv": {
+     "보수당": 1
+    },
+    "UK-w24-gw": {
+     "노동당": 1
+    },
+    "UK-w24-gx": {
+     "자유민주당": 1
+    },
+    "UK-w24-gy": {
+     "자유민주당": 1
+    },
+    "UK-w24-gz": {
+     "노동당": 1
+    },
+    "UK-w24-ha": {
+     "자유민주당": 1
+    },
+    "UK-w24-do": {
+     "노동당": 1
+    },
+    "UK-w24-dp": {
+     "노동당": 1
+    },
+    "UK-w24-dq": {
+     "노동당": 1
+    },
+    "UK-w24-dr": {
+     "노동당": 1
+    },
+    "UK-w24-ds": {
+     "자유민주당": 1
+    },
+    "UK-w24-dt": {
+     "노동당": 1
+    },
+    "UK-w24-du": {
+     "웨일스당 (플라이드 컴리)": 1
+    },
+    "UK-w24-dv": {
+     "노동당": 1
+    },
+    "UK-w24-dw": {
+     "노동당": 1
+    },
+    "UK-w24-dx": {
+     "노동당": 1
+    },
+    "UK-w24-dy": {
+     "노동당": 1
+    },
+    "UK-w24-dz": {
+     "노동당": 1
+    },
+    "UK-w24-ea": {
+     "웨일스당 (플라이드 컴리)": 1
+    },
+    "UK-w24-eb": {
+     "노동당": 1
+    },
+    "UK-w24-ec": {
+     "노동당": 1
+    },
+    "UK-w24-ed": {
+     "웨일스당 (플라이드 컴리)": 1
+    },
+    "UK-w24-ee": {
+     "노동당": 1
+    },
+    "UK-w24-ef": {
+     "노동당": 1
+    },
+    "UK-w24-eg": {
+     "노동당": 1
+    },
+    "UK-w24-eh": {
+     "노동당": 1
+    },
+    "UK-w24-ei": {
+     "노동당": 1
+    },
+    "UK-w24-ej": {
+     "노동당": 1
+    },
+    "UK-w24-ek": {
+     "노동당": 1
+    },
+    "UK-w24-el": {
+     "노동당": 1
+    },
+    "UK-w24-em": {
+     "노동당": 1
+    },
+    "UK-w24-en": {
+     "노동당": 1
+    },
+    "UK-w24-eo": {
+     "노동당": 1
+    },
+    "UK-w24-ep": {
+     "노동당": 1
+    },
+    "UK-w24-eq": {
+     "노동당": 1
+    },
+    "UK-w24-er": {
+     "노동당": 1
+    },
+    "UK-w24-es": {
+     "노동당": 1
+    },
+    "UK-w24-et": {
+     "웨일스당 (플라이드 컴리)": 1
+    },
+    "UK-w24-bi": {
+     "보수당": 1
+    },
+    "UK-w24-bk": {
+     "노동당": 1
+    },
+    "UK-w24-bl": {
+     "노동당": 1
+    },
+    "UK-w24-bm": {
+     "노동당": 1
+    },
+    "UK-w24-bn": {
+     "노동당": 1
+    },
+    "UK-w24-bo": {
+     "노동당": 1
+    },
+    "UK-w24-bp": {
+     "노동당": 1
+    },
+    "UK-w24-bq": {
+     "무소속": 1
+    },
+    "UK-w24-br": {
+     "노동당": 1
+    },
+    "UK-w24-bs": {
+     "노동당": 1
+    },
+    "UK-w24-bt": {
+     "보수당": 1
+    },
+    "UK-w24-bu": {
+     "노동당": 1
+    },
+    "UK-w24-bv": {
+     "노동당": 1
+    },
+    "UK-w24-bw": {
+     "노동당": 1
+    },
+    "UK-w24-bx": {
+     "노동당": 1
+    },
+    "UK-w24-by": {
+     "노동당": 1
+    },
+    "UK-w24-bz": {
+     "보수당": 1
+    },
+    "UK-w24-ca": {
+     "노동당": 1
+    },
+    "UK-w24-cb": {
+     "노동당": 1
+    },
+    "UK-w24-cc": {
+     "보수당": 1
+    },
+    "UK-w24-cd": {
+     "보수당": 1
+    },
+    "UK-w24-ce": {
+     "보수당": 1
+    },
+    "UK-w24-cf": {
+     "노동당": 1
+    },
+    "UK-w24-cg": {
+     "보수당": 1
+    },
+    "UK-w24-ch": {
+     "노동당": 1
+    },
+    "UK-w24-ci": {
+     "녹색당": 1
+    },
+    "UK-w24-cj": {
+     "자유민주당": 1
+    },
+    "UK-w24-bj": {
+     "노동당": 1
+    },
+    "UK-w24-ck": {
+     "노동당": 1
+    },
+    "UK-w24-cl": {
+     "노동당": 1
+    },
+    "UK-w24-cm": {
+     "노동당": 1
+    },
+    "UK-w24-cn": {
+     "노동당": 1
+    },
+    "UK-w24-co": {
+     "노동당": 1
+    },
+    "UK-w24-cp": {
+     "보수당": 1
+    },
+    "UK-w24-cq": {
+     "보수당": 1
+    },
+    "UK-w24-cr": {
+     "노동당": 1
+    },
+    "UK-w24-cs": {
+     "보수당": 1
+    },
+    "UK-w24-ct": {
+     "노동당": 1
+    },
+    "UK-w24-cu": {
+     "노동당": 1
+    },
+    "UK-w24-cv": {
+     "노동당": 1
+    },
+    "UK-w24-cw": {
+     "보수당": 1
+    },
+    "UK-w24-cx": {
+     "노동당": 1
+    },
+    "UK-w24-cy": {
+     "자유민주당": 1
+    },
+    "UK-w24-cz": {
+     "보수당": 1
+    },
+    "UK-w24-da": {
+     "노동당": 1
+    },
+    "UK-w24-db": {
+     "노동당": 1
+    },
+    "UK-w24-dc": {
+     "보수당": 1
+    },
+    "UK-w24-dd": {
+     "노동당": 1
+    },
+    "UK-w24-de": {
+     "노동당": 1
+    },
+    "UK-w24-df": {
+     "노동당": 1
+    },
+    "UK-w24-dg": {
+     "노동당": 1
+    },
+    "UK-w24-dh": {
+     "보수당": 1
+    },
+    "UK-w24-di": {
+     "노동당": 1
+    },
+    "UK-w24-dj": {
+     "노동당": 1
+    },
+    "UK-w24-dk": {
+     "노동당": 1
+    },
+    "UK-w24-dl": {
+     "노동당": 1
+    },
+    "UK-w24-dm": {
+     "보수당": 1
+    },
+    "UK-w24-f": {
+     "노동당": 1
+    },
+    "UK-w24-g": {
+     "노동당": 1
+    },
+    "UK-w24-h": {
+     "보수당": 1
+    },
+    "UK-w24-i": {
+     "노동당": 1
+    },
+    "UK-w24-j": {
+     "노동당": 1
+    },
+    "UK-w24-k": {
+     "노동당": 1
+    },
+    "UK-w24-l": {
+     "보수당": 1
+    },
+    "UK-w24-m": {
+     "보수당": 1
+    },
+    "UK-w24-n": {
+     "노동당": 1
+    },
+    "UK-w24-o": {
+     "노동당": 1
+    },
+    "UK-w24-p": {
+     "무소속": 1
+    },
+    "UK-w24-q": {
+     "노동당": 1
+    },
+    "UK-w24-r": {
+     "노동당": 1
+    },
+    "UK-w24-s": {
+     "노동당": 1
+    },
+    "UK-w24-t": {
+     "보수당": 1
+    },
+    "UK-w24-u": {
+     "노동당": 1
+    },
+    "UK-w24-v": {
+     "노동당": 1
+    },
+    "UK-w24-w": {
+     "자유민주당": 1
+    },
+    "UK-w24-y": {
+     "노동당": 1
+    },
+    "UK-w24-z": {
+     "보수당": 1
+    },
+    "UK-w24-aa": {
+     "노동당": 1
+    },
+    "UK-w24-ab": {
+     "노동당": 1
+    },
+    "UK-w24-ac": {
+     "노동당": 1
+    },
+    "UK-w24-x": {
+     "노동당": 1
+    },
+    "UK-w24-ae": {
+     "노동당": 1
+    },
+    "UK-w24-af": {
+     "노동당": 1
+    },
+    "UK-w24-ag": {
+     "노동당": 1
+    },
+    "UK-w24-ad": {
+     "노동당": 1
+    },
+    "UK-w24-ah": {
+     "노동당": 1
+    },
+    "UK-w24-al": {
+     "노동당": 1
+    },
+    "UK-w24-ai": {
+     "노동당": 1
+    },
+    "UK-w24-bd": {
+     "노동당": 1
+    },
+    "UK-w24-aj": {
+     "노동당": 1
+    },
+    "UK-w24-ak": {
+     "노동당": 1
+    },
+    "UK-w24-am": {
+     "노동당": 1
+    },
+    "UK-w24-an": {
+     "보수당": 1
+    },
+    "UK-w24-ao": {
+     "노동당": 1
+    },
+    "UK-w24-ap": {
+     "노동당": 1
+    },
+    "UK-w24-aq": {
+     "노동당": 1
+    },
+    "UK-w24-ar": {
+     "노동당": 1
+    },
+    "UK-w24-as": {
+     "노동당": 1
+    },
+    "UK-w24-at": {
+     "노동당": 1
+    },
+    "UK-w24-au": {
+     "노동당": 1
+    },
+    "UK-w24-av": {
+     "노동당": 1
+    },
+    "UK-w24-aw": {
+     "노동당": 1
+    },
+    "UK-w24-ax": {
+     "노동당": 1
+    },
+    "UK-w24-ay": {
+     "노동당": 1
+    },
+    "UK-w24-az": {
+     "보수당": 1
+    },
+    "UK-w24-ba": {
+     "노동당": 1
+    },
+    "UK-w24-bb": {
+     "보수당": 1
+    },
+    "UK-w24-bc": {
+     "노동당": 1
+    },
+    "UK-w24-be": {
+     "보수당": 1
+    },
+    "UK-w24-bg": {
+     "노동당": 1
+    },
+    "UK-w24-bf": {
+     "노동당": 1
+    }
+   }
+  }
+ ],
+ "seatNotes": "2024년에 선거구가 새로 바뀌어서, 2019년과 모양이 거의 같은 선거구에만 이름을 붙였어요. 나머지는 번호로 적었어요."
+}

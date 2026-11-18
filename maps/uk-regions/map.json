@@ -1,0 +1,107 @@
+{
+ "id": "uk-regions",
+ "name": "영국 지역 (ITL1)",
+ "subtitle": "12개 지역 · 아일랜드·왕실령은 참고용",
+ "tag": "UNITED KINGDOM",
+ "menuCountry": "영국",
+ "menuGroup": "영국 기본 지도",
+ "cardName": "지역 (ITL1)",
+ "yearLink": true,
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 1661.3,
+ "regions": {
+  "UK": "영국",
+  "CTX": "참고 지역"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "지역 (ITL1)",
+   "sub": "12개 지역 · 아일랜드·왕실령은 참고용",
+   "regions": [
+    "UK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1661.3
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "보수당",
+   "color": "#0087dc"
+  },
+  {
+   "name": "노동당",
+   "color": "#dc241f"
+  },
+  {
+   "name": "자유민주당",
+   "color": "#faa61a"
+  },
+  {
+   "name": "스코틀랜드 국민당 (SNP)",
+   "color": "#fdf38e"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {},
+ "names": {
+  "GB-UKC": "북동 잉글랜드",
+  "GB-UKD": "북서 잉글랜드",
+  "GB-UKE": "요크셔 험버",
+  "GB-UKF": "이스트미들랜즈",
+  "GB-UKG": "웨스트미들랜즈",
+  "GB-UKH": "잉글랜드 동부",
+  "GB-UKI": "그레이터런던",
+  "GB-UKJ": "남동 잉글랜드",
+  "GB-UKK": "남서 잉글랜드",
+  "GB-UKL": "웨일스",
+  "GB-UKM": "스코틀랜드",
+  "GB-UKN": "북아일랜드",
+  "GG": "건지",
+  "JE": "저지",
+  "IM": "맨섬",
+  "IE": "아일랜드"
+ },
+ "labels": {
+  "GB-UKC": "북동 잉글랜드",
+  "GB-UKD": "북서 잉글랜드",
+  "GB-UKE": "요크셔 험버",
+  "GB-UKF": "이스트미들랜즈",
+  "GB-UKG": "웨스트미들랜즈",
+  "GB-UKH": "잉글랜드 동부",
+  "GB-UKI": "그레이터런던",
+  "GB-UKJ": "남동 잉글랜드",
+  "GB-UKK": "남서 잉글랜드",
+  "GB-UKL": "웨일스",
+  "GB-UKM": "스코틀랜드",
+  "GB-UKN": "북아일랜드"
+ },
+ "regionOf": {
+  "GB-UKC": "UK",
+  "GB-UKD": "UK",
+  "GB-UKE": "UK",
+  "GB-UKF": "UK",
+  "GB-UKG": "UK",
+  "GB-UKH": "UK",
+  "GB-UKI": "UK",
+  "GB-UKJ": "UK",
+  "GB-UKK": "UK",
+  "GB-UKL": "UK",
+  "GB-UKM": "UK",
+  "GB-UKN": "UK",
+  "GG": "CTX",
+  "JE": "CTX",
+  "IM": "CTX",
+  "IE": "CTX"
+ },
+ "labelName": true,
+ "hideSeatOne": true
+}
