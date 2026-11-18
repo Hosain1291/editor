@@ -28,10 +28,36 @@ function seatColors(T) {
   return cols;
 }
 
+
+/* 웨스트민스터식 좌석: 왼쪽 끝 의장, 위쪽 여당석(최다 의석 정당), 아래쪽 야당석, 오른쪽 끝 중립석(경합) */
+function westHTML(T) {
+  const ps = [...store.parties].filter(p => T.t[p.id]).sort((a, b) => T.t[b.id] - T.t[a.id]);
+  const spk = ps.find(p => /의장|Speaker/.test(p.name));
+  const rest = ps.filter(p => p !== spk), gov = rest[0], opp = rest.slice(1);
+  const dots = p => { const o = []; T.mg[p.id].forEach((v, i) => { for (let k = 0; k < v; k++) o.push(p.colors[OPT.leans ? i : 0]); }); return o; };
+  const G = gov ? dots(gov) : [], O = [].concat(...opp.map(dots)), X = Array(T.toss).fill(TOSS), S = spk ? dots(spk) : [];
+  const rows = Math.max(3, Math.min(8, Math.ceil(Math.sqrt(Math.max(G.length, O.length, 1) / 7))));
+  const xc = Math.ceil(X.length / (rows * 2)), cols = Math.max(Math.ceil(G.length / rows), Math.ceil(O.length / rows), 1);
+  const x0 = -0.88, x1 = 1.02 - (xc ? 0.06 : 0), cell = Math.min((x1 - x0) / (cols + (xc ? xc + 1 : 0)), 0.42 / rows), r = cell * 0.4;
+  let out = '';
+  const bench = (arr, yTop, down) => arr.forEach((col, i) => { const cx = x0 + cell * (Math.floor(i / rows) + .5), ri = i % rows;
+    const cy = down ? yTop + cell * (rows - 1 - ri + .5) : yTop + cell * (ri + .5);
+    out += `<circle cx="${cx.toFixed(4)}" cy="${cy.toFixed(4)}" r="${r.toFixed(4)}" fill="${col}"/>`; });
+  const aisle = 0.22, yTopB = -0.52 - aisle / 2 - rows * cell, yBotB = -0.52 + aisle / 2;
+  bench(G, yTopB, true); bench(O, yBotB, false);
+  // 중립석(경합): 오른쪽 끝, 가운데 통로를 가로질러
+  const cxs = x0 + cell * (cols + 1);
+  X.forEach((col, i) => { const cx = cxs + cell * (Math.floor(i / (rows * 2)) + .5), cy = yTopB + cell * ((i % (rows * 2)) + .5) + ((i % (rows * 2)) >= rows ? aisle : 0);
+    out += `<circle cx="${cx.toFixed(4)}" cy="${cy.toFixed(4)}" r="${r.toFixed(4)}" fill="${col}"/>`; });
+  S.forEach((col, i) => out += `<circle cx="${(x0 - cell * (1.2 + i)).toFixed(4)}" cy="-0.52" r="${(r * 1.15).toFixed(4)}" fill="${col}"/>`);
+  out += `<text x="${((x0 + cell * cols) / 2 + x0 / 2).toFixed(3)}" y="-0.49" text-anchor="middle" font-family="Rajdhani,sans-serif" font-weight="700" font-size=".1" fill="${THEME.text}">${T.all}석 · 과반 ${T.maj}</text>`;
+  return out;
+}
+
 function renderChart(T) {
   renderSeatBar(T);
   const hs = $('#hemi'), bar = $('#bar'), pie = $('#pie');
-  hs.style.display = chart === 'hemi' ? 'block' : 'none'; bar.style.display = chart === 'bar' ? 'flex' : 'none'; pie.style.display = chart === 'pie' ? 'block' : 'none';
+  hs.style.display = (chart === 'hemi' || chart === 'west') ? 'block' : 'none'; bar.style.display = chart === 'bar' ? 'flex' : 'none'; pie.style.display = chart === 'pie' ? 'block' : 'none';
   if (chart === 'pie') {
     // 원 차트: 정당(강도별) → 경합 순서로 조각
     const segs = []; store.parties.forEach(p => T.mg[p.id].forEach((v, i) => { if (v) segs.push([v, p.colors[OPT.leans ? i : 0]]); }));
@@ -49,11 +75,12 @@ function renderChart(T) {
     out += `<text y=".08" text-anchor="middle" font-family="Rajdhani,sans-serif" font-weight="700" font-size=".32" fill="${THEME.text}">${T.all}</text><text y=".26" text-anchor="middle" font-size=".1" fill="${THEME.mute}">과반 ${T.maj}</text>`;
     pie.innerHTML = out;
   }
-  if (chart === 'hemi') {
+  if (chart === 'west') { hs.innerHTML = westHTML(T); }
+  else if (chart === 'hemi') {
     const S = hemiSeats(T.all), cols = seatColors(T);
     hs.innerHTML = S.map((s, i) => `<circle cx="${s.x.toFixed(4)}" cy="${s.y.toFixed(4)}" r="${s.rad.toFixed(4)}" fill="${cols[i] || TOSS}"/>`).join('') +
       `<text x="0" y="-.08" text-anchor="middle" font-family="Rajdhani,sans-serif" font-weight="700" font-size=".28" fill="${THEME.text}">${T.all}</text><text x="0" y=".02" text-anchor="middle" font-size=".085" fill="${THEME.mute}">과반 ${T.maj}</text>`;
-  } else {
+  } else if (chart === 'bar') {
     bar.innerHTML = bgHTML(T).replace(/<i /g, '<div ').replace(/<\/i>/g, '</div>');
     const m = document.createElement('div'); m.className = 'maj'; m.style.left = (T.maj / T.all * 100) + '%'; bar.appendChild(m);
   }
@@ -93,8 +120,7 @@ function renderSeatBar(T) {
     `<span class="sbR">${R ? `<b class="num">${T.t[R.id]}</b> ${nm(R)}<i style="background:${R.colors[0]}"></i>` : ''}</span>`;
 }
 
+function setChart(c) { chart = c; $$('.ctog button').forEach(x => x.classList.toggle('on', x.dataset.c === c)); }
 function initChart() {
-  $$('.ctog button').forEach(b => b.onclick = () => {
-    chart = b.dataset.c; $$('.ctog button').forEach(x => x.classList.toggle('on', x === b)); renderParties();
-  });
+  $$('.ctog button').forEach(b => b.onclick = () => { setChart(b.dataset.c); renderParties(); });
 }

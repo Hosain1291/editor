@@ -240,6 +240,7 @@ function moveTip(cx, cy) { const tip = $('#tip'); tipXY = [cx, cy]; const w = ti
 /* ---------- 지도 열기 ---------- */
 function openView(v) {
   curView = v;
+  if (typeof setChart === 'function') setChart(MAP.chart || (chart === 'west' ? 'hemi' : chart));
   if (!store.maps[v.key]) store.maps[v.key] = { d: offInit({}) }; M = store.maps[v.key];
   mapIds = idsOfView(v); inMap = {}; mapIds.forEach(id => inMap[id] = true);
   ids.forEach(id => els[id].classList.toggle('ctx', !inMap[id]));
