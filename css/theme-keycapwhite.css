@@ -1,6 +1,6 @@
 /* 키캡 화이트: 선거구가 키보드 키캡처럼 솟아 보여요 (틈은 검은 선, 윗면은 빛을 받아 볼록) */
-#mapWrap{perspective:1300px;overflow:hidden;background:radial-gradient(ellipse at 50% 25%,#ffffff 0,#d9d5cc 75%);background-size:auto}
-#map{position:absolute;left:-18%;top:-32%;width:136%!important;height:150%!important;overflow:visible;transform:rotateX(30deg);transform-origin:50% 60%}
+#mapWrap{perspective:1300px;overflow:hidden;background:radial-gradient(ellipse at 50% 25%,#ffffff 0,#d9d5cc 75%)!important;background-size:auto!important}
+#map{position:absolute;left:-6%;top:-8%;width:112%!important;height:116%!important;overflow:visible;transform:rotateX(24deg);transform-origin:50% 50%}
 #map #g{filter:url(#kcFw)}
 #map #g path,#map #g path.ctx{stroke:#000!important;stroke-width:2.4px!important;stroke-dasharray:none;transition:none!important}
 #map #g path.lock{stroke-dasharray:none}

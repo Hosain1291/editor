@@ -48,7 +48,7 @@ function applyTheme(id) {
   if (!THEMES[id]) return;
   THEME_ID = id; THEME = THEMES[id];
   try { localStorage.setItem('tnomap:theme', id); } catch (e) { }
-  setThemeCss();
+  setThemeCss(); requestAnimationFrame(() => { if (window.kcTune) kcTune(); });
   TOSS = THEME.toss; CTX_FILL = THEME.ctx;
   if (typeof STROKE_COLORS !== 'undefined') { STROKE_COLORS.pink = THEME.stroke; STROKE_COLORS.bg = THEME.sea; STROKE_COLORS.cyan = THEME.frame; }
   themeTexts();
@@ -67,3 +67,16 @@ document.addEventListener('click', e => {
 document.addEventListener('keydown', e => { if (e.key === 'Escape') document.querySelectorAll('.themeSeg.open').forEach(s => s.classList.remove('open')); });
 document.addEventListener('DOMContentLoaded', themeTexts);
 
+
+/* 키캡 테마: 볼록한 테두리·옆면 두께를 화면 픽셀 기준으로 맞춰요 (지도 크기·확대와 상관없이 같은 모양) */
+function kcTune() {
+  if (!/^tdb/.test(THEME_ID)) return;
+  const s = document.getElementById('map'); if (!s || !s.viewBox || !s.viewBox.baseVal) return;
+  const w = s.getBoundingClientRect().width || s.clientWidth; if (!w) return;
+  const u = s.viewBox.baseVal.width / w;
+  document.querySelectorAll('filter[id^="kcF"]').forEach(f => {
+    f.querySelectorAll('feGaussianBlur').forEach(e => e.setAttribute('stdDeviation', (1.5 * u).toFixed(4)));
+    f.querySelectorAll('feOffset').forEach(e => e.setAttribute('dy', (3 * u).toFixed(4)));
+  });
+}
+window.addEventListener('resize', () => { if (window.kcTune) kcTune(); });
