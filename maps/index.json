@@ -3003,6 +3003,54 @@
   {
    "id": "uk-counties",
    "folder": "uk-counties"
+  },
+  {
+   "id": "jp-1996",
+   "folder": "jp-1996"
+  },
+  {
+   "id": "jp-2000",
+   "folder": "jp-2000"
+  },
+  {
+   "id": "jp-2003",
+   "folder": "jp-2003"
+  },
+  {
+   "id": "jp-2005",
+   "folder": "jp-2005"
+  },
+  {
+   "id": "jp-2009",
+   "folder": "jp-2009"
+  },
+  {
+   "id": "jp-2012",
+   "folder": "jp-2012"
+  },
+  {
+   "id": "jp-2014",
+   "folder": "jp-2014"
+  },
+  {
+   "id": "jp-2017",
+   "folder": "jp-2017"
+  },
+  {
+   "id": "jp-2021",
+   "folder": "jp-2021"
+  },
+  {
+   "id": "jp-2024",
+   "folder": "jp-2024"
+  },
+  {
+   "id": "jp-2026",
+   "folder": "jp-2026"
+  },
+  {
+   "id": "jp-prefectures",
+   "folder": "jp-prefectures"
   }
  ]
 }
