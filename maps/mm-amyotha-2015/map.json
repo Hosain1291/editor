@@ -1,0 +1,1127 @@
+{
+ "id": "mm-amyotha-2015",
+ "name": "미얀마 민족의회 선거 2015",
+ "subtitle": "선거구 168개 · 168석",
+ "tag": "MYANMAR 2015 · AMYOTHA HLUTTAW",
+ "menuCountry": "미얀마",
+ "menuGroup": "미얀마 민족의회 (아묘더 흘릇또)",
+ "menuLabel": "선거를 고르세요",
+ "cardName": "2015",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 2209.8,
+ "regions": {
+  "Kachin": "카친주",
+  "Kayah": "카야주",
+  "Kayin": "카인주",
+  "Chin": "친주",
+  "Mon": "몬주",
+  "Rakhine": "라카인주",
+  "Shan": "샨주",
+  "Sagaing": "사가잉 지방",
+  "Tanintharyi": "따닌따리 지방",
+  "Bago": "바고 지방",
+  "Magway": "마궤 지방",
+  "Mandalay": "만달레이 지방",
+  "Yangon": "양곤 지방",
+  "Ayeyarwady": "에야와디 지방",
+  "CTX": "선거 미실시"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "미얀마 전체",
+   "sub": "선거구 168개",
+   "regions": [
+    "Kachin",
+    "Kayah",
+    "Kayin",
+    "Chin",
+    "Mon",
+    "Rakhine",
+    "Shan",
+    "Sagaing",
+    "Tanintharyi",
+    "Bago",
+    "Magway",
+    "Mandalay",
+    "Yangon",
+    "Ayeyarwady"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    2209.8
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "민주주의민족동맹 (NLD)",
+   "color": "#E31B23"
+  },
+  {
+   "name": "연방단결발전당 (USDP)",
+   "color": "#1E8E3E"
+  },
+  {
+   "name": "아라칸민족당 (ANP)",
+   "color": "#F2A900"
+  },
+  {
+   "name": "샨족민주연맹 (SNLD)",
+   "color": "#F5D000"
+  },
+  {
+   "name": "조미민주회의 (ZCD)",
+   "color": "#17A589"
+  },
+  {
+   "name": "타앙민족당 (TNP)",
+   "color": "#8E44AD"
+  },
+  {
+   "name": "민족통일당 (NUP)",
+   "color": "#5D6D7E"
+  },
+  {
+   "name": "몬민족당 (MNP)",
+   "color": "#C0392B"
+  },
+  {
+   "name": "파오민족기구 (PNO)",
+   "color": "#2E86C1"
+  },
+  {
+   "name": "무소속",
+   "color": "#9E9E9E"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "Ayeyarwady-1": 1,
+  "Ayeyarwady-2": 1,
+  "Ayeyarwady-3": 1,
+  "Ayeyarwady-4": 1,
+  "Ayeyarwady-5": 1,
+  "Ayeyarwady-6": 1,
+  "Ayeyarwady-7": 1,
+  "Ayeyarwady-8": 1,
+  "Ayeyarwady-9": 1,
+  "Ayeyarwady-10": 1,
+  "Ayeyarwady-11": 1,
+  "Ayeyarwady-12": 1,
+  "Bago-1": 1,
+  "Bago-2": 1,
+  "Bago-3": 1,
+  "Bago-4": 1,
+  "Bago-5": 1,
+  "Bago-6": 1,
+  "Bago-7": 1,
+  "Bago-8": 1,
+  "Bago-9": 1,
+  "Bago-10": 1,
+  "Bago-11": 1,
+  "Bago-12": 1,
+  "Chin-1": 1,
+  "Chin-2": 1,
+  "Chin-3": 1,
+  "Chin-4": 1,
+  "Chin-5": 1,
+  "Chin-6": 1,
+  "Chin-7": 1,
+  "Chin-8": 1,
+  "Chin-9": 1,
+  "Chin-10": 1,
+  "Chin-11": 1,
+  "Chin-12": 1,
+  "Kachin-1": 1,
+  "Kachin-2": 1,
+  "Kachin-3": 1,
+  "Kachin-4": 1,
+  "Kachin-5": 1,
+  "Kachin-6": 1,
+  "Kachin-7": 1,
+  "Kachin-8": 1,
+  "Kachin-9": 1,
+  "Kachin-10": 1,
+  "Kachin-11": 1,
+  "Kachin-12": 1,
+  "Kayah-1": 1,
+  "Kayah-2": 1,
+  "Kayah-3": 1,
+  "Kayah-4": 1,
+  "Kayah-5": 1,
+  "Kayah-6": 1,
+  "Kayah-7": 1,
+  "Kayah-8": 1,
+  "Kayah-9": 1,
+  "Kayah-10": 1,
+  "Kayah-11": 1,
+  "Kayah-12": 1,
+  "Kayin-1": 1,
+  "Kayin-2": 1,
+  "Kayin-3": 1,
+  "Kayin-4": 1,
+  "Kayin-5": 1,
+  "Kayin-6": 1,
+  "Kayin-7": 1,
+  "Kayin-8": 1,
+  "Kayin-9": 1,
+  "Kayin-10": 1,
+  "Kayin-11": 1,
+  "Kayin-12": 1,
+  "Magway-1": 1,
+  "Magway-2": 1,
+  "Magway-3": 1,
+  "Magway-4": 1,
+  "Magway-5": 1,
+  "Magway-6": 1,
+  "Magway-7": 1,
+  "Magway-8": 1,
+  "Magway-9": 1,
+  "Magway-10": 1,
+  "Magway-11": 1,
+  "Magway-12": 1,
+  "Mandalay-1": 1,
+  "Mandalay-2": 1,
+  "Mandalay-3": 1,
+  "Mandalay-4": 1,
+  "Mandalay-5": 1,
+  "Mandalay-6": 1,
+  "Mandalay-7": 1,
+  "Mandalay-8": 1,
+  "Mandalay-9": 1,
+  "Mandalay-10": 1,
+  "Mandalay-11": 1,
+  "Mandalay-12": 1,
+  "Mon-1": 1,
+  "Mon-2": 1,
+  "Mon-3": 1,
+  "Mon-4": 1,
+  "Mon-5": 1,
+  "Mon-6": 1,
+  "Mon-7": 1,
+  "Mon-8": 1,
+  "Mon-9": 1,
+  "Mon-10": 1,
+  "Mon-11": 1,
+  "Mon-12": 1,
+  "Rakhine-1": 1,
+  "Rakhine-2": 1,
+  "Rakhine-3": 1,
+  "Rakhine-4": 1,
+  "Rakhine-5": 1,
+  "Rakhine-6": 1,
+  "Rakhine-7": 1,
+  "Rakhine-8": 1,
+  "Rakhine-9": 1,
+  "Rakhine-10": 1,
+  "Rakhine-11": 1,
+  "Rakhine-12": 1,
+  "Sagaing-1": 1,
+  "Sagaing-2": 1,
+  "Sagaing-3": 1,
+  "Sagaing-4": 1,
+  "Sagaing-5": 1,
+  "Sagaing-6": 1,
+  "Sagaing-7": 1,
+  "Sagaing-8": 1,
+  "Sagaing-9": 1,
+  "Sagaing-10": 1,
+  "Sagaing-11": 1,
+  "Sagaing-12": 1,
+  "Shan-1": 1,
+  "Shan-2": 1,
+  "Shan-3": 1,
+  "Shan-4": 1,
+  "Shan-5": 1,
+  "Shan-6": 1,
+  "Shan-7": 1,
+  "Shan-8": 1,
+  "Shan-9": 1,
+  "Shan-10": 1,
+  "Shan-11": 1,
+  "Shan-12": 1,
+  "Tanintharyi-1": 1,
+  "Tanintharyi-2": 1,
+  "Tanintharyi-3": 1,
+  "Tanintharyi-4": 1,
+  "Tanintharyi-5": 1,
+  "Tanintharyi-6": 1,
+  "Tanintharyi-7": 1,
+  "Tanintharyi-8": 1,
+  "Tanintharyi-9": 1,
+  "Tanintharyi-10": 1,
+  "Tanintharyi-11": 1,
+  "Tanintharyi-12": 1,
+  "Yangon-1": 1,
+  "Yangon-2": 1,
+  "Yangon-3": 1,
+  "Yangon-4": 1,
+  "Yangon-5": 1,
+  "Yangon-6": 1,
+  "Yangon-7": 1,
+  "Yangon-8": 1,
+  "Yangon-9": 1,
+  "Yangon-10": 1,
+  "Yangon-11": 1,
+  "Yangon-12": 1
+ },
+ "names": {
+  "Ayeyarwady-1": "에야와디 지역 제1선거구",
+  "Ayeyarwady-2": "에야와디 지역 제2선거구",
+  "Ayeyarwady-3": "에야와디 지역 제3선거구",
+  "Ayeyarwady-4": "에야와디 지역 제4선거구",
+  "Ayeyarwady-5": "에야와디 지역 제5선거구",
+  "Ayeyarwady-6": "에야와디 지역 제6선거구",
+  "Ayeyarwady-7": "에야와디 지역 제7선거구",
+  "Ayeyarwady-8": "에야와디 지역 제8선거구",
+  "Ayeyarwady-9": "에야와디 지역 제9선거구",
+  "Ayeyarwady-10": "에야와디 지역 제10선거구",
+  "Ayeyarwady-11": "에야와디 지역 제11선거구",
+  "Ayeyarwady-12": "에야와디 지역 제12선거구",
+  "Bago-1": "바고 지역 제1선거구",
+  "Bago-2": "바고 지역 제2선거구",
+  "Bago-3": "바고 지역 제3선거구",
+  "Bago-4": "바고 지역 제4선거구",
+  "Bago-5": "바고 지역 제5선거구",
+  "Bago-6": "바고 지역 제6선거구",
+  "Bago-7": "바고 지역 제7선거구",
+  "Bago-8": "바고 지역 제8선거구",
+  "Bago-9": "바고 지역 제9선거구",
+  "Bago-10": "바고 지역 제10선거구",
+  "Bago-11": "바고 지역 제11선거구",
+  "Bago-12": "바고 지역 제12선거구",
+  "Chin-1": "친주 제1선거구",
+  "Chin-2": "친주 제2선거구",
+  "Chin-3": "친주 제3선거구",
+  "Chin-4": "친주 제4선거구",
+  "Chin-5": "친주 제5선거구",
+  "Chin-6": "친주 제6선거구",
+  "Chin-7": "친주 제7선거구",
+  "Chin-8": "친주 제8선거구",
+  "Chin-9": "친주 제9선거구",
+  "Chin-10": "친주 제10선거구",
+  "Chin-11": "친주 제11선거구",
+  "Chin-12": "친주 제12선거구",
+  "Kachin-1": "카친주 제1선거구",
+  "Kachin-2": "카친주 제2선거구",
+  "Kachin-3": "카친주 제3선거구",
+  "Kachin-4": "카친주 제4선거구",
+  "Kachin-5": "카친주 제5선거구",
+  "Kachin-6": "카친주 제6선거구",
+  "Kachin-7": "카친주 제7선거구",
+  "Kachin-8": "카친주 제8선거구",
+  "Kachin-9": "카친주 제9선거구",
+  "Kachin-10": "카친주 제10선거구",
+  "Kachin-11": "카친주 제11선거구",
+  "Kachin-12": "카친주 제12선거구",
+  "Kayah-1": "카야주 제1선거구",
+  "Kayah-2": "카야주 제2선거구",
+  "Kayah-3": "카야주 제3선거구",
+  "Kayah-4": "카야주 제4선거구",
+  "Kayah-5": "카야주 제5선거구",
+  "Kayah-6": "카야주 제6선거구",
+  "Kayah-7": "카야주 제7선거구",
+  "Kayah-8": "카야주 제8선거구",
+  "Kayah-9": "카야주 제9선거구",
+  "Kayah-10": "카야주 제10선거구",
+  "Kayah-11": "카야주 제11선거구",
+  "Kayah-12": "카야주 제12선거구",
+  "Kayin-1": "카인주 제1선거구",
+  "Kayin-2": "카인주 제2선거구",
+  "Kayin-3": "카인주 제3선거구",
+  "Kayin-4": "카인주 제4선거구",
+  "Kayin-5": "카인주 제5선거구",
+  "Kayin-6": "카인주 제6선거구",
+  "Kayin-7": "카인주 제7선거구",
+  "Kayin-8": "카인주 제8선거구",
+  "Kayin-9": "카인주 제9선거구",
+  "Kayin-10": "카인주 제10선거구",
+  "Kayin-11": "카인주 제11선거구",
+  "Kayin-12": "카인주 제12선거구",
+  "Magway-1": "마궤 지역 제1선거구",
+  "Magway-2": "마궤 지역 제2선거구",
+  "Magway-3": "마궤 지역 제3선거구",
+  "Magway-4": "마궤 지역 제4선거구",
+  "Magway-5": "마궤 지역 제5선거구",
+  "Magway-6": "마궤 지역 제6선거구",
+  "Magway-7": "마궤 지역 제7선거구",
+  "Magway-8": "마궤 지역 제8선거구",
+  "Magway-9": "마궤 지역 제9선거구",
+  "Magway-10": "마궤 지역 제10선거구",
+  "Magway-11": "마궤 지역 제11선거구",
+  "Magway-12": "마궤 지역 제12선거구",
+  "Mandalay-1": "만달레이 지역 제1선거구",
+  "Mandalay-2": "만달레이 지역 제2선거구",
+  "Mandalay-3": "만달레이 지역 제3선거구",
+  "Mandalay-4": "만달레이 지역 제4선거구",
+  "Mandalay-5": "만달레이 지역 제5선거구",
+  "Mandalay-6": "만달레이 지역 제6선거구",
+  "Mandalay-7": "만달레이 지역 제7선거구",
+  "Mandalay-8": "만달레이 지역 제8선거구",
+  "Mandalay-9": "만달레이 지역 제9선거구",
+  "Mandalay-10": "만달레이 지역 제10선거구",
+  "Mandalay-11": "만달레이 지역 제11선거구",
+  "Mandalay-12": "만달레이 지역 제12선거구",
+  "Mon-1": "몬주 제1선거구",
+  "Mon-2": "몬주 제2선거구",
+  "Mon-3": "몬주 제3선거구",
+  "Mon-4": "몬주 제4선거구",
+  "Mon-5": "몬주 제5선거구",
+  "Mon-6": "몬주 제6선거구",
+  "Mon-7": "몬주 제7선거구",
+  "Mon-8": "몬주 제8선거구",
+  "Mon-9": "몬주 제9선거구",
+  "Mon-10": "몬주 제10선거구",
+  "Mon-11": "몬주 제11선거구",
+  "Mon-12": "몬주 제12선거구",
+  "Rakhine-1": "라카인주 제1선거구",
+  "Rakhine-2": "라카인주 제2선거구",
+  "Rakhine-3": "라카인주 제3선거구",
+  "Rakhine-4": "라카인주 제4선거구",
+  "Rakhine-5": "라카인주 제5선거구",
+  "Rakhine-6": "라카인주 제6선거구",
+  "Rakhine-7": "라카인주 제7선거구",
+  "Rakhine-8": "라카인주 제8선거구",
+  "Rakhine-9": "라카인주 제9선거구",
+  "Rakhine-10": "라카인주 제10선거구",
+  "Rakhine-11": "라카인주 제11선거구",
+  "Rakhine-12": "라카인주 제12선거구",
+  "Sagaing-1": "사가잉 지역 제1선거구",
+  "Sagaing-2": "사가잉 지역 제2선거구",
+  "Sagaing-3": "사가잉 지역 제3선거구",
+  "Sagaing-4": "사가잉 지역 제4선거구",
+  "Sagaing-5": "사가잉 지역 제5선거구",
+  "Sagaing-6": "사가잉 지역 제6선거구",
+  "Sagaing-7": "사가잉 지역 제7선거구",
+  "Sagaing-8": "사가잉 지역 제8선거구",
+  "Sagaing-9": "사가잉 지역 제9선거구",
+  "Sagaing-10": "사가잉 지역 제10선거구",
+  "Sagaing-11": "사가잉 지역 제11선거구",
+  "Sagaing-12": "사가잉 지역 제12선거구",
+  "Shan-1": "샨주 제1선거구",
+  "Shan-2": "샨주 제2선거구",
+  "Shan-3": "샨주 제3선거구",
+  "Shan-4": "샨주 제4선거구",
+  "Shan-5": "샨주 제5선거구",
+  "Shan-6": "샨주 제6선거구",
+  "Shan-7": "샨주 제7선거구",
+  "Shan-8": "샨주 제8선거구",
+  "Shan-9": "샨주 제9선거구",
+  "Shan-10": "샨주 제10선거구",
+  "Shan-11": "샨주 제11선거구",
+  "Shan-12": "샨주 제12선거구",
+  "Tanintharyi-1": "타닌타리 지역 제1선거구",
+  "Tanintharyi-2": "타닌타리 지역 제2선거구",
+  "Tanintharyi-3": "타닌타리 지역 제3선거구",
+  "Tanintharyi-4": "타닌타리 지역 제4선거구",
+  "Tanintharyi-5": "타닌타리 지역 제5선거구",
+  "Tanintharyi-6": "타닌타리 지역 제6선거구",
+  "Tanintharyi-7": "타닌타리 지역 제7선거구",
+  "Tanintharyi-8": "타닌타리 지역 제8선거구",
+  "Tanintharyi-9": "타닌타리 지역 제9선거구",
+  "Tanintharyi-10": "타닌타리 지역 제10선거구",
+  "Tanintharyi-11": "타닌타리 지역 제11선거구",
+  "Tanintharyi-12": "타닌타리 지역 제12선거구",
+  "Yangon-1": "양곤 지역 제1선거구",
+  "Yangon-2": "양곤 지역 제2선거구",
+  "Yangon-3": "양곤 지역 제3선거구",
+  "Yangon-4": "양곤 지역 제4선거구",
+  "Yangon-5": "양곤 지역 제5선거구",
+  "Yangon-6": "양곤 지역 제6선거구",
+  "Yangon-7": "양곤 지역 제7선거구",
+  "Yangon-8": "양곤 지역 제8선거구",
+  "Yangon-9": "양곤 지역 제9선거구",
+  "Yangon-10": "양곤 지역 제10선거구",
+  "Yangon-11": "양곤 지역 제11선거구",
+  "Yangon-12": "양곤 지역 제12선거구"
+ },
+ "regionOf": {
+  "Ayeyarwady-1": "Ayeyarwady",
+  "Ayeyarwady-2": "Ayeyarwady",
+  "Ayeyarwady-3": "Ayeyarwady",
+  "Ayeyarwady-4": "Ayeyarwady",
+  "Ayeyarwady-5": "Ayeyarwady",
+  "Ayeyarwady-6": "Ayeyarwady",
+  "Ayeyarwady-7": "Ayeyarwady",
+  "Ayeyarwady-8": "Ayeyarwady",
+  "Ayeyarwady-9": "Ayeyarwady",
+  "Ayeyarwady-10": "Ayeyarwady",
+  "Ayeyarwady-11": "Ayeyarwady",
+  "Ayeyarwady-12": "Ayeyarwady",
+  "Bago-1": "Bago",
+  "Bago-2": "Bago",
+  "Bago-3": "Bago",
+  "Bago-4": "Bago",
+  "Bago-5": "Bago",
+  "Bago-6": "Bago",
+  "Bago-7": "Bago",
+  "Bago-8": "Bago",
+  "Bago-9": "Bago",
+  "Bago-10": "Bago",
+  "Bago-11": "Bago",
+  "Bago-12": "Bago",
+  "Chin-1": "Chin",
+  "Chin-2": "Chin",
+  "Chin-3": "Chin",
+  "Chin-4": "Chin",
+  "Chin-5": "Chin",
+  "Chin-6": "Chin",
+  "Chin-7": "Chin",
+  "Chin-8": "Chin",
+  "Chin-9": "Chin",
+  "Chin-10": "Chin",
+  "Chin-11": "Chin",
+  "Chin-12": "Chin",
+  "Kachin-1": "Kachin",
+  "Kachin-2": "Kachin",
+  "Kachin-3": "Kachin",
+  "Kachin-4": "Kachin",
+  "Kachin-5": "Kachin",
+  "Kachin-6": "Kachin",
+  "Kachin-7": "Kachin",
+  "Kachin-8": "Kachin",
+  "Kachin-9": "Kachin",
+  "Kachin-10": "Kachin",
+  "Kachin-11": "Kachin",
+  "Kachin-12": "Kachin",
+  "Kayah-1": "Kayah",
+  "Kayah-2": "Kayah",
+  "Kayah-3": "Kayah",
+  "Kayah-4": "Kayah",
+  "Kayah-5": "Kayah",
+  "Kayah-6": "Kayah",
+  "Kayah-7": "Kayah",
+  "Kayah-8": "Kayah",
+  "Kayah-9": "Kayah",
+  "Kayah-10": "Kayah",
+  "Kayah-11": "Kayah",
+  "Kayah-12": "Kayah",
+  "Kayin-1": "Kayin",
+  "Kayin-2": "Kayin",
+  "Kayin-3": "Kayin",
+  "Kayin-4": "Kayin",
+  "Kayin-5": "Kayin",
+  "Kayin-6": "Kayin",
+  "Kayin-7": "Kayin",
+  "Kayin-8": "Kayin",
+  "Kayin-9": "Kayin",
+  "Kayin-10": "Kayin",
+  "Kayin-11": "Kayin",
+  "Kayin-12": "Kayin",
+  "Magway-1": "Magway",
+  "Magway-2": "Magway",
+  "Magway-3": "Magway",
+  "Magway-4": "Magway",
+  "Magway-5": "Magway",
+  "Magway-6": "Magway",
+  "Magway-7": "Magway",
+  "Magway-8": "Magway",
+  "Magway-9": "Magway",
+  "Magway-10": "Magway",
+  "Magway-11": "Magway",
+  "Magway-12": "Magway",
+  "Mandalay-1": "Mandalay",
+  "Mandalay-2": "Mandalay",
+  "Mandalay-3": "Mandalay",
+  "Mandalay-4": "Mandalay",
+  "Mandalay-5": "Mandalay",
+  "Mandalay-6": "Mandalay",
+  "Mandalay-7": "Mandalay",
+  "Mandalay-8": "Mandalay",
+  "Mandalay-9": "Mandalay",
+  "Mandalay-10": "Mandalay",
+  "Mandalay-11": "Mandalay",
+  "Mandalay-12": "Mandalay",
+  "Mon-1": "Mon",
+  "Mon-2": "Mon",
+  "Mon-3": "Mon",
+  "Mon-4": "Mon",
+  "Mon-5": "Mon",
+  "Mon-6": "Mon",
+  "Mon-7": "Mon",
+  "Mon-8": "Mon",
+  "Mon-9": "Mon",
+  "Mon-10": "Mon",
+  "Mon-11": "Mon",
+  "Mon-12": "Mon",
+  "Rakhine-1": "Rakhine",
+  "Rakhine-2": "Rakhine",
+  "Rakhine-3": "Rakhine",
+  "Rakhine-4": "Rakhine",
+  "Rakhine-5": "Rakhine",
+  "Rakhine-6": "Rakhine",
+  "Rakhine-7": "Rakhine",
+  "Rakhine-8": "Rakhine",
+  "Rakhine-9": "Rakhine",
+  "Rakhine-10": "Rakhine",
+  "Rakhine-11": "Rakhine",
+  "Rakhine-12": "Rakhine",
+  "Sagaing-1": "Sagaing",
+  "Sagaing-2": "Sagaing",
+  "Sagaing-3": "Sagaing",
+  "Sagaing-4": "Sagaing",
+  "Sagaing-5": "Sagaing",
+  "Sagaing-6": "Sagaing",
+  "Sagaing-7": "Sagaing",
+  "Sagaing-8": "Sagaing",
+  "Sagaing-9": "Sagaing",
+  "Sagaing-10": "Sagaing",
+  "Sagaing-11": "Sagaing",
+  "Sagaing-12": "Sagaing",
+  "Shan-1": "Shan",
+  "Shan-2": "Shan",
+  "Shan-3": "Shan",
+  "Shan-4": "Shan",
+  "Shan-5": "Shan",
+  "Shan-6": "Shan",
+  "Shan-7": "Shan",
+  "Shan-8": "Shan",
+  "Shan-9": "Shan",
+  "Shan-10": "Shan",
+  "Shan-11": "Shan",
+  "Shan-12": "Shan",
+  "Tanintharyi-1": "Tanintharyi",
+  "Tanintharyi-2": "Tanintharyi",
+  "Tanintharyi-3": "Tanintharyi",
+  "Tanintharyi-4": "Tanintharyi",
+  "Tanintharyi-5": "Tanintharyi",
+  "Tanintharyi-6": "Tanintharyi",
+  "Tanintharyi-7": "Tanintharyi",
+  "Tanintharyi-8": "Tanintharyi",
+  "Tanintharyi-9": "Tanintharyi",
+  "Tanintharyi-10": "Tanintharyi",
+  "Tanintharyi-11": "Tanintharyi",
+  "Tanintharyi-12": "Tanintharyi",
+  "Yangon-1": "Yangon",
+  "Yangon-2": "Yangon",
+  "Yangon-3": "Yangon",
+  "Yangon-4": "Yangon",
+  "Yangon-5": "Yangon",
+  "Yangon-6": "Yangon",
+  "Yangon-7": "Yangon",
+  "Yangon-8": "Yangon",
+  "Yangon-9": "Yangon",
+  "Yangon-10": "Yangon",
+  "Yangon-11": "Yangon",
+  "Yangon-12": "Yangon"
+ },
+ "seatNotes": {},
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "Ayeyarwady-1": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Ayeyarwady-2": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Ayeyarwady-3": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Ayeyarwady-4": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Ayeyarwady-5": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Ayeyarwady-6": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Ayeyarwady-7": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Ayeyarwady-8": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Ayeyarwady-9": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Ayeyarwady-10": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Ayeyarwady-11": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Ayeyarwady-12": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Bago-1": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Bago-2": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Bago-3": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Bago-4": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Bago-5": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Bago-6": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Bago-7": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Bago-8": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Bago-9": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Bago-10": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Bago-11": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Bago-12": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Chin-1": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Chin-2": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Chin-3": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Chin-4": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Chin-5": {
+     "조미민주회의 (ZCD)": 1
+    },
+    "Chin-6": {
+     "연방단결발전당 (USDP)": 1
+    },
+    "Chin-7": {
+     "조미민주회의 (ZCD)": 1
+    },
+    "Chin-8": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Chin-9": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Chin-10": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Chin-11": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Chin-12": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kachin-1": {
+     "민족통일당 (NUP)": 1
+    },
+    "Kachin-2": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kachin-3": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kachin-4": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kachin-5": {
+     "무소속": 1
+    },
+    "Kachin-6": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kachin-7": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kachin-8": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kachin-9": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kachin-10": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kachin-11": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kachin-12": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayah-1": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayah-2": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayah-3": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayah-4": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayah-5": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayah-6": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayah-7": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayah-8": {
+     "연방단결발전당 (USDP)": 1
+    },
+    "Kayah-9": {
+     "무소속": 1
+    },
+    "Kayah-10": {
+     "연방단결발전당 (USDP)": 1
+    },
+    "Kayah-11": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayah-12": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayin-1": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayin-2": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayin-3": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayin-4": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayin-5": {
+     "연방단결발전당 (USDP)": 1
+    },
+    "Kayin-6": {
+     "연방단결발전당 (USDP)": 1
+    },
+    "Kayin-7": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayin-8": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayin-9": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayin-10": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayin-11": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Kayin-12": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Magway-1": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Magway-2": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Magway-3": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Magway-4": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Magway-5": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Magway-6": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Magway-7": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Magway-8": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Magway-9": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Magway-10": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Magway-11": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Magway-12": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mandalay-1": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mandalay-2": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mandalay-3": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mandalay-4": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mandalay-5": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mandalay-6": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mandalay-7": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mandalay-8": {
+     "연방단결발전당 (USDP)": 1
+    },
+    "Mandalay-9": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mandalay-10": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mandalay-11": {
+     "연방단결발전당 (USDP)": 1
+    },
+    "Mandalay-12": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mon-1": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mon-2": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mon-3": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mon-4": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mon-5": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mon-6": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mon-7": {
+     "몬민족당 (MNP)": 1
+    },
+    "Mon-8": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mon-9": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mon-10": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mon-11": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Mon-12": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Rakhine-1": {
+     "아라칸민족당 (ANP)": 1
+    },
+    "Rakhine-2": {
+     "아라칸민족당 (ANP)": 1
+    },
+    "Rakhine-3": {
+     "아라칸민족당 (ANP)": 1
+    },
+    "Rakhine-4": {
+     "아라칸민족당 (ANP)": 1
+    },
+    "Rakhine-5": {
+     "아라칸민족당 (ANP)": 1
+    },
+    "Rakhine-6": {
+     "아라칸민족당 (ANP)": 1
+    },
+    "Rakhine-7": {
+     "연방단결발전당 (USDP)": 1
+    },
+    "Rakhine-8": {
+     "아라칸민족당 (ANP)": 1
+    },
+    "Rakhine-9": {
+     "아라칸민족당 (ANP)": 1
+    },
+    "Rakhine-10": {
+     "아라칸민족당 (ANP)": 1
+    },
+    "Rakhine-11": {
+     "아라칸민족당 (ANP)": 1
+    },
+    "Rakhine-12": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Sagaing-1": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Sagaing-2": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Sagaing-3": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Sagaing-4": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Sagaing-5": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Sagaing-6": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Sagaing-7": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Sagaing-8": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Sagaing-9": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Sagaing-10": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Sagaing-11": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Sagaing-12": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Shan-1": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Shan-2": {
+     "샨족민주연맹 (SNLD)": 1
+    },
+    "Shan-3": {
+     "샨족민주연맹 (SNLD)": 1
+    },
+    "Shan-4": {
+     "샨족민주연맹 (SNLD)": 1
+    },
+    "Shan-5": {
+     "타앙민족당 (TNP)": 1
+    },
+    "Shan-6": {
+     "연방단결발전당 (USDP)": 1
+    },
+    "Shan-7": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Shan-8": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Shan-9": {
+     "파오민족기구 (PNO)": 1
+    },
+    "Shan-10": {
+     "타앙민족당 (TNP)": 1
+    },
+    "Shan-11": {
+     "연방단결발전당 (USDP)": 1
+    },
+    "Shan-12": {
+     "연방단결발전당 (USDP)": 1
+    },
+    "Tanintharyi-1": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Tanintharyi-2": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Tanintharyi-3": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Tanintharyi-4": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Tanintharyi-5": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Tanintharyi-6": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Tanintharyi-7": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Tanintharyi-8": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Tanintharyi-9": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Tanintharyi-10": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Tanintharyi-11": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Tanintharyi-12": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Yangon-1": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Yangon-2": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Yangon-3": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Yangon-4": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Yangon-5": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Yangon-6": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Yangon-7": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Yangon-8": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Yangon-9": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Yangon-10": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Yangon-11": {
+     "민주주의민족동맹 (NLD)": 1
+    },
+    "Yangon-12": {
+     "민주주의민족동맹 (NLD)": 1
+    }
+   }
+  }
+ ]
+}

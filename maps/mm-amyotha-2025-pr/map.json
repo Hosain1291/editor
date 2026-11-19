@@ -1,0 +1,337 @@
+{
+ "id": "mm-amyotha-2025-pr",
+ "name": "미얀마 민족의회 선거 2025–26 · 비례대표",
+ "subtitle": "비례대표 선거구 26개 · 84석",
+ "tag": "MYANMAR 2025–26 · AMYOTHA HLUTTAW (PR)",
+ "menuCountry": "미얀마",
+ "menuGroup": "미얀마 민족의회 (아묘더 흘릇또)",
+ "menuLabel": "선거를 고르세요",
+ "cardName": "2025–26 비례대표",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 2196.7,
+ "regions": {
+  "Kachin": "카친주",
+  "Kayah": "카야주",
+  "Kayin": "카인주",
+  "Chin": "친주",
+  "Mon": "몬주",
+  "Rakhine": "라카인주",
+  "Shan": "샨주",
+  "Sagaing": "사가잉 지방",
+  "Tanintharyi": "따닌따리 지방",
+  "Bago": "바고 지방",
+  "Magway": "마궤 지방",
+  "Mandalay": "만달레이 지방",
+  "Yangon": "양곤 지방",
+  "Ayeyarwady": "에야와디 지방",
+  "CTX": "선거 미실시"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "미얀마 전체",
+   "sub": "비례대표 선거구 26개",
+   "regions": [
+    "Kachin",
+    "Kayah",
+    "Kayin",
+    "Chin",
+    "Mon",
+    "Rakhine",
+    "Shan",
+    "Sagaing",
+    "Tanintharyi",
+    "Bago",
+    "Magway",
+    "Mandalay",
+    "Yangon",
+    "Ayeyarwady"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    2196.7
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "연방단결발전당 (USDP)",
+   "color": "#1E8E3E"
+  },
+  {
+   "name": "민족통일당 (NUP)",
+   "color": "#a04000"
+  },
+  {
+   "name": "인민당 (PP)",
+   "color": "#884ea0"
+  },
+  {
+   "name": "카렌민족민주당 (KNDP)",
+   "color": "#5d6d7e"
+  },
+  {
+   "name": "조미민족당 (ZNP)",
+   "color": "#1abc9c"
+  },
+  {
+   "name": "몬통일당 (MUP)",
+   "color": "#ca6f1e"
+  },
+  {
+   "name": "아라칸전선당 (AFP)",
+   "color": "#922b21"
+  },
+  {
+   "name": "타이렝민족발전당 (TLNDP)",
+   "color": "#2471a3"
+  },
+  {
+   "name": "카친주인민당 (KSPP)",
+   "color": "#7d3c98"
+  },
+  {
+   "name": "카야주인민당 (KySPP)",
+   "color": "#d35400"
+  },
+  {
+   "name": "인민선구자당 (PPP)",
+   "color": "#16a085"
+  },
+  {
+   "name": "팔론-사워민주당 (PSDP)",
+   "color": "#c0392b"
+  },
+  {
+   "name": "파오민족통일당 (PNUP)",
+   "color": "#b7950b"
+  },
+  {
+   "name": "국익발전당 (NIDP)",
+   "color": "#2e86c1"
+  },
+  {
+   "name": "라카인민족당 (RNP)",
+   "color": "#117a65"
+  },
+  {
+   "name": "파오민족기구 (PNO)",
+   "color": "#6c3483"
+  },
+  {
+   "name": "샨및민족민주당 (SNDP)",
+   "color": "#2471a3"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "Kachin-PR1": 2,
+  "Kachin-PR2": 4,
+  "Kayah-PR1": 6,
+  "Kayin-PR1": 6,
+  "Chin-PR1": 6,
+  "Sagaing-PR1": 2,
+  "Sagaing-PR2": 4,
+  "Tanintharyi-PR1": 6,
+  "Bago-PR1": 3,
+  "Bago-PR2": 3,
+  "Magway-PR1": 3,
+  "Magway-PR2": 3,
+  "Mandalay-PR1": 2,
+  "Mandalay-PR2": 2,
+  "Mandalay-PR3": 2,
+  "Mon-PR1": 6,
+  "Rakhine-PR1": 3,
+  "Rakhine-PR2": 3,
+  "Yangon-PR1": 2,
+  "Yangon-PR2": 2,
+  "Yangon-PR3": 2,
+  "Shan-PR1": 2,
+  "Shan-PR2": 2,
+  "Shan-PR3": 2,
+  "Ayeyarwady-PR1": 3,
+  "Ayeyarwady-PR2": 3
+ },
+ "names": {
+  "Kachin-PR1": "카친주 비례대표 제1선거구",
+  "Kachin-PR2": "카친주 비례대표 제2선거구",
+  "Kayah-PR1": "카야주 비례대표 제1선거구",
+  "Kayin-PR1": "카인주 비례대표 제1선거구",
+  "Chin-PR1": "친주 비례대표 제1선거구",
+  "Sagaing-PR1": "사가잉 지역 비례대표 제1선거구",
+  "Sagaing-PR2": "사가잉 지역 비례대표 제2선거구",
+  "Tanintharyi-PR1": "타닌타리 지역 비례대표 제1선거구",
+  "Bago-PR1": "바고 지역 비례대표 제1선거구",
+  "Bago-PR2": "바고 지역 비례대표 제2선거구",
+  "Magway-PR1": "마궤 지역 비례대표 제1선거구",
+  "Magway-PR2": "마궤 지역 비례대표 제2선거구",
+  "Mandalay-PR1": "만달레이 지역 비례대표 제1선거구",
+  "Mandalay-PR2": "만달레이 지역 비례대표 제2선거구",
+  "Mandalay-PR3": "만달레이 지역 비례대표 제3선거구",
+  "Mon-PR1": "몬주 비례대표 제1선거구",
+  "Rakhine-PR1": "라카인주 비례대표 제1선거구",
+  "Rakhine-PR2": "라카인주 비례대표 제2선거구",
+  "Yangon-PR1": "양곤 지역 비례대표 제1선거구",
+  "Yangon-PR2": "양곤 지역 비례대표 제2선거구",
+  "Yangon-PR3": "양곤 지역 비례대표 제3선거구",
+  "Shan-PR1": "샨주 비례대표 제1선거구",
+  "Shan-PR2": "샨주 비례대표 제2선거구",
+  "Shan-PR3": "샨주 비례대표 제3선거구",
+  "Ayeyarwady-PR1": "에야와디 지역 비례대표 제1선거구",
+  "Ayeyarwady-PR2": "에야와디 지역 비례대표 제2선거구"
+ },
+ "regionOf": {
+  "Kachin-PR1": "Kachin",
+  "Kachin-PR2": "Kachin",
+  "Kayah-PR1": "Kayah",
+  "Kayin-PR1": "Kayin",
+  "Chin-PR1": "Chin",
+  "Sagaing-PR1": "Sagaing",
+  "Sagaing-PR2": "Sagaing",
+  "Tanintharyi-PR1": "Tanintharyi",
+  "Bago-PR1": "Bago",
+  "Bago-PR2": "Bago",
+  "Magway-PR1": "Magway",
+  "Magway-PR2": "Magway",
+  "Mandalay-PR1": "Mandalay",
+  "Mandalay-PR2": "Mandalay",
+  "Mandalay-PR3": "Mandalay",
+  "Mon-PR1": "Mon",
+  "Rakhine-PR1": "Rakhine",
+  "Rakhine-PR2": "Rakhine",
+  "Yangon-PR1": "Yangon",
+  "Yangon-PR2": "Yangon",
+  "Yangon-PR3": "Yangon",
+  "Shan-PR1": "Shan",
+  "Shan-PR2": "Shan",
+  "Shan-PR3": "Shan",
+  "Ayeyarwady-PR1": "Ayeyarwady",
+  "Ayeyarwady-PR2": "Ayeyarwady"
+ },
+ "seatNotes": {},
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "Kachin-PR1": {
+     "연방단결발전당 (USDP)": 2
+    },
+    "Kachin-PR2": {
+     "연방단결발전당 (USDP)": 2,
+     "타이렝민족발전당 (TLNDP)": 1,
+     "카친주인민당 (KSPP)": 1
+    },
+    "Kayah-PR1": {
+     "연방단결발전당 (USDP)": 3,
+     "카야주인민당 (KySPP)": 1,
+     "인민선구자당 (PPP)": 1,
+     "민족통일당 (NUP)": 1
+    },
+    "Kayin-PR1": {
+     "연방단결발전당 (USDP)": 2,
+     "카렌민족민주당 (KNDP)": 2,
+     "팔론-사워민주당 (PSDP)": 1,
+     "파오민족통일당 (PNUP)": 1
+    },
+    "Chin-PR1": {
+     "연방단결발전당 (USDP)": 4,
+     "조미민족당 (ZNP)": 2
+    },
+    "Sagaing-PR1": {
+     "연방단결발전당 (USDP)": 1,
+     "민족통일당 (NUP)": 1
+    },
+    "Sagaing-PR2": {
+     "연방단결발전당 (USDP)": 2,
+     "민족통일당 (NUP)": 1,
+     "인민당 (PP)": 1
+    },
+    "Tanintharyi-PR1": {
+     "연방단결발전당 (USDP)": 3,
+     "민족통일당 (NUP)": 2,
+     "인민당 (PP)": 1
+    },
+    "Bago-PR1": {
+     "연방단결발전당 (USDP)": 2,
+     "민족통일당 (NUP)": 1
+    },
+    "Bago-PR2": {
+     "연방단결발전당 (USDP)": 2,
+     "민족통일당 (NUP)": 1
+    },
+    "Magway-PR1": {
+     "연방단결발전당 (USDP)": 2,
+     "민족통일당 (NUP)": 1
+    },
+    "Magway-PR2": {
+     "연방단결발전당 (USDP)": 2,
+     "민족통일당 (NUP)": 1
+    },
+    "Mandalay-PR1": {
+     "연방단결발전당 (USDP)": 1,
+     "민족통일당 (NUP)": 1
+    },
+    "Mandalay-PR2": {
+     "연방단결발전당 (USDP)": 1,
+     "민족통일당 (NUP)": 1
+    },
+    "Mandalay-PR3": {
+     "연방단결발전당 (USDP)": 1,
+     "민족통일당 (NUP)": 1
+    },
+    "Mon-PR1": {
+     "몬통일당 (MUP)": 2,
+     "연방단결발전당 (USDP)": 2,
+     "민족통일당 (NUP)": 1,
+     "국익발전당 (NIDP)": 1
+    },
+    "Rakhine-PR1": {
+     "연방단결발전당 (USDP)": 2,
+     "아라칸전선당 (AFP)": 1
+    },
+    "Rakhine-PR2": {
+     "아라칸전선당 (AFP)": 1,
+     "연방단결발전당 (USDP)": 1,
+     "라카인민족당 (RNP)": 1
+    },
+    "Yangon-PR1": {
+     "연방단결발전당 (USDP)": 1,
+     "인민당 (PP)": 1
+    },
+    "Yangon-PR2": {
+     "연방단결발전당 (USDP)": 1,
+     "인민당 (PP)": 1
+    },
+    "Yangon-PR3": {
+     "연방단결발전당 (USDP)": 1,
+     "인민당 (PP)": 1
+    },
+    "Shan-PR1": {
+     "연방단결발전당 (USDP)": 1,
+     "파오민족기구 (PNO)": 1
+    },
+    "Shan-PR2": {
+     "연방단결발전당 (USDP)": 1,
+     "샨및민족민주당 (SNDP)": 1
+    },
+    "Shan-PR3": {
+     "연방단결발전당 (USDP)": 2
+    },
+    "Ayeyarwady-PR1": {
+     "연방단결발전당 (USDP)": 2,
+     "민족통일당 (NUP)": 1
+    },
+    "Ayeyarwady-PR2": {
+     "연방단결발전당 (USDP)": 2,
+     "민족통일당 (NUP)": 1
+    }
+   }
+  }
+ ]
+}
