@@ -3179,6 +3179,126 @@
   {
    "id": "ro-counties",
    "folder": "ro-counties"
+  },
+  {
+   "id": "ro-1946",
+   "folder": "ro-1946"
+  },
+  {
+   "id": "ro-1948",
+   "folder": "ro-1948"
+  },
+  {
+   "id": "ro-1952",
+   "folder": "ro-1952"
+  },
+  {
+   "id": "ro-1957",
+   "folder": "ro-1957"
+  },
+  {
+   "id": "ro-1961",
+   "folder": "ro-1961"
+  },
+  {
+   "id": "ro-1965",
+   "folder": "ro-1965"
+  },
+  {
+   "id": "ro-1969",
+   "folder": "ro-1969"
+  },
+  {
+   "id": "ro-1975",
+   "folder": "ro-1975"
+  },
+  {
+   "id": "ro-1980",
+   "folder": "ro-1980"
+  },
+  {
+   "id": "ro-1985",
+   "folder": "ro-1985"
+  },
+  {
+   "id": "ro-1990",
+   "folder": "ro-1990"
+  },
+  {
+   "id": "ro-1992",
+   "folder": "ro-1992"
+  },
+  {
+   "id": "ro-1996",
+   "folder": "ro-1996"
+  },
+  {
+   "id": "ro-2000",
+   "folder": "ro-2000"
+  },
+  {
+   "id": "ro-2004",
+   "folder": "ro-2004"
+  },
+  {
+   "id": "ro-2008",
+   "folder": "ro-2008"
+  },
+  {
+   "id": "ro-2012",
+   "folder": "ro-2012"
+  },
+  {
+   "id": "ro-s-1990",
+   "folder": "ro-s-1990"
+  },
+  {
+   "id": "ro-s-1992",
+   "folder": "ro-s-1992"
+  },
+  {
+   "id": "ro-s-1996",
+   "folder": "ro-s-1996"
+  },
+  {
+   "id": "ro-s-2000",
+   "folder": "ro-s-2000"
+  },
+  {
+   "id": "ro-s-2004",
+   "folder": "ro-s-2004"
+  },
+  {
+   "id": "ro-s-2008",
+   "folder": "ro-s-2008"
+  },
+  {
+   "id": "ro-s-2012",
+   "folder": "ro-s-2012"
+  },
+  {
+   "id": "ro-s-2016",
+   "folder": "ro-s-2016"
+  },
+  {
+   "id": "ro-s-2020",
+   "folder": "ro-s-2020"
+  },
+  {
+   "id": "ro-2016",
+   "folder": "ro-2016"
+  },
+  {
+   "id": "ro-2020",
+   "folder": "ro-2020"
+  },
+  {
+   "id": "ro-2024",
+   "folder": "ro-2024"
+  },
+  {
+   "id": "ro-s-2024",
+   "folder": "ro-s-2024"
   }
  ]
 }

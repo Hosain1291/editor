@@ -1,0 +1,84 @@
+{
+ "id": "ro-1946",
+ "name": "루마니아 대의원회의 선거 1946",
+ "subtitle": "전국 단일 집계 · 414석 · 과반 208",
+ "tag": "ROMANIA 1946 · ADUNAREA DEPUTAȚILOR",
+ "menuCountry": "루마니아",
+ "menuGroup": "루마니아 하원 (대의원회의)",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1946",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 710.7,
+ "regions": {
+  "NAT": "전국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1946",
+   "sub": "전국 단일 집계",
+   "regions": [
+    "NAT"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    710.7
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "민주정당연합 (BPD)",
+   "color": "#c8102e"
+  },
+  {
+   "name": "국민농민당 (PNȚ)",
+   "color": "#2e7d32"
+  },
+  {
+   "name": "헝가리인민연맹 (UPM)",
+   "color": "#15803d"
+  },
+  {
+   "name": "국민자유당 (PNL)",
+   "color": "#f5c400"
+  },
+  {
+   "name": "민주농민당 (PȚD)",
+   "color": "#8bc34a"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "NAT": 414
+ },
+ "names": {
+  "NAT": "루마니아 전국"
+ },
+ "regionOf": {
+  "NAT": "NAT"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "NAT": {
+     "민주정당연합 (BPD)": 348,
+     "국민농민당 (PNȚ)": 32,
+     "헝가리인민연맹 (UPM)": 29,
+     "국민자유당 (PNL)": 3,
+     "민주농민당 (PȚD)": 2
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "NAT": "주별 의석 자료가 없어 전국을 한 선거구로 넣었어요."
+ }
+}

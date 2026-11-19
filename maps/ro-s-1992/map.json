@@ -1,0 +1,99 @@
+{
+ "id": "ro-s-1992",
+ "name": "루마니아 상원 선거 1992",
+ "subtitle": "전국 단일 집계 · 143석 · 과반 72",
+ "tag": "ROMANIA 1992 · SENAT",
+ "menuCountry": "루마니아",
+ "menuGroup": "루마니아 상원",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1992",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 710.7,
+ "regions": {
+  "NAT": "전국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1992",
+   "sub": "전국 단일 집계",
+   "regions": [
+    "NAT"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    710.7
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "민주구국전선 (FDSN)",
+   "color": "#c8102e"
+  },
+  {
+   "name": "루마니아 민주회의 (CDR)",
+   "color": "#1e40af"
+  },
+  {
+   "name": "구국전선 (FSN)",
+   "color": "#e8590c"
+  },
+  {
+   "name": "루마니아 국민통일당 (PUNR)",
+   "color": "#7b3f00"
+  },
+  {
+   "name": "헝가리인 민주연합 (UDMR)",
+   "color": "#15803d"
+  },
+  {
+   "name": "대루마니아당 (PRM)",
+   "color": "#4a148c"
+  },
+  {
+   "name": "사회주의노동당 (PSM)",
+   "color": "#7f1d1d"
+  },
+  {
+   "name": "민주농업당 (PDAR)",
+   "color": "#a3e635"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "NAT": 143
+ },
+ "names": {
+  "NAT": "루마니아 전국"
+ },
+ "regionOf": {
+  "NAT": "NAT"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "NAT": {
+     "민주구국전선 (FDSN)": 49,
+     "루마니아 민주회의 (CDR)": 34,
+     "구국전선 (FSN)": 18,
+     "루마니아 국민통일당 (PUNR)": 14,
+     "헝가리인 민주연합 (UDMR)": 12,
+     "대루마니아당 (PRM)": 6,
+     "사회주의노동당 (PSM)": 5,
+     "민주농업당 (PDAR)": 5
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "NAT": "주별 의석 자료가 없어 전국을 한 선거구로 넣었어요."
+ }
+}

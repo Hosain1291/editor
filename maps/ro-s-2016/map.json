@@ -1,0 +1,89 @@
+{
+ "id": "ro-s-2016",
+ "name": "루마니아 상원 선거 2016",
+ "subtitle": "전국 단일 집계 · 136석 · 과반 69",
+ "tag": "ROMANIA 2016 · SENAT",
+ "menuCountry": "루마니아",
+ "menuGroup": "루마니아 상원",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2016",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 710.7,
+ "regions": {
+  "NAT": "전국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2016",
+   "sub": "전국 단일 집계",
+   "regions": [
+    "NAT"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    710.7
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "사회민주당 (PSD)",
+   "color": "#c8102e"
+  },
+  {
+   "name": "국민자유당 (PNL)",
+   "color": "#f5c400"
+  },
+  {
+   "name": "루마니아 구하기 연합 (USR)",
+   "color": "#00a6ff"
+  },
+  {
+   "name": "헝가리인 민주연합 (UDMR)",
+   "color": "#15803d"
+  },
+  {
+   "name": "자유민주동맹 (ALDE)",
+   "color": "#1565c0"
+  },
+  {
+   "name": "인민운동당 (PMP)",
+   "color": "#8bc34a"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "NAT": 136
+ },
+ "names": {
+  "NAT": "루마니아 전국"
+ },
+ "regionOf": {
+  "NAT": "NAT"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "NAT": {
+     "사회민주당 (PSD)": 67,
+     "국민자유당 (PNL)": 30,
+     "루마니아 구하기 연합 (USR)": 13,
+     "헝가리인 민주연합 (UDMR)": 9,
+     "자유민주동맹 (ALDE)": 9,
+     "인민운동당 (PMP)": 8
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "NAT": "주별 의석 자료가 없어 전국을 한 선거구로 넣었어요."
+ }
+}

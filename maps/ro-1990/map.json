@@ -1,0 +1,119 @@
+{
+ "id": "ro-1990",
+ "name": "루마니아 대의원회의 선거 1990",
+ "subtitle": "전국 단일 집계 · 396석 · 과반 199",
+ "tag": "ROMANIA 1990 · ADUNAREA DEPUTAȚILOR",
+ "menuCountry": "루마니아",
+ "menuGroup": "루마니아 하원 (대의원회의)",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1990",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 710.7,
+ "regions": {
+  "NAT": "전국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1990",
+   "sub": "전국 단일 집계",
+   "regions": [
+    "NAT"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    710.7
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "구국전선 (FSN)",
+   "color": "#e8590c"
+  },
+  {
+   "name": "헝가리인 민주연합 (UDMR)",
+   "color": "#15803d"
+  },
+  {
+   "name": "국민자유당 (PNL)",
+   "color": "#f5c400"
+  },
+  {
+   "name": "루마니아 생태운동 (MER)",
+   "color": "#66bb6a"
+  },
+  {
+   "name": "기독민주국민농민당 (PNȚCD)",
+   "color": "#0f766e"
+  },
+  {
+   "name": "루마니아 통합동맹 (AUR)",
+   "color": "#7b3f00"
+  },
+  {
+   "name": "민주농업당 (PDAR)",
+   "color": "#a3e635"
+  },
+  {
+   "name": "루마니아 생태당 (PER)",
+   "color": "#84cc16"
+  },
+  {
+   "name": "루마니아 사회주의민주당 (PSDR)",
+   "color": "#e57373"
+  },
+  {
+   "name": "루마니아 사회민주당 (PSDR)",
+   "color": "#f87171"
+  },
+  {
+   "name": "기타 정당",
+   "color": "#777777"
+  },
+  {
+   "name": "소수민족 정당",
+   "color": "#9e9e9e"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "NAT": 396
+ },
+ "names": {
+  "NAT": "루마니아 전국"
+ },
+ "regionOf": {
+  "NAT": "NAT"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "NAT": {
+     "구국전선 (FSN)": 263,
+     "헝가리인 민주연합 (UDMR)": 29,
+     "국민자유당 (PNL)": 29,
+     "루마니아 생태운동 (MER)": 12,
+     "기독민주국민농민당 (PNȚCD)": 12,
+     "루마니아 통합동맹 (AUR)": 9,
+     "민주농업당 (PDAR)": 9,
+     "루마니아 생태당 (PER)": 8,
+     "루마니아 사회주의민주당 (PSDR)": 5,
+     "루마니아 사회민주당 (PSDR)": 2,
+     "기타 정당": 7,
+     "소수민족 정당": 11
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "NAT": "주별 의석 자료가 없어 전국을 한 선거구로 넣었어요."
+ }
+}

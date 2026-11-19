@@ -1,0 +1,79 @@
+{
+ "id": "ro-s-2008",
+ "name": "루마니아 상원 선거 2008",
+ "subtitle": "전국 단일 집계 · 137석 · 과반 69",
+ "tag": "ROMANIA 2008 · SENAT",
+ "menuCountry": "루마니아",
+ "menuGroup": "루마니아 상원",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2008",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 710.7,
+ "regions": {
+  "NAT": "전국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2008",
+   "sub": "전국 단일 집계",
+   "regions": [
+    "NAT"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    710.7
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "민주자유당 (PDL)",
+   "color": "#e8590c"
+  },
+  {
+   "name": "PSD+PC 동맹",
+   "color": "#c8102e"
+  },
+  {
+   "name": "국민자유당 (PNL)",
+   "color": "#f5c400"
+  },
+  {
+   "name": "헝가리인 민주연합 (UDMR)",
+   "color": "#15803d"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "NAT": 137
+ },
+ "names": {
+  "NAT": "루마니아 전국"
+ },
+ "regionOf": {
+  "NAT": "NAT"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "NAT": {
+     "민주자유당 (PDL)": 51,
+     "PSD+PC 동맹": 49,
+     "국민자유당 (PNL)": 28,
+     "헝가리인 민주연합 (UDMR)": 9
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "NAT": "주별 의석 자료가 없어 전국을 한 선거구로 넣었어요."
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "ro-1969",
+ "name": "루마니아 대국민의회 선거 1969",
+ "subtitle": "전국 단일 집계 · 465석 · 과반 233",
+ "tag": "ROMANIA 1969 · MAREA ADUNARE NAȚIONALĂ",
+ "menuCountry": "루마니아",
+ "menuGroup": "루마니아 하원 (대의원회의)",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1969",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 710.7,
+ "regions": {
+  "NAT": "전국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1969",
+   "sub": "전국 단일 집계",
+   "regions": [
+    "NAT"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    710.7
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "사회주의통일전선 (FUS)",
+   "color": "#c8102e"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "NAT": 465
+ },
+ "names": {
+  "NAT": "루마니아 전국"
+ },
+ "regionOf": {
+  "NAT": "NAT"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "NAT": {
+     "사회주의통일전선 (FUS)": 465
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "NAT": "주별 의석 자료가 없어 전국을 한 선거구로 넣었어요."
+ }
+}

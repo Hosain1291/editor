@@ -1,0 +1,84 @@
+{
+ "id": "ro-2004",
+ "name": "루마니아 하원 선거 2004",
+ "subtitle": "전국 단일 집계 · 332석 · 과반 167",
+ "tag": "ROMANIA 2004 · CAMERA DEPUTAȚILOR",
+ "menuCountry": "루마니아",
+ "menuGroup": "루마니아 하원 (대의원회의)",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2004",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 710.7,
+ "regions": {
+  "NAT": "전국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2004",
+   "sub": "전국 단일 집계",
+   "regions": [
+    "NAT"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    710.7
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "국민연합 PSD+PUR",
+   "color": "#c8102e"
+  },
+  {
+   "name": "정의와 진실 동맹 (DA)",
+   "color": "#1e88e5"
+  },
+  {
+   "name": "대루마니아당 (PRM)",
+   "color": "#4a148c"
+  },
+  {
+   "name": "헝가리인 민주연합 (UDMR)",
+   "color": "#15803d"
+  },
+  {
+   "name": "소수민족 정당",
+   "color": "#9e9e9e"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "NAT": 332
+ },
+ "names": {
+  "NAT": "루마니아 전국"
+ },
+ "regionOf": {
+  "NAT": "NAT"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "NAT": {
+     "국민연합 PSD+PUR": 132,
+     "정의와 진실 동맹 (DA)": 112,
+     "대루마니아당 (PRM)": 48,
+     "헝가리인 민주연합 (UDMR)": 22,
+     "소수민족 정당": 18
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "NAT": "주별 의석 자료가 없어 전국을 한 선거구로 넣었어요."
+ }
+}

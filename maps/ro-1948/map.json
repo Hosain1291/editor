@@ -1,0 +1,74 @@
+{
+ "id": "ro-1948",
+ "name": "루마니아 대국민의회 선거 1948",
+ "subtitle": "전국 단일 집계 · 414석 · 과반 208",
+ "tag": "ROMANIA 1948 · MAREA ADUNARE NAȚIONALĂ",
+ "menuCountry": "루마니아",
+ "menuGroup": "루마니아 하원 (대의원회의)",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1948",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 710.7,
+ "regions": {
+  "NAT": "전국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1948",
+   "sub": "전국 단일 집계",
+   "regions": [
+    "NAT"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    710.7
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "인민민주전선 (FDP)",
+   "color": "#c8102e"
+  },
+  {
+   "name": "국민자유당–베잔 (PNL)",
+   "color": "#f5c400"
+  },
+  {
+   "name": "민주농민당 (PȚD)",
+   "color": "#8bc34a"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "NAT": 414
+ },
+ "names": {
+  "NAT": "루마니아 전국"
+ },
+ "regionOf": {
+  "NAT": "NAT"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "NAT": {
+     "인민민주전선 (FDP)": 405,
+     "국민자유당–베잔 (PNL)": 7,
+     "민주농민당 (PȚD)": 2
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "NAT": "주별 의석 자료가 없어 전국을 한 선거구로 넣었어요."
+ }
+}

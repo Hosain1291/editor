@@ -1,0 +1,89 @@
+{
+ "id": "ro-2000",
+ "name": "루마니아 하원 선거 2000",
+ "subtitle": "전국 단일 집계 · 345석 · 과반 173",
+ "tag": "ROMANIA 2000 · CAMERA DEPUTAȚILOR",
+ "menuCountry": "루마니아",
+ "menuGroup": "루마니아 하원 (대의원회의)",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2000",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 710.7,
+ "regions": {
+  "NAT": "전국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2000",
+   "sub": "전국 단일 집계",
+   "regions": [
+    "NAT"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    710.7
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "루마니아 사회민주주의당 (PDSR)",
+   "color": "#c8102e"
+  },
+  {
+   "name": "대루마니아당 (PRM)",
+   "color": "#4a148c"
+  },
+  {
+   "name": "민주당 (PD)",
+   "color": "#e8590c"
+  },
+  {
+   "name": "국민자유당 (PNL)",
+   "color": "#f5c400"
+  },
+  {
+   "name": "헝가리인 민주연합 (UDMR)",
+   "color": "#15803d"
+  },
+  {
+   "name": "소수민족 정당",
+   "color": "#9e9e9e"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "NAT": 345
+ },
+ "names": {
+  "NAT": "루마니아 전국"
+ },
+ "regionOf": {
+  "NAT": "NAT"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "NAT": {
+     "루마니아 사회민주주의당 (PDSR)": 155,
+     "대루마니아당 (PRM)": 84,
+     "민주당 (PD)": 31,
+     "국민자유당 (PNL)": 30,
+     "헝가리인 민주연합 (UDMR)": 27,
+     "소수민족 정당": 18
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "NAT": "주별 의석 자료가 없어 전국을 한 선거구로 넣었어요."
+ }
+}
