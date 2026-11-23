@@ -3299,6 +3299,30 @@
   {
    "id": "ro-s-2024",
    "folder": "ro-s-2024"
+  },
+  {
+   "id": "id-provinces",
+   "folder": "id-provinces"
+  },
+  {
+   "id": "id-dpr-2004",
+   "folder": "id-dpr-2004"
+  },
+  {
+   "id": "id-dpr-2009",
+   "folder": "id-dpr-2009"
+  },
+  {
+   "id": "id-dpr-2014",
+   "folder": "id-dpr-2014"
+  },
+  {
+   "id": "id-dpr-2019",
+   "folder": "id-dpr-2019"
+  },
+  {
+   "id": "id-dpr-2024",
+   "folder": "id-dpr-2024"
   }
  ]
 }
