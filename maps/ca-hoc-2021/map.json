@@ -1,0 +1,2105 @@
+{
+ "id": "ca-hoc-2021",
+ "name": "캐나다 연방 총선 2021",
+ "subtitle": "하원 338석 · 과반 170",
+ "tag": "CANADA 2021 · HOUSE OF COMMONS",
+ "menuCountry": "캐나다",
+ "menuGroup": "캐나다 하원 (House of Commons)",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2021",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 824.9,
+ "regions": {
+  "W": "서부·북부",
+  "ON": "온타리오",
+  "QC": "퀘벡",
+  "AT": "대서양"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2021",
+   "sub": "선거구 338개",
+   "regions": [
+    "W",
+    "ON",
+    "QC",
+    "AT"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    824.9
+   ],
+   "big": true
+  }
+ ],
+ "parties": [
+  {
+   "name": "자유당 (Liberal)",
+   "color": "#d71920"
+  },
+  {
+   "name": "보수당 (Conservative)",
+   "color": "#1a4782"
+  },
+  {
+   "name": "퀘벡 블록 (Bloc Québécois)",
+   "color": "#33b2cc"
+  },
+  {
+   "name": "신민주당 (NDP)",
+   "color": "#f37021"
+  },
+  {
+   "name": "녹색당 (Green)",
+   "color": "#3d9b35"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "R001": 1,
+  "R002": 1,
+  "R003": 1,
+  "R004": 1,
+  "R005": 1,
+  "R006": 1,
+  "R007": 1,
+  "R008": 1,
+  "R009": 1,
+  "R010": 1,
+  "R011": 1,
+  "R012": 1,
+  "R013": 1,
+  "R014": 1,
+  "R015": 1,
+  "R016": 1,
+  "R017": 1,
+  "R018": 1,
+  "R019": 1,
+  "R020": 1,
+  "R021": 1,
+  "R022": 1,
+  "R023": 1,
+  "R024": 1,
+  "R025": 1,
+  "R026": 1,
+  "R027": 1,
+  "R028": 1,
+  "R029": 1,
+  "R030": 1,
+  "R031": 1,
+  "R032": 1,
+  "R033": 1,
+  "R034": 1,
+  "R035": 1,
+  "R036": 1,
+  "R037": 1,
+  "R038": 1,
+  "R039": 1,
+  "R040": 1,
+  "R041": 1,
+  "R042": 1,
+  "R043": 1,
+  "R044": 1,
+  "R045": 1,
+  "R046": 1,
+  "R047": 1,
+  "R048": 1,
+  "R049": 1,
+  "R050": 1,
+  "R051": 1,
+  "R052": 1,
+  "R053": 1,
+  "R054": 1,
+  "R055": 1,
+  "R056": 1,
+  "R057": 1,
+  "R058": 1,
+  "R059": 1,
+  "R060": 1,
+  "R061": 1,
+  "R062": 1,
+  "R063": 1,
+  "R064": 1,
+  "R065": 1,
+  "R066": 1,
+  "R067": 1,
+  "R068": 1,
+  "R069": 1,
+  "R070": 1,
+  "R071": 1,
+  "R072": 1,
+  "R073": 1,
+  "R074": 1,
+  "R075": 1,
+  "R076": 1,
+  "R077": 1,
+  "R078": 1,
+  "R079": 1,
+  "R080": 1,
+  "R081": 1,
+  "R082": 1,
+  "R083": 1,
+  "R084": 1,
+  "R085": 1,
+  "R086": 1,
+  "R087": 1,
+  "R088": 1,
+  "R089": 1,
+  "R090": 1,
+  "R091": 1,
+  "R092": 1,
+  "R093": 1,
+  "R094": 1,
+  "R095": 1,
+  "R096": 1,
+  "R097": 1,
+  "R098": 1,
+  "R099": 1,
+  "R100": 1,
+  "R101": 1,
+  "R102": 1,
+  "R103": 1,
+  "R104": 1,
+  "R105": 1,
+  "R106": 1,
+  "R107": 1,
+  "R108": 1,
+  "R109": 1,
+  "R110": 1,
+  "R111": 1,
+  "R112": 1,
+  "R113": 1,
+  "R114": 1,
+  "R115": 1,
+  "R116": 1,
+  "R117": 1,
+  "R118": 1,
+  "R119": 1,
+  "R120": 1,
+  "R121": 1,
+  "R122": 1,
+  "R123": 1,
+  "R124": 1,
+  "R125": 1,
+  "R126": 1,
+  "R127": 1,
+  "R128": 1,
+  "R129": 1,
+  "R130": 1,
+  "R131": 1,
+  "R132": 1,
+  "R133": 1,
+  "R134": 1,
+  "R135": 1,
+  "R136": 1,
+  "R137": 1,
+  "R138": 1,
+  "R139": 1,
+  "R140": 1,
+  "R141": 1,
+  "R142": 1,
+  "R143": 1,
+  "R144": 1,
+  "R145": 1,
+  "R146": 1,
+  "R147": 1,
+  "R148": 1,
+  "R149": 1,
+  "R150": 1,
+  "R151": 1,
+  "R152": 1,
+  "R153": 1,
+  "R154": 1,
+  "R155": 1,
+  "R156": 1,
+  "R157": 1,
+  "R158": 1,
+  "R159": 1,
+  "R160": 1,
+  "R161": 1,
+  "R162": 1,
+  "R163": 1,
+  "R164": 1,
+  "R165": 1,
+  "R166": 1,
+  "R167": 1,
+  "R168": 1,
+  "R169": 1,
+  "R170": 1,
+  "R171": 1,
+  "R172": 1,
+  "R173": 1,
+  "R174": 1,
+  "R175": 1,
+  "R176": 1,
+  "R177": 1,
+  "R178": 1,
+  "R179": 1,
+  "R180": 1,
+  "R181": 1,
+  "R182": 1,
+  "R183": 1,
+  "R184": 1,
+  "R185": 1,
+  "R186": 1,
+  "R187": 1,
+  "R188": 1,
+  "R189": 1,
+  "R190": 1,
+  "R191": 1,
+  "R192": 1,
+  "R193": 1,
+  "R194": 1,
+  "R195": 1,
+  "R196": 1,
+  "R197": 1,
+  "R198": 1,
+  "R199": 1,
+  "R200": 1,
+  "R201": 1,
+  "R202": 1,
+  "R203": 1,
+  "R204": 1,
+  "R205": 1,
+  "R206": 1,
+  "R207": 1,
+  "R208": 1,
+  "R209": 1,
+  "R210": 1,
+  "R211": 1,
+  "R212": 1,
+  "R213": 1,
+  "R214": 1,
+  "R215": 1,
+  "R216": 1,
+  "R217": 1,
+  "R218": 1,
+  "R219": 1,
+  "R220": 1,
+  "R221": 1,
+  "R222": 1,
+  "R223": 1,
+  "R224": 1,
+  "R225": 1,
+  "R226": 1,
+  "R227": 1,
+  "R228": 1,
+  "R229": 1,
+  "R230": 1,
+  "R231": 1,
+  "R232": 1,
+  "R233": 1,
+  "R234": 1,
+  "R235": 1,
+  "R236": 1,
+  "R237": 1,
+  "R238": 1,
+  "R239": 1,
+  "R240": 1,
+  "R241": 1,
+  "R242": 1,
+  "R243": 1,
+  "R244": 1,
+  "R245": 1,
+  "R246": 1,
+  "R247": 1,
+  "R248": 1,
+  "R249": 1,
+  "R250": 1,
+  "R251": 1,
+  "R252": 1,
+  "R253": 1,
+  "R254": 1,
+  "R255": 1,
+  "R256": 1,
+  "R257": 1,
+  "R258": 1,
+  "R259": 1,
+  "R260": 1,
+  "R261": 1,
+  "R262": 1,
+  "R263": 1,
+  "R264": 1,
+  "R265": 1,
+  "R266": 1,
+  "R267": 1,
+  "R268": 1,
+  "R269": 1,
+  "R270": 1,
+  "R271": 1,
+  "R272": 1,
+  "R273": 1,
+  "R274": 1,
+  "R275": 1,
+  "R276": 1,
+  "R277": 1,
+  "R278": 1,
+  "R279": 1,
+  "R280": 1,
+  "R281": 1,
+  "R282": 1,
+  "R283": 1,
+  "R284": 1,
+  "R285": 1,
+  "R286": 1,
+  "R287": 1,
+  "R288": 1,
+  "R289": 1,
+  "R290": 1,
+  "R291": 1,
+  "R292": 1,
+  "R293": 1,
+  "R294": 1,
+  "R295": 1,
+  "R296": 1,
+  "R297": 1,
+  "R298": 1,
+  "R299": 1,
+  "R300": 1,
+  "R301": 1,
+  "R302": 1,
+  "R303": 1,
+  "R304": 1,
+  "R305": 1,
+  "R306": 1,
+  "R307": 1,
+  "R308": 1,
+  "R309": 1,
+  "R310": 1,
+  "R311": 1,
+  "R312": 1,
+  "R313": 1,
+  "R314": 1,
+  "R315": 1,
+  "R316": 1,
+  "R317": 1,
+  "R318": 1,
+  "R319": 1,
+  "R320": 1,
+  "R321": 1,
+  "R322": 1,
+  "R323": 1,
+  "R324": 1,
+  "R325": 1,
+  "R326": 1,
+  "R327": 1,
+  "R328": 1,
+  "R329": 1,
+  "R330": 1,
+  "R331": 1,
+  "R332": 1,
+  "R333": 1,
+  "R334": 1,
+  "R335": 1,
+  "R336": 1,
+  "R337": 1,
+  "R338": 1
+ },
+ "names": {
+  "R001": "Grande Prarie—Mackenzie (앨버타)",
+  "R002": "Fort McMurray—Cold Lake (앨버타)",
+  "R003": "Peace River—Westlock (앨버타)",
+  "R004": "Yellowhead (앨버타)",
+  "R005": "Red Deer—Lacombe (앨버타)",
+  "R006": "Edmonton—Wetaskiwin (앨버타)",
+  "R007": "Edmonton West (앨버타)",
+  "R008": "Edmonton Riverbend (앨버타)",
+  "R009": "St. Albert—Edmonton (앨버타)",
+  "R010": "Edmonton Centre (앨버타)",
+  "R011": "Edmonton Strathcona (앨버타)",
+  "R012": "Edmonton Mill Woods (앨버타)",
+  "R013": "Edmonton Griesbach (앨버타)",
+  "R014": "Sturgeon River—Parkland (앨버타)",
+  "R015": "Edmonton Manning (앨버타)",
+  "R016": "Sherwood Park—Fort Saskatchewan (앨버타)",
+  "R017": "Lakeland (앨버타)",
+  "R018": "Banff—Airdrie (앨버타)",
+  "R019": "Calgary Rocky Ridge (앨버타)",
+  "R020": "Red Deer—Mountain View (앨버타)",
+  "R021": "Battle River—Crowfoot (앨버타)",
+  "R022": "Foothills (앨버타)",
+  "R023": "Calgary Signal Hill (앨버타)",
+  "R024": "Calgary Heritage (앨버타)",
+  "R025": "Calgary Midnapore (앨버타)",
+  "R026": "Calgary Centre (앨버타)",
+  "R027": "Calgary Confederation (앨버타)",
+  "R028": "Calgary Nose Hill (앨버타)",
+  "R029": "Calgary Shepard (앨버타)",
+  "R030": "Calgary Forest Lawn (앨버타)",
+  "R031": "Calgary Skyview (앨버타)",
+  "R032": "Bow River (앨버타)",
+  "R033": "Lethbridge (앨버타)",
+  "R034": "Medicine Hat—Cardston—Warner (앨버타)",
+  "R035": "Skeena—Bulkley Valley (브리티시컬럼비아)",
+  "R036": "Prince George—Peace River—Northern Rockies (브리티시컬럼비아)",
+  "R037": "North Island—Powell River (브리티시컬럼비아)",
+  "R038": "Cariboo—Prince George (브리티시컬럼비아)",
+  "R039": "Courtenay—Alberni (브리티시컬럼비아)",
+  "R040": "West Vancouver—Sunshine Coast—Sea to Sky Country (브리티시컬럼비아)",
+  "R041": "Kamloops—Thompson—Cariboo (브리티시컬럼비아)",
+  "R042": "Cowichan—Malahat—Langford (브리티시컬럼비아)",
+  "R043": "Esquimalt—Saanich—Sooke (브리티시컬럼비아)",
+  "R044": "Nanaimo—Ladysmith (브리티시컬럼비아)",
+  "R045": "Saanich—Gulf Islands (브리티시컬럼비아)",
+  "R046": "Richmond Centre (브리티시컬럼비아)",
+  "R047": "Vancouver Quadra (브리티시컬럼비아)",
+  "R048": "Steveston—Richmond East (브리티시컬럼비아)",
+  "R049": "Delta (브리티시컬럼비아)",
+  "R050": "Vancouver Granville (브리티시컬럼비아)",
+  "R051": "Vancouver Centre (브리티시컬럼비아)",
+  "R052": "Vancouver South (브리티시컬럼비아)",
+  "R053": "Vancouver Kingsway (브리티시컬럼비아)",
+  "R054": "Vancouver East (브리티시컬럼비아)",
+  "R055": "Burnaby South (브리티시컬럼비아)",
+  "R056": "Surrey—Newton (브리티시컬럼비아)",
+  "R057": "New Westminster—Burnaby (브리티시컬럼비아)",
+  "R058": "South Surrey—White Rock (브리티시컬럼비아)",
+  "R059": "Surrey Centre (브리티시컬럼비아)",
+  "R060": "North Vancouver (브리티시컬럼비아)",
+  "R061": "Burnaby North—Seymour (브리티시컬럼비아)",
+  "R062": "Port Moody—Coquitlam (브리티시컬럼비아)",
+  "R063": "Cloverdale—Langley City (브리티시컬럼비아)",
+  "R064": "Fleetwood—Port Kells (브리티시컬럼비아)",
+  "R065": "Langley—Aldergrove (브리티시컬럼비아)",
+  "R066": "Coquitlam—Port Coquitlam (브리티시컬럼비아)",
+  "R067": "Abbotsford (브리티시컬럼비아)",
+  "R068": "Pitt Meadows—Maple Ridge (브리티시컬럼비아)",
+  "R069": "Chilliwack—Hope (브리티시컬럼비아)",
+  "R070": "Mission—Matsqui—Fraser Canyon (브리티시컬럼비아)",
+  "R071": "Central Okanagan—Similkameen—Nicola (브리티시컬럼비아)",
+  "R072": "Kelowna—Lake Country (브리티시컬럼비아)",
+  "R073": "North Okanagan—Shuswap (브리티시컬럼비아)",
+  "R074": "Kootenay—Columbia (브리티시컬럼비아)",
+  "R075": "Victoria (브리티시컬럼비아)",
+  "R076": "South Okanagan—West Kootenay (브리티시컬럼비아)",
+  "R077": "Churchill—Keewatinook Aski (매니토바)",
+  "R078": "Dauphin—Swan River—Neepawa (매니토바)",
+  "R079": "Brandon—Souris (매니토바)",
+  "R080": "Portage—Lisgar (매니토바)",
+  "R081": "Selkirk—Interlake—Eastman (매니토바)",
+  "R082": "Charleswood—St. James—Assiniboia—Headingley (매니토바)",
+  "R083": "Winnipeg North (매니토바)",
+  "R084": "Winnipeg South Centre (매니토바)",
+  "R085": "Winnipeg Centre (매니토바)",
+  "R086": "Winnipeg South (매니토바)",
+  "R087": "Kildonan—St. Paul (매니토바)",
+  "R088": "Saint Boniface—Saint Vital (매니토바)",
+  "R089": "Elmwood—Transcona (매니토바)",
+  "R090": "Provencher (매니토바)",
+  "R091": "Regina—Lewvan (매니토바)",
+  "R092": "Regina—Wascana (매니토바)",
+  "R093": "Northwest Territories (노스웨스트 준주)",
+  "R094": "Nunavut (누나부트)",
+  "R095": "Desnethé—Missinippi—Churchill River (서스캐처원)",
+  "R096": "Battlefords—Lloydminster (서스캐처원)",
+  "R097": "Prince Albert (서스캐처원)",
+  "R098": "Carlton Trail—Eagle Creek (서스캐처원)",
+  "R099": "Yorkton—Melville (서스캐처원)",
+  "R100": "Cypress Hills—Grasslands (서스캐처원)",
+  "R101": "Moose Jaw—Lake Centre—Lanigan (서스캐처원)",
+  "R102": "Regina—Qu'Appelle (서스캐처원)",
+  "R103": "Souris—Moose Mountain (서스캐처원)",
+  "R104": "Saskatoon West (서스캐처원)",
+  "R105": "Saskatoon—University (서스캐처원)",
+  "R106": "Saskatoon—Grasswood (서스캐처원)",
+  "R107": "Yukon (유콘)",
+  "R108": "Kenora (온타리오)",
+  "R109": "Timmins—James Bay (온타리오)",
+  "R110": "Thunder Bay—Superior North (온타리오)",
+  "R111": "Thunder Bay—Rainy River (온타리오)",
+  "R112": "Algoma—Manitoulin—Kapuskasing (온타리오)",
+  "R113": "Nickel Belt (온타리오)",
+  "R114": "Nipissing—Timiskaming (온타리오)",
+  "R115": "Sault Ste. Marie (온타리오)",
+  "R116": "Sudbury (온타리오)",
+  "R117": "Parry Sound—Muskoka (온타리오)",
+  "R118": "Renfrew—Nipissing—Pembroke (온타리오)",
+  "R119": "Lanark—Frontenac—Kingston (온타리오)",
+  "R120": "Kanata—Carleton (온타리오)",
+  "R121": "Ottawa West—Nepean (온타리오)",
+  "R122": "Nepean (온타리오)",
+  "R123": "Ottawa Centre (온타리오)",
+  "R124": "Leeds—Grenville—Thousand Islands and Rideau Lakes (온타리오)",
+  "R125": "Ottawa South (온타리오)",
+  "R126": "Ottawa—Vanier (온타리오)",
+  "R127": "Carleton (온타리오)",
+  "R128": "Orléans (온타리오)",
+  "R129": "Glengarry—Prescott—Russell (온타리오)",
+  "R130": "Stormont—Dundas—South Glengarry (온타리오)",
+  "R131": "Bruce—Grey—Owen Sound (온타리오)",
+  "R132": "Dufferin—Caledon (온타리오)",
+  "R133": "Simcoe—Grey (온타리오)",
+  "R134": "Barrie—Springwater—Oro-Medonte (온타리오)",
+  "R135": "Barrie—Innisfil (온타리오)",
+  "R136": "King—Vaughan (온타리오)",
+  "R137": "Simcoe North (온타리오)",
+  "R138": "York—Simcoe (온타리오)",
+  "R139": "Newmarket—Aurora (온타리오)",
+  "R140": "Aurora—Oak Ridges—Richmond Hill (온타리오)",
+  "R141": "Markham—Unionville (온타리오)",
+  "R142": "Markham—Stouffville (온타리오)",
+  "R143": "Pickering—Uxbridge (온타리오)",
+  "R144": "Haliburton—Kawartha Lakes—Brock (온타리오)",
+  "R145": "Ajax (온타리오)",
+  "R146": "Whitby (온타리오)",
+  "R147": "Durham (온타리오)",
+  "R148": "Oshawa (온타리오)",
+  "R149": "Peternorough—Kawartha (온타리오)",
+  "R150": "Northumberland—Peterborough South (온타리오)",
+  "R151": "Hastings—Lennox and Addington (온타리오)",
+  "R152": "Bay of Quinte (온타리오)",
+  "R153": "Kingston and the Islands (온타리오)",
+  "R154": "Huron—Bruce (온타리오)",
+  "R155": "London West (온타리오)",
+  "R156": "London North Centre (온타리오)",
+  "R157": "London—Fanshawe (온타리오)",
+  "R158": "Perth—Wellington (온타리오)",
+  "R159": "Kitchener—Conestoga (온타리오)",
+  "R160": "Oxford (온타리오)",
+  "R161": "Waterloo (온타리오)",
+  "R162": "Kitchener Centre (온타리오)",
+  "R163": "Kitchener South—Hespeler (온타리오)",
+  "R164": "Wellington—Halton Hills (온타리오)",
+  "R165": "Cambridge (온타리오)",
+  "R166": "Guelph (온타리오)",
+  "R167": "Brantford—Brant (온타리오)",
+  "R168": "Flamborough—Glanbrook (온타리오)",
+  "R169": "Haldimand—Norfolk (온타리오)",
+  "R170": "Milton (온타리오)",
+  "R171": "Hamilton West—Ancaster—Dundas (온타리오)",
+  "R172": "Brampton West (온타리오)",
+  "R173": "Brampton North (온타리오)",
+  "R174": "Brampton South (온타리오)",
+  "R175": "Hamilton Centre (온타리오)",
+  "R176": "Brampton East (온타리오)",
+  "R177": "Hamilton Mountain (온타리오)",
+  "R178": "Burlington (온타리오)",
+  "R179": "Brampton Centre (온타리오)",
+  "R180": "Mississauga—Streetsville (온타리오)",
+  "R181": "Oakville North—Burlington (온타리오)",
+  "R182": "Mississauga—Erin Mills (온타리오)",
+  "R183": "Mississauga—Malton (온타리오)",
+  "R184": "Mississauga Centre (온타리오)",
+  "R185": "Vaughan—Woodbridge (온타리오)",
+  "R186": "Hamilton East—Stoney Creek (온타리오)",
+  "R187": "Oakville (온타리오)",
+  "R188": "Etobicoke North (온타리오)",
+  "R189": "Mississauga East—Cooksville (온타리오)",
+  "R190": "Mississauga—Lakeshore (온타리오)",
+  "R191": "Humber River—Black Creek (온타리오)",
+  "R192": "Etobicocke Centre (온타리오)",
+  "R193": "Thornhill (온타리오)",
+  "R194": "Etobicoke—Lakeshore (온타리오)",
+  "R195": "York South—Weston (온타리오)",
+  "R196": "York Centre (온타리오)",
+  "R197": "Richmond Hill (온타리오)",
+  "R198": "Parkdale—High Park (온타리오)",
+  "R199": "Willowdale (온타리오)",
+  "R200": "Davenport (온타리오)",
+  "R201": "Eglinton—Lawrence (온타리오)",
+  "R202": "Toronto—St. Paul's (온타리오)",
+  "R203": "Spadina—Fort York (온타리오)",
+  "R204": "University—Rosedale (온타리오)",
+  "R205": "Don Valley North (온타리오)",
+  "R206": "Don Valley West (온타리오)",
+  "R207": "Toronto Centre (온타리오)",
+  "R208": "Don Valley East (온타리오)",
+  "R209": "Markham—Thornhill (온타리오)",
+  "R210": "Scarborough—Agincourt (온타리오)",
+  "R211": "Toronto—Danforth (온타리오)",
+  "R212": "Niagara West (온타리오)",
+  "R213": "Beaches—East York (온타리오)",
+  "R214": "Scarborough Centre (온타리오)",
+  "R215": "Scarborough North (온타리오)",
+  "R216": "Scarborough Southwest (온타리오)",
+  "R217": "Scarborough Guildwood (온타리오)",
+  "R218": "Scarborough—Rouge Park (온타리오)",
+  "R219": "St. Catharines (온타리오)",
+  "R220": "Niagara Centre (온타리오)",
+  "R221": "Niagara Falls (온타리오)",
+  "R222": "Windsor West (온타리오)",
+  "R223": "Windsor—Tecumseh (온타리오)",
+  "R224": "Essex (온타리오)",
+  "R225": "Sarnia—Lambton (온타리오)",
+  "R226": "Chatham—Kent—Leamington (온타리오)",
+  "R227": "Lambton—Kent—Middlesex (온타리오)",
+  "R228": "Elgin—Middlesex—London (온타리오)",
+  "R229": "Abitibi—Baie-James—Nunavik—Eeyou (퀘벡)",
+  "R230": "Manicouagan (퀘벡)",
+  "R231": "Jonquière (퀘벡)",
+  "R232": "Lac-Saint-Jean (퀘벡)",
+  "R233": "Avignon—La Mitis—Matane—Matapédia (퀘벡)",
+  "R234": "Gaspésie—Les Îles-de-la-Madeleine (퀘벡)",
+  "R235": "Beauport—Côte-de-Beaupré—Île d'Orléans—Charlevoix (퀘벡)",
+  "R236": "Chicoutimi—Le Fjord (퀘벡)",
+  "R237": "Montmagny—L'Islet—Kamouraska—Rivière-du-Loup (퀘벡)",
+  "R238": "Rimouski-Neigette—Témiscouata—Les Basques (퀘벡)",
+  "R239": "Abitibi—Témiscamingue (퀘벡)",
+  "R240": "Saint-Maurice—Champlain (퀘벡)",
+  "R241": "Portneuf—Jacques-Cartier (퀘벡)",
+  "R242": "Lévis—Lotbinière (퀘벡)",
+  "R243": "Louis-Saint-Laurent (퀘벡)",
+  "R244": "Charlesbourg—Haute-Saint-Charles (퀘벡)",
+  "R245": "Louis-Hébert (퀘벡)",
+  "R246": "Québec (퀘벡)",
+  "R247": "Beauport—Limoilou (퀘벡)",
+  "R248": "Bellechasse—Les Etchemins—Lévis (퀘벡)",
+  "R249": "Beauce (퀘벡)",
+  "R250": "Pontiac (퀘벡)",
+  "R251": "Laurentides—Labelle (퀘벡)",
+  "R252": "Argenteuil—La Petite-Nation (퀘벡)",
+  "R253": "Mirabel (퀘벡)",
+  "R254": "Rivière-du-Nord (퀘벡)",
+  "R255": "Rivière-des-Mille-Îles (퀘벡)",
+  "R256": "Thérèse—De Blainville (퀘벡)",
+  "R257": "Montcalm (퀘벡)",
+  "R258": "Laval—Les Îles (퀘벡)",
+  "R259": "Pierrefonds—Dollard (퀘벡)",
+  "R260": "Marc-Aurèle-Fortin (퀘벡)",
+  "R261": "Terrebonne (퀘벡)",
+  "R262": "Vimy (퀘벡)",
+  "R263": "Alfred-Pellan (퀘벡)",
+  "R264": "Saint-Laurent (퀘벡)",
+  "R265": "Ahuntsic-Cartierville (퀘벡)",
+  "R266": "Bourassa (퀘벡)",
+  "R267": "Dorval—Lachine—LaSalle (퀘벡)",
+  "R268": "Mount Royal (퀘벡)",
+  "R269": "Papineau (퀘벡)",
+  "R270": "Saint-Léonard—Saint-Michel (퀘벡)",
+  "R271": "Honoré-Mercier (퀘벡)",
+  "R272": "Notre-Dame-de-Grâce—Westmount (퀘벡)",
+  "R273": "Outremont (퀘벡)",
+  "R274": "Rosemont—La-Petite-Patrie (퀘벡)",
+  "R275": "Laurier—Sainte-Marie (퀘벡)",
+  "R276": "La Pointe-de-l'Île (퀘벡)",
+  "R277": "Hochelaga (퀘벡)",
+  "R278": "Ville-Marie—Le Sud-Ouest—Île-des-Sœurs (퀘벡)",
+  "R279": "LaSalle—Émard—Verdun (퀘벡)",
+  "R280": "Repentigny (퀘벡)",
+  "R281": "Berthier—Maskinongé (퀘벡)",
+  "R282": "Longueuil—Saint-Hubert (퀘벡)",
+  "R283": "Longueuil—Charles-LeMoyne (퀘벡)",
+  "R284": "Brossard—Saint-Lambert (퀘벡)",
+  "R285": "Pierre-Boucher—Les Patriotes—Verchères (퀘벡)",
+  "R286": "Montarville (퀘벡)",
+  "R287": "Beloeil—Chambly (퀘벡)",
+  "R288": "Trois-Rivières (퀘벡)",
+  "R289": "Saint-Hyacinthe—Bagot (퀘벡)",
+  "R290": "Bécancour—Nicolet—Saurel (퀘벡)",
+  "R291": "Drummond (퀘벡)",
+  "R292": "Shefford (퀘벡)",
+  "R293": "Richmond—Arthabaska (퀘벡)",
+  "R294": "Sherbrooke (퀘벡)",
+  "R295": "Compton—Stanstead (퀘벡)",
+  "R296": "Mégantic—L'Érable (퀘벡)",
+  "R297": "Hull—Aylmer (퀘벡)",
+  "R298": "Gatineau (퀘벡)",
+  "R299": "Vaudreuil—Soulanges (퀘벡)",
+  "R300": "Lac-Saint-Louis (퀘벡)",
+  "R301": "Salaberry—Suroît (퀘벡)",
+  "R302": "La Prairie (퀘벡)",
+  "R303": "Châteauguay—Lacolle (퀘벡)",
+  "R304": "Saint-Jean (퀘벡)",
+  "R305": "Brome—Missisquoi (퀘벡)",
+  "R306": "Acadie—Bathurst (뉴브런즈윅)",
+  "R307": "Madawaska—Restigouche (뉴브런즈윅)",
+  "R308": "Miramichi—Grand Lake (뉴브런즈윅)",
+  "R309": "Moncton—Riverview—Dieppe (뉴브런즈윅)",
+  "R310": "Beauséjour (뉴브런즈윅)",
+  "R311": "Tobique—Mactaquac (뉴브런즈윅)",
+  "R312": "New Brunswick Southwest (뉴브런즈윅)",
+  "R313": "Fredericton (뉴브런즈윅)",
+  "R314": "Saint John—Rothesay (뉴브런즈윅)",
+  "R315": "Fundy Royal (뉴브런즈윅)",
+  "R316": "Labrador (뉴펀들랜드 래브라도)",
+  "R317": "Coast of Bays—Central—Notre Dame (뉴펀들랜드 래브라도)",
+  "R318": "Long Range Mountains (뉴펀들랜드 래브라도)",
+  "R319": "Sydney—Victoria (노바스코샤)",
+  "R320": "Cumberland—Colchester (노바스코샤)",
+  "R321": "Central Nova (노바스코샤)",
+  "R322": "Cape Breton—Canso (노바스코샤)",
+  "R323": "Kings—Hants (노바스코샤)",
+  "R324": "Halifax West (노바스코샤)",
+  "R325": "Dartmouth—Cole Harbour (노바스코샤)",
+  "R326": "Halifax (노바스코샤)",
+  "R327": "Sackville—Preston—Chezzetcook (노바스코샤)",
+  "R328": "West Nova (노바스코샤)",
+  "R329": "South Shore—St. Margarets (노바스코샤)",
+  "R330": "Joliette (노바스코샤)",
+  "R331": "Egmont (프린스에드워드아일랜드)",
+  "R332": "Malpeque (프린스에드워드아일랜드)",
+  "R333": "Charlottetown (프린스에드워드아일랜드)",
+  "R334": "Cardigan (프린스에드워드아일랜드)",
+  "R335": "St. John's East (대서양)",
+  "R336": "Bonavista—Burin—Trinity (대서양)",
+  "R337": "Avalon (대서양)",
+  "R338": "St. John's South—Mount Pearl (대서양)"
+ },
+ "regionOf": {
+  "R001": "W",
+  "R002": "W",
+  "R003": "W",
+  "R004": "W",
+  "R005": "W",
+  "R006": "W",
+  "R007": "W",
+  "R008": "W",
+  "R009": "W",
+  "R010": "W",
+  "R011": "W",
+  "R012": "W",
+  "R013": "W",
+  "R014": "W",
+  "R015": "W",
+  "R016": "W",
+  "R017": "W",
+  "R018": "W",
+  "R019": "W",
+  "R020": "W",
+  "R021": "W",
+  "R022": "W",
+  "R023": "W",
+  "R024": "W",
+  "R025": "W",
+  "R026": "W",
+  "R027": "W",
+  "R028": "W",
+  "R029": "W",
+  "R030": "W",
+  "R031": "W",
+  "R032": "W",
+  "R033": "W",
+  "R034": "W",
+  "R035": "W",
+  "R036": "W",
+  "R037": "W",
+  "R038": "W",
+  "R039": "W",
+  "R040": "W",
+  "R041": "W",
+  "R042": "W",
+  "R043": "W",
+  "R044": "W",
+  "R045": "W",
+  "R046": "W",
+  "R047": "W",
+  "R048": "W",
+  "R049": "W",
+  "R050": "W",
+  "R051": "W",
+  "R052": "W",
+  "R053": "W",
+  "R054": "W",
+  "R055": "W",
+  "R056": "W",
+  "R057": "W",
+  "R058": "W",
+  "R059": "W",
+  "R060": "W",
+  "R061": "W",
+  "R062": "W",
+  "R063": "W",
+  "R064": "W",
+  "R065": "W",
+  "R066": "W",
+  "R067": "W",
+  "R068": "W",
+  "R069": "W",
+  "R070": "W",
+  "R071": "W",
+  "R072": "W",
+  "R073": "W",
+  "R074": "W",
+  "R075": "W",
+  "R076": "W",
+  "R077": "W",
+  "R078": "W",
+  "R079": "W",
+  "R080": "W",
+  "R081": "W",
+  "R082": "W",
+  "R083": "W",
+  "R084": "W",
+  "R085": "W",
+  "R086": "W",
+  "R087": "W",
+  "R088": "W",
+  "R089": "W",
+  "R090": "W",
+  "R091": "W",
+  "R092": "W",
+  "R093": "W",
+  "R094": "W",
+  "R095": "W",
+  "R096": "W",
+  "R097": "W",
+  "R098": "W",
+  "R099": "W",
+  "R100": "W",
+  "R101": "W",
+  "R102": "W",
+  "R103": "W",
+  "R104": "W",
+  "R105": "W",
+  "R106": "W",
+  "R107": "W",
+  "R108": "ON",
+  "R109": "ON",
+  "R110": "ON",
+  "R111": "ON",
+  "R112": "ON",
+  "R113": "ON",
+  "R114": "ON",
+  "R115": "ON",
+  "R116": "ON",
+  "R117": "ON",
+  "R118": "ON",
+  "R119": "ON",
+  "R120": "ON",
+  "R121": "ON",
+  "R122": "ON",
+  "R123": "ON",
+  "R124": "ON",
+  "R125": "ON",
+  "R126": "ON",
+  "R127": "ON",
+  "R128": "ON",
+  "R129": "ON",
+  "R130": "ON",
+  "R131": "ON",
+  "R132": "ON",
+  "R133": "ON",
+  "R134": "ON",
+  "R135": "ON",
+  "R136": "ON",
+  "R137": "ON",
+  "R138": "ON",
+  "R139": "ON",
+  "R140": "ON",
+  "R141": "ON",
+  "R142": "ON",
+  "R143": "ON",
+  "R144": "ON",
+  "R145": "ON",
+  "R146": "ON",
+  "R147": "ON",
+  "R148": "ON",
+  "R149": "ON",
+  "R150": "ON",
+  "R151": "ON",
+  "R152": "ON",
+  "R153": "ON",
+  "R154": "ON",
+  "R155": "ON",
+  "R156": "ON",
+  "R157": "ON",
+  "R158": "ON",
+  "R159": "ON",
+  "R160": "ON",
+  "R161": "ON",
+  "R162": "ON",
+  "R163": "ON",
+  "R164": "ON",
+  "R165": "ON",
+  "R166": "ON",
+  "R167": "ON",
+  "R168": "ON",
+  "R169": "ON",
+  "R170": "ON",
+  "R171": "ON",
+  "R172": "ON",
+  "R173": "ON",
+  "R174": "ON",
+  "R175": "ON",
+  "R176": "ON",
+  "R177": "ON",
+  "R178": "ON",
+  "R179": "ON",
+  "R180": "ON",
+  "R181": "ON",
+  "R182": "ON",
+  "R183": "ON",
+  "R184": "ON",
+  "R185": "ON",
+  "R186": "ON",
+  "R187": "ON",
+  "R188": "ON",
+  "R189": "ON",
+  "R190": "ON",
+  "R191": "ON",
+  "R192": "ON",
+  "R193": "ON",
+  "R194": "ON",
+  "R195": "ON",
+  "R196": "ON",
+  "R197": "ON",
+  "R198": "ON",
+  "R199": "ON",
+  "R200": "ON",
+  "R201": "ON",
+  "R202": "ON",
+  "R203": "ON",
+  "R204": "ON",
+  "R205": "ON",
+  "R206": "ON",
+  "R207": "ON",
+  "R208": "ON",
+  "R209": "ON",
+  "R210": "ON",
+  "R211": "ON",
+  "R212": "ON",
+  "R213": "ON",
+  "R214": "ON",
+  "R215": "ON",
+  "R216": "ON",
+  "R217": "ON",
+  "R218": "ON",
+  "R219": "ON",
+  "R220": "ON",
+  "R221": "ON",
+  "R222": "ON",
+  "R223": "ON",
+  "R224": "ON",
+  "R225": "ON",
+  "R226": "ON",
+  "R227": "ON",
+  "R228": "ON",
+  "R229": "QC",
+  "R230": "QC",
+  "R231": "QC",
+  "R232": "QC",
+  "R233": "QC",
+  "R234": "QC",
+  "R235": "QC",
+  "R236": "QC",
+  "R237": "QC",
+  "R238": "QC",
+  "R239": "QC",
+  "R240": "QC",
+  "R241": "QC",
+  "R242": "QC",
+  "R243": "QC",
+  "R244": "QC",
+  "R245": "QC",
+  "R246": "QC",
+  "R247": "QC",
+  "R248": "QC",
+  "R249": "QC",
+  "R250": "QC",
+  "R251": "QC",
+  "R252": "QC",
+  "R253": "QC",
+  "R254": "QC",
+  "R255": "QC",
+  "R256": "QC",
+  "R257": "QC",
+  "R258": "QC",
+  "R259": "QC",
+  "R260": "QC",
+  "R261": "QC",
+  "R262": "QC",
+  "R263": "QC",
+  "R264": "QC",
+  "R265": "QC",
+  "R266": "QC",
+  "R267": "QC",
+  "R268": "QC",
+  "R269": "QC",
+  "R270": "QC",
+  "R271": "QC",
+  "R272": "QC",
+  "R273": "QC",
+  "R274": "QC",
+  "R275": "QC",
+  "R276": "QC",
+  "R277": "QC",
+  "R278": "QC",
+  "R279": "QC",
+  "R280": "QC",
+  "R281": "QC",
+  "R282": "QC",
+  "R283": "QC",
+  "R284": "QC",
+  "R285": "QC",
+  "R286": "QC",
+  "R287": "QC",
+  "R288": "QC",
+  "R289": "QC",
+  "R290": "QC",
+  "R291": "QC",
+  "R292": "QC",
+  "R293": "QC",
+  "R294": "QC",
+  "R295": "QC",
+  "R296": "QC",
+  "R297": "QC",
+  "R298": "QC",
+  "R299": "QC",
+  "R300": "QC",
+  "R301": "QC",
+  "R302": "QC",
+  "R303": "QC",
+  "R304": "QC",
+  "R305": "QC",
+  "R306": "AT",
+  "R307": "AT",
+  "R308": "AT",
+  "R309": "AT",
+  "R310": "AT",
+  "R311": "AT",
+  "R312": "AT",
+  "R313": "AT",
+  "R314": "AT",
+  "R315": "AT",
+  "R316": "AT",
+  "R317": "AT",
+  "R318": "AT",
+  "R319": "AT",
+  "R320": "AT",
+  "R321": "AT",
+  "R322": "AT",
+  "R323": "AT",
+  "R324": "AT",
+  "R325": "AT",
+  "R326": "AT",
+  "R327": "AT",
+  "R328": "AT",
+  "R329": "AT",
+  "R330": "AT",
+  "R331": "AT",
+  "R332": "AT",
+  "R333": "AT",
+  "R334": "AT",
+  "R335": "AT",
+  "R336": "AT",
+  "R337": "AT",
+  "R338": "AT"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "R001": {
+     "보수당 (Conservative)": 1
+    },
+    "R002": {
+     "보수당 (Conservative)": 1
+    },
+    "R003": {
+     "보수당 (Conservative)": 1
+    },
+    "R004": {
+     "보수당 (Conservative)": 1
+    },
+    "R005": {
+     "보수당 (Conservative)": 1
+    },
+    "R006": {
+     "보수당 (Conservative)": 1
+    },
+    "R007": {
+     "보수당 (Conservative)": 1
+    },
+    "R008": {
+     "보수당 (Conservative)": 1
+    },
+    "R009": {
+     "보수당 (Conservative)": 1
+    },
+    "R010": {
+     "자유당 (Liberal)": 1
+    },
+    "R011": {
+     "신민주당 (NDP)": 1
+    },
+    "R012": {
+     "보수당 (Conservative)": 1
+    },
+    "R013": {
+     "신민주당 (NDP)": 1
+    },
+    "R014": {
+     "보수당 (Conservative)": 1
+    },
+    "R015": {
+     "보수당 (Conservative)": 1
+    },
+    "R016": {
+     "보수당 (Conservative)": 1
+    },
+    "R017": {
+     "보수당 (Conservative)": 1
+    },
+    "R018": {
+     "보수당 (Conservative)": 1
+    },
+    "R019": {
+     "보수당 (Conservative)": 1
+    },
+    "R020": {
+     "보수당 (Conservative)": 1
+    },
+    "R021": {
+     "보수당 (Conservative)": 1
+    },
+    "R022": {
+     "보수당 (Conservative)": 1
+    },
+    "R023": {
+     "보수당 (Conservative)": 1
+    },
+    "R024": {
+     "보수당 (Conservative)": 1
+    },
+    "R025": {
+     "보수당 (Conservative)": 1
+    },
+    "R026": {
+     "보수당 (Conservative)": 1
+    },
+    "R027": {
+     "보수당 (Conservative)": 1
+    },
+    "R028": {
+     "보수당 (Conservative)": 1
+    },
+    "R029": {
+     "보수당 (Conservative)": 1
+    },
+    "R030": {
+     "보수당 (Conservative)": 1
+    },
+    "R031": {
+     "자유당 (Liberal)": 1
+    },
+    "R032": {
+     "보수당 (Conservative)": 1
+    },
+    "R033": {
+     "보수당 (Conservative)": 1
+    },
+    "R034": {
+     "보수당 (Conservative)": 1
+    },
+    "R035": {
+     "신민주당 (NDP)": 1
+    },
+    "R036": {
+     "보수당 (Conservative)": 1
+    },
+    "R037": {
+     "신민주당 (NDP)": 1
+    },
+    "R038": {
+     "보수당 (Conservative)": 1
+    },
+    "R039": {
+     "신민주당 (NDP)": 1
+    },
+    "R040": {
+     "자유당 (Liberal)": 1
+    },
+    "R041": {
+     "보수당 (Conservative)": 1
+    },
+    "R042": {
+     "신민주당 (NDP)": 1
+    },
+    "R043": {
+     "신민주당 (NDP)": 1
+    },
+    "R044": {
+     "신민주당 (NDP)": 1
+    },
+    "R045": {
+     "녹색당 (Green)": 1
+    },
+    "R046": {
+     "자유당 (Liberal)": 1
+    },
+    "R047": {
+     "자유당 (Liberal)": 1
+    },
+    "R048": {
+     "자유당 (Liberal)": 1
+    },
+    "R049": {
+     "자유당 (Liberal)": 1
+    },
+    "R050": {
+     "자유당 (Liberal)": 1
+    },
+    "R051": {
+     "자유당 (Liberal)": 1
+    },
+    "R052": {
+     "자유당 (Liberal)": 1
+    },
+    "R053": {
+     "신민주당 (NDP)": 1
+    },
+    "R054": {
+     "신민주당 (NDP)": 1
+    },
+    "R055": {
+     "신민주당 (NDP)": 1
+    },
+    "R056": {
+     "자유당 (Liberal)": 1
+    },
+    "R057": {
+     "신민주당 (NDP)": 1
+    },
+    "R058": {
+     "보수당 (Conservative)": 1
+    },
+    "R059": {
+     "자유당 (Liberal)": 1
+    },
+    "R060": {
+     "자유당 (Liberal)": 1
+    },
+    "R061": {
+     "자유당 (Liberal)": 1
+    },
+    "R062": {
+     "신민주당 (NDP)": 1
+    },
+    "R063": {
+     "자유당 (Liberal)": 1
+    },
+    "R064": {
+     "자유당 (Liberal)": 1
+    },
+    "R065": {
+     "보수당 (Conservative)": 1
+    },
+    "R066": {
+     "자유당 (Liberal)": 1
+    },
+    "R067": {
+     "보수당 (Conservative)": 1
+    },
+    "R068": {
+     "보수당 (Conservative)": 1
+    },
+    "R069": {
+     "보수당 (Conservative)": 1
+    },
+    "R070": {
+     "보수당 (Conservative)": 1
+    },
+    "R071": {
+     "보수당 (Conservative)": 1
+    },
+    "R072": {
+     "보수당 (Conservative)": 1
+    },
+    "R073": {
+     "보수당 (Conservative)": 1
+    },
+    "R074": {
+     "보수당 (Conservative)": 1
+    },
+    "R075": {
+     "신민주당 (NDP)": 1
+    },
+    "R076": {
+     "신민주당 (NDP)": 1
+    },
+    "R077": {
+     "신민주당 (NDP)": 1
+    },
+    "R078": {
+     "보수당 (Conservative)": 1
+    },
+    "R079": {
+     "보수당 (Conservative)": 1
+    },
+    "R080": {
+     "보수당 (Conservative)": 1
+    },
+    "R081": {
+     "보수당 (Conservative)": 1
+    },
+    "R082": {
+     "보수당 (Conservative)": 1
+    },
+    "R083": {
+     "자유당 (Liberal)": 1
+    },
+    "R084": {
+     "자유당 (Liberal)": 1
+    },
+    "R085": {
+     "신민주당 (NDP)": 1
+    },
+    "R086": {
+     "자유당 (Liberal)": 1
+    },
+    "R087": {
+     "보수당 (Conservative)": 1
+    },
+    "R088": {
+     "자유당 (Liberal)": 1
+    },
+    "R089": {
+     "신민주당 (NDP)": 1
+    },
+    "R090": {
+     "보수당 (Conservative)": 1
+    },
+    "R091": {
+     "보수당 (Conservative)": 1
+    },
+    "R092": {
+     "보수당 (Conservative)": 1
+    },
+    "R093": {
+     "자유당 (Liberal)": 1
+    },
+    "R094": {
+     "신민주당 (NDP)": 1
+    },
+    "R095": {
+     "보수당 (Conservative)": 1
+    },
+    "R096": {
+     "보수당 (Conservative)": 1
+    },
+    "R097": {
+     "보수당 (Conservative)": 1
+    },
+    "R098": {
+     "보수당 (Conservative)": 1
+    },
+    "R099": {
+     "보수당 (Conservative)": 1
+    },
+    "R100": {
+     "보수당 (Conservative)": 1
+    },
+    "R101": {
+     "보수당 (Conservative)": 1
+    },
+    "R102": {
+     "보수당 (Conservative)": 1
+    },
+    "R103": {
+     "보수당 (Conservative)": 1
+    },
+    "R104": {
+     "보수당 (Conservative)": 1
+    },
+    "R105": {
+     "보수당 (Conservative)": 1
+    },
+    "R106": {
+     "보수당 (Conservative)": 1
+    },
+    "R107": {
+     "자유당 (Liberal)": 1
+    },
+    "R108": {
+     "보수당 (Conservative)": 1
+    },
+    "R109": {
+     "신민주당 (NDP)": 1
+    },
+    "R110": {
+     "자유당 (Liberal)": 1
+    },
+    "R111": {
+     "자유당 (Liberal)": 1
+    },
+    "R112": {
+     "신민주당 (NDP)": 1
+    },
+    "R113": {
+     "자유당 (Liberal)": 1
+    },
+    "R114": {
+     "자유당 (Liberal)": 1
+    },
+    "R115": {
+     "자유당 (Liberal)": 1
+    },
+    "R116": {
+     "자유당 (Liberal)": 1
+    },
+    "R117": {
+     "보수당 (Conservative)": 1
+    },
+    "R118": {
+     "보수당 (Conservative)": 1
+    },
+    "R119": {
+     "보수당 (Conservative)": 1
+    },
+    "R120": {
+     "자유당 (Liberal)": 1
+    },
+    "R121": {
+     "자유당 (Liberal)": 1
+    },
+    "R122": {
+     "자유당 (Liberal)": 1
+    },
+    "R123": {
+     "자유당 (Liberal)": 1
+    },
+    "R124": {
+     "보수당 (Conservative)": 1
+    },
+    "R125": {
+     "자유당 (Liberal)": 1
+    },
+    "R126": {
+     "자유당 (Liberal)": 1
+    },
+    "R127": {
+     "보수당 (Conservative)": 1
+    },
+    "R128": {
+     "자유당 (Liberal)": 1
+    },
+    "R129": {
+     "자유당 (Liberal)": 1
+    },
+    "R130": {
+     "보수당 (Conservative)": 1
+    },
+    "R131": {
+     "보수당 (Conservative)": 1
+    },
+    "R132": {
+     "보수당 (Conservative)": 1
+    },
+    "R133": {
+     "보수당 (Conservative)": 1
+    },
+    "R134": {
+     "보수당 (Conservative)": 1
+    },
+    "R135": {
+     "보수당 (Conservative)": 1
+    },
+    "R136": {
+     "보수당 (Conservative)": 1
+    },
+    "R137": {
+     "보수당 (Conservative)": 1
+    },
+    "R138": {
+     "보수당 (Conservative)": 1
+    },
+    "R139": {
+     "자유당 (Liberal)": 1
+    },
+    "R140": {
+     "자유당 (Liberal)": 1
+    },
+    "R141": {
+     "자유당 (Liberal)": 1
+    },
+    "R142": {
+     "자유당 (Liberal)": 1
+    },
+    "R143": {
+     "자유당 (Liberal)": 1
+    },
+    "R144": {
+     "보수당 (Conservative)": 1
+    },
+    "R145": {
+     "자유당 (Liberal)": 1
+    },
+    "R146": {
+     "자유당 (Liberal)": 1
+    },
+    "R147": {
+     "보수당 (Conservative)": 1
+    },
+    "R148": {
+     "보수당 (Conservative)": 1
+    },
+    "R149": {
+     "보수당 (Conservative)": 1
+    },
+    "R150": {
+     "보수당 (Conservative)": 1
+    },
+    "R151": {
+     "보수당 (Conservative)": 1
+    },
+    "R152": {
+     "보수당 (Conservative)": 1
+    },
+    "R153": {
+     "자유당 (Liberal)": 1
+    },
+    "R154": {
+     "보수당 (Conservative)": 1
+    },
+    "R155": {
+     "자유당 (Liberal)": 1
+    },
+    "R156": {
+     "자유당 (Liberal)": 1
+    },
+    "R157": {
+     "신민주당 (NDP)": 1
+    },
+    "R158": {
+     "보수당 (Conservative)": 1
+    },
+    "R159": {
+     "자유당 (Liberal)": 1
+    },
+    "R160": {
+     "보수당 (Conservative)": 1
+    },
+    "R161": {
+     "자유당 (Liberal)": 1
+    },
+    "R162": {
+     "녹색당 (Green)": 1
+    },
+    "R163": {
+     "자유당 (Liberal)": 1
+    },
+    "R164": {
+     "보수당 (Conservative)": 1
+    },
+    "R165": {
+     "자유당 (Liberal)": 1
+    },
+    "R166": {
+     "자유당 (Liberal)": 1
+    },
+    "R167": {
+     "보수당 (Conservative)": 1
+    },
+    "R168": {
+     "보수당 (Conservative)": 1
+    },
+    "R169": {
+     "보수당 (Conservative)": 1
+    },
+    "R170": {
+     "자유당 (Liberal)": 1
+    },
+    "R171": {
+     "자유당 (Liberal)": 1
+    },
+    "R172": {
+     "자유당 (Liberal)": 1
+    },
+    "R173": {
+     "자유당 (Liberal)": 1
+    },
+    "R174": {
+     "자유당 (Liberal)": 1
+    },
+    "R175": {
+     "신민주당 (NDP)": 1
+    },
+    "R176": {
+     "자유당 (Liberal)": 1
+    },
+    "R177": {
+     "자유당 (Liberal)": 1
+    },
+    "R178": {
+     "자유당 (Liberal)": 1
+    },
+    "R179": {
+     "자유당 (Liberal)": 1
+    },
+    "R180": {
+     "자유당 (Liberal)": 1
+    },
+    "R181": {
+     "자유당 (Liberal)": 1
+    },
+    "R182": {
+     "자유당 (Liberal)": 1
+    },
+    "R183": {
+     "자유당 (Liberal)": 1
+    },
+    "R184": {
+     "자유당 (Liberal)": 1
+    },
+    "R185": {
+     "자유당 (Liberal)": 1
+    },
+    "R186": {
+     "자유당 (Liberal)": 1
+    },
+    "R187": {
+     "자유당 (Liberal)": 1
+    },
+    "R188": {
+     "자유당 (Liberal)": 1
+    },
+    "R189": {
+     "자유당 (Liberal)": 1
+    },
+    "R190": {
+     "자유당 (Liberal)": 1
+    },
+    "R191": {
+     "자유당 (Liberal)": 1
+    },
+    "R192": {
+     "자유당 (Liberal)": 1
+    },
+    "R193": {
+     "보수당 (Conservative)": 1
+    },
+    "R194": {
+     "자유당 (Liberal)": 1
+    },
+    "R195": {
+     "자유당 (Liberal)": 1
+    },
+    "R196": {
+     "자유당 (Liberal)": 1
+    },
+    "R197": {
+     "자유당 (Liberal)": 1
+    },
+    "R198": {
+     "자유당 (Liberal)": 1
+    },
+    "R199": {
+     "자유당 (Liberal)": 1
+    },
+    "R200": {
+     "자유당 (Liberal)": 1
+    },
+    "R201": {
+     "자유당 (Liberal)": 1
+    },
+    "R202": {
+     "자유당 (Liberal)": 1
+    },
+    "R203": {
+     "자유당 (Liberal)": 1
+    },
+    "R204": {
+     "자유당 (Liberal)": 1
+    },
+    "R205": {
+     "자유당 (Liberal)": 1
+    },
+    "R206": {
+     "자유당 (Liberal)": 1
+    },
+    "R207": {
+     "자유당 (Liberal)": 1
+    },
+    "R208": {
+     "자유당 (Liberal)": 1
+    },
+    "R209": {
+     "자유당 (Liberal)": 1
+    },
+    "R210": {
+     "자유당 (Liberal)": 1
+    },
+    "R211": {
+     "자유당 (Liberal)": 1
+    },
+    "R212": {
+     "보수당 (Conservative)": 1
+    },
+    "R213": {
+     "자유당 (Liberal)": 1
+    },
+    "R214": {
+     "자유당 (Liberal)": 1
+    },
+    "R215": {
+     "자유당 (Liberal)": 1
+    },
+    "R216": {
+     "자유당 (Liberal)": 1
+    },
+    "R217": {
+     "자유당 (Liberal)": 1
+    },
+    "R218": {
+     "자유당 (Liberal)": 1
+    },
+    "R219": {
+     "자유당 (Liberal)": 1
+    },
+    "R220": {
+     "자유당 (Liberal)": 1
+    },
+    "R221": {
+     "보수당 (Conservative)": 1
+    },
+    "R222": {
+     "신민주당 (NDP)": 1
+    },
+    "R223": {
+     "자유당 (Liberal)": 1
+    },
+    "R224": {
+     "보수당 (Conservative)": 1
+    },
+    "R225": {
+     "보수당 (Conservative)": 1
+    },
+    "R226": {
+     "보수당 (Conservative)": 1
+    },
+    "R227": {
+     "보수당 (Conservative)": 1
+    },
+    "R228": {
+     "보수당 (Conservative)": 1
+    },
+    "R229": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R230": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R231": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R232": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R233": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R234": {
+     "자유당 (Liberal)": 1
+    },
+    "R235": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R236": {
+     "보수당 (Conservative)": 1
+    },
+    "R237": {
+     "보수당 (Conservative)": 1
+    },
+    "R238": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R239": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R240": {
+     "자유당 (Liberal)": 1
+    },
+    "R241": {
+     "보수당 (Conservative)": 1
+    },
+    "R242": {
+     "보수당 (Conservative)": 1
+    },
+    "R243": {
+     "보수당 (Conservative)": 1
+    },
+    "R244": {
+     "보수당 (Conservative)": 1
+    },
+    "R245": {
+     "자유당 (Liberal)": 1
+    },
+    "R246": {
+     "자유당 (Liberal)": 1
+    },
+    "R247": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R248": {
+     "보수당 (Conservative)": 1
+    },
+    "R249": {
+     "보수당 (Conservative)": 1
+    },
+    "R250": {
+     "자유당 (Liberal)": 1
+    },
+    "R251": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R252": {
+     "자유당 (Liberal)": 1
+    },
+    "R253": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R254": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R255": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R256": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R257": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R258": {
+     "자유당 (Liberal)": 1
+    },
+    "R259": {
+     "자유당 (Liberal)": 1
+    },
+    "R260": {
+     "자유당 (Liberal)": 1
+    },
+    "R261": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R262": {
+     "자유당 (Liberal)": 1
+    },
+    "R263": {
+     "자유당 (Liberal)": 1
+    },
+    "R264": {
+     "자유당 (Liberal)": 1
+    },
+    "R265": {
+     "자유당 (Liberal)": 1
+    },
+    "R266": {
+     "자유당 (Liberal)": 1
+    },
+    "R267": {
+     "자유당 (Liberal)": 1
+    },
+    "R268": {
+     "자유당 (Liberal)": 1
+    },
+    "R269": {
+     "자유당 (Liberal)": 1
+    },
+    "R270": {
+     "자유당 (Liberal)": 1
+    },
+    "R271": {
+     "자유당 (Liberal)": 1
+    },
+    "R272": {
+     "자유당 (Liberal)": 1
+    },
+    "R273": {
+     "자유당 (Liberal)": 1
+    },
+    "R274": {
+     "신민주당 (NDP)": 1
+    },
+    "R275": {
+     "자유당 (Liberal)": 1
+    },
+    "R276": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R277": {
+     "자유당 (Liberal)": 1
+    },
+    "R278": {
+     "자유당 (Liberal)": 1
+    },
+    "R279": {
+     "자유당 (Liberal)": 1
+    },
+    "R280": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R281": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R282": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R283": {
+     "자유당 (Liberal)": 1
+    },
+    "R284": {
+     "자유당 (Liberal)": 1
+    },
+    "R285": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R286": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R287": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R288": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R289": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R290": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R291": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R292": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R293": {
+     "보수당 (Conservative)": 1
+    },
+    "R294": {
+     "자유당 (Liberal)": 1
+    },
+    "R295": {
+     "자유당 (Liberal)": 1
+    },
+    "R296": {
+     "보수당 (Conservative)": 1
+    },
+    "R297": {
+     "자유당 (Liberal)": 1
+    },
+    "R298": {
+     "자유당 (Liberal)": 1
+    },
+    "R299": {
+     "자유당 (Liberal)": 1
+    },
+    "R300": {
+     "자유당 (Liberal)": 1
+    },
+    "R301": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R302": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R303": {
+     "자유당 (Liberal)": 1
+    },
+    "R304": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R305": {
+     "자유당 (Liberal)": 1
+    },
+    "R306": {
+     "자유당 (Liberal)": 1
+    },
+    "R307": {
+     "자유당 (Liberal)": 1
+    },
+    "R308": {
+     "보수당 (Conservative)": 1
+    },
+    "R309": {
+     "자유당 (Liberal)": 1
+    },
+    "R310": {
+     "자유당 (Liberal)": 1
+    },
+    "R311": {
+     "보수당 (Conservative)": 1
+    },
+    "R312": {
+     "보수당 (Conservative)": 1
+    },
+    "R313": {
+     "자유당 (Liberal)": 1
+    },
+    "R314": {
+     "자유당 (Liberal)": 1
+    },
+    "R315": {
+     "보수당 (Conservative)": 1
+    },
+    "R316": {
+     "자유당 (Liberal)": 1
+    },
+    "R317": {
+     "보수당 (Conservative)": 1
+    },
+    "R318": {
+     "자유당 (Liberal)": 1
+    },
+    "R319": {
+     "자유당 (Liberal)": 1
+    },
+    "R320": {
+     "보수당 (Conservative)": 1
+    },
+    "R321": {
+     "자유당 (Liberal)": 1
+    },
+    "R322": {
+     "자유당 (Liberal)": 1
+    },
+    "R323": {
+     "자유당 (Liberal)": 1
+    },
+    "R324": {
+     "자유당 (Liberal)": 1
+    },
+    "R325": {
+     "자유당 (Liberal)": 1
+    },
+    "R326": {
+     "자유당 (Liberal)": 1
+    },
+    "R327": {
+     "자유당 (Liberal)": 1
+    },
+    "R328": {
+     "보수당 (Conservative)": 1
+    },
+    "R329": {
+     "보수당 (Conservative)": 1
+    },
+    "R330": {
+     "퀘벡 블록 (Bloc Québécois)": 1
+    },
+    "R331": {
+     "자유당 (Liberal)": 1
+    },
+    "R332": {
+     "자유당 (Liberal)": 1
+    },
+    "R333": {
+     "자유당 (Liberal)": 1
+    },
+    "R334": {
+     "자유당 (Liberal)": 1
+    },
+    "R335": {
+     "자유당 (Liberal)": 1
+    },
+    "R336": {
+     "자유당 (Liberal)": 1
+    },
+    "R337": {
+     "자유당 (Liberal)": 1
+    },
+    "R338": {
+     "자유당 (Liberal)": 1
+    }
+   }
+  }
+ ]
+}

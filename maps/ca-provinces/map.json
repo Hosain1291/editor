@@ -1,0 +1,89 @@
+{
+ "id": "ca-provinces",
+ "name": "캐나다 주 지도",
+ "subtitle": "10개 주 · 3개 준주",
+ "tag": "CANADA · PROVINCES",
+ "menuCountry": "캐나다",
+ "menuGroup": "캐나다 기본 지도",
+ "menuLabel": "지도를 고르세요",
+ "cardName": "주·준주",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 862.6,
+ "regions": {
+  "W": "서부·북부",
+  "ON": "온타리오",
+  "QC": "퀘벡",
+  "AT": "대서양"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "주·준주",
+   "sub": "13개",
+   "regions": [
+    "W",
+    "ON",
+    "QC",
+    "AT"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    862.6
+   ],
+   "big": true
+  }
+ ],
+ "parties": [],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "NL": 1,
+  "PE": 1,
+  "NS": 1,
+  "NB": 1,
+  "QB": 1,
+  "ON": 1,
+  "MB": 1,
+  "SK": 1,
+  "AB": 1,
+  "BC": 1,
+  "YT": 1,
+  "NT": 1,
+  "NU": 1
+ },
+ "names": {
+  "NL": "뉴펀들랜드 래브라도 주",
+  "PE": "프린스에드워드아일랜드 주",
+  "NS": "노바스코샤 주",
+  "NB": "뉴브런즈윅 주",
+  "QB": "퀘벡 주",
+  "ON": "온타리오 주",
+  "MB": "매니토바 주",
+  "SK": "서스캐처원 주",
+  "AB": "앨버타 주",
+  "BC": "브리티시컬럼비아 주",
+  "YT": "유콘",
+  "NT": "노스웨스트 준주",
+  "NU": "누나부트"
+ },
+ "regionOf": {
+  "NL": "AT",
+  "PE": "AT",
+  "NS": "AT",
+  "NB": "AT",
+  "QB": "QC",
+  "ON": "ON",
+  "MB": "W",
+  "SK": "W",
+  "AB": "W",
+  "BC": "W",
+  "YT": "W",
+  "NT": "W",
+  "NU": "W"
+ },
+ "presets": []
+}

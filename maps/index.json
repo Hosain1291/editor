@@ -3547,6 +3547,70 @@
   {
    "id": "my-dr-2022",
    "folder": "my-dr-2022"
+  },
+  {
+   "id": "ca-provinces",
+   "folder": "ca-provinces"
+  },
+  {
+   "id": "ca-hoc-1979",
+   "folder": "ca-hoc-1979"
+  },
+  {
+   "id": "ca-hoc-1980",
+   "folder": "ca-hoc-1980"
+  },
+  {
+   "id": "ca-hoc-1984",
+   "folder": "ca-hoc-1984"
+  },
+  {
+   "id": "ca-hoc-1988",
+   "folder": "ca-hoc-1988"
+  },
+  {
+   "id": "ca-hoc-1993",
+   "folder": "ca-hoc-1993"
+  },
+  {
+   "id": "ca-hoc-1997",
+   "folder": "ca-hoc-1997"
+  },
+  {
+   "id": "ca-hoc-2000",
+   "folder": "ca-hoc-2000"
+  },
+  {
+   "id": "ca-hoc-2004",
+   "folder": "ca-hoc-2004"
+  },
+  {
+   "id": "ca-hoc-2006",
+   "folder": "ca-hoc-2006"
+  },
+  {
+   "id": "ca-hoc-2008",
+   "folder": "ca-hoc-2008"
+  },
+  {
+   "id": "ca-hoc-2011",
+   "folder": "ca-hoc-2011"
+  },
+  {
+   "id": "ca-hoc-2015",
+   "folder": "ca-hoc-2015"
+  },
+  {
+   "id": "ca-hoc-2019",
+   "folder": "ca-hoc-2019"
+  },
+  {
+   "id": "ca-hoc-2021",
+   "folder": "ca-hoc-2021"
+  },
+  {
+   "id": "ca-hoc-2025",
+   "folder": "ca-hoc-2025"
   }
  ]
 }
