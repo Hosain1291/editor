@@ -3455,6 +3455,38 @@
   {
    "id": "pt-an-1973",
    "folder": "pt-an-1973"
+  },
+  {
+   "id": "kh-provinces",
+   "folder": "kh-provinces"
+  },
+  {
+   "id": "kh-na-1993",
+   "folder": "kh-na-1993"
+  },
+  {
+   "id": "kh-na-2013",
+   "folder": "kh-na-2013"
+  },
+  {
+   "id": "kh-na-2018",
+   "folder": "kh-na-2018"
+  },
+  {
+   "id": "kh-na-2023",
+   "folder": "kh-na-2023"
+  },
+  {
+   "id": "kh-na-1998",
+   "folder": "kh-na-1998"
+  },
+  {
+   "id": "kh-na-2003",
+   "folder": "kh-na-2003"
+  },
+  {
+   "id": "kh-na-2008",
+   "folder": "kh-na-2008"
   }
  ]
 }

@@ -1,0 +1,84 @@
+{
+ "id": "kh-na-2008",
+ "name": "캄보디아 국민의회 선거 2008",
+ "subtitle": "전국 단일 집계 · 123석 · 과반 62",
+ "tag": "CAMBODIA 2008 · NATIONAL ASSEMBLY",
+ "menuCountry": "캄보디아",
+ "menuGroup": "캄보디아 국민의회",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2008",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 925.7,
+ "regions": {
+  "NAT": "전국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2008",
+   "sub": "전국 단일 집계",
+   "regions": [
+    "NAT"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    925.7
+   ],
+   "big": true
+  }
+ ],
+ "parties": [
+  {
+   "name": "캄보디아 인민당 (CPP)",
+   "color": "#1f5fbf"
+  },
+  {
+   "name": "삼랭시당 (SRP)",
+   "color": "#e8590c"
+  },
+  {
+   "name": "인권당 (HRP)",
+   "color": "#0b7a75"
+  },
+  {
+   "name": "노로돔 라나리드당 (NRP)",
+   "color": "#b8860b"
+  },
+  {
+   "name": "푼신펙 (FUNCINPEC)",
+   "color": "#f2c500"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": false,
+ "seats": {
+  "NAT": 123
+ },
+ "names": {
+  "NAT": "캄보디아 전국"
+ },
+ "regionOf": {
+  "NAT": "NAT"
+ },
+ "seatNotes": {
+  "NAT": "주별 의석 자료를 확인하지 못해 전국을 한 선거구로 넣었어요 (주 경계는 그림으로만 표시)."
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "NAT": {
+     "캄보디아 인민당 (CPP)": 90,
+     "삼랭시당 (SRP)": 26,
+     "인권당 (HRP)": 3,
+     "노로돔 라나리드당 (NRP)": 2,
+     "푼신펙 (FUNCINPEC)": 2
+    }
+   }
+  }
+ ]
+}
