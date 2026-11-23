@@ -3323,6 +3323,138 @@
   {
    "id": "id-dpr-2024",
    "folder": "id-dpr-2024"
+  },
+  {
+   "id": "pt-districts",
+   "folder": "pt-districts"
+  },
+  {
+   "id": "pt-districts-1934",
+   "folder": "pt-districts-1934"
+  },
+  {
+   "id": "pt-municipalities",
+   "folder": "pt-municipalities"
+  },
+  {
+   "id": "pt-ar-1975",
+   "folder": "pt-ar-1975"
+  },
+  {
+   "id": "pt-ar-1976",
+   "folder": "pt-ar-1976"
+  },
+  {
+   "id": "pt-ar-1979",
+   "folder": "pt-ar-1979"
+  },
+  {
+   "id": "pt-ar-1980",
+   "folder": "pt-ar-1980"
+  },
+  {
+   "id": "pt-ar-1983",
+   "folder": "pt-ar-1983"
+  },
+  {
+   "id": "pt-ar-1985",
+   "folder": "pt-ar-1985"
+  },
+  {
+   "id": "pt-ar-1987",
+   "folder": "pt-ar-1987"
+  },
+  {
+   "id": "pt-ar-1991",
+   "folder": "pt-ar-1991"
+  },
+  {
+   "id": "pt-ar-1995",
+   "folder": "pt-ar-1995"
+  },
+  {
+   "id": "pt-ar-1999",
+   "folder": "pt-ar-1999"
+  },
+  {
+   "id": "pt-ar-2002",
+   "folder": "pt-ar-2002"
+  },
+  {
+   "id": "pt-ar-2005",
+   "folder": "pt-ar-2005"
+  },
+  {
+   "id": "pt-ar-2009",
+   "folder": "pt-ar-2009"
+  },
+  {
+   "id": "pt-ar-2011",
+   "folder": "pt-ar-2011"
+  },
+  {
+   "id": "pt-ar-2015",
+   "folder": "pt-ar-2015"
+  },
+  {
+   "id": "pt-ar-2019",
+   "folder": "pt-ar-2019"
+  },
+  {
+   "id": "pt-ar-2022",
+   "folder": "pt-ar-2022"
+  },
+  {
+   "id": "pt-ar-2024",
+   "folder": "pt-ar-2024"
+  },
+  {
+   "id": "pt-ar-2025",
+   "folder": "pt-ar-2025"
+  },
+  {
+   "id": "pt-an-1934",
+   "folder": "pt-an-1934"
+  },
+  {
+   "id": "pt-an-1938",
+   "folder": "pt-an-1938"
+  },
+  {
+   "id": "pt-an-1942",
+   "folder": "pt-an-1942"
+  },
+  {
+   "id": "pt-an-1945",
+   "folder": "pt-an-1945"
+  },
+  {
+   "id": "pt-an-1949",
+   "folder": "pt-an-1949"
+  },
+  {
+   "id": "pt-an-1953",
+   "folder": "pt-an-1953"
+  },
+  {
+   "id": "pt-an-1957",
+   "folder": "pt-an-1957"
+  },
+  {
+   "id": "pt-an-1961",
+   "folder": "pt-an-1961"
+  },
+  {
+   "id": "pt-an-1965",
+   "folder": "pt-an-1965"
+  },
+  {
+   "id": "pt-an-1969",
+   "folder": "pt-an-1969"
+  },
+  {
+   "id": "pt-an-1973",
+   "folder": "pt-an-1973"
   }
  ]
 }

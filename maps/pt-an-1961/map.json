@@ -1,0 +1,64 @@
+{
+ "id": "pt-an-1961",
+ "name": "포르투갈 국민의회 선거 1961",
+ "subtitle": "전국 단일 집계 · 130석 · 과반 66",
+ "tag": "PORTUGAL 1961 · ASSEMBLEIA NACIONAL",
+ "menuCountry": "포르투갈",
+ "menuGroup": "포르투갈 국민의회 (1934~1973)",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1961",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 1132.0,
+ "regions": {
+  "NAT": "전국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1961",
+   "sub": "전국 단일 집계",
+   "regions": [
+    "NAT"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1132.0
+   ],
+   "big": true
+  }
+ ],
+ "parties": [
+  {
+   "name": "국민연합 (UN)",
+   "color": "#002d72"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": false,
+ "seats": {
+  "NAT": 130
+ },
+ "names": {
+  "NAT": "포르투갈 전국"
+ },
+ "regionOf": {
+  "NAT": "NAT"
+ },
+ "seatNotes": {
+  "NAT": "선거구별 의석 자료가 없어 전국을 한 선거구로 넣었어요 (지구 경계는 그림으로만 표시)."
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "NAT": {
+     "국민연합 (UN)": 130
+    }
+   }
+  }
+ ]
+}
