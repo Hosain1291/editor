@@ -37,7 +37,32 @@
    "big": true
   }
  ],
- "parties": [],
+ "parties": [
+  {
+   "name": "통합국민운동 (UNM)",
+   "color": "#e30613"
+  },
+  {
+   "name": "통합야당 (National Council–New Rights)",
+   "color": "#f39200"
+  },
+  {
+   "name": "기독민주운동 (CDM)",
+   "color": "#3949ab"
+  },
+  {
+   "name": "조지아 노동당 (Labour)",
+   "color": "#d84315"
+  },
+  {
+   "name": "공화당 (Republican)",
+   "color": "#00897b"
+  },
+  {
+   "name": "무소속",
+   "color": "#9e9e9e"
+  }
+ ],
  "defaultSeats": 1,
  "hideSeatOne": true,
  "seats": {

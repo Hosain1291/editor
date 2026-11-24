@@ -37,7 +37,48 @@
    "big": true
   }
  ],
- "parties": [],
+ "parties": [
+  {
+   "name": "조지아 시민연합 (CUG)",
+   "color": "#2a7ab0"
+  },
+  {
+   "name": "국민민주당 (NDP)",
+   "color": "#6d4c41"
+  },
+  {
+   "name": "전조지아 부흥연합 (Revival)",
+   "color": "#f2b600"
+  },
+  {
+   "name": "산업이 조지아를 구한다 (Industrialists)",
+   "color": "#5d4037"
+  },
+  {
+   "name": "조지아 노동당 (Labour)",
+   "color": "#d84315"
+  },
+  {
+   "name": "사회주의당 (Socialist)",
+   "color": "#ad1457"
+  },
+  {
+   "name": "조지아 전통주의자 연합 (UGT)",
+   "color": "#8e24aa"
+  },
+  {
+   "name": "국민운동-민주주의자 (UNM–Democrats)",
+   "color": "#e30613"
+  },
+  {
+   "name": "우익 야당 (New Rights–Industrialists)",
+   "color": "#00897b"
+  },
+  {
+   "name": "무소속",
+   "color": "#9e9e9e"
+  }
+ ],
  "defaultSeats": 1,
  "hideSeatOne": true,
  "seats": {

@@ -37,7 +37,44 @@
    "big": true
   }
  ],
- "parties": [],
+ "parties": [
+  {
+   "name": "평화 블록 (Peace Bloc)",
+   "color": "#0000fe"
+  },
+  {
+   "name": "10월 11일 블록 (11 October Bloc)",
+   "color": "#c62828"
+  },
+  {
+   "name": "국민민주당 (NDP)",
+   "color": "#6d4c41"
+  },
+  {
+   "name": "통합 블록 (Unity Bloc)",
+   "color": "#f39200"
+  },
+  {
+   "name": "민주당 (Democratic Party)",
+   "color": "#1e88e5"
+  },
+  {
+   "name": "조지아 전통주의자 연합 (UGT)",
+   "color": "#8e24aa"
+  },
+  {
+   "name": "녹색당 (Greens)",
+   "color": "#2e7d32"
+  },
+  {
+   "name": "헌장 91 (Charter 91)",
+   "color": "#00897b"
+  },
+  {
+   "name": "무소속",
+   "color": "#9e9e9e"
+  }
+ ],
  "defaultSeats": 1,
  "hideSeatOne": true,
  "seats": {
