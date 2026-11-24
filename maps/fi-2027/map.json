@@ -1,0 +1,138 @@
+{
+ "id": "fi-2027",
+ "name": "핀란드 의회 총선거",
+ "subtitle": "2027년 · 선거구 13개 · 200석 · 과반 101 (예정)",
+ "tag": "EDUSKUNTAVAALIT 2027",
+ "menuCountry": "핀란드",
+ "menuGroup": "핀란드 의회 총선거",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2027",
+ "svg": "../fi-svg/g8/map.svg",
+ "width": 1000,
+ "height": 1654.0,
+ "regions": {
+  "FI": "핀란드"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2027년",
+   "sub": "선거구",
+   "regions": [
+    "FI"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1654.0
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "중앙당 (Kesk.)",
+   "color": "#3AAA35"
+  },
+  {
+   "name": "국민연합당 (Kok.)",
+   "color": "#006288"
+  },
+  {
+   "name": "사회민주당 (SDP)",
+   "color": "#E11931"
+  },
+  {
+   "name": "좌파동맹 (Vas.)",
+   "color": "#BF1E24"
+  },
+  {
+   "name": "녹색연맹 (Vihr.)",
+   "color": "#61BF1A"
+  },
+  {
+   "name": "스웨덴인민당 (RKP)",
+   "color": "#FFD500"
+  },
+  {
+   "name": "기독민주당 (KD)",
+   "color": "#2B67C9"
+  },
+  {
+   "name": "핀란드인당 (PS)",
+   "color": "#1B3F8B"
+  },
+  {
+   "name": "올란드 연합 (ÅS)",
+   "color": "#7a7a7a"
+  },
+  {
+   "name": "지금운동 (Liike Nyt)",
+   "color": "#B5338A"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "FI-HEL": 23,
+  "FI-UUS": 37,
+  "FI-TS": 18,
+  "FI-TN": 8,
+  "FI-ALA": 1,
+  "FI-HS": 13,
+  "FI-HN": 20,
+  "FI-KAA": 15,
+  "FI-SK": 15,
+  "FI-VAA": 16,
+  "FI-KS": 10,
+  "FI-OUL": 18,
+  "FI-LAPL": 6
+ },
+ "names": {
+  "FI-HEL": "헬싱키 (Helsinki)",
+  "FI-UUS": "우시마 (Uusimaa)",
+  "FI-TS": "바르시나이스수오미 (Varsinais-Suomi)",
+  "FI-TN": "사타쿤타 (Satakunta)",
+  "FI-ALA": "올란드 (Ahvenanmaa)",
+  "FI-HS": "해메 (Häme)",
+  "FI-HN": "피르칸마 (Pirkanmaa)",
+  "FI-KAA": "남동핀란드 (Kaakkois-Suomi)",
+  "FI-SK": "사보-카렐리아 (Savo-Karjala)",
+  "FI-VAA": "바사 (Vaasa)",
+  "FI-KS": "중부핀란드 (Keski-Suomi)",
+  "FI-OUL": "오울루 (Oulu)",
+  "FI-LAPL": "라피 (Lappi)"
+ },
+ "labels": {
+  "FI-HEL": "23",
+  "FI-UUS": "37",
+  "FI-TS": "18",
+  "FI-TN": "8",
+  "FI-ALA": "1",
+  "FI-HS": "13",
+  "FI-HN": "20",
+  "FI-KAA": "15",
+  "FI-SK": "15",
+  "FI-VAA": "16",
+  "FI-KS": "10",
+  "FI-OUL": "18",
+  "FI-LAPL": "6"
+ },
+ "regionOf": {
+  "FI-HEL": "FI",
+  "FI-UUS": "FI",
+  "FI-TS": "FI",
+  "FI-TN": "FI",
+  "FI-ALA": "FI",
+  "FI-HS": "FI",
+  "FI-HN": "FI",
+  "FI-KAA": "FI",
+  "FI-SK": "FI",
+  "FI-VAA": "FI",
+  "FI-KS": "FI",
+  "FI-OUL": "FI",
+  "FI-LAPL": "FI"
+ },
+ "presets": []
+}

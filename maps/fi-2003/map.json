@@ -1,0 +1,252 @@
+{
+ "id": "fi-2003",
+ "name": "핀란드 의회 총선거",
+ "subtitle": "2003년 · 선거구 15개 · 200석 · 과반 101",
+ "tag": "EDUSKUNTAVAALIT 2003",
+ "menuCountry": "핀란드",
+ "menuGroup": "핀란드 의회 총선거",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2003",
+ "svg": "../fi-svg/g7/map.svg",
+ "width": 1000,
+ "height": 1654.0,
+ "regions": {
+  "FI": "핀란드"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2003년",
+   "sub": "선거구",
+   "regions": [
+    "FI"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1654.0
+   ],
+   "big": false
+  }
+ ],
+ "parties": [
+  {
+   "name": "중앙당 (Kesk.)",
+   "color": "#3AAA35"
+  },
+  {
+   "name": "국민연합당 (Kok.)",
+   "color": "#006288"
+  },
+  {
+   "name": "사회민주당 (SDP)",
+   "color": "#E11931"
+  },
+  {
+   "name": "좌파동맹 (Vas.)",
+   "color": "#BF1E24"
+  },
+  {
+   "name": "녹색연맹 (Vihr.)",
+   "color": "#61BF1A"
+  },
+  {
+   "name": "스웨덴인민당 (RKP)",
+   "color": "#FFD500"
+  },
+  {
+   "name": "기독민주당 (KD)",
+   "color": "#2B67C9"
+  },
+  {
+   "name": "핀란드인당 (PS)",
+   "color": "#1B3F8B"
+  },
+  {
+   "name": "올란드 연합 (ÅS)",
+   "color": "#7a7a7a"
+  }
+ ],
+ "defaultSeats": 1,
+ "seats": {
+  "FI-HEL": 21,
+  "FI-UUS": 33,
+  "FI-TS": 17,
+  "FI-TN": 9,
+  "FI-ALA": 1,
+  "FI-HS": 14,
+  "FI-HN": 18,
+  "FI-KYM": 12,
+  "FI-MIK": 6,
+  "FI-KUO": 10,
+  "FI-PK": 7,
+  "FI-VAA": 17,
+  "FI-KS": 10,
+  "FI-OUL": 18,
+  "FI-LAPL": 7
+ },
+ "names": {
+  "FI-HEL": "헬싱키 (Helsinki)",
+  "FI-UUS": "우시마 (Uusimaa)",
+  "FI-TS": "바르시나이스수오미 (Varsinais-Suomi)",
+  "FI-TN": "사타쿤타 (Satakunta)",
+  "FI-ALA": "올란드 (Ahvenanmaa)",
+  "FI-HS": "해메 (Häme)",
+  "FI-HN": "피르칸마 (Pirkanmaa)",
+  "FI-KYM": "퀴미 (Kymi)",
+  "FI-MIK": "남사보 (Etelä-Savo)",
+  "FI-KUO": "북사보 (Pohjois-Savo)",
+  "FI-PK": "북카렐리아 (Pohjois-Karjala)",
+  "FI-VAA": "바사 (Vaasa)",
+  "FI-KS": "중부핀란드 (Keski-Suomi)",
+  "FI-OUL": "오울루 (Oulu)",
+  "FI-LAPL": "라피 (Lappi)"
+ },
+ "labels": {
+  "FI-HEL": "21",
+  "FI-UUS": "33",
+  "FI-TS": "17",
+  "FI-TN": "9",
+  "FI-ALA": "1",
+  "FI-HS": "14",
+  "FI-HN": "18",
+  "FI-KYM": "12",
+  "FI-MIK": "6",
+  "FI-KUO": "10",
+  "FI-PK": "7",
+  "FI-VAA": "17",
+  "FI-KS": "10",
+  "FI-OUL": "18",
+  "FI-LAPL": "7"
+ },
+ "regionOf": {
+  "FI-HEL": "FI",
+  "FI-UUS": "FI",
+  "FI-TS": "FI",
+  "FI-TN": "FI",
+  "FI-ALA": "FI",
+  "FI-HS": "FI",
+  "FI-HN": "FI",
+  "FI-KYM": "FI",
+  "FI-MIK": "FI",
+  "FI-KUO": "FI",
+  "FI-PK": "FI",
+  "FI-VAA": "FI",
+  "FI-KS": "FI",
+  "FI-OUL": "FI",
+  "FI-LAPL": "FI"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "FI-HEL": {
+     "중앙당 (Kesk.)": 2,
+     "국민연합당 (Kok.)": 6,
+     "사회민주당 (SDP)": 6,
+     "좌파동맹 (Vas.)": 1,
+     "녹색연맹 (Vihr.)": 4,
+     "스웨덴인민당 (RKP)": 1,
+     "핀란드인당 (PS)": 1
+    },
+    "FI-UUS": {
+     "중앙당 (Kesk.)": 5,
+     "국민연합당 (Kok.)": 8,
+     "사회민주당 (SDP)": 9,
+     "좌파동맹 (Vas.)": 3,
+     "녹색연맹 (Vihr.)": 4,
+     "스웨덴인민당 (RKP)": 3,
+     "핀란드인당 (PS)": 1
+    },
+    "FI-TS": {
+     "중앙당 (Kesk.)": 3,
+     "국민연합당 (Kok.)": 5,
+     "사회민주당 (SDP)": 4,
+     "좌파동맹 (Vas.)": 2,
+     "녹색연맹 (Vihr.)": 1,
+     "스웨덴인민당 (RKP)": 1,
+     "기독민주당 (KD)": 1
+    },
+    "FI-TN": {
+     "중앙당 (Kesk.)": 3,
+     "국민연합당 (Kok.)": 2,
+     "사회민주당 (SDP)": 3,
+     "좌파동맹 (Vas.)": 1
+    },
+    "FI-HS": {
+     "중앙당 (Kesk.)": 3,
+     "국민연합당 (Kok.)": 3,
+     "사회민주당 (SDP)": 5,
+     "좌파동맹 (Vas.)": 1,
+     "녹색연맹 (Vihr.)": 1,
+     "기독민주당 (KD)": 1
+    },
+    "FI-HN": {
+     "중앙당 (Kesk.)": 3,
+     "국민연합당 (Kok.)": 5,
+     "사회민주당 (SDP)": 5,
+     "좌파동맹 (Vas.)": 2,
+     "녹색연맹 (Vihr.)": 2,
+     "기독민주당 (KD)": 1
+    },
+    "FI-KYM": {
+     "중앙당 (Kesk.)": 3,
+     "국민연합당 (Kok.)": 3,
+     "사회민주당 (SDP)": 5,
+     "좌파동맹 (Vas.)": 1
+    },
+    "FI-MIK": {
+     "중앙당 (Kesk.)": 3,
+     "국민연합당 (Kok.)": 1,
+     "사회민주당 (SDP)": 2
+    },
+    "FI-KUO": {
+     "중앙당 (Kesk.)": 4,
+     "국민연합당 (Kok.)": 1,
+     "사회민주당 (SDP)": 2,
+     "좌파동맹 (Vas.)": 2,
+     "기독민주당 (KD)": 1
+    },
+    "FI-PK": {
+     "중앙당 (Kesk.)": 3,
+     "사회민주당 (SDP)": 3,
+     "녹색연맹 (Vihr.)": 1
+    },
+    "FI-VAA": {
+     "중앙당 (Kesk.)": 7,
+     "국민연합당 (Kok.)": 2,
+     "사회민주당 (SDP)": 3,
+     "스웨덴인민당 (RKP)": 3,
+     "기독민주당 (KD)": 1,
+     "핀란드인당 (PS)": 1
+    },
+    "FI-KS": {
+     "중앙당 (Kesk.)": 4,
+     "국민연합당 (Kok.)": 1,
+     "사회민주당 (SDP)": 3,
+     "좌파동맹 (Vas.)": 1,
+     "기독민주당 (KD)": 1
+    },
+    "FI-OUL": {
+     "중앙당 (Kesk.)": 9,
+     "국민연합당 (Kok.)": 2,
+     "사회민주당 (SDP)": 2,
+     "좌파동맹 (Vas.)": 3,
+     "녹색연맹 (Vihr.)": 1,
+     "기독민주당 (KD)": 1
+    },
+    "FI-LAPL": {
+     "중앙당 (Kesk.)": 3,
+     "국민연합당 (Kok.)": 1,
+     "사회민주당 (SDP)": 1,
+     "좌파동맹 (Vas.)": 2
+    },
+    "FI-ALA": {
+     "올란드 연합 (ÅS)": 1
+    }
+   }
+  }
+ ]
+}
