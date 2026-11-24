@@ -3611,6 +3611,54 @@
   {
    "id": "ca-hoc-2025",
    "folder": "ca-hoc-2025"
+  },
+  {
+   "id": "am-marz",
+   "folder": "am-marz"
+  },
+  {
+   "id": "am-districts",
+   "folder": "am-districts"
+  },
+  {
+   "id": "am-na-2026",
+   "folder": "am-na-2026"
+  },
+  {
+   "id": "ge-smd-1992",
+   "folder": "ge-smd-1992"
+  },
+  {
+   "id": "ge-smd-1995",
+   "folder": "ge-smd-1995"
+  },
+  {
+   "id": "ge-smd-2008",
+   "folder": "ge-smd-2008"
+  },
+  {
+   "id": "ge-smd-2012",
+   "folder": "ge-smd-2012"
+  },
+  {
+   "id": "ge-smd-2016",
+   "folder": "ge-smd-2016"
+  },
+  {
+   "id": "ge-smd-2020",
+   "folder": "ge-smd-2020"
+  },
+  {
+   "id": "ge-regions",
+   "folder": "ge-regions"
+  },
+  {
+   "id": "ge-municipalities",
+   "folder": "ge-municipalities"
+  },
+  {
+   "id": "ge-pr-2024",
+   "folder": "ge-pr-2024"
   }
  ]
 }

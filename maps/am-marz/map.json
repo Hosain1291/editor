@@ -1,0 +1,102 @@
+{
+ "id": "am-marz",
+ "name": "아르메니아 주 지도",
+ "subtitle": "10개 주(마르즈) · 예레반",
+ "tag": "ARMENIA · MARZ",
+ "menuCountry": "아르메니아",
+ "menuGroup": "아르메니아 기본 지도",
+ "menuLabel": "지도를 고르세요",
+ "cardName": "marz",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 1010.5,
+ "regions": {
+  "C": "예레반·아라라트 평원",
+  "N": "북부",
+  "S": "동남부"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "marz",
+   "sub": "10개 주(마르즈) · 예레반",
+   "regions": [
+    "C",
+    "N",
+    "S"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1010.5
+   ],
+   "big": true
+  }
+ ],
+ "parties": [
+  {
+   "name": "시민계약당 (Civil Contract)",
+   "color": "#f29200"
+  },
+  {
+   "name": "강한 아르메니아 (Strong Armenia)",
+   "color": "#1f4e9c"
+  },
+  {
+   "name": "아르메니아 연합 (Armenia Alliance)",
+   "color": "#b3122e"
+  },
+  {
+   "name": "번영 아르메니아 (Prosperous Armenia)",
+   "color": "#e8c21a"
+  },
+  {
+   "name": "기타·무소속",
+   "color": "#9e9e9e"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "AM-GR": 1,
+  "AM-SU": 1,
+  "AM-TV": 1,
+  "AM-SH": 1,
+  "AM-LO": 1,
+  "AM-KT": 1,
+  "AM-VD": 1,
+  "AM-AV": 1,
+  "AM-AG": 1,
+  "AM-ER": 1,
+  "AM-AR": 1
+ },
+ "names": {
+  "AM-GR": "게하르쿠니크 주",
+  "AM-SU": "시우니크 주",
+  "AM-TV": "타부시 주",
+  "AM-SH": "시라크 주",
+  "AM-LO": "로리 주",
+  "AM-KT": "코타이크 주",
+  "AM-VD": "바요츠조르 주",
+  "AM-AV": "아르마비르 주",
+  "AM-AG": "아라가초튼 주",
+  "AM-ER": "예레반",
+  "AM-AR": "아라라트 주"
+ },
+ "regionOf": {
+  "AM-GR": "S",
+  "AM-SU": "S",
+  "AM-TV": "N",
+  "AM-SH": "N",
+  "AM-LO": "N",
+  "AM-KT": "C",
+  "AM-VD": "S",
+  "AM-AV": "C",
+  "AM-AG": "N",
+  "AM-ER": "C",
+  "AM-AR": "C"
+ },
+ "presets": []
+}

@@ -1,0 +1,50 @@
+{
+ "id": "ge-pr-2024",
+ "name": "조지아 의회 2024 (전국 비례대표)",
+ "subtitle": "전국 단일 선거구",
+ "tag": "GEORGIA · 2024",
+ "menuCountry": "조지아",
+ "menuGroup": "조지아 기본 지도",
+ "menuLabel": "지도를 고르세요",
+ "cardName": "2024",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 517.8,
+ "regions": {
+  "N": "전국"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2024",
+   "sub": "전국 단일 선거구",
+   "regions": [
+    "N"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    517.8
+   ],
+   "big": true
+  }
+ ],
+ "parties": [],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "NAT": 150
+ },
+ "names": {
+  "NAT": "조지아 전국 (비례대표 150석)"
+ },
+ "regionOf": {
+  "NAT": "N"
+ },
+ "presets": [],
+ "seatNotes": {
+  "NAT": "2024년부터 150석 전부 전국 비례대표로 뽑아요."
+ }
+}
