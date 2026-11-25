@@ -6,7 +6,7 @@
 <title>editor</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Orbit&family=IBM+Plex+Sans+KR:wght@400;500;700&family=Rajdhani:wght@500;600;700&family=VT323&family=Share+Tech+Mono&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbit&family=IBM+Plex+Sans+KR:wght@400;500;700&family=Rajdhani:wght@500;600;700&family=VT323&family=Share+Tech+Mono&family=Gaegu:wght@400;700&family=Black+Han+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=1794846000">
 <link rel="stylesheet" id="tfrCss" href="css/theme-tfr.css?v=1794846000" media="not all">
 <link rel="stylesheet" id="pcCss" href="css/theme-pc.css?v=1794846000" media="not all">
@@ -17,7 +17,9 @@
 <link rel="stylesheet" id="tdCss" href="css/theme-3d.css?v=1794850000" media="not all">
 <link rel="stylesheet" id="tdbCss" href="css/theme-keycap.css?v=1794977100" media="not all">
 <link rel="stylesheet" id="lightCss" href="css/theme-light.css?v=1794846000" media="not all">
-<link rel="stylesheet" id="paperCss" href="css/theme-paper.css?v=1794846000" media="not all">
+<link rel="stylesheet" id="sketchCss" href="css/theme-sketch.css?v=1795600000" media="not all">
+<link rel="stylesheet" id="cmykCss" href="css/theme-cmyk.css?v=1795600000" media="not all">
+<link rel="stylesheet" id="termCss" href="css/theme-term.css?v=1795600000" media="not all">
 <link rel="stylesheet" id="darkCss" href="css/theme-dark.css?v=1794846000" media="not all">
 <link rel="stylesheet" id="tddCss" href="css/theme-3ddark.css?v=1794850000" media="not all">
 <link rel="stylesheet" id="tdwCss" href="css/theme-3dwhite.css?v=1794850000" media="not all">
@@ -25,10 +27,17 @@
 <link rel="stylesheet" id="tdbwCss" href="css/theme-keycapwhite.css?v=1794977100" media="not all">
 <link rel="stylesheet" href="css/slider.css?v=1794458220">
 <link rel="stylesheet" href="css/winclick.css?v=1794458220">
-<script src="js/theme.js?v=1794977000"></script>
+<script src="js/theme.js?v=1795600000"></script>
 </head>
 <body>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="kcF" x="-2%" y="-2%" width="104%" height="108%" color-interpolation-filters="sRGB">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="skCr" x="-1%" y="-1%" width="102%" height="102%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" data-bf="0.03" baseFrequency="0.03" numOctaves="2" seed="7" result="w"/>
+<feDisplacementMap in="SourceGraphic" in2="w" data-sc="5" scale="5" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" data-bf="0.8 0.05" baseFrequency="0.8 0.05" numOctaves="3" seed="2" result="s"/>
+<feColorMatrix in="s" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4.2 0 0 0 3.05" result="m"/>
+<feComposite in="d" in2="m" operator="in" result="c"/>
+<feComponentTransfer in="d" result="u"><feFuncA type="linear" slope="0.38"/></feComponentTransfer>
+<feMerge><feMergeNode in="u"/><feMergeNode in="c"/></feMerge></filter><filter id="kcF" x="-2%" y="-2%" width="104%" height="108%" color-interpolation-filters="sRGB">
 <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 30 30 0 -0.6" result="h"/>
 <feGaussianBlur in="h" stdDeviation="1.4" result="hb"/>
 <feDiffuseLighting in="hb" surfaceScale="3" diffuseConstant="1.08" lighting-color="#fff" result="df"><feDistantLight azimuth="235" elevation="58"/></feDiffuseLighting>

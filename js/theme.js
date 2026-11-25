@@ -1,4 +1,4 @@
-/* 테마: 라이트·다크(균명조 글꼴) / 올드페이퍼 (옛 종이, 나눔명조) / TNO (The New Order, 하늘색 홀로그램) / TFR (The Fire Rises, 네온 마젠타 신스웨이브) / PC통신 (파란 화면)
+/* 테마: 라이트·다크(균명조 글꼴) / 스케치북 (연필·손글씨) / CMYK (인쇄소) / 터미널 (옛날 컴퓨터 녹색 화면) / TNO (The New Order, 하늘색 홀로그램) / TFR (The Fire Rises, 네온 마젠타 신스웨이브) / PC통신 (파란 화면)
    head 에서 먼저 읽혀서 화면이 깜빡이지 않게 테마 CSS 를 바로 켜요. */
 const THEMES = {
   tno: { name: 'TNO', full: 'THE NEW ORDER', desc: 'TNO의 선거지도를 만들어보세요', toss: '#1d3a40', ctx: '#0e2125', sea: '#081619', grid: '#0f262b', head: '#0a191d', frame: '#8fe3e8', text: '#eaffff', mute: '#6f9ea2', stroke: '#d86a78', ctxStroke: '#2c4f55', off: '#0a1a1d', dark: '#071215' },
@@ -16,10 +16,13 @@ const THEMES = {
   tdbw: {"name": "키캡 화이트", "full": "WHITE · KEYCAP", "desc": "밝은 화면에서 키캡 입체 지도를 칠해보세요", "toss": "#e3e1dc", "ctx": "#efede8", "sea": "#ffffff", "grid": "#f3f2ef", "head": "#ffffff", "frame": "#1a1a1a", "text": "#1a1a1a", "mute": "#777777", "stroke": "#9a968e", "ctxStroke": "#d6d3cc", "off": "#f3f2ef", "dark": "#1a1a1a", "css": "lightCss tdbwCss", "btn": "키캡 화이트"},
   light: {"name": "라이트", "full": "LIGHT", "desc": "깔끔한 밝은 화면에서 선거지도를 만들어보세요", "toss": "#e3e1dc", "ctx": "#efede8", "sea": "#ffffff", "grid": "#f3f2ef", "head": "#ffffff", "frame": "#1a1a1a", "text": "#1a1a1a", "mute": "#777777", "stroke": "#9a968e", "ctxStroke": "#d6d3cc", "off": "#f3f2ef", "dark": "#1a1a1a", "css": "lightCss"},
   dark: {"name": "다크", "full": "DARK", "desc": "차분한 어두운 화면에서 선거지도를 만들어보세요", "toss": "#2a2a2e", "ctx": "#19191c", "sea": "#121214", "grid": "#1c1c1f", "head": "#18181a", "frame": "#ededed", "text": "#ededed", "mute": "#8a8a90", "stroke": "#55555c", "ctxStroke": "#2e2e33", "off": "#1b1b1e", "dark": "#0f0f10", "css": "darkCss"},
-  paper: {"name": "올드페이퍼", "full": "OLD PAPER", "desc": "누렇게 바랜 옛 종이 위에 선거지도를 그려보세요", "toss": "#d9c9a3", "ctx": "#e4d6b6", "sea": "#e9dcbd", "grid": "#e2d3b0", "head": "#efe4cc", "frame": "#3b2a1a", "text": "#3b2a1a", "mute": "#7a6548", "stroke": "#8c7556", "ctxStroke": "#c9b48c", "off": "#ece0c3", "dark": "#3b2a1a", "css": "paperCss"},
+  sketch: {"name": "스케치북", "full": "SKETCHBOOK", "desc": "스케치북에 연필로 선거지도를 그려보세요", "toss": "#dedbd0", "ctx": "#efede4", "sea": "#fdfcf7", "grid": "#f4f2ea", "head": "#fdfcf7", "frame": "#2b2b2b", "text": "#2b2b2b", "mute": "#6e6e6e", "stroke": "#8a8a8a", "ctxStroke": "#cfcbbf", "off": "#f4f2ea", "dark": "#2b2b2b", "css": "sketchCss"},
+  cmyk: {"name": "CMYK", "full": "CMYK PRESS", "desc": "인쇄소 교정지처럼 선거지도를 찍어보세요", "toss": "#e0e0e0", "ctx": "#efefef", "sea": "#ffffff", "grid": "#f2f2f2", "head": "#ffffff", "frame": "#111111", "text": "#111111", "mute": "#6b6b6b", "stroke": "#ffffff", "ctxStroke": "#cccccc", "off": "#f2f2f2", "dark": "#111111", "css": "cmykCss"},
+  term: {"name": "터미널", "full": "TERMINAL", "desc": "옛날 컴퓨터 녹색 화면에서 선거지도를 만들어보세요", "toss": "#0a2a12", "ctx": "#03130a", "sea": "#000000", "grid": "#04160a", "head": "#020a04", "frame": "#33ff66", "text": "#7dff9a", "mute": "#2fae52", "stroke": "#33ff66", "ctxStroke": "#0f3a1a", "off": "#04160a", "dark": "#000000", "css": "termCss"},
 };
 let THEME_ID = 'tno';
 try { THEME_ID = localStorage.getItem('tnomap:theme') || 'tno'; } catch (e) { }
+if (THEME_ID === 'paper') THEME_ID = 'sketch';
 if (!THEMES[THEME_ID]) THEME_ID = 'tno';
 let THEME = THEMES[THEME_ID];
 function setThemeCss() {
@@ -70,10 +73,13 @@ document.addEventListener('DOMContentLoaded', themeTexts);
 
 /* 키캡 테마: 볼록한 테두리·옆면 두께를 화면 픽셀 기준으로 맞춰요 (지도 크기·확대와 상관없이 같은 모양) */
 function kcTune() {
-  if (!/^tdb/.test(THEME_ID)) return;
+  if (!/^tdb|^sketch/.test(THEME_ID)) return;
   const s = document.getElementById('map'); if (!s || !s.viewBox || !s.viewBox.baseVal) return;
   const w = s.getBoundingClientRect().width || s.clientWidth; if (!w) return;
   const u = s.viewBox.baseVal.width / w;
+  /* 스케치북: 크레파스 결(줄무늬·거친 가장자리)을 화면 픽셀 기준으로 */
+  const cr = document.getElementById('skCr');
+  if (cr) { cr.querySelectorAll('feTurbulence').forEach(e => e.setAttribute('baseFrequency', e.dataset.bf.split(' ').map(v => (v / u).toFixed(5)).join(' '))); cr.querySelectorAll('feDisplacementMap').forEach(e => e.setAttribute('scale', (e.dataset.sc * u).toFixed(4))); }
   document.querySelectorAll('filter[id^="kcF"]').forEach(f => {
     f.querySelectorAll('feGaussianBlur').forEach(e => e.setAttribute('stdDeviation', (1.5 * u).toFixed(4)));
     f.querySelectorAll('feOffset').forEach(e => e.setAttribute('dy', (3 * u).toFixed(4)));
