@@ -1,0 +1,267 @@
+{
+ "id": "rvn-1966",
+ "name": "남베트남 제헌의회 선거 1966",
+ "subtitle": "제헌의회 117석 · 성 경계는 1967–75년 기준",
+ "tag": "SOUTH VIETNAM 1966",
+ "menuCountry": "남베트남",
+ "menuGroup": "남베트남 국회",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1966",
+ "svg": "../rvn-provinces/map.svg",
+ "width": 1000,
+ "height": 1397.8,
+ "regions": {
+  "I": "제1전술지역 (중부 해안 북부)",
+  "II": "제2전술지역 (중부 고원·해안)",
+  "III": "제3전술지역 (사이공 주변)",
+  "IV": "제4전술지역 (메콩 삼각주)"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1966",
+   "sub": "44개 성·자치시",
+   "regions": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1397.8
+   ],
+   "big": true
+  },
+  {
+   "key": "i",
+   "name": "제1전술지역 (중부 해안 북부)",
+   "sub": "제1전술지역 (중부 해안 북부)",
+   "regions": [
+    "I"
+   ]
+  },
+  {
+   "key": "ii",
+   "name": "제2전술지역 (중부 고원·해안)",
+   "sub": "제2전술지역 (중부 고원·해안)",
+   "regions": [
+    "II"
+   ]
+  },
+  {
+   "key": "iii",
+   "name": "제3전술지역 (사이공 주변)",
+   "sub": "제3전술지역 (사이공 주변)",
+   "regions": [
+    "III"
+   ]
+  },
+  {
+   "key": "iv",
+   "name": "제4전술지역 (메콩 삼각주)",
+   "sub": "제4전술지역 (메콩 삼각주)",
+   "regions": [
+    "IV"
+   ]
+  }
+ ],
+ "parties": [
+  {
+   "name": "무소속",
+   "color": "#9e9e9e"
+  },
+  {
+   "name": "베트남 국민당 (VNQDĐ)",
+   "color": "#c0392b"
+  },
+  {
+   "name": "대월당 (Đại Việt)",
+   "color": "#f0c419"
+  },
+  {
+   "name": "민사당·호아하오 (Dân Xã)",
+   "color": "#2fa84f"
+  },
+  {
+   "name": "까오다이교 세력",
+   "color": "#16a085"
+  },
+  {
+   "name": "가톨릭 세력",
+   "color": "#8e44ad"
+  },
+  {
+   "name": "불교 세력 (안꽝)",
+   "color": "#f39c12"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "rtth": 1,
+  "rkgi": 1,
+  "rbdi": 1,
+  "rcdo": 1,
+  "rpbo": 1,
+  "rptu": 1,
+  "rqng": 1,
+  "rkha": 1,
+  "rnth": 1,
+  "rbth": 1,
+  "rbli": 1,
+  "rbdu": 1,
+  "rqti": 1,
+  "rldo": 1,
+  "rtni": 1,
+  "rlan": 1,
+  "rbho": 1,
+  "rgdi": 1,
+  "rblo": 1,
+  "rvlo": 1,
+  "rpdi": 1,
+  "rplo": 1,
+  "rdla": 1,
+  "raxu": 1,
+  "rdtu": 1,
+  "rkho": 1,
+  "rqna": 1,
+  "rqtr": 1,
+  "rlkh": 1,
+  "rcra": 1,
+  "rvbi": 1,
+  "rsde": 1,
+  "ragi": 1,
+  "rbxu": 1,
+  "rplk": 1,
+  "rcso": 1,
+  "rhng": 1,
+  "rqdu": 1,
+  "rdlt": 1,
+  "rktu": 1,
+  "rtdu": 1,
+  "rpye": 1,
+  "rbtu": 1,
+  "rcth": 1,
+  "rgco": 1,
+  "rdng": 1,
+  "rhue": 1,
+  "rkph": 1,
+  "rktg": 1,
+  "rsgn": 1,
+  "rvta": 1
+ },
+ "names": {
+  "rtth": "트아티엔 성 (Thừa Thiên)",
+  "rkgi": "끼엔장 성 (Kiên Giang)",
+  "rbdi": "빈딘 성 (Bình Định)",
+  "rcdo": "쩌우독 성 (Châu Đốc)",
+  "rpbo": "푸본 성 (Phú Bổn)",
+  "rptu": "프억뚜이 성 (Phước Tuy)",
+  "rqng": "꽝응아이 성 (Quảng Ngãi)",
+  "rkha": "끼엔호아 성 (Kiến Hòa)",
+  "rnth": "닌투언 성 (Ninh Thuận)",
+  "rbth": "빈투언 성 (Bình Thuận)",
+  "rbli": "박리에우 성 (Bạc Liêu)",
+  "rbdu": "빈즈엉 성 (Bình Dương)",
+  "rqti": "꽝띤 성 (Quảng Tín)",
+  "rldo": "럼동 성 (Lâm Đồng)",
+  "rtni": "떠이닌 성 (Tây Ninh)",
+  "rlan": "롱안 성 (Long An)",
+  "rbho": "비엔호아 성 (Biên Hòa)",
+  "rgdi": "자딘 성 (Gia Định)",
+  "rblo": "빈롱(Bình Long) 성 (Bình Long)",
+  "rvlo": "빈롱(Vĩnh Long) 성 (Vĩnh Long)",
+  "rpdi": "퐁딘 성 (Phong Dinh)",
+  "rplo": "프억롱 성 (Phước Long)",
+  "rdla": "다르락 성 (Darlac)",
+  "raxu": "안쑤옌 성 (An Xuyên)",
+  "rdtu": "딘뜨엉 성 (Định Tường)",
+  "rkho": "카인호아 성 (Khánh Hòa)",
+  "rqna": "꽝남 성 (Quảng Nam)",
+  "rqtr": "꽝찌 성 (Quảng Trị)",
+  "rlkh": "롱카인 성 (Long Khánh)",
+  "rcra": "깜라인 시 (Cam Ranh)",
+  "rvbi": "빈빈 성 (Vĩnh Bình)",
+  "rsde": "사덱 성 (Sa Đéc)",
+  "ragi": "안장 성 (An Giang)",
+  "rbxu": "바쑤옌 성 (Ba Xuyên)",
+  "rplk": "쁠래이꾸 성 (Pleiku)",
+  "rcso": "꼰선 성 (Côn Sơn)",
+  "rhng": "허우응이아 성 (Hậu Nghĩa)",
+  "rqdu": "꽝득 성 (Quảng Đức)",
+  "rdlt": "달랏 시 (Đà Lạt)",
+  "rktu": "꼰뚬 성 (Kontum)",
+  "rtdu": "뚜옌득 성 (Tuyên Đức)",
+  "rpye": "푸옌 성 (Phú Yên)",
+  "rbtu": "빈뚜이 성 (Bình Tuy)",
+  "rcth": "쯔엉티엔 성 (Chương Thiện)",
+  "rgco": "고꽁 성 (Gò Công)",
+  "rdng": "다낭 시 (Đà Nẵng)",
+  "rhue": "후에 시 (Huế)",
+  "rkph": "끼엔퐁 성 (Kiến Phong)",
+  "rktg": "끼엔뜨엉 성 (Kiến Tường)",
+  "rsgn": "사이공 (도성) (Sài Gòn)",
+  "rvta": "붕따우 시 (Vũng Tàu)"
+ },
+ "regionOf": {
+  "rtth": "I",
+  "rkgi": "IV",
+  "rbdi": "II",
+  "rcdo": "IV",
+  "rpbo": "II",
+  "rptu": "III",
+  "rqng": "I",
+  "rkha": "IV",
+  "rnth": "II",
+  "rbth": "II",
+  "rbli": "IV",
+  "rbdu": "III",
+  "rqti": "I",
+  "rldo": "II",
+  "rtni": "III",
+  "rlan": "III",
+  "rbho": "III",
+  "rgdi": "III",
+  "rblo": "III",
+  "rvlo": "IV",
+  "rpdi": "IV",
+  "rplo": "III",
+  "rdla": "II",
+  "raxu": "IV",
+  "rdtu": "IV",
+  "rkho": "II",
+  "rqna": "I",
+  "rqtr": "I",
+  "rlkh": "III",
+  "rcra": "II",
+  "rvbi": "IV",
+  "rsde": "IV",
+  "ragi": "IV",
+  "rbxu": "IV",
+  "rplk": "II",
+  "rcso": "III",
+  "rhng": "III",
+  "rqdu": "II",
+  "rdlt": "II",
+  "rktu": "II",
+  "rtdu": "II",
+  "rpye": "II",
+  "rbtu": "III",
+  "rcth": "IV",
+  "rgco": "IV",
+  "rdng": "I",
+  "rhue": "I",
+  "rkph": "IV",
+  "rktg": "IV",
+  "rsgn": "III",
+  "rvta": "III"
+ },
+ "presets": [],
+ "seatNotes": {
+  "rcso": "꼰선(꼰다오) 섬은 따로 다스린 지역이에요."
+ }
+}
