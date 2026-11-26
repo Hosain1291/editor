@@ -1,0 +1,213 @@
+{
+ "id": "vn-provinces",
+ "name": "베트남 성·시 지도",
+ "subtitle": "34개 성·중앙직할시 (2025년 7월 통합 이후)",
+ "tag": "VIETNAM · 34 PROVINCES",
+ "menuCountry": "베트남",
+ "menuGroup": "베트남 기본 지도",
+ "menuLabel": "지도를 고르세요",
+ "cardName": "34개 성·시",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 1206.1,
+ "regions": {
+  "NM": "북부 산간",
+  "RR": "홍강 삼각주",
+  "NC": "북중부·중부 해안",
+  "CH": "중부 고원",
+  "SE": "동남부",
+  "MK": "메콩 삼각주"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "34개 성·시",
+   "sub": "34개 성·중앙직할시 (2025년 7월 통합 이후)",
+   "regions": [
+    "NM",
+    "RR",
+    "NC",
+    "CH",
+    "SE",
+    "MK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1206.1
+   ],
+   "big": true
+  },
+  {
+   "key": "nm",
+   "name": "북부 산간",
+   "sub": "북부 산간",
+   "regions": [
+    "NM"
+   ]
+  },
+  {
+   "key": "rr",
+   "name": "홍강 삼각주",
+   "sub": "홍강 삼각주",
+   "regions": [
+    "RR"
+   ]
+  },
+  {
+   "key": "nc",
+   "name": "북중부·중부 해안",
+   "sub": "북중부·중부 해안",
+   "regions": [
+    "NC"
+   ]
+  },
+  {
+   "key": "ch",
+   "name": "중부 고원",
+   "sub": "중부 고원",
+   "regions": [
+    "CH"
+   ]
+  },
+  {
+   "key": "se",
+   "name": "동남부",
+   "sub": "동남부",
+   "regions": [
+    "SE"
+   ]
+  },
+  {
+   "key": "mk",
+   "name": "메콩 삼각주",
+   "sub": "메콩 삼각주",
+   "regions": [
+    "MK"
+   ]
+  }
+ ],
+ "parties": [
+  {
+   "name": "베트남 공산당 (ĐCSVN)",
+   "color": "#da251d"
+  },
+  {
+   "name": "비당원 (조국전선 추천·무소속)",
+   "color": "#b8b8b8"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "phanoi": 1,
+  "phochiminh": 1,
+  "phaiphong": 1,
+  "pdanang": 1,
+  "pcantho": 1,
+  "phue": 1,
+  "pangiang": 1,
+  "pbacninh": 1,
+  "pcamau": 1,
+  "pcaobang": 1,
+  "pdaklak": 1,
+  "pdienbien": 1,
+  "pdongnai": 1,
+  "pdongthap": 1,
+  "pgialai": 1,
+  "phatinh": 1,
+  "phungyen": 1,
+  "pkhanhhoa": 1,
+  "plaichau": 1,
+  "plangson": 1,
+  "plaocai": 1,
+  "plamdong": 1,
+  "pninhbinh": 1,
+  "pnghean": 1,
+  "pphutho": 1,
+  "pquangninh": 1,
+  "pquangngai": 1,
+  "pquangtri": 1,
+  "psonla": 1,
+  "ptayninh": 1,
+  "pthainguyen": 1,
+  "pthanhhoa": 1,
+  "ptuyenquang": 1,
+  "pvinhlong": 1
+ },
+ "names": {
+  "phanoi": "하노이 시",
+  "phochiminh": "호찌민 시",
+  "phaiphong": "하이퐁 시",
+  "pdanang": "다낭 시",
+  "pcantho": "껀터 시",
+  "phue": "후에 시",
+  "pangiang": "안장 성",
+  "pbacninh": "박닌 성",
+  "pcamau": "까마우 성",
+  "pcaobang": "까오방 성",
+  "pdaklak": "닥락 성",
+  "pdienbien": "디엔비엔 성",
+  "pdongnai": "동나이 성",
+  "pdongthap": "동탑 성",
+  "pgialai": "잘라이 성",
+  "phatinh": "하띤 성",
+  "phungyen": "흥옌 성",
+  "pkhanhhoa": "카인호아 성",
+  "plaichau": "라이쩌우 성",
+  "plangson": "랑선 성",
+  "plaocai": "라오까이 성",
+  "plamdong": "럼동 성",
+  "pninhbinh": "닌빈 성",
+  "pnghean": "응에안 성",
+  "pphutho": "푸토 성",
+  "pquangninh": "꽝닌 성",
+  "pquangngai": "꽝응아이 성",
+  "pquangtri": "꽝찌 성",
+  "psonla": "선라 성",
+  "ptayninh": "떠이닌 성",
+  "pthainguyen": "타이응우옌 성",
+  "pthanhhoa": "타인호아 성",
+  "ptuyenquang": "뚜옌꽝 성",
+  "pvinhlong": "빈롱 성"
+ },
+ "regionOf": {
+  "phanoi": "RR",
+  "phochiminh": "SE",
+  "phaiphong": "RR",
+  "pdanang": "NC",
+  "pcantho": "MK",
+  "phue": "NC",
+  "pangiang": "MK",
+  "pbacninh": "RR",
+  "pcamau": "MK",
+  "pcaobang": "NM",
+  "pdaklak": "CH",
+  "pdienbien": "NM",
+  "pdongnai": "SE",
+  "pdongthap": "MK",
+  "pgialai": "CH",
+  "phatinh": "NC",
+  "phungyen": "RR",
+  "pkhanhhoa": "NC",
+  "plaichau": "NM",
+  "plangson": "NM",
+  "plaocai": "NM",
+  "plamdong": "CH",
+  "pninhbinh": "RR",
+  "pnghean": "NC",
+  "pphutho": "NM",
+  "pquangninh": "RR",
+  "pquangngai": "NC",
+  "pquangtri": "NC",
+  "psonla": "NM",
+  "ptayninh": "SE",
+  "pthainguyen": "NM",
+  "pthanhhoa": "NC",
+  "ptuyenquang": "NM",
+  "pvinhlong": "MK"
+ },
+ "presets": []
+}

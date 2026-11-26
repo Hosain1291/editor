@@ -1,0 +1,353 @@
+{
+ "id": "vn-na-2026",
+ "name": "베트남 국회 선거 2026",
+ "subtitle": "제16대 국회 · 500석 · 과반 251",
+ "tag": "VIETNAM 2026 · NATIONAL ASSEMBLY",
+ "menuCountry": "베트남",
+ "menuGroup": "베트남 국회",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2026",
+ "svg": "../vn-provinces/map.svg",
+ "width": 1000,
+ "height": 1206.1,
+ "regions": {
+  "NM": "북부 산간",
+  "RR": "홍강 삼각주",
+  "NC": "북중부·중부 해안",
+  "CH": "중부 고원",
+  "SE": "동남부",
+  "MK": "메콩 삼각주"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2026",
+   "sub": "제16대 국회 · 500석 · 과반 251",
+   "regions": [
+    "NM",
+    "RR",
+    "NC",
+    "CH",
+    "SE",
+    "MK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1206.1
+   ],
+   "big": true
+  },
+  {
+   "key": "nm",
+   "name": "북부 산간",
+   "sub": "북부 산간",
+   "regions": [
+    "NM"
+   ]
+  },
+  {
+   "key": "rr",
+   "name": "홍강 삼각주",
+   "sub": "홍강 삼각주",
+   "regions": [
+    "RR"
+   ]
+  },
+  {
+   "key": "nc",
+   "name": "북중부·중부 해안",
+   "sub": "북중부·중부 해안",
+   "regions": [
+    "NC"
+   ]
+  },
+  {
+   "key": "ch",
+   "name": "중부 고원",
+   "sub": "중부 고원",
+   "regions": [
+    "CH"
+   ]
+  },
+  {
+   "key": "se",
+   "name": "동남부",
+   "sub": "동남부",
+   "regions": [
+    "SE"
+   ]
+  },
+  {
+   "key": "mk",
+   "name": "메콩 삼각주",
+   "sub": "메콩 삼각주",
+   "regions": [
+    "MK"
+   ]
+  }
+ ],
+ "parties": [
+  {
+   "name": "베트남 공산당 (ĐCSVN)",
+   "color": "#da251d"
+  },
+  {
+   "name": "비당원 (조국전선 추천·무소속)",
+   "color": "#b8b8b8"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": false,
+ "seats": {
+  "phanoi": 32,
+  "phochiminh": 38,
+  "phaiphong": 19,
+  "pdanang": 14,
+  "pcantho": 18,
+  "phue": 9,
+  "pangiang": 21,
+  "pbacninh": 16,
+  "pcamau": 13,
+  "pcaobang": 7,
+  "pdaklak": 15,
+  "pdienbien": 7,
+  "pdongnai": 18,
+  "pdongthap": 18,
+  "pgialai": 16,
+  "phatinh": 9,
+  "phungyen": 16,
+  "pkhanhhoa": 12,
+  "plaichau": 7,
+  "plangson": 7,
+  "plaocai": 10,
+  "plamdong": 17,
+  "pninhbinh": 19,
+  "pnghean": 16,
+  "pphutho": 17,
+  "pquangninh": 9,
+  "pquangngai": 11,
+  "pquangtri": 10,
+  "psonla": 9,
+  "ptayninh": 15,
+  "pthainguyen": 10,
+  "pthanhhoa": 17,
+  "ptuyenquang": 10,
+  "pvinhlong": 18
+ },
+ "names": {
+  "phanoi": "하노이",
+  "phochiminh": "호찌민",
+  "phaiphong": "하이퐁",
+  "pdanang": "다낭",
+  "pcantho": "껀터",
+  "phue": "후에",
+  "pangiang": "안장",
+  "pbacninh": "박닌",
+  "pcamau": "까마우",
+  "pcaobang": "까오방",
+  "pdaklak": "닥락",
+  "pdienbien": "디엔비엔",
+  "pdongnai": "동나이",
+  "pdongthap": "동탑",
+  "pgialai": "잘라이",
+  "phatinh": "하띤",
+  "phungyen": "흥옌",
+  "pkhanhhoa": "카인호아",
+  "plaichau": "라이쩌우",
+  "plangson": "랑선",
+  "plaocai": "라오까이",
+  "plamdong": "럼동",
+  "pninhbinh": "닌빈",
+  "pnghean": "응에안",
+  "pphutho": "푸토",
+  "pquangninh": "꽝닌",
+  "pquangngai": "꽝응아이",
+  "pquangtri": "꽝찌",
+  "psonla": "선라",
+  "ptayninh": "떠이닌",
+  "pthainguyen": "타이응우옌",
+  "pthanhhoa": "타인호아",
+  "ptuyenquang": "뚜옌꽝",
+  "pvinhlong": "빈롱"
+ },
+ "regionOf": {
+  "phanoi": "RR",
+  "phochiminh": "SE",
+  "phaiphong": "RR",
+  "pdanang": "NC",
+  "pcantho": "MK",
+  "phue": "NC",
+  "pangiang": "MK",
+  "pbacninh": "RR",
+  "pcamau": "MK",
+  "pcaobang": "NM",
+  "pdaklak": "CH",
+  "pdienbien": "NM",
+  "pdongnai": "SE",
+  "pdongthap": "MK",
+  "pgialai": "CH",
+  "phatinh": "NC",
+  "phungyen": "RR",
+  "pkhanhhoa": "NC",
+  "plaichau": "NM",
+  "plangson": "NM",
+  "plaocai": "NM",
+  "plamdong": "CH",
+  "pninhbinh": "RR",
+  "pnghean": "NC",
+  "pphutho": "NM",
+  "pquangninh": "RR",
+  "pquangngai": "NC",
+  "pquangtri": "NC",
+  "psonla": "NM",
+  "ptayninh": "SE",
+  "pthainguyen": "NM",
+  "pthanhhoa": "NC",
+  "ptuyenquang": "NM",
+  "pvinhlong": "MK"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "phanoi": {
+     "베트남 공산당 (ĐCSVN)": 30,
+     "비당원 (조국전선 추천·무소속)": 2
+    },
+    "phochiminh": {
+     "베트남 공산당 (ĐCSVN)": 36,
+     "비당원 (조국전선 추천·무소속)": 2
+    },
+    "phaiphong": {
+     "베트남 공산당 (ĐCSVN)": 19
+    },
+    "pdanang": {
+     "베트남 공산당 (ĐCSVN)": 13,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "pcantho": {
+     "베트남 공산당 (ĐCSVN)": 18
+    },
+    "phue": {
+     "베트남 공산당 (ĐCSVN)": 9
+    },
+    "pangiang": {
+     "베트남 공산당 (ĐCSVN)": 21
+    },
+    "pbacninh": {
+     "베트남 공산당 (ĐCSVN)": 16
+    },
+    "pcamau": {
+     "베트남 공산당 (ĐCSVN)": 13
+    },
+    "pcaobang": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "pdaklak": {
+     "베트남 공산당 (ĐCSVN)": 14,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "pdienbien": {
+     "베트남 공산당 (ĐCSVN)": 6,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "pdongnai": {
+     "베트남 공산당 (ĐCSVN)": 16,
+     "비당원 (조국전선 추천·무소속)": 2
+    },
+    "pdongthap": {
+     "베트남 공산당 (ĐCSVN)": 18
+    },
+    "pgialai": {
+     "베트남 공산당 (ĐCSVN)": 15,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "phatinh": {
+     "베트남 공산당 (ĐCSVN)": 8,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "phungyen": {
+     "베트남 공산당 (ĐCSVN)": 16
+    },
+    "pkhanhhoa": {
+     "베트남 공산당 (ĐCSVN)": 12
+    },
+    "plaichau": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "plangson": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "plaocai": {
+     "베트남 공산당 (ĐCSVN)": 10
+    },
+    "plamdong": {
+     "베트남 공산당 (ĐCSVN)": 16,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "pninhbinh": {
+     "베트남 공산당 (ĐCSVN)": 19
+    },
+    "pnghean": {
+     "베트남 공산당 (ĐCSVN)": 15,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "pphutho": {
+     "베트남 공산당 (ĐCSVN)": 16,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "pquangninh": {
+     "베트남 공산당 (ĐCSVN)": 8,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "pquangngai": {
+     "베트남 공산당 (ĐCSVN)": 10,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "pquangtri": {
+     "베트남 공산당 (ĐCSVN)": 10
+    },
+    "psonla": {
+     "베트남 공산당 (ĐCSVN)": 8,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "ptayninh": {
+     "베트남 공산당 (ĐCSVN)": 15
+    },
+    "pthainguyen": {
+     "베트남 공산당 (ĐCSVN)": 10
+    },
+    "pthanhhoa": {
+     "베트남 공산당 (ĐCSVN)": 16,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "ptuyenquang": {
+     "베트남 공산당 (ĐCSVN)": 10
+    },
+    "pvinhlong": {
+     "베트남 공산당 (ĐCSVN)": 18
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "phanoi": "32석 중 비당원 2명: 응우옌 런 히에우 (하노이 의대병원장), 틱 바오 응이엠 스님 (일부는 선거구가 기사에 없어 근무지 기준으로 넣었어요)",
+  "phochiminh": "38석 중 비당원 2명: 응우옌 반 턴 (중소기업협회장), 응우옌 반 리엔 신부 (일부는 선거구가 기사에 없어 근무지 기준으로 넣었어요)",
+  "pdanang": "14석 중 비당원 1명: 쩐 마인 휘 (기업인)",
+  "pdongnai": "18석 중 비당원 2명: 레 느 투이 즈엉 (기업인), 반 투이 아인 (동나이 예술극장) (일부는 선거구가 기사에 없어 근무지 기준으로 넣었어요)",
+  "pthanhhoa": "17석 중 비당원 1명: 응우옌 레 응옥 린",
+  "pgialai": "16석 중 비당원 1명: 부 홍 꿘",
+  "pquangninh": "9석 중 비당원 1명: 틱 타인 꾸옛 스님",
+  "pdienbien": "7석 중 비당원 1명: 틱 득 티엔 스님",
+  "plamdong": "17석 중 비당원 1명: 레 응우옌 타오 신부",
+  "phatinh": "9석 중 비당원 1명: 응우옌 하 미",
+  "pnghean": "16석 중 비당원 1명: 로 티 바오 비 (어두족)",
+  "pquangngai": "11석 중 비당원 1명: 낭 쏘 비",
+  "psonla": "9석 중 비당원 1명: 로 티 후옌",
+  "pdaklak": "15석 중 비당원 1명: 이 벤 끄도",
+  "pphutho": "17석 중 비당원 1명: 르우 티 투이 항"
+ }
+}
