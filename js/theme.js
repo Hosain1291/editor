@@ -76,11 +76,17 @@ function kcTune() {
   if (!/^tdb|^sketch/.test(THEME_ID)) return;
   const s = document.getElementById('map'); if (!s || !s.viewBox || !s.viewBox.baseVal) return;
   const w = s.getBoundingClientRect().width || s.clientWidth; if (!w) return;
-  const u = s.viewBox.baseVal.width / w;
-  /* 스케치북: 크레파스 결(줄무늬·거친 가장자리)을 화면 픽셀 기준으로 */
-  const cr = document.getElementById('skCr');
-  if (cr) { cr.querySelectorAll('feTurbulence').forEach(e => e.setAttribute('baseFrequency', e.dataset.bf.split(' ').map(v => (v / u).toFixed(5)).join(' '))); cr.querySelectorAll('feDisplacementMap').forEach(e => e.setAttribute('scale', (e.dataset.sc * u).toFixed(4))); }
-  document.querySelectorAll('filter[id^="kcF"]').forEach(f => {
+  tuneFx(document, s.viewBox.baseVal.width / w);
+}
+/* 지도 필터 크기를 맞춰요 (u = 화면 1픽셀당 지도 좌표). PNG 내보내기에서도 같이 써요 */
+function tuneFx(root, u) {
+  /* 스케치북: 크레파스 결(줄무늬·거친 가장자리) */
+  root.querySelectorAll('filter[id^="skCr"]').forEach(cr => {
+    cr.querySelectorAll('feTurbulence').forEach(e => e.setAttribute('baseFrequency', e.dataset.bf.split(' ').map(v => (v / u).toFixed(5)).join(' ')));
+    cr.querySelectorAll('feDisplacementMap').forEach(e => e.setAttribute('scale', (e.dataset.sc * u).toFixed(4)));
+  });
+  /* 키캡: 볼록한 테두리·옆면 두께 */
+  root.querySelectorAll('filter[id^="kcF"]').forEach(f => {
     f.querySelectorAll('feGaussianBlur').forEach(e => e.setAttribute('stdDeviation', (1.5 * u).toFixed(4)));
     f.querySelectorAll('feOffset').forEach(e => e.setAttribute('dy', (3 * u).toFixed(4)));
   });
