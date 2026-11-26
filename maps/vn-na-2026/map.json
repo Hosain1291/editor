@@ -39,54 +39,6 @@
     1206.1
    ],
    "big": true
-  },
-  {
-   "key": "nm",
-   "name": "북부 산간",
-   "sub": "북부 산간",
-   "regions": [
-    "NM"
-   ]
-  },
-  {
-   "key": "rr",
-   "name": "홍강 삼각주",
-   "sub": "홍강 삼각주",
-   "regions": [
-    "RR"
-   ]
-  },
-  {
-   "key": "nc",
-   "name": "북중부·중부 해안",
-   "sub": "북중부·중부 해안",
-   "regions": [
-    "NC"
-   ]
-  },
-  {
-   "key": "ch",
-   "name": "중부 고원",
-   "sub": "중부 고원",
-   "regions": [
-    "CH"
-   ]
-  },
-  {
-   "key": "se",
-   "name": "동남부",
-   "sub": "동남부",
-   "regions": [
-    "SE"
-   ]
-  },
-  {
-   "key": "mk",
-   "name": "메콩 삼각주",
-   "sub": "메콩 삼각주",
-   "regions": [
-    "MK"
-   ]
   }
  ],
  "parties": [

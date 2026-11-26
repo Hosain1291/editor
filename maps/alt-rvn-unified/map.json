@@ -39,59 +39,11 @@
     1206.1
    ],
    "big": true
-  },
-  {
-   "key": "nm",
-   "name": "북부 산간",
-   "sub": "북부 산간",
-   "regions": [
-    "NM"
-   ]
-  },
-  {
-   "key": "rr",
-   "name": "홍강 삼각주",
-   "sub": "홍강 삼각주",
-   "regions": [
-    "RR"
-   ]
-  },
-  {
-   "key": "nc",
-   "name": "북중부·중부 해안",
-   "sub": "북중부·중부 해안",
-   "regions": [
-    "NC"
-   ]
-  },
-  {
-   "key": "ch",
-   "name": "중부 고원",
-   "sub": "중부 고원",
-   "regions": [
-    "CH"
-   ]
-  },
-  {
-   "key": "se",
-   "name": "동남부",
-   "sub": "동남부",
-   "regions": [
-    "SE"
-   ]
-  },
-  {
-   "key": "mk",
-   "name": "메콩 삼각주",
-   "sub": "메콩 삼각주",
-   "regions": [
-    "MK"
-   ]
   }
  ],
  "parties": [
   {
-   "name": "민주당 (Đảng Dân chủ)",
+   "name": "민주당 (티에우 계열, Đảng Dân chủ)",
    "color": "#d4202a"
   },
   {
@@ -103,11 +55,11 @@
    "color": "#8b1a1a"
   },
   {
-   "name": "대월당 (Đại Việt)",
+   "name": "혁신대월당 (Tân Đại Việt)",
    "color": "#f0c419"
   },
   {
-   "name": "민사당·호아하오 (Dân Xã)",
+   "name": "베트남 민주사회당 (Dân Xã·호아하오)",
    "color": "#2fa84f"
   },
   {
@@ -115,12 +67,36 @@
    "color": "#e67e22"
   },
   {
-   "name": "불교 세력 (안꽝)",
+   "name": "민족화해세력 (불교 안꽝계)",
    "color": "#f39c12"
   },
   {
-   "name": "가톨릭 세력",
+   "name": "가톨릭 세력 (Khối Công giáo)",
    "color": "#8e44ad"
+  },
+  {
+   "name": "비엣딴 (Việt Tân, 베트남개혁당)",
+   "color": "#ffd200"
+  },
+  {
+   "name": "베트남 민주당 (Đảng Dân chủ Việt Nam)",
+   "color": "#1abc9c"
+  },
+  {
+   "name": "8406 블록 (Khối 8406)",
+   "color": "#00a3e0"
+  },
+  {
+   "name": "위민당 (Đảng Vì Dân)",
+   "color": "#c2185b"
+  },
+  {
+   "name": "진보당 (Đảng Thăng Tiến)",
+   "color": "#6d4c41"
+  },
+  {
+   "name": "베트남 공산당 (합법 정당 가정)",
+   "color": "#7a0019"
   },
   {
    "name": "무소속",
