@@ -1,0 +1,523 @@
+{
+ "id": "vn-na-2021",
+ "name": "베트남 국회 선거 2021",
+ "subtitle": "제15대 국회 · 499석 (정원 500) · 과반 250",
+ "tag": "VIETNAM 2021 · NATIONAL ASSEMBLY",
+ "menuCountry": "베트남",
+ "menuGroup": "베트남 국회",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2021",
+ "svg": "../vn-provinces-63/map.svg",
+ "width": 1000,
+ "height": 1206.1,
+ "regions": {
+  "NM": "북부 산간",
+  "RR": "홍강 삼각주",
+  "NC": "북중부·중부 해안",
+  "CH": "중부 고원",
+  "SE": "동남부",
+  "MK": "메콩 삼각주"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2021",
+   "sub": "제15대 국회 · 499석 (정원 500) · 과반 250",
+   "regions": [
+    "NM",
+    "RR",
+    "NC",
+    "CH",
+    "SE",
+    "MK"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    1206.1
+   ],
+   "big": true
+  },
+  {
+   "key": "nm",
+   "name": "북부 산간",
+   "sub": "북부 산간",
+   "regions": [
+    "NM"
+   ]
+  },
+  {
+   "key": "rr",
+   "name": "홍강 삼각주",
+   "sub": "홍강 삼각주",
+   "regions": [
+    "RR"
+   ]
+  },
+  {
+   "key": "nc",
+   "name": "북중부·중부 해안",
+   "sub": "북중부·중부 해안",
+   "regions": [
+    "NC"
+   ]
+  },
+  {
+   "key": "ch",
+   "name": "중부 고원",
+   "sub": "중부 고원",
+   "regions": [
+    "CH"
+   ]
+  },
+  {
+   "key": "se",
+   "name": "동남부",
+   "sub": "동남부",
+   "regions": [
+    "SE"
+   ]
+  },
+  {
+   "key": "mk",
+   "name": "메콩 삼각주",
+   "sub": "메콩 삼각주",
+   "regions": [
+    "MK"
+   ]
+  }
+ ],
+ "parties": [
+  {
+   "name": "베트남 공산당 (ĐCSVN)",
+   "color": "#da251d"
+  },
+  {
+   "name": "비당원 (조국전선 추천·무소속)",
+   "color": "#b8b8b8"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": false,
+ "seats": {
+  "oangiang": 9,
+  "obariavungtau": 6,
+  "obacgiang": 9,
+  "obackan": 6,
+  "obaclieu": 6,
+  "obacninh": 7,
+  "obentre": 7,
+  "obinhdinh": 7,
+  "obinhduong": 10,
+  "obinhphuoc": 6,
+  "obinhthuan": 7,
+  "ocamau": 7,
+  "ocantho": 7,
+  "ocaobang": 6,
+  "odanang": 6,
+  "odaklak": 9,
+  "odaknong": 6,
+  "odienbien": 6,
+  "odongnai": 12,
+  "odongthap": 8,
+  "ogialai": 8,
+  "ohagiang": 6,
+  "ohanam": 6,
+  "ohanoi": 29,
+  "ohatinh": 7,
+  "ohaiduong": 9,
+  "ohaiphong": 9,
+  "ohaugiang": 6,
+  "ohochiminh": 30,
+  "ohoabinh": 6,
+  "ohungyen": 7,
+  "okhanhhoa": 7,
+  "okiengiang": 8,
+  "okontum": 6,
+  "olaichau": 6,
+  "olamdong": 7,
+  "olangson": 6,
+  "olaocai": 6,
+  "olongan": 8,
+  "onamdinh": 8,
+  "onghean": 13,
+  "oninhbinh": 6,
+  "oninhthuan": 6,
+  "ophutho": 7,
+  "ophuyen": 6,
+  "oquangbinh": 6,
+  "oquangnam": 7,
+  "oquangngai": 7,
+  "oquangninh": 8,
+  "oquangtri": 6,
+  "osoctrang": 7,
+  "osonla": 7,
+  "otayninh": 6,
+  "othaibinh": 9,
+  "othainguyen": 7,
+  "othanhhoa": 14,
+  "othuathienhue": 7,
+  "otiengiang": 8,
+  "otravinh": 6,
+  "otuyenquang": 6,
+  "ovinhlong": 6,
+  "ovinhphuc": 6,
+  "oyenbai": 6
+ },
+ "names": {
+  "oangiang": "안장",
+  "obariavungtau": "바리아붕따우",
+  "obacgiang": "박장",
+  "obackan": "박깐",
+  "obaclieu": "박리에우",
+  "obacninh": "박닌",
+  "obentre": "벤째",
+  "obinhdinh": "빈딘",
+  "obinhduong": "빈즈엉",
+  "obinhphuoc": "빈프억",
+  "obinhthuan": "빈투언",
+  "ocamau": "까마우",
+  "ocantho": "껀터",
+  "ocaobang": "까오방",
+  "odanang": "다낭",
+  "odaklak": "닥락",
+  "odaknong": "닥농",
+  "odienbien": "디엔비엔",
+  "odongnai": "동나이",
+  "odongthap": "동탑",
+  "ogialai": "잘라이",
+  "ohagiang": "하장",
+  "ohanam": "하남",
+  "ohanoi": "하노이",
+  "ohatinh": "하띤",
+  "ohaiduong": "하이즈엉",
+  "ohaiphong": "하이퐁",
+  "ohaugiang": "허우장",
+  "ohochiminh": "호찌민",
+  "ohoabinh": "호아빈",
+  "ohungyen": "흥옌",
+  "okhanhhoa": "카인호아",
+  "okiengiang": "끼엔장",
+  "okontum": "꼰뚬",
+  "olaichau": "라이쩌우",
+  "olamdong": "럼동",
+  "olangson": "랑선",
+  "olaocai": "라오까이",
+  "olongan": "롱안",
+  "onamdinh": "남딘",
+  "onghean": "응에안",
+  "oninhbinh": "닌빈",
+  "oninhthuan": "닌투언",
+  "ophutho": "푸토",
+  "ophuyen": "푸옌",
+  "oquangbinh": "꽝빈",
+  "oquangnam": "꽝남",
+  "oquangngai": "꽝응아이",
+  "oquangninh": "꽝닌",
+  "oquangtri": "꽝찌",
+  "osoctrang": "속짱",
+  "osonla": "선라",
+  "otayninh": "떠이닌",
+  "othaibinh": "타이빈",
+  "othainguyen": "타이응우옌",
+  "othanhhoa": "타인호아",
+  "othuathienhue": "트아티엔후에",
+  "otiengiang": "띠엔장",
+  "otravinh": "짜빈",
+  "otuyenquang": "뚜옌꽝",
+  "ovinhlong": "빈롱",
+  "ovinhphuc": "빈푹",
+  "oyenbai": "옌바이"
+ },
+ "regionOf": {
+  "oangiang": "MK",
+  "obariavungtau": "SE",
+  "obacgiang": "NM",
+  "obackan": "NM",
+  "obaclieu": "MK",
+  "obacninh": "RR",
+  "obentre": "MK",
+  "obinhdinh": "NC",
+  "obinhduong": "SE",
+  "obinhphuoc": "SE",
+  "obinhthuan": "NC",
+  "ocamau": "MK",
+  "ocantho": "MK",
+  "ocaobang": "NM",
+  "odanang": "NC",
+  "odaklak": "CH",
+  "odaknong": "CH",
+  "odienbien": "NM",
+  "odongnai": "SE",
+  "odongthap": "MK",
+  "ogialai": "CH",
+  "ohagiang": "NM",
+  "ohanam": "RR",
+  "ohanoi": "RR",
+  "ohatinh": "NC",
+  "ohaiduong": "RR",
+  "ohaiphong": "RR",
+  "ohaugiang": "MK",
+  "ohochiminh": "SE",
+  "ohoabinh": "NM",
+  "ohungyen": "RR",
+  "okhanhhoa": "NC",
+  "okiengiang": "MK",
+  "okontum": "CH",
+  "olaichau": "NM",
+  "olamdong": "CH",
+  "olangson": "NM",
+  "olaocai": "NM",
+  "olongan": "MK",
+  "onamdinh": "RR",
+  "onghean": "NC",
+  "oninhbinh": "RR",
+  "oninhthuan": "NC",
+  "ophutho": "NM",
+  "ophuyen": "NC",
+  "oquangbinh": "NC",
+  "oquangnam": "NC",
+  "oquangngai": "NC",
+  "oquangninh": "RR",
+  "oquangtri": "NC",
+  "osoctrang": "MK",
+  "osonla": "NM",
+  "otayninh": "SE",
+  "othaibinh": "RR",
+  "othainguyen": "NM",
+  "othanhhoa": "NC",
+  "othuathienhue": "NC",
+  "otiengiang": "MK",
+  "otravinh": "MK",
+  "otuyenquang": "NM",
+  "ovinhlong": "MK",
+  "ovinhphuc": "RR",
+  "oyenbai": "NM"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "oangiang": {
+     "베트남 공산당 (ĐCSVN)": 9
+    },
+    "obariavungtau": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "obacgiang": {
+     "베트남 공산당 (ĐCSVN)": 9
+    },
+    "obackan": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "obaclieu": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "obacninh": {
+     "베트남 공산당 (ĐCSVN)": 6,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "obentre": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "obinhdinh": {
+     "베트남 공산당 (ĐCSVN)": 6,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "obinhduong": {
+     "베트남 공산당 (ĐCSVN)": 9,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "obinhphuoc": {
+     "베트남 공산당 (ĐCSVN)": 5,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "obinhthuan": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "ocamau": {
+     "베트남 공산당 (ĐCSVN)": 6,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "ocantho": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "ocaobang": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "odanang": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "odaklak": {
+     "베트남 공산당 (ĐCSVN)": 9
+    },
+    "odaknong": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "odienbien": {
+     "베트남 공산당 (ĐCSVN)": 4,
+     "비당원 (조국전선 추천·무소속)": 2
+    },
+    "odongnai": {
+     "베트남 공산당 (ĐCSVN)": 12
+    },
+    "odongthap": {
+     "베트남 공산당 (ĐCSVN)": 8
+    },
+    "ogialai": {
+     "베트남 공산당 (ĐCSVN)": 8
+    },
+    "ohagiang": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "ohanam": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "ohanoi": {
+     "베트남 공산당 (ĐCSVN)": 28,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "ohatinh": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "ohaiduong": {
+     "베트남 공산당 (ĐCSVN)": 8,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "ohaiphong": {
+     "베트남 공산당 (ĐCSVN)": 9
+    },
+    "ohaugiang": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "ohochiminh": {
+     "베트남 공산당 (ĐCSVN)": 30
+    },
+    "ohoabinh": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "ohungyen": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "okhanhhoa": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "okiengiang": {
+     "베트남 공산당 (ĐCSVN)": 8
+    },
+    "okontum": {
+     "베트남 공산당 (ĐCSVN)": 5,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "olaichau": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "olamdong": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "olangson": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "olaocai": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "olongan": {
+     "베트남 공산당 (ĐCSVN)": 8
+    },
+    "onamdinh": {
+     "베트남 공산당 (ĐCSVN)": 7,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "onghean": {
+     "베트남 공산당 (ĐCSVN)": 13
+    },
+    "oninhbinh": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "oninhthuan": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "ophutho": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "ophuyen": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "oquangbinh": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "oquangnam": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "oquangngai": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "oquangninh": {
+     "베트남 공산당 (ĐCSVN)": 7,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "oquangtri": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "osoctrang": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "osonla": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "otayninh": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "othaibinh": {
+     "베트남 공산당 (ĐCSVN)": 8,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "othainguyen": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "othanhhoa": {
+     "베트남 공산당 (ĐCSVN)": 13,
+     "비당원 (조국전선 추천·무소속)": 1
+    },
+    "othuathienhue": {
+     "베트남 공산당 (ĐCSVN)": 7
+    },
+    "otiengiang": {
+     "베트남 공산당 (ĐCSVN)": 8
+    },
+    "otravinh": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "otuyenquang": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "ovinhlong": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "ovinhphuc": {
+     "베트남 공산당 (ĐCSVN)": 6
+    },
+    "oyenbai": {
+     "베트남 공산당 (ĐCSVN)": 6
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "ohaiduong": "9석 중 비당원 1명: 딘 티 응옥 중",
+  "obinhdinh": "7석 중 비당원 1명: 응우옌 런 히에우",
+  "ohanoi": "29석 중 비당원 1명: 틱 바오 응이엠 스님",
+  "obacninh": "7석 중 비당원 1명: 응우옌 티 하",
+  "obinhduong": "원래 11석이지만 당선자 1명(쩐 반 남 성 당서기)의 자격이 인정되지 않아 10석이에요. 10석 중 비당원 1명: 응우옌 반 리엔 신부",
+  "obinhphuoc": "6석 중 비당원 1명: 후인 타인 쭝",
+  "ocamau": "7석 중 비당원 1명: 응우옌 주이 타인",
+  "odienbien": "6석 중 비당원 2명: 꽝 티 응우옛, 틱 득 티엔 스님",
+  "okontum": "6석 중 비당원 1명: 낭 쏘 비",
+  "onamdinh": "8석 중 비당원 1명: 쩐 티 꾸인",
+  "oquangninh": "8석 중 비당원 1명: 틱 타인 꾸옛 스님",
+  "othaibinh": "9석 중 비당원 1명: 응우옌 반 턴",
+  "othanhhoa": "14석 중 비당원 1명: 팜 티 쑤언"
+ }
+}
