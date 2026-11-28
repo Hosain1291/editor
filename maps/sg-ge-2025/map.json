@@ -1,0 +1,257 @@
+{
+ "id": "sg-ge-2025",
+ "name": "싱가포르 총선 2025",
+ "subtitle": "의회 97석 · 과반 49 · 소선거구(SMC)·집단대표선거구(GRC)",
+ "tag": "SINGAPORE 2025 · GENERAL ELECTION",
+ "menuCountry": "싱가포르",
+ "menuGroup": "싱가포르 총선",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2025",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 653.5,
+ "regions": {
+  "SG": "싱가포르"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2025",
+   "sub": "선거구 33개",
+   "regions": [
+    "SG"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    653.5
+   ],
+   "big": true
+  }
+ ],
+ "parties": [
+  {
+   "name": "인민행동당 (PAP)",
+   "color": "#1f56a8"
+  },
+  {
+   "name": "노동자당 (WP)",
+   "color": "#d71920"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "cjurongeastbukitbatok": 5,
+  "cwestcoastjurongwest": 5,
+  "ckebunbaru": 1,
+  "cyiochukang": 1,
+  "cqueenstown": 1,
+  "ctanjongpagar": 5,
+  "cradinmas": 1,
+  "cpotongpasir": 1,
+  "cpunggol": 4,
+  "cjalankayu": 1,
+  "caljunied": 5,
+  "cangmokio": 5,
+  "cbukitgombak": 1,
+  "cchuachukang": 4,
+  "chollandbukittimah": 4,
+  "cjurongcentral": 1,
+  "cjalanbesar": 4,
+  "cpioneer": 1,
+  "cmarymount": 1,
+  "cbishantoapayoh": 4,
+  "chougang": 1,
+  "cbukitpanjang": 1,
+  "csengkang": 4,
+  "cmarsilingyewtee": 4,
+  "cneesoon": 5,
+  "csembawangwest": 1,
+  "ctampineschangkat": 1,
+  "cmountbatten": 1,
+  "csembawang": 5,
+  "ceastcoast": 5,
+  "cmarineparadebraddellheights": 5,
+  "ctampines": 5,
+  "cpasirrischangi": 4
+ },
+ "names": {
+  "cjurongeastbukitbatok": "Jurong East-Bukit Batok",
+  "cwestcoastjurongwest": "West Coast-Jurong West",
+  "ckebunbaru": "Kebun Baru",
+  "cyiochukang": "Yio Chu Kang",
+  "cqueenstown": "Queenstown",
+  "ctanjongpagar": "Tanjong Pagar",
+  "cradinmas": "Radin Mas",
+  "cpotongpasir": "Potong Pasir",
+  "cpunggol": "Punggol",
+  "cjalankayu": "Jalan Kayu",
+  "caljunied": "Aljunied",
+  "cangmokio": "Ang Mo Kio",
+  "cbukitgombak": "Bukit Gombak",
+  "cchuachukang": "Chua Chu Kang",
+  "chollandbukittimah": "Holland-Bukit Timah",
+  "cjurongcentral": "Jurong Central",
+  "cjalanbesar": "Jalan Besar",
+  "cpioneer": "Pioneer",
+  "cmarymount": "Marymount",
+  "cbishantoapayoh": "Bishan-Toa Payoh",
+  "chougang": "Hougang",
+  "cbukitpanjang": "Bukit Panjang",
+  "csengkang": "Sengkang",
+  "cmarsilingyewtee": "Marsiling-Yew Tee",
+  "cneesoon": "Nee Soon",
+  "csembawangwest": "Sembawang West",
+  "ctampineschangkat": "Tampines Changkat",
+  "cmountbatten": "Mountbatten",
+  "csembawang": "Sembawang",
+  "ceastcoast": "East Coast",
+  "cmarineparadebraddellheights": "Marine Parade-Braddell Heights",
+  "ctampines": "Tampines",
+  "cpasirrischangi": "Pasir Ris-Changi"
+ },
+ "regionOf": {
+  "cjurongeastbukitbatok": "SG",
+  "cwestcoastjurongwest": "SG",
+  "ckebunbaru": "SG",
+  "cyiochukang": "SG",
+  "cqueenstown": "SG",
+  "ctanjongpagar": "SG",
+  "cradinmas": "SG",
+  "cpotongpasir": "SG",
+  "cpunggol": "SG",
+  "cjalankayu": "SG",
+  "caljunied": "SG",
+  "cangmokio": "SG",
+  "cbukitgombak": "SG",
+  "cchuachukang": "SG",
+  "chollandbukittimah": "SG",
+  "cjurongcentral": "SG",
+  "cjalanbesar": "SG",
+  "cpioneer": "SG",
+  "cmarymount": "SG",
+  "cbishantoapayoh": "SG",
+  "chougang": "SG",
+  "cbukitpanjang": "SG",
+  "csengkang": "SG",
+  "cmarsilingyewtee": "SG",
+  "cneesoon": "SG",
+  "csembawangwest": "SG",
+  "ctampineschangkat": "SG",
+  "cmountbatten": "SG",
+  "csembawang": "SG",
+  "ceastcoast": "SG",
+  "cmarineparadebraddellheights": "SG",
+  "ctampines": "SG",
+  "cpasirrischangi": "SG"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "cjurongeastbukitbatok": {
+     "인민행동당 (PAP)": 5
+    },
+    "cwestcoastjurongwest": {
+     "인민행동당 (PAP)": 5
+    },
+    "ckebunbaru": {
+     "인민행동당 (PAP)": 1
+    },
+    "cyiochukang": {
+     "인민행동당 (PAP)": 1
+    },
+    "cqueenstown": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctanjongpagar": {
+     "인민행동당 (PAP)": 5
+    },
+    "cradinmas": {
+     "인민행동당 (PAP)": 1
+    },
+    "cpotongpasir": {
+     "인민행동당 (PAP)": 1
+    },
+    "cpunggol": {
+     "인민행동당 (PAP)": 4
+    },
+    "cjalankayu": {
+     "인민행동당 (PAP)": 1
+    },
+    "caljunied": {
+     "노동자당 (WP)": 5
+    },
+    "cangmokio": {
+     "인민행동당 (PAP)": 5
+    },
+    "cbukitgombak": {
+     "인민행동당 (PAP)": 1
+    },
+    "cchuachukang": {
+     "인민행동당 (PAP)": 4
+    },
+    "chollandbukittimah": {
+     "인민행동당 (PAP)": 4
+    },
+    "cjurongcentral": {
+     "인민행동당 (PAP)": 1
+    },
+    "cjalanbesar": {
+     "인민행동당 (PAP)": 4
+    },
+    "cpioneer": {
+     "인민행동당 (PAP)": 1
+    },
+    "cmarymount": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbishantoapayoh": {
+     "인민행동당 (PAP)": 4
+    },
+    "chougang": {
+     "노동자당 (WP)": 1
+    },
+    "cbukitpanjang": {
+     "인민행동당 (PAP)": 1
+    },
+    "csengkang": {
+     "노동자당 (WP)": 4
+    },
+    "cmarsilingyewtee": {
+     "인민행동당 (PAP)": 4
+    },
+    "cneesoon": {
+     "인민행동당 (PAP)": 5
+    },
+    "csembawangwest": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctampineschangkat": {
+     "인민행동당 (PAP)": 1
+    },
+    "cmountbatten": {
+     "인민행동당 (PAP)": 1
+    },
+    "csembawang": {
+     "인민행동당 (PAP)": 5
+    },
+    "ceastcoast": {
+     "인민행동당 (PAP)": 5
+    },
+    "cmarineparadebraddellheights": {
+     "인민행동당 (PAP)": 5
+    },
+    "ctampines": {
+     "인민행동당 (PAP)": 5
+    },
+    "cpasirrischangi": {
+     "인민행동당 (PAP)": 4
+    }
+   }
+  }
+ ]
+}

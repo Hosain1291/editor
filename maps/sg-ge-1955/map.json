@@ -1,0 +1,233 @@
+{
+ "id": "sg-ge-1955",
+ "name": "싱가포르 총선 1955",
+ "subtitle": "의회 25석 · 과반 13 · 소선거구",
+ "tag": "SINGAPORE 1955 · GENERAL ELECTION",
+ "menuCountry": "싱가포르",
+ "menuGroup": "싱가포르 총선",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1955",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 647.1,
+ "regions": {
+  "SG": "싱가포르"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1955",
+   "sub": "선거구 25개",
+   "regions": [
+    "SG"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    647.1
+   ],
+   "big": true
+  }
+ ],
+ "parties": [
+  {
+   "name": "노동전선 (Labour Front)",
+   "color": "#b5651d"
+  },
+  {
+   "name": "진보당 (Progressive Party)",
+   "color": "#00897b"
+  },
+  {
+   "name": "인민행동당 (PAP)",
+   "color": "#1f56a8"
+  },
+  {
+   "name": "무소속",
+   "color": "#9e9e9e"
+  },
+  {
+   "name": "민주당 (Democratic Party)",
+   "color": "#c2185b"
+  },
+  {
+   "name": "말레이시아 화인공회 (MCA)",
+   "color": "#f9a825"
+  },
+  {
+   "name": "통일말레이국민기구 (UMNO)",
+   "color": "#b71c1c"
+  },
+  {
+   "name": "싱가포르 말레이 연합 (SMU)",
+   "color": "#689f38"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "cbukittimah": 1,
+  "cbukitpanjang": 1,
+  "csembawang": 1,
+  "cseletar": 1,
+  "cpasirpanjang": 1,
+  "cqueenstown": 1,
+  "ctanglin": 1,
+  "cgeylang": 1,
+  "ckatong": 1,
+  "cwhampoa": 1,
+  "cpayalebar": 1,
+  "cserangoon": 1,
+  "cpunggoltampines": 1,
+  "ctiongbahru": 1,
+  "ctanjongpagar": 1,
+  "ctelokayer": 1,
+  "chavelock": 1,
+  "cstamford": 1,
+  "ccairnhill": 1,
+  "cfarrerpark": 1,
+  "ckampongkapor": 1,
+  "crochore": 1,
+  "culubedok": 1,
+  "cchangi": 1,
+  "csouthernislands": 1
+ },
+ "names": {
+  "cbukittimah": "Bukit Timah",
+  "cbukitpanjang": "Bukit Panjang",
+  "csembawang": "Sembawang",
+  "cseletar": "Seletar",
+  "cpasirpanjang": "Pasir Panjang",
+  "cqueenstown": "Queenstown",
+  "ctanglin": "Tanglin",
+  "cgeylang": "Geylang",
+  "ckatong": "Katong",
+  "cwhampoa": "Whampoa",
+  "cpayalebar": "Paya Lebar",
+  "cserangoon": "Serangoon",
+  "cpunggoltampines": "Punggol-Tampines",
+  "ctiongbahru": "Tiong Bahru",
+  "ctanjongpagar": "Tanjong Pagar",
+  "ctelokayer": "Telok Ayer",
+  "chavelock": "Havelock",
+  "cstamford": "Stamford",
+  "ccairnhill": "Cairnhill",
+  "cfarrerpark": "Farrer Park",
+  "ckampongkapor": "Kampong Kapor",
+  "crochore": "Rochore",
+  "culubedok": "Ulu Bedok",
+  "cchangi": "Changi",
+  "csouthernislands": "Southern Islands"
+ },
+ "regionOf": {
+  "cbukittimah": "SG",
+  "cbukitpanjang": "SG",
+  "csembawang": "SG",
+  "cseletar": "SG",
+  "cpasirpanjang": "SG",
+  "cqueenstown": "SG",
+  "ctanglin": "SG",
+  "cgeylang": "SG",
+  "ckatong": "SG",
+  "cwhampoa": "SG",
+  "cpayalebar": "SG",
+  "cserangoon": "SG",
+  "cpunggoltampines": "SG",
+  "ctiongbahru": "SG",
+  "ctanjongpagar": "SG",
+  "ctelokayer": "SG",
+  "chavelock": "SG",
+  "cstamford": "SG",
+  "ccairnhill": "SG",
+  "cfarrerpark": "SG",
+  "ckampongkapor": "SG",
+  "crochore": "SG",
+  "culubedok": "SG",
+  "cchangi": "SG",
+  "csouthernislands": "SG"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "cbukittimah": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbukitpanjang": {
+     "진보당 (Progressive Party)": 1
+    },
+    "csembawang": {
+     "무소속": 1
+    },
+    "cseletar": {
+     "무소속": 1
+    },
+    "cpasirpanjang": {
+     "말레이시아 화인공회 (MCA)": 1
+    },
+    "cqueenstown": {
+     "노동전선 (Labour Front)": 1
+    },
+    "ctanglin": {
+     "진보당 (Progressive Party)": 1
+    },
+    "cgeylang": {
+     "노동전선 (Labour Front)": 1
+    },
+    "ckatong": {
+     "노동전선 (Labour Front)": 1
+    },
+    "cwhampoa": {
+     "노동전선 (Labour Front)": 1
+    },
+    "cpayalebar": {
+     "진보당 (Progressive Party)": 1
+    },
+    "cserangoon": {
+     "진보당 (Progressive Party)": 1
+    },
+    "cpunggoltampines": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctiongbahru": {
+     "민주당 (Democratic Party)": 1
+    },
+    "ctanjongpagar": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctelokayer": {
+     "무소속": 1
+    },
+    "chavelock": {
+     "노동전선 (Labour Front)": 1
+    },
+    "cstamford": {
+     "노동전선 (Labour Front)": 1
+    },
+    "ccairnhill": {
+     "노동전선 (Labour Front)": 1
+    },
+    "cfarrerpark": {
+     "노동전선 (Labour Front)": 1
+    },
+    "ckampongkapor": {
+     "노동전선 (Labour Front)": 1
+    },
+    "crochore": {
+     "노동전선 (Labour Front)": 1
+    },
+    "culubedok": {
+     "통일말레이국민기구 (UMNO)": 1
+    },
+    "cchangi": {
+     "민주당 (Democratic Party)": 1
+    },
+    "csouthernislands": {
+     "싱가포르 말레이 연합 (SMU)": 1
+    }
+   }
+  }
+ ]
+}

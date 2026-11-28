@@ -1,0 +1,407 @@
+{
+ "id": "sg-ge-1968",
+ "name": "싱가포르 총선 1968",
+ "subtitle": "의회 58석 · 과반 30 · 소선거구",
+ "tag": "SINGAPORE 1968 · GENERAL ELECTION",
+ "menuCountry": "싱가포르",
+ "menuGroup": "싱가포르 총선",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1968",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 593.0,
+ "regions": {
+  "SG": "싱가포르"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1968",
+   "sub": "선거구 58개",
+   "regions": [
+    "SG"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    593.0
+   ],
+   "big": true
+  }
+ ],
+ "parties": [
+  {
+   "name": "인민행동당 (PAP)",
+   "color": "#1f56a8"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "cchuachukang": 1,
+  "cbukitpanjang": 1,
+  "cbukittimah": 1,
+  "cjurong": 1,
+  "csembawang": 1,
+  "cneesoon": 1,
+  "cpasirpanjang": 1,
+  "culupandan": 1,
+  "ctanglin": 1,
+  "ccairnhill": 1,
+  "crivervalley": 1,
+  "cbukithoswee": 1,
+  "cdelta": 1,
+  "calexandra": 1,
+  "cqueenstown": 1,
+  "cbukitmerah": 1,
+  "ctelokblangah": 1,
+  "csepoylines": 1,
+  "ctiongbahru": 1,
+  "cfarrerpark": 1,
+  "cmoulmein": 1,
+  "ckallang": 1,
+  "cwhampoa": 1,
+  "ctoapayoh": 1,
+  "cmcpherson": 1,
+  "caljunied": 1,
+  "cpotongpasir": 1,
+  "cgeylangeast": 1,
+  "cgeylangwest": 1,
+  "cjalanbesar": 1,
+  "cmountbatten": 1,
+  "ckatong": 1,
+  "cjoochiat": 1,
+  "cgeylangserai": 1,
+  "ckampongubi": 1,
+  "ckampongkembangan": 1,
+  "csiglap": 1,
+  "cchangi": 1,
+  "cthomson": 1,
+  "cpayalebar": 1,
+  "cupperserangoon": 1,
+  "cserangoongardens": 1,
+  "cjalankayu": 1,
+  "ckampongchaichee": 1,
+  "ctampines": 1,
+  "cpunggol": 1,
+  "canson": 1,
+  "ctanjongpagar": 1,
+  "ckretaayer": 1,
+  "ctelokayer": 1,
+  "chonglim": 1,
+  "cstamford": 1,
+  "chavelock": 1,
+  "cbrasbasah": 1,
+  "ckampongglam": 1,
+  "ccrawford": 1,
+  "crochore": 1,
+  "ckampongkapor": 1
+ },
+ "names": {
+  "cchuachukang": "Chua Chu Kang",
+  "cbukitpanjang": "Bukit Panjang",
+  "cbukittimah": "Bukit Timah",
+  "cjurong": "Jurong",
+  "csembawang": "Sembawang",
+  "cneesoon": "Nee Soon",
+  "cpasirpanjang": "Pasir Panjang",
+  "culupandan": "Ulu Pandan",
+  "ctanglin": "Tanglin",
+  "ccairnhill": "Cairnhill",
+  "crivervalley": "River Valley",
+  "cbukithoswee": "Bukit Ho Swee",
+  "cdelta": "Delta",
+  "calexandra": "Alexandra",
+  "cqueenstown": "Queenstown",
+  "cbukitmerah": "Bukit Merah",
+  "ctelokblangah": "Telok Blangah",
+  "csepoylines": "Sepoy Lines",
+  "ctiongbahru": "Tiong Bahru",
+  "cfarrerpark": "Farrer Park",
+  "cmoulmein": "Moulmein",
+  "ckallang": "Kallang",
+  "cwhampoa": "Whampoa",
+  "ctoapayoh": "Toa Payoh",
+  "cmcpherson": "McPherson",
+  "caljunied": "Aljunied",
+  "cpotongpasir": "Potong Pasir",
+  "cgeylangeast": "Geylang East",
+  "cgeylangwest": "Geylang West",
+  "cjalanbesar": "Jalan Besar",
+  "cmountbatten": "Mountbatten",
+  "ckatong": "Katong",
+  "cjoochiat": "Joo Chiat",
+  "cgeylangserai": "Geylang Serai",
+  "ckampongubi": "Kampong Ubi",
+  "ckampongkembangan": "Kampong Kembangan",
+  "csiglap": "Siglap",
+  "cchangi": "Changi",
+  "cthomson": "Thomson",
+  "cpayalebar": "Paya Lebar",
+  "cupperserangoon": "Upper Serangoon",
+  "cserangoongardens": "Serangoon Gardens",
+  "cjalankayu": "Jalan Kayu",
+  "ckampongchaichee": "Kampong Chai Chee",
+  "ctampines": "Tampines",
+  "cpunggol": "Punggol",
+  "canson": "Anson",
+  "ctanjongpagar": "Tanjong Pagar",
+  "ckretaayer": "Kreta Ayer",
+  "ctelokayer": "Telok Ayer",
+  "chonglim": "Hong Lim",
+  "cstamford": "Stamford",
+  "chavelock": "Havelock",
+  "cbrasbasah": "Bras Basah",
+  "ckampongglam": "Kampong Glam",
+  "ccrawford": "Crawford",
+  "crochore": "Rochore",
+  "ckampongkapor": "Kampong Kapor"
+ },
+ "regionOf": {
+  "cchuachukang": "SG",
+  "cbukitpanjang": "SG",
+  "cbukittimah": "SG",
+  "cjurong": "SG",
+  "csembawang": "SG",
+  "cneesoon": "SG",
+  "cpasirpanjang": "SG",
+  "culupandan": "SG",
+  "ctanglin": "SG",
+  "ccairnhill": "SG",
+  "crivervalley": "SG",
+  "cbukithoswee": "SG",
+  "cdelta": "SG",
+  "calexandra": "SG",
+  "cqueenstown": "SG",
+  "cbukitmerah": "SG",
+  "ctelokblangah": "SG",
+  "csepoylines": "SG",
+  "ctiongbahru": "SG",
+  "cfarrerpark": "SG",
+  "cmoulmein": "SG",
+  "ckallang": "SG",
+  "cwhampoa": "SG",
+  "ctoapayoh": "SG",
+  "cmcpherson": "SG",
+  "caljunied": "SG",
+  "cpotongpasir": "SG",
+  "cgeylangeast": "SG",
+  "cgeylangwest": "SG",
+  "cjalanbesar": "SG",
+  "cmountbatten": "SG",
+  "ckatong": "SG",
+  "cjoochiat": "SG",
+  "cgeylangserai": "SG",
+  "ckampongubi": "SG",
+  "ckampongkembangan": "SG",
+  "csiglap": "SG",
+  "cchangi": "SG",
+  "cthomson": "SG",
+  "cpayalebar": "SG",
+  "cupperserangoon": "SG",
+  "cserangoongardens": "SG",
+  "cjalankayu": "SG",
+  "ckampongchaichee": "SG",
+  "ctampines": "SG",
+  "cpunggol": "SG",
+  "canson": "SG",
+  "ctanjongpagar": "SG",
+  "ckretaayer": "SG",
+  "ctelokayer": "SG",
+  "chonglim": "SG",
+  "cstamford": "SG",
+  "chavelock": "SG",
+  "cbrasbasah": "SG",
+  "ckampongglam": "SG",
+  "ccrawford": "SG",
+  "crochore": "SG",
+  "ckampongkapor": "SG"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "cchuachukang": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbukitpanjang": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbukittimah": {
+     "인민행동당 (PAP)": 1
+    },
+    "cjurong": {
+     "인민행동당 (PAP)": 1
+    },
+    "csembawang": {
+     "인민행동당 (PAP)": 1
+    },
+    "cneesoon": {
+     "인민행동당 (PAP)": 1
+    },
+    "cpasirpanjang": {
+     "인민행동당 (PAP)": 1
+    },
+    "culupandan": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctanglin": {
+     "인민행동당 (PAP)": 1
+    },
+    "ccairnhill": {
+     "인민행동당 (PAP)": 1
+    },
+    "crivervalley": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbukithoswee": {
+     "인민행동당 (PAP)": 1
+    },
+    "cdelta": {
+     "인민행동당 (PAP)": 1
+    },
+    "calexandra": {
+     "인민행동당 (PAP)": 1
+    },
+    "cqueenstown": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbukitmerah": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctelokblangah": {
+     "인민행동당 (PAP)": 1
+    },
+    "csepoylines": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctiongbahru": {
+     "인민행동당 (PAP)": 1
+    },
+    "cfarrerpark": {
+     "인민행동당 (PAP)": 1
+    },
+    "cmoulmein": {
+     "인민행동당 (PAP)": 1
+    },
+    "ckallang": {
+     "인민행동당 (PAP)": 1
+    },
+    "cwhampoa": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctoapayoh": {
+     "인민행동당 (PAP)": 1
+    },
+    "cmcpherson": {
+     "인민행동당 (PAP)": 1
+    },
+    "caljunied": {
+     "인민행동당 (PAP)": 1
+    },
+    "cpotongpasir": {
+     "인민행동당 (PAP)": 1
+    },
+    "cgeylangeast": {
+     "인민행동당 (PAP)": 1
+    },
+    "cgeylangwest": {
+     "인민행동당 (PAP)": 1
+    },
+    "cjalanbesar": {
+     "인민행동당 (PAP)": 1
+    },
+    "cmountbatten": {
+     "인민행동당 (PAP)": 1
+    },
+    "ckatong": {
+     "인민행동당 (PAP)": 1
+    },
+    "cjoochiat": {
+     "인민행동당 (PAP)": 1
+    },
+    "cgeylangserai": {
+     "인민행동당 (PAP)": 1
+    },
+    "ckampongubi": {
+     "인민행동당 (PAP)": 1
+    },
+    "ckampongkembangan": {
+     "인민행동당 (PAP)": 1
+    },
+    "csiglap": {
+     "인민행동당 (PAP)": 1
+    },
+    "cchangi": {
+     "인민행동당 (PAP)": 1
+    },
+    "cthomson": {
+     "인민행동당 (PAP)": 1
+    },
+    "cpayalebar": {
+     "인민행동당 (PAP)": 1
+    },
+    "cupperserangoon": {
+     "인민행동당 (PAP)": 1
+    },
+    "cserangoongardens": {
+     "인민행동당 (PAP)": 1
+    },
+    "cjalankayu": {
+     "인민행동당 (PAP)": 1
+    },
+    "ckampongchaichee": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctampines": {
+     "인민행동당 (PAP)": 1
+    },
+    "cpunggol": {
+     "인민행동당 (PAP)": 1
+    },
+    "canson": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctanjongpagar": {
+     "인민행동당 (PAP)": 1
+    },
+    "ckretaayer": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctelokayer": {
+     "인민행동당 (PAP)": 1
+    },
+    "chonglim": {
+     "인민행동당 (PAP)": 1
+    },
+    "cstamford": {
+     "인민행동당 (PAP)": 1
+    },
+    "chavelock": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbrasbasah": {
+     "인민행동당 (PAP)": 1
+    },
+    "ckampongglam": {
+     "인민행동당 (PAP)": 1
+    },
+    "ccrawford": {
+     "인민행동당 (PAP)": 1
+    },
+    "crochore": {
+     "인민행동당 (PAP)": 1
+    },
+    "ckampongkapor": {
+     "인민행동당 (PAP)": 1
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "ctampines": "원본 지도에 이름이 없는 구역이라 위치로 보고 넣었어요.",
+  "caljunied": "원본 지도에 이름이 없는 구역이라 위치로 보고 넣었어요."
+ }
+}

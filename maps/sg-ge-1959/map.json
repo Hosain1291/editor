@@ -1,0 +1,376 @@
+{
+ "id": "sg-ge-1959",
+ "name": "싱가포르 총선 1959",
+ "subtitle": "의회 51석 · 과반 26 · 소선거구",
+ "tag": "SINGAPORE 1959 · GENERAL ELECTION",
+ "menuCountry": "싱가포르",
+ "menuGroup": "싱가포르 총선",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1959",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 593.0,
+ "regions": {
+  "SG": "싱가포르"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1959",
+   "sub": "선거구 51개",
+   "regions": [
+    "SG"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    593.0
+   ],
+   "big": true
+  }
+ ],
+ "parties": [
+  {
+   "name": "인민행동당 (PAP)",
+   "color": "#1f56a8"
+  },
+  {
+   "name": "싱가포르 인민연맹 (SPA)",
+   "color": "#8e44ad"
+  },
+  {
+   "name": "UMNO–MCA 연합",
+   "color": "#b71c1c"
+  },
+  {
+   "name": "무소속",
+   "color": "#9e9e9e"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "csouthernislands": 1,
+  "cchuachukang": 1,
+  "cbukitpanjang": 1,
+  "cbukittimah": 1,
+  "cjurong": 1,
+  "csembawang": 1,
+  "cneesoon": 1,
+  "cpasirpanjang": 1,
+  "cqueenstown": 1,
+  "culupandan": 1,
+  "ctanglin": 1,
+  "ccairnhill": 1,
+  "crivervalley": 1,
+  "cdelta": 1,
+  "cbukitmerah": 1,
+  "ctelokblangah": 1,
+  "csepoylines": 1,
+  "ctiongbahru": 1,
+  "cfarrerpark": 1,
+  "cmoulmein": 1,
+  "ckallang": 1,
+  "ctoapayoh": 1,
+  "caljunied": 1,
+  "cgeylangeast": 1,
+  "cgeylangwest": 1,
+  "cjalanbesar": 1,
+  "cmountbatten": 1,
+  "cjoochiat": 1,
+  "cgeylangserai": 1,
+  "ckampongkembangan": 1,
+  "csiglap": 1,
+  "cchangi": 1,
+  "cthomson": 1,
+  "cpayalebar": 1,
+  "cupperserangoon": 1,
+  "cserangoongardens": 1,
+  "cjalankayu": 1,
+  "ctampines": 1,
+  "cpunggol": 1,
+  "canson": 1,
+  "ctanjongpagar": 1,
+  "ckretaayer": 1,
+  "ctelokayer": 1,
+  "chonglim": 1,
+  "cstamford": 1,
+  "chavelock": 1,
+  "cbrasbasah": 1,
+  "ckampongglam": 1,
+  "ccrawford": 1,
+  "crochore": 1,
+  "ckampongkapor": 1
+ },
+ "names": {
+  "csouthernislands": "Southern Islands",
+  "cchuachukang": "Chua Chu Kang",
+  "cbukitpanjang": "Bukit Panjang",
+  "cbukittimah": "Bukit Timah",
+  "cjurong": "Jurong",
+  "csembawang": "Sembawang",
+  "cneesoon": "Nee Soon",
+  "cpasirpanjang": "Pasir Panjang",
+  "cqueenstown": "Queenstown",
+  "culupandan": "Ulu Pandan",
+  "ctanglin": "Tanglin",
+  "ccairnhill": "Cairnhill",
+  "crivervalley": "River Valley",
+  "cdelta": "Delta",
+  "cbukitmerah": "Bukit Merah",
+  "ctelokblangah": "Telok Blangah",
+  "csepoylines": "Sepoy Lines",
+  "ctiongbahru": "Tiong Bahru",
+  "cfarrerpark": "Farrer Park",
+  "cmoulmein": "Moulmein",
+  "ckallang": "Kallang",
+  "ctoapayoh": "Toa Payoh",
+  "caljunied": "Aljunied",
+  "cgeylangeast": "Geylang East",
+  "cgeylangwest": "Geylang West",
+  "cjalanbesar": "Jalan Besar",
+  "cmountbatten": "Mountbatten",
+  "cjoochiat": "Joo Chiat",
+  "cgeylangserai": "Geylang Serai",
+  "ckampongkembangan": "Kampong Kembangan",
+  "csiglap": "Siglap",
+  "cchangi": "Changi",
+  "cthomson": "Thomson",
+  "cpayalebar": "Paya Lebar",
+  "cupperserangoon": "Upper Serangoon",
+  "cserangoongardens": "Serangoon Gardens",
+  "cjalankayu": "Jalan Kayu",
+  "ctampines": "Tampines",
+  "cpunggol": "Punggol",
+  "canson": "Anson",
+  "ctanjongpagar": "Tanjong Pagar",
+  "ckretaayer": "Kreta Ayer",
+  "ctelokayer": "Telok Ayer",
+  "chonglim": "Hong Lim",
+  "cstamford": "Stamford",
+  "chavelock": "Havelock",
+  "cbrasbasah": "Bras Basah",
+  "ckampongglam": "Kampong Glam",
+  "ccrawford": "Crawford",
+  "crochore": "Rochore",
+  "ckampongkapor": "Kampong Kapor"
+ },
+ "regionOf": {
+  "csouthernislands": "SG",
+  "cchuachukang": "SG",
+  "cbukitpanjang": "SG",
+  "cbukittimah": "SG",
+  "cjurong": "SG",
+  "csembawang": "SG",
+  "cneesoon": "SG",
+  "cpasirpanjang": "SG",
+  "cqueenstown": "SG",
+  "culupandan": "SG",
+  "ctanglin": "SG",
+  "ccairnhill": "SG",
+  "crivervalley": "SG",
+  "cdelta": "SG",
+  "cbukitmerah": "SG",
+  "ctelokblangah": "SG",
+  "csepoylines": "SG",
+  "ctiongbahru": "SG",
+  "cfarrerpark": "SG",
+  "cmoulmein": "SG",
+  "ckallang": "SG",
+  "ctoapayoh": "SG",
+  "caljunied": "SG",
+  "cgeylangeast": "SG",
+  "cgeylangwest": "SG",
+  "cjalanbesar": "SG",
+  "cmountbatten": "SG",
+  "cjoochiat": "SG",
+  "cgeylangserai": "SG",
+  "ckampongkembangan": "SG",
+  "csiglap": "SG",
+  "cchangi": "SG",
+  "cthomson": "SG",
+  "cpayalebar": "SG",
+  "cupperserangoon": "SG",
+  "cserangoongardens": "SG",
+  "cjalankayu": "SG",
+  "ctampines": "SG",
+  "cpunggol": "SG",
+  "canson": "SG",
+  "ctanjongpagar": "SG",
+  "ckretaayer": "SG",
+  "ctelokayer": "SG",
+  "chonglim": "SG",
+  "cstamford": "SG",
+  "chavelock": "SG",
+  "cbrasbasah": "SG",
+  "ckampongglam": "SG",
+  "ccrawford": "SG",
+  "crochore": "SG",
+  "ckampongkapor": "SG"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "csouthernislands": {
+     "UMNO–MCA 연합": 1
+    },
+    "cchuachukang": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbukitpanjang": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbukittimah": {
+     "인민행동당 (PAP)": 1
+    },
+    "cjurong": {
+     "인민행동당 (PAP)": 1
+    },
+    "csembawang": {
+     "무소속": 1
+    },
+    "cneesoon": {
+     "인민행동당 (PAP)": 1
+    },
+    "cpasirpanjang": {
+     "인민행동당 (PAP)": 1
+    },
+    "cqueenstown": {
+     "인민행동당 (PAP)": 1
+    },
+    "culupandan": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctanglin": {
+     "싱가포르 인민연맹 (SPA)": 1
+    },
+    "ccairnhill": {
+     "싱가포르 인민연맹 (SPA)": 1
+    },
+    "crivervalley": {
+     "인민행동당 (PAP)": 1
+    },
+    "cdelta": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbukitmerah": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctelokblangah": {
+     "인민행동당 (PAP)": 1
+    },
+    "csepoylines": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctiongbahru": {
+     "인민행동당 (PAP)": 1
+    },
+    "cfarrerpark": {
+     "인민행동당 (PAP)": 1
+    },
+    "cmoulmein": {
+     "인민행동당 (PAP)": 1
+    },
+    "ckallang": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctoapayoh": {
+     "인민행동당 (PAP)": 1
+    },
+    "caljunied": {
+     "인민행동당 (PAP)": 1
+    },
+    "cgeylangeast": {
+     "인민행동당 (PAP)": 1
+    },
+    "cgeylangwest": {
+     "인민행동당 (PAP)": 1
+    },
+    "cjalanbesar": {
+     "인민행동당 (PAP)": 1
+    },
+    "cmountbatten": {
+     "싱가포르 인민연맹 (SPA)": 1
+    },
+    "cjoochiat": {
+     "싱가포르 인민연맹 (SPA)": 1
+    },
+    "cgeylangserai": {
+     "UMNO–MCA 연합": 1
+    },
+    "ckampongkembangan": {
+     "UMNO–MCA 연합": 1
+    },
+    "csiglap": {
+     "인민행동당 (PAP)": 1
+    },
+    "cchangi": {
+     "인민행동당 (PAP)": 1
+    },
+    "cthomson": {
+     "인민행동당 (PAP)": 1
+    },
+    "cpayalebar": {
+     "인민행동당 (PAP)": 1
+    },
+    "cupperserangoon": {
+     "인민행동당 (PAP)": 1
+    },
+    "cserangoongardens": {
+     "인민행동당 (PAP)": 1
+    },
+    "cjalankayu": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctampines": {
+     "인민행동당 (PAP)": 1
+    },
+    "cpunggol": {
+     "인민행동당 (PAP)": 1
+    },
+    "canson": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctanjongpagar": {
+     "인민행동당 (PAP)": 1
+    },
+    "ckretaayer": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctelokayer": {
+     "인민행동당 (PAP)": 1
+    },
+    "chonglim": {
+     "인민행동당 (PAP)": 1
+    },
+    "cstamford": {
+     "인민행동당 (PAP)": 1
+    },
+    "chavelock": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbrasbasah": {
+     "인민행동당 (PAP)": 1
+    },
+    "ckampongglam": {
+     "인민행동당 (PAP)": 1
+    },
+    "ccrawford": {
+     "인민행동당 (PAP)": 1
+    },
+    "crochore": {
+     "인민행동당 (PAP)": 1
+    },
+    "ckampongkapor": {
+     "인민행동당 (PAP)": 1
+    }
+   }
+  }
+ ],
+ "seatNotes": {
+  "csembawang": "원본 지도에는 PAP 색이지만, 실제 당선자 아마드 이브라힘은 무소속으로 당선됐어요 (뒤에 PAP 입당)."
+ }
+}

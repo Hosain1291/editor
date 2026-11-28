@@ -1,0 +1,279 @@
+{
+ "id": "sg-ge-1991",
+ "name": "싱가포르 총선 1991",
+ "subtitle": "의회 81석 · 과반 41 · 소선거구(SMC)·집단대표선거구(GRC)",
+ "tag": "SINGAPORE 1991 · GENERAL ELECTION",
+ "menuCountry": "싱가포르",
+ "menuGroup": "싱가포르 총선",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1991",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 651.8,
+ "regions": {
+  "SG": "싱가포르"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1991",
+   "sub": "선거구 36개",
+   "regions": [
+    "SG"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    651.8
+   ],
+   "big": true
+  }
+ ],
+ "parties": [
+  {
+   "name": "인민행동당 (PAP)",
+   "color": "#1f56a8"
+  },
+  {
+   "name": "싱가포르 민주당 (SDP)",
+   "color": "#e4007c"
+  },
+  {
+   "name": "노동자당 (WP)",
+   "color": "#d71920"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "cboonlaysmc": 1,
+  "chongkahgrc": 4,
+  "cchuachukangsmc": 1,
+  "cbukitgombaksmc": 1,
+  "cbukitbatoksmc": 1,
+  "cyuhuasmc": 1,
+  "cbukittimahsmc": 1,
+  "cayerrajahsmc": 1,
+  "cbrickworksgrc": 4,
+  "culupandansmc": 1,
+  "cbuonavistasmc": 1,
+  "clengkeesmc": 1,
+  "cbukitmerahsmc": 1,
+  "csembawanggrc": 4,
+  "cneesooncentralsmc": 1,
+  "ctanglinsmc": 1,
+  "cangmokiogrc": 4,
+  "cthomsongrc": 4,
+  "cchengsangrc": 4,
+  "cneesoonsouthsmc": 1,
+  "ctoapayohgrc": 4,
+  "cbraddellheightssmc": 1,
+  "cpotongpasirsmc": 1,
+  "ckampongglamgrc": 4,
+  "chougangsmc": 1,
+  "cjalanbesargrc": 4,
+  "ctanjongpagargrc": 4,
+  "ckretaayersmc": 1,
+  "cmountbattensmc": 1,
+  "ctampinesgrc": 4,
+  "cmarineparadegrc": 4,
+  "cbedokgrc": 4,
+  "cchangismc": 1,
+  "ceunosgrc": 4,
+  "caljuniedgrc": 4,
+  "cjurongsmc": 1
+ },
+ "names": {
+  "cboonlaysmc": "Boon Lay SMC",
+  "chongkahgrc": "Hong Kah GRC",
+  "cchuachukangsmc": "Chua Chu Kang SMC",
+  "cbukitgombaksmc": "Bukit Gombak SMC",
+  "cbukitbatoksmc": "Bukit Batok SMC",
+  "cyuhuasmc": "Yuhua SMC",
+  "cbukittimahsmc": "Bukit Timah SMC",
+  "cayerrajahsmc": "Ayer Rajah SMC",
+  "cbrickworksgrc": "Brickworks GRC",
+  "culupandansmc": "Ulu Pandan SMC",
+  "cbuonavistasmc": "Buona Vista SMC",
+  "clengkeesmc": "Leng Kee SMC",
+  "cbukitmerahsmc": "Bukit Merah SMC",
+  "csembawanggrc": "Sembawang GRC",
+  "cneesooncentralsmc": "Nee Soon Central SMC",
+  "ctanglinsmc": "Tanglin SMC",
+  "cangmokiogrc": "Ang Mo Kio GRC",
+  "cthomsongrc": "Thomson GRC",
+  "cchengsangrc": "Cheng San GRC",
+  "cneesoonsouthsmc": "Nee Soon South SMC",
+  "ctoapayohgrc": "Toa Payoh GRC",
+  "cbraddellheightssmc": "Braddell Heights SMC",
+  "cpotongpasirsmc": "Potong Pasir SMC",
+  "ckampongglamgrc": "Kampong Glam GRC",
+  "chougangsmc": "Hougang SMC",
+  "cjalanbesargrc": "Jalan Besar GRC",
+  "ctanjongpagargrc": "Tanjong Pagar GRC",
+  "ckretaayersmc": "Kreta Ayer SMC",
+  "cmountbattensmc": "Mountbatten SMC",
+  "ctampinesgrc": "Tampines GRC",
+  "cmarineparadegrc": "Marine Parade GRC",
+  "cbedokgrc": "Bedok GRC",
+  "cchangismc": "Changi SMC",
+  "ceunosgrc": "Eunos GRC",
+  "caljuniedgrc": "Aljunied GRC",
+  "cjurongsmc": "Jurong SMC"
+ },
+ "regionOf": {
+  "cboonlaysmc": "SG",
+  "chongkahgrc": "SG",
+  "cchuachukangsmc": "SG",
+  "cbukitgombaksmc": "SG",
+  "cbukitbatoksmc": "SG",
+  "cyuhuasmc": "SG",
+  "cbukittimahsmc": "SG",
+  "cayerrajahsmc": "SG",
+  "cbrickworksgrc": "SG",
+  "culupandansmc": "SG",
+  "cbuonavistasmc": "SG",
+  "clengkeesmc": "SG",
+  "cbukitmerahsmc": "SG",
+  "csembawanggrc": "SG",
+  "cneesooncentralsmc": "SG",
+  "ctanglinsmc": "SG",
+  "cangmokiogrc": "SG",
+  "cthomsongrc": "SG",
+  "cchengsangrc": "SG",
+  "cneesoonsouthsmc": "SG",
+  "ctoapayohgrc": "SG",
+  "cbraddellheightssmc": "SG",
+  "cpotongpasirsmc": "SG",
+  "ckampongglamgrc": "SG",
+  "chougangsmc": "SG",
+  "cjalanbesargrc": "SG",
+  "ctanjongpagargrc": "SG",
+  "ckretaayersmc": "SG",
+  "cmountbattensmc": "SG",
+  "ctampinesgrc": "SG",
+  "cmarineparadegrc": "SG",
+  "cbedokgrc": "SG",
+  "cchangismc": "SG",
+  "ceunosgrc": "SG",
+  "caljuniedgrc": "SG",
+  "cjurongsmc": "SG"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "cboonlaysmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "chongkahgrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "cchuachukangsmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbukitgombaksmc": {
+     "싱가포르 민주당 (SDP)": 1
+    },
+    "cbukitbatoksmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cyuhuasmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbukittimahsmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cayerrajahsmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbrickworksgrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "culupandansmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbuonavistasmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "clengkeesmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbukitmerahsmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "csembawanggrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "cneesooncentralsmc": {
+     "싱가포르 민주당 (SDP)": 1
+    },
+    "ctanglinsmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cangmokiogrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "cthomsongrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "cchengsangrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "cneesoonsouthsmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctoapayohgrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "cbraddellheightssmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cpotongpasirsmc": {
+     "싱가포르 민주당 (SDP)": 1
+    },
+    "ckampongglamgrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "chougangsmc": {
+     "노동자당 (WP)": 1
+    },
+    "cjalanbesargrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "ctanjongpagargrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "ckretaayersmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cmountbattensmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctampinesgrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "cmarineparadegrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "cbedokgrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "cchangismc": {
+     "인민행동당 (PAP)": 1
+    },
+    "ceunosgrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "caljuniedgrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "cjurongsmc": {
+     "인민행동당 (PAP)": 1
+    }
+   }
+  }
+ ]
+}

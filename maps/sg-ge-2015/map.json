@@ -1,0 +1,233 @@
+{
+ "id": "sg-ge-2015",
+ "name": "싱가포르 총선 2015",
+ "subtitle": "의회 89석 · 과반 45 · 소선거구(SMC)·집단대표선거구(GRC)",
+ "tag": "SINGAPORE 2015 · GENERAL ELECTION",
+ "menuCountry": "싱가포르",
+ "menuGroup": "싱가포르 총선",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "2015",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 603.4,
+ "regions": {
+  "SG": "싱가포르"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "2015",
+   "sub": "선거구 29개",
+   "regions": [
+    "SG"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    603.4
+   ],
+   "big": true
+  }
+ ],
+ "parties": [
+  {
+   "name": "인민행동당 (PAP)",
+   "color": "#1f56a8"
+  },
+  {
+   "name": "노동자당 (WP)",
+   "color": "#d71920"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "cchuachukang": 4,
+  "cpotongpasir": 1,
+  "chongkahnorth": 1,
+  "cmarsilingyewtee": 4,
+  "cmarineparade": 5,
+  "cbishantoapayoh": 5,
+  "csengkangwest": 1,
+  "cangmokio": 6,
+  "cjurong": 5,
+  "chollandbukittimah": 4,
+  "cneesoon": 5,
+  "cmacpherson": 1,
+  "cmountbatten": 1,
+  "cjalanbesar": 4,
+  "csembawang": 5,
+  "cpasirrispunggol": 6,
+  "cwestcoast": 4,
+  "cpioneer": 1,
+  "cfengshan": 1,
+  "chougang": 1,
+  "cyuhua": 1,
+  "cbukitbatok": 1,
+  "cpunggoleast": 1,
+  "ctanjongpagar": 5,
+  "caljunied": 5,
+  "cbukitpanjang": 1,
+  "ceastcoast": 4,
+  "cradinmas": 1,
+  "ctampines": 5
+ },
+ "names": {
+  "cchuachukang": "Chua Chu Kang",
+  "cpotongpasir": "Potong Pasir",
+  "chongkahnorth": "Hong Kah North",
+  "cmarsilingyewtee": "Marsiling-Yew Tee",
+  "cmarineparade": "Marine Parade",
+  "cbishantoapayoh": "Bishan-Toa Payoh",
+  "csengkangwest": "Sengkang West",
+  "cangmokio": "Ang Mo Kio",
+  "cjurong": "Jurong",
+  "chollandbukittimah": "Holland-Bukit Timah",
+  "cneesoon": "Nee Soon",
+  "cmacpherson": "MacPherson",
+  "cmountbatten": "Mountbatten",
+  "cjalanbesar": "Jalan Besar",
+  "csembawang": "Sembawang",
+  "cpasirrispunggol": "Pasir Ris-Punggol",
+  "cwestcoast": "West Coast",
+  "cpioneer": "Pioneer",
+  "cfengshan": "Fengshan",
+  "chougang": "Hougang",
+  "cyuhua": "Yuhua",
+  "cbukitbatok": "Bukit Batok",
+  "cpunggoleast": "Punggol East",
+  "ctanjongpagar": "Tanjong Pagar",
+  "caljunied": "Aljunied",
+  "cbukitpanjang": "Bukit Panjang",
+  "ceastcoast": "East Coast",
+  "cradinmas": "Radin Mas",
+  "ctampines": "Tampines"
+ },
+ "regionOf": {
+  "cchuachukang": "SG",
+  "cpotongpasir": "SG",
+  "chongkahnorth": "SG",
+  "cmarsilingyewtee": "SG",
+  "cmarineparade": "SG",
+  "cbishantoapayoh": "SG",
+  "csengkangwest": "SG",
+  "cangmokio": "SG",
+  "cjurong": "SG",
+  "chollandbukittimah": "SG",
+  "cneesoon": "SG",
+  "cmacpherson": "SG",
+  "cmountbatten": "SG",
+  "cjalanbesar": "SG",
+  "csembawang": "SG",
+  "cpasirrispunggol": "SG",
+  "cwestcoast": "SG",
+  "cpioneer": "SG",
+  "cfengshan": "SG",
+  "chougang": "SG",
+  "cyuhua": "SG",
+  "cbukitbatok": "SG",
+  "cpunggoleast": "SG",
+  "ctanjongpagar": "SG",
+  "caljunied": "SG",
+  "cbukitpanjang": "SG",
+  "ceastcoast": "SG",
+  "cradinmas": "SG",
+  "ctampines": "SG"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "cchuachukang": {
+     "인민행동당 (PAP)": 4
+    },
+    "cpotongpasir": {
+     "인민행동당 (PAP)": 1
+    },
+    "chongkahnorth": {
+     "인민행동당 (PAP)": 1
+    },
+    "cmarsilingyewtee": {
+     "인민행동당 (PAP)": 4
+    },
+    "cmarineparade": {
+     "인민행동당 (PAP)": 5
+    },
+    "cbishantoapayoh": {
+     "인민행동당 (PAP)": 5
+    },
+    "csengkangwest": {
+     "인민행동당 (PAP)": 1
+    },
+    "cangmokio": {
+     "인민행동당 (PAP)": 6
+    },
+    "cjurong": {
+     "인민행동당 (PAP)": 5
+    },
+    "chollandbukittimah": {
+     "인민행동당 (PAP)": 4
+    },
+    "cneesoon": {
+     "인민행동당 (PAP)": 5
+    },
+    "cmacpherson": {
+     "인민행동당 (PAP)": 1
+    },
+    "cmountbatten": {
+     "인민행동당 (PAP)": 1
+    },
+    "cjalanbesar": {
+     "인민행동당 (PAP)": 4
+    },
+    "csembawang": {
+     "인민행동당 (PAP)": 5
+    },
+    "cpasirrispunggol": {
+     "인민행동당 (PAP)": 6
+    },
+    "cwestcoast": {
+     "인민행동당 (PAP)": 4
+    },
+    "cpioneer": {
+     "인민행동당 (PAP)": 1
+    },
+    "cfengshan": {
+     "인민행동당 (PAP)": 1
+    },
+    "chougang": {
+     "노동자당 (WP)": 1
+    },
+    "cyuhua": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbukitbatok": {
+     "인민행동당 (PAP)": 1
+    },
+    "cpunggoleast": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctanjongpagar": {
+     "인민행동당 (PAP)": 5
+    },
+    "caljunied": {
+     "노동자당 (WP)": 5
+    },
+    "cbukitpanjang": {
+     "인민행동당 (PAP)": 1
+    },
+    "ceastcoast": {
+     "인민행동당 (PAP)": 4
+    },
+    "cradinmas": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctampines": {
+     "인민행동당 (PAP)": 5
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,207 @@
+{
+ "id": "sg-ge-1997",
+ "name": "싱가포르 총선 1997",
+ "subtitle": "의회 83석 · 과반 42 · 소선거구(SMC)·집단대표선거구(GRC)",
+ "tag": "SINGAPORE 1997 · GENERAL ELECTION",
+ "menuCountry": "싱가포르",
+ "menuGroup": "싱가포르 총선",
+ "menuLabel": "연도를 고르세요",
+ "cardName": "1997",
+ "svg": "map.svg",
+ "width": 1000,
+ "height": 672.0,
+ "regions": {
+  "SG": "싱가포르"
+ },
+ "regionAlias": {},
+ "views": [
+  {
+   "key": "all",
+   "name": "1997",
+   "sub": "선거구 24개",
+   "regions": [
+    "SG"
+   ],
+   "box": [
+    0,
+    0,
+    1000,
+    672.0
+   ],
+   "big": true
+  }
+ ],
+ "parties": [
+  {
+   "name": "인민행동당 (PAP)",
+   "color": "#1f56a8"
+  },
+  {
+   "name": "싱가포르 인민당 (SPP)",
+   "color": "#7b2d8e"
+  },
+  {
+   "name": "노동자당 (WP)",
+   "color": "#d71920"
+  }
+ ],
+ "defaultSeats": 1,
+ "hideSeatOne": true,
+ "seats": {
+  "cwestcoastgrc": 4,
+  "cbukittimahgrc": 5,
+  "cayerrajahsmc": 1,
+  "cboonlaysmc": 1,
+  "chongkahgrc": 5,
+  "cchuachukangsmc": 1,
+  "cbukitgombaksmc": 1,
+  "ctanjongpagargrc": 6,
+  "csembawanggrc": 6,
+  "cneesooncentralsmc": 1,
+  "cbishantoapayohgrc": 5,
+  "ckretaayertanglingrc": 4,
+  "cangmokiogrc": 5,
+  "ckampongglamsmc": 1,
+  "cjalanbesargrc": 4,
+  "cpotongpasirsmc": 1,
+  "cmacphersonsmc": 1,
+  "cmarineparadegrc": 6,
+  "cchengsangrc": 5,
+  "chougangsmc": 1,
+  "cpasirrisgrc": 4,
+  "ctampinesgrc": 4,
+  "caljuniedgrc": 5,
+  "ceastcoastgrc": 6
+ },
+ "names": {
+  "cwestcoastgrc": "West Coast GRC",
+  "cbukittimahgrc": "Bukit Timah GRC",
+  "cayerrajahsmc": "Ayer Rajah SMC",
+  "cboonlaysmc": "Boon Lay SMC",
+  "chongkahgrc": "Hong Kah GRC",
+  "cchuachukangsmc": "Chua Chu Kang SMC",
+  "cbukitgombaksmc": "Bukit Gombak SMC",
+  "ctanjongpagargrc": "Tanjong Pagar GRC",
+  "csembawanggrc": "Sembawang GRC",
+  "cneesooncentralsmc": "Nee Soon Central SMC",
+  "cbishantoapayohgrc": "Bishan-Toa Payoh GRC",
+  "ckretaayertanglingrc": "Kreta Ayer-Tanglin GRC",
+  "cangmokiogrc": "Ang Mo Kio GRC",
+  "ckampongglamsmc": "Kampong Glam SMC",
+  "cjalanbesargrc": "Jalan Besar GRC",
+  "cpotongpasirsmc": "Potong Pasir SMC",
+  "cmacphersonsmc": "MacPherson SMC",
+  "cmarineparadegrc": "Marine Parade GRC",
+  "cchengsangrc": "Cheng San GRC",
+  "chougangsmc": "Hougang SMC",
+  "cpasirrisgrc": "Pasir Ris GRC",
+  "ctampinesgrc": "Tampines GRC",
+  "caljuniedgrc": "Aljunied GRC",
+  "ceastcoastgrc": "East Coast GRC"
+ },
+ "regionOf": {
+  "cwestcoastgrc": "SG",
+  "cbukittimahgrc": "SG",
+  "cayerrajahsmc": "SG",
+  "cboonlaysmc": "SG",
+  "chongkahgrc": "SG",
+  "cchuachukangsmc": "SG",
+  "cbukitgombaksmc": "SG",
+  "ctanjongpagargrc": "SG",
+  "csembawanggrc": "SG",
+  "cneesooncentralsmc": "SG",
+  "cbishantoapayohgrc": "SG",
+  "ckretaayertanglingrc": "SG",
+  "cangmokiogrc": "SG",
+  "ckampongglamsmc": "SG",
+  "cjalanbesargrc": "SG",
+  "cpotongpasirsmc": "SG",
+  "cmacphersonsmc": "SG",
+  "cmarineparadegrc": "SG",
+  "cchengsangrc": "SG",
+  "chougangsmc": "SG",
+  "cpasirrisgrc": "SG",
+  "ctampinesgrc": "SG",
+  "caljuniedgrc": "SG",
+  "ceastcoastgrc": "SG"
+ },
+ "presets": [
+  {
+   "name": "실제 결과",
+   "d": {
+    "cwestcoastgrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "cbukittimahgrc": {
+     "인민행동당 (PAP)": 5
+    },
+    "cayerrajahsmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cboonlaysmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "chongkahgrc": {
+     "인민행동당 (PAP)": 5
+    },
+    "cchuachukangsmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbukitgombaksmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "ctanjongpagargrc": {
+     "인민행동당 (PAP)": 6
+    },
+    "csembawanggrc": {
+     "인민행동당 (PAP)": 6
+    },
+    "cneesooncentralsmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cbishantoapayohgrc": {
+     "인민행동당 (PAP)": 5
+    },
+    "ckretaayertanglingrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "cangmokiogrc": {
+     "인민행동당 (PAP)": 5
+    },
+    "ckampongglamsmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cjalanbesargrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "cpotongpasirsmc": {
+     "싱가포르 인민당 (SPP)": 1
+    },
+    "cmacphersonsmc": {
+     "인민행동당 (PAP)": 1
+    },
+    "cmarineparadegrc": {
+     "인민행동당 (PAP)": 6
+    },
+    "cchengsangrc": {
+     "인민행동당 (PAP)": 5
+    },
+    "chougangsmc": {
+     "노동자당 (WP)": 1
+    },
+    "cpasirrisgrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "ctampinesgrc": {
+     "인민행동당 (PAP)": 4
+    },
+    "caljuniedgrc": {
+     "인민행동당 (PAP)": 5
+    },
+    "ceastcoastgrc": {
+     "인민행동당 (PAP)": 6
+    }
+   }
+  }
+ ]
+}
